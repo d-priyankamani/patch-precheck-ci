@@ -110,16 +110,16 @@ make test # Execute all tests
 
      **Test Options:**
 
-     | Test              | Description                       | Purpose                                |
-     |-------------------|-----------------------------------|----------------------------------------|
-     | check_licence     | Validate license headers          | Ensures proper licensing compliance    |
-     | build_oedefconfig | Build with openeuler_defconfig    | Production default config              |
-     | build_allmod      | Build with allmodconfig           | Compile with all modules enabled       |
-     | check_patch       | Run checkpatch.pl validation      | Verify coding style and patch format   |
-     | check_format      | Check code formatting             | Ensures code style consistency         |
-     | check_kabi        | Check KABI compatibility          | ABI compatibility checks               |
-     | rpm_build         | Build openEuler RPM packages      | RPMs for installation                  |
-     | boot_kernel       | Boot test (requires remote setup) | Install, boot, and verify kernel on VM |
+     | Test              | Description                       | Purpose                                    |
+     |-------------------|-----------------------------------|--------------------------------------------|
+     | check_licence     | Validate license headers          | Ensures proper licensing compliance        |
+     | check_dependency  | Verify required dependencies      | Ensures all bug-fix commits are backported |
+     | build_allmod      | Build with allmodconfig           | Compile with all modules enabled           |
+     | check_patch       | Run checkpatch.pl validation      | Verify coding style and patch format       |
+     | check_format      | Check code formatting             | Ensures code style consistency             |
+     | check_kabi        | Check KABI compatibility          | ABI compatibility checks                   |
+     | rpm_build         | Build openEuler RPM packages      | RPMs for installation                      |
+     | boot_kernel       | Boot test (requires remote setup) | Install, boot, and verify kernel on VM     |
 
      Enable: individual (e.g. 1,3,5), all, or none.
 

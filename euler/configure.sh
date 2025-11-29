@@ -83,7 +83,7 @@ echo "=== Test Configuration ==="
 echo ""
 echo "Available tests:"
 echo "  1) check_licence              - Validate license headers"
-echo "  2) build_oedefconfig          - Build with openeuler_defconfig"
+echo "  2) check_dependency           - Check dependent commits"
 echo "  3) build_allmod               - Build with allmodconfig"
 echo "  4) check_patch                - Run checkpatch.pl validation"
 echo "  5) check_format               - Check code formatting"
@@ -99,7 +99,7 @@ TEST_SELECTION="${test_selection:-all}"
 if [ "$TEST_SELECTION" == "all" ] || [ -z "$TEST_SELECTION" ]; then
   RUN_TESTS="yes"
   TEST_CHECK_LICENCE="yes"
-  TEST_BUILD_OEDEFCONFIG="yes"
+  TEST_CHECK_DEPENDENCY="yes"
   TEST_BUILD_ALLMOD="yes"
   TEST_CHECK_PATCH="yes"
   TEST_CHECK_FORMAT="yes"
@@ -109,7 +109,7 @@ if [ "$TEST_SELECTION" == "all" ] || [ -z "$TEST_SELECTION" ]; then
 elif [ "$TEST_SELECTION" == "none" ]; then
   RUN_TESTS="no"
   TEST_CHECK_LICENCE="no"
-  TEST_BUILD_OEDEFCONFIG="no"
+  TEST_CHECK_DEPENDENCY="no"
   TEST_BUILD_ALLMOD="no"
   TEST_CHECK_PATCH="no"
   TEST_CHECK_FORMAT="no"
@@ -119,7 +119,7 @@ elif [ "$TEST_SELECTION" == "none" ]; then
 else
   RUN_TESTS="yes"
   TEST_CHECK_LICENCE="no"
-  TEST_BUILD_OEDEFCONFIG="no"
+  TEST_CHECK_DEPENDENCY="no"
   TEST_BUILD_ALLMOD="no"
   TEST_CHECK_PATCH="no"
   TEST_CHECK_FORMAT="no"
@@ -132,7 +132,7 @@ else
   for test_num in "${SELECTED[@]}"; do
     case "${test_num// /}" in
       1) TEST_CHECK_LICENCE="yes" ;;
-      2) TEST_BUILD_OEDEFCONFIG="yes" ;;
+      2) TEST_CHECK_DEPENDENCY="yes" ;;
       3) TEST_BUILD_ALLMOD="yes" ;;
       4) TEST_CHECK_PATCH="yes" ;;
       5) TEST_CHECK_FORMAT="yes" ;;
@@ -187,7 +187,7 @@ BUILD_THREADS="${BUILD_THREADS}"
 # Test Configuration
 RUN_TESTS="${RUN_TESTS}"
 TEST_CHECK_LICENCE="${TEST_CHECK_LICENCE}"
-TEST_BUILD_OEDEFCONFIG="${TEST_BUILD_OEDEFCONFIG}"
+TEST_CHECK_DEPENDENCY="${TEST_CHECK_DEPENDENCY}"
 TEST_BUILD_ALLMOD="${TEST_BUILD_ALLMOD}"
 TEST_CHECK_PATCH="${TEST_CHECK_PATCH}"
 TEST_CHECK_FORMAT="${TEST_CHECK_FORMAT}"
