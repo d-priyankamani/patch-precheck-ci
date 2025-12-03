@@ -121,8 +121,66 @@ test_check_licence() {
 
 test_check_dependency() {
   echo -e "${BLUE}Test: check_dependency${NC}"
-  echo "  → Implementation coming soon..."
-  skip "check_dependency" "Not yet implemented"
+
+  cd "${LINUX_SRC_PATH}"
+
+  # Get list of applied commits (those that are ahead of the reset point)
+  local applied_commits=()
+  mapfile -t applied_commits < <(git log --format=%H HEAD | head -n "${NUM_PATCHES:-10}")
+
+  if [ ${#applied_commits[@]} -eq 0 ]; then
+    skip "check_dependency" "No commits to check"
+    echo ""
+    return
+  fi
+
+  echo "  → Checking ${#applied_commits[@]} commits for dependencies..."
+
+  local commits_file="${SCRIPT_DIR}/.commits.txt"
+  local dep_log="${LOGS_DIR}/check_dependency.log"
+  local checkdepend_script="${WORKDIR}/euler/checkdepend.py"
+
+  # Check if checkdepend.py exists
+  if [ ! -f "${checkdepend_script}" ]; then
+    fail "check_dependency" "checkdepend.py not found at ${checkdepend_script}"
+    echo ""
+    return
+  fi
+
+  # Extract upstream commit IDs and save to .commits.txt
+  > "${commits_file}"
+
+  for commit in "${applied_commits[@]}"; do
+    local commit_body=$(git log -1 --format=%B "${commit}")
+
+    # Extract upstream commit ID (full 40-char hash) from commit message
+    local upstream_commit=$(echo "${commit_body}" | grep -oP '(?<=^commit )[a-f0-9]{40}' | head -1)
+
+    if [ -n "${upstream_commit}" ]; then
+      # Save the full 40-character hash
+      echo "${upstream_commit}" >> "${commits_file}"
+    fi
+  done
+
+  # Check if we have any commits to check
+  local commit_count=$(wc -l < "${commits_file}")
+  if [ ${commit_count} -eq 0 ]; then
+    skip "check_dependency" "No upstream commit IDs found in patches"
+    echo ""
+    return
+  fi
+
+  if python3 "${checkdepend_script}" "${LINUX_SRC_PATH}" "${TORVALDS_REPO}" "${commits_file}" > "${dep_log}" 2>&1; then
+    # Check if there are any failures in the output
+    if grep -q "FAIL" "${dep_log}"; then
+      fail "check_dependency" "Some commits have unfixed dependencies (see ${dep_log})"
+    else
+      pass "check_dependency"
+    fi
+  else
+    fail "check_dependency" "checkdepend.py execution failed (see ${dep_log})"
+  fi
+
   echo ""
 }
 
