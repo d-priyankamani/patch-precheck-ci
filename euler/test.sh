@@ -388,15 +388,223 @@ test_check_format() {
 
 test_rpm_build() {
   echo -e "${BLUE}Test: rpm_build${NC}"
-  echo "  → Implementation coming soon..."
-  skip "rpm_build" "Not yet implemented"
+
+  cd "${LINUX_SRC_PATH}"
+
+  local rpm_log="${LOGS_DIR}/rpm_build.log"
+  local rpms_dir="$HOME/rpmbuild/RPMS/x86_64"
+
+  > "${rpm_log}"
+
+  echo "  → Cleaning source tree..." | tee -a "${rpm_log}"
+  if ! make distclean >> "${rpm_log}" 2>&1; then
+    fail "rpm_build" "Failed to clean source tree (see ${rpm_log})"
+    echo ""
+    return
+  fi
+
+  echo "  → Configuring kernel with openeuler_defconfig..." | tee -a "${rpm_log}"
+  if ! make openeuler_defconfig >> "${rpm_log}" 2>&1; then
+    fail "rpm_build" "Failed to configure kernel (see ${rpm_log})"
+    echo ""
+    return
+  fi
+
+  echo "  → Building RPM packages (this may take a while)..." | tee -a "${rpm_log}"
+  if ! make -j"${BUILD_THREADS}" rpm-pkg >> "${rpm_log}" 2>&1; then
+    fail "rpm_build" "Failed to build RPM packages (see ${rpm_log})"
+    echo ""
+    return
+  fi
+
+  # Check if RPMs were created
+  echo "  → Checking for generated RPMs..." >> "${rpm_log}"
+
+  if [ ! -d "${rpms_dir}" ]; then
+    fail "rpm_build" "RPMs directory not found: ${rpms_dir}"
+    echo ""
+    return
+  fi
+
+  # Find kernel and headers RPM
+  local kernel_rpm=$(find "${rpms_dir}" -name "kernel-[0-9]*.rpm" ! -name "*headers*" -type f | head -n 1)
+  local headers_rpm=$(find "${rpms_dir}" -name "kernel-headers-*.rpm" -type f | head -n 1)
+
+  local rpm_count=0
+
+  if [ -n "${kernel_rpm}" ]; then
+    echo "  → Found kernel RPM: $(basename ${kernel_rpm})" | tee -a "${rpm_log}"
+    rpm_count=$((rpm_count + 1))
+  else
+    echo "  → Kernel RPM not found" >> "${rpm_log}"
+  fi
+
+  if [ -n "${headers_rpm}" ]; then
+    echo "  → Found headers RPM: $(basename ${headers_rpm})" | tee -a "${rpm_log}"
+    rpm_count=$((rpm_count + 1))
+  else
+    echo "  → Headers RPM not found" >> "${rpm_log}"
+  fi
+
+  if [ ${rpm_count} -eq 2 ]; then
+    echo "  → RPM build location: ${rpms_dir}" | tee -a "${rpm_log}"
+    pass "rpm_build"
+  else
+    fail "rpm_build" "Expected 2 RPMs (kernel + headers), found ${rpm_count} (see ${rpm_log})"
+  fi
+
   echo ""
 }
 
 test_boot_kernel() {
   echo -e "${BLUE}Test: boot_kernel${NC}"
-  echo "  → Implementation coming soon..."
-  skip "boot_kernel" "Not yet implemented"
+
+  local rpms_dir="$HOME/rpmbuild/RPMS/x86_64"
+  local boot_log="${LOGS_DIR}/boot_kernel.log"
+
+  > "${boot_log}"
+
+  # Check if RPMs exist
+  if [ ! -d "${rpms_dir}" ]; then
+    fail "boot_kernel" "RPMs directory not found: ${rpms_dir}"
+    echo ""
+    return
+  fi
+
+  # Find kernel RPM (not headers)
+  local kernel_rpm=$(find "${rpms_dir}" -name "kernel-[0-9]*.rpm" ! -name "*headers*" ! -name "*debuginfo*" ! -name "*devel*" -type f | head -n 1)
+
+  if [ -z "${kernel_rpm}" ]; then
+    fail "boot_kernel" "Kernel RPM not found in ${rpms_dir}"
+    echo ""
+    return
+  fi
+
+  echo "  → Found kernel RPM: $(basename ${kernel_rpm})" | tee -a "${boot_log}"
+
+  # Check VM connectivity
+  echo "  → Checking VM connectivity (${VM_IP})..." >> "${boot_log}"
+  if ! ping -c 2 "${VM_IP}" >> "${boot_log}" 2>&1; then
+    fail "boot_kernel" "VM ${VM_IP} is not reachable"
+    echo ""
+    return
+  fi
+  echo "  → VM is reachable" >> "${boot_log}"
+
+  # Install sshpass if not available (for password authentication)
+  if ! command -v sshpass &> /dev/null; then
+    echo "  → Installing sshpass..." | tee -a "${boot_log}"
+    echo "${HOST_USER_PWD}" | sudo -S yum install -y sshpass >> "${boot_log}" 2>&1 || {
+      fail "boot_kernel" "Failed to install sshpass"
+      echo ""
+      return
+    }
+  fi
+
+  # Copy kernel RPM to VM
+  echo "  → Copying kernel RPM to VM..." | tee -a "${boot_log}"
+  if ! sshpass -p "${VM_ROOT_PWD}" scp -o StrictHostKeyChecking=no "${kernel_rpm}" root@"${VM_IP}":/tmp/ >> "${boot_log}" 2>&1; then
+    fail "boot_kernel" "Failed to copy RPM to VM"
+    echo ""
+    return
+  fi
+  echo "  → RPM copied successfully" >> "${boot_log}"
+
+  local rpm_name=$(basename "${kernel_rpm}")
+
+  # Install kernel RPM on VM
+  echo "  → Installing kernel RPM on VM..." | tee -a "${boot_log}"
+  if ! sshpass -p "${VM_ROOT_PWD}" ssh -o StrictHostKeyChecking=no root@"${VM_IP}" "rpm -ivh --force /tmp/${rpm_name}" >> "${boot_log}" 2>&1; then
+    fail "boot_kernel" "Failed to install kernel RPM"
+    echo ""
+    return
+  fi
+  echo "  → Kernel installed successfully" >> "${boot_log}"
+
+  # Extract kernel version from RPM name
+  # Expected format: kernel-<version>.rpm
+  local kernel_version=$(echo "${rpm_name}" | sed -E 's/^kernel-([0-9.+]+)-[0-9]+.*/\1/')
+  local vmlinuz_path="/boot/vmlinuz-${kernel_version}"
+  echo "  → Expected kernel version: ${kernel_version}" >> "${boot_log}"
+  echo "  → Expected vmlinuz path: ${vmlinuz_path}" >> "${boot_log}"
+
+  # Verify kernel was installed
+  echo "  → Verifying kernel installation..." >> "${boot_log}"
+  if ! sshpass -p "${VM_ROOT_PWD}" ssh -o StrictHostKeyChecking=no root@"${VM_IP}" "test -f ${vmlinuz_path}" >> "${boot_log}" 2>&1; then
+    fail "boot_kernel" "Kernel image not found at ${vmlinuz_path}"
+    echo ""
+    return
+  fi
+
+  # List all available kernels
+  echo "  → Available kernels before setting default:" >> "${boot_log}"
+  sshpass -p "${VM_ROOT_PWD}" ssh -o StrictHostKeyChecking=no root@"${VM_IP}" "grubby --info ALL | grep -E '^kernel='" >> "${boot_log}" 2>&1
+
+  # Set new kernel as default using grubby
+  echo "  → Setting new kernel as default boot option using grubby..." >> "${boot_log}"
+  if ! sshpass -p "${VM_ROOT_PWD}" ssh -o StrictHostKeyChecking=no root@"${VM_IP}" "grubby --set-default=${vmlinuz_path}" >> "${boot_log}" 2>&1; then
+    fail "boot_kernel" "Failed to set default kernel with grubby"
+    echo ""
+    return
+  fi
+
+  # Verify default kernel was set
+  echo "  → Verifying default kernel setting..." >> "${boot_log}"
+  local default_kernel=$(sshpass -p "${VM_ROOT_PWD}" ssh -o StrictHostKeyChecking=no root@"${VM_IP}" "grubby --default-kernel" 2>> "${boot_log}")
+  echo "  → Default kernel set to: ${default_kernel}" >> "${boot_log}"
+
+  if [[ "${default_kernel}" != "${vmlinuz_path}" ]]; then
+    fail "boot_kernel" "Failed to set default kernel. Expected: ${vmlinuz_path}, Got: ${default_kernel}"
+    echo ""
+    return
+  fi
+
+  # Reboot VM
+  echo "  → Rebooting VM..." | tee -a "${boot_log}"
+  sshpass -p "${VM_ROOT_PWD}" ssh -o StrictHostKeyChecking=no root@"${VM_IP}" "reboot" >> "${boot_log}" 2>&1 || true
+
+  # Wait for VM to go down
+  echo "  → Waiting for VM to shutdown..." >> "${boot_log}"
+  sleep 10
+
+  # Wait for VM to come back up (max 5 minutes)
+  echo "  → Waiting for VM to boot up (max 5 minutes)..." | tee -a "${boot_log}"
+  local wait_count=0
+  local max_wait=60  # 60 * 5 seconds = 5 minutes
+
+  while [ $wait_count -lt $max_wait ]; do
+    if ping -c 1 -W 1 "${VM_IP}" >> "${boot_log}" 2>&1; then
+      sleep 10  # Wait a bit more for SSH to be ready
+      if sshpass -p "${VM_ROOT_PWD}" ssh -o StrictHostKeyChecking=no -o ConnectTimeout=5 root@"${VM_IP}" "echo 'VM is up'" >> "${boot_log}" 2>&1; then
+        echo "  → VM booted successfully" >> "${boot_log}"
+        break
+      fi
+    fi
+    sleep 5
+    wait_count=$((wait_count + 1))
+  done
+
+  if [ $wait_count -ge $max_wait ]; then
+    fail "boot_kernel" "VM did not boot within 5 minutes"
+    echo ""
+    return
+  fi
+
+  # Check running kernel version
+  echo "  → Checking running kernel version..." >> "${boot_log}"
+  local running_kernel=$(sshpass -p "${VM_ROOT_PWD}" ssh -o StrictHostKeyChecking=no root@"${VM_IP}" "uname -r" 2>> "${boot_log}")
+
+  echo "  → Running kernel: ${running_kernel}" >> "${boot_log}"
+  echo "  → Expected kernel: ${kernel_version}" >> "${boot_log}"
+
+  # Verify if the installed kernel is running (exact match)
+  if [[ "${running_kernel}" == "${kernel_version}" ]]; then
+    echo -e "  ${GREEN}→${NC} VM booted with new kernel: ${running_kernel}"
+    pass "boot_kernel"
+  else
+    fail "boot_kernel" "VM booted with different kernel. Expected: ${kernel_version}, Got: ${running_kernel}"
+  fi
+
   echo ""
 }
 
