@@ -14,11 +14,6 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m'
 
-echo ""
-echo "╔════════════════════════════╗"
-echo "║  OpenAnolis Configuration  ║"
-echo "╚════════════════════════════╝"
-echo ""
 
 # General Configuration
 echo "=== General Configuration ==="
@@ -164,15 +159,10 @@ VM_ROOT_PWD='${VM_ROOT_PWD}'
 EOF
 
 echo ""
-echo "╔═══════════════════════╗"
-echo "║  Configuration Saved  ║"
-echo "╚═══════════════════════╝"
-echo ""
-echo "Configuration saved to: ${CONFIG_FILE}"
-echo ""
 echo "Linux source: ${LINUX_SRC_PATH}"
 echo "Patches to process: ${NUM_PATCHES}"
 echo "Build threads: ${BUILD_THREADS}"
 echo "Tests enabled: ${RUN_TESTS}"
 echo ""
-echo -e "${BLUE}Next: Run 'make build' to build${NC}"
+echo -e "Run ${YELLOW}'make build'${NC} to build"
+exit 0

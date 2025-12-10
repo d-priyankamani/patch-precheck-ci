@@ -351,9 +351,6 @@ if [ "${TOTAL_SELECTED}" -eq 0 ]; then
 fi
 
 echo ""
-echo -e "${BLUE}=======================================${NC}"
-echo -e "${BLUE}Starting openEuler Patch Apply & Build${NC}"
-echo -e "${BLUE}=======================================${NC}"
 echo -e "Total patches to process: ${TOTAL_SELECTED}"
 echo -e "Build threads: ${BUILD_THREADS}"
 echo ""
@@ -391,10 +388,10 @@ for pf in "${PATCH_LIST[@]}"; do
 
   # Apply patch
   if git -C "${LINUX_SRC_PATH}" am --3way "${pf}" >/dev/null 2>&1; then
-    echo -e "  Applying   : ${name} : ${GREEN}✓ PASS${NC}"
+    echo -e "  Applying   : ${GREEN}✓ PASS${NC}"
   else
     git -C "${LINUX_SRC_PATH}" am --abort >/dev/null 2>&1 || true
-    echo -e "  Applying   : ${name} : ${RED}✗ FAIL${NC}"
+    echo -e "  Applying   : ${RED}✗ FAIL${NC}"
     echo ""
     echo -e "${RED}Error: git am failed for ${name}${NC}"
     echo -e "${YELLOW}No build was attempted for this patch${NC}"
@@ -403,16 +400,14 @@ for pf in "${PATCH_LIST[@]}"; do
 
   # Build patch
   logfile="${LOGS_DIR}/${name}.log"
-  echo -e "  Building   : ${name} ..."
   if run_openeuler_build "${LINUX_SRC_PATH}" "${logfile}"; then
-    echo -e "  Building   : ${name} : ${GREEN}✓ PASS${NC}"
+    echo -e "  Building   : ${GREEN}✓ PASS${NC}"
     summary+=( "${name}:PASS" )
 
     # KABI check
     if [ -f "${LINUX_SRC_PATH}/Module.symvers_old" ]; then
-      echo -e "  KABI Check : ${name} ..."
       if check_kabi "${pf}"; then
-        echo -e "  KABI Check : ${name} : ${GREEN}✓ PASS${NC}"
+        echo -e "  KABI Check : ${GREEN}✓ PASS${NC}"
         kabi_summary+=( "${name}:PASS" )
       else
         # Check if this is a KABI fix patch
@@ -428,12 +423,12 @@ for pf in "${PATCH_LIST[@]}"; do
               echo -e "  KABI Check : ${name} : ${YELLOW}⚠ WARN (Next patch is KABI fix)${NC}"
               kabi_summary+=( "${name}:WARN_HAS_FIX" )
             else
-              echo -e "  KABI Check : ${name} : ${RED}✗ FAIL${NC}"
+              echo -e "  KABI Check : ${RED}✗ FAIL${NC}"
               kabi_summary+=( "${name}:FAIL" )
               kabi_failed=1
             fi
           else
-            echo -e "  KABI Check : ${name} : ${RED}✗ FAIL${NC}"
+            echo -e "  KABI Check : ${RED}✗ FAIL${NC}"
             kabi_summary+=( "${name}:FAIL" )
             kabi_failed=1
           fi
@@ -444,7 +439,7 @@ for pf in "${PATCH_LIST[@]}"; do
       cp "${LINUX_SRC_PATH}/Module.symvers" "${LINUX_SRC_PATH}/Module.symvers_old"
     fi
   else
-    echo -e "  Building   : ${name} : ${RED}✗ FAIL${NC}"
+    echo -e "  Building   : ${RED}✗ FAIL${NC}"
     summary+=( "${name}:FAIL" )
     echo ""
     echo -e "${RED}Error: Build failed for ${name}${NC}"
@@ -454,72 +449,12 @@ for pf in "${PATCH_LIST[@]}"; do
   echo ""
 done
 
-# Final summary
-echo -e "${GREEN}=============${NC}"
-echo -e "${GREEN}Build Summary${NC}"
-echo -e "${GREEN}=============${NC}"
-echo "Total Patches: ${TOTAL_SELECTED}"
-echo ""
-for i in "${!summary[@]}"; do
-  n=$((i+1))
-  patchname="${summary[i]%:*}"
-  status="${summary[i]#*:}"
-  color="${GREEN}"
-  symbol="✓"
-  [ "${status}" != "PASS" ] && color="${RED}" && symbol="✗"
-  printf "  Patch-%d : %b%s %s%b\n" "${n}" "${color}" "${symbol}" "${status}" "${NC}"
-done
-
-# KABI summary
-if [ ${#kabi_summary[@]} -gt 0 ]; then
-  echo ""
-  echo -e "${GREEN}=============${NC}"
-  echo -e "${GREEN}KABI Summary${NC}"
-  echo -e "${GREEN}=============${NC}"
-  for i in "${!kabi_summary[@]}"; do
-    n=$((i+1))
-    patchname="${kabi_summary[i]%:*}"
-    status="${kabi_summary[i]#*:}"
-
-    case "${status}" in
-      PASS)
-        color="${GREEN}"
-        symbol="✓"
-        status_text="PASS"
-        ;;
-      KABI_FIX)
-        color="${YELLOW}"
-        symbol="⚠"
-        status_text="KABI Fix"
-        ;;
-      WARN_HAS_FIX)
-        color="${YELLOW}"
-        symbol="⚠"
-        status_text="WARN (has fix)"
-        ;;
-      FAIL)
-        color="${RED}"
-        symbol="✗"
-        status_text="FAIL"
-        ;;
-    esac
-
-    printf "  Patch-%d : %b%s %s%b\n" "${n}" "${color}" "${symbol}" "${status_text}" "${NC}"
-  done
-fi
-
-echo ""
-echo -e "${BLUE}Logs directory: ${LOGS_DIR}${NC}"
-echo -e "${BLUE}Patches directory: ${PATCHES_DIR}${NC}"
-echo -e "${BLUE}Backup directory: ${BKP_DIR}${NC}"
-echo ""
-
 if [ ${kabi_failed} -eq 1 ]; then
   echo -e "${RED}✗ openEuler build completed with KABI failures${NC}"
   echo -e "${YELLOW}Review KABI log: ${LOGS_DIR}/kabi_check.log${NC}"
   exit 22
 else
   echo -e "${GREEN}✓ openEuler build process completed successfully${NC}"
-  echo -e "${YELLOW}Run 'make test' to execute openEuler-specific tests${NC}"
+  echo -e "Run ${YELLOW}'make test'${NC} to execute openEuler-specific tests"
   exit 0
 fi

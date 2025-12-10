@@ -15,12 +15,6 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m'
 
-echo ""
-echo "╔═══════════════════════════╗"
-echo "║  openEuler Configuration  ║"
-echo "╚═══════════════════════════╝"
-echo ""
-
 # Clone Torvalds repo if not exists
 if [ ! -d "$TORVALDS_REPO" ]; then
   echo -e "${BLUE}Cloning Torvalds Linux repository...${NC}"
@@ -195,17 +189,11 @@ TORVALDS_REPO="${TORVALDS_REPO}"
 EOF
 
 echo ""
-echo "╔═══════════════════════╗"
-echo "║  Configuration Saved  ║"
-echo "╚═══════════════════════╝"
-echo ""
-echo "Configuration saved to: ${CONFIG_FILE}"
-echo ""
 echo "Linux source: ${LINUX_SRC_PATH}"
 echo "Patches to process: ${NUM_PATCHES}"
 echo "Patch category: ${PATCH_CATEGORY}"
 echo "Build threads: ${BUILD_THREADS}"
 echo "Tests enabled: ${RUN_TESTS}"
 echo ""
-echo -e "${YELLOW}Next: Run 'make build' to build${NC}"
-echo ""
+echo -e "Run ${YELLOW}'make build'${NC} to build"
+exit 0

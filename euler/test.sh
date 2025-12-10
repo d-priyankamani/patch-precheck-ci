@@ -42,10 +42,6 @@ NC='\033[0m'
 mkdir -p "${LOGS_DIR}"
 
 echo ""
-echo -e "${BLUE}============================${NC}"
-echo -e "${BLUE}openEuler Build & Test Suite${NC}"
-echo -e "${BLUE}============================${NC}"
-echo ""
 
 # Counters
 TEST_RESULTS=()
@@ -95,7 +91,6 @@ skip() {
 run_kernel_build() {
   local test_name="$1"
   local config_target="$2"
-  echo -e "${BLUE}Test: ${test_name}${NC}"
   cd "${LINUX_SRC_PATH}"
 
   make clean > /dev/null 2>&1
@@ -113,7 +108,7 @@ run_kernel_build() {
 # ---- TEST DEFINITIONS ----
 
 test_check_dependency() {
-  echo -e "${BLUE}Test: check_dependency${NC}"
+  echo -e "${BLUE}Test-1: check_dependency${NC}"
 
   cd "${LINUX_SRC_PATH}"
 
@@ -178,11 +173,12 @@ test_check_dependency() {
 }
 
 test_build_allmod() {
+  echo -e "${BLUE}Test-2: build_allmod${NC}"
   run_kernel_build "build_allmod" "allmodconfig"
 }
 
 test_check_patch() {
-  echo -e "${BLUE}Test: check_patch${NC}"
+  echo -e "${BLUE}Test-3: check_patch${NC}"
   
   # Check if checkpatch.pl exists
   local CHECKPATCH="${LINUX_SRC_PATH}/scripts/checkpatch.pl"
@@ -209,7 +205,7 @@ test_check_patch() {
     return
   fi
   
-  echo "  → Checking ${#patch_files[@]} patches with checkpatch.pl..."
+  echo "  → Checking ${#patch_files[@]} patches..."
   
   local total_errors=0
   local total_warnings=0
@@ -258,7 +254,7 @@ test_check_patch() {
 }
 
 test_check_format() {
-  echo -e "${BLUE}Test: check_format${NC}"
+  echo -e "${BLUE}Test-4: check_format${NC}"
   
   cd "${LINUX_SRC_PATH}"
   
@@ -387,7 +383,7 @@ test_check_format() {
 }
 
 test_rpm_build() {
-  echo -e "${BLUE}Test: rpm_build${NC}"
+  echo -e "${BLUE}Test-5: rpm_build${NC}"
 
   cd "${LINUX_SRC_PATH}"
 
@@ -396,21 +392,21 @@ test_rpm_build() {
 
   > "${rpm_log}"
 
-  echo "  → Cleaning source tree..." | tee -a "${rpm_log}"
+  echo "  → Cleaning source tree..." >> "${rpm_log}"
   if ! make distclean >> "${rpm_log}" 2>&1; then
     fail "rpm_build" "Failed to clean source tree (see ${rpm_log})"
     echo ""
     return
   fi
 
-  echo "  → Configuring kernel with openeuler_defconfig..." | tee -a "${rpm_log}"
+  echo "  → Configuring kernel with openeuler_defconfig..." >> "${rpm_log}"
   if ! make openeuler_defconfig >> "${rpm_log}" 2>&1; then
     fail "rpm_build" "Failed to configure kernel (see ${rpm_log})"
     echo ""
     return
   fi
 
-  echo "  → Building RPM packages (this may take a while)..." | tee -a "${rpm_log}"
+  echo "  → Building RPM packages..." | tee -a "${rpm_log}"
   if ! make -j"${BUILD_THREADS}" rpm-pkg >> "${rpm_log}" 2>&1; then
     fail "rpm_build" "Failed to build RPM packages (see ${rpm_log})"
     echo ""
@@ -433,21 +429,21 @@ test_rpm_build() {
   local rpm_count=0
 
   if [ -n "${kernel_rpm}" ]; then
-    echo "  → Found kernel RPM: $(basename ${kernel_rpm})" | tee -a "${rpm_log}"
+    echo "  → Found kernel RPM: $(basename ${kernel_rpm})" >> "${rpm_log}"
     rpm_count=$((rpm_count + 1))
   else
     echo "  → Kernel RPM not found" >> "${rpm_log}"
   fi
 
   if [ -n "${headers_rpm}" ]; then
-    echo "  → Found headers RPM: $(basename ${headers_rpm})" | tee -a "${rpm_log}"
+    echo "  → Found headers RPM: $(basename ${headers_rpm})" >> "${rpm_log}"
     rpm_count=$((rpm_count + 1))
   else
     echo "  → Headers RPM not found" >> "${rpm_log}"
   fi
 
   if [ ${rpm_count} -eq 2 ]; then
-    echo "  → RPM build location: ${rpms_dir}" | tee -a "${rpm_log}"
+    echo "  → RPM build location: ${rpms_dir}" >> "${rpm_log}"
     pass "rpm_build"
   else
     fail "rpm_build" "Expected 2 RPMs (kernel + headers), found ${rpm_count} (see ${rpm_log})"
@@ -457,7 +453,7 @@ test_rpm_build() {
 }
 
 test_boot_kernel() {
-  echo -e "${BLUE}Test: boot_kernel${NC}"
+  echo -e "${BLUE}Test-6: boot_kernel${NC}"
 
   local rpms_dir="$HOME/rpmbuild/RPMS/x86_64"
   local boot_log="${LOGS_DIR}/boot_kernel.log"
@@ -480,7 +476,8 @@ test_boot_kernel() {
     return
   fi
 
-  echo "  → Found kernel RPM: $(basename ${kernel_rpm})" | tee -a "${boot_log}"
+  echo "  → Booting VM with kernel RPM..." | tee -a "${boot_log}"
+  echo "  → Found kernel RPM: $(basename ${kernel_rpm})" >> "${boot_log}"
 
   # Check VM connectivity
   echo "  → Checking VM connectivity (${VM_IP})..." >> "${boot_log}"
@@ -502,7 +499,7 @@ test_boot_kernel() {
   fi
 
   # Copy kernel RPM to VM
-  echo "  → Copying kernel RPM to VM..." | tee -a "${boot_log}"
+  echo "  → Copying kernel RPM to VM..." >> "${boot_log}"
   if ! sshpass -p "${VM_ROOT_PWD}" scp -o StrictHostKeyChecking=no "${kernel_rpm}" root@"${VM_IP}":/tmp/ >> "${boot_log}" 2>&1; then
     fail "boot_kernel" "Failed to copy RPM to VM"
     echo ""
@@ -513,7 +510,7 @@ test_boot_kernel() {
   local rpm_name=$(basename "${kernel_rpm}")
 
   # Install kernel RPM on VM
-  echo "  → Installing kernel RPM on VM..." | tee -a "${boot_log}"
+  echo "  → Installing kernel RPM on VM..." >> "${boot_log}"
   if ! sshpass -p "${VM_ROOT_PWD}" ssh -o StrictHostKeyChecking=no root@"${VM_IP}" "rpm -ivh --force /tmp/${rpm_name}" >> "${boot_log}" 2>&1; then
     fail "boot_kernel" "Failed to install kernel RPM"
     echo ""
@@ -560,7 +557,7 @@ test_boot_kernel() {
   fi
 
   # Reboot VM
-  echo "  → Rebooting VM..." | tee -a "${boot_log}"
+  echo "  → Rebooting VM..." >> "${boot_log}"
   sshpass -p "${VM_ROOT_PWD}" ssh -o StrictHostKeyChecking=no root@"${VM_IP}" "reboot" >> "${boot_log}" 2>&1 || true
 
   # Wait for VM to go down
@@ -568,7 +565,7 @@ test_boot_kernel() {
   sleep 10
 
   # Wait for VM to come back up (max 5 minutes)
-  echo "  → Waiting for VM to boot up (max 5 minutes)..." | tee -a "${boot_log}"
+  echo "  → Waiting for VM to boot up (max 5 minutes)..." >> "${boot_log}"
   local wait_count=0
   local max_wait=60  # 60 * 5 seconds = 5 minutes
 
@@ -599,7 +596,7 @@ test_boot_kernel() {
 
   # Verify if the installed kernel is running (exact match)
   if [[ "${running_kernel}" == "${kernel_version}" ]]; then
-    echo -e "  ${GREEN}→${NC} VM booted with new kernel: ${running_kernel}"
+    echo -e "  → VM booted with new kernel: ${running_kernel}" >> "${boot_log}"
     pass "boot_kernel"
   else
     fail "boot_kernel" "VM booted with different kernel. Expected: ${kernel_version}, Got: ${running_kernel}"

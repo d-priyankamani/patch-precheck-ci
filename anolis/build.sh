@@ -163,9 +163,6 @@ if [ "${TOTAL_SELECTED}" -eq 0 ]; then
 fi
 
 echo ""
-echo -e "${BLUE}=======================================${NC}"
-echo -e "${BLUE}Starting OpenAnolis Patch Apply & Build${NC}"
-echo -e "${BLUE}=======================================${NC}"
 echo -e "Total patches to process: ${TOTAL_SELECTED}"
 echo -e "Build threads: ${BUILD_THREADS}"
 echo ""
@@ -182,10 +179,10 @@ for pf in "${PATCH_LIST[@]}"; do
 
   # Apply patch
   if git -C "${LINUX_SRC_PATH}" am --3way "${pf}" >/dev/null 2>&1; then
-    echo -e "  Applying   : ${name} : ${GREEN}✓ PASS${NC}"
+    echo -e "  Applying   : ${GREEN}✓ PASS${NC}"
   else
     git -C "${LINUX_SRC_PATH}" am --abort >/dev/null 2>&1 || true
-    echo -e "  Applying   : ${name} : ${RED}✗ FAIL${NC}"
+    echo -e "  Applying   : ${RED}✗ FAIL${NC}"
     echo ""
     echo -e "${RED}Error: git am failed for ${name}${NC}"
     echo -e "${YELLOW}No build was attempted for this patch${NC}"
@@ -194,12 +191,11 @@ for pf in "${PATCH_LIST[@]}"; do
 
   # Build patch
   logfile="${LOGS_DIR}/${name}.log"
-  echo -e "  Building   : ${name} ..."
   if run_anolis_build "${LINUX_SRC_PATH}" "${logfile}"; then
-    echo -e "  Building   : ${name} : ${GREEN}✓ PASS${NC}"
+    echo -e "  Building   : ${GREEN}✓ PASS${NC}"
     summary+=( "${name}:PASS" )
   else
-    echo -e "  Building   : ${name} : ${RED}✗ FAIL${NC}"
+    echo -e "  Building   : ${RED}✗ FAIL${NC}"
     summary+=( "${name}:FAIL" )
     echo ""
     echo -e "${RED}Error: Build failed for ${name}${NC}"
@@ -209,26 +205,7 @@ for pf in "${PATCH_LIST[@]}"; do
   echo ""
 done
 
-# Final summary
-echo -e "${GREEN}=============${NC}"
-echo -e "${GREEN}Build Summary${NC}"
-echo -e "${GREEN}=============${NC}"
-echo "Total Patches: ${TOTAL_SELECTED}"
-echo ""
-for i in "${!summary[@]}"; do
-  n=$((i+1))
-  patchname="${summary[i]%:*}"
-  status="${summary[i]#*:}"
-  color="${GREEN}"
-  symbol="✓"
-  [ "${status}" != "PASS" ] && color="${RED}" && symbol="✗"
-  printf "  Patch-%d : %b%s %s%b\n" "${n}" "${color}" "${symbol}" "${status}" "${NC}"
-done
-echo ""
-echo -e "${BLUE}Logs directory: ${LOGS_DIR}${NC}"
-echo -e "${BLUE}Patches directory: ${PATCHES_DIR}${NC}"
-echo -e "${BLUE}Backup directory: ${BKP_DIR}${NC}"
 echo ""
 echo -e "${GREEN}✓ OpenAnolis build process completed successfully${NC}"
-echo -e "${YELLOW}Run 'make test' to execute OpenAnolis-specific tests${NC}"
+echo -e "Run ${YELLOW}'make test'${NC} to execute OpenAnolis-specific tests"
 exit 0

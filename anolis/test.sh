@@ -37,11 +37,6 @@ NC='\033[0m'
 
 mkdir -p "${LOGS_DIR}"
 
-echo ""
-echo -e "${BLUE}=============================${NC}"
-echo -e "${BLUE}OpenAnolis Build & Test Suite${NC}"
-echo -e "${BLUE}=============================${NC}"
-echo ""
 
 # Counters
 TEST_RESULTS=()
@@ -91,7 +86,6 @@ skip() {
 run_kernel_build() {
   local test_name="$1"
   local config_target="$2"
-  echo -e "${BLUE}Test: ${test_name}${NC}"
   cd "${LINUX_SRC_PATH}"
 
   make clean > /dev/null 2>&1
@@ -109,7 +103,7 @@ run_kernel_build() {
 # ---- TEST DEFINITIONS ----
 
 test_check_kconfig() {
-  echo -e "${BLUE}Test: check_Kconfig${NC}"
+  echo -e "${BLUE}Test-1: check_Kconfig${NC}"
   cd "${LINUX_SRC_PATH}/anolis" 2>/dev/null || {
     skip "check_Kconfig" "anolis/ directory not found"
     return
@@ -117,6 +111,8 @@ test_check_kconfig() {
 
   mkdir -p "${LINUX_SRC_PATH}/anolis/output" 2>/dev/null
   chmod -R u+w "${LINUX_SRC_PATH}/anolis/output" 2>/dev/null || true
+
+  echo "  → Checking kconfig..."
 
   if ARCH=${kernel_arch} make dist-configs-check > "${LOGS_DIR}/check_Kconfig.log" 2>&1; then
     pass "check_Kconfig"
@@ -127,23 +123,27 @@ test_check_kconfig() {
 }
 
 test_build_allyes_config() {
+  echo -e "${BLUE}Test-2: build_allyes_config${NC}"
   run_kernel_build "build_allyes_config" "allyesconfig"
 }
 
 test_build_allno_config() {
+  echo -e "${BLUE}Test-3: build_allno_config${NC}"
   run_kernel_build "build_allno_config" "allnoconfig"
 }
 
 test_build_anolis_defconfig() {
+  echo -e "${BLUE}Test-4: build_anolis_defconfig${NC}"
   run_kernel_build "build_anolis_defconfig" "anolis_defconfig"
 }
 
 test_build_anolis_debug_defconfig() {
+  echo -e "${BLUE}Test-5: build_anolis_debug_defconfig${NC}"
   run_kernel_build "build_anolis_debug_defconfig" "anolis-debug_defconfig"
 }
 
 test_anck_rpm_build() {
-  echo -e "${BLUE}Test: anck_rpm_build${NC}"
+  echo -e "${BLUE}Test-6: anck_rpm_build${NC}"
 
   # Check and install required build dependencies only if missing
   local packages="audit-libs-devel binutils-devel libbpf-devel libcap-ng-devel libnl3-devel newt-devel pciutils-devel xmlto yum-utils"
@@ -197,7 +197,7 @@ test_anck_rpm_build() {
   # Set ulimit and build
   ulimit -n 65535
 
-  echo "  → Building ANCK RPMs..."
+  echo "  → Building RPMs..."
   if DIST=".an23" \
      DIST_BUILD_NUMBER=${BUILD_NUMBER} \
      DIST_OUTPUT=${outputdir} \
@@ -211,7 +211,7 @@ test_anck_rpm_build() {
 
     if [ -d "${rpm_dir}" ]; then
       local rpm_count=$(find "${rpm_dir}" -name "*.rpm" -type f | wc -l)
-      echo -e "  ${GREEN}→${NC} Binary RPMs (${rpm_count} packages): ${rpm_dir}"
+      echo -e "  → Binary RPMs (${rpm_count} packages): ${rpm_dir}" >> "${LOGS_DIR}/anck_rpm_build.log"
     fi
 
     pass "anck_rpm_build"
@@ -223,7 +223,7 @@ test_anck_rpm_build() {
 }
 
 test_boot_kernel_rpm() {
-  echo -e "${BLUE}Test: boot_kernel_rpm${NC}"
+  echo -e "${BLUE}Test-8: boot_kernel_rpm${NC}"
 
   local rpms_dir="${LINUX_SRC_PATH}/anolis/outputs/rpmbuild/RPMS/x86_64"
   local boot_log="${LOGS_DIR}/boot_kernel_rpm.log"
@@ -234,6 +234,8 @@ test_boot_kernel_rpm() {
     echo ""
     return
   fi
+
+  echo "  → VM booting with build RPM..."
 
   # Find kernel RPM (not debuginfo, not devel, not headers)
   local kernel_rpm=$(find "${rpms_dir}" -name "kernel-*.rpm" ! -name "*debuginfo*" ! -name "*devel*" ! -name "*headers*" -type f | head -n 1)
@@ -362,7 +364,7 @@ test_boot_kernel_rpm() {
 
   # Verify if the installed kernel is running (exact match)
   if [[ "${running_kernel}" == "${kernel_version}" ]]; then
-    echo -e "  ${GREEN}→${NC} VM booted with new kernel: ${running_kernel}"
+    echo -e "  → VM booted with new kernel: ${running_kernel}" >> "${boot_log}"
     pass "boot_kernel_rpm"
   else
     fail "boot_kernel_rpm" "VM booted with different kernel. Expected: ${kernel_version}, Got: ${running_kernel}"
@@ -372,7 +374,7 @@ test_boot_kernel_rpm() {
 }
 
 test_check_kapi() {
-  echo -e "${BLUE}Test: check_kapi${NC}"
+  echo -e "${BLUE}Test-7: check_kapi${NC}"
 
   local KAPI_TEST_DIR="/tmp/kapi_test"
   local KABI_DW_DIR="${KAPI_TEST_DIR}/kabi-dw"
@@ -385,6 +387,7 @@ test_check_kapi() {
   local PATCHLEVEL=$(grep "^PATCHLEVEL = " "${LINUX_SRC_PATH}/Makefile" | awk '{print $3}')
   local KABI_BRANCH="devel-${KERNEL_VERSION}.${PATCHLEVEL}"
 
+  echo "  → Checking KAPI for vmlinux..."
   echo "  → Setting up KAPI test environment..." >> "$KAPI_LOG"
 
   # Create test directory if it doesn't exist
@@ -438,7 +441,7 @@ test_check_kapi() {
     return
   fi
 
-  echo "  → Found vmlinux at: ${VMLINUX_PATH}"
+  echo "  → Found vmlinux at: ${VMLINUX_PATH}" >> "$KAPI_LOG"
 
   # Determine architecture
   local KABI_ARCH=""
@@ -500,25 +503,7 @@ test_check_kapi() {
   # Copy compare log to logs directory
   cp "${COMPARE_LOG}" "${LOGS_DIR}/"
 
-  # Check if there are any ABI differences (skipping)
-  #if [ -s "${COMPARE_LOG}" ]; then
-    # File has content, meaning there are differences
-    #local DIFF_COUNT=$(wc -l < "${COMPARE_LOG}")
-    #echo -e "${YELLOW}  Warning: Found ${DIFF_COUNT} ABI differences${NC}"
-    #echo "  → See details in: ${LOGS_DIR}/kapi_compare.log"
-
-    # Show first few differences
-    #if [ ${DIFF_COUNT} -gt 0 ]; then
-      #echo "  → First 10 differences:"
-      #head -n 10 "${COMPARE_LOG}" | sed 's/^/    /'
-    #fi
-
-    # Pass with warning - differences are expected and not failures
-    #pass "check_kapi (with ${DIFF_COUNT} ABI differences)"
-  #else
-    # No differences found
     pass "check_kapi"
-  #fi
 
   echo ""
 }
