@@ -4,7 +4,7 @@
 
 SHELL := /bin/bash
 .ONESHELL:
-.PHONY: help config build test clean reset distclean mrproper
+.PHONY: help config build test clean reset distclean
 
 # Configuration files (stored in main directory)
 DISTRO_CONFIG := .distro_config
@@ -53,7 +53,6 @@ help:
 	@echo "  make clean      - Remove logs/ and outputs/"
 	@echo "  make reset      - Reset git repo to saved HEAD"
 	@echo "  make distclean  - Remove all artifacts and configs"
-	@echo "  make mrproper   - Same as distclean"
 	@echo ""
 	@echo "Supported Distributions:"
 	@echo "  - OpenAnolis (anolis/)"
@@ -157,25 +156,98 @@ reset:
 # Clean logs and outputs
 clean:
 	@echo -e "$(YELLOW)Cleaning logs and outputs...$(NC)"
-	@rm -rf $(LOGS_DIR) $(OUTPUTS_DIR)
 	@if [ -f $(DISTRO_CONFIG) ]; then \
 		. $(DISTRO_CONFIG); \
-		if [ -f "$$DISTRO_DIR/clean.sh" ]; then \
-			bash $$DISTRO_DIR/clean.sh; \
+		if [ "$$DISTRO" = "euler" ]; then \
+			echo "  → Cleaning openEuler artifacts..."; \
+			rm -f euler/.commits.txt 2>/dev/null || true; \
+			rm -f .dep_log .full_commits .user_log 2>/dev/null || true; \
+			rm -rf $(LOGS_DIR) 2>/dev/null || true; \
+			rm -rf $(PATCHES_DIR) 2>/dev/null || true; \
+			if [ -f "euler/.configure" ]; then \
+				LINUX_SRC=$$(grep "^LINUX_SRC_PATH=" euler/.configure | cut -d= -f2 | tr -d '"'); \
+				if [ -n "$$LINUX_SRC" ] && [ -d "$$LINUX_SRC" ]; then \
+					echo "  → Cleaning kernel build artifacts in $$LINUX_SRC"; \
+					cd "$$LINUX_SRC" && make clean > /dev/null 2>&1 || true; \
+					rm -rf "$$LINUX_SRC/openeuler/outputs" "$$LINUX_SRC/openeuler/output" 2>/dev/null || true; \
+					rm -f "$$LINUX_SRC/openeuler/kernel-rpms" "$$LINUX_SRC/openeuler/.deps_installed" 2>/dev/null || true; \
+					rm -rf "$$LINUX_SRC/euler/outputs" "$$LINUX_SRC/euler/output" 2>/dev/null || true; \
+					rm -f "$$LINUX_SRC/euler/kernel-rpms" "$$LINUX_SRC/euler/.deps_installed" 2>/dev/null || true; \
+				fi; \
+			fi; \
+			echo "  → openEuler cleanup complete"; \
+		elif [ "$$DISTRO" = "anolis" ]; then \
+			echo "  → Cleaning OpenAnolis artifacts..."; \
+			rm -rf $(LOGS_DIR) 2>/dev/null || true; \
+			rm -rf $(PATCHES_DIR) 2>/dev/null || true; \
+			if [ -f "anolis/.configure" ]; then \
+				LINUX_SRC=$$(grep "^LINUX_SRC_PATH=" anolis/.configure | cut -d= -f2 | tr -d '"'); \
+				if [ -n "$$LINUX_SRC" ] && [ -d "$$LINUX_SRC" ]; then \
+					echo "  → Cleaning kernel build artifacts in $$LINUX_SRC"; \
+					cd "$$LINUX_SRC" && make clean > /dev/null 2>&1 || true; \
+					rm -rf "$$LINUX_SRC/anolis/outputs" "$$LINUX_SRC/anolis/output" 2>/dev/null || true; \
+					rm -f "$$LINUX_SRC/anolis/cloud-kernel" "$$LINUX_SRC/anolis/.deps_installed" 2>/dev/null || true; \
+				fi; \
+			fi; \
+			echo "  → OpenAnolis cleanup complete"; \
 		fi; \
+	else \
+		echo "  → No distribution configured, cleaning common artifacts only"; \
+		rm -rf $(LOGS_DIR) $(PATCHES_DIR) 2>/dev/null || true; \
 	fi
 	@echo -e "$(GREEN)Clean complete$(NC)"
 
 # Complete cleanup
-distclean mrproper:
+distclean:
 	@echo -e "$(YELLOW)Removing all artifacts and configurations...$(NC)"
 	@if [ -f $(DISTRO_CONFIG) ]; then \
 		. $(DISTRO_CONFIG); \
-		if [ -f "$$DISTRO_DIR/clean.sh" ]; then \
-			bash $$DISTRO_DIR/clean.sh; \
+		if [ "$$DISTRO" = "euler" ]; then \
+			echo "  → Complete openEuler cleanup..."; \
+			rm -f euler/.commits.txt 2>/dev/null || true; \
+			rm -f .distro_config .stable_log .head_commit_id 2>/dev/null || true; \
+			rm -f .dep_log .full_commits .user_log 2>/dev/null || true; \
+			rm -rf .torvalds-linux 2>/dev/null || true; \
+			rm -rf $(LOGS_DIR) 2>/dev/null || true; \
+			rm -rf $(PATCHES_DIR) 2>/dev/null || true; \
+			if [ -f "euler/.configure" ]; then \
+				LINUX_SRC=$$(grep "^LINUX_SRC_PATH=" euler/.configure | cut -d= -f2 | tr -d '"'); \
+				if [ -n "$$LINUX_SRC" ] && [ -d "$$LINUX_SRC" ]; then \
+					echo "  → Running make distclean in $$LINUX_SRC"; \
+					cd "$$LINUX_SRC" && make distclean > /dev/null 2>&1 || true; \
+					rm -rf "$$LINUX_SRC/openeuler/outputs" "$$LINUX_SRC/openeuler/output" 2>/dev/null || true; \
+					rm -f "$$LINUX_SRC/openeuler/kernel-rpms" "$$LINUX_SRC/openeuler/.deps_installed" 2>/dev/null || true; \
+					rm -rf "$$LINUX_SRC/euler/outputs" "$$LINUX_SRC/euler/output" 2>/dev/null || true; \
+					rm -f "$$LINUX_SRC/euler/kernel-rpms" "$$LINUX_SRC/euler/.deps_installed" 2>/dev/null || true; \
+					rm -f "$$LINUX_SRC/Module.symvers_old" 2>/dev/null || true; \
+					rm -f "$$LINUX_SRC/scripts/.check-kabi-updated" 2>/dev/null || true; \
+				fi; \
+				rm -f euler/.configure 2>/dev/null || true; \
+			fi; \
+			echo "  → openEuler complete cleanup done"; \
+		elif [ "$$DISTRO" = "anolis" ]; then \
+			echo "  → Complete OpenAnolis cleanup..."; \
+			rm -f .distro_config .head_commit_id 2>/dev/null || true; \
+			rm -rf $(LOGS_DIR) 2>/dev/null || true; \
+			rm -rf $(PATCHES_DIR) 2>/dev/null || true; \
+			if [ -f "anolis/.configure" ]; then \
+				LINUX_SRC=$$(grep "^LINUX_SRC_PATH=" anolis/.configure | cut -d= -f2 | tr -d '"'); \
+				if [ -n "$$LINUX_SRC" ] && [ -d "$$LINUX_SRC" ]; then \
+					echo "  → Running make distclean in $$LINUX_SRC"; \
+					cd "$$LINUX_SRC" && make distclean > /dev/null 2>&1 || true; \
+					rm -rf "$$LINUX_SRC/anolis/outputs" "$$LINUX_SRC/anolis/output" 2>/dev/null || true; \
+					rm -f "$$LINUX_SRC/anolis/cloud-kernel" "$$LINUX_SRC/anolis/.deps_installed" 2>/dev/null || true; \
+				fi; \
+				rm -f anolis/.configure 2>/dev/null || true; \
+			fi; \
+			echo "  → OpenAnolis complete cleanup done"; \
 		fi; \
-		rm -f $$DISTRO_DIR/.configure 2>/dev/null || true; \
+	else \
+		echo "  → No distribution configured, cleaning common artifacts only"; \
+		rm -rf $(LOGS_DIR) $(PATCHES_DIR) 2>/dev/null || true; \
+		rm -f .distro_config .head_commit_id .stable_log 2>/dev/null || true; \
+		rm -f .dep_log .full_commits .user_log 2>/dev/null || true; \
+		rm -rf .torvalds-linux 2>/dev/null || true; \
+		rm -f euler/.configure anolis/.configure 2>/dev/null || true; \
 	fi
-	@rm -rf $(LOGS_DIR) $(OUTPUTS_DIR) $(PATCHES_DIR)
-	@rm -f $(DISTRO_CONFIG) $(HEAD_ID_FILE)
 	@echo -e "$(GREEN)Complete cleanup done$(NC)"

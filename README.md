@@ -17,7 +17,8 @@ This tool automates distribution detection, configuration, patch application, an
 
 ## 📦 Supported Distributions
 - **OpenAnolis**
-- **OpenEuler** (`Implementing...`)
+- **OpenEuler**
+- **OpenCloud** (`🚧 Implementing...`)
 
 ---
 
@@ -39,7 +40,6 @@ cd patch-precheck-ci
 * `make clean`      - Remove logs/ and outputs/
 * `make reset`      - Reset git repo to saved HEAD
 * `make distclean`  - Remove all artifacts and configs
-* `make mrproper`   - Same as distclean
 
 ---
 
@@ -72,9 +72,3 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE](https://g
 **Hemanth Selam**
 - GitHub: [@SelamHemanth](https://github.com/SelamHemanth)
 - Email: Hemanth.Selam@amd.com
-
----
-
-## 📝 Note
-
-For **OpenEuler**, support is currently being implemented. Now it supports `make config`,`make build`&`make clean`. `make test` is being implemented now.

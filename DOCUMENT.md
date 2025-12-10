@@ -16,10 +16,11 @@ The Patch Pre-Check CI Tool is an automated testing framework designed to valida
 
 ## Supported Distributions
 
-| Distribution | Target Kernel         | Kernel Versions     | Architectures  | Boot Testing    |
-|--------------|-----------------------|---------------------|----------------|-----------------|
-| OpenAnolis   | ANCK (Cloud Kernel)   | Multiple LTS        | x86_64, aarch64| ✅ Full         |
-| openEuler    | openEuler Kernel      | Multiple LTS        | x86_64, aarch64| 🚧 Implementing |
+| Distribution | Target Kernel         | Kernel Versions     | Architectures  |
+|--------------|-----------------------|---------------------|----------------|
+| OpenAnolis   | cloud-kernel          | Multiple LTS        | x86_64         |
+| openEuler    | Kernel                | Multiple LTS        | x86_64         |
+| OpenCloud    | OpenCloudOS-Kernel    | Multiple LTS        | x86_64         |
 
 ## Installation & Setup
 
@@ -147,7 +148,6 @@ make test # Execute all tests
 | clean         | Remove logs/build outputs              |
 | reset         | Reset git to saved HEAD                |
 | distclean     | Remove all artifacts/config            |
-| mrproper      | Complete cleanup                       |
 | help          | Display usage info                     |
 
 ## Security Considerations
