@@ -119,7 +119,43 @@ test_check_kconfig() {
 
   echo "  → Checking kconfig..."
 
+  check_status=0
+
+  # Step 1: Run the original check
   if ARCH=${kernel_arch} make dist-configs-check > "${LOGS_DIR}/check_Kconfig.log" 2>&1; then
+	  echo "  → dist-configs-check passed" >> "${LOGS_DIR}/check_Kconfig.log"
+  else
+	  echo "  → dist-configs-check failed" >> "${LOGS_DIR}/check_Kconfig.log"
+	  check_status=1
+  fi
+
+  # Step 2: Run dist-configs-update and check git working tree cleanliness
+  echo "  → Running 'make dist-configs-update' to verify Kconfig baseline..." >> "${LOGS_DIR}/check_Kconfig.log"
+  make dist-configs-update >> "${LOGS_DIR}/check_Kconfig.log" 2>&1
+
+  # Capture git status output
+  git_status_output=$(git status --porcelain=v1 2>&1)
+  git_exit_code=$?
+
+  if [ $git_exit_code -ne 0 ]; then
+	  echo "  ERROR: 'git status' failed. Cannot verify working tree state." >> "${LOGS_DIR}/check_Kconfig.log"
+	  check_status=1
+  elif [ -n "$git_status_output" ]; then
+	  # Working tree is NOT clean
+	  echo "  ERROR: Kconfig baseline is outdated or inconsistent!" >> "${LOGS_DIR}/check_Kconfig.log"
+	  echo "  The following changes were detected after 'make dist-configs-update':" >> "${LOGS_DIR}/check_Kconfig.log"
+	  echo "$git_status_output" >> "${LOGS_DIR}/check_Kconfig.log"
+	  echo "" >> "${LOGS_DIR}/check_Kconfig.log"
+	  echo "  Please update the Kconfig baseline according to:" >> "${LOGS_DIR}/check_Kconfig.log"
+	  echo "     anolis/configs/How-To-Modify-Kconfig.zh.md" >> "${LOGS_DIR}/check_Kconfig.log"
+	  check_status=1
+  else
+	  # Working tree is clean
+	  echo "  → Kconfig baseline is consistent (working tree clean after update)." >> "${LOGS_DIR}/check_Kconfig.log"
+  fi
+
+  # Report results based on check_status
+  if [ $check_status -eq 0 ]; then
     pass "check_Kconfig"
   else
     fail "check_Kconfig" "dist-configs-check failed (see ${LOGS_DIR}/check_Kconfig.log)"
