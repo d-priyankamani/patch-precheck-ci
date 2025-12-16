@@ -104,6 +104,11 @@ else
   done
 fi
 
+# Initialize optional variables
+VM_IP=""
+VM_ROOT_PWD=""
+HOST_USER_PWD=""
+
 # VM Configuration for Boot Test
 if [[ "$TEST_BOOT_KERNEL" == "yes" ]]; then
   echo ""
