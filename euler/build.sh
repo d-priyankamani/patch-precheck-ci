@@ -57,16 +57,42 @@ if [ -z "${TOTAL_COMMITS}" ] || [ "${TOTAL_COMMITS}" -lt "${NUM_PATCHES}" ]; the
   echo -e "${RED}Repo has insufficient commits (${TOTAL_COMMITS}) for NUM_PATCHES=${NUM_PATCHES}${NC}" >&2
   exit 11
 fi
-# Function to extract upstream commit ID from patch
+# Function to extract and expand upstream commit ID from patch
 extract_upstream_commit() {
   local patch_file="$1"
+  local auto_update="${2:-true}"  # Auto-update patch file by default
+
   # Look for "commit <hash> upstream" pattern or just "commit <hash>"
-  local commit_id=$(grep -oP '(?<=commit )[a-f0-9]{40}(?= upstream)' "$patch_file" 2>/dev/null | head -1)
+  local commit_id=$(grep -oP '(?<=commit )[a-f0-9]{7,40}(?= upstream)' "$patch_file" 2>/dev/null | head -1)
   if [ -z "$commit_id" ]; then
-    commit_id=$(grep -oP '(?<=^commit )[a-f0-9]{40}' "$patch_file" 2>/dev/null | head -1)
+    commit_id=$(grep -oP '(?<=^commit )[a-f0-9]{7,40}' "$patch_file" 2>/dev/null | head -1)
   fi
+
+  # If commit ID found and it's less than 40 characters, expand it
+  if [ -n "$commit_id" ] && [ ${#commit_id} -lt 40 ]; then
+    local short_id="$commit_id"
+    local full_commit_id
+
+    cd "$TORVALDS_REPO" || return 1
+    full_commit_id=$(git rev-parse --verify "${commit_id}^{commit}" 2>/dev/null)
+    local git_exit_code=$?
+    cd - >/dev/null || return 1
+
+    if [ $git_exit_code -eq 0 ] && [ -n "$full_commit_id" ] && [ ${#full_commit_id} -eq 40 ]; then
+      commit_id="$full_commit_id"
+
+      # Update the patch file with full commit ID
+      if [ "$auto_update" = "true" ]; then
+        sed -i "s/${short_id}/${full_commit_id}/g" "$patch_file"
+      fi
+    else
+      echo -e "${YELLOW}  Warning: Could not expand short commit ID ${short_id} to full SHA${NC}" >&2
+    fi
+  fi
+
   echo "$commit_id"
 }
+
 # Function to get tag version from commit
 get_tag_version() {
   local commit_id="$1"
@@ -82,10 +108,11 @@ get_tag_version() {
   fi
   cd - >/dev/null
 }
+
 # Function to check if patch is KABI fix
 is_kabi_fix_patch() {
   local patch_file="$1"
-  local upstream_commit=$(extract_upstream_commit "${patch_file}")
+  local upstream_commit=$(extract_upstream_commit "${patch_file}" "false")
   local subject=$(grep "^Subject:" "${patch_file}" | head -1 | sed 's/^Subject: //')
   # Check if no upstream commit and subject contains KABI/kabi
   if [ -z "${upstream_commit}" ] && [[ "${subject}" =~ KABI|kabi|KAPI|kapi ]]; then
@@ -93,6 +120,7 @@ is_kabi_fix_patch() {
   fi
   return 1  # Not KABI fix
 }
+
 # Function to update check-kabi script (one-time operation)
 update_check_kabi_script() {
   local check_kabi_script="${LINUX_SRC_PATH}/scripts/check-kabi"
@@ -116,6 +144,7 @@ update_check_kabi_script() {
   touch "${kabi_marker}"
   echo -e "${GREEN}✓ check-kabi script updated${NC}"
 }
+
 # Function to perform KABI check
 check_kabi() {
   local patch_file="$1"
@@ -148,6 +177,7 @@ check_kabi() {
     return 0
   fi
 }
+
 # Save current HEAD id for later reset (full SHA)
 cd "${LINUX_SRC_PATH}"
 HEAD_ID="$(git rev-parse --verify HEAD)"
@@ -158,6 +188,7 @@ echo -e "${BLUE}Generating ${NUM_PATCHES} patches...${NC}"
 git -c core.quiet=true format-patch -${NUM_PATCHES} -o "${TMP_FORMAT_DIR}" "HEAD~${NUM_PATCHES}..HEAD" >/dev/null 2>&1 || {
   git format-patch -${NUM_PATCHES} -o "${TMP_FORMAT_DIR}" "HEAD~${NUM_PATCHES}..HEAD"
 }
+
 # Backup existing patches and move new ones
 mkdir -p "${BKP_DIR}"
 for ex in "${PATCHES_DIR}"/*.patch; do
@@ -167,10 +198,12 @@ done
 rm -f "${PATCHES_DIR}"/*.patch || true
 mv "${TMP_FORMAT_DIR}"/*.patch "${PATCHES_DIR}/" 2>/dev/null || true
 rm -rf "${TMP_FORMAT_DIR}"
+
 # Reset repo back by NUM_PATCHES commits so we can re-apply
 git reset --hard "HEAD~${NUM_PATCHES}" >/dev/null 2>&1 || true
 echo -e "${YELLOW}HEAD is now at $(git rev-parse --short HEAD) $(git log -1 --pretty=%s)${NC}"
 echo -e "${BLUE}Modifying patches with openEuler metadata and Signed-off-by tags...${NC}"
+
 # Modify patches in-place with required formatting
 for p in "${PATCHES_DIR}"/*.patch; do
   [ -f "${p}" ] || continue
@@ -215,7 +248,7 @@ for p in "${PATCHES_DIR}"/*.patch; do
         }
       }' "${p}" > "${p}.tmp" && mv "${p}.tmp" "${p}"
   else
-    # Extract upstream commit from patch content
+    # Extract upstream commit from patch content and expand if needed
     upstream_commit=$(extract_upstream_commit "${p}")
     if [ -n "$upstream_commit" ]; then
       # Get tag version from Torvalds repo
@@ -289,13 +322,16 @@ for p in "${PATCHES_DIR}"/*.patch; do
     }' "${p}" > "${p}.tmp" && mv "${p}.tmp" "${p}"
   fi
 done
+
 # Ensure repo clean
 if [ -n "$(git status --porcelain)" ]; then
   echo -e "${RED}Linux source tree is not clean. Commit or stash changes before running.${NC}" >&2
   exit 12
 fi
+
 git config user.name "${SIGNER_NAME}"
 git config user.email "${SIGNER_EMAIL}"
+
 # Collect patch filenames in lexical order
 mapfile -t PATCH_LIST < <(ls -1 "${PATCHES_DIR}"/*.patch 2>/dev/null || true)
 TOTAL_SELECTED="${#PATCH_LIST[@]}"
@@ -324,6 +360,7 @@ else
   echo -e "${YELLOW}⚠ Baseline build failed, KABI checks will be skipped${NC}"
 fi
 echo ""
+
 # Apply all patches and check KABI for each
 summary=()
 kabi_summary=()
@@ -386,32 +423,30 @@ for pf in "${PATCH_LIST[@]}"; do
   fi
   echo ""
 done
+
 # Final full build after all patches are applied
 echo ""
-echo -e "${BLUE}========================================${NC}"
-echo -e "${BLUE}All patches applied. Starting final build...${NC}"
-echo -e "${BLUE}========================================${NC}"
-echo ""
+echo -e "${YELLOW}All patches applied. Starting final build...${NC}"
 cd "${LINUX_SRC_PATH}"
 logfile="${LOGS_DIR}/final_build.log"
 echo "openEuler Final Build Log" > "${logfile}"
 echo "Build started at: $(date)" >> "${logfile}"
 echo "" >> "${logfile}"
-echo -e "${BLUE}Running: make clean${NC}"
+echo -e "${BLUE}Running: make clean${NC}" >> "${logfile}"
 make clean >> "${logfile}" 2>&1
-echo -e "${BLUE}Running: make openeuler_defconfig${NC}"
+echo -e "${BLUE}Running: make openeuler_defconfig${NC}" >> "${logfile}"
 if ! make openeuler_defconfig >> "${logfile}" 2>&1; then
   echo -e "${RED}✗ Configuration failed${NC}"
   echo -e "${YELLOW}Refer to the log: ${logfile}${NC}"
   exit 21
 fi
-echo -e "${BLUE}Running: make -j${BUILD_THREADS}${NC}"
+echo -e "${BLUE}Running: make -j${BUILD_THREADS}${NC}" >> "${logfile}"
 if ! make -j"${BUILD_THREADS}" >> "${logfile}" 2>&1; then
   echo -e "${RED}✗ Kernel build failed${NC}"
   echo -e "${YELLOW}Refer to the log: ${logfile}${NC}"
   exit 21
 fi
-echo -e "${BLUE}Running: make modules -j${BUILD_THREADS}${NC}"
+echo -e "${BLUE}Running: make modules -j${BUILD_THREADS}${NC}" >> "${logfile}"
 if ! make modules -j"${BUILD_THREADS}" >> "${logfile}" 2>&1; then
   echo -e "${RED}✗ Module build failed${NC}"
   echo -e "${YELLOW}Refer to the log: ${logfile}${NC}"
@@ -420,6 +455,7 @@ fi
 echo ""
 echo -e "${GREEN}✓ Final build completed successfully${NC}"
 echo ""
+
 # Final summary
 if [ ${kabi_failed} -eq 1 ]; then
   echo -e "${RED}⚠ Build completed but with KABI failures${NC}"
