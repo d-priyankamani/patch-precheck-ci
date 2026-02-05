@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/configfs/dir.c:709
+Symbol:
+func configfs_remove_default_groups (
+group * @"struct--config_group.txt"
+)
+"void"

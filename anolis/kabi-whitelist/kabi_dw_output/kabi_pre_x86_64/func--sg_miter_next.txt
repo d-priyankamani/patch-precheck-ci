@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/scatterlist.c:887
+Symbol:
+func sg_miter_next (
+miter * @"struct--sg_mapping_iter.txt"
+)
+@"typedef--bool.txt"

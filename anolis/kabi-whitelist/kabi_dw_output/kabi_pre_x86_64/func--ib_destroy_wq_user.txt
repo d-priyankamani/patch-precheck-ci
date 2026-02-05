@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2557
+Symbol:
+func ib_destroy_wq_user (
+wq * @"struct--ib_wq.txt"
+udata * @"struct--ib_udata.txt"
+)
+"int"

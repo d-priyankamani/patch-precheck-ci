@@ -1,0 +1,56 @@
+Version: 1.0
+File: include/linux/tty.h:193
+Symbol:
+Byte size 720
+Alignment 8
+struct tty_struct {
+0x0 kref @"struct--kref.txt"
+0x4 index "int"
+0x8 dev * @"struct--device.txt"
+0x10 driver * @"struct--tty_driver.txt"
+0x18 port * @"struct--tty_port.txt"
+0x20 ops * const @"struct--tty_operations.txt"
+0x28 ldisc * @"struct--tty_ldisc.txt"
+0x30 ldisc_sem @"struct--ld_semaphore.txt"
+0x60 atomic_write_lock @"struct--mutex.txt"
+0x80 legacy_mutex @"struct--mutex.txt"
+0xa0 throttle_mutex @"struct--mutex.txt"
+0xc0 termios_rwsem @"struct--rw_semaphore.txt"
+0xe8 winsize_mutex @"struct--mutex.txt"
+0x108 termios @"struct--ktermios.txt"
+0x134 termios_locked @"struct--ktermios.txt"
+0x160 name [64]"char"
+0x1a0 flags "long unsigned int"
+0x1a8 count "int"
+0x1ac receive_room "unsigned int"
+0x1b0 winsize @"struct--winsize.txt"
+0x1b8 8 flow struct (NULL) {
+0x0 lock @"typedef--spinlock_t.txt"
+0x4 stopped @"typedef--bool.txt"
+0x5 tco_stopped @"typedef--bool.txt"
+0x8 unused [0]"long unsigned int"
+}
+0x1c0 8 ctrl struct (NULL) {
+0x0 pgrp * @"struct--pid.txt"
+0x8 session * @"struct--pid.txt"
+0x10 lock @"typedef--spinlock_t.txt"
+0x14 pktstatus "unsigned char"
+0x15 packet @"typedef--bool.txt"
+0x18 unused [0]"long unsigned int"
+}
+0x1d8 hw_stopped @"typedef--bool.txt"
+0x1d9 closing @"typedef--bool.txt"
+0x1dc flow_change "int"
+0x1e0 link * @"struct--tty_struct.txt"
+0x1e8 fasync * @"struct--fasync_struct.txt"
+0x1f0 write_wait @"typedef--wait_queue_head_t.txt"
+0x208 read_wait @"typedef--wait_queue_head_t.txt"
+0x220 hangup_work @"struct--work_struct.txt"
+0x260 disc_data * "void"
+0x268 driver_data * "void"
+0x270 files_lock @"typedef--spinlock_t.txt"
+0x274 write_cnt "int"
+0x278 write_buf * "unsigned char"
+0x280 tty_files @"struct--list_head.txt"
+0x290 SAK_work @"struct--work_struct.txt"
+}

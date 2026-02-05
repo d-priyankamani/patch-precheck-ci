@@ -1,0 +1,54 @@
+Version: 1.0
+File: include/linux/filelock.h:39
+Symbol:
+Byte size 120
+struct lock_manager_operations {
+0x0 lm_mod_owner * "void"
+0x8 lm_get_owner * func (NULL) (
+(NULL) @"typedef--fl_owner_t.txt"
+)
+@"typedef--fl_owner_t.txt"
+0x10 lm_put_owner * func (NULL) (
+(NULL) @"typedef--fl_owner_t.txt"
+)
+"void"
+0x18 lm_notify * func (NULL) (
+(NULL) * @"struct--file_lock.txt"
+)
+"void"
+0x20 lm_grant * func (NULL) (
+(NULL) * @"struct--file_lock.txt"
+(NULL) "int"
+)
+"int"
+0x28 lm_break * func (NULL) (
+(NULL) * @"struct--file_lock.txt"
+)
+@"typedef--bool.txt"
+0x30 lm_change * func (NULL) (
+(NULL) * @"struct--file_lock.txt"
+(NULL) "int"
+(NULL) * @"struct--list_head.txt"
+)
+"int"
+0x38 lm_setup * func (NULL) (
+(NULL) * @"struct--file_lock.txt"
+(NULL) * * "void"
+)
+"void"
+0x40 lm_breaker_owns_lease * func (NULL) (
+(NULL) * @"struct--file_lock.txt"
+)
+@"typedef--bool.txt"
+0x48 lm_lock_expirable * func (NULL) (
+(NULL) * @"struct--file_lock.txt"
+)
+@"typedef--bool.txt"
+0x50 lm_expire_lock * func (NULL) (
+)
+"void"
+0x58 ck_reserved1 "long unsigned int"
+0x60 ck_reserved2 "long unsigned int"
+0x68 ck_reserved3 "long unsigned int"
+0x70 ck_reserved4 "long unsigned int"
+}

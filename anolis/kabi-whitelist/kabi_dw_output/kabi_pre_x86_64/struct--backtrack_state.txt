@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:596
+Symbol:
+Byte size 112
+struct backtrack_state {
+0x0 env * @"struct--bpf_verifier_env.txt"
+0x8 frame @"typedef--u32.txt"
+0xc reg_masks [8]@"typedef--u32.txt"
+0x30 stack_masks [8]@"typedef--u64.txt"
+}

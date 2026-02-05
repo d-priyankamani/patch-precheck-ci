@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/rdma/rdma_cm.h:90
+Symbol:
+Byte size 96
+struct rdma_cm_event {
+0x0 event @"enum--rdma_cm_event_type.txt"
+0x4 status "int"
+0x8 param union (NULL) {
+conn @"struct--rdma_conn_param.txt"
+ud @"struct--rdma_ud_param.txt"
+}
+0x58 ece @"struct--rdma_ucm_ece.txt"
+}

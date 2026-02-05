@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/freezer.c:62
+Symbol:
+func __refrigerator (
+check_kthr_stop @"typedef--bool.txt"
+)
+@"typedef--bool.txt"

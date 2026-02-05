@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/notifier.c:225
+Symbol:
+func atomic_notifier_call_chain (
+nh * @"struct--atomic_notifier_head.txt"
+val "long unsigned int"
+v * "void"
+)
+"int"

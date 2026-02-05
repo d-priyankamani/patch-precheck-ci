@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:1588
+Symbol:
+Byte size 16
+struct ethtool_fecparam {
+0x0 cmd @"typedef--__u32.txt"
+0x4 active_fec @"typedef--__u32.txt"
+0x8 fec @"typedef--__u32.txt"
+0xc reserved @"typedef--__u32.txt"
+}

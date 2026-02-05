@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/params.c:241
+Symbol:
+var param_ops_uint "void"

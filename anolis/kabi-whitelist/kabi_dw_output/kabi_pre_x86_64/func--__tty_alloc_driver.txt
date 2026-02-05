@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/tty/tty_io.c:3314
+Symbol:
+func __tty_alloc_driver (
+lines "unsigned int"
+owner * @"struct--module.txt"
+flags "long unsigned int"
+)
+* @"struct--tty_driver.txt"

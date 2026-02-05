@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/refcount.c:113
+Symbol:
+func refcount_dec_and_mutex_lock (
+r * @"typedef--refcount_t.txt"
+lock * @"struct--mutex.txt"
+)
+@"typedef--bool.txt"

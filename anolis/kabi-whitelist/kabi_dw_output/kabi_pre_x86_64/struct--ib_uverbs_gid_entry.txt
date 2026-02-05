@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/rdma/ib_user_ioctl_verbs.h:266
+Symbol:
+Byte size 32
+Alignment 8
+struct ib_uverbs_gid_entry {
+0x0 8 gid [2]@"typedef--__u64.txt"
+0x10 gid_index @"typedef--__u32.txt"
+0x14 port_num @"typedef--__u32.txt"
+0x18 gid_type @"typedef--__u32.txt"
+0x1c netdev_ifindex @"typedef--__u32.txt"
+}

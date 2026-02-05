@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/char/random.c:535
+Symbol:
+func __get_random_u32_below (
+ceil @"typedef--u32.txt"
+)
+@"typedef--u32.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/bsg-lib.h:20
+Symbol:
+Byte size 4
+typedef bsg_job_fn
+func (NULL) (
+(NULL) * @"struct--bsg_job.txt"
+)
+"int"

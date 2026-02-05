@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/proc/generic.c:517
+Symbol:
+func proc_mkdir (
+name * const "char"
+parent * @"struct--proc_dir_entry.txt"
+)
+* @"struct--proc_dir_entry.txt"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: lib/xarray.c:1878
+Symbol:
+func __xa_alloc_cyclic (
+xa * @"struct--xarray.txt"
+id * @"typedef--u32.txt"
+entry * "void"
+limit @"struct--xa_limit.txt"
+next * @"typedef--u32.txt"
+gfp @"typedef--gfp_t.txt"
+)
+"int"

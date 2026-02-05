@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modes.c:74
+Symbol:
+func drm_mode_create (
+dev * @"struct--drm_device.txt"
+)
+* @"struct--drm_display_mode.txt"

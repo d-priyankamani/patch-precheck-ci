@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/devlink/health.c:593
+Symbol:
+func devlink_health_report (
+reporter * @"struct--devlink_health_reporter.txt"
+msg * const "char"
+priv_ctx * "void"
+)
+"int"

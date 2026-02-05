@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/ip_fib.h:253
+Symbol:
+Byte size 48
+Alignment 8
+struct fib_table {
+0x0 tb_hlist @"struct--hlist_node.txt"
+0x10 tb_id @"typedef--u32.txt"
+0x14 tb_num_default "int"
+0x18 8 rcu @"struct--callback_head.txt"
+0x28 tb_data * "long unsigned int"
+0x30 __data [0]"long unsigned int"
+}

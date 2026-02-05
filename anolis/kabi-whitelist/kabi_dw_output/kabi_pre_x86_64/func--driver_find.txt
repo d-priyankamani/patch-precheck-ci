@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/bus.c:1321
+Symbol:
+func driver_find (
+name * const "char"
+bus * const @"struct--bus_type.txt"
+)
+* @"struct--device_driver.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/pci.c:1923
+Symbol:
+Byte size 64
+struct pci_saved_state {
+0x0 config_space [16]@"typedef--u32.txt"
+0x40 cap [0]@"struct--pci_cap_saved_data.txt"
+}

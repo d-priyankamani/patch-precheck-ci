@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/page_alloc.c:5276
+Symbol:
+func free_pages_exact (
+virt * "void"
+size @"typedef--size_t.txt"
+)
+"void"

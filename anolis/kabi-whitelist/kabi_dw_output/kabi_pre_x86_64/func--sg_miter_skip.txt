@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/scatterlist.c:851
+Symbol:
+func sg_miter_skip (
+miter * @"struct--sg_mapping_iter.txt"
+offset @"typedef--off_t.txt"
+)
+@"typedef--bool.txt"

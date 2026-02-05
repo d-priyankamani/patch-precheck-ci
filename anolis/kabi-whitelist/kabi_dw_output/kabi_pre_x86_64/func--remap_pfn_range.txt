@@ -1,0 +1,11 @@
+Version: 1.0
+File: mm/memory.c:2973
+Symbol:
+func remap_pfn_range (
+vma * @"struct--vm_area_struct.txt"
+addr "long unsigned int"
+pfn "long unsigned int"
+size "long unsigned int"
+prot @"typedef--pgprot_t.txt"
+)
+"int"

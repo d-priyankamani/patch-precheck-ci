@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:268
+Symbol:
+Byte size 4
+struct acpi_device_power_flags {
+0x0:0-1 explicit_get @"typedef--u32.txt"
+0x0:1-2 power_resources @"typedef--u32.txt"
+0x0:2-3 inrush_current @"typedef--u32.txt"
+0x0:3-4 power_removed @"typedef--u32.txt"
+0x0:4-5 ignore_parent @"typedef--u32.txt"
+0x0:5-6 dsw_present @"typedef--u32.txt"
+0x0:6-32 reserved @"typedef--u32.txt"
+}

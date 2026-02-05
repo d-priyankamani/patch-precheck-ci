@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/udp_tunnel.h:118
+Symbol:
+Byte size 8
+struct udp_tunnel_info {
+0x0 type "short unsigned int"
+0x2 sa_family @"typedef--sa_family_t.txt"
+0x4 port @"typedef--__be16.txt"
+0x6 hw_priv @"typedef--u8.txt"
+}

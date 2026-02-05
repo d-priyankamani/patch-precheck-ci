@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ipv6/addrconf_core.c:38
+Symbol:
+func __ipv6_addr_type (
+addr * const @"struct--in6_addr.txt"
+)
+"int"

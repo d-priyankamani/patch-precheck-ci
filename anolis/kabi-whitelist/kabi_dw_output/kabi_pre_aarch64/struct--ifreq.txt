@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/uapi/linux/if.h:234
+Symbol:
+Byte size 40
+struct ifreq {
+0x0 ifr_ifrn union (NULL) {
+ifrn_name [16]"char"
+}
+0x10 ifr_ifru union (NULL) {
+ifru_addr @"struct--sockaddr.txt"
+ifru_dstaddr @"struct--sockaddr.txt"
+ifru_broadaddr @"struct--sockaddr.txt"
+ifru_netmask @"struct--sockaddr.txt"
+ifru_hwaddr @"struct--sockaddr.txt"
+ifru_flags "short int"
+ifru_ivalue "int"
+ifru_mtu "int"
+ifru_map @"struct--ifmap.txt"
+ifru_slave [16]"char"
+ifru_newname [16]"char"
+ifru_data * "void"
+ifru_settings @"struct--if_settings.txt"
+}
+}

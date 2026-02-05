@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/fs.h:217
+Symbol:
+Byte size 80
+struct iattr {
+0x0 ia_valid "unsigned int"
+0x4 ia_mode @"typedef--umode_t.txt"
+0x8 (NULL) union (NULL) {
+ia_uid @"typedef--kuid_t.txt"
+ia_vfsuid @"typedef--vfsuid_t.txt"
+}
+0xc (NULL) union (NULL) {
+ia_gid @"typedef--kgid_t.txt"
+ia_vfsgid @"typedef--vfsgid_t.txt"
+}
+0x10 ia_size @"typedef--loff_t.txt"
+0x18 ia_atime @"struct--timespec64.txt"
+0x28 ia_mtime @"struct--timespec64.txt"
+0x38 ia_ctime @"struct--timespec64.txt"
+0x48 ia_file * @"struct--file.txt"
+}

@@ -1,0 +1,17 @@
+Version: 1.0
+File: net/devlink/devl_internal.h:213
+Symbol:
+Byte size 120
+struct devlink_linecard {
+0x0 list @"struct--list_head.txt"
+0x10 devlink * @"struct--devlink.txt"
+0x18 index "unsigned int"
+0x20 ops * const @"struct--devlink_linecard_ops.txt"
+0x28 priv * "void"
+0x30 state @"enum--devlink_linecard_state.txt"
+0x38 state_lock @"struct--mutex.txt"
+0x58 type * const "char"
+0x60 types * @"<declarations>/struct--devlink_linecard_type.txt"
+0x68 types_count "unsigned int"
+0x70 nested_devlink * @"struct--devlink.txt"
+}

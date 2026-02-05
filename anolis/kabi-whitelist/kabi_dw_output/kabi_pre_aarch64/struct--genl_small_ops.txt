@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/net/genetlink.h:169
+Symbol:
+Byte size 24
+struct genl_small_ops {
+0x0 doit * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--genl_info.txt"
+)
+"int"
+0x8 dumpit * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--netlink_callback.txt"
+)
+"int"
+0x10 cmd @"typedef--u8.txt"
+0x11 internal_flags @"typedef--u8.txt"
+0x12 flags @"typedef--u8.txt"
+0x13 validate @"typedef--u8.txt"
+}

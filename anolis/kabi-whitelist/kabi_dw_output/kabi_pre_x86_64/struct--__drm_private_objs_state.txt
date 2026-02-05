@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/drm_atomic.h:347
+Symbol:
+Byte size 32
+struct __drm_private_objs_state {
+0x0 ptr * @"struct--drm_private_obj.txt"
+0x8 state * @"struct--drm_private_state.txt"
+0x10 old_state * @"struct--drm_private_state.txt"
+0x18 new_state * @"struct--drm_private_state.txt"
+}

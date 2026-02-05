@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/string.c:421
+Symbol:
+func strlen (
+s * const "char"
+)
+@"typedef--size_t.txt"

@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/linux/sysctl.h:204
+Symbol:
+Byte size 120
+Alignment 8
+struct ctl_table_root {
+0x0 8 default_set @"struct--ctl_table_set.txt"
+0x60 lookup * func (NULL) (
+(NULL) * @"struct--ctl_table_root.txt"
+)
+* @"struct--ctl_table_set.txt"
+0x68 set_ownership * func (NULL) (
+(NULL) * @"struct--ctl_table_header.txt"
+(NULL) * @"typedef--kuid_t.txt"
+(NULL) * @"typedef--kgid_t.txt"
+)
+"void"
+0x70 permissions * func (NULL) (
+(NULL) * @"struct--ctl_table_header.txt"
+(NULL) * @"struct--ctl_table.txt"
+)
+"int"
+}

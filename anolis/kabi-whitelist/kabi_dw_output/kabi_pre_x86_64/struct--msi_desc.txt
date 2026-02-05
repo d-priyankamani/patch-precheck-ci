@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/linux/msi.h:183
+Symbol:
+Byte size 112
+struct msi_desc {
+0x0 irq "unsigned int"
+0x4 nvec_used "unsigned int"
+0x8 dev * @"struct--device.txt"
+0x10 msg @"struct--msi_msg.txt"
+0x20 affinity * @"struct--irq_affinity_desc.txt"
+0x28 sysfs_attrs * @"struct--device_attribute.txt"
+0x30 write_msi_msg * func (NULL) (
+(NULL) * @"struct--msi_desc.txt"
+(NULL) * "void"
+)
+"void"
+0x38 write_msi_msg_data * "void"
+0x40 msi_index @"typedef--u16.txt"
+0x48 (NULL) union (NULL) {
+pci @"struct--pci_msi_desc.txt"
+data @"struct--msi_desc_data.txt"
+}
+0x60 ck_reserved1 "long unsigned int"
+0x68 ck_reserved2 "long unsigned int"
+}

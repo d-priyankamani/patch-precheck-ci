@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/pid.c:489
+Symbol:
+func pid_vnr (
+pid * @"struct--pid.txt"
+)
+@"typedef--pid_t.txt"

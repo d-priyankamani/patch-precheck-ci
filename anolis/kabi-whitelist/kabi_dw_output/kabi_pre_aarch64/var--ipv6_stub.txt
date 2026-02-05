@@ -1,0 +1,4 @@
+Version: 1.0
+File: net/ipv6/addrconf_core.c:207
+Symbol:
+var ipv6_stub "void"

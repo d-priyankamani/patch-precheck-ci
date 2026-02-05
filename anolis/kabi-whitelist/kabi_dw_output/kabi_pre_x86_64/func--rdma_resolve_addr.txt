@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:4107
+Symbol:
+func rdma_resolve_addr (
+id * @"struct--rdma_cm_id.txt"
+src_addr * @"struct--sockaddr.txt"
+dst_addr * const @"struct--sockaddr.txt"
+timeout_ms "long unsigned int"
+)
+"int"

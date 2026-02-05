@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/sched/cpudeadline.h:5
+Symbol:
+Byte size 16
+struct cpudl_item {
+0x0 dl @"typedef--u64.txt"
+0x8 cpu "int"
+0xc idx "int"
+}

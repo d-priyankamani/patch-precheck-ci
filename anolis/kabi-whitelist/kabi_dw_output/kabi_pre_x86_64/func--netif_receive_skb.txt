@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:5849
+Symbol:
+func netif_receive_skb (
+skb * @"struct--sk_buff.txt"
+)
+"int"

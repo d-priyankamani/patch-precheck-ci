@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/memory.c:2471
+Symbol:
+func vm_insert_page (
+vma * @"struct--vm_area_struct.txt"
+addr "long unsigned int"
+page * @"struct--page.txt"
+)
+"int"

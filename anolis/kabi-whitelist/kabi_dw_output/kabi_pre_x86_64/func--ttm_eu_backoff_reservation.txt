@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_execbuf_util.c:42
+Symbol:
+func ttm_eu_backoff_reservation (
+ticket * @"struct--ww_acquire_ctx.txt"
+list * @"struct--list_head.txt"
+)
+"void"

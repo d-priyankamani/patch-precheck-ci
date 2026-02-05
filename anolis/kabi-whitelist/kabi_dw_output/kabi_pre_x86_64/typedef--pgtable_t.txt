@@ -1,0 +1,6 @@
+Version: 1.0
+File: arch/x86/include/asm/pgtable_types.h:520
+Symbol:
+Byte size 8
+typedef pgtable_t
+* @"struct--page.txt"

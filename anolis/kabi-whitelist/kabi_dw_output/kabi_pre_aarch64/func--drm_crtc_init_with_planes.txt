@@ -1,0 +1,13 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_crtc.c:354
+Symbol:
+func drm_crtc_init_with_planes (
+dev * @"struct--drm_device.txt"
+crtc * @"struct--drm_crtc.txt"
+primary * @"struct--drm_plane.txt"
+cursor * @"struct--drm_plane.txt"
+funcs * const @"struct--drm_crtc_funcs.txt"
+name * const "char"
+(NULL) ...
+)
+"int"

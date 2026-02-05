@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:11000
+Symbol:
+func unregister_netdevice_queue (
+dev * @"struct--net_device.txt"
+head * @"struct--list_head.txt"
+)
+"void"

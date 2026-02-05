@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/bpf.h:1413
+Symbol:
+Byte size 56
+struct bpf_jit_poke_descriptor {
+0x0 tailcall_target * "void"
+0x8 tailcall_bypass * "void"
+0x10 bypass_addr * "void"
+0x18 aux * "void"
+0x20 (NULL) union (NULL) {
+tail_call struct (NULL) {
+0x0 map * @"struct--bpf_map.txt"
+0x8 key @"typedef--u32.txt"
+}
+}
+0x30 tailcall_target_stable @"typedef--bool.txt"
+0x31 adj_off @"typedef--u8.txt"
+0x32 reason @"typedef--u16.txt"
+0x34 insn_idx @"typedef--u32.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/xarray.c:2030
+Symbol:
+func xa_find (
+xa * @"struct--xarray.txt"
+indexp * "long unsigned int"
+max "long unsigned int"
+filter @"typedef--xa_mark_t.txt"
+)
+* "void"

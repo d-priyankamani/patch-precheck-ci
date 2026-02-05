@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/fortify-string.h:771
+Symbol:
+func kmemdup (
+p const * const "void"
+size @"typedef--size_t.txt"
+gfp @"typedef--gfp_t.txt"
+)
+* "void"

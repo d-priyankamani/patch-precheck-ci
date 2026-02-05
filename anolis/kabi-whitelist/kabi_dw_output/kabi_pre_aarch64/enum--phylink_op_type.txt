@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/phylink.h:195
+Symbol:
+Byte size 4
+enum phylink_op_type {
+PHYLINK_NETDEV = 0x0
+PHYLINK_DEV = 0x1
+}

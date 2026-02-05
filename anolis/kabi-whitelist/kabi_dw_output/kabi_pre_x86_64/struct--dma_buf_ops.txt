@@ -1,0 +1,65 @@
+Version: 1.0
+File: include/linux/dma-buf.h:36
+Symbol:
+Byte size 104
+struct dma_buf_ops {
+0x0 cache_sgt_mapping @"typedef--bool.txt"
+0x8 attach * func (NULL) (
+(NULL) * @"struct--dma_buf.txt"
+(NULL) * @"struct--dma_buf_attachment.txt"
+)
+"int"
+0x10 detach * func (NULL) (
+(NULL) * @"struct--dma_buf.txt"
+(NULL) * @"struct--dma_buf_attachment.txt"
+)
+"void"
+0x18 pin * func (NULL) (
+(NULL) * @"struct--dma_buf_attachment.txt"
+)
+"int"
+0x20 unpin * func (NULL) (
+(NULL) * @"struct--dma_buf_attachment.txt"
+)
+"void"
+0x28 map_dma_buf * func (NULL) (
+(NULL) * @"struct--dma_buf_attachment.txt"
+(NULL) @"enum--dma_data_direction.txt"
+)
+* @"struct--sg_table.txt"
+0x30 unmap_dma_buf * func (NULL) (
+(NULL) * @"struct--dma_buf_attachment.txt"
+(NULL) * @"struct--sg_table.txt"
+(NULL) @"enum--dma_data_direction.txt"
+)
+"void"
+0x38 release * func (NULL) (
+(NULL) * @"struct--dma_buf.txt"
+)
+"void"
+0x40 begin_cpu_access * func (NULL) (
+(NULL) * @"struct--dma_buf.txt"
+(NULL) @"enum--dma_data_direction.txt"
+)
+"int"
+0x48 end_cpu_access * func (NULL) (
+(NULL) * @"struct--dma_buf.txt"
+(NULL) @"enum--dma_data_direction.txt"
+)
+"int"
+0x50 mmap * func (NULL) (
+(NULL) * @"struct--dma_buf.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+0x58 vmap * func (NULL) (
+(NULL) * @"struct--dma_buf.txt"
+(NULL) * @"struct--iosys_map.txt"
+)
+"int"
+0x60 vunmap * func (NULL) (
+(NULL) * @"struct--dma_buf.txt"
+(NULL) * @"struct--iosys_map.txt"
+)
+"void"
+}

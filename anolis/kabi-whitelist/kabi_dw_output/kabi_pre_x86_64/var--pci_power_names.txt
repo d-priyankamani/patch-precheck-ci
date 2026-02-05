@@ -1,0 +1,5 @@
+Version: 1.0
+File: drivers/pci/pci.c:42
+Symbol:
+Byte size 56
+var pci_power_names [7]* const "char"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/jump_label.h:359
+Symbol:
+Byte size 16
+struct static_key_true {
+0x0 key @"struct--static_key.txt"
+}

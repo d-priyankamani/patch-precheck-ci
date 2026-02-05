@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/net/netfilter/nf_conntrack.h:75
+Symbol:
+Byte size 264
+struct nf_conn {
+0x0 ct_general @"struct--nf_conntrack.txt"
+0x4 lock @"typedef--spinlock_t.txt"
+0x8 timeout @"typedef--u32.txt"
+0xc zone @"struct--nf_conntrack_zone.txt"
+0x10 tuplehash [2]@"struct--nf_conntrack_tuple_hash.txt"
+0x80 status "long unsigned int"
+0x88 ct_net @"typedef--possible_net_t.txt"
+0x90 nat_bysource @"struct--hlist_node.txt"
+0xa0 __nfct_init_offset struct (NULL) {
+}
+0xa0 master * @"struct--nf_conn.txt"
+0xa8 mark @"typedef--u_int32_t.txt"
+0xac secmark @"typedef--u_int32_t.txt"
+0xb0 ext * @"struct--nf_ct_ext.txt"
+0xb8 proto @"union--nf_conntrack_proto.txt"
+0xf8 ck_reserved1 "long unsigned int"
+0x100 ck_reserved2 "long unsigned int"
+}

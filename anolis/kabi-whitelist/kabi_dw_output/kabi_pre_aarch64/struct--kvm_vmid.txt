@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:140
+Symbol:
+Byte size 8
+struct kvm_vmid {
+0x0 id @"typedef--atomic64_t.txt"
+}

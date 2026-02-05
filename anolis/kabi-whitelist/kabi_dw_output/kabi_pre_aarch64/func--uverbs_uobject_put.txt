@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/rdma_core.c:55
+Symbol:
+func uverbs_uobject_put (
+uobject * @"struct--ib_uobject.txt"
+)
+"void"

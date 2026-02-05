@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/fb.h:54
+Symbol:
+Byte size 32
+struct fb_chroma {
+0x0 redx @"typedef--__u32.txt"
+0x4 greenx @"typedef--__u32.txt"
+0x8 bluex @"typedef--__u32.txt"
+0xc whitex @"typedef--__u32.txt"
+0x10 redy @"typedef--__u32.txt"
+0x14 greeny @"typedef--__u32.txt"
+0x18 bluey @"typedef--__u32.txt"
+0x1c whitey @"typedef--__u32.txt"
+}

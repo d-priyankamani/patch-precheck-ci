@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/trace/trace_event_perf.c:398
+Symbol:
+func perf_trace_buf_alloc (
+size "int"
+regs * * @"struct--pt_regs.txt"
+rctxp * "int"
+)
+* "void"

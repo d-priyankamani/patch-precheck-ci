@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/cm.c:3088
+Symbol:
+func ib_send_cm_mra (
+cm_id * @"struct--ib_cm_id.txt"
+service_timeout @"typedef--u8.txt"
+private_data * const "void"
+private_data_len @"typedef--u8.txt"
+)
+"int"

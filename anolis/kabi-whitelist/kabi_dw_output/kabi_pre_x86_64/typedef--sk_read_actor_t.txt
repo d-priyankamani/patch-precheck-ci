@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/net.h:156
+Symbol:
+Byte size 8
+typedef sk_read_actor_t
+* func (NULL) (
+(NULL) * @"typedef--read_descriptor_t.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--size_t.txt"
+)
+"int"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:203
+Symbol:
+Byte size 24
+struct ib_cm_apr_event_param {
+0x0 ap_status @"enum--ib_cm_apr_status.txt"
+0x8 apr_info * "void"
+0x10 info_len @"typedef--u8.txt"
+}

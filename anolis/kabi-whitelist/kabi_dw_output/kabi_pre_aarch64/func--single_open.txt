@@ -1,0 +1,13 @@
+Version: 1.0
+File: fs/seq_file.c:572
+Symbol:
+func single_open (
+file * @"struct--file.txt"
+show * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+)
+"int"
+data * "void"
+)
+"int"

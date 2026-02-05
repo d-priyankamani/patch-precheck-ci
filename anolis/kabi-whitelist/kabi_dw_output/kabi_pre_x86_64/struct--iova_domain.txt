@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/iova.h:28
+Symbol:
+Byte size 128
+Alignment 8
+struct iova_domain {
+0x0 iova_rbtree_lock @"typedef--spinlock_t.txt"
+0x8 rbroot @"struct--rb_root.txt"
+0x10 cached_node * @"struct--rb_node.txt"
+0x18 cached32_node * @"struct--rb_node.txt"
+0x20 granule "long unsigned int"
+0x28 start_pfn "long unsigned int"
+0x30 dma_32bit_pfn "long unsigned int"
+0x38 max32_alloc_size "long unsigned int"
+0x40 8 anchor @"struct--iova.txt"
+0x68 rcaches * @"struct--iova_rcache.txt"
+0x70 cpuhp_dead @"struct--hlist_node.txt"
+}

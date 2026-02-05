@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/rdma_cm.h:109
+Symbol:
+Byte size 8
+typedef rdma_cm_event_handler
+* func (NULL) (
+(NULL) * @"struct--rdma_cm_id.txt"
+(NULL) * @"struct--rdma_cm_event.txt"
+)
+"int"

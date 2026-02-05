@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/mm/pgprot.c:35
+Symbol:
+func vm_get_page_prot (
+vm_flags "long unsigned int"
+)
+@"typedef--pgprot_t.txt"

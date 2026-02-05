@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_print.c:243
+Symbol:
+func drm_print_bits (
+p * @"struct--drm_printer.txt"
+value "long unsigned int"
+bits * const * const "char"
+nbits "unsigned int"
+)
+"void"

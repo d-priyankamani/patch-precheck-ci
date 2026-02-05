@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/restart_block.h:16
+Symbol:
+Byte size 4
+enum timespec_type {
+TT_NONE = 0x0
+TT_NATIVE = 0x1
+TT_COMPAT = 0x2
+}

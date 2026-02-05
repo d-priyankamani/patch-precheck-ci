@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/search.c:351
+Symbol:
+func pci_get_class (
+class "unsigned int"
+from * @"struct--pci_dev.txt"
+)
+* @"struct--pci_dev.txt"

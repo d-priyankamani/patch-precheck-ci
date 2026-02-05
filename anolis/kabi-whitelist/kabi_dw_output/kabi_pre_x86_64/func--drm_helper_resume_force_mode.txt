@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_crtc_helper.c:978
+Symbol:
+func drm_helper_resume_force_mode (
+dev * @"struct--drm_device.txt"
+)
+"void"

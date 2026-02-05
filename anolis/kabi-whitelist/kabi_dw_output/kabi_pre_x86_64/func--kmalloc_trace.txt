@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/slab_common.c:1344
+Symbol:
+func kmalloc_trace (
+s * @"struct--kmem_cache.txt"
+gfpflags @"typedef--gfp_t.txt"
+size @"typedef--size_t.txt"
+)
+* "void"

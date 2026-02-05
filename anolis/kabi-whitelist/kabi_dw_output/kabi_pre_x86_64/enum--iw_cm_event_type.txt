@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/iw_cm.h:15
+Symbol:
+Byte size 4
+enum iw_cm_event_type {
+IW_CM_EVENT_CONNECT_REQUEST = 0x1
+IW_CM_EVENT_CONNECT_REPLY = 0x2
+IW_CM_EVENT_ESTABLISHED = 0x3
+IW_CM_EVENT_DISCONNECT = 0x4
+IW_CM_EVENT_CLOSE = 0x5
+}

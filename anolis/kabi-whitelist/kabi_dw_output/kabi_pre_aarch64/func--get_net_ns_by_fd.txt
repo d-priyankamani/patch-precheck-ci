@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/net_namespace.c:723
+Symbol:
+func get_net_ns_by_fd (
+fd "int"
+)
+* @"struct--net.txt"

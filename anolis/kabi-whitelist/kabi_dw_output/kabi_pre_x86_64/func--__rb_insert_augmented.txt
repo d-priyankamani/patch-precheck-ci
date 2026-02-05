@@ -1,0 +1,13 @@
+Version: 1.0
+File: lib/rbtree.c:456
+Symbol:
+func __rb_insert_augmented (
+node * @"struct--rb_node.txt"
+root * @"struct--rb_root.txt"
+augment_rotate * func (NULL) (
+(NULL) * @"struct--rb_node.txt"
+(NULL) * @"struct--rb_node.txt"
+)
+"void"
+)
+"void"

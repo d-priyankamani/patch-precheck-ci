@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/property.h:30
+Symbol:
+Byte size 4
+enum dev_dma_attr {
+DEV_DMA_NOT_SUPPORTED = 0x0
+DEV_DMA_NON_COHERENT = 0x1
+DEV_DMA_COHERENT = 0x2
+}

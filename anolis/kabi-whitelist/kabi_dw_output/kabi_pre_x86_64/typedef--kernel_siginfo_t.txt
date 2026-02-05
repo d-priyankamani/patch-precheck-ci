@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/signal_types.h:14
+Symbol:
+typedef kernel_siginfo_t
+@"struct--kernel_siginfo.txt"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: mm/mmu_notifier.c:987
+Symbol:
+func mmu_interval_notifier_insert (
+interval_sub * @"struct--mmu_interval_notifier.txt"
+mm * @"struct--mm_struct.txt"
+start "long unsigned int"
+length "long unsigned int"
+ops * const @"struct--mmu_interval_notifier_ops.txt"
+)
+"int"

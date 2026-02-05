@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/dim.h:144
+Symbol:
+Byte size 152
+struct dim {
+0x0 state @"typedef--u8.txt"
+0x4 prev_stats @"struct--dim_stats.txt"
+0x18 start_sample @"struct--dim_sample.txt"
+0x30 measuring_sample @"struct--dim_sample.txt"
+0x48 work @"struct--work_struct.txt"
+0x88 priv * "void"
+0x90 profile_ix @"typedef--u8.txt"
+0x91 mode @"typedef--u8.txt"
+0x92 tune_state @"typedef--u8.txt"
+0x93 steps_right @"typedef--u8.txt"
+0x94 steps_left @"typedef--u8.txt"
+0x95 tired @"typedef--u8.txt"
+}

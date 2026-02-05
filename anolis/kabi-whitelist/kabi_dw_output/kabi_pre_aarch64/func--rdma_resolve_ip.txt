@@ -1,0 +1,19 @@
+Version: 1.0
+File: drivers/infiniband/core/addr.c:663
+Symbol:
+func rdma_resolve_ip (
+src_addr * @"struct--sockaddr.txt"
+dst_addr * const @"struct--sockaddr.txt"
+addr * @"struct--rdma_dev_addr.txt"
+timeout_ms "long unsigned int"
+callback * func (NULL) (
+(NULL) "int"
+(NULL) * @"struct--sockaddr.txt"
+(NULL) * @"struct--rdma_dev_addr.txt"
+(NULL) * "void"
+)
+"void"
+resolve_by_gid_attr @"typedef--bool.txt"
+context * "void"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/arm64/include/asm/insn.h:709
+Symbol:
+typedef pstate_check_t
+func (NULL) (
+(NULL) "long unsigned int"
+)
+@"typedef--bool.txt"

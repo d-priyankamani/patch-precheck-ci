@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:181
+Symbol:
+struct kvm_arch_memory_slot {
+}

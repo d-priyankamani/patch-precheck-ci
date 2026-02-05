@@ -1,0 +1,42 @@
+Version: 1.0
+File: include/acpi/actypes.h:908
+Symbol:
+Byte size 24
+union acpi_object {
+type @"typedef--acpi_object_type.txt"
+integer struct (NULL) {
+0x0 type @"typedef--acpi_object_type.txt"
+0x8 value @"typedef--u64.txt"
+}
+string struct (NULL) {
+0x0 type @"typedef--acpi_object_type.txt"
+0x4 length @"typedef--u32.txt"
+0x8 pointer * "char"
+}
+buffer struct (NULL) {
+0x0 type @"typedef--acpi_object_type.txt"
+0x4 length @"typedef--u32.txt"
+0x8 pointer * @"typedef--u8.txt"
+}
+package struct (NULL) {
+0x0 type @"typedef--acpi_object_type.txt"
+0x4 count @"typedef--u32.txt"
+0x8 elements * @"union--acpi_object.txt"
+}
+reference struct (NULL) {
+0x0 type @"typedef--acpi_object_type.txt"
+0x4 actual_type @"typedef--acpi_object_type.txt"
+0x8 handle @"typedef--acpi_handle.txt"
+}
+processor struct (NULL) {
+0x0 type @"typedef--acpi_object_type.txt"
+0x4 proc_id @"typedef--u32.txt"
+0x8 pblk_address @"typedef--acpi_io_address.txt"
+0x10 pblk_length @"typedef--u32.txt"
+}
+power_resource struct (NULL) {
+0x0 type @"typedef--acpi_object_type.txt"
+0x4 system_level @"typedef--u32.txt"
+0x8 resource_order @"typedef--u32.txt"
+}
+}

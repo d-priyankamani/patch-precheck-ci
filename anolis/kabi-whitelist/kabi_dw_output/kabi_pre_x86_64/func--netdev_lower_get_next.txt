@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:7230
+Symbol:
+func netdev_lower_get_next (
+dev * @"struct--net_device.txt"
+iter * * @"struct--list_head.txt"
+)
+* "void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo_vm.c:360
+Symbol:
+func ttm_bo_vm_close (
+vma * @"struct--vm_area_struct.txt"
+)
+"void"

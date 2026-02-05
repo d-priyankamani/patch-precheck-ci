@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/request_sock.h:44
+Symbol:
+Byte size 12
+struct saved_syn {
+0x0 mac_hdrlen @"typedef--u32.txt"
+0x4 network_hdrlen @"typedef--u32.txt"
+0x8 tcp_hdrlen @"typedef--u32.txt"
+0xc data [0]@"typedef--u8.txt"
+}

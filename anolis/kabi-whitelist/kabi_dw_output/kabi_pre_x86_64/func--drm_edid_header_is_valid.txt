@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:1759
+Symbol:
+func drm_edid_header_is_valid (
+_edid * const "void"
+)
+"int"

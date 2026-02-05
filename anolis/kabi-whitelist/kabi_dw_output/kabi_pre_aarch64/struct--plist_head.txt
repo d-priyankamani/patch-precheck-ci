@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/plist.h:82
+Symbol:
+Byte size 16
+struct plist_head {
+0x0 node_list @"struct--list_head.txt"
+}

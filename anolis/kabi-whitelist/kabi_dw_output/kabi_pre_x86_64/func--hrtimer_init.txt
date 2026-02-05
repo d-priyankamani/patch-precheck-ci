@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/time/hrtimer.c:1659
+Symbol:
+func hrtimer_init (
+timer * @"struct--hrtimer.txt"
+clock_id @"typedef--clockid_t.txt"
+mode @"enum--hrtimer_mode.txt"
+)
+"void"

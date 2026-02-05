@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/net/macsec.h:34
+Symbol:
+typedef sci_t
+@"typedef--u64.txt"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/xz.h:136
+Symbol:
+Byte size 48
+struct xz_buf {
+0x0 in * const @"typedef--uint8_t.txt"
+0x8 in_pos @"typedef--size_t.txt"
+0x10 in_size @"typedef--size_t.txt"
+0x18 out * @"typedef--uint8_t.txt"
+0x20 out_pos @"typedef--size_t.txt"
+0x28 out_size @"typedef--size_t.txt"
+}

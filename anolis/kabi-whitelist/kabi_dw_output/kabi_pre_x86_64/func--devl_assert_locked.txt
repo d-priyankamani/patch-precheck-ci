@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/core.c:43
+Symbol:
+func devl_assert_locked (
+devlink * @"struct--devlink.txt"
+)
+"void"

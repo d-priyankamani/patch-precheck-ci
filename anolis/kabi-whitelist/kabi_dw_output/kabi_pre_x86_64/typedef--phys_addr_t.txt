@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:160
+Symbol:
+typedef phys_addr_t
+@"typedef--u64.txt"

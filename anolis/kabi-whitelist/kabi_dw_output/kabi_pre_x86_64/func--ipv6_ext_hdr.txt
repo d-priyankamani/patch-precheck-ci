@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ipv6/exthdrs_core.c:13
+Symbol:
+func ipv6_ext_hdr (
+nexthdr @"typedef--u8.txt"
+)
+@"typedef--bool.txt"

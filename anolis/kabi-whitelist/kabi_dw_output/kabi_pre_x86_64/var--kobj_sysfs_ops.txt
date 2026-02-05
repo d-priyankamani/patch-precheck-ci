@@ -1,0 +1,4 @@
+Version: 1.0
+File: lib/kobject.c:844
+Symbol:
+var kobj_sysfs_ops "void"

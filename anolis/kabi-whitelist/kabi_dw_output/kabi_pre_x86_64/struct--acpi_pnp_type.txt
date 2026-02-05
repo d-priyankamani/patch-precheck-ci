@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:239
+Symbol:
+Byte size 4
+struct acpi_pnp_type {
+0x0:0-1 hardware_id @"typedef--u32.txt"
+0x0:1-2 bus_address @"typedef--u32.txt"
+0x0:2-3 platform_id @"typedef--u32.txt"
+0x0:3-4 backlight @"typedef--u32.txt"
+0x0:4-32 reserved @"typedef--u32.txt"
+}

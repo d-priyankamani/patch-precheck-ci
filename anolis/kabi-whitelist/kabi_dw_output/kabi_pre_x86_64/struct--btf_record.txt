@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/bpf.h:232
+Symbol:
+Byte size 24
+struct btf_record {
+0x0 cnt @"typedef--u32.txt"
+0x4 field_mask @"typedef--u32.txt"
+0x8 spin_lock_off "int"
+0xc timer_off "int"
+0x10 refcount_off "int"
+0x18 fields [0]@"struct--btf_field.txt"
+}

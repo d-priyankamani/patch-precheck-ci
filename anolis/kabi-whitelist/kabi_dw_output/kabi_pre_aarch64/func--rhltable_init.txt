@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/rhashtable.c:1090
+Symbol:
+func rhltable_init (
+hlt * @"struct--rhltable.txt"
+params * const @"struct--rhashtable_params.txt"
+)
+"int"

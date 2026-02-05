@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:442
+Symbol:
+func dma_fence_signal_locked (
+fence * @"struct--dma_fence.txt"
+)
+"int"

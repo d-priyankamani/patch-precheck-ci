@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:3007
+Symbol:
+func netif_set_real_num_rx_queues (
+dev * @"struct--net_device.txt"
+rxq "unsigned int"
+)
+"int"

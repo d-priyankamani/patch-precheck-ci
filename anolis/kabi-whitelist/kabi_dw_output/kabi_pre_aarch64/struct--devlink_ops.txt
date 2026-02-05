@@ -1,0 +1,326 @@
+Version: 1.0
+File: include/net/devlink.h:1265
+Symbol:
+Byte size 456
+struct devlink_ops {
+0x0 supported_flash_update_params @"typedef--u32.txt"
+0x8 reload_actions "long unsigned int"
+0x10 reload_limits "long unsigned int"
+0x18 reload_down * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) @"enum--devlink_reload_action.txt"
+(NULL) @"enum--devlink_reload_limit.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x20 reload_up * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) @"enum--devlink_reload_action.txt"
+(NULL) @"enum--devlink_reload_limit.txt"
+(NULL) * @"typedef--u32.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x28 sb_pool_get * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"struct--devlink_sb_pool_info.txt"
+)
+"int"
+0x30 sb_pool_set * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--u16.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"enum--devlink_sb_threshold_type.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x38 sb_port_pool_get * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"typedef--u32.txt"
+)
+"int"
+0x40 sb_port_pool_set * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--u16.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x48 sb_tc_pool_bind_get * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--u16.txt"
+(NULL) @"enum--devlink_sb_pool_type.txt"
+(NULL) * @"typedef--u16.txt"
+(NULL) * @"typedef--u32.txt"
+)
+"int"
+0x50 sb_tc_pool_bind_set * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--u16.txt"
+(NULL) @"enum--devlink_sb_pool_type.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x58 sb_occ_snapshot * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x60 sb_occ_max_clear * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x68 sb_occ_port_pool_get * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"typedef--u32.txt"
+(NULL) * @"typedef--u32.txt"
+)
+"int"
+0x70 sb_occ_tc_port_bind_get * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--u16.txt"
+(NULL) @"enum--devlink_sb_pool_type.txt"
+(NULL) * @"typedef--u32.txt"
+(NULL) * @"typedef--u32.txt"
+)
+"int"
+0x78 eswitch_mode_get * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * @"typedef--u16.txt"
+)
+"int"
+0x80 eswitch_mode_set * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x88 eswitch_inline_mode_get * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * @"typedef--u8.txt"
+)
+"int"
+0x90 eswitch_inline_mode_set * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) @"typedef--u8.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x98 eswitch_encap_mode_get * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * @"enum--devlink_eswitch_encap_mode.txt"
+)
+"int"
+0xa0 eswitch_encap_mode_set * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) @"enum--devlink_eswitch_encap_mode.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0xa8 info_get * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * @"struct--devlink_info_req.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0xb0 flash_update * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * @"struct--devlink_flash_update_params.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0xb8 trap_init * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_trap.txt"
+(NULL) * "void"
+)
+"int"
+0xc0 trap_fini * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_trap.txt"
+(NULL) * "void"
+)
+"void"
+0xc8 trap_action_set * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_trap.txt"
+(NULL) @"enum--devlink_trap_action.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0xd0 trap_group_init * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_trap_group.txt"
+)
+"int"
+0xd8 trap_group_set * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_trap_group.txt"
+(NULL) * const @"struct--devlink_trap_policer.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0xe0 trap_group_action_set * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_trap_group.txt"
+(NULL) @"enum--devlink_trap_action.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0xe8 trap_drop_counter_get * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_trap.txt"
+(NULL) * @"typedef--u64.txt"
+)
+"int"
+0xf0 trap_policer_init * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_trap_policer.txt"
+)
+"int"
+0xf8 trap_policer_fini * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_trap_policer.txt"
+)
+"void"
+0x100 trap_policer_set * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_trap_policer.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x108 trap_policer_counter_get * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_trap_policer.txt"
+(NULL) * @"typedef--u64.txt"
+)
+"int"
+0x110 port_new * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_port_new_attrs.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+(NULL) * * @"struct--devlink_port.txt"
+)
+"int"
+0x118 rate_leaf_tx_share_set * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * "void"
+(NULL) @"typedef--u64.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x120 rate_leaf_tx_max_set * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * "void"
+(NULL) @"typedef--u64.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x128 rate_leaf_tx_priority_set * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * "void"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x130 rate_leaf_tx_weight_set * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * "void"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x138 rate_node_tx_share_set * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * "void"
+(NULL) @"typedef--u64.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x140 rate_node_tx_max_set * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * "void"
+(NULL) @"typedef--u64.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x148 rate_node_tx_priority_set * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * "void"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x150 rate_node_tx_weight_set * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * "void"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x158 rate_node_new * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * * "void"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x160 rate_node_del * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * "void"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x168 rate_leaf_parent_set * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * "void"
+(NULL) * "void"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x170 rate_node_parent_set * func (NULL) (
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * @"struct--devlink_rate.txt"
+(NULL) * "void"
+(NULL) * "void"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x178 selftest_check * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) "unsigned int"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+@"typedef--bool.txt"
+0x180 selftest_run * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) "unsigned int"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+@"enum--devlink_selftest_status.txt"
+0x188 ck_reserved1 "long unsigned int"
+0x190 ck_reserved2 "long unsigned int"
+0x198 ck_reserved3 "long unsigned int"
+0x1a0 ck_reserved4 "long unsigned int"
+0x1a8 ck_reserved5 "long unsigned int"
+0x1b0 ck_reserved6 "long unsigned int"
+0x1b8 ck_reserved7 "long unsigned int"
+0x1c0 ck_reserved8 "long unsigned int"
+}

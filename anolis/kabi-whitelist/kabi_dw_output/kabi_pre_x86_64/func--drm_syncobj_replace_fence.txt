@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_syncobj.c:366
+Symbol:
+func drm_syncobj_replace_fence (
+syncobj * @"struct--drm_syncobj.txt"
+fence * @"struct--dma_fence.txt"
+)
+"void"

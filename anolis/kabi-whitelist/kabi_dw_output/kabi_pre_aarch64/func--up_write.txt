@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/rwsem.c:1623
+Symbol:
+func up_write (
+sem * @"struct--rw_semaphore.txt"
+)
+"void"

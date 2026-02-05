@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/gpio/consumer.h:588
+Symbol:
+Byte size 24
+struct acpi_gpio_mapping {
+0x0 name * const "char"
+0x8 data * const @"struct--acpi_gpio_params.txt"
+0x10 size "unsigned int"
+0x14 quirks "unsigned int"
+}

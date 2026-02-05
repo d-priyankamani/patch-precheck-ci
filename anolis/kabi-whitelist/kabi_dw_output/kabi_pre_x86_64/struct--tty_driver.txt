@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/linux/tty_driver.h:441
+Symbol:
+Byte size 184
+struct tty_driver {
+0x0 kref @"struct--kref.txt"
+0x8 cdevs * * @"struct--cdev.txt"
+0x10 owner * @"struct--module.txt"
+0x18 driver_name * const "char"
+0x20 name * const "char"
+0x28 name_base "int"
+0x2c major "int"
+0x30 minor_start "int"
+0x34 num "unsigned int"
+0x38 type "short int"
+0x3a subtype "short int"
+0x3c init_termios @"struct--ktermios.txt"
+0x68 flags "long unsigned int"
+0x70 proc_entry * @"<declarations>/struct--proc_dir_entry.txt"
+0x78 other * @"struct--tty_driver.txt"
+0x80 ttys * * @"struct--tty_struct.txt"
+0x88 ports * * @"struct--tty_port.txt"
+0x90 termios * * @"struct--ktermios.txt"
+0x98 driver_state * "void"
+0xa0 ops * const @"struct--tty_operations.txt"
+0xa8 tty_drivers @"struct--list_head.txt"
+}

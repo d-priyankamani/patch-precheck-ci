@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:27
+Symbol:
+typedef pid_t
+@"typedef--__kernel_pid_t.txt"

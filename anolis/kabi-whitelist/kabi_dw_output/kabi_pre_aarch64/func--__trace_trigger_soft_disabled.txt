@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/trace/trace_events_trigger.c:89
+Symbol:
+func __trace_trigger_soft_disabled (
+file * @"struct--trace_event_file.txt"
+)
+@"typedef--bool.txt"

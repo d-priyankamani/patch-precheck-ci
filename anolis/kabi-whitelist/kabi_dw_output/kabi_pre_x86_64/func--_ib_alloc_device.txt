@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:582
+Symbol:
+func _ib_alloc_device (
+size @"typedef--size_t.txt"
+)
+* @"struct--ib_device.txt"

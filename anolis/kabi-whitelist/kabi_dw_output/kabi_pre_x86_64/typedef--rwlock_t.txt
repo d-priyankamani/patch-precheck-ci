@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/rwlock_types.h:34
+Symbol:
+Byte size 8
+typedef rwlock_t
+struct (NULL) {
+0x0 raw_lock @"typedef--arch_rwlock_t.txt"
+}

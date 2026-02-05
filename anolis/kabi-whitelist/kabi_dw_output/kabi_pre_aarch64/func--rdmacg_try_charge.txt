@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/cgroup/rdma.c:261
+Symbol:
+func rdmacg_try_charge (
+rdmacg * * @"struct--rdma_cgroup.txt"
+device * @"struct--rdmacg_device.txt"
+index @"enum--rdmacg_resource_type.txt"
+)
+"int"

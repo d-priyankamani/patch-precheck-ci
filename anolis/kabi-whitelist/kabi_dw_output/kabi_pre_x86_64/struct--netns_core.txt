@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/netns/core.h:11
+Symbol:
+Byte size 32
+struct netns_core {
+0x0 sysctl_hdr * @"struct--ctl_table_header.txt"
+0x8 sysctl_somaxconn "int"
+0xc sysctl_txrehash @"typedef--u8.txt"
+0x10 prot_inuse * @"struct--prot_inuse.txt"
+0x18 rps_default_mask * @"struct--cpumask.txt"
+}

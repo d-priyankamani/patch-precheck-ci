@@ -1,0 +1,21 @@
+Version: 1.0
+File: block/blk-mq-debugfs.h:11
+Symbol:
+Byte size 40
+struct blk_mq_debugfs_attr {
+0x0 name * const "char"
+0x8 mode @"typedef--umode_t.txt"
+0x10 show * func (NULL) (
+(NULL) * "void"
+(NULL) * @"struct--seq_file.txt"
+)
+"int"
+0x18 write * func (NULL) (
+(NULL) * "void"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x20 seq_ops * const @"struct--seq_operations.txt"
+}

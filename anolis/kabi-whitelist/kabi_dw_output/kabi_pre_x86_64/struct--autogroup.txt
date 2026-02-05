@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/sched/autogroup.h:7
+Symbol:
+Byte size 72
+struct autogroup {
+0x0 kref @"struct--kref.txt"
+0x8 tg * @"struct--task_group.txt"
+0x10 lock @"struct--rw_semaphore.txt"
+0x38 id "long unsigned int"
+0x40 nice "int"
+}

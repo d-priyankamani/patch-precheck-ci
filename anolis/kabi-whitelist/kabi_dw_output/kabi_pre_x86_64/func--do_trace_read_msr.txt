@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/lib/msr.c:130
+Symbol:
+func do_trace_read_msr (
+msr "unsigned int"
+val @"typedef--u64.txt"
+failed "int"
+)
+"void"

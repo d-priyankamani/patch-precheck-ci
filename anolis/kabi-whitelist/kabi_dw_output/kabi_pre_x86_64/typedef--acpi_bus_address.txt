@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:230
+Symbol:
+typedef acpi_bus_address
+@"typedef--u64.txt"

@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/drm/drm_edid.h:108
+Symbol:
+Byte size 13
+struct detailed_data_monitor_range {
+0x0 min_vfreq @"typedef--u8.txt"
+0x1 max_vfreq @"typedef--u8.txt"
+0x2 min_hfreq_khz @"typedef--u8.txt"
+0x3 max_hfreq_khz @"typedef--u8.txt"
+0x4 pixel_clock_mhz @"typedef--u8.txt"
+0x5 flags @"typedef--u8.txt"
+0x6 formula union (NULL) {
+gtf2 struct (NULL) {
+0x0 reserved @"typedef--u8.txt"
+0x1 hfreq_start_khz @"typedef--u8.txt"
+0x2 c @"typedef--u8.txt"
+0x3 m @"typedef--__le16.txt"
+0x5 k @"typedef--u8.txt"
+0x6 j @"typedef--u8.txt"
+}
+cvt struct (NULL) {
+0x0 version @"typedef--u8.txt"
+0x1 data1 @"typedef--u8.txt"
+0x2 data2 @"typedef--u8.txt"
+0x3 supported_aspects @"typedef--u8.txt"
+0x4 flags @"typedef--u8.txt"
+0x5 supported_scalings @"typedef--u8.txt"
+0x6 preferred_refresh @"typedef--u8.txt"
+}
+}
+}

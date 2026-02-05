@@ -1,0 +1,3 @@
+Version: 1.0
+Symbol:
+assembly do_wait_intr

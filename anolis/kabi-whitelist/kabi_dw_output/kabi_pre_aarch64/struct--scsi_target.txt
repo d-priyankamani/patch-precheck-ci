@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/scsi/scsi_device.h:342
+Symbol:
+Byte size 1112
+Alignment 8
+struct scsi_target {
+0x0 starget_sdev_user * @"struct--scsi_device.txt"
+0x8 siblings @"struct--list_head.txt"
+0x18 devices @"struct--list_head.txt"
+0x28 8 dev @"struct--device.txt"
+0x408 reap_ref @"struct--kref.txt"
+0x40c channel "unsigned int"
+0x410 id "unsigned int"
+0x414:0-1 create "unsigned int"
+0x414:1-2 single_lun "unsigned int"
+0x414:2-3 pdt_1f_for_no_lun "unsigned int"
+0x414:3-4 no_report_luns "unsigned int"
+0x414:4-5 expecting_lun_change "unsigned int"
+0x418 target_busy @"typedef--atomic_t.txt"
+0x41c target_blocked @"typedef--atomic_t.txt"
+0x420 can_queue "unsigned int"
+0x424 max_target_blocked "unsigned int"
+0x428 scsi_level "char"
+0x42c state @"enum--scsi_target_state.txt"
+0x430 hostdata * "void"
+0x438 ck_reserved1 "long unsigned int"
+0x440 ck_reserved2 "long unsigned int"
+0x448 ck_reserved3 "long unsigned int"
+0x450 ck_reserved4 "long unsigned int"
+0x458 starget_data [0]"long unsigned int"
+}

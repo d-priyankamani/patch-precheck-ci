@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:1842
+Symbol:
+func unregister_netdevice_notifier (
+nb * @"struct--notifier_block.txt"
+)
+"int"

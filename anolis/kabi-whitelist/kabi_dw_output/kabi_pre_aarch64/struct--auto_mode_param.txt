@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/rdma/rdma_counter.h:18
+Symbol:
+Byte size 4
+struct auto_mode_param {
+0x0 qp_type "int"
+}

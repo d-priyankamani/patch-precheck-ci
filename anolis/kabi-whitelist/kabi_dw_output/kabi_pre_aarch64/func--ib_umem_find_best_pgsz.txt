@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/umem.c:79
+Symbol:
+func ib_umem_find_best_pgsz (
+umem * @"struct--ib_umem.txt"
+pgsz_bitmap "long unsigned int"
+virt "long unsigned int"
+)
+"long unsigned int"

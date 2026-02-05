@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/firmware/dmi_scan.c:952
+Symbol:
+func dmi_get_system_info (
+field "int"
+)
+* const "char"

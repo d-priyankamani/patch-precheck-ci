@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/xz/xz_dec_stream.c:828
+Symbol:
+func xz_dec_end (
+s * @"struct--xz_dec.txt"
+)
+"void"

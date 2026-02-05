@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:2244
+Symbol:
+func drm_mode_create_dp_colorspace_property (
+connector * @"struct--drm_connector.txt"
+supported_colorspaces @"typedef--u32.txt"
+)
+"int"

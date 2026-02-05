@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/setup-bus.c:2318
+Symbol:
+func pci_assign_unassigned_bus_resources (
+bus * @"struct--pci_bus.txt"
+)
+"void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/xarray.c:1987
+Symbol:
+func xa_set_mark (
+xa * @"struct--xarray.txt"
+index "long unsigned int"
+mark @"typedef--xa_mark_t.txt"
+)
+"void"

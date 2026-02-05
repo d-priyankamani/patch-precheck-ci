@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/pps.h:54
+Symbol:
+Byte size 16
+struct pps_ktime {
+0x0 sec @"typedef--__s64.txt"
+0x8 nsec @"typedef--__s32.txt"
+0xc flags @"typedef--__u32.txt"
+}

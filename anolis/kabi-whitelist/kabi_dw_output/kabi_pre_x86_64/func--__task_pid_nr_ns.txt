@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/pid.c:495
+Symbol:
+func __task_pid_nr_ns (
+task * @"struct--task_struct.txt"
+type @"enum--pid_type.txt"
+ns * @"struct--pid_namespace.txt"
+)
+@"typedef--pid_t.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/maple_tree.c:6255
+Symbol:
+func mtree_load (
+mt * @"struct--maple_tree.txt"
+index "long unsigned int"
+)
+* "void"

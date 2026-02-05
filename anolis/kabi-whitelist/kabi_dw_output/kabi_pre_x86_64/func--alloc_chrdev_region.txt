@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/char_dev.c:236
+Symbol:
+func alloc_chrdev_region (
+dev * @"typedef--dev_t.txt"
+baseminor "unsigned int"
+count "unsigned int"
+name * const "char"
+)
+"int"

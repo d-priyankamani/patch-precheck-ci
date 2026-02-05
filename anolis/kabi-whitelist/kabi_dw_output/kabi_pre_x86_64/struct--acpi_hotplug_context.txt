@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:149
+Symbol:
+Byte size 32
+struct acpi_hotplug_context {
+0x0 self * @"struct--acpi_device.txt"
+0x8 notify @"typedef--acpi_hp_notify.txt"
+0x10 uevent @"typedef--acpi_hp_uevent.txt"
+0x18 fixup @"typedef--acpi_hp_fixup.txt"
+}

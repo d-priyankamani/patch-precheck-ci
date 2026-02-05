@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/trace/trace.h:511
+Symbol:
+Byte size 16
+struct tracer_opt {
+0x0 name * const "char"
+0x8 bit @"typedef--u32.txt"
+}

@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/bpf.h:1167
+Symbol:
+Byte size 720
+Alignment 8
+struct bpf_tramp_image {
+0x0 image * "void"
+0x8 8 ksym @"struct--bpf_ksym.txt"
+0x268 pcref @"struct--percpu_ref.txt"
+0x278 ip_after_call * "void"
+0x280 ip_epilogue * "void"
+0x288 8 (NULL) union (NULL) {
+rcu @"struct--callback_head.txt"
+work @"struct--work_struct.txt"
+}
+0x2c8 ck_reserved1 "long unsigned int"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/mmzone.h:1253
+Symbol:
+Byte size 5136
+struct zonelist {
+0x0 _zonerefs [321]@"struct--zoneref.txt"
+}

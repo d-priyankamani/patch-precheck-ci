@@ -1,0 +1,33 @@
+Version: 1.0
+File: kernel/sched/sched.h:1193
+Symbol:
+Byte size 14672
+Alignment 8
+struct root_domain {
+0x0 refcount @"typedef--atomic_t.txt"
+0x4 rto_count @"typedef--atomic_t.txt"
+0x8 8 rcu @"struct--callback_head.txt"
+0x18 span @"typedef--cpumask_var_t.txt"
+0x98 online @"typedef--cpumask_var_t.txt"
+0x118 overload "int"
+0x11c overutilized "int"
+0x120 dlo_mask @"typedef--cpumask_var_t.txt"
+0x1a0 dlo_count @"typedef--atomic_t.txt"
+0x1a8 dl_bw @"struct--dl_bw.txt"
+0x1e0 cpudl @"struct--cpudl.txt"
+0x290 visit_gen @"typedef--u64.txt"
+0x298 rto_push_work @"struct--irq_work.txt"
+0x2d8 rto_lock @"typedef--raw_spinlock_t.txt"
+0x2dc rto_loop "int"
+0x2e0 rto_cpu "int"
+0x2e4 rto_loop_next @"typedef--atomic_t.txt"
+0x2e8 rto_loop_start @"typedef--atomic_t.txt"
+0x2f0 rto_mask @"typedef--cpumask_var_t.txt"
+0x370 cpupri @"struct--cpupri.txt"
+0x3920 max_cpu_capacity "long unsigned int"
+0x3928 pd * @"struct--perf_domain.txt"
+0x3930 ck_reserved1 "long unsigned int"
+0x3938 ck_reserved2 "long unsigned int"
+0x3940 ck_reserved3 "long unsigned int"
+0x3948 ck_reserved4 "long unsigned int"
+}

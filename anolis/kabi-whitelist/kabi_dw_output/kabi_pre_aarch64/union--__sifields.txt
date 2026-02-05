@@ -1,0 +1,58 @@
+Version: 1.0
+File: include/uapi/asm-generic/siginfo.h:37
+Symbol:
+Byte size 32
+union __sifields {
+_kill struct (NULL) {
+0x0 _pid @"typedef--__kernel_pid_t.txt"
+0x4 _uid @"typedef--__kernel_uid32_t.txt"
+}
+_timer struct (NULL) {
+0x0 _tid @"typedef--__kernel_timer_t.txt"
+0x4 _overrun "int"
+0x8 _sigval @"typedef--sigval_t.txt"
+0x10 _sys_private "int"
+}
+_rt struct (NULL) {
+0x0 _pid @"typedef--__kernel_pid_t.txt"
+0x4 _uid @"typedef--__kernel_uid32_t.txt"
+0x8 _sigval @"typedef--sigval_t.txt"
+}
+_sigchld struct (NULL) {
+0x0 _pid @"typedef--__kernel_pid_t.txt"
+0x4 _uid @"typedef--__kernel_uid32_t.txt"
+0x8 _status "int"
+0x10 _utime @"typedef--__kernel_clock_t.txt"
+0x18 _stime @"typedef--__kernel_clock_t.txt"
+}
+_sigfault struct (NULL) {
+0x0 _addr * "void"
+0x8 (NULL) union (NULL) {
+_trapno "int"
+_addr_lsb "short int"
+_addr_bnd struct (NULL) {
+0x0 _dummy_bnd [8]"char"
+0x8 _lower * "void"
+0x10 _upper * "void"
+}
+_addr_pkey struct (NULL) {
+0x0 _dummy_pkey [8]"char"
+0x8 _pkey @"typedef--__u32.txt"
+}
+_perf struct (NULL) {
+0x0 _data "long unsigned int"
+0x8 _type @"typedef--__u32.txt"
+0xc _flags @"typedef--__u32.txt"
+}
+}
+}
+_sigpoll struct (NULL) {
+0x0 _band "long int"
+0x8 _fd "int"
+}
+_sigsys struct (NULL) {
+0x0 _call_addr * "void"
+0x8 _syscall "int"
+0xc _arch "unsigned int"
+}
+}

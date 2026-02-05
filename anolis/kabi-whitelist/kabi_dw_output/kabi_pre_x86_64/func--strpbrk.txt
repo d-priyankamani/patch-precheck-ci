@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/string.c:488
+Symbol:
+func strpbrk (
+cs * const "char"
+ct * const "char"
+)
+* "char"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/devlink.h:394
+Symbol:
+Byte size 32
+struct devlink_resource_size_params {
+0x0 size_min @"typedef--u64.txt"
+0x8 size_max @"typedef--u64.txt"
+0x10 size_granularity @"typedef--u64.txt"
+0x18 unit @"enum--devlink_resource_unit.txt"
+}

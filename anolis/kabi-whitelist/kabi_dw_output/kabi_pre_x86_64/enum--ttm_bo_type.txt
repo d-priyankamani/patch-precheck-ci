@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/ttm/ttm_bo.h:67
+Symbol:
+Byte size 4
+enum ttm_bo_type {
+ttm_bo_type_device = 0x0
+ttm_bo_type_kernel = 0x1
+ttm_bo_type_sg = 0x2
+}

@@ -1,0 +1,18 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:637
+Symbol:
+Byte size 160
+struct kvm_vcpu_hv_tlb_flush_fifo {
+0x0 write_lock @"typedef--spinlock_t.txt"
+0x8 entries struct (NULL) {
+0x0 (NULL) union (NULL) {
+kfifo @"struct--__kfifo.txt"
+type * @"typedef--u64.txt"
+const_type * const @"typedef--u64.txt"
+rectype * [0]"char"
+ptr * @"typedef--u64.txt"
+ptr_const * const @"typedef--u64.txt"
+}
+0x18 buf [16]@"typedef--u64.txt"
+}
+}

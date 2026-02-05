@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/auxiliary.c:409
+Symbol:
+func auxiliary_driver_unregister (
+auxdrv * @"struct--auxiliary_driver.txt"
+)
+"void"

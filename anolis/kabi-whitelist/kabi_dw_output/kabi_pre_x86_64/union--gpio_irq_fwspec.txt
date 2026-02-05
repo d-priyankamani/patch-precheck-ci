@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/gpio/driver.h:35
+Symbol:
+Byte size 80
+union gpio_irq_fwspec {
+fwspec @"struct--irq_fwspec.txt"
+msiinfo @"typedef--msi_alloc_info_t.txt"
+}

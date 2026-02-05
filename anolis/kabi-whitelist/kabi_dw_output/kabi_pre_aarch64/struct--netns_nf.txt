@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/netns/netfilter.h:11
+Symbol:
+Byte size 272
+struct netns_nf {
+0x0 proc_netfilter * @"<declarations>/struct--proc_dir_entry.txt"
+0x8 nf_loggers [11]* const @"<declarations>/struct--nf_logger.txt"
+0x60 nf_log_dir_header * @"struct--ctl_table_header.txt"
+0x68 nf_lwtnl_dir_header * @"struct--ctl_table_header.txt"
+0x70 hooks_ipv4 [5]* @"struct--nf_hook_entries.txt"
+0x98 hooks_ipv6 [5]* @"struct--nf_hook_entries.txt"
+0xc0 hooks_arp [3]* @"struct--nf_hook_entries.txt"
+0xd8 hooks_bridge [5]* @"struct--nf_hook_entries.txt"
+0x100 defrag_ipv4_users "unsigned int"
+0x104 defrag_ipv6_users "unsigned int"
+0x108 ck_reserved1 "long unsigned int"
+}

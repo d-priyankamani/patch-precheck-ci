@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/xarray.c:1237
+Symbol:
+func xas_find (
+xas * @"struct--xa_state.txt"
+max "long unsigned int"
+)
+* "void"

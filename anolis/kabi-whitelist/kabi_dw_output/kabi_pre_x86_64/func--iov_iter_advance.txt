@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/iov_iter.c:644
+Symbol:
+func iov_iter_advance (
+i * @"struct--iov_iter.txt"
+size @"typedef--size_t.txt"
+)
+"void"

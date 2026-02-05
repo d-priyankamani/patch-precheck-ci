@@ -1,0 +1,69 @@
+Version: 1.0
+File: include/linux/irqdomain.h:88
+Symbol:
+Byte size 80
+struct irq_domain_ops {
+0x0 match * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--device_node.txt"
+(NULL) @"enum--irq_domain_bus_token.txt"
+)
+"int"
+0x8 select * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--irq_fwspec.txt"
+(NULL) @"enum--irq_domain_bus_token.txt"
+)
+"int"
+0x10 map * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--irq_hw_number_t.txt"
+)
+"int"
+0x18 unmap * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) "unsigned int"
+)
+"void"
+0x20 xlate * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--device_node.txt"
+(NULL) * const @"typedef--u32.txt"
+(NULL) "unsigned int"
+(NULL) * "long unsigned int"
+(NULL) * "unsigned int"
+)
+"int"
+0x28 alloc * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) * "void"
+)
+"int"
+0x30 free * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+)
+"void"
+0x38 activate * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--irq_data.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x40 deactivate * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--irq_data.txt"
+)
+"void"
+0x48 translate * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--irq_fwspec.txt"
+(NULL) * "long unsigned int"
+(NULL) * "unsigned int"
+)
+"int"
+}

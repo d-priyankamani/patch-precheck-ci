@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:253
+Symbol:
+Byte size 16
+struct ethtool_tunable {
+0x0 cmd @"typedef--__u32.txt"
+0x4 id @"typedef--__u32.txt"
+0x8 type_id @"typedef--__u32.txt"
+0xc len @"typedef--__u32.txt"
+0x10 data [0]* "void"
+}

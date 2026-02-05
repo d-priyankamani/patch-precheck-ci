@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/pid_namespace.h:26
+Symbol:
+Byte size 152
+Alignment 8
+struct pid_namespace {
+0x0 idr @"struct--idr.txt"
+0x18 8 rcu @"struct--callback_head.txt"
+0x28 pid_allocated "unsigned int"
+0x30 child_reaper * @"struct--task_struct.txt"
+0x38 pid_cachep * @"struct--kmem_cache.txt"
+0x40 level "unsigned int"
+0x48 parent * @"struct--pid_namespace.txt"
+0x50 bacct * @"struct--fs_pin.txt"
+0x58 user_ns * @"struct--user_namespace.txt"
+0x60 ucounts * @"struct--ucounts.txt"
+0x68 reboot "int"
+0x70 ns @"struct--ns_common.txt"
+0x90 memfd_noexec_scope "int"
+}

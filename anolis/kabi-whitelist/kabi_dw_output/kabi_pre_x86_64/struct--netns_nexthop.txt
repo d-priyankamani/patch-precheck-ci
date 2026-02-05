@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/netns/nexthop.h:12
+Symbol:
+Byte size 72
+struct netns_nexthop {
+0x0 rb_root @"struct--rb_root.txt"
+0x8 devhash * @"struct--hlist_head.txt"
+0x10 seq "unsigned int"
+0x14 last_id_allocated @"typedef--u32.txt"
+0x18 notifier_chain @"struct--blocking_notifier_head.txt"
+}

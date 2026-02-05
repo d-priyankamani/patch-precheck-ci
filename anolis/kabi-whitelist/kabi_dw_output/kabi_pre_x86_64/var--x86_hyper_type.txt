@@ -1,0 +1,4 @@
+Version: 1.0
+File: arch/x86/kernel/cpu/hypervisor.c:50
+Symbol:
+var x86_hyper_type "void"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_sa.h:126
+Symbol:
+Byte size 4
+enum sa_path_rec_type {
+SA_PATH_REC_TYPE_IB = 0x0
+SA_PATH_REC_TYPE_ROCE_V1 = 0x1
+SA_PATH_REC_TYPE_ROCE_V2 = 0x2
+SA_PATH_REC_TYPE_OPA = 0x3
+}

@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/core/utils.c:184
+Symbol:
+func in6_pton (
+src * const "char"
+srclen "int"
+dst * @"typedef--u8.txt"
+delim "int"
+end * * const "char"
+)
+"int"

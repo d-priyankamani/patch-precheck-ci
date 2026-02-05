@@ -1,0 +1,15 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2733
+Symbol:
+func ib_sg_to_pages (
+mr * @"struct--ib_mr.txt"
+sgl * @"struct--scatterlist.txt"
+sg_nents "int"
+sg_offset_p * "unsigned int"
+set_page * func (NULL) (
+(NULL) * @"struct--ib_mr.txt"
+(NULL) @"typedef--u64.txt"
+)
+"int"
+)
+"int"

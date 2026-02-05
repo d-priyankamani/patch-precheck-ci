@@ -1,0 +1,35 @@
+Version: 1.0
+File: include/linux/cpuidle.h:54
+Symbol:
+Byte size 136
+struct cpuidle_state {
+0x0 name [16]"char"
+0x10 desc [32]"char"
+0x30 exit_latency_ns @"typedef--s64.txt"
+0x38 target_residency_ns @"typedef--s64.txt"
+0x40 flags "unsigned int"
+0x44 exit_latency "unsigned int"
+0x48 power_usage "int"
+0x4c target_residency "unsigned int"
+0x50 enter * func (NULL) (
+(NULL) * @"struct--cpuidle_device.txt"
+(NULL) * @"struct--cpuidle_driver.txt"
+(NULL) "int"
+)
+"int"
+0x58 enter_dead * func (NULL) (
+(NULL) * @"struct--cpuidle_device.txt"
+(NULL) "int"
+)
+"void"
+0x60 enter_s2idle * func (NULL) (
+(NULL) * @"struct--cpuidle_device.txt"
+(NULL) * @"struct--cpuidle_driver.txt"
+(NULL) "int"
+)
+"int"
+0x68 ck_reserved1 "long unsigned int"
+0x70 ck_reserved2 "long unsigned int"
+0x78 ck_reserved3 "long unsigned int"
+0x80 ck_reserved4 "long unsigned int"
+}

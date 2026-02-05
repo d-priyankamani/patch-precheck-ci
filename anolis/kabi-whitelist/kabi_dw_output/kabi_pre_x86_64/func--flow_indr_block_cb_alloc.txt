@@ -1,0 +1,22 @@
+Version: 1.0
+File: net/core/flow_offload.c:530
+Symbol:
+func flow_indr_block_cb_alloc (
+cb * @"typedef--flow_setup_cb_t.txt"
+cb_ident * "void"
+cb_priv * "void"
+release * func (NULL) (
+(NULL) * "void"
+)
+"void"
+bo * @"struct--flow_block_offload.txt"
+dev * @"struct--net_device.txt"
+sch * @"struct--Qdisc.txt"
+data * "void"
+indr_cb_priv * "void"
+cleanup * func (NULL) (
+(NULL) * @"struct--flow_block_cb.txt"
+)
+"void"
+)
+* @"struct--flow_block_cb.txt"

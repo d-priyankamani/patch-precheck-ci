@@ -1,0 +1,14 @@
+Version: 1.0
+File: arch/x86/include/asm/hyperv-tlfs.h:393
+Symbol:
+Byte size 8
+struct hv_nested_enlightenments_control {
+0x0 features struct (NULL) {
+0x0:0-1 directhypercall @"typedef--__u32.txt"
+0x0:1-32 reserved @"typedef--__u32.txt"
+}
+0x4 hypercallControls struct (NULL) {
+0x0:0-1 inter_partition_comm @"typedef--__u32.txt"
+0x0:1-32 reserved @"typedef--__u32.txt"
+}
+}

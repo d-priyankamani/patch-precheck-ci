@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/inet_hashtables.h:141
+Symbol:
+Byte size 16
+struct inet_listen_hashbucket {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 nulls_head @"struct--hlist_nulls_head.txt"
+}

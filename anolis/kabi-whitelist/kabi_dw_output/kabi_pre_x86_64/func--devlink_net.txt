@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/core.c:37
+Symbol:
+func devlink_net (
+devlink * const @"struct--devlink.txt"
+)
+* @"struct--net.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/iwcm.c:605
+Symbol:
+func iw_cm_reject (
+cm_id * @"struct--iw_cm_id.txt"
+private_data * const "void"
+private_data_len @"typedef--u8.txt"
+)
+"int"

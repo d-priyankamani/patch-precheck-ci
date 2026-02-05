@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/net/sch_generic.h:427
+Symbol:
+Byte size 104
+Alignment 8
+struct tcf_proto {
+0x0 next * @"struct--tcf_proto.txt"
+0x8 root * "void"
+0x10 classify * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * const @"struct--tcf_proto.txt"
+(NULL) * @"struct--tcf_result.txt"
+)
+"int"
+0x18 protocol @"typedef--__be16.txt"
+0x1c prio @"typedef--u32.txt"
+0x20 data * "void"
+0x28 ops * const @"struct--tcf_proto_ops.txt"
+0x30 chain * @"struct--tcf_chain.txt"
+0x38 lock @"typedef--spinlock_t.txt"
+0x3c deleting @"typedef--bool.txt"
+0x40 refcnt @"typedef--refcount_t.txt"
+0x48 8 rcu @"struct--callback_head.txt"
+0x58 destroy_ht_node @"struct--hlist_node.txt"
+}

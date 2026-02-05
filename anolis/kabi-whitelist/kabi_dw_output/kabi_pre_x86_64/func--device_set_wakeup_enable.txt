@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/power/wakeup.c:503
+Symbol:
+func device_set_wakeup_enable (
+dev * @"struct--device.txt"
+enable @"typedef--bool.txt"
+)
+"int"

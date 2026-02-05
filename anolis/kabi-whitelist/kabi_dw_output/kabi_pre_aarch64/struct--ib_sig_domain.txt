@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/signature.h:73
+Symbol:
+Byte size 28
+struct ib_sig_domain {
+0x0 sig_type @"enum--ib_signature_type.txt"
+0x4 sig union (NULL) {
+dif @"struct--ib_t10_dif_domain.txt"
+}
+}

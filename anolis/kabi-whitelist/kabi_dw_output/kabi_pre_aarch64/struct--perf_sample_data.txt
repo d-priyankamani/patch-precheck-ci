@@ -1,0 +1,39 @@
+Version: 1.0
+File: include/linux/perf_event.h:1205
+Symbol:
+Byte size 256
+Alignment 64
+struct perf_sample_data {
+0x0 sample_flags @"typedef--u64.txt"
+0x8 period @"typedef--u64.txt"
+0x10 dyn_size @"typedef--u64.txt"
+0x18 type @"typedef--u64.txt"
+0x20 tid_entry struct (NULL) {
+0x0 pid @"typedef--u32.txt"
+0x4 tid @"typedef--u32.txt"
+}
+0x28 time @"typedef--u64.txt"
+0x30 id @"typedef--u64.txt"
+0x38 cpu_entry struct (NULL) {
+0x0 cpu @"typedef--u32.txt"
+0x4 reserved @"typedef--u32.txt"
+}
+0x40 ip @"typedef--u64.txt"
+0x48 callchain * @"struct--perf_callchain_entry.txt"
+0x50 raw * @"struct--perf_raw_record.txt"
+0x58 br_stack * @"struct--perf_branch_stack.txt"
+0x60 br_stack_cntr * @"typedef--u64.txt"
+0x68 weight @"union--perf_sample_weight.txt"
+0x70 data_src @"union--perf_mem_data_src.txt"
+0x78 txn @"typedef--u64.txt"
+0x80 regs_user @"struct--perf_regs.txt"
+0x90 regs_intr @"struct--perf_regs.txt"
+0xa0 stack_user_size @"typedef--u64.txt"
+0xa8 stream_id @"typedef--u64.txt"
+0xb0 cgroup @"typedef--u64.txt"
+0xb8 addr @"typedef--u64.txt"
+0xc0 phys_addr @"typedef--u64.txt"
+0xc8 data_page_size @"typedef--u64.txt"
+0xd0 code_page_size @"typedef--u64.txt"
+0xd8 aux_size @"typedef--u64.txt"
+}

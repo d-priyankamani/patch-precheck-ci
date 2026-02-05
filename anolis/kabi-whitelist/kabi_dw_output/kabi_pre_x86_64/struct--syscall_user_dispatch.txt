@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/syscall_user_dispatch.h:12
+Symbol:
+Byte size 32
+struct syscall_user_dispatch {
+0x0 selector * "char"
+0x8 offset "long unsigned int"
+0x10 len "long unsigned int"
+0x18 on_dispatch @"typedef--bool.txt"
+}

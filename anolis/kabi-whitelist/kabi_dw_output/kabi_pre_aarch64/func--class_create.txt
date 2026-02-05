@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/class.c:257
+Symbol:
+func class_create (
+name * const "char"
+)
+* @"struct--class.txt"

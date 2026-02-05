@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/acpi/actypes.h:1135
+Symbol:
+Byte size 8
+typedef acpi_walk_callback
+* func (NULL) (
+(NULL) @"typedef--acpi_handle.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * "void"
+(NULL) * * "void"
+)
+@"typedef--acpi_status.txt"

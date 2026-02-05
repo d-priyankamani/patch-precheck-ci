@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/cpumask.h:19
+Symbol:
+Byte size 128
+struct cpumask {
+0x0 bits [16]"long unsigned int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/dmi.h:76
+Symbol:
+Byte size 4
+struct dmi_header {
+0x0 type @"typedef--u8.txt"
+0x1 length @"typedef--u8.txt"
+0x2 handle @"typedef--u16.txt"
+}

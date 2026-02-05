@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/read_write.c:144
+Symbol:
+func generic_file_llseek (
+file * @"struct--file.txt"
+offset @"typedef--loff_t.txt"
+whence "int"
+)
+@"typedef--loff_t.txt"

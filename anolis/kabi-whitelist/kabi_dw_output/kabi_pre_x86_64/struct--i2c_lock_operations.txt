@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/i2c.h:582
+Symbol:
+Byte size 24
+struct i2c_lock_operations {
+0x0 lock_bus * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+(NULL) "unsigned int"
+)
+"void"
+0x8 trylock_bus * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x10 unlock_bus * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+(NULL) "unsigned int"
+)
+"void"
+}

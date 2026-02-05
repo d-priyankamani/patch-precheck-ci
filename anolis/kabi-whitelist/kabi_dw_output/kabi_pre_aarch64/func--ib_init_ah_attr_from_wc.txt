@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:790
+Symbol:
+func ib_init_ah_attr_from_wc (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+wc * const @"struct--ib_wc.txt"
+grh * const @"struct--ib_grh.txt"
+ah_attr * @"struct--rdma_ah_attr.txt"
+)
+"int"

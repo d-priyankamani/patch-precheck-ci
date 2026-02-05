@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/params.c:300
+Symbol:
+var param_ops_charp "void"

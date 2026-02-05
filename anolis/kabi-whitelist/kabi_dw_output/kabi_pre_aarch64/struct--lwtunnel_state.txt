@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/net/lwtunnel.h:28
+Symbol:
+Byte size 80
+Alignment 8
+struct lwtunnel_state {
+0x0 type @"typedef--__u16.txt"
+0x2 flags @"typedef--__u16.txt"
+0x4 headroom @"typedef--__u16.txt"
+0x8 refcnt @"typedef--atomic_t.txt"
+0x10 orig_output * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x18 orig_input * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x20 8 rcu @"struct--callback_head.txt"
+0x30 ck_reserved1 "long unsigned int"
+0x38 ck_reserved2 "long unsigned int"
+0x40 ck_reserved3 "long unsigned int"
+0x48 ck_reserved4 "long unsigned int"
+0x50 data [0]@"typedef--__u8.txt"
+}

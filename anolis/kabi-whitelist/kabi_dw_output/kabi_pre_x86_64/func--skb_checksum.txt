@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/core/skbuff.c:3364
+Symbol:
+func skb_checksum (
+skb * const @"struct--sk_buff.txt"
+offset "int"
+len "int"
+csum @"typedef--__wsum.txt"
+)
+@"typedef--__wsum.txt"

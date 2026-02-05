@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem.c:1047
+Symbol:
+func drm_gem_vm_open (
+vma * @"struct--vm_area_struct.txt"
+)
+"void"

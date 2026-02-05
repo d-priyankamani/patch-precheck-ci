@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/nldev.c:198
+Symbol:
+func rdma_nl_put_driver_string (
+msg * @"struct--sk_buff.txt"
+name * const "char"
+str * const "char"
+)
+"int"

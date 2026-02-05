@@ -1,0 +1,4 @@
+Version: 1.0
+File: net/ipv4/udp_tunnel_stub.c:6
+Symbol:
+var udp_tunnel_nic_ops "void"

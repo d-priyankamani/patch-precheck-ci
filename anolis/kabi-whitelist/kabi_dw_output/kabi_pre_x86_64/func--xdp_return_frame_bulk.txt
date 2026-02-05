@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/xdp.c:468
+Symbol:
+func xdp_return_frame_bulk (
+xdpf * @"struct--xdp_frame.txt"
+bq * @"struct--xdp_frame_bulk.txt"
+)
+"void"

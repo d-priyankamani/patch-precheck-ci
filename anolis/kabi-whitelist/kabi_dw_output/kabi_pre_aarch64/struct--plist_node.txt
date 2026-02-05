@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/plist.h:86
+Symbol:
+Byte size 40
+struct plist_node {
+0x0 prio "int"
+0x8 prio_list @"struct--list_head.txt"
+0x18 node_list @"struct--list_head.txt"
+}

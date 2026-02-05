@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/drm/drm_debugfs.h:59
+Symbol:
+Byte size 32
+struct drm_info_list {
+0x0 name * const "char"
+0x8 show * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+)
+"int"
+0x10 driver_features @"typedef--u32.txt"
+0x18 data * "void"
+}

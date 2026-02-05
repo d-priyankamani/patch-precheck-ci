@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:1266
+Symbol:
+Byte size 192
+struct ethtool_rxnfc {
+0x0 cmd @"typedef--__u32.txt"
+0x4 flow_type @"typedef--__u32.txt"
+0x8 data @"typedef--__u64.txt"
+0x10 fs @"struct--ethtool_rx_flow_spec.txt"
+0xb8 (NULL) union (NULL) {
+rule_cnt @"typedef--__u32.txt"
+rss_context @"typedef--__u32.txt"
+}
+0xbc rule_locs [0]@"typedef--__u32.txt"
+}

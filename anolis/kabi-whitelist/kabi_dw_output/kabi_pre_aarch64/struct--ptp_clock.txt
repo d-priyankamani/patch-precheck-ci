@@ -1,0 +1,35 @@
+Version: 1.0
+File: drivers/ptp/ptp_private.h:30
+Symbol:
+Byte size 5880
+Alignment 8
+struct ptp_clock {
+0x0 clock @"struct--posix_clock.txt"
+0x170 8 dev @"struct--device.txt"
+0x550 info * @"struct--ptp_clock_info.txt"
+0x558 devid @"typedef--dev_t.txt"
+0x55c index "int"
+0x560 pps_source * @"struct--pps_device.txt"
+0x568 dialed_frequency "long int"
+0x570 tsevq @"struct--timestamp_event_queue.txt"
+0x1580 tsevq_mux @"struct--mutex.txt"
+0x15a0 pincfg_mux @"struct--mutex.txt"
+0x15c0 tsev_wq @"typedef--wait_queue_head_t.txt"
+0x15d8 defunct "int"
+0x15e0 pin_dev_attr * @"struct--device_attribute.txt"
+0x15e8 pin_attr * * @"struct--attribute.txt"
+0x15f0 pin_attr_group @"struct--attribute_group.txt"
+0x1618 pin_attr_groups [2]* const @"struct--attribute_group.txt"
+0x1628 kworker * @"struct--kthread_worker.txt"
+0x1630 aux_work @"struct--kthread_delayed_work.txt"
+0x16a0 max_vclocks "unsigned int"
+0x16a4 n_vclocks "unsigned int"
+0x16a8 vclock_index * "int"
+0x16b0 n_vclocks_mux @"struct--mutex.txt"
+0x16d0 is_virtual_clock @"typedef--bool.txt"
+0x16d1 has_cycles @"typedef--bool.txt"
+0x16d8 ck_reserved1 "long unsigned int"
+0x16e0 ck_reserved2 "long unsigned int"
+0x16e8 ck_reserved3 "long unsigned int"
+0x16f0 ck_reserved4 "long unsigned int"
+}

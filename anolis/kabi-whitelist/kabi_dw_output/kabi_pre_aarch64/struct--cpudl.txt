@@ -1,0 +1,14 @@
+Version: 1.0
+File: kernel/sched/cpudeadline.h:11
+Symbol:
+Byte size 176
+struct cpudl {
+0x0 lock @"typedef--raw_spinlock_t.txt"
+0x4 size "int"
+0x8 free_cpus @"typedef--cpumask_var_t.txt"
+0x88 elements * @"struct--cpudl_item.txt"
+0x90 ck_reserved1 "long unsigned int"
+0x98 ck_reserved2 "long unsigned int"
+0xa0 ck_reserved3 "long unsigned int"
+0xa8 ck_reserved4 "long unsigned int"
+}

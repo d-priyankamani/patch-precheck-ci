@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_mst_topology.c:5425
+Symbol:
+func drm_dp_mst_atomic_enable_dsc (
+state * @"struct--drm_atomic_state.txt"
+port * @"struct--drm_dp_mst_port.txt"
+pbn "int"
+enable @"typedef--bool.txt"
+)
+"int"

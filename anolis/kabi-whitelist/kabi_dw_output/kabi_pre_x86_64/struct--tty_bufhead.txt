@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/tty_buffer.h:35
+Symbol:
+Byte size 168
+Alignment 8
+struct tty_bufhead {
+0x0 head * @"struct--tty_buffer.txt"
+0x8 work @"struct--work_struct.txt"
+0x48 lock @"struct--mutex.txt"
+0x68 priority @"typedef--atomic_t.txt"
+0x70 8 sentinel @"struct--tty_buffer.txt"
+0x90 free @"struct--llist_head.txt"
+0x98 mem_used @"typedef--atomic_t.txt"
+0x9c mem_limit "int"
+0xa0 tail * @"struct--tty_buffer.txt"
+}

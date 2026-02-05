@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/rdma/rdma_netlink.h:566
+Symbol:
+Byte size 4
+enum rdma_nl_counter_mode {
+RDMA_COUNTER_MODE_NONE = 0x0
+RDMA_COUNTER_MODE_AUTO = 0x1
+RDMA_COUNTER_MODE_MANUAL = 0x2
+RDMA_COUNTER_MODE_MAX = 0x3
+}

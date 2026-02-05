@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/pci-driver.c:105
+Symbol:
+func pci_match_id (
+ids * const @"struct--pci_device_id.txt"
+dev * @"struct--pci_dev.txt"
+)
+* const @"struct--pci_device_id.txt"

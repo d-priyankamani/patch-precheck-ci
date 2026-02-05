@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/drm/drm_mode_object.h:55
+Symbol:
+Byte size 32
+struct drm_mode_object {
+0x0 id @"typedef--uint32_t.txt"
+0x4 type @"typedef--uint32_t.txt"
+0x8 properties * @"struct--drm_object_properties.txt"
+0x10 refcount @"struct--kref.txt"
+0x18 free_cb * func (NULL) (
+(NULL) * @"struct--kref.txt"
+)
+"void"
+}

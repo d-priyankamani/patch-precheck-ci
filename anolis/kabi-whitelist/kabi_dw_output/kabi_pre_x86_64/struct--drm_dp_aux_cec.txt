@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/display/drm_dp_helper.h:285
+Symbol:
+Byte size 232
+struct drm_dp_aux_cec {
+0x0 lock @"struct--mutex.txt"
+0x20 adap * @"<declarations>/struct--cec_adapter.txt"
+0x28 connector * @"struct--drm_connector.txt"
+0x30 unregister_work @"struct--delayed_work.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/time/time.c:495
+Symbol:
+func set_normalized_timespec64 (
+ts * @"struct--timespec64.txt"
+sec @"typedef--time64_t.txt"
+nsec @"typedef--s64.txt"
+)
+"void"

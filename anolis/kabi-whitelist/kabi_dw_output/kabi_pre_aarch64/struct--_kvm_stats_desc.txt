@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/kvm_host.h:1838
+Symbol:
+Byte size 64
+struct _kvm_stats_desc {
+0x0 desc @"struct--kvm_stats_desc.txt"
+0x10 name [48]"char"
+}

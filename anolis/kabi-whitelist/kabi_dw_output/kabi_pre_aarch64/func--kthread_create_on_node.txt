@@ -1,0 +1,14 @@
+Version: 1.0
+File: kernel/kthread.c:503
+Symbol:
+func kthread_create_on_node (
+threadfn * func (NULL) (
+(NULL) * "void"
+)
+"int"
+data * "void"
+node "int"
+namefmt * const "char"
+(NULL) ...
+)
+* @"struct--task_struct.txt"

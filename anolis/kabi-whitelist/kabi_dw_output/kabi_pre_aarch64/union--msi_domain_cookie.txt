@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/msi.h:138
+Symbol:
+Byte size 8
+union msi_domain_cookie {
+value @"typedef--u64.txt"
+ptr * "void"
+iobase * "void"
+}

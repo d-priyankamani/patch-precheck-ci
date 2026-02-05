@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/memcontrol.h:137
+Symbol:
+Byte size 16
+struct mem_cgroup_reclaim_iter {
+0x0 position * @"struct--mem_cgroup.txt"
+0x8 generation "unsigned int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/bpf.h:1974
+Symbol:
+Byte size 16
+Alignment 8
+struct bpf_prog_array {
+0x0 8 rcu @"struct--callback_head.txt"
+0x10 items [0]@"struct--bpf_prog_array_item.txt"
+}

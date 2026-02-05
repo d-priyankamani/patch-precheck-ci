@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/kthread.c:911
+Symbol:
+func kthread_create_worker (
+flags "unsigned int"
+namefmt * const "char"
+(NULL) ...
+)
+* @"struct--kthread_worker.txt"

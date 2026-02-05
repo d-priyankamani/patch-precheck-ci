@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_resource.c:53
+Symbol:
+func ttm_lru_bulk_move_tail (
+bulk * @"struct--ttm_lru_bulk_move.txt"
+)
+"void"

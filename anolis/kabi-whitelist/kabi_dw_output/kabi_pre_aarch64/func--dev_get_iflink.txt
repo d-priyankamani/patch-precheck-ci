@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:652
+Symbol:
+func dev_get_iflink (
+dev * const @"struct--net_device.txt"
+)
+"int"

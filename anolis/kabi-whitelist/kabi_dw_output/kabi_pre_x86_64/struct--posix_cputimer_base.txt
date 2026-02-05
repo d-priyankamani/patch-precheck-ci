@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/posix-timers.h:118
+Symbol:
+Byte size 24
+struct posix_cputimer_base {
+0x0 nextevt @"typedef--u64.txt"
+0x8 tqhead @"struct--timerqueue_head.txt"
+}

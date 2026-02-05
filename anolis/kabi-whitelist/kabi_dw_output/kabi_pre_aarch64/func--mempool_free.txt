@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/mempool.c:457
+Symbol:
+func mempool_free (
+element * "void"
+pool * @"typedef--mempool_t.txt"
+)
+"void"

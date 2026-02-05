@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/klist.h:37
+Symbol:
+Byte size 32
+struct klist_node {
+0x0 n_klist * "void"
+0x8 n_node @"struct--list_head.txt"
+0x18 n_ref @"struct--kref.txt"
+}

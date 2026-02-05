@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/dim.h:52
+Symbol:
+Byte size 24
+Alignment 8
+struct dim_cq_moder {
+0x0 usec @"typedef--u16.txt"
+0x2 pkts @"typedef--u16.txt"
+0x4 comps @"typedef--u16.txt"
+0x6 cq_period_mode @"typedef--u8.txt"
+0x8 8 rcu @"struct--callback_head.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/notifier.h:60
+Symbol:
+Byte size 16
+struct atomic_notifier_head {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 head * @"struct--notifier_block.txt"
+}

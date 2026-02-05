@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/cpuidle.h:36
+Symbol:
+Byte size 96
+struct cpuidle_state_usage {
+0x0 disable "long long unsigned int"
+0x8 usage "long long unsigned int"
+0x10 time_ns @"typedef--u64.txt"
+0x18 above "long long unsigned int"
+0x20 below "long long unsigned int"
+0x28 rejected "long long unsigned int"
+0x30 s2idle_usage "long long unsigned int"
+0x38 s2idle_time "long long unsigned int"
+0x40 ck_reserved1 "long unsigned int"
+0x48 ck_reserved2 "long unsigned int"
+0x50 ck_reserved3 "long unsigned int"
+0x58 ck_reserved4 "long unsigned int"
+}

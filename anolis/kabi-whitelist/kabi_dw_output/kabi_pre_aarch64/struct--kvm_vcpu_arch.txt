@@ -1,0 +1,46 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:523
+Symbol:
+Byte size 8640
+Alignment 16
+struct kvm_vcpu_arch {
+0x0 ctxt @"struct--kvm_cpu_context.txt"
+0x880 sve_state * "void"
+0x888 fp_type @"enum--fp_type.txt"
+0x88c sve_max_vl "unsigned int"
+0x890 svcr @"typedef--u64.txt"
+0x898 hw_mmu * @"struct--kvm_s2_mmu.txt"
+0x8a0 hcr_el2 @"typedef--u64.txt"
+0x8a8 mdcr_el2 @"typedef--u64.txt"
+0x8b0 fault @"struct--kvm_vcpu_fault_info.txt"
+0x8d0 cflags @"typedef--u8.txt"
+0x8d1 iflags @"typedef--u8.txt"
+0x8d2 sflags @"typedef--u8.txt"
+0x8d3 pause @"typedef--bool.txt"
+0x8d8 debug_ptr * @"struct--kvm_guest_debug_arch.txt"
+0x8e0 vcpu_debug_state @"struct--kvm_guest_debug_arch.txt"
+0xae0 external_debug_state @"struct--kvm_guest_debug_arch.txt"
+0xce0 parent_task * @"struct--task_struct.txt"
+0xce8 vgic_cpu @"struct--vgic_cpu.txt"
+0x1c80 8 timer_cpu @"struct--arch_timer_cpu.txt"
+0x1ee0 pmu @"struct--kvm_pmu.txt"
+0x2138 guest_debug_preserved struct (NULL) {
+0x0 mdscr_el1 @"typedef--u32.txt"
+0x4 pstate_ss @"typedef--bool.txt"
+}
+0x2140 mp_state @"struct--kvm_mp_state.txt"
+0x2144 mp_state_lock @"typedef--spinlock_t.txt"
+0x2148 mmu_page_cache @"struct--kvm_mmu_memory_cache.txt"
+0x2168 features [1]"long unsigned int"
+0x2170 vsesr_el2 @"typedef--u64.txt"
+0x2178 reset_state @"struct--vcpu_reset_state.txt"
+0x2190 steal struct (NULL) {
+0x0 last_steal @"typedef--u64.txt"
+0x8 base @"typedef--gpa_t.txt"
+}
+0x21a0 pvsched struct (NULL) {
+0x0 pv_unhalted @"typedef--bool.txt"
+0x8 base @"typedef--gpa_t.txt"
+}
+0x21b0 ccsidr * @"typedef--u32.txt"
+}

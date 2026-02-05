@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/devlink/trap.c:1492
+Symbol:
+func devlink_trap_report (
+devlink * @"struct--devlink.txt"
+skb * @"struct--sk_buff.txt"
+trap_ctx * "void"
+in_devlink_port * @"struct--devlink_port.txt"
+fa_cookie * const @"struct--flow_action_cookie.txt"
+)
+"void"

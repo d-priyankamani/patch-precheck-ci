@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:3016
+Symbol:
+func __rdma_block_iter_start (
+biter * @"struct--ib_block_iter.txt"
+sglist * @"struct--scatterlist.txt"
+nents "unsigned int"
+pgsz "long unsigned int"
+)
+"void"

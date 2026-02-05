@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/drm_plane.h:563
+Symbol:
+Byte size 4
+enum drm_plane_type {
+DRM_PLANE_TYPE_OVERLAY = 0x0
+DRM_PLANE_TYPE_PRIMARY = 0x1
+DRM_PLANE_TYPE_CURSOR = 0x2
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/arm64/include/asm/hw_breakpoint.h:21
+Symbol:
+Byte size 24
+struct arch_hw_breakpoint {
+0x0 address @"typedef--u64.txt"
+0x8 trigger @"typedef--u64.txt"
+0x10 ctrl @"struct--arch_hw_breakpoint_ctrl.txt"
+}

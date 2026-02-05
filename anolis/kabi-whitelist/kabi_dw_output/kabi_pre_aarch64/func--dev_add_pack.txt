@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:574
+Symbol:
+func dev_add_pack (
+pt * @"struct--packet_type.txt"
+)
+"void"

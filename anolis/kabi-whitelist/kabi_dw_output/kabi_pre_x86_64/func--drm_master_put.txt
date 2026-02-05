@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_auth.c:448
+Symbol:
+func drm_master_put (
+master * * @"struct--drm_master.txt"
+)
+"void"

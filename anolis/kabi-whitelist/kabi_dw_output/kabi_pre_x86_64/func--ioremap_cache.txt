@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/x86/mm/ioremap.c:434
+Symbol:
+func ioremap_cache (
+phys_addr @"typedef--resource_size_t.txt"
+size "long unsigned int"
+)
+* "void"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/workqueue.c:2020
+Symbol:
+func mod_delayed_work_on (
+cpu "int"
+wq * @"struct--workqueue_struct.txt"
+dwork * @"struct--delayed_work.txt"
+delay "long unsigned int"
+)
+@"typedef--bool.txt"

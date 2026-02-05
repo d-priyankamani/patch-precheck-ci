@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/signal.c:1923
+Symbol:
+func kill_pgrp (
+pid * @"struct--pid.txt"
+sig "int"
+priv "int"
+)
+"int"

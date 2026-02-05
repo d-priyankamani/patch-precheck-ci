@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/fortify-string.h:472
+Symbol:
+func strncat (
+p const * "char"
+q const * const "char"
+count @"typedef--__kernel_size_t.txt"
+)
+* "char"

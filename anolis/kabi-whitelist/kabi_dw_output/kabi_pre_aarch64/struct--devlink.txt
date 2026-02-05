@@ -1,0 +1,34 @@
+Version: 1.0
+File: net/devlink/devl_internal.h:30
+Symbol:
+Byte size 448
+Alignment 32
+struct devlink {
+0x0 index @"typedef--u32.txt"
+0x8 ports @"struct--xarray.txt"
+0x18 rate_list @"struct--list_head.txt"
+0x28 sb_list @"struct--list_head.txt"
+0x38 dpipe_table_list @"struct--list_head.txt"
+0x48 resource_list @"struct--list_head.txt"
+0x58 params @"struct--xarray.txt"
+0x68 region_list @"struct--list_head.txt"
+0x78 reporter_list @"struct--list_head.txt"
+0x88 dpipe_headers * @"struct--devlink_dpipe_headers.txt"
+0x90 trap_list @"struct--list_head.txt"
+0xa0 trap_group_list @"struct--list_head.txt"
+0xb0 trap_policer_list @"struct--list_head.txt"
+0xc0 linecard_list @"struct--list_head.txt"
+0xd0 ops * const @"struct--devlink_ops.txt"
+0xd8 snapshot_ids @"struct--xarray.txt"
+0xe8 stats @"struct--devlink_dev_stats.txt"
+0x118 dev * @"struct--device.txt"
+0x120 _net @"typedef--possible_net_t.txt"
+0x128 lock @"struct--mutex.txt"
+0x148 lock_key @"struct--lock_class_key.txt"
+0x148 ck_reserved1 "long unsigned int"
+0x150 ck_reserved2 "long unsigned int"
+0x158:0-1 reload_failed @"typedef--u8.txt"
+0x15c refcount @"typedef--refcount_t.txt"
+0x160 8 rwork @"struct--rcu_work.txt"
+0x1c0 32 priv [0]"char"
+}

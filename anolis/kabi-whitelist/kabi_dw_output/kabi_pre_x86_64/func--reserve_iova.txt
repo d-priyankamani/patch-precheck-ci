@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/iommu/iova.c:514
+Symbol:
+func reserve_iova (
+iovad * @"struct--iova_domain.txt"
+pfn_lo "long unsigned int"
+pfn_hi "long unsigned int"
+)
+* @"struct--iova.txt"

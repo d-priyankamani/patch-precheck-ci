@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/list_sort.h:9
+Symbol:
+Byte size 8
+typedef list_cmp_func_t
+* func (NULL) (
+(NULL) * "void"
+(NULL) * const @"struct--list_head.txt"
+(NULL) * const @"struct--list_head.txt"
+)
+"int"

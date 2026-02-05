@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/seq_file.c:151
+Symbol:
+func seq_read (
+file * @"struct--file.txt"
+buf * "char"
+size @"typedef--size_t.txt"
+ppos * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"

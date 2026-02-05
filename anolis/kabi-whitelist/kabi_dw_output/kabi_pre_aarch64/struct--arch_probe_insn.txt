@@ -1,0 +1,10 @@
+Version: 1.0
+File: arch/arm64/include/asm/probes.h:17
+Symbol:
+Byte size 32
+struct arch_probe_insn {
+0x0 insn * @"typedef--probe_opcode_t.txt"
+0x8 pstate_cc * @"typedef--pstate_check_t.txt"
+0x10 handler * @"typedef--probes_handler_t.txt"
+0x18 restore "long unsigned int"
+}

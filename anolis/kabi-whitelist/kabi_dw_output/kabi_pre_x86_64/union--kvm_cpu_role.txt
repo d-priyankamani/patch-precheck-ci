@@ -1,0 +1,11 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:387
+Symbol:
+Byte size 8
+union kvm_cpu_role {
+as_u64 @"typedef--u64.txt"
+(NULL) struct (NULL) {
+0x0 base @"union--kvm_mmu_page_role.txt"
+0x4 ext @"union--kvm_mmu_extended_role.txt"
+}
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/time.c:682
+Symbol:
+func clock_t_to_jiffies (
+x "long unsigned int"
+)
+"long unsigned int"

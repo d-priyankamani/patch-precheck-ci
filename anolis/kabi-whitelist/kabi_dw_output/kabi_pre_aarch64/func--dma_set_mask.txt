@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/dma/mapping.c:833
+Symbol:
+func dma_set_mask (
+dev * @"struct--device.txt"
+mask @"typedef--u64.txt"
+)
+"int"

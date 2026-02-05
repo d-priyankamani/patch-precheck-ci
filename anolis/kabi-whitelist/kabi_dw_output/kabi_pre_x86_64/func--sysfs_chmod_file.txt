@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/sysfs/file.c:413
+Symbol:
+func sysfs_chmod_file (
+kobj * @"struct--kobject.txt"
+attr * const @"struct--attribute.txt"
+mode @"typedef--umode_t.txt"
+)
+"int"

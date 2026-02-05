@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/i2c/algos/i2c-algo-bit.c:674
+Symbol:
+func i2c_bit_add_bus (
+adap * @"struct--i2c_adapter.txt"
+)
+"int"

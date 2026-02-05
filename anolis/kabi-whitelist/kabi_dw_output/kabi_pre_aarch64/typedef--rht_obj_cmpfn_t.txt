@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/rhashtable-types.h:40
+Symbol:
+Byte size 8
+typedef rht_obj_cmpfn_t
+* func (NULL) (
+(NULL) * @"struct--rhashtable_compare_arg.txt"
+(NULL) * const "void"
+)
+"int"

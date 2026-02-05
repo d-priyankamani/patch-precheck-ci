@@ -1,0 +1,51 @@
+Version: 1.0
+File: include/linux/mm_types.h:74
+Symbol:
+Byte size 64
+Alignment 16
+struct page {
+0x0 flags "long unsigned int"
+0x8 8 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 (NULL) union (NULL) {
+lru @"struct--list_head.txt"
+(NULL) struct (NULL) {
+0x0 __filler * "void"
+0x8 mlock_count "unsigned int"
+}
+buddy_list @"struct--list_head.txt"
+pcp_list @"struct--list_head.txt"
+}
+0x10 mapping * @"struct--address_space.txt"
+0x18 (NULL) union (NULL) {
+index "long unsigned int"
+share "long unsigned int"
+}
+0x20 private "long unsigned int"
+}
+(NULL) struct (NULL) {
+0x0 pp_magic "long unsigned int"
+0x8 pp * @"struct--page_pool.txt"
+0x10 _pp_mapping_pad "long unsigned int"
+0x18 dma_addr "long unsigned int"
+0x20 (NULL) union (NULL) {
+dma_addr_upper "long unsigned int"
+pp_frag_count @"typedef--atomic_long_t.txt"
+}
+}
+(NULL) struct (NULL) {
+0x0 compound_head "long unsigned int"
+}
+(NULL) struct (NULL) {
+0x0 pgmap * @"struct--dev_pagemap.txt"
+0x8 zone_device_data * "void"
+}
+callback_head @"struct--callback_head.txt"
+}
+0x30 (NULL) union (NULL) {
+_mapcount @"typedef--atomic_t.txt"
+page_type "unsigned int"
+}
+0x34 _refcount @"typedef--atomic_t.txt"
+0x38 memcg_data "long unsigned int"
+}

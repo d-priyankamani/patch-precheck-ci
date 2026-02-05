@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/fs_parser.h:22
+Symbol:
+Byte size 4
+typedef fs_param_type
+func (NULL) (
+(NULL) * @"struct--p_log.txt"
+(NULL) * const @"struct--fs_parameter_spec.txt"
+(NULL) * @"struct--fs_parameter.txt"
+(NULL) * @"struct--fs_parse_result.txt"
+)
+"int"

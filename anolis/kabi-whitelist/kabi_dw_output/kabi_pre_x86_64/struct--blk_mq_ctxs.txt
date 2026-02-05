@@ -1,0 +1,8 @@
+Version: 1.0
+File: block/blk-mq.h:10
+Symbol:
+Byte size 104
+struct blk_mq_ctxs {
+0x0 kobj @"struct--kobject.txt"
+0x60 queue_ctx * @"struct--blk_mq_ctx.txt"
+}

@@ -1,0 +1,42 @@
+Version: 1.0
+File: fs/proc/internal.h:30
+Symbol:
+Byte size 176
+Alignment 8
+struct proc_dir_entry {
+0x0 in_use @"typedef--atomic_t.txt"
+0x4 refcnt @"typedef--refcount_t.txt"
+0x8 pde_openers @"struct--list_head.txt"
+0x18 pde_unload_lock @"typedef--spinlock_t.txt"
+0x20 pde_unload_completion * @"struct--completion.txt"
+0x28 proc_iops * const @"struct--inode_operations.txt"
+0x30 (NULL) union (NULL) {
+proc_ops * const @"struct--proc_ops.txt"
+proc_dir_ops * const @"struct--file_operations.txt"
+}
+0x38 proc_dops * const @"struct--dentry_operations.txt"
+0x40 (NULL) union (NULL) {
+seq_ops * const @"struct--seq_operations.txt"
+single_show * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+)
+"int"
+}
+0x48 write @"typedef--proc_write_t.txt"
+0x50 data * "void"
+0x58 state_size "unsigned int"
+0x5c low_ino "unsigned int"
+0x60 nlink @"typedef--nlink_t.txt"
+0x64 uid @"typedef--kuid_t.txt"
+0x68 gid @"typedef--kgid_t.txt"
+0x70 size @"typedef--loff_t.txt"
+0x78 parent * @"struct--proc_dir_entry.txt"
+0x80 subdir @"struct--rb_root.txt"
+0x88 8 subdir_node @"struct--rb_node.txt"
+0xa0 name * "char"
+0xa8 mode @"typedef--umode_t.txt"
+0xaa flags @"typedef--u8.txt"
+0xab namelen @"typedef--u8.txt"
+0xac inline_name [0]"char"
+}

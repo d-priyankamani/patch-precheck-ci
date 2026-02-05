@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vma_manager.c:104
+Symbol:
+func drm_vma_offset_manager_destroy (
+mgr * @"struct--drm_vma_offset_manager.txt"
+)
+"void"

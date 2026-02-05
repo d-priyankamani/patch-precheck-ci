@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/kvm/arm_vgic.h:297
+Symbol:
+Byte size 272
+struct vgic_v2_cpu_if {
+0x0 vgic_hcr @"typedef--u32.txt"
+0x4 vgic_vmcr @"typedef--u32.txt"
+0x8 vgic_apr @"typedef--u32.txt"
+0xc vgic_lr [64]@"typedef--u32.txt"
+0x10c used_lrs "unsigned int"
+}

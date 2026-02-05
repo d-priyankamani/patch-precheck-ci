@@ -1,0 +1,19 @@
+Version: 1.0
+File: arch/x86/include/asm/desc_defs.h:16
+Symbol:
+Byte size 8
+struct desc_struct {
+0x0 limit0 @"typedef--u16.txt"
+0x2 base0 @"typedef--u16.txt"
+0x4:0-8 base1 @"typedef--u16.txt"
+0x5:0-4 type @"typedef--u16.txt"
+0x5:4-5 s @"typedef--u16.txt"
+0x5:5-7 dpl @"typedef--u16.txt"
+0x5:7-8 p @"typedef--u16.txt"
+0x6:0-4 limit1 @"typedef--u16.txt"
+0x6:4-5 avl @"typedef--u16.txt"
+0x6:5-6 l @"typedef--u16.txt"
+0x6:6-7 d @"typedef--u16.txt"
+0x6:7-8 g @"typedef--u16.txt"
+0x7:0-8 base2 @"typedef--u16.txt"
+}

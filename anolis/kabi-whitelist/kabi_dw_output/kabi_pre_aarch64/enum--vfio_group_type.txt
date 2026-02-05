@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/vfio/vfio.h:45
+Symbol:
+Byte size 4
+enum vfio_group_type {
+VFIO_IOMMU = 0x0
+VFIO_EMULATED_IOMMU = 0x1
+VFIO_NO_IOMMU = 0x2
+}

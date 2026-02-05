@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/rhashtable-types.h:120
+Symbol:
+Byte size 64
+struct rhashtable_iter {
+0x0 ht * @"struct--rhashtable.txt"
+0x8 p * @"struct--rhash_head.txt"
+0x10 list * @"struct--rhlist_head.txt"
+0x18 walker @"struct--rhashtable_walker.txt"
+0x30 slot "unsigned int"
+0x34 skip "unsigned int"
+0x38 end_of_table @"typedef--bool.txt"
+}

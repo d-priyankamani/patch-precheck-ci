@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/iommu.h:1158
+Symbol:
+Byte size 8
+struct iommu_attach_handle {
+0x0 domain * @"struct--iommu_domain.txt"
+}

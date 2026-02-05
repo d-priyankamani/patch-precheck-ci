@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/pci.h:171
+Symbol:
+Byte size 4
+typedef pci_power_t
+"int"

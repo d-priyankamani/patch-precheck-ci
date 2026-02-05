@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/srcutree.h:58
+Symbol:
+Byte size 96
+struct srcu_node {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 srcu_have_cbs [4]"long unsigned int"
+0x28 srcu_data_have_cbs [4]"long unsigned int"
+0x48 srcu_gp_seq_needed_exp "long unsigned int"
+0x50 srcu_parent * @"struct--srcu_node.txt"
+0x58 grplo "int"
+0x5c grphi "int"
+}

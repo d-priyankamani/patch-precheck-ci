@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/mmap.c:1935
+Symbol:
+func find_vma_intersection (
+mm * @"struct--mm_struct.txt"
+start_addr "long unsigned int"
+end_addr "long unsigned int"
+)
+* @"struct--vm_area_struct.txt"

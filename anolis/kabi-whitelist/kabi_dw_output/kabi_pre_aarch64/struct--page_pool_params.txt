@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/net/page_pool/types.h:58
+Symbol:
+Byte size 80
+struct page_pool_params {
+0x0 flags "unsigned int"
+0x4 order "unsigned int"
+0x8 pool_size "unsigned int"
+0xc nid "int"
+0x10 dev * @"struct--device.txt"
+0x18 napi * @"struct--napi_struct.txt"
+0x20 dma_dir @"enum--dma_data_direction.txt"
+0x24 max_len "unsigned int"
+0x28 offset "unsigned int"
+0x30 init_callback * func (NULL) (
+(NULL) * @"struct--page.txt"
+(NULL) * "void"
+)
+"void"
+0x38 init_arg * "void"
+0x40 ck_reserved1 "long unsigned int"
+0x48 ck_reserved2 "long unsigned int"
+}

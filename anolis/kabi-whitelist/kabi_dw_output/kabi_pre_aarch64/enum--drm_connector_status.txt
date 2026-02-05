@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/drm_connector.h:63
+Symbol:
+Byte size 4
+enum drm_connector_status {
+connector_status_connected = 0x1
+connector_status_disconnected = 0x2
+connector_status_unknown = 0x3
+}

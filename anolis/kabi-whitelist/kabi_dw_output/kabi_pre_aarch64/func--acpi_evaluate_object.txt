@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/acpi/acpica/nsxfeval.c:163
+Symbol:
+func acpi_evaluate_object (
+handle @"typedef--acpi_handle.txt"
+pathname @"typedef--acpi_string.txt"
+external_params * @"struct--acpi_object_list.txt"
+return_buffer * @"struct--acpi_buffer.txt"
+)
+@"typedef--acpi_status.txt"

@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/sched/core.c:7340
+Symbol:
+func __cond_resched (
+)
+"int"

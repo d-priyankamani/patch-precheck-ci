@@ -1,0 +1,25 @@
+Version: 1.0
+File: arch/x86/include/asm/msi.h:29
+Symbol:
+Byte size 4
+struct x86_msi_addr_lo {
+0x0 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0:0-2 reserved_0 @"typedef--u32.txt"
+0x0:2-3 dest_mode_logical @"typedef--u32.txt"
+0x0:3-4 redirect_hint @"typedef--u32.txt"
+0x0:4-5 reserved_1 @"typedef--u32.txt"
+0x0:5-12 virt_destid_8_14 @"typedef--u32.txt"
+0x1:4-12 destid_0_7 @"typedef--u32.txt"
+0x2:4-16 base_address @"typedef--u32.txt"
+}
+(NULL) struct (NULL) {
+0x0:0-2 dmar_reserved_0 @"typedef--u32.txt"
+0x0:2-3 dmar_index_15 @"typedef--u32.txt"
+0x0:3-4 dmar_subhandle_valid @"typedef--u32.txt"
+0x0:4-5 dmar_format @"typedef--u32.txt"
+0x0:5-20 dmar_index_0_14 @"typedef--u32.txt"
+0x2:4-16 dmar_base_address @"typedef--u32.txt"
+}
+}
+}

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/mod_devicetable.h:587
+Symbol:
+Byte size 344
+struct dmi_system_id {
+0x0 callback * func (NULL) (
+(NULL) * const @"struct--dmi_system_id.txt"
+)
+"int"
+0x8 ident * const "char"
+0x10 matches [4]@"struct--dmi_strmatch.txt"
+0x150 driver_data * "void"
+}

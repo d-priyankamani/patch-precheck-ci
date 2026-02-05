@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/trace_events.h:79
+Symbol:
+Byte size 8
+struct trace_entry {
+0x0 type "short unsigned int"
+0x2 flags "unsigned char"
+0x3 preempt_count "unsigned char"
+0x4 pid "int"
+}

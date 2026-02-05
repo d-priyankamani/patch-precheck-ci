@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mm.c:1023
+Symbol:
+func drm_mm_print (
+mm * const @"struct--drm_mm.txt"
+p * @"struct--drm_printer.txt"
+)
+"void"

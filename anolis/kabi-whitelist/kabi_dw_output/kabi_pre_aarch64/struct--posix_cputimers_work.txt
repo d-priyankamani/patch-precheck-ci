@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/posix-timers.h:145
+Symbol:
+Byte size 88
+Alignment 8
+struct posix_cputimers_work {
+0x0 8 work @"struct--callback_head.txt"
+0x10 mutex @"struct--mutex.txt"
+0x30 scheduled "unsigned int"
+0x38 ck_reserved1 "long unsigned int"
+0x40 ck_reserved2 "long unsigned int"
+0x48 ck_reserved3 "long unsigned int"
+0x50 ck_reserved4 "long unsigned int"
+}

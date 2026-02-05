@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/net/genetlink.h:110
+Symbol:
+Byte size 80
+struct genl_info {
+0x0 snd_seq @"typedef--u32.txt"
+0x4 snd_portid @"typedef--u32.txt"
+0x8 family * const @"struct--genl_family.txt"
+0x10 nlhdr * const @"struct--nlmsghdr.txt"
+0x18 genlhdr * @"struct--genlmsghdr.txt"
+0x20 attrs * * @"struct--nlattr.txt"
+0x28 _net @"typedef--possible_net_t.txt"
+0x30 user_ptr [2]* "void"
+0x40 extack * @"struct--netlink_ext_ack.txt"
+0x48 ck_reserved1 "long unsigned int"
+}

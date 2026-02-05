@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/x86/include/asm/msi.h:49
+Symbol:
+typedef arch_msi_msg_addr_lo_t
+@"struct--x86_msi_addr_lo.txt"

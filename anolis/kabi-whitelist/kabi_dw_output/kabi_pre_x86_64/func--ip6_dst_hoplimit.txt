@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ipv6/output_core.c:104
+Symbol:
+func ip6_dst_hoplimit (
+dst * @"struct--dst_entry.txt"
+)
+"int"

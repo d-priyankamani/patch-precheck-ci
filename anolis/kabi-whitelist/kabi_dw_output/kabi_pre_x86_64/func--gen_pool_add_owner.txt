@@ -1,0 +1,12 @@
+Version: 1.0
+File: lib/genalloc.c:184
+Symbol:
+func gen_pool_add_owner (
+pool * @"struct--gen_pool.txt"
+virt "long unsigned int"
+phys @"typedef--phys_addr_t.txt"
+size @"typedef--size_t.txt"
+nid "int"
+owner * "void"
+)
+"int"

@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/net/if_inet6.h:144
+Symbol:
+Byte size 88
+Alignment 8
+struct ifacaddr6 {
+0x0 aca_addr @"struct--in6_addr.txt"
+0x10 aca_rt * @"struct--fib6_info.txt"
+0x18 aca_next * @"struct--ifacaddr6.txt"
+0x20 aca_addr_lst @"struct--hlist_node.txt"
+0x30 aca_users "int"
+0x34 aca_refcnt @"typedef--refcount_t.txt"
+0x38 aca_cstamp "long unsigned int"
+0x40 aca_tstamp "long unsigned int"
+0x48 8 rcu @"struct--callback_head.txt"
+}

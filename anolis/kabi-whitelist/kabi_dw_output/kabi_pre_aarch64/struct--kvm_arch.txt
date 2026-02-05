@@ -1,0 +1,23 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:204
+Symbol:
+Byte size 1144
+struct kvm_arch {
+0x0 mmu @"struct--kvm_s2_mmu.txt"
+0x50 vtcr @"typedef--u64.txt"
+0x58 vgic @"struct--vgic_dist.txt"
+0x188 timer_data @"struct--arch_timer_vm_data.txt"
+0x1a0 psci_version @"typedef--u32.txt"
+0x1a8 config_lock @"struct--mutex.txt"
+0x1c8 flags "long unsigned int"
+0x1d0 vcpu_features [1]"long unsigned int"
+0x1d8 pmu_filter * "long unsigned int"
+0x1e0 arm_pmu * @"<declarations>/struct--arm_pmu.txt"
+0x1e8 supported_cpus @"typedef--cpumask_var_t.txt"
+0x268 pmcr_n @"typedef--u8.txt"
+0x270 smccc_feat @"struct--kvm_smccc_features.txt"
+0x288 smccc_filter @"struct--maple_tree.txt"
+0x298 id_regs [56]@"typedef--u64.txt"
+0x458 pkvm @"struct--kvm_protected_vm.txt"
+0x470 ck_reserved1 "long unsigned int"
+}

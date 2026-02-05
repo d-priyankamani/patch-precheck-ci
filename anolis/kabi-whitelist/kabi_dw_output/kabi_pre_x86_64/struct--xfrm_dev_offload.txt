@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/xfrm.h:147
+Symbol:
+Byte size 32
+struct xfrm_dev_offload {
+0x0 dev * @"struct--net_device.txt"
+0x8 dev_tracker @"typedef--netdevice_tracker.txt"
+0x8 real_dev * @"struct--net_device.txt"
+0x10 offload_handle "long unsigned int"
+0x18:0-2 dir @"typedef--u8.txt"
+0x18:2-4 type @"typedef--u8.txt"
+0x18:4-6 flags @"typedef--u8.txt"
+}

@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/hwmon.h:20
+Symbol:
+Byte size 4
+enum hwmon_sensor_types {
+hwmon_chip = 0x0
+hwmon_temp = 0x1
+hwmon_in = 0x2
+hwmon_curr = 0x3
+hwmon_power = 0x4
+hwmon_energy = 0x5
+hwmon_humidity = 0x6
+hwmon_fan = 0x7
+hwmon_pwm = 0x8
+hwmon_intrusion = 0x9
+hwmon_max = 0xa
+}

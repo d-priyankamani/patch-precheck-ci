@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/dma-fence-chain.h:25
+Symbol:
+Byte size 160
+Alignment 8
+struct dma_fence_chain {
+0x0 8 base @"struct--dma_fence.txt"
+0x40 prev * @"struct--dma_fence.txt"
+0x48 prev_seqno @"typedef--u64.txt"
+0x50 fence * @"struct--dma_fence.txt"
+0x58 (NULL) union (NULL) {
+cb @"struct--dma_fence_cb.txt"
+work @"struct--irq_work.txt"
+}
+0x98 lock @"typedef--spinlock_t.txt"
+}

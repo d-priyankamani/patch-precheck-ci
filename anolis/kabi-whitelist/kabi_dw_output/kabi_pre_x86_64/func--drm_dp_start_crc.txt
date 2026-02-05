@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_helper.c:2209
+Symbol:
+func drm_dp_start_crc (
+aux * @"struct--drm_dp_aux.txt"
+crtc * @"struct--drm_crtc.txt"
+)
+"int"

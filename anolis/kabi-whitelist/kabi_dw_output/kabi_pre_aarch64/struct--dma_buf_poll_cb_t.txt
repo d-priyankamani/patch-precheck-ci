@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/dma-buf.h:431
+Symbol:
+Byte size 40
+struct dma_buf_poll_cb_t {
+0x0 cb @"struct--dma_fence_cb.txt"
+0x18 poll * @"typedef--wait_queue_head_t.txt"
+0x20 active @"typedef--__poll_t.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/scsi/scsi_transport_sas.c:1500
+Symbol:
+func sas_expander_alloc (
+parent * @"struct--sas_port.txt"
+type @"enum--sas_device_type.txt"
+)
+* @"struct--sas_rphy.txt"

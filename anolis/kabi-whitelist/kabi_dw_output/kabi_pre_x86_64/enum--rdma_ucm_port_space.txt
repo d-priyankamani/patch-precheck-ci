@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/rdma/rdma_user_cm.h:74
+Symbol:
+Byte size 4
+enum rdma_ucm_port_space {
+RDMA_PS_IPOIB = 0x2
+RDMA_PS_IB = 0x13f
+RDMA_PS_TCP = 0x106
+RDMA_PS_UDP = 0x111
+}

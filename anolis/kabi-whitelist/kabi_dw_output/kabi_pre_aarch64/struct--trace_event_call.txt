@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/linux/trace_events.h:374
+Symbol:
+Byte size 128
+struct trace_event_call {
+0x0 list @"struct--list_head.txt"
+0x10 class * @"struct--trace_event_class.txt"
+0x18 (NULL) union (NULL) {
+name * const "char"
+tp * @"struct--tracepoint.txt"
+}
+0x20 event @"struct--trace_event.txt"
+0x40 print_fmt * "char"
+0x48 filter * @"struct--event_filter.txt"
+0x50 (NULL) union (NULL) {
+module * "void"
+refcnt @"typedef--atomic_t.txt"
+}
+0x58 data * "void"
+0x60 flags "int"
+0x64 perf_refcount "int"
+0x68 perf_events * @"struct--hlist_head.txt"
+0x70 prog_array * @"struct--bpf_prog_array.txt"
+0x78 perf_perm * func (NULL) (
+(NULL) * @"struct--trace_event_call.txt"
+(NULL) * @"struct--perf_event.txt"
+)
+"int"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/bpf_mem_alloc.h:11
+Symbol:
+Byte size 88
+struct bpf_mem_alloc {
+0x0 caches * @"<declarations>/struct--bpf_mem_caches.txt"
+0x8 cache * @"<declarations>/struct--bpf_mem_cache.txt"
+0x10 percpu @"typedef--bool.txt"
+0x18 work @"struct--work_struct.txt"
+}

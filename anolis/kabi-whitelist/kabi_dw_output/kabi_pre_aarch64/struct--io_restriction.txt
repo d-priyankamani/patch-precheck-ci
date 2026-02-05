@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:154
+Symbol:
+Byte size 24
+struct io_restriction {
+0x0 register_op [1]"long unsigned int"
+0x8 sqe_op [1]"long unsigned int"
+0x10 sqe_flags_allowed @"typedef--u8.txt"
+0x11 sqe_flags_required @"typedef--u8.txt"
+0x12 registered @"typedef--bool.txt"
+}

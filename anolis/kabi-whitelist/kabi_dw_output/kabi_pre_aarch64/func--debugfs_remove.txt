@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/debugfs/inode.c:771
+Symbol:
+func debugfs_remove (
+dentry * @"struct--dentry.txt"
+)
+"void"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:319
+Symbol:
+Byte size 12
+struct ethtool_regs {
+0x0 cmd @"typedef--__u32.txt"
+0x4 version @"typedef--__u32.txt"
+0x8 len @"typedef--__u32.txt"
+0xc data [0]@"typedef--__u8.txt"
+}

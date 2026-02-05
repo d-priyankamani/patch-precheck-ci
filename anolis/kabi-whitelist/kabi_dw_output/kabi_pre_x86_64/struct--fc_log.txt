@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/fs_context.h:179
+Symbol:
+Byte size 80
+struct fc_log {
+0x0 usage @"typedef--refcount_t.txt"
+0x4 head @"typedef--u8.txt"
+0x5 tail @"typedef--u8.txt"
+0x6 need_free @"typedef--u8.txt"
+0x8 owner * @"struct--module.txt"
+0x10 buffer [8]* "char"
+}

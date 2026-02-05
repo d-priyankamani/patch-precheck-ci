@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/netns/packet.h:11
+Symbol:
+Byte size 40
+struct netns_packet {
+0x0 sklist_lock @"struct--mutex.txt"
+0x20 sklist @"struct--hlist_head.txt"
+}

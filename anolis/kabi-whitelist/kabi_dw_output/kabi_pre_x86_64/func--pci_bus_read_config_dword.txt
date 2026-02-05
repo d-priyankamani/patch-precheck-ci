@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/pci/access.c:68
+Symbol:
+func pci_bus_read_config_dword (
+bus * @"struct--pci_bus.txt"
+devfn "unsigned int"
+pos "int"
+value * @"typedef--u32.txt"
+)
+"int"

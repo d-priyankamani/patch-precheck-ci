@@ -1,0 +1,23 @@
+Version: 1.0
+File: drivers/gpio/gpiolib.h:56
+Symbol:
+Byte size 1360
+Alignment 8
+struct gpio_device {
+0x0 8 dev @"struct--device.txt"
+0x3e0 chrdev @"struct--cdev.txt"
+0x468 id "int"
+0x470 mockdev * @"struct--device.txt"
+0x478 owner * @"struct--module.txt"
+0x480 chip * @"struct--gpio_chip.txt"
+0x488 descs * @"struct--gpio_desc.txt"
+0x490 base "int"
+0x494 ngpio @"typedef--u16.txt"
+0x498 label * const "char"
+0x4a0 data * "void"
+0x4a8 list @"struct--list_head.txt"
+0x4b8 line_state_notifier @"struct--blocking_notifier_head.txt"
+0x4e8 device_notifier @"struct--blocking_notifier_head.txt"
+0x518 sem @"struct--rw_semaphore.txt"
+0x540 pin_ranges @"struct--list_head.txt"
+}

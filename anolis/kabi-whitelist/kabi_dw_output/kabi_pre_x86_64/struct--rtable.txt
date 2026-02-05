@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/net/route.h:60
+Symbol:
+Byte size 240
+Alignment 8
+struct rtable {
+0x0 8 dst @"struct--dst_entry.txt"
+0xc8 rt_genid "int"
+0xcc rt_flags "unsigned int"
+0xd0 rt_type @"typedef--__u16.txt"
+0xd2 rt_is_input @"typedef--__u8.txt"
+0xd3 rt_uses_gateway @"typedef--__u8.txt"
+0xd4 rt_iif "int"
+0xd8 rt_gw_family @"typedef--u8.txt"
+0xdc (NULL) union (NULL) {
+rt_gw4 @"typedef--__be32.txt"
+rt_gw6 @"struct--in6_addr.txt"
+}
+0xec:0-1 rt_mtu_locked @"typedef--u32.txt"
+0xec:1-32 rt_pmtu @"typedef--u32.txt"
+}

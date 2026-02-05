@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/jump_label.c:242
+Symbol:
+func static_key_disable (
+key * @"struct--static_key.txt"
+)
+"void"

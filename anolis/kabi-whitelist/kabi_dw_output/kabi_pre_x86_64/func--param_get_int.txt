@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/params.c:240
+Symbol:
+func param_get_int (
+buffer * "char"
+kp * const @"struct--kernel_param.txt"
+)
+"int"

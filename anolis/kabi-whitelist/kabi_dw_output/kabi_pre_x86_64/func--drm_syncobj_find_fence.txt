@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_syncobj.c:430
+Symbol:
+func drm_syncobj_find_fence (
+file_private * @"struct--drm_file.txt"
+handle @"typedef--u32.txt"
+point @"typedef--u64.txt"
+flags @"typedef--u64.txt"
+fence * * @"struct--dma_fence.txt"
+)
+"int"

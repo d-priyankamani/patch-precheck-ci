@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/netlink/af_netlink.c:2011
+Symbol:
+func __netlink_kernel_create (
+net * @"struct--net.txt"
+unit "int"
+module * @"struct--module.txt"
+cfg * @"struct--netlink_kernel_cfg.txt"
+)
+* @"struct--sock.txt"

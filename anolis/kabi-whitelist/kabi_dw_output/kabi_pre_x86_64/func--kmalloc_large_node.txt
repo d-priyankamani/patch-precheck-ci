@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/slab_common.c:1421
+Symbol:
+func kmalloc_large_node (
+size @"typedef--size_t.txt"
+flags @"typedef--gfp_t.txt"
+node "int"
+)
+* "void"

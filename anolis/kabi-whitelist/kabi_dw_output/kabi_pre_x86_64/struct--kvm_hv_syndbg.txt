@@ -1,0 +1,14 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:1065
+Symbol:
+Byte size 48
+struct kvm_hv_syndbg {
+0x0 control struct (NULL) {
+0x0 control @"typedef--u64.txt"
+0x8 status @"typedef--u64.txt"
+0x10 send_page @"typedef--u64.txt"
+0x18 recv_page @"typedef--u64.txt"
+0x20 pending_page @"typedef--u64.txt"
+}
+0x28 options @"typedef--u64.txt"
+}

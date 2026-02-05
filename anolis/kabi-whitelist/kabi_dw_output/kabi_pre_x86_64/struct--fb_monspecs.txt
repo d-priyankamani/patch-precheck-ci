@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/linux/fb.h:65
+Symbol:
+Byte size 144
+struct fb_monspecs {
+0x0 chroma @"struct--fb_chroma.txt"
+0x20 modedb * @"struct--fb_videomode.txt"
+0x28 manufacturer [4]@"typedef--__u8.txt"
+0x2c monitor [14]@"typedef--__u8.txt"
+0x3a serial_no [14]@"typedef--__u8.txt"
+0x48 ascii [14]@"typedef--__u8.txt"
+0x58 modedb_len @"typedef--__u32.txt"
+0x5c model @"typedef--__u32.txt"
+0x60 serial @"typedef--__u32.txt"
+0x64 year @"typedef--__u32.txt"
+0x68 week @"typedef--__u32.txt"
+0x6c hfmin @"typedef--__u32.txt"
+0x70 hfmax @"typedef--__u32.txt"
+0x74 dclkmin @"typedef--__u32.txt"
+0x78 dclkmax @"typedef--__u32.txt"
+0x7c input @"typedef--__u16.txt"
+0x7e dpms @"typedef--__u16.txt"
+0x80 signal @"typedef--__u16.txt"
+0x82 vfmin @"typedef--__u16.txt"
+0x84 vfmax @"typedef--__u16.txt"
+0x86 gamma @"typedef--__u16.txt"
+0x88:0-1 gtf @"typedef--__u16.txt"
+0x8a misc @"typedef--__u16.txt"
+0x8c version @"typedef--__u8.txt"
+0x8d revision @"typedef--__u8.txt"
+0x8e max_x @"typedef--__u8.txt"
+0x8f max_y @"typedef--__u8.txt"
+}

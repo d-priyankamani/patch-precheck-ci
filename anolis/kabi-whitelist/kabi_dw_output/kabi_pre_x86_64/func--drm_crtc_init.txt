@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modeset_helper.c:141
+Symbol:
+func drm_crtc_init (
+dev * @"struct--drm_device.txt"
+crtc * @"struct--drm_crtc.txt"
+funcs * const @"struct--drm_crtc_funcs.txt"
+)
+"int"

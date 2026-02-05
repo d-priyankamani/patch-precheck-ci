@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:173
+Symbol:
+Byte size 384
+struct acpi_driver {
+0x0 name [80]"char"
+0x50 class [80]"char"
+0xa0 ids * const @"struct--acpi_device_id.txt"
+0xa8 flags "unsigned int"
+0xb0 ops @"struct--acpi_device_ops.txt"
+0xc8 drv @"struct--device_driver.txt"
+0x178 owner * @"struct--module.txt"
+}

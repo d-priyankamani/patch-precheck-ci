@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/socket.c:3675
+Symbol:
+func kernel_sock_shutdown (
+sock * @"struct--socket.txt"
+how @"enum--sock_shutdown_cmd.txt"
+)
+"int"

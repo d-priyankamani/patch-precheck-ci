@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/sysctl.h:135
+Symbol:
+Byte size 64
+struct ctl_table {
+0x0 procname * const "char"
+0x8 data * "void"
+0x10 maxlen "int"
+0x14 mode @"typedef--umode_t.txt"
+0x18 type enum (NULL) {
+SYSCTL_TABLE_TYPE_DEFAULT = 0x0
+SYSCTL_TABLE_TYPE_PERMANENTLY_EMPTY = 0x1
+}
+0x20 proc_handler * @"typedef--proc_handler.txt"
+0x28 poll * @"struct--ctl_table_poll.txt"
+0x30 extra1 * "void"
+0x38 extra2 * "void"
+}

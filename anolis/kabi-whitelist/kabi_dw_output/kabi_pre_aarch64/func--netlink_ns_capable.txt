@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/netlink/af_netlink.c:881
+Symbol:
+func netlink_ns_capable (
+skb * const @"struct--sk_buff.txt"
+user_ns * @"struct--user_namespace.txt"
+cap "int"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/flow.h:27
+Symbol:
+Byte size 8
+struct flowi_tunnel {
+0x0 tun_id @"typedef--__be64.txt"
+}

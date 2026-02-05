@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/iommu.h:118
+Symbol:
+Byte size 12
+struct iommu_page_response {
+0x0 pasid @"typedef--u32.txt"
+0x4 grpid @"typedef--u32.txt"
+0x8 code @"typedef--u32.txt"
+}

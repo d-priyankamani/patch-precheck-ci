@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:935
+Symbol:
+Byte size 8
+struct opa_ah_attr {
+0x0 dlid @"typedef--u32.txt"
+0x4 src_path_bits @"typedef--u8.txt"
+0x5 make_grd @"typedef--bool.txt"
+}

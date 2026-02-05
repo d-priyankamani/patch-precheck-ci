@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/delayed_call.h:10
+Symbol:
+Byte size 16
+struct delayed_call {
+0x0 fn * func (NULL) (
+(NULL) * "void"
+)
+"void"
+0x8 arg * "void"
+}

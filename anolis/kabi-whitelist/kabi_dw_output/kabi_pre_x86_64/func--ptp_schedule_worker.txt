@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/ptp/ptp_clock.c:453
+Symbol:
+func ptp_schedule_worker (
+ptp * @"struct--ptp_clock.txt"
+delay "long unsigned int"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/llist.h:56
+Symbol:
+Byte size 8
+struct llist_head {
+0x0 first * @"struct--llist_node.txt"
+}

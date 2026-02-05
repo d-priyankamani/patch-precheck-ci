@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/xz/xz_stream.h:52
+Symbol:
+Byte size 4
+enum xz_check {
+XZ_CHECK_NONE = 0x0
+XZ_CHECK_CRC32 = 0x1
+XZ_CHECK_CRC64 = 0x4
+XZ_CHECK_SHA256 = 0xa
+}

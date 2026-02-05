@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/cpu.c:3143
+Symbol:
+var __num_online_cpus "void"

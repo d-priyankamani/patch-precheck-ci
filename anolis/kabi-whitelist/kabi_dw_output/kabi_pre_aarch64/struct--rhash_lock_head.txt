@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/rhashtable.h:47
+Symbol:
+struct rhash_lock_head {
+}

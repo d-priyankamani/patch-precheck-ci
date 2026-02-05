@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/crypto.h:422
+Symbol:
+Byte size 40
+Alignment 8
+struct crypto_tfm {
+0x0 refcnt @"typedef--refcount_t.txt"
+0x4 crt_flags @"typedef--u32.txt"
+0x8 node "int"
+0x10 exit * func (NULL) (
+(NULL) * @"struct--crypto_tfm.txt"
+)
+"void"
+0x18 __crt_alg * @"struct--crypto_alg.txt"
+0x20 ck_reserved1 "long unsigned int"
+0x28 8 __crt_ctx [0]* "void"
+}

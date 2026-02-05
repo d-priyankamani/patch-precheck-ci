@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/utsname.h:25
+Symbol:
+Byte size 390
+struct new_utsname {
+0x0 sysname [65]"char"
+0x41 nodename [65]"char"
+0x82 release [65]"char"
+0xc3 version [65]"char"
+0x104 machine [65]"char"
+0x145 domainname [65]"char"
+}

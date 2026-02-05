@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/pid.c:463
+Symbol:
+func find_get_pid (
+nr @"typedef--pid_t.txt"
+)
+* @"struct--pid.txt"

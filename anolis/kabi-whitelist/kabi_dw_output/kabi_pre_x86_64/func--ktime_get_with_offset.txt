@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/timekeeping.c:879
+Symbol:
+func ktime_get_with_offset (
+offs @"enum--tk_offsets.txt"
+)
+@"typedef--ktime_t.txt"

@@ -1,0 +1,6 @@
+Version: 1.0
+File: net/core/rtnetlink.c:161
+Symbol:
+func rtnl_is_locked (
+)
+"int"

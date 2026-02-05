@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/types.h:44
+Symbol:
+typedef __wsum
+@"typedef--__u32.txt"

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/hdmi.h:359
+Symbol:
+Byte size 24
+struct hdmi_vendor_infoframe {
+0x0 type @"enum--hdmi_infoframe_type.txt"
+0x4 version "unsigned char"
+0x5 length "unsigned char"
+0x8 oui "unsigned int"
+0xc vic @"typedef--u8.txt"
+0x10 s3d_struct @"enum--hdmi_3d_structure.txt"
+0x14 s3d_ext_data "unsigned int"
+}

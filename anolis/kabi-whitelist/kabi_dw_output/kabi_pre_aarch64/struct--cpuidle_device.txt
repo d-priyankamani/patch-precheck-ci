@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/linux/cpuidle.h:103
+Symbol:
+Byte size 1152
+struct cpuidle_device {
+0x0:0-1 registered "unsigned int"
+0x0:1-2 enabled "unsigned int"
+0x0:2-3 poll_time_limit "unsigned int"
+0x4 cpu "unsigned int"
+0x8 next_hrtimer @"typedef--ktime_t.txt"
+0x10 last_state_idx "int"
+0x18 last_residency_ns @"typedef--u64.txt"
+0x20 poll_limit_ns @"typedef--u64.txt"
+0x28 forced_idle_latency_limit_ns @"typedef--u64.txt"
+0x30 states_usage [10]@"struct--cpuidle_state_usage.txt"
+0x3f0 kobjs [10]* @"<declarations>/struct--cpuidle_state_kobj.txt"
+0x440 kobj_driver * @"<declarations>/struct--cpuidle_driver_kobj.txt"
+0x448 kobj_dev * @"<declarations>/struct--cpuidle_device_kobj.txt"
+0x450 device_list @"struct--list_head.txt"
+0x460 ck_reserved1 "long unsigned int"
+0x468 ck_reserved2 "long unsigned int"
+0x470 ck_reserved3 "long unsigned int"
+0x478 ck_reserved4 "long unsigned int"
+}

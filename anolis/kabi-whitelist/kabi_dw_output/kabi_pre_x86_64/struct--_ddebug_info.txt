@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/dynamic_debug.h:117
+Symbol:
+Byte size 24
+struct _ddebug_info {
+0x0 descs * @"struct--_ddebug.txt"
+0x8 classes * @"struct--ddebug_class_map.txt"
+0x10 num_descs "unsigned int"
+0x14 num_classes "unsigned int"
+}

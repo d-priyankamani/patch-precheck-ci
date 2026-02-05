@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/sa_query.c:1230
+Symbol:
+func ib_init_ah_attr_from_path (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+rec * @"struct--sa_path_rec.txt"
+ah_attr * @"struct--rdma_ah_attr.txt"
+gid_attr * const @"struct--ib_gid_attr.txt"
+)
+"int"

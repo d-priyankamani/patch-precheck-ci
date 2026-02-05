@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/cgroup-defs.h:379
+Symbol:
+Byte size 272
+struct cgroup_rstat_cpu {
+0x0 bsync @"struct--u64_stats_sync.txt"
+0x0 bstat @"struct--cgroup_base_stat.txt"
+0x38 last_bstat @"struct--cgroup_base_stat.txt"
+0x70 subtree_bstat @"struct--cgroup_base_stat.txt"
+0xa8 last_subtree_bstat @"struct--cgroup_base_stat.txt"
+0xe0 updated_children * @"struct--cgroup.txt"
+0xe8 updated_next * @"struct--cgroup.txt"
+0xf0 ck_reserved1 "long unsigned int"
+0xf8 ck_reserved2 "long unsigned int"
+0x100 ck_reserved3 "long unsigned int"
+0x108 ck_reserved4 "long unsigned int"
+}

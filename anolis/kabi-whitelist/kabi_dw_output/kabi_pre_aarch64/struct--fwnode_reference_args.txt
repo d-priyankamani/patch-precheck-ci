@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/fwnode.h:102
+Symbol:
+Byte size 144
+struct fwnode_reference_args {
+0x0 fwnode * @"struct--fwnode_handle.txt"
+0x8 nargs "unsigned int"
+0x10 args [16]@"typedef--u64.txt"
+}

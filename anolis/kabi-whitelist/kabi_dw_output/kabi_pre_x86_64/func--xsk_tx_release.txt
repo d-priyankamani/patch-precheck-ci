@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/xdp/xsk.c:404
+Symbol:
+func xsk_tx_release (
+pool * @"struct--xsk_buff_pool.txt"
+)
+"void"

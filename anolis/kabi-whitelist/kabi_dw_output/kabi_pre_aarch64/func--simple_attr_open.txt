@@ -1,0 +1,19 @@
+Version: 1.0
+File: fs/libfs.c:1287
+Symbol:
+func simple_attr_open (
+inode * @"struct--inode.txt"
+file * @"struct--file.txt"
+get * func (NULL) (
+(NULL) * "void"
+(NULL) * @"typedef--u64.txt"
+)
+"int"
+set * func (NULL) (
+(NULL) * "void"
+(NULL) @"typedef--u64.txt"
+)
+"int"
+fmt * const "char"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/kernel/cpu/mce/core.c:544
+Symbol:
+func mce_is_correctable (
+m * @"struct--mce.txt"
+)
+@"typedef--bool.txt"

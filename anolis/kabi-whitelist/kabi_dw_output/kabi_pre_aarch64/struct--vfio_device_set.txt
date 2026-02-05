@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/vfio.h:30
+Symbol:
+Byte size 64
+struct vfio_device_set {
+0x0 set_id * "void"
+0x8 lock @"struct--mutex.txt"
+0x28 device_list @"struct--list_head.txt"
+0x38 device_count "unsigned int"
+}

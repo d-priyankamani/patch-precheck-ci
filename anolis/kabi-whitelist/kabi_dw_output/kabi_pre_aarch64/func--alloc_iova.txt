@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/iommu/iova.c:251
+Symbol:
+func alloc_iova (
+iovad * @"struct--iova_domain.txt"
+size "long unsigned int"
+limit_pfn "long unsigned int"
+size_aligned @"typedef--bool.txt"
+)
+* @"struct--iova.txt"

@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/net/devlink.h:122
+Symbol:
+Byte size 376
+struct devlink_port {
+0x0 list @"struct--list_head.txt"
+0x10 region_list @"struct--list_head.txt"
+0x20 devlink * @"struct--devlink.txt"
+0x28 ops * const @"struct--devlink_port_ops.txt"
+0x30 index "unsigned int"
+0x34 type_lock @"typedef--spinlock_t.txt"
+0x38 type @"enum--devlink_port_type.txt"
+0x3c desired_type @"enum--devlink_port_type.txt"
+0x40 (NULL) union (NULL) {
+type_eth struct (NULL) {
+0x0 netdev * @"struct--net_device.txt"
+0x8 ifindex "int"
+0xc ifname [16]"char"
+}
+type_ib struct (NULL) {
+0x0 ibdev * @"struct--ib_device.txt"
+}
+}
+0x60 attrs @"struct--devlink_port_attrs.txt"
+0x9c:0-1 attrs_set @"typedef--u8.txt"
+0x9c:1-2 switch_port @"typedef--u8.txt"
+0x9c:2-3 registered @"typedef--u8.txt"
+0x9c:3-4 initialized @"typedef--u8.txt"
+0xa0 type_warn_dw @"struct--delayed_work.txt"
+0x158 reporter_list @"struct--list_head.txt"
+0x168 devlink_rate * @"struct--devlink_rate.txt"
+0x170 linecard * @"struct--devlink_linecard.txt"
+}

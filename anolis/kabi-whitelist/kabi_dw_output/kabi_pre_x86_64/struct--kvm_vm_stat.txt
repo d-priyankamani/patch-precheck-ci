@@ -1,0 +1,25 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:1472
+Symbol:
+Byte size 120
+struct kvm_vm_stat {
+0x0 generic @"struct--kvm_vm_stat_generic.txt"
+0x10 mmu_shadow_zapped @"typedef--u64.txt"
+0x18 mmu_pte_write @"typedef--u64.txt"
+0x20 mmu_pde_zapped @"typedef--u64.txt"
+0x28 mmu_flooded @"typedef--u64.txt"
+0x30 mmu_recycled @"typedef--u64.txt"
+0x38 mmu_cache_miss @"typedef--u64.txt"
+0x40 mmu_unsync @"typedef--u64.txt"
+0x48 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 pages_4k @"typedef--atomic64_t.txt"
+0x8 pages_2m @"typedef--atomic64_t.txt"
+0x10 pages_1g @"typedef--atomic64_t.txt"
+}
+pages [3]@"typedef--atomic64_t.txt"
+}
+0x60 nx_lpage_splits @"typedef--u64.txt"
+0x68 max_mmu_page_hash_collisions @"typedef--u64.txt"
+0x70 max_mmu_rmap_size @"typedef--u64.txt"
+}

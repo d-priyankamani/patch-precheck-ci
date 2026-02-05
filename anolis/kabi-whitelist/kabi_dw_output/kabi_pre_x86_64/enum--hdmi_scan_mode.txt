@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/hdmi.h:82
+Symbol:
+Byte size 4
+enum hdmi_scan_mode {
+HDMI_SCAN_MODE_NONE = 0x0
+HDMI_SCAN_MODE_OVERSCAN = 0x1
+HDMI_SCAN_MODE_UNDERSCAN = 0x2
+HDMI_SCAN_MODE_RESERVED = 0x3
+}

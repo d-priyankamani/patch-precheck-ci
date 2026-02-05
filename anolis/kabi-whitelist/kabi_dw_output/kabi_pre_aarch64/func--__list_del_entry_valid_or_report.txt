@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/list_debug.c:45
+Symbol:
+func __list_del_entry_valid_or_report (
+entry * @"struct--list_head.txt"
+)
+@"typedef--bool.txt"

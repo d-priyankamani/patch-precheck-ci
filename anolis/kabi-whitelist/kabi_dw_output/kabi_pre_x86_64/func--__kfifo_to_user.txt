@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/kfifo.c:270
+Symbol:
+func __kfifo_to_user (
+fifo * @"struct--__kfifo.txt"
+to * "void"
+len "long unsigned int"
+copied * "unsigned int"
+)
+"int"

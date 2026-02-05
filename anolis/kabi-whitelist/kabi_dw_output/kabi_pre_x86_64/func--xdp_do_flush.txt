@@ -1,0 +1,6 @@
+Version: 1.0
+File: net/core/filter.c:4309
+Symbol:
+func xdp_do_flush (
+)
+"void"

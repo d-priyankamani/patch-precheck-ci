@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/vfio/vfio_main.c:1458
+Symbol:
+func vfio_info_add_capability (
+caps * @"struct--vfio_info_cap.txt"
+cap * @"struct--vfio_info_cap_header.txt"
+size @"typedef--size_t.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/bcd.c:11
+Symbol:
+func _bin2bcd (
+val "unsigned int"
+)
+"unsigned char"

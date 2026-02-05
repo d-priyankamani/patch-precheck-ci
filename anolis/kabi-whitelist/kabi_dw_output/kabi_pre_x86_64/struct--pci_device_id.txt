@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/mod_devicetable.h:44
+Symbol:
+Byte size 40
+struct pci_device_id {
+0x0 vendor @"typedef--__u32.txt"
+0x4 device @"typedef--__u32.txt"
+0x8 subvendor @"typedef--__u32.txt"
+0xc subdevice @"typedef--__u32.txt"
+0x10 class @"typedef--__u32.txt"
+0x14 class_mask @"typedef--__u32.txt"
+0x18 driver_data @"typedef--kernel_ulong_t.txt"
+0x20 override_only @"typedef--__u32.txt"
+}

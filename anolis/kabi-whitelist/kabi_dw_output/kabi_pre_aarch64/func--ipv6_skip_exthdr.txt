@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/ipv6/exthdrs_core.c:72
+Symbol:
+func ipv6_skip_exthdr (
+skb * const @"struct--sk_buff.txt"
+start "int"
+nexthdrp * @"typedef--u8.txt"
+frag_offp * @"typedef--__be16.txt"
+)
+"int"

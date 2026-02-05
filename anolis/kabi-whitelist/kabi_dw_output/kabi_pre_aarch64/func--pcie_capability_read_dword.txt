@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/pci/access.c:448
+Symbol:
+func pcie_capability_read_dword (
+dev * @"struct--pci_dev.txt"
+pos "int"
+val * @"typedef--u32.txt"
+)
+"int"

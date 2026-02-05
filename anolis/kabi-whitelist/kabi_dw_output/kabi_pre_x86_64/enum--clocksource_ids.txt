@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/clocksource_ids.h:6
+Symbol:
+Byte size 4
+enum clocksource_ids {
+CSID_GENERIC = 0x0
+CSID_ARM_ARCH_COUNTER = 0x1
+CSID_MAX = 0x2
+}

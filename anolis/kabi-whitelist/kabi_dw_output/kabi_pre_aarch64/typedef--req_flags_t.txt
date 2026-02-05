@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/blk-mq.h:28
+Symbol:
+typedef req_flags_t
+@"typedef--__u32.txt"

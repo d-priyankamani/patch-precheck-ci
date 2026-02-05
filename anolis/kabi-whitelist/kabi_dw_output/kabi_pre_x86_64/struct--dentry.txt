@@ -1,0 +1,32 @@
+Version: 1.0
+File: include/linux/dcache.h:83
+Symbol:
+Byte size 208
+Alignment 8
+struct dentry {
+0x0 d_flags "unsigned int"
+0x4 d_seq @"typedef--seqcount_spinlock_t.txt"
+0x8 d_hash @"struct--hlist_bl_node.txt"
+0x18 d_parent * @"struct--dentry.txt"
+0x20 d_name @"struct--qstr.txt"
+0x30 d_inode * @"struct--inode.txt"
+0x38 d_iname [32]"unsigned char"
+0x58 8 d_lockref @"struct--lockref.txt"
+0x60 d_op * const @"struct--dentry_operations.txt"
+0x68 d_sb * @"struct--super_block.txt"
+0x70 d_time "long unsigned int"
+0x78 d_fsdata * "void"
+0x80 (NULL) union (NULL) {
+d_lru @"struct--list_head.txt"
+d_wait * @"typedef--wait_queue_head_t.txt"
+}
+0x90 d_child @"struct--list_head.txt"
+0xa0 d_subdirs @"struct--list_head.txt"
+0xb0 8 d_u union (NULL) {
+d_alias @"struct--hlist_node.txt"
+d_in_lookup_hash @"struct--hlist_bl_node.txt"
+d_rcu @"struct--callback_head.txt"
+}
+0xc0 ck_reserved1 "long unsigned int"
+0xc8 ck_reserved2 "long unsigned int"
+}

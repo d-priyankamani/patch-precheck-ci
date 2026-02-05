@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/pkt_cls.h:16
+Symbol:
+Byte size 32
+struct tcf_walker {
+0x0 stop "int"
+0x4 skip "int"
+0x8 count "int"
+0xc nonempty @"typedef--bool.txt"
+0x10 cookie "long unsigned int"
+0x18 fn * func (NULL) (
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) * "void"
+(NULL) * @"struct--tcf_walker.txt"
+)
+"int"
+}

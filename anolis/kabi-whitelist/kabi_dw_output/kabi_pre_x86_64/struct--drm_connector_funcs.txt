@@ -1,0 +1,87 @@
+Version: 1.0
+File: include/drm/drm_connector.h:1042
+Symbol:
+Byte size 144
+struct drm_connector_funcs {
+0x0 dpms * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) "int"
+)
+"int"
+0x8 reset * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+)
+"void"
+0x10 detect * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) @"typedef--bool.txt"
+)
+@"enum--drm_connector_status.txt"
+0x18 force * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+)
+"void"
+0x20 fill_modes * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--uint32_t.txt"
+)
+"int"
+0x28 set_property * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) * @"struct--drm_property.txt"
+(NULL) @"typedef--uint64_t.txt"
+)
+"int"
+0x30 late_register * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+)
+"int"
+0x38 early_unregister * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+)
+"void"
+0x40 destroy * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+)
+"void"
+0x48 atomic_duplicate_state * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+)
+* @"struct--drm_connector_state.txt"
+0x50 atomic_destroy_state * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) * @"struct--drm_connector_state.txt"
+)
+"void"
+0x58 atomic_set_property * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) * @"struct--drm_connector_state.txt"
+(NULL) * @"struct--drm_property.txt"
+(NULL) @"typedef--uint64_t.txt"
+)
+"int"
+0x60 atomic_get_property * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) * const @"struct--drm_connector_state.txt"
+(NULL) * @"struct--drm_property.txt"
+(NULL) * @"typedef--uint64_t.txt"
+)
+"int"
+0x68 atomic_print_state * func (NULL) (
+(NULL) * @"struct--drm_printer.txt"
+(NULL) * const @"struct--drm_connector_state.txt"
+)
+"void"
+0x70 oob_hotplug_event * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+)
+"void"
+0x78 debugfs_init * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) * @"struct--dentry.txt"
+)
+"void"
+0x80 ck_reserved1 "long unsigned int"
+0x88 ck_reserved2 "long unsigned int"
+}

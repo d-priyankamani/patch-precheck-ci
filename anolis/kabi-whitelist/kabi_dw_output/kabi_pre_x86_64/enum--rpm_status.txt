@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/pm.h:597
+Symbol:
+Byte size 4
+enum rpm_status {
+RPM_INVALID = 0xffffffffffffffff
+RPM_ACTIVE = 0x0
+RPM_RESUMING = 0x1
+RPM_SUSPENDED = 0x2
+RPM_SUSPENDING = 0x3
+}

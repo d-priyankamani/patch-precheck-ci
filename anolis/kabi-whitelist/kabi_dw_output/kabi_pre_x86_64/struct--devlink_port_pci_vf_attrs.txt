@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/devlink.h:54
+Symbol:
+Byte size 12
+struct devlink_port_pci_vf_attrs {
+0x0 controller @"typedef--u32.txt"
+0x4 pf @"typedef--u16.txt"
+0x6 vf @"typedef--u16.txt"
+0x8:0-1 external @"typedef--u8.txt"
+}

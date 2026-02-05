@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/rtmutex.h:23
+Symbol:
+Byte size 32
+struct rt_mutex_base {
+0x0 wait_lock @"typedef--raw_spinlock_t.txt"
+0x8 waiters @"struct--rb_root_cached.txt"
+0x18 owner * @"struct--task_struct.txt"
+}

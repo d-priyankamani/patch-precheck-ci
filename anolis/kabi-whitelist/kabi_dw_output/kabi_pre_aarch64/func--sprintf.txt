@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/vsprintf.c:3021
+Symbol:
+func sprintf (
+buf * "char"
+fmt * const "char"
+(NULL) ...
+)
+"int"

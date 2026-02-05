@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/hdlc/ioctl.h:44
+Symbol:
+Byte size 12
+typedef sync_serial_settings
+struct (NULL) {
+0x0 clock_rate "unsigned int"
+0x4 clock_type "unsigned int"
+0x8 loopback "short unsigned int"
+}

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/pid.h:9
+Symbol:
+Byte size 4
+enum pid_type {
+PIDTYPE_PID = 0x0
+PIDTYPE_TGID = 0x1
+PIDTYPE_PGID = 0x2
+PIDTYPE_SID = 0x3
+PIDTYPE_MAX = 0x4
+}

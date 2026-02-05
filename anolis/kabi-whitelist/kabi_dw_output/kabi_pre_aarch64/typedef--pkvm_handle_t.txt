@@ -1,0 +1,6 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:197
+Symbol:
+Byte size 4
+typedef pkvm_handle_t
+"unsigned int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:2611
+Symbol:
+func drm_connector_set_panel_orientation_with_quirk (
+connector * @"struct--drm_connector.txt"
+panel_orientation @"enum--drm_panel_orientation.txt"
+width "int"
+height "int"
+)
+"int"

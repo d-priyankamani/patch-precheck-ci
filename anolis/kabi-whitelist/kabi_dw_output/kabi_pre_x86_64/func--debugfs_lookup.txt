@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/debugfs/inode.c:324
+Symbol:
+func debugfs_lookup (
+name * const "char"
+parent * @"struct--dentry.txt"
+)
+* @"struct--dentry.txt"

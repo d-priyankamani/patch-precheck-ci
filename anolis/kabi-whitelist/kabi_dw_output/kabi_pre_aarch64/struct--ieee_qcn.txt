@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/uapi/linux/dcbnl.h:119
+Symbol:
+Byte size 360
+struct ieee_qcn {
+0x0 rpg_enable [8]@"typedef--__u8.txt"
+0x8 rppp_max_rps [8]@"typedef--__u32.txt"
+0x28 rpg_time_reset [8]@"typedef--__u32.txt"
+0x48 rpg_byte_reset [8]@"typedef--__u32.txt"
+0x68 rpg_threshold [8]@"typedef--__u32.txt"
+0x88 rpg_max_rate [8]@"typedef--__u32.txt"
+0xa8 rpg_ai_rate [8]@"typedef--__u32.txt"
+0xc8 rpg_hai_rate [8]@"typedef--__u32.txt"
+0xe8 rpg_gd [8]@"typedef--__u32.txt"
+0x108 rpg_min_dec_fac [8]@"typedef--__u32.txt"
+0x128 rpg_min_rate [8]@"typedef--__u32.txt"
+0x148 cndd_state_machine [8]@"typedef--__u32.txt"
+}

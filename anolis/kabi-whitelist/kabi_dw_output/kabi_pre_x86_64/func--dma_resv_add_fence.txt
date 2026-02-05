@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/dma-buf/dma-resv.c:280
+Symbol:
+func dma_resv_add_fence (
+obj * @"struct--dma_resv.txt"
+fence * @"struct--dma_fence.txt"
+usage @"enum--dma_resv_usage.txt"
+)
+"void"

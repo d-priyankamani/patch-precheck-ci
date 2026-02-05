@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/msi.h:155
+Symbol:
+Byte size 16
+struct msi_desc_data {
+0x0 dcookie @"union--msi_domain_cookie.txt"
+0x8 icookie @"union--msi_instance_cookie.txt"
+}

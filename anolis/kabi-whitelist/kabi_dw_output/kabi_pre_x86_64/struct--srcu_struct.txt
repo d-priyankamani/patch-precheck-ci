@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/srcutree.h:105
+Symbol:
+Byte size 24
+struct srcu_struct {
+0x0 srcu_idx "unsigned int"
+0x8 sda * @"struct--srcu_data.txt"
+0x10 dep_map @"struct--lockdep_map.txt"
+0x10 srcu_sup * @"struct--srcu_usage.txt"
+}

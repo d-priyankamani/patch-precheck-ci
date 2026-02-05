@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/iov_iter.c:724
+Symbol:
+func iov_iter_kvec (
+i * @"struct--iov_iter.txt"
+direction "unsigned int"
+kvec * const @"struct--kvec.txt"
+nr_segs "long unsigned int"
+count @"typedef--size_t.txt"
+)
+"void"

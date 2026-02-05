@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:109
+Symbol:
+typedef uint16_t
+@"typedef--u16.txt"

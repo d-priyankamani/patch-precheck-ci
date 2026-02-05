@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/drm/display/drm_dp_mst_helper.h:163
+Symbol:
+Byte size 326
+struct drm_dp_sideband_msg_rx {
+0x0 chunk [48]@"typedef--u8.txt"
+0x30 msg [256]@"typedef--u8.txt"
+0x130 curchunk_len @"typedef--u8.txt"
+0x131 curchunk_idx @"typedef--u8.txt"
+0x132 curchunk_hdrlen @"typedef--u8.txt"
+0x133 curlen @"typedef--u8.txt"
+0x134 have_somt @"typedef--bool.txt"
+0x135 have_eomt @"typedef--bool.txt"
+0x136 initial_hdr @"struct--drm_dp_sideband_msg_hdr.txt"
+}

@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1528
+Symbol:
+Byte size 96
+Alignment 8
+struct ib_uobject {
+0x0 user_handle @"typedef--u64.txt"
+0x8 ufile * @"struct--ib_uverbs_file.txt"
+0x10 context * @"struct--ib_ucontext.txt"
+0x18 object * "void"
+0x20 list @"struct--list_head.txt"
+0x30 cg_obj @"struct--ib_rdmacg_object.txt"
+0x38 id "int"
+0x3c ref @"struct--kref.txt"
+0x40 usecnt @"typedef--atomic_t.txt"
+0x48 8 rcu @"struct--callback_head.txt"
+0x58 uapi_object * const @"struct--uverbs_api_object.txt"
+}

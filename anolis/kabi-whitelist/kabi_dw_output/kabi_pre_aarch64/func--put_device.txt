@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/core.c:3788
+Symbol:
+func put_device (
+dev * @"struct--device.txt"
+)
+"void"

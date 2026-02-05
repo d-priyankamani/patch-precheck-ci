@@ -1,0 +1,13 @@
+Version: 1.0
+File: arch/x86/include/asm/hw_irq.h:34
+Symbol:
+Byte size 4
+enum irq_alloc_type {
+X86_IRQ_ALLOC_TYPE_IOAPIC = 0x1
+X86_IRQ_ALLOC_TYPE_HPET = 0x2
+X86_IRQ_ALLOC_TYPE_PCI_MSI = 0x3
+X86_IRQ_ALLOC_TYPE_PCI_MSIX = 0x4
+X86_IRQ_ALLOC_TYPE_DMAR = 0x5
+X86_IRQ_ALLOC_TYPE_AMDVI = 0x6
+X86_IRQ_ALLOC_TYPE_UV = 0x7
+}

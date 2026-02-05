@@ -1,0 +1,11 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:1037
+Symbol:
+Byte size 4
+enum kvm_apic_logical_mode {
+KVM_APIC_MODE_SW_DISABLED = 0x0
+KVM_APIC_MODE_XAPIC_CLUSTER = 0x1
+KVM_APIC_MODE_XAPIC_FLAT = 0x2
+KVM_APIC_MODE_X2APIC = 0x3
+KVM_APIC_MODE_MAP_DISABLED = 0x4
+}

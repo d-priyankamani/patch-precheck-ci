@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/cpu_rmap.c:25
+Symbol:
+func alloc_cpu_rmap (
+size "unsigned int"
+flags @"typedef--gfp_t.txt"
+)
+* @"struct--cpu_rmap.txt"

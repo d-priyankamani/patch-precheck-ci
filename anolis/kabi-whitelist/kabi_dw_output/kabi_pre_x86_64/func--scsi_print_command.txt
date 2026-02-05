@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_logging.c:180
+Symbol:
+func scsi_print_command (
+cmd * @"struct--scsi_cmnd.txt"
+)
+"void"

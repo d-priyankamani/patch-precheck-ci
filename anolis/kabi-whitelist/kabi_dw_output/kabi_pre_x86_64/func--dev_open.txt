@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:1535
+Symbol:
+func dev_open (
+dev * @"struct--net_device.txt"
+extack * @"struct--netlink_ext_ack.txt"
+)
+"int"

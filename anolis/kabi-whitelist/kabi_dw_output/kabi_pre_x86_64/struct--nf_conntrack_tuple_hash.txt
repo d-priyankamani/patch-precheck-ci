@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/netfilter/nf_conntrack_tuple.h:122
+Symbol:
+Byte size 56
+struct nf_conntrack_tuple_hash {
+0x0 hnnode @"struct--hlist_nulls_node.txt"
+0x10 tuple @"struct--nf_conntrack_tuple.txt"
+}

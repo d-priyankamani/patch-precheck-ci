@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/quota.h:223
+Symbol:
+Byte size 72
+struct mem_dqinfo {
+0x0 dqi_format * @"struct--quota_format_type.txt"
+0x8 dqi_fmt_id "int"
+0x10 dqi_dirty_list @"struct--list_head.txt"
+0x20 dqi_flags "long unsigned int"
+0x28 dqi_bgrace "unsigned int"
+0x2c dqi_igrace "unsigned int"
+0x30 dqi_max_spc_limit @"typedef--qsize_t.txt"
+0x38 dqi_max_ino_limit @"typedef--qsize_t.txt"
+0x40 dqi_priv * "void"
+}

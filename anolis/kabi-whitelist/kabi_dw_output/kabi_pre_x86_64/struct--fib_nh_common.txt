@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/net/ip_fib.h:81
+Symbol:
+Byte size 72
+struct fib_nh_common {
+0x0 nhc_dev * @"struct--net_device.txt"
+0x8 nhc_dev_tracker @"typedef--netdevice_tracker.txt"
+0x8 nhc_oif "int"
+0xc nhc_scope "unsigned char"
+0xd nhc_family @"typedef--u8.txt"
+0xe nhc_gw_family @"typedef--u8.txt"
+0xf nhc_flags "unsigned char"
+0x10 nhc_lwtstate * @"struct--lwtunnel_state.txt"
+0x18 nhc_gw union (NULL) {
+ipv4 @"typedef--__be32.txt"
+ipv6 @"struct--in6_addr.txt"
+}
+0x28 nhc_weight "int"
+0x2c nhc_upper_bound @"typedef--atomic_t.txt"
+0x30 nhc_pcpu_rth_output * * @"struct--rtable.txt"
+0x38 nhc_rth_input * @"struct--rtable.txt"
+0x40 nhc_exceptions * @"struct--fnhe_hash_bucket.txt"
+}

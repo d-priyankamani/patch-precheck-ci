@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/ip.h:128
+Symbol:
+Byte size 40
+Alignment 8
+struct ip_ra_chain {
+0x0 next * @"struct--ip_ra_chain.txt"
+0x8 sk * @"struct--sock.txt"
+0x10 (NULL) union (NULL) {
+destructor * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+saved_sk * @"struct--sock.txt"
+}
+0x18 8 rcu @"struct--callback_head.txt"
+}

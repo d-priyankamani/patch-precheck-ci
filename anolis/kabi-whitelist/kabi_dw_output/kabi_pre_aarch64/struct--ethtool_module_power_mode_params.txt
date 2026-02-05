@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/ethtool.h:506
+Symbol:
+Byte size 8
+struct ethtool_module_power_mode_params {
+0x0 policy @"enum--ethtool_module_power_mode_policy.txt"
+0x4 mode @"enum--ethtool_module_power_mode.txt"
+}

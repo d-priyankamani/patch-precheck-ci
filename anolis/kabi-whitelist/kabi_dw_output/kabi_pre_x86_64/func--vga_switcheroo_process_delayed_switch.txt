@@ -1,0 +1,6 @@
+Version: 1.0
+File: drivers/gpu/vga/vga_switcheroo.c:936
+Symbol:
+func vga_switcheroo_process_delayed_switch (
+)
+"int"

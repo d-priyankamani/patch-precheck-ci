@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/firmware/efi/libstub/string.c:19
+Symbol:
+func strlen (
+s * const "char"
+)
+@"typedef--size_t.txt"

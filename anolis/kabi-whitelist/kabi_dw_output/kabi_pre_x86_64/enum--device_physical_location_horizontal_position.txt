@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/device.h:576
+Symbol:
+Byte size 4
+enum device_physical_location_horizontal_position {
+DEVICE_HORI_POS_LEFT = 0x0
+DEVICE_HORI_POS_CENTER = 0x1
+DEVICE_HORI_POS_RIGHT = 0x2
+}

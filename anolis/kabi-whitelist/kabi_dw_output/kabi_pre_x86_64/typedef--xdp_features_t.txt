@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/netdevice.h:83
+Symbol:
+typedef xdp_features_t
+@"typedef--u32.txt"

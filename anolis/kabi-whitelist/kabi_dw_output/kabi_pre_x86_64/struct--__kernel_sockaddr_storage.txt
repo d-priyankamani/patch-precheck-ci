@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/uapi/linux/socket.h:16
+Symbol:
+Byte size 128
+struct __kernel_sockaddr_storage {
+0x0 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 ss_family @"typedef--__kernel_sa_family_t.txt"
+0x2 __data [126]"char"
+}
+__align * "void"
+}
+}

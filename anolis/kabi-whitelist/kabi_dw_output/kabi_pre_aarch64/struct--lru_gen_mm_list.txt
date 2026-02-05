@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/mm_types.h:1084
+Symbol:
+Byte size 24
+struct lru_gen_mm_list {
+0x0 fifo @"struct--list_head.txt"
+0x10 lock @"typedef--spinlock_t.txt"
+}

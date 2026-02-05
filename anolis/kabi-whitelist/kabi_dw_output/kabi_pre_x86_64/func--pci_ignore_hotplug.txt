@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:6786
+Symbol:
+func pci_ignore_hotplug (
+dev * @"struct--pci_dev.txt"
+)
+"void"

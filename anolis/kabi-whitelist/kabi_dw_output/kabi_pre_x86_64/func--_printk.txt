@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/printk/printk.c:2375
+Symbol:
+func _printk (
+fmt * const "char"
+(NULL) ...
+)
+"int"

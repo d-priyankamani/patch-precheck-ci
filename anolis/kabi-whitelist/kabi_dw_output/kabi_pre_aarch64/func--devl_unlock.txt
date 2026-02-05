@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/core.c:70
+Symbol:
+func devl_unlock (
+devlink * @"struct--devlink.txt"
+)
+"void"

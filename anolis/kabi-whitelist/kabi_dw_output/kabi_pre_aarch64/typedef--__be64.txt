@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/types.h:41
+Symbol:
+typedef __be64
+@"typedef--__u64.txt"

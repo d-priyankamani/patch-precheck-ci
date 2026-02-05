@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/blk-mq.h:24
+Symbol:
+typedef rq_end_io_fn
+func (NULL) (
+(NULL) * @"struct--request.txt"
+(NULL) @"typedef--blk_status_t.txt"
+)
+@"enum--rq_end_io_ret.txt"

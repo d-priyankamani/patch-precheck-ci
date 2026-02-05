@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:150
+Symbol:
+Byte size 12
+struct ib_rmpp_hdr {
+0x0 rmpp_version @"typedef--u8.txt"
+0x1 rmpp_type @"typedef--u8.txt"
+0x2 rmpp_rtime_flags @"typedef--u8.txt"
+0x3 rmpp_status @"typedef--u8.txt"
+0x4 seg_num @"typedef--__be32.txt"
+0x8 paylen_newwin @"typedef--__be32.txt"
+}

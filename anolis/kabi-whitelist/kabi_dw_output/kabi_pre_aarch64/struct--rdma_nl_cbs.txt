@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/rdma/rdma_netlink.h:15
+Symbol:
+Byte size 24
+struct rdma_nl_cbs {
+0x0 doit * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--nlmsghdr.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x8 dump * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--netlink_callback.txt"
+)
+"int"
+0x10 flags @"typedef--u8.txt"
+}

@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/uapi/linux/perf_event.h:1439
+Symbol:
+Byte size 24
+struct perf_branch_entry {
+0x0 from @"typedef--__u64.txt"
+0x8 to @"typedef--__u64.txt"
+0x10:0-1 mispred @"typedef--__u64.txt"
+0x10:1-2 predicted @"typedef--__u64.txt"
+0x10:2-3 in_tx @"typedef--__u64.txt"
+0x10:3-4 abort @"typedef--__u64.txt"
+0x10:4-20 cycles @"typedef--__u64.txt"
+0x12:4-8 type @"typedef--__u64.txt"
+0x13:0-2 spec @"typedef--__u64.txt"
+0x13:2-6 new_type @"typedef--__u64.txt"
+0x13:6-9 priv @"typedef--__u64.txt"
+0x14:1-32 reserved @"typedef--__u64.txt"
+}

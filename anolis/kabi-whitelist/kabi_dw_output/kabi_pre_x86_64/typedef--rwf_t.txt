@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/fs.h:87
+Symbol:
+typedef rwf_t
+@"typedef--__kernel_rwf_t.txt"

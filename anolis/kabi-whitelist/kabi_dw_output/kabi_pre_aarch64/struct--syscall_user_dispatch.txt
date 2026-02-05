@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/syscall_user_dispatch.h:32
+Symbol:
+struct syscall_user_dispatch {
+}

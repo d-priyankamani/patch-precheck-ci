@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/netfilter.h:78
+Symbol:
+Byte size 4
+typedef nf_hookfn
+func (NULL) (
+(NULL) * "void"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * const @"struct--nf_hook_state.txt"
+)
+"unsigned int"

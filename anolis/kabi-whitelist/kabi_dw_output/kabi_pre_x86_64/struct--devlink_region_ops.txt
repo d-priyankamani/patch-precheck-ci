@@ -1,0 +1,28 @@
+Version: 1.0
+File: include/net/devlink.h:669
+Symbol:
+Byte size 40
+struct devlink_region_ops {
+0x0 name * const "char"
+0x8 destructor * func (NULL) (
+(NULL) * const "void"
+)
+"void"
+0x10 snapshot * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_region_ops.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+(NULL) * * @"typedef--u8.txt"
+)
+"int"
+0x18 read * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * const @"struct--devlink_region_ops.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"typedef--u8.txt"
+)
+"int"
+0x20 priv * "void"
+}

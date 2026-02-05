@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/mmu_notifier.h:271
+Symbol:
+Byte size 40
+struct mmu_notifier_range {
+0x0 mm * @"struct--mm_struct.txt"
+0x8 start "long unsigned int"
+0x10 end "long unsigned int"
+0x18 flags "unsigned int"
+0x1c event @"enum--mmu_notifier_event.txt"
+0x20 owner * "void"
+}

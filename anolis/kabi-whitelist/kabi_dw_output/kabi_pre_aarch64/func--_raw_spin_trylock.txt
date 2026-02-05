@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/spinlock.c:136
+Symbol:
+func _raw_spin_trylock (
+lock * @"typedef--raw_spinlock_t.txt"
+)
+"int"

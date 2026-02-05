@@ -1,0 +1,32 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1595
+Symbol:
+Byte size 248
+struct ib_cq {
+0x0 device * @"struct--ib_device.txt"
+0x8 uobject * @"struct--ib_ucq_object.txt"
+0x10 comp_handler @"typedef--ib_comp_handler.txt"
+0x18 event_handler * func (NULL) (
+(NULL) * @"struct--ib_event.txt"
+(NULL) * "void"
+)
+"void"
+0x20 cq_context * "void"
+0x28 cqe "int"
+0x2c cqe_used "unsigned int"
+0x30 usecnt @"typedef--atomic_t.txt"
+0x34 poll_ctx @"enum--ib_poll_context.txt"
+0x38 wc * @"struct--ib_wc.txt"
+0x40 pool_entry @"struct--list_head.txt"
+0x50 (NULL) union (NULL) {
+iop @"struct--irq_poll.txt"
+work @"struct--work_struct.txt"
+}
+0x90 comp_wq * @"<declarations>/struct--workqueue_struct.txt"
+0x98 dim * @"struct--dim.txt"
+0xa0 timestamp @"typedef--ktime_t.txt"
+0xa8:0-1 interrupt @"typedef--u8.txt"
+0xa8:1-2 shared @"typedef--u8.txt"
+0xac comp_vector "unsigned int"
+0xb0 res @"struct--rdma_restrack_entry.txt"
+}

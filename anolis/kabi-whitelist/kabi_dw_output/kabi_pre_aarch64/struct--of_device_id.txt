@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/mod_devicetable.h:282
+Symbol:
+Byte size 200
+struct of_device_id {
+0x0 name [32]"char"
+0x20 type [32]"char"
+0x40 compatible [128]"char"
+0xc0 data * const "void"
+}

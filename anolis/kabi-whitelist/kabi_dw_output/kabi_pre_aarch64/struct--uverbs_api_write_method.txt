@@ -1,0 +1,16 @@
+Version: 1.0
+File: drivers/infiniband/core/rdma_core.h:99
+Symbol:
+Byte size 16
+struct uverbs_api_write_method {
+0x0 handler * func (NULL) (
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+"int"
+0x8:0-1 disabled @"typedef--u8.txt"
+0x8:1-2 is_ex @"typedef--u8.txt"
+0x8:2-3 has_udata @"typedef--u8.txt"
+0x8:3-4 has_resp @"typedef--u8.txt"
+0x9 req_size @"typedef--u8.txt"
+0xa resp_size @"typedef--u8.txt"
+}

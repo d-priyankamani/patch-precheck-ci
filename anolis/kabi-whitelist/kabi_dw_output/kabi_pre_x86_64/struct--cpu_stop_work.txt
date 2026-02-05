@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/stop_machine.h:24
+Symbol:
+Byte size 56
+struct cpu_stop_work {
+0x0 list @"struct--list_head.txt"
+0x10 fn @"typedef--cpu_stop_fn_t.txt"
+0x18 caller "long unsigned int"
+0x20 arg * "void"
+0x28 done * @"<declarations>/struct--cpu_stop_done.txt"
+0x30 ck_reserved1 "long unsigned int"
+}

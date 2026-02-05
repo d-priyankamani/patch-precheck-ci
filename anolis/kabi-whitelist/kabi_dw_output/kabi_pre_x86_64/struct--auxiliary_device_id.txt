@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/mod_devicetable.h:869
+Symbol:
+Byte size 40
+struct auxiliary_device_id {
+0x0 name [32]"char"
+0x20 driver_data @"typedef--kernel_ulong_t.txt"
+}

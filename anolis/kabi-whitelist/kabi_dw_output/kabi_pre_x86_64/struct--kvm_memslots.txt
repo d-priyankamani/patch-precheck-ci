@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/kvm_host.h:721
+Symbol:
+Byte size 1072
+struct kvm_memslots {
+0x0 generation @"typedef--u64.txt"
+0x8 last_used_slot @"typedef--atomic_long_t.txt"
+0x10 hva_tree @"struct--rb_root_cached.txt"
+0x20 gfn_tree @"struct--rb_root.txt"
+0x28 id_hash [128]@"struct--hlist_head.txt"
+0x428 node_idx "int"
+}

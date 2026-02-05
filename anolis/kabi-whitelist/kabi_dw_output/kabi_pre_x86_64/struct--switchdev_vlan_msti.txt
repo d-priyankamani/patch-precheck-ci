@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/switchdev.h:46
+Symbol:
+Byte size 4
+struct switchdev_vlan_msti {
+0x0 vid @"typedef--u16.txt"
+0x2 msti @"typedef--u16.txt"
+}

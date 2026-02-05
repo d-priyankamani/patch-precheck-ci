@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/mempool.c:540
+Symbol:
+func mempool_kfree (
+element * "void"
+pool_data * "void"
+)
+"void"

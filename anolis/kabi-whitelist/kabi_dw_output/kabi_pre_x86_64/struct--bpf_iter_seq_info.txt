@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/bpf.h:68
+Symbol:
+Byte size 32
+struct bpf_iter_seq_info {
+0x0 seq_ops * const @"struct--seq_operations.txt"
+0x8 init_seq_private @"typedef--bpf_iter_init_seq_priv_t.txt"
+0x10 fini_seq_private @"typedef--bpf_iter_fini_seq_priv_t.txt"
+0x18 seq_priv_size @"typedef--u32.txt"
+}

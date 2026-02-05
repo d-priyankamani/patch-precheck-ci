@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/netdevice.h:991
+Symbol:
+Byte size 4
+enum bpf_netdev_command {
+XDP_SETUP_PROG = 0x0
+XDP_SETUP_PROG_HW = 0x1
+BPF_OFFLOAD_MAP_ALLOC = 0x2
+BPF_OFFLOAD_MAP_FREE = 0x3
+XDP_SETUP_XSK_POOL = 0x4
+}

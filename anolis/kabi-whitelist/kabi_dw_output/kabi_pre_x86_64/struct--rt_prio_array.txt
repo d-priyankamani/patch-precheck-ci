@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/sched/sched.h:442
+Symbol:
+Byte size 1616
+struct rt_prio_array {
+0x0 bitmap [2]"long unsigned int"
+0x10 queue [100]@"struct--list_head.txt"
+}

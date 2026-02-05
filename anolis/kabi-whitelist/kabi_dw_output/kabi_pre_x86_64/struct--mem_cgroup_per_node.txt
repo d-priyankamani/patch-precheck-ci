@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/memcontrol.h:165
+Symbol:
+Byte size 2960
+Alignment 8
+struct mem_cgroup_per_node {
+0x0 lruvec @"struct--lruvec.txt"
+0x620 lruvec_stats_percpu * @"struct--lruvec_stats_percpu.txt"
+0x628 lruvec_stats @"struct--lruvec_stats.txt"
+0xa60 lru_zone_size [5][5]"long unsigned int"
+0xb28 iter @"struct--mem_cgroup_reclaim_iter.txt"
+0xb38 shrinker_info * @"struct--shrinker_info.txt"
+0xb40 8 tree_node @"struct--rb_node.txt"
+0xb58 usage_in_excess "long unsigned int"
+0xb60 on_tree @"typedef--bool.txt"
+0xb68 memcg * @"struct--mem_cgroup.txt"
+0xb70 ck_reserved1 "long unsigned int"
+0xb78 ck_reserved2 "long unsigned int"
+0xb80 ck_reserved3 "long unsigned int"
+0xb88 ck_reserved4 "long unsigned int"
+}

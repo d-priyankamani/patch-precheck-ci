@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/uapi/linux/pkt_sched.h:34
+Symbol:
+Byte size 40
+struct tc_stats {
+0x0 bytes @"typedef--__u64.txt"
+0x8 packets @"typedef--__u32.txt"
+0xc drops @"typedef--__u32.txt"
+0x10 overlimits @"typedef--__u32.txt"
+0x14 bps @"typedef--__u32.txt"
+0x18 pps @"typedef--__u32.txt"
+0x1c qlen @"typedef--__u32.txt"
+0x20 backlog @"typedef--__u32.txt"
+}

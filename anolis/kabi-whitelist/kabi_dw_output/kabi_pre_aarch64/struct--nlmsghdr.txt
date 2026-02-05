@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/netlink.h:52
+Symbol:
+Byte size 16
+struct nlmsghdr {
+0x0 nlmsg_len @"typedef--__u32.txt"
+0x4 nlmsg_type @"typedef--__u16.txt"
+0x6 nlmsg_flags @"typedef--__u16.txt"
+0x8 nlmsg_seq @"typedef--__u32.txt"
+0xc nlmsg_pid @"typedef--__u32.txt"
+}

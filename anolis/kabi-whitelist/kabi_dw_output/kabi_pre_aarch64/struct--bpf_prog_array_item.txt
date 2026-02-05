@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/bpf.h:1966
+Symbol:
+Byte size 24
+struct bpf_prog_array_item {
+0x0 prog * @"struct--bpf_prog.txt"
+0x8 (NULL) union (NULL) {
+cgroup_storage [2]* @"struct--bpf_cgroup_storage.txt"
+bpf_cookie @"typedef--u64.txt"
+}
+}

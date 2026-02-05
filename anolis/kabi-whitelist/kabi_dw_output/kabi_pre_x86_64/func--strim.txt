@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/string_helpers.c:882
+Symbol:
+func strim (
+s * "char"
+)
+* "char"

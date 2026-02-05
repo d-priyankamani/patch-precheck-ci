@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/ethtool/common.c:674
+Symbol:
+func ethtool_params_from_link_mode (
+link_ksettings * @"struct--ethtool_link_ksettings.txt"
+link_mode @"enum--ethtool_link_mode_bit_indices.txt"
+)
+"void"

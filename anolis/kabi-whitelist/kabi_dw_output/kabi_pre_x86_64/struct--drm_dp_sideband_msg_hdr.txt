@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/drm/display/drm_dp_mst_helper.h:151
+Symbol:
+Byte size 16
+struct drm_dp_sideband_msg_hdr {
+0x0 lct @"typedef--u8.txt"
+0x1 lcr @"typedef--u8.txt"
+0x2 rad [8]@"typedef--u8.txt"
+0xa broadcast @"typedef--bool.txt"
+0xb path_msg @"typedef--bool.txt"
+0xc msg_len @"typedef--u8.txt"
+0xd somt @"typedef--bool.txt"
+0xe eomt @"typedef--bool.txt"
+0xf seqno @"typedef--bool.txt"
+}

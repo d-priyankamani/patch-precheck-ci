@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_print.c:264
+Symbol:
+func drm_dev_printk (
+dev * const @"struct--device.txt"
+level * const "char"
+format * const "char"
+(NULL) ...
+)
+"void"

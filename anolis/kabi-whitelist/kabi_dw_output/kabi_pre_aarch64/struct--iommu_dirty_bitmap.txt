@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/iommu.h:379
+Symbol:
+Byte size 16
+struct iommu_dirty_bitmap {
+0x0 bitmap * @"<declarations>/struct--iova_bitmap.txt"
+0x8 gather * @"struct--iommu_iotlb_gather.txt"
+}

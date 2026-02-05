@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/refcount.h:111
+Symbol:
+Byte size 4
+struct refcount_struct {
+0x0 refs @"typedef--atomic_t.txt"
+}

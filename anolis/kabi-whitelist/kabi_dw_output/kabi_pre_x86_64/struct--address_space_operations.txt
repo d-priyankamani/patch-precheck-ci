@@ -1,0 +1,121 @@
+Version: 1.0
+File: include/linux/fs.h:397
+Symbol:
+Byte size 192
+struct address_space_operations {
+0x0 writepage * func (NULL) (
+(NULL) * @"struct--page.txt"
+(NULL) * @"struct--writeback_control.txt"
+)
+"int"
+0x8 read_folio * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * @"struct--folio.txt"
+)
+"int"
+0x10 writepages * func (NULL) (
+(NULL) * @"struct--address_space.txt"
+(NULL) * @"struct--writeback_control.txt"
+)
+"int"
+0x18 dirty_folio * func (NULL) (
+(NULL) * @"struct--address_space.txt"
+(NULL) * @"struct--folio.txt"
+)
+@"typedef--bool.txt"
+0x20 readahead * func (NULL) (
+(NULL) * @"struct--readahead_control.txt"
+)
+"void"
+0x28 write_begin * func (NULL) (
+(NULL) * const @"struct--kiocb.txt"
+(NULL) * @"struct--address_space.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) "unsigned int"
+(NULL) * * @"struct--folio.txt"
+(NULL) * * "void"
+)
+"int"
+0x30 write_end * func (NULL) (
+(NULL) * const @"struct--kiocb.txt"
+(NULL) * @"struct--address_space.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) * @"struct--folio.txt"
+(NULL) * "void"
+)
+"int"
+0x38 bmap * func (NULL) (
+(NULL) * @"struct--address_space.txt"
+(NULL) @"typedef--sector_t.txt"
+)
+@"typedef--sector_t.txt"
+0x40 invalidate_folio * func (NULL) (
+(NULL) * @"struct--folio.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"typedef--size_t.txt"
+)
+"void"
+0x48 release_folio * func (NULL) (
+(NULL) * @"struct--folio.txt"
+(NULL) @"typedef--gfp_t.txt"
+)
+@"typedef--bool.txt"
+0x50 free_folio * func (NULL) (
+(NULL) * @"struct--folio.txt"
+)
+"void"
+0x58 direct_IO * func (NULL) (
+(NULL) * @"struct--kiocb.txt"
+(NULL) * @"struct--iov_iter.txt"
+)
+@"typedef--ssize_t.txt"
+0x60 migrate_folio * func (NULL) (
+(NULL) * @"struct--address_space.txt"
+(NULL) * @"struct--folio.txt"
+(NULL) * @"struct--folio.txt"
+(NULL) @"enum--migrate_mode.txt"
+)
+"int"
+0x68 launder_folio * func (NULL) (
+(NULL) * @"struct--folio.txt"
+)
+"int"
+0x70 is_partially_uptodate * func (NULL) (
+(NULL) * @"struct--folio.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--bool.txt"
+0x78 is_dirty_writeback * func (NULL) (
+(NULL) * @"struct--folio.txt"
+(NULL) * @"typedef--bool.txt"
+(NULL) * @"typedef--bool.txt"
+)
+"void"
+0x80 error_remove_folio * func (NULL) (
+(NULL) * @"struct--address_space.txt"
+(NULL) * @"struct--folio.txt"
+)
+"int"
+0x88 swap_activate * func (NULL) (
+(NULL) * @"struct--swap_info_struct.txt"
+(NULL) * @"struct--file.txt"
+(NULL) * @"typedef--sector_t.txt"
+)
+"int"
+0x90 swap_deactivate * func (NULL) (
+(NULL) * @"struct--file.txt"
+)
+"void"
+0x98 swap_rw * func (NULL) (
+(NULL) * @"struct--kiocb.txt"
+(NULL) * @"struct--iov_iter.txt"
+)
+"int"
+0xa0 ck_reserved1 "long unsigned int"
+0xa8 ck_reserved2 "long unsigned int"
+0xb0 ck_reserved3 "long unsigned int"
+0xb8 ck_reserved4 "long unsigned int"
+}

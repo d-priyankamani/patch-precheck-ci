@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/sem.h:12
+Symbol:
+Byte size 8
+struct sysv_sem {
+0x0 undo_list * @"<declarations>/struct--sem_undo_list.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/module/internal.h:35
+Symbol:
+Byte size 12
+struct kernel_symbol {
+0x0 value_offset "int"
+0x4 name_offset "int"
+0x8 namespace_offset "int"
+}

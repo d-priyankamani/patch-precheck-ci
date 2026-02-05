@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/scsi/scsi_scan.c:1767
+Symbol:
+func scsi_scan_target (
+parent * @"struct--device.txt"
+channel "unsigned int"
+id "unsigned int"
+lun @"typedef--u64.txt"
+rescan @"enum--scsi_scan_mode.txt"
+)
+"void"

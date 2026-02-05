@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/locks.c:352
+Symbol:
+func locks_init_lock (
+fl * @"struct--file_lock.txt"
+)
+"void"

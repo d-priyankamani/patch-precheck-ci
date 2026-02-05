@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/dma-resv.h:193
+Symbol:
+Byte size 48
+struct dma_resv_iter {
+0x0 obj * @"struct--dma_resv.txt"
+0x8 usage @"enum--dma_resv_usage.txt"
+0x10 fence * @"struct--dma_fence.txt"
+0x18 fence_usage @"enum--dma_resv_usage.txt"
+0x1c index "unsigned int"
+0x20 fences * @"struct--dma_resv_list.txt"
+0x28 num_fences "unsigned int"
+0x2c is_restarted @"typedef--bool.txt"
+}

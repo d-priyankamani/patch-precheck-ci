@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/drm/drm_legacy.h:153
+Symbol:
+Byte size 40
+struct drm_local_map {
+0x0 offset @"typedef--dma_addr_t.txt"
+0x8 size "long unsigned int"
+0x10 type @"enum--drm_map_type.txt"
+0x14 flags @"enum--drm_map_flags.txt"
+0x18 handle * "void"
+0x20 mtrr "int"
+}

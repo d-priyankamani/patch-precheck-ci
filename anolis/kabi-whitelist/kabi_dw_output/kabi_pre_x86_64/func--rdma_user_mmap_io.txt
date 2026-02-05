@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/infiniband/core/ib_core_uverbs.c:67
+Symbol:
+func rdma_user_mmap_io (
+ucontext * @"struct--ib_ucontext.txt"
+vma * @"struct--vm_area_struct.txt"
+pfn "long unsigned int"
+size "long unsigned int"
+prot @"typedef--pgprot_t.txt"
+entry * @"struct--rdma_user_mmap_entry.txt"
+)
+"int"

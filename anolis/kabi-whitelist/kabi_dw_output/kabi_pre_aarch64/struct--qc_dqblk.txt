@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/linux/quota.h:352
+Symbol:
+Byte size 120
+struct qc_dqblk {
+0x0 d_fieldmask "int"
+0x8 d_spc_hardlimit @"typedef--u64.txt"
+0x10 d_spc_softlimit @"typedef--u64.txt"
+0x18 d_ino_hardlimit @"typedef--u64.txt"
+0x20 d_ino_softlimit @"typedef--u64.txt"
+0x28 d_space @"typedef--u64.txt"
+0x30 d_ino_count @"typedef--u64.txt"
+0x38 d_ino_timer @"typedef--s64.txt"
+0x40 d_spc_timer @"typedef--s64.txt"
+0x48 d_ino_warns "int"
+0x4c d_spc_warns "int"
+0x50 d_rt_spc_hardlimit @"typedef--u64.txt"
+0x58 d_rt_spc_softlimit @"typedef--u64.txt"
+0x60 d_rt_space @"typedef--u64.txt"
+0x68 d_rt_spc_timer @"typedef--s64.txt"
+0x70 d_rt_spc_warns "int"
+}

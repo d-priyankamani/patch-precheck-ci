@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/rtmutex.h:57
+Symbol:
+Byte size 32
+struct rt_mutex {
+0x0 rtmutex @"struct--rt_mutex_base.txt"
+}

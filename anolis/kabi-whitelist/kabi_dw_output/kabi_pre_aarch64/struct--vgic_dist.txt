@@ -1,0 +1,32 @@
+Version: 1.0
+File: include/kvm/arm_vgic.h:224
+Symbol:
+Byte size 304
+struct vgic_dist {
+0x0 in_kernel @"typedef--bool.txt"
+0x1 ready @"typedef--bool.txt"
+0x2 initialized @"typedef--bool.txt"
+0x4 vgic_model @"typedef--u32.txt"
+0x8 implementation_rev @"typedef--u32.txt"
+0xc v2_groups_user_writable @"typedef--bool.txt"
+0xd msis_require_devid @"typedef--bool.txt"
+0x10 nr_spis "int"
+0x18 vgic_dist_base @"typedef--gpa_t.txt"
+0x20 (NULL) union (NULL) {
+vgic_cpu_base @"typedef--gpa_t.txt"
+rd_regions @"struct--list_head.txt"
+}
+0x30 enabled @"typedef--bool.txt"
+0x31 nassgireq @"typedef--bool.txt"
+0x38 spis * @"struct--vgic_irq.txt"
+0x40 dist_iodev @"struct--vgic_io_device.txt"
+0x68 has_its @"typedef--bool.txt"
+0x69 table_write_in_progress @"typedef--bool.txt"
+0x70 propbaser @"typedef--u64.txt"
+0x78 lpi_list_lock @"typedef--raw_spinlock_t.txt"
+0x80 lpi_list_head @"struct--list_head.txt"
+0x90 lpi_list_count "int"
+0x98 lpi_translation_cache @"struct--list_head.txt"
+0xa8 iter * @"<declarations>/struct--vgic_state_iter.txt"
+0xb0 its_vm @"struct--its_vm.txt"
+}

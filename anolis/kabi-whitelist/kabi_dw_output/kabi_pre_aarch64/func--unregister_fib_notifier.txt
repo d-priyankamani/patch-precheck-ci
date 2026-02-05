@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/fib_notifier.c:121
+Symbol:
+func unregister_fib_notifier (
+net * @"struct--net.txt"
+nb * @"struct--notifier_block.txt"
+)
+"int"

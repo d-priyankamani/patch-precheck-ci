@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/sysfs/file.c:359
+Symbol:
+func sysfs_create_files (
+kobj * @"struct--kobject.txt"
+ptr * const * const @"struct--attribute.txt"
+)
+"int"

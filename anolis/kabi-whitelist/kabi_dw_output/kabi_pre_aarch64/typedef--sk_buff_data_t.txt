@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/skbuff.h:683
+Symbol:
+Byte size 4
+typedef sk_buff_data_t
+"unsigned int"

@@ -1,0 +1,32 @@
+Version: 1.0
+File: include/linux/pldmfw.h:154
+Symbol:
+Byte size 40
+struct pldmfw_ops {
+0x0 match_record * func (NULL) (
+(NULL) * @"struct--pldmfw.txt"
+(NULL) * @"struct--pldmfw_record.txt"
+)
+@"typedef--bool.txt"
+0x8 send_package_data * func (NULL) (
+(NULL) * @"struct--pldmfw.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0x10 send_component_table * func (NULL) (
+(NULL) * @"struct--pldmfw.txt"
+(NULL) * @"struct--pldmfw_component.txt"
+(NULL) @"typedef--u8.txt"
+)
+"int"
+0x18 flash_component * func (NULL) (
+(NULL) * @"struct--pldmfw.txt"
+(NULL) * @"struct--pldmfw_component.txt"
+)
+"int"
+0x20 finalize_update * func (NULL) (
+(NULL) * @"struct--pldmfw.txt"
+)
+"int"
+}

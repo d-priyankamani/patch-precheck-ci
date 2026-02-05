@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/pci.c:4249
+Symbol:
+func pci_request_regions (
+pdev * @"struct--pci_dev.txt"
+res_name * const "char"
+)
+"int"

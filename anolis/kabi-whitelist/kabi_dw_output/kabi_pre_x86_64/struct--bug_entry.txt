@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/asm-generic/bug.h:33
+Symbol:
+Byte size 12
+struct bug_entry {
+0x0 bug_addr_disp "int"
+0x4 file_disp "int"
+0x8 line "short unsigned int"
+0xa flags "short unsigned int"
+}

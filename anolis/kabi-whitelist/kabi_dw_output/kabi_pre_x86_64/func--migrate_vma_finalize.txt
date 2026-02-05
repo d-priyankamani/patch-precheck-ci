@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/migrate_device.c:873
+Symbol:
+func migrate_vma_finalize (
+migrate * @"struct--migrate_vma.txt"
+)
+"void"

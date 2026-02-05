@@ -1,0 +1,13 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modes.c:620
+Symbol:
+func drm_cvt_mode (
+dev * @"struct--drm_device.txt"
+hdisplay "int"
+vdisplay "int"
+vrefresh "int"
+reduced @"typedef--bool.txt"
+interlaced @"typedef--bool.txt"
+margins @"typedef--bool.txt"
+)
+* @"struct--drm_display_mode.txt"

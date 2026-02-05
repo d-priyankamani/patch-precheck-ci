@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/fs.h:2105
+Symbol:
+Byte size 4
+enum freeze_holder {
+FREEZE_HOLDER_KERNEL = 0x1
+FREEZE_HOLDER_USERSPACE = 0x2
+}

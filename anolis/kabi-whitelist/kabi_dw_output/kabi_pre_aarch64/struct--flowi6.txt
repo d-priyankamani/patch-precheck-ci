@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/net/flow.h:135
+Symbol:
+Byte size 120
+Alignment 8
+struct flowi6 {
+0x0 __fl_common @"struct--flowi_common.txt"
+0x38 daddr @"struct--in6_addr.txt"
+0x48 saddr @"struct--in6_addr.txt"
+0x58 flowlabel @"typedef--__be32.txt"
+0x5c uli @"union--flowi_uli.txt"
+0x60 mp_hash @"typedef--__u32.txt"
+0x68 ck_reserved1 "long unsigned int"
+0x70 ck_reserved2 "long unsigned int"
+}

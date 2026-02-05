@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:2770
+Symbol:
+func rdma_set_service_type (
+id * @"struct--rdma_cm_id.txt"
+tos "int"
+)
+"void"

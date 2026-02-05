@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/bitmap.c:807
+Symbol:
+func bitmap_parselist (
+buf * const "char"
+maskp * "long unsigned int"
+nmaskbits "int"
+)
+"int"

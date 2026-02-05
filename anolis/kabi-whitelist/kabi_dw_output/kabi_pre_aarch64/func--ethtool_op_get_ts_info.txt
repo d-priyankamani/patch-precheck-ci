@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/ethtool/ioctl.c:65
+Symbol:
+func ethtool_op_get_ts_info (
+dev * @"struct--net_device.txt"
+info * @"struct--ethtool_ts_info.txt"
+)
+"int"

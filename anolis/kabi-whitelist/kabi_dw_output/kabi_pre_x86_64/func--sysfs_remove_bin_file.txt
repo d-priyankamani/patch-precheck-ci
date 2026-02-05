@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/sysfs/file.c:580
+Symbol:
+func sysfs_remove_bin_file (
+kobj * @"struct--kobject.txt"
+attr * const @"struct--bin_attribute.txt"
+)
+"void"

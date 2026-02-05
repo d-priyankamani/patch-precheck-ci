@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic.c:49
+Symbol:
+func __drm_crtc_commit_free (
+kref * @"struct--kref.txt"
+)
+"void"

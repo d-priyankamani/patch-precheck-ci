@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/percpu.c:1943
+Symbol:
+func __alloc_percpu (
+size @"typedef--size_t.txt"
+align @"typedef--size_t.txt"
+)
+* "void"

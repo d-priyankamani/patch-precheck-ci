@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/iomap.c:97
+Symbol:
+func ioread32 (
+addr * const "void"
+)
+"unsigned int"

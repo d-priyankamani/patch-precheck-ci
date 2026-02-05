@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/kobject.c:308
+Symbol:
+func kobject_set_name (
+kobj * @"struct--kobject.txt"
+fmt * const "char"
+(NULL) ...
+)
+"int"

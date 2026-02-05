@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/xdp/xsk.c:93
+Symbol:
+func xsk_uses_need_wakeup (
+pool * @"struct--xsk_buff_pool.txt"
+)
+@"typedef--bool.txt"

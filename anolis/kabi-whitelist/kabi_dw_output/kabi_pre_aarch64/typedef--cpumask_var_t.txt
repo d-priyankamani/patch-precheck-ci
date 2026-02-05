@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/cpumask.h:953
+Symbol:
+typedef cpumask_var_t
+[1]@"struct--cpumask.txt"

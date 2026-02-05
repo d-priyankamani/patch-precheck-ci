@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_mst_topology.c:4257
+Symbol:
+func drm_dp_mst_detect_port (
+connector * @"struct--drm_connector.txt"
+ctx * @"struct--drm_modeset_acquire_ctx.txt"
+mgr * @"struct--drm_dp_mst_topology_mgr.txt"
+port * @"struct--drm_dp_mst_port.txt"
+)
+"int"

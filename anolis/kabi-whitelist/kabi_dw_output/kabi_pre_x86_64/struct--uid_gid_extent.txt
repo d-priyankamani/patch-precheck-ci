@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/user_namespace.h:17
+Symbol:
+Byte size 12
+struct uid_gid_extent {
+0x0 first @"typedef--u32.txt"
+0x4 lower_first @"typedef--u32.txt"
+0x8 count @"typedef--u32.txt"
+}

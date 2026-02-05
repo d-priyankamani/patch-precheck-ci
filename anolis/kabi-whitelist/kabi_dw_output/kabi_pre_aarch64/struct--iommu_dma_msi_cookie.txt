@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/iommu/dma-iommu.c:78
+Symbol:
+Byte size 24
+struct iommu_dma_msi_cookie {
+0x0 msi_iova @"typedef--dma_addr_t.txt"
+0x8 msi_page_list @"struct--list_head.txt"
+}

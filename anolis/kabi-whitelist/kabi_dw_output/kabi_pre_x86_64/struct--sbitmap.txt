@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/sbitmap.h:52
+Symbol:
+Byte size 40
+struct sbitmap {
+0x0 depth "unsigned int"
+0x4 shift "unsigned int"
+0x8 map_nr "unsigned int"
+0xc round_robin @"typedef--bool.txt"
+0x10 map * @"struct--sbitmap_word.txt"
+0x18 alloc_hint * "unsigned int"
+0x20 ck_reserved1 "long unsigned int"
+}

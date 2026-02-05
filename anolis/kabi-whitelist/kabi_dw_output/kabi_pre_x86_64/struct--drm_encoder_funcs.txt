@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/drm/drm_encoder.h:40
+Symbol:
+Byte size 32
+struct drm_encoder_funcs {
+0x0 reset * func (NULL) (
+(NULL) * @"struct--drm_encoder.txt"
+)
+"void"
+0x8 destroy * func (NULL) (
+(NULL) * @"struct--drm_encoder.txt"
+)
+"void"
+0x10 late_register * func (NULL) (
+(NULL) * @"struct--drm_encoder.txt"
+)
+"int"
+0x18 early_unregister * func (NULL) (
+(NULL) * @"struct--drm_encoder.txt"
+)
+"void"
+}

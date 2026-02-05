@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1626
+Symbol:
+Byte size 144
+struct ib_srq {
+0x0 device * @"struct--ib_device.txt"
+0x8 pd * @"struct--ib_pd.txt"
+0x10 uobject * @"struct--ib_usrq_object.txt"
+0x18 event_handler * func (NULL) (
+(NULL) * @"struct--ib_event.txt"
+(NULL) * "void"
+)
+"void"
+0x20 srq_context * "void"
+0x28 srq_type @"enum--ib_srq_type.txt"
+0x2c usecnt @"typedef--atomic_t.txt"
+0x30 ext struct (NULL) {
+0x0 cq * @"struct--ib_cq.txt"
+0x8 (NULL) union (NULL) {
+xrc struct (NULL) {
+0x0 xrcd * @"struct--ib_xrcd.txt"
+0x8 srq_num @"typedef--u32.txt"
+}
+}
+}
+0x48 res @"struct--rdma_restrack_entry.txt"
+}

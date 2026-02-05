@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/ptr_ring.h:30
+Symbol:
+Byte size 192
+Alignment 64
+struct ptr_ring {
+0x0 64 producer "int"
+0x4 producer_lock @"typedef--spinlock_t.txt"
+0x40 64 consumer_head "int"
+0x44 consumer_tail "int"
+0x48 consumer_lock @"typedef--spinlock_t.txt"
+0x80 64 size "int"
+0x84 batch "int"
+0x88 queue * * "void"
+}

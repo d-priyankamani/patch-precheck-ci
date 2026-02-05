@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/sysfs/file.c:536
+Symbol:
+func sysfs_remove_file_from_group (
+kobj * @"struct--kobject.txt"
+attr * const @"struct--attribute.txt"
+group * const "char"
+)
+"void"

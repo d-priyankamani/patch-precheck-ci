@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/cache.h:93
+Symbol:
+Alignment 64
+struct cacheline_padding {
+0x0 x [0]"char"
+}

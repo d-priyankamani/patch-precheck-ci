@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/x86/mm/numa.c:26
+Symbol:
+Byte size 512
+var node_data [64]* @"typedef--pg_data_t.txt"

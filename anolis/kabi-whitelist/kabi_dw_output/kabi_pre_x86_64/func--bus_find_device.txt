@@ -1,0 +1,14 @@
+Version: 1.0
+File: drivers/base/bus.c:392
+Symbol:
+func bus_find_device (
+bus * const @"struct--bus_type.txt"
+start * @"struct--device.txt"
+data * const "void"
+match * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * const "void"
+)
+"int"
+)
+* @"struct--device.txt"

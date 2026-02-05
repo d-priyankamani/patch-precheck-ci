@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_state_helper.c:352
+Symbol:
+func drm_atomic_helper_plane_duplicate_state (
+plane * @"struct--drm_plane.txt"
+)
+* @"struct--drm_plane_state.txt"

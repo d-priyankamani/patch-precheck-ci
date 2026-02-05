@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/semaphore.c:105
+Symbol:
+func down_killable (
+sem * @"struct--semaphore.txt"
+)
+"int"

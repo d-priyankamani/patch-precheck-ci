@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/timer.c:2128
+Symbol:
+func schedule_timeout (
+timeout "long int"
+)
+"long int"

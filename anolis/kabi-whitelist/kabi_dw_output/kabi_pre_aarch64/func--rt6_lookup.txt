@@ -1,0 +1,12 @@
+Version: 1.0
+File: net/ipv6/route.c:1306
+Symbol:
+func rt6_lookup (
+net * @"struct--net.txt"
+daddr * const @"struct--in6_addr.txt"
+saddr * const @"struct--in6_addr.txt"
+oif "int"
+skb * const @"struct--sk_buff.txt"
+strict "int"
+)
+* @"struct--rt6_info.txt"

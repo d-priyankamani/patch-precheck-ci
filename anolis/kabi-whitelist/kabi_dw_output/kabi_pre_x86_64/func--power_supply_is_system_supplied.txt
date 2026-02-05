@@ -1,0 +1,6 @@
+Version: 1.0
+File: drivers/power/supply/power_supply_core.c:364
+Symbol:
+func power_supply_is_system_supplied (
+)
+"int"

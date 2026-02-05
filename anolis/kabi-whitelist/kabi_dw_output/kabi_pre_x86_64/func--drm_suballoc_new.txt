@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_suballoc.c:313
+Symbol:
+func drm_suballoc_new (
+sa_manager * @"struct--drm_suballoc_manager.txt"
+size @"typedef--size_t.txt"
+gfp @"typedef--gfp_t.txt"
+intr @"typedef--bool.txt"
+align @"typedef--size_t.txt"
+)
+* @"struct--drm_suballoc.txt"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/types.h:246
+Symbol:
+Byte size 8
+typedef cmp_func_t
+* func (NULL) (
+(NULL) * const "void"
+(NULL) * const "void"
+)
+"int"

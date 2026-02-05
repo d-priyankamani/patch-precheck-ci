@@ -1,0 +1,9 @@
+Version: 1.0
+File: security/security.c:4846
+Symbol:
+func security_ib_endport_manage_subnet (
+sec * "void"
+dev_name * const "char"
+port_num @"typedef--u8.txt"
+)
+"int"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/irqdomain.h:63
+Symbol:
+Byte size 80
+struct irq_fwspec {
+0x0 fwnode * @"struct--fwnode_handle.txt"
+0x8 param_count "int"
+0xc param [16]@"typedef--u32.txt"
+}

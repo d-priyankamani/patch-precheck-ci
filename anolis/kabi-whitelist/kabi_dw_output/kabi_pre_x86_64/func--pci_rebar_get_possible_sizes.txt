@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/pci.c:3852
+Symbol:
+func pci_rebar_get_possible_sizes (
+pdev * @"struct--pci_dev.txt"
+bar "int"
+)
+@"typedef--u32.txt"

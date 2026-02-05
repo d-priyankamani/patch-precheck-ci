@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/base/class.c:542
+Symbol:
+func show_class_attr_string (
+class * const @"struct--class.txt"
+attr * const @"struct--class_attribute.txt"
+buf * "char"
+)
+@"typedef--ssize_t.txt"

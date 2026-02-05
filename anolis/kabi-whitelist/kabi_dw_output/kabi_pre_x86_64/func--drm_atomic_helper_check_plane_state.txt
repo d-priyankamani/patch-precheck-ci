@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_helper.c:885
+Symbol:
+func drm_atomic_helper_check_plane_state (
+plane_state * @"struct--drm_plane_state.txt"
+crtc_state * const @"struct--drm_crtc_state.txt"
+min_scale "int"
+max_scale "int"
+can_position @"typedef--bool.txt"
+can_update_disabled @"typedef--bool.txt"
+)
+"int"

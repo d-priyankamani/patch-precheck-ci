@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/bpf/core.c:2997
+Symbol:
+var bpf_stats_enabled_key "void"

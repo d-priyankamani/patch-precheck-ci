@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/base/power/power.h:34
+Symbol:
+Byte size 24
+struct wake_irq {
+0x0 dev * @"struct--device.txt"
+0x8 status "unsigned int"
+0xc irq "int"
+0x10 name * const "char"
+}

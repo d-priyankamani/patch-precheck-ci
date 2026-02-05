@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/in6.h:50
+Symbol:
+Byte size 28
+struct sockaddr_in6 {
+0x0 sin6_family "short unsigned int"
+0x2 sin6_port @"typedef--__be16.txt"
+0x4 sin6_flowinfo @"typedef--__be32.txt"
+0x8 sin6_addr @"struct--in6_addr.txt"
+0x18 sin6_scope_id @"typedef--__u32.txt"
+}

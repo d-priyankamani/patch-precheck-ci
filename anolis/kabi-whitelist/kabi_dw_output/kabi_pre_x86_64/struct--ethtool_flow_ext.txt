@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:1145
+Symbol:
+Byte size 20
+struct ethtool_flow_ext {
+0x0 padding [2]@"typedef--__u8.txt"
+0x2 h_dest [6]"unsigned char"
+0x8 vlan_etype @"typedef--__be16.txt"
+0xa vlan_tci @"typedef--__be16.txt"
+0xc data [2]@"typedef--__be32.txt"
+}

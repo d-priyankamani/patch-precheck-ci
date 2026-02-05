@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/iommu/iova.c:37
+Symbol:
+func init_iova_domain (
+iovad * @"struct--iova_domain.txt"
+granule "long unsigned int"
+start_pfn "long unsigned int"
+)
+"void"

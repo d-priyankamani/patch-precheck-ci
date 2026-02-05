@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/panic.c:279
+Symbol:
+func panic (
+fmt * const "char"
+(NULL) ...
+)
+"void"

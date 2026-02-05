@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ipv4/devinet.c:245
+Symbol:
+func in_dev_finish_destroy (
+idev * @"struct--in_device.txt"
+)
+"void"

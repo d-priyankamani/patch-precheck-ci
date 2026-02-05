@@ -1,0 +1,11 @@
+Version: 1.0
+File: arch/x86/include/uapi/asm/kvm.h:284
+Symbol:
+Byte size 32
+struct kvm_debug_exit_arch {
+0x0 exception @"typedef--__u32.txt"
+0x4 pad @"typedef--__u32.txt"
+0x8 pc @"typedef--__u64.txt"
+0x10 dr6 @"typedef--__u64.txt"
+0x18 dr7 @"typedef--__u64.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2013
+Symbol:
+func ib_query_qp (
+qp * @"struct--ib_qp.txt"
+qp_attr * @"struct--ib_qp_attr.txt"
+qp_attr_mask "int"
+qp_init_attr * @"struct--ib_qp_init_attr.txt"
+)
+"int"

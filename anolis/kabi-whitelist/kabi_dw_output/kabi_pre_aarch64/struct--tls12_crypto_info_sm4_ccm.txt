@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/tls.h:165
+Symbol:
+Byte size 40
+struct tls12_crypto_info_sm4_ccm {
+0x0 info @"struct--tls_crypto_info.txt"
+0x4 iv [8]"unsigned char"
+0xc key [16]"unsigned char"
+0x1c salt [4]"unsigned char"
+0x20 rec_seq [8]"unsigned char"
+}

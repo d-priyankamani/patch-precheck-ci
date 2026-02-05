@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mm.c:997
+Symbol:
+func drm_mm_takedown (
+mm * @"struct--drm_mm.txt"
+)
+"void"

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/devlink.h:777
+Symbol:
+Byte size 56
+struct devlink_trap_policer {
+0x0 id @"typedef--u32.txt"
+0x8 init_rate @"typedef--u64.txt"
+0x10 init_burst @"typedef--u64.txt"
+0x18 max_rate @"typedef--u64.txt"
+0x20 min_rate @"typedef--u64.txt"
+0x28 max_burst @"typedef--u64.txt"
+0x30 min_burst @"typedef--u64.txt"
+}

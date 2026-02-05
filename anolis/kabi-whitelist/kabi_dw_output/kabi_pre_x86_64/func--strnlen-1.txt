@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/string.c:433
+Symbol:
+func strnlen (
+s * const "char"
+count @"typedef--size_t.txt"
+)
+@"typedef--__kernel_size_t.txt"

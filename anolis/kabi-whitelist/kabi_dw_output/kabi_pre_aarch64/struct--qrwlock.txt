@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/asm-generic/qrwlock_types.h:13
+Symbol:
+Byte size 8
+struct qrwlock {
+0x0 (NULL) union (NULL) {
+cnts @"typedef--atomic_t.txt"
+(NULL) struct (NULL) {
+0x0 wlocked @"typedef--u8.txt"
+0x1 __lstate [3]@"typedef--u8.txt"
+}
+}
+0x4 wait_lock @"typedef--arch_spinlock_t.txt"
+}

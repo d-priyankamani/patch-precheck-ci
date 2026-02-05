@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_pool.c:610
+Symbol:
+func ttm_pool_fini (
+pool * @"struct--ttm_pool.txt"
+)
+"void"

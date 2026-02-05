@@ -1,0 +1,13 @@
+Version: 1.0
+File: fs/eventfd.c:30
+Symbol:
+Byte size 64
+struct eventfd_ctx {
+0x0 kref @"struct--kref.txt"
+0x8 wqh @"typedef--wait_queue_head_t.txt"
+0x20 count @"typedef--__u64.txt"
+0x28 flags "unsigned int"
+0x2c id "int"
+0x30 ck_reserved1 "long unsigned int"
+0x38 ck_reserved2 "long unsigned int"
+}

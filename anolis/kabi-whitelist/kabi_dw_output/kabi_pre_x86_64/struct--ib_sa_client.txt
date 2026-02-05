@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/rdma/ib_sa.h:392
+Symbol:
+Byte size 40
+struct ib_sa_client {
+0x0 users @"typedef--atomic_t.txt"
+0x8 comp @"struct--completion.txt"
+}

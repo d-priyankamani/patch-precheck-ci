@@ -1,0 +1,34 @@
+Version: 1.0
+File: include/linux/xattr.h:36
+Symbol:
+Byte size 56
+struct xattr_handler {
+0x0 name * const "char"
+0x8 prefix * const "char"
+0x10 flags "int"
+0x18 list * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+)
+@"typedef--bool.txt"
+0x20 get * func (NULL) (
+(NULL) * const @"struct--xattr_handler.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) * const "char"
+(NULL) * "void"
+(NULL) @"typedef--size_t.txt"
+)
+"int"
+0x28 set * func (NULL) (
+(NULL) * const @"struct--xattr_handler.txt"
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) * const "char"
+(NULL) * const "void"
+(NULL) @"typedef--size_t.txt"
+(NULL) "int"
+)
+"int"
+0x30 ck_reserved1 "long unsigned int"
+}

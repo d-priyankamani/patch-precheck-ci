@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/seq_file.c:171
+Symbol:
+func seq_read_iter (
+iocb * @"struct--kiocb.txt"
+iter * @"struct--iov_iter.txt"
+)
+@"typedef--ssize_t.txt"

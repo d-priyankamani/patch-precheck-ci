@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/drm/drm_mm.h:190
+Symbol:
+Byte size 240
+Alignment 8
+struct drm_mm {
+0x0 color_adjust * func (NULL) (
+(NULL) * const @"struct--drm_mm_node.txt"
+(NULL) "long unsigned int"
+(NULL) * @"typedef--u64.txt"
+(NULL) * @"typedef--u64.txt"
+)
+"void"
+0x8 hole_stack @"struct--list_head.txt"
+0x18 8 head_node @"struct--drm_mm_node.txt"
+0xc0 interval_tree @"struct--rb_root_cached.txt"
+0xd0 holes_size @"struct--rb_root_cached.txt"
+0xe0 holes_addr @"struct--rb_root.txt"
+0xe8 scan_active "long unsigned int"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/xarray.c:235
+Symbol:
+func xas_load (
+xas * @"struct--xa_state.txt"
+)
+* "void"

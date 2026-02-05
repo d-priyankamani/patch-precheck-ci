@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/arm64/include/asm/uprobes.h:19
+Symbol:
+struct arch_uprobe_task {
+}

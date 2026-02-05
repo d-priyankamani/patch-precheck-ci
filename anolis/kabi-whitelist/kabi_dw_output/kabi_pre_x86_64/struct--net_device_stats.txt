@@ -1,0 +1,98 @@
+Version: 1.0
+File: include/linux/netdevice.h:188
+Symbol:
+Byte size 184
+struct net_device_stats {
+0x0 (NULL) union (NULL) {
+rx_packets "long unsigned int"
+__rx_packets @"typedef--atomic_long_t.txt"
+}
+0x8 (NULL) union (NULL) {
+tx_packets "long unsigned int"
+__tx_packets @"typedef--atomic_long_t.txt"
+}
+0x10 (NULL) union (NULL) {
+rx_bytes "long unsigned int"
+__rx_bytes @"typedef--atomic_long_t.txt"
+}
+0x18 (NULL) union (NULL) {
+tx_bytes "long unsigned int"
+__tx_bytes @"typedef--atomic_long_t.txt"
+}
+0x20 (NULL) union (NULL) {
+rx_errors "long unsigned int"
+__rx_errors @"typedef--atomic_long_t.txt"
+}
+0x28 (NULL) union (NULL) {
+tx_errors "long unsigned int"
+__tx_errors @"typedef--atomic_long_t.txt"
+}
+0x30 (NULL) union (NULL) {
+rx_dropped "long unsigned int"
+__rx_dropped @"typedef--atomic_long_t.txt"
+}
+0x38 (NULL) union (NULL) {
+tx_dropped "long unsigned int"
+__tx_dropped @"typedef--atomic_long_t.txt"
+}
+0x40 (NULL) union (NULL) {
+multicast "long unsigned int"
+__multicast @"typedef--atomic_long_t.txt"
+}
+0x48 (NULL) union (NULL) {
+collisions "long unsigned int"
+__collisions @"typedef--atomic_long_t.txt"
+}
+0x50 (NULL) union (NULL) {
+rx_length_errors "long unsigned int"
+__rx_length_errors @"typedef--atomic_long_t.txt"
+}
+0x58 (NULL) union (NULL) {
+rx_over_errors "long unsigned int"
+__rx_over_errors @"typedef--atomic_long_t.txt"
+}
+0x60 (NULL) union (NULL) {
+rx_crc_errors "long unsigned int"
+__rx_crc_errors @"typedef--atomic_long_t.txt"
+}
+0x68 (NULL) union (NULL) {
+rx_frame_errors "long unsigned int"
+__rx_frame_errors @"typedef--atomic_long_t.txt"
+}
+0x70 (NULL) union (NULL) {
+rx_fifo_errors "long unsigned int"
+__rx_fifo_errors @"typedef--atomic_long_t.txt"
+}
+0x78 (NULL) union (NULL) {
+rx_missed_errors "long unsigned int"
+__rx_missed_errors @"typedef--atomic_long_t.txt"
+}
+0x80 (NULL) union (NULL) {
+tx_aborted_errors "long unsigned int"
+__tx_aborted_errors @"typedef--atomic_long_t.txt"
+}
+0x88 (NULL) union (NULL) {
+tx_carrier_errors "long unsigned int"
+__tx_carrier_errors @"typedef--atomic_long_t.txt"
+}
+0x90 (NULL) union (NULL) {
+tx_fifo_errors "long unsigned int"
+__tx_fifo_errors @"typedef--atomic_long_t.txt"
+}
+0x98 (NULL) union (NULL) {
+tx_heartbeat_errors "long unsigned int"
+__tx_heartbeat_errors @"typedef--atomic_long_t.txt"
+}
+0xa0 (NULL) union (NULL) {
+tx_window_errors "long unsigned int"
+__tx_window_errors @"typedef--atomic_long_t.txt"
+}
+0xa8 (NULL) union (NULL) {
+rx_compressed "long unsigned int"
+__rx_compressed @"typedef--atomic_long_t.txt"
+}
+0xb0 (NULL) union (NULL) {
+tx_compressed "long unsigned int"
+__tx_compressed @"typedef--atomic_long_t.txt"
+}
+}

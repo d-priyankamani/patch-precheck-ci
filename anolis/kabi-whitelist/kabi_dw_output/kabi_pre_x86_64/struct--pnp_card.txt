@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/pnp.h:202
+Symbol:
+Byte size 1128
+Alignment 8
+struct pnp_card {
+0x0 8 dev @"struct--device.txt"
+0x3d8 number "unsigned char"
+0x3e0 global_list @"struct--list_head.txt"
+0x3f0 protocol_list @"struct--list_head.txt"
+0x400 devices @"struct--list_head.txt"
+0x410 protocol * @"struct--pnp_protocol.txt"
+0x418 id * @"struct--pnp_id.txt"
+0x420 name [50]"char"
+0x452 pnpver "unsigned char"
+0x453 productver "unsigned char"
+0x454 serial "unsigned int"
+0x458 checksum "unsigned char"
+0x460 procdir * @"<declarations>/struct--proc_dir_entry.txt"
+}

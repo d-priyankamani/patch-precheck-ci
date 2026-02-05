@@ -1,0 +1,17 @@
+Version: 1.0
+File: block/blk-mq.h:18
+Symbol:
+Byte size 256
+Alignment 64
+struct blk_mq_ctx {
+0x0 64 (NULL) struct (NULL) {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 rq_lists [3]@"struct--list_head.txt"
+}
+0x40 cpu "unsigned int"
+0x44 index_hw [3]"short unsigned int"
+0x50 hctxs [3]* @"struct--blk_mq_hw_ctx.txt"
+0x68 queue * @"struct--request_queue.txt"
+0x70 ctxs * @"struct--blk_mq_ctxs.txt"
+0x78 kobj @"struct--kobject.txt"
+}

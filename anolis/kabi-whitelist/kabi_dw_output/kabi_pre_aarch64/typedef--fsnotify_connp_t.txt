@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/fsnotify_backend.h:464
+Symbol:
+Byte size 8
+typedef fsnotify_connp_t
+* @"struct--fsnotify_mark_connector.txt"

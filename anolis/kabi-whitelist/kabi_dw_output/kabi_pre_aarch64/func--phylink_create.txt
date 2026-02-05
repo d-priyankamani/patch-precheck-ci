@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/net/phy/phylink.c:1611
+Symbol:
+func phylink_create (
+config * @"struct--phylink_config.txt"
+fwnode * const @"struct--fwnode_handle.txt"
+iface @"typedef--phy_interface_t.txt"
+mac_ops * const @"struct--phylink_mac_ops.txt"
+)
+* @"struct--phylink.txt"

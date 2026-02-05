@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/sched/wait_bit.c:197
+Symbol:
+func bit_wait (
+word * @"struct--wait_bit_key.txt"
+mode "int"
+)
+"int"

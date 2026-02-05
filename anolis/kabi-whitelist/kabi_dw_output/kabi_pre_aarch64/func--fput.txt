@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/file_table.c:433
+Symbol:
+func fput (
+file * @"struct--file.txt"
+)
+"void"

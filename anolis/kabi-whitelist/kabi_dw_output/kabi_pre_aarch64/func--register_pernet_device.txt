@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/net_namespace.c:1376
+Symbol:
+func register_pernet_device (
+ops * @"struct--pernet_operations.txt"
+)
+"int"

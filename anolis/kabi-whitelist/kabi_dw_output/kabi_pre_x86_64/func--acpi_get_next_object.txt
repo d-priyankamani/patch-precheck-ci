@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/acpi/acpica/nsxfobj.c:149
+Symbol:
+func acpi_get_next_object (
+type @"typedef--acpi_object_type.txt"
+parent @"typedef--acpi_handle.txt"
+child @"typedef--acpi_handle.txt"
+ret_handle * @"typedef--acpi_handle.txt"
+)
+@"typedef--acpi_status.txt"

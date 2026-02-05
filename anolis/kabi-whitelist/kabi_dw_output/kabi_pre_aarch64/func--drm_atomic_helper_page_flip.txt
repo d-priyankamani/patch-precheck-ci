@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_helper.c:3697
+Symbol:
+func drm_atomic_helper_page_flip (
+crtc * @"struct--drm_crtc.txt"
+fb * @"struct--drm_framebuffer.txt"
+event * @"struct--drm_pending_vblank_event.txt"
+flags @"typedef--uint32_t.txt"
+ctx * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"

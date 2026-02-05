@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/neighbour.c:1171
+Symbol:
+func __neigh_event_send (
+neigh * @"struct--neighbour.txt"
+skb * @"struct--sk_buff.txt"
+immediate_ok const @"typedef--bool.txt"
+)
+"int"

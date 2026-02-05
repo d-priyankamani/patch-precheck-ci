@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/include/uapi/asm/kvm.h:136
+Symbol:
+Byte size 16
+struct kvm_dtable {
+0x0 base @"typedef--__u64.txt"
+0x8 limit @"typedef--__u16.txt"
+0xa padding [3]@"typedef--__u16.txt"
+}

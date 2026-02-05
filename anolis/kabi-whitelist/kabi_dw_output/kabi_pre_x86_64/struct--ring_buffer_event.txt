@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/ring_buffer.h:15
+Symbol:
+Byte size 4
+struct ring_buffer_event {
+0x0:0-5 type_len @"typedef--u32.txt"
+0x0:5-32 time_delta @"typedef--u32.txt"
+0x4 array [0]@"typedef--u32.txt"
+}

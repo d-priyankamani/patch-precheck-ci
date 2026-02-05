@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/mnt_idmapping.h:16
+Symbol:
+Byte size 4
+typedef vfsuid_t
+struct (NULL) {
+0x0 val @"typedef--uid_t.txt"
+}

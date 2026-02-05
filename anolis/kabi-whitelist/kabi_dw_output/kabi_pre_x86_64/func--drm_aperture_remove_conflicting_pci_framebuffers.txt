@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_aperture.c:187
+Symbol:
+func drm_aperture_remove_conflicting_pci_framebuffers (
+pdev * @"<declarations>/struct--pci_dev.txt"
+req_driver * const @"struct--drm_driver.txt"
+)
+"int"

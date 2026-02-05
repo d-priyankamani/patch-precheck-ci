@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/configfs.h:77
+Symbol:
+Byte size 136
+struct config_group {
+0x0 cg_item @"struct--config_item.txt"
+0x50 cg_children @"struct--list_head.txt"
+0x60 cg_subsys * @"struct--configfs_subsystem.txt"
+0x68 default_groups @"struct--list_head.txt"
+0x78 group_entry @"struct--list_head.txt"
+}

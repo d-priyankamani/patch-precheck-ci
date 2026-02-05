@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/char_dev.c:479
+Symbol:
+func cdev_add (
+p * @"struct--cdev.txt"
+dev @"typedef--dev_t.txt"
+count "unsigned int"
+)
+"int"

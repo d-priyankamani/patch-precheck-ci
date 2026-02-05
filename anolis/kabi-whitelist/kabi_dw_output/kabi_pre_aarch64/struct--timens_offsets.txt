@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/time_namespace.h:14
+Symbol:
+Byte size 32
+struct timens_offsets {
+0x0 monotonic @"struct--timespec64.txt"
+0x10 boottime @"struct--timespec64.txt"
+}

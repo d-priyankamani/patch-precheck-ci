@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/net/macsec.h:251
+Symbol:
+Byte size 184
+struct macsec_context {
+0x0 (NULL) union (NULL) {
+netdev * @"struct--net_device.txt"
+phydev * @"struct--phy_device.txt"
+}
+0x8 offload @"enum--macsec_offload.txt"
+0x10 secy * @"struct--macsec_secy.txt"
+0x18 rx_sc * @"struct--macsec_rx_sc.txt"
+0x20 sa struct (NULL) {
+0x0 update_pn @"typedef--bool.txt"
+0x1 assoc_num "unsigned char"
+0x2 key [128]@"typedef--u8.txt"
+0x88 (NULL) union (NULL) {
+rx_sa * @"struct--macsec_rx_sa.txt"
+tx_sa * @"struct--macsec_tx_sa.txt"
+}
+}
+0xb0 stats union (NULL) {
+tx_sc_stats * @"struct--macsec_tx_sc_stats.txt"
+tx_sa_stats * @"struct--macsec_tx_sa_stats.txt"
+rx_sc_stats * @"struct--macsec_rx_sc_stats.txt"
+rx_sa_stats * @"struct--macsec_rx_sa_stats.txt"
+dev_stats * @"struct--macsec_dev_stats.txt"
+}
+}

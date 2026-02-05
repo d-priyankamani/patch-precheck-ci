@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/module/main.c:853
+Symbol:
+func __symbol_put (
+symbol * const "char"
+)
+"void"

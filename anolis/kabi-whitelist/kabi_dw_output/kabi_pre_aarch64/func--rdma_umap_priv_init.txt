@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/ib_core_uverbs.c:30
+Symbol:
+func rdma_umap_priv_init (
+priv * @"struct--rdma_umap_priv.txt"
+vma * @"struct--vm_area_struct.txt"
+entry * @"struct--rdma_user_mmap_entry.txt"
+)
+"void"

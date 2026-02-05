@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:309
+Symbol:
+Byte size 1
+struct acpi_device_perf_flags {
+0x0:0-8 reserved @"typedef--u8.txt"
+}

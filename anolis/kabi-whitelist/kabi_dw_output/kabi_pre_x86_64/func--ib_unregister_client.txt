@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:1828
+Symbol:
+func ib_unregister_client (
+client * @"struct--ib_client.txt"
+)
+"void"

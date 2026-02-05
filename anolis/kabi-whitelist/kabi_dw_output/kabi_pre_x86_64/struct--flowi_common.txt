@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/net/flow.h:31
+Symbol:
+Byte size 56
+struct flowi_common {
+0x0 flowic_oif "int"
+0x4 flowic_iif "int"
+0x8 flowic_l3mdev "int"
+0xc flowic_mark @"typedef--__u32.txt"
+0x10 flowic_tos @"typedef--__u8.txt"
+0x11 flowic_scope @"typedef--__u8.txt"
+0x12 flowic_proto @"typedef--__u8.txt"
+0x13 flowic_flags @"typedef--__u8.txt"
+0x14 flowic_secid @"typedef--__u32.txt"
+0x18 flowic_uid @"typedef--kuid_t.txt"
+0x1c flowic_multipath_hash @"typedef--__u32.txt"
+0x20 flowic_tun_key @"struct--flowi_tunnel.txt"
+0x28 ck_reserved1 "long unsigned int"
+0x30 ck_reserved2 "long unsigned int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/kvm_host.h:1823
+Symbol:
+Byte size 24
+struct kvm_stat_data {
+0x0 kvm * @"struct--kvm.txt"
+0x8 desc * const @"struct--_kvm_stats_desc.txt"
+0x10 kind @"enum--kvm_stat_kind.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_transport_sas.c:787
+Symbol:
+func sas_phy_delete (
+phy * @"struct--sas_phy.txt"
+)
+"void"

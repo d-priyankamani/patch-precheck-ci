@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/vsprintf.c:3003
+Symbol:
+func vsprintf (
+buf * "char"
+fmt * const "char"
+args * @"struct--__va_list_tag.txt"
+)
+"int"

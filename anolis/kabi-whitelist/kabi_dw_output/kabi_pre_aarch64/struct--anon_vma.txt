@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/rmap.h:32
+Symbol:
+Byte size 104
+struct anon_vma {
+0x0 root * @"struct--anon_vma.txt"
+0x8 rwsem @"struct--rw_semaphore.txt"
+0x30 refcount @"typedef--atomic_t.txt"
+0x38 num_children "long unsigned int"
+0x40 num_active_vmas "long unsigned int"
+0x48 parent * @"struct--anon_vma.txt"
+0x50 rb_root @"struct--rb_root_cached.txt"
+0x60 ck_reserved1 "long unsigned int"
+}

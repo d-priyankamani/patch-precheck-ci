@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/pps_kernel.h:35
+Symbol:
+Byte size 16
+struct pps_event_time {
+0x0 ts_real @"struct--timespec64.txt"
+}

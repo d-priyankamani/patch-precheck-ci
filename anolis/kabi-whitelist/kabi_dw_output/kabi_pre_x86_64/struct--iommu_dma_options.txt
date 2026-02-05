@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/iommu/dma-iommu.c:50
+Symbol:
+Byte size 24
+struct iommu_dma_options {
+0x0 qt @"enum--iommu_dma_queue_type.txt"
+0x8 fq_size @"typedef--size_t.txt"
+0x10 fq_timeout "unsigned int"
+}

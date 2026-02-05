@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/vmalloc.c:78
+Symbol:
+func is_vmalloc_addr (
+x * const "void"
+)
+@"typedef--bool.txt"

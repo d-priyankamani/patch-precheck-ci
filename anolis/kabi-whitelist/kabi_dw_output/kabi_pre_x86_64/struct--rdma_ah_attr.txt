@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:941
+Symbol:
+Byte size 56
+struct rdma_ah_attr {
+0x0 grh @"struct--ib_global_route.txt"
+0x20 sl @"typedef--u8.txt"
+0x21 static_rate @"typedef--u8.txt"
+0x24 port_num @"typedef--u32.txt"
+0x28 ah_flags @"typedef--u8.txt"
+0x2c type @"enum--rdma_ah_attr_type.txt"
+0x30 (NULL) union (NULL) {
+ib @"struct--ib_ah_attr.txt"
+roce @"struct--roce_ah_attr.txt"
+opa @"struct--opa_ah_attr.txt"
+}
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:40
+Symbol:
+Byte size 4
+enum bpf_reg_liveness {
+REG_LIVE_NONE = 0x0
+REG_LIVE_READ32 = 0x1
+REG_LIVE_READ64 = 0x2
+REG_LIVE_READ = 0x3
+REG_LIVE_WRITTEN = 0x4
+REG_LIVE_DONE = 0x8
+}

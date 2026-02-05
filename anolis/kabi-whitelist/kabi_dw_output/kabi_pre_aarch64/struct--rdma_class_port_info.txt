@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/sa_query.c:76
+Symbol:
+Byte size 84
+struct rdma_class_port_info {
+0x0 type @"enum--rdma_class_port_info_type.txt"
+0x4 (NULL) union (NULL) {
+ib @"struct--ib_class_port_info.txt"
+opa @"struct--opa_class_port_info.txt"
+}
+}

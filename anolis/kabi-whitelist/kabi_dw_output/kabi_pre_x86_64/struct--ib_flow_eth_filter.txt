@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1910
+Symbol:
+Byte size 16
+struct ib_flow_eth_filter {
+0x0 dst_mac [6]@"typedef--u8.txt"
+0x6 src_mac [6]@"typedef--u8.txt"
+0xc ether_type @"typedef--__be16.txt"
+0xe vlan_tag @"typedef--__be16.txt"
+0x10 real_sz [0]@"typedef--u8.txt"
+}

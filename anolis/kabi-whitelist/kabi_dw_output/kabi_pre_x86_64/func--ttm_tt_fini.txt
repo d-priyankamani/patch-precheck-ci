@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_tt.c:174
+Symbol:
+func ttm_tt_fini (
+ttm * @"struct--ttm_tt.txt"
+)
+"void"

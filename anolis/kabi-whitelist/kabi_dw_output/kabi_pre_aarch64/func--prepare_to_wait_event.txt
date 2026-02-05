@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/sched/wait.c:310
+Symbol:
+func prepare_to_wait_event (
+wq_head * @"struct--wait_queue_head.txt"
+wq_entry * @"struct--wait_queue_entry.txt"
+state "int"
+)
+"long int"

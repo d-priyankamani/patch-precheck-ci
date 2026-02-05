@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:26
+Symbol:
+typedef off_t
+@"typedef--__kernel_off_t.txt"

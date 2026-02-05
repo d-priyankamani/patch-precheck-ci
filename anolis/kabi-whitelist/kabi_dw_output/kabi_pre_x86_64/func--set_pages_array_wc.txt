@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/x86/mm/pat/set_memory.c:2298
+Symbol:
+func set_pages_array_wc (
+pages * * @"struct--page.txt"
+numpages "int"
+)
+"int"

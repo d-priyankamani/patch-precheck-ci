@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/pci/pci.c:543
+Symbol:
+func pci_bus_find_capability (
+bus * @"struct--pci_bus.txt"
+devfn "unsigned int"
+cap "int"
+)
+@"typedef--u8.txt"

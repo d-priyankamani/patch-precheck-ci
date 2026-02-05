@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_print.c:223
+Symbol:
+func drm_printf (
+p * @"struct--drm_printer.txt"
+f * const "char"
+(NULL) ...
+)
+"void"

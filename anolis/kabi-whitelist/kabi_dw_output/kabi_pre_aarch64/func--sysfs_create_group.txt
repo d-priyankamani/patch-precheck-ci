@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/sysfs/group.c:203
+Symbol:
+func sysfs_create_group (
+kobj * @"struct--kobject.txt"
+grp * const @"struct--attribute_group.txt"
+)
+"int"

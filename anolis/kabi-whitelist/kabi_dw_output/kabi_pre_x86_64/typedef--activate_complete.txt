@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/scsi/scsi_dh.h:47
+Symbol:
+Byte size 8
+typedef activate_complete
+* func (NULL) (
+(NULL) * "void"
+(NULL) "int"
+)
+"void"

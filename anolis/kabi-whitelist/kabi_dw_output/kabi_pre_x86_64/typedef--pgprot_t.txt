@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/x86/include/asm/pgtable_types.h:297
+Symbol:
+typedef pgprot_t
+@"struct--pgprot.txt"

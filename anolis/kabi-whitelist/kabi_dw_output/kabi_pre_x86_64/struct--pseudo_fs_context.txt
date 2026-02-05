@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/pseudo_fs.h:6
+Symbol:
+Byte size 32
+struct pseudo_fs_context {
+0x0 ops * const @"struct--super_operations.txt"
+0x8 xattr * * const @"<declarations>/struct--xattr_handler.txt"
+0x10 dops * const @"struct--dentry_operations.txt"
+0x18 magic "long unsigned int"
+}

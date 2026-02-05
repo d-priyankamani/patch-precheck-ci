@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/pci/msi/api.c:108
+Symbol:
+func pci_enable_msix_range (
+dev * @"struct--pci_dev.txt"
+entries * @"struct--msix_entry.txt"
+minvec "int"
+maxvec "int"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/pci.h:846
+Symbol:
+Byte size 24
+struct pci_dynids {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 list @"struct--list_head.txt"
+}

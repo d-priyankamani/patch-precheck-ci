@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/dma-buf/dma-resv.c:620
+Symbol:
+func dma_resv_get_singleton (
+obj * @"struct--dma_resv.txt"
+usage @"enum--dma_resv_usage.txt"
+fence * * @"struct--dma_fence.txt"
+)
+"int"

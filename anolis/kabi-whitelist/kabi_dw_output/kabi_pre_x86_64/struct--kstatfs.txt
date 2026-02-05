@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/statfs.h:9
+Symbol:
+Byte size 120
+struct kstatfs {
+0x0 f_type "long int"
+0x8 f_bsize "long int"
+0x10 f_blocks @"typedef--u64.txt"
+0x18 f_bfree @"typedef--u64.txt"
+0x20 f_bavail @"typedef--u64.txt"
+0x28 f_files @"typedef--u64.txt"
+0x30 f_ffree @"typedef--u64.txt"
+0x38 f_fsid @"typedef--__kernel_fsid_t.txt"
+0x40 f_namelen "long int"
+0x48 f_frsize "long int"
+0x50 f_flags "long int"
+0x58 f_spare [4]"long int"
+}

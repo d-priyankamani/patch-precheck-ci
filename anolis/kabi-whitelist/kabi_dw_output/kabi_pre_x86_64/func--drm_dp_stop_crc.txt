@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_helper.c:2236
+Symbol:
+func drm_dp_stop_crc (
+aux * @"struct--drm_dp_aux.txt"
+)
+"int"

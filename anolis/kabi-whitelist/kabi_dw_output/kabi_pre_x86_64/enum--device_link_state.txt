@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/device.h:446
+Symbol:
+Byte size 4
+enum device_link_state {
+DL_STATE_NONE = 0xffffffffffffffff
+DL_STATE_DORMANT = 0x0
+DL_STATE_AVAILABLE = 0x1
+DL_STATE_CONSUMER_PROBE = 0x2
+DL_STATE_ACTIVE = 0x3
+DL_STATE_SUPPLIER_UNBIND = 0x4
+}

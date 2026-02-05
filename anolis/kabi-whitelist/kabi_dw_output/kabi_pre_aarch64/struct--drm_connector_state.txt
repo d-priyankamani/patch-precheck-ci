@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/drm/drm_connector.h:892
+Symbol:
+Byte size 160
+struct drm_connector_state {
+0x0 connector * @"struct--drm_connector.txt"
+0x8 crtc * @"struct--drm_crtc.txt"
+0x10 best_encoder * @"struct--drm_encoder.txt"
+0x18 link_status @"enum--drm_link_status.txt"
+0x20 state * @"struct--drm_atomic_state.txt"
+0x28 commit * @"struct--drm_crtc_commit.txt"
+0x30 tv @"struct--drm_tv_connector_state.txt"
+0x68 self_refresh_aware @"typedef--bool.txt"
+0x6c picture_aspect_ratio @"enum--hdmi_picture_aspect.txt"
+0x70 content_type "unsigned int"
+0x74 hdcp_content_type "unsigned int"
+0x78 scaling_mode "unsigned int"
+0x7c content_protection "unsigned int"
+0x80 colorspace @"enum--drm_colorspace.txt"
+0x88 writeback_job * @"struct--drm_writeback_job.txt"
+0x90 max_requested_bpc @"typedef--u8.txt"
+0x91 max_bpc @"typedef--u8.txt"
+0x94 privacy_screen_sw_state @"enum--drm_privacy_screen_status.txt"
+0x98 hdr_output_metadata * @"struct--drm_property_blob.txt"
+}

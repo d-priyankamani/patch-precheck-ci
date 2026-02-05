@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_lib_dma.c:43
+Symbol:
+func scsi_dma_unmap (
+cmd * @"struct--scsi_cmnd.txt"
+)
+"void"

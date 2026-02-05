@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/x86/include/asm/msi.h:54
+Symbol:
+Byte size 4
+struct x86_msi_addr_hi {
+0x0:0-8 reserved @"typedef--u32.txt"
+0x1:0-24 destid_8_31 @"typedef--u32.txt"
+}

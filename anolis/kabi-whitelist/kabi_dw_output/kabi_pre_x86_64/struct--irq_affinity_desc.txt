@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/interrupt.h:301
+Symbol:
+Byte size 136
+struct irq_affinity_desc {
+0x0 mask @"struct--cpumask.txt"
+0x80:0-1 is_managed "unsigned int"
+}

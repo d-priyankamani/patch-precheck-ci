@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/drm_color_mgmt.h:85
+Symbol:
+Byte size 4
+enum drm_color_range {
+DRM_COLOR_YCBCR_LIMITED_RANGE = 0x0
+DRM_COLOR_YCBCR_FULL_RANGE = 0x1
+DRM_COLOR_RANGE_MAX = 0x2
+}

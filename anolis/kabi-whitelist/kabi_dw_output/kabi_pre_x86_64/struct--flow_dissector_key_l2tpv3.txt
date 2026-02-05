@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/flow_dissector.h:301
+Symbol:
+Byte size 4
+struct flow_dissector_key_l2tpv3 {
+0x0 session_id @"typedef--__be32.txt"
+}

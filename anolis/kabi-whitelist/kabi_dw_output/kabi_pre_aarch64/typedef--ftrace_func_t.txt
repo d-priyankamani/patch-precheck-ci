@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/ftrace.h:171
+Symbol:
+Byte size 8
+typedef ftrace_func_t
+* func (NULL) (
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+(NULL) * @"struct--ftrace_ops.txt"
+(NULL) * @"struct--ftrace_regs.txt"
+)
+"void"

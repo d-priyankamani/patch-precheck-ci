@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/net/phy/phylink.c:2074
+Symbol:
+func phylink_start (
+pl * @"struct--phylink.txt"
+)
+"void"

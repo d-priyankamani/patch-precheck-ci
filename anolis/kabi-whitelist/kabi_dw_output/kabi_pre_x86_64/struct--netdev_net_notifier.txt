@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/netdevice.h:1078
+Symbol:
+Byte size 24
+struct netdev_net_notifier {
+0x0 list @"struct--list_head.txt"
+0x10 nb * @"struct--notifier_block.txt"
+}

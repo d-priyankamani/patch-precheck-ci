@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/stacktrace.c:112
+Symbol:
+func stack_trace_save (
+store * "long unsigned int"
+size "unsigned int"
+skipnr "unsigned int"
+)
+"unsigned int"

@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/netdevice.h:477
+Symbol:
+typedef rx_handler_result_t
+@"enum--rx_handler_result.txt"

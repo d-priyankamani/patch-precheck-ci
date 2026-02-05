@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/drm/gpu_scheduler.h:267
+Symbol:
+Byte size 168
+Alignment 8
+struct drm_sched_fence {
+0x0 8 scheduled @"struct--dma_fence.txt"
+0x40 8 finished @"struct--dma_fence.txt"
+0x80 deadline @"typedef--ktime_t.txt"
+0x88 parent * @"struct--dma_fence.txt"
+0x90 sched * @"struct--drm_gpu_scheduler.txt"
+0x98 lock @"typedef--spinlock_t.txt"
+0xa0 owner * "void"
+}

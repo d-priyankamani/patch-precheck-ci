@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/inode.c:408
+Symbol:
+func address_space_init_once (
+mapping * @"struct--address_space.txt"
+)
+"void"

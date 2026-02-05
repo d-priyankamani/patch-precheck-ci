@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpio/gpiolib.c:2970
+Symbol:
+func gpiod_get_raw_value (
+desc * const @"struct--gpio_desc.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/file.c:650
+Symbol:
+func close_fd (
+fd "unsigned int"
+)
+"int"

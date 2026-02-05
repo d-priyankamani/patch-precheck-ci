@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/netfilter/nf_conntrack.h:32
+Symbol:
+Byte size 64
+union nf_conntrack_proto {
+dccp @"struct--nf_ct_dccp.txt"
+sctp @"struct--ip_ct_sctp.txt"
+tcp @"struct--ip_ct_tcp.txt"
+udp @"struct--nf_ct_udp.txt"
+gre @"struct--nf_ct_gre.txt"
+tmpl_padto "unsigned int"
+}

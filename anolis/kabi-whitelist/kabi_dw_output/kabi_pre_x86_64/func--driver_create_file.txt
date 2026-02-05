@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/driver.c:176
+Symbol:
+func driver_create_file (
+drv * @"struct--device_driver.txt"
+attr * const @"struct--driver_attribute.txt"
+)
+"int"

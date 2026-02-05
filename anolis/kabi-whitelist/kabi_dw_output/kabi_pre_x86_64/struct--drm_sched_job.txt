@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/drm/gpu_scheduler.h:336
+Symbol:
+Byte size 184
+struct drm_sched_job {
+0x0 queue_node @"struct--spsc_node.txt"
+0x8 list @"struct--list_head.txt"
+0x18 sched * @"struct--drm_gpu_scheduler.txt"
+0x20 s_fence * @"struct--drm_sched_fence.txt"
+0x28 (NULL) union (NULL) {
+finish_cb @"struct--dma_fence_cb.txt"
+work @"struct--work_struct.txt"
+}
+0x68 id @"typedef--uint64_t.txt"
+0x70 karma @"typedef--atomic_t.txt"
+0x74 s_priority @"enum--drm_sched_priority.txt"
+0x78 entity * @"struct--drm_sched_entity.txt"
+0x80 cb @"struct--dma_fence_cb.txt"
+0x98 dependencies @"struct--xarray.txt"
+0xa8 last_dependency "long unsigned int"
+0xb0 submit_ts @"typedef--ktime_t.txt"
+}

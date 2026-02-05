@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/pci.c:1592
+Symbol:
+func pci_set_power_state (
+dev * @"struct--pci_dev.txt"
+state @"typedef--pci_power_t.txt"
+)
+"int"

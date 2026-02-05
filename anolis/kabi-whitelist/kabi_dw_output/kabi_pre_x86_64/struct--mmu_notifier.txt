@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/mmu_notifier.h:237
+Symbol:
+Byte size 56
+Alignment 8
+struct mmu_notifier {
+0x0 hlist @"struct--hlist_node.txt"
+0x10 ops * const @"struct--mmu_notifier_ops.txt"
+0x18 mm * @"struct--mm_struct.txt"
+0x20 8 rcu @"struct--callback_head.txt"
+0x30 users "unsigned int"
+}

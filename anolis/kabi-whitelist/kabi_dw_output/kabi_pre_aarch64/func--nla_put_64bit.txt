@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/nlattr.c:1107
+Symbol:
+func nla_put_64bit (
+skb * @"struct--sk_buff.txt"
+attrtype "int"
+attrlen "int"
+data * const "void"
+padattr "int"
+)
+"int"

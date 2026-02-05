@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/scsi/scsi_device.h:38
+Symbol:
+Byte size 4
+enum scsi_device_state {
+SDEV_CREATED = 0x1
+SDEV_RUNNING = 0x2
+SDEV_CANCEL = 0x3
+SDEV_DEL = 0x4
+SDEV_QUIESCE = 0x5
+SDEV_OFFLINE = 0x6
+SDEV_TRANSPORT_OFFLINE = 0x7
+SDEV_BLOCK = 0x8
+SDEV_CREATED_BLOCK = 0x9
+}

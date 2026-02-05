@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/list_debug.c:22
+Symbol:
+func __list_add_valid_or_report (
+new * @"struct--list_head.txt"
+prev * @"struct--list_head.txt"
+next * @"struct--list_head.txt"
+)
+@"typedef--bool.txt"

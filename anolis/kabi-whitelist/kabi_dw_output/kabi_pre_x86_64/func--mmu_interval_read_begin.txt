@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/mmu_notifier.c:186
+Symbol:
+func mmu_interval_read_begin (
+interval_sub * @"struct--mmu_interval_notifier.txt"
+)
+"long unsigned int"

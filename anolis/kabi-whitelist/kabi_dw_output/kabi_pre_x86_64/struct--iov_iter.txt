@@ -1,0 +1,32 @@
+Version: 1.0
+File: include/linux/uio.h:41
+Symbol:
+Byte size 40
+struct iov_iter {
+0x0 iter_type @"typedef--u8.txt"
+0x1 copy_mc @"typedef--bool.txt"
+0x2 nofault @"typedef--bool.txt"
+0x3 data_source @"typedef--bool.txt"
+0x4 user_backed @"typedef--bool.txt"
+0x8 (NULL) union (NULL) {
+iov_offset @"typedef--size_t.txt"
+last_offset "int"
+}
+0x10 (NULL) union (NULL) {
+__ubuf_iovec @"struct--iovec.txt"
+(NULL) struct (NULL) {
+0x0 (NULL) union (NULL) {
+__iov * const @"struct--iovec.txt"
+kvec * const @"struct--kvec.txt"
+bvec * const @"struct--bio_vec.txt"
+xarray * @"struct--xarray.txt"
+ubuf * "void"
+}
+0x8 count @"typedef--size_t.txt"
+}
+}
+0x20 (NULL) union (NULL) {
+nr_segs "long unsigned int"
+xarray_start @"typedef--loff_t.txt"
+}
+}

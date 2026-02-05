@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:383
+Symbol:
+Byte size 32
+struct ib_cm_rep_param {
+0x0 qp_num @"typedef--u32.txt"
+0x4 starting_psn @"typedef--u32.txt"
+0x8 private_data * const "void"
+0x10 private_data_len @"typedef--u8.txt"
+0x11 responder_resources @"typedef--u8.txt"
+0x12 initiator_depth @"typedef--u8.txt"
+0x13 failover_accepted @"typedef--u8.txt"
+0x14 flow_control @"typedef--u8.txt"
+0x15 rnr_retry_count @"typedef--u8.txt"
+0x16 srq @"typedef--u8.txt"
+0x18 ece @"struct--rdma_ucm_ece.txt"
+}

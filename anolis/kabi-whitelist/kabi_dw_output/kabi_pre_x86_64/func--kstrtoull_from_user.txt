@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/kstrtox.c:422
+Symbol:
+func kstrtoull_from_user (
+s * const "char"
+count @"typedef--size_t.txt"
+base "unsigned int"
+res * "long long unsigned int"
+)
+"int"

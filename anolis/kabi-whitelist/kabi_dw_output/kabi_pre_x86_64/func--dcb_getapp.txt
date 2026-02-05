@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/dcb/dcbnl.c:2027
+Symbol:
+func dcb_getapp (
+dev * @"struct--net_device.txt"
+app * @"struct--dcb_app.txt"
+)
+@"typedef--u8.txt"

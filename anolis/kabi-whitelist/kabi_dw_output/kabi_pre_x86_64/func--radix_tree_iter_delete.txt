@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/radix-tree.c:1394
+Symbol:
+func radix_tree_iter_delete (
+root * @"struct--xarray.txt"
+iter * @"struct--radix_tree_iter.txt"
+slot * * "void"
+)
+"void"

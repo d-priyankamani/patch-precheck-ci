@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/string.c:237
+Symbol:
+func strncat (
+dest * "char"
+src * const "char"
+count @"typedef--size_t.txt"
+)
+* "char"

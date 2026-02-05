@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:201
+Symbol:
+Byte size 4
+struct acpi_device_flags {
+0x0:0-1 dynamic_status @"typedef--u32.txt"
+0x0:1-2 removable @"typedef--u32.txt"
+0x0:2-3 ejectable @"typedef--u32.txt"
+0x0:3-4 power_manageable @"typedef--u32.txt"
+0x0:4-5 match_driver @"typedef--u32.txt"
+0x0:5-6 initialized @"typedef--u32.txt"
+0x0:6-7 visited @"typedef--u32.txt"
+0x0:7-8 hotplug_notify @"typedef--u32.txt"
+0x1:0-1 is_dock_station @"typedef--u32.txt"
+0x1:1-2 of_compatible_ok @"typedef--u32.txt"
+0x1:2-3 coherent_dma @"typedef--u32.txt"
+0x1:3-4 cca_seen @"typedef--u32.txt"
+0x1:4-5 enumeration_by_parent @"typedef--u32.txt"
+0x1:5-6 honor_deps @"typedef--u32.txt"
+0x1:6-24 reserved @"typedef--u32.txt"
+}

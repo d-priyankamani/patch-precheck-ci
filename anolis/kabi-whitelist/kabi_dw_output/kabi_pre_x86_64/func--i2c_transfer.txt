@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/i2c/i2c-core-base.c:2304
+Symbol:
+func i2c_transfer (
+adap * @"struct--i2c_adapter.txt"
+msgs * @"struct--i2c_msg.txt"
+num "int"
+)
+"int"

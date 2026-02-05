@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/ptp_classify.h:63
+Symbol:
+Byte size 10
+struct port_identity {
+0x0 clock_identity @"struct--clock_identity.txt"
+0x8 port_number @"typedef--__be16.txt"
+}

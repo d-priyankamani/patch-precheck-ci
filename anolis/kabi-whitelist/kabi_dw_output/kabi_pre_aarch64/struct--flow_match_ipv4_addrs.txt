@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/flow_offload.h:39
+Symbol:
+Byte size 16
+struct flow_match_ipv4_addrs {
+0x0 key * @"struct--flow_dissector_key_ipv4_addrs.txt"
+0x8 mask * @"struct--flow_dissector_key_ipv4_addrs.txt"
+}

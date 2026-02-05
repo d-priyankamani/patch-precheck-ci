@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:120
+Symbol:
+Byte size 32
+struct ib_cm_rep_event_param {
+0x0 remote_ca_guid @"typedef--__be64.txt"
+0x8 remote_qkey @"typedef--u32.txt"
+0xc remote_qpn @"typedef--u32.txt"
+0x10 starting_psn @"typedef--u32.txt"
+0x14 responder_resources @"typedef--u8.txt"
+0x15 initiator_depth @"typedef--u8.txt"
+0x16:0-5 target_ack_delay "unsigned int"
+0x16:5-7 failover_accepted "unsigned int"
+0x16:7-8 flow_control "unsigned int"
+0x17:0-3 rnr_retry_count "unsigned int"
+0x17:3-4 srq "unsigned int"
+0x18 ece @"struct--rdma_ucm_ece.txt"
+}

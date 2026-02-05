@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/sbitmap.h:29
+Symbol:
+Byte size 128
+Alignment 64
+struct sbitmap_word {
+0x0 word "long unsigned int"
+0x40 64 cleared "long unsigned int"
+0x48 swap_lock @"typedef--raw_spinlock_t.txt"
+}

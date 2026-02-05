@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/pci.h:256
+Symbol:
+Byte size 2
+typedef pci_bus_flags_t
+"short unsigned int"

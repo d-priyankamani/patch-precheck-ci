@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/drm/drm.h:96
+Symbol:
+Byte size 8
+struct drm_clip_rect {
+0x0 x1 "short unsigned int"
+0x2 y1 "short unsigned int"
+0x4 x2 "short unsigned int"
+0x6 y2 "short unsigned int"
+}

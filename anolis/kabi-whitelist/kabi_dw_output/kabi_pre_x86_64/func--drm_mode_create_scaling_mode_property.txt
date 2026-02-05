@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:1938
+Symbol:
+func drm_mode_create_scaling_mode_property (
+dev * @"struct--drm_device.txt"
+)
+"int"

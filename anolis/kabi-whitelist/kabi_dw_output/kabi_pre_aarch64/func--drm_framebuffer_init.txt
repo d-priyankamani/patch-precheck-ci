@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_framebuffer.c:844
+Symbol:
+func drm_framebuffer_init (
+dev * @"struct--drm_device.txt"
+fb * @"struct--drm_framebuffer.txt"
+funcs * const @"struct--drm_framebuffer_funcs.txt"
+)
+"int"

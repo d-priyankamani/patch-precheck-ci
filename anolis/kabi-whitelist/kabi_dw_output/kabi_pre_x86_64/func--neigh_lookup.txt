@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/neighbour.c:618
+Symbol:
+func neigh_lookup (
+tbl * @"struct--neigh_table.txt"
+pkey * const "void"
+dev * @"struct--net_device.txt"
+)
+* @"struct--neighbour.txt"

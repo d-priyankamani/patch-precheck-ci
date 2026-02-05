@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/rhashtable-types.h:38
+Symbol:
+Byte size 8
+typedef rht_hashfn_t
+* func (NULL) (
+(NULL) * const "void"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u32.txt"
+)
+@"typedef--u32.txt"

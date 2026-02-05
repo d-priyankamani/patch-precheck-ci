@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/flow_offload.h:222
+Symbol:
+Byte size 8
+typedef action_destr
+* func (NULL) (
+(NULL) * "void"
+)
+"void"

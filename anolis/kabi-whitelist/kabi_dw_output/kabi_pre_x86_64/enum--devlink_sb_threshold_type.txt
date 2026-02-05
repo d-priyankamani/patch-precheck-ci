@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:172
+Symbol:
+Byte size 4
+enum devlink_sb_threshold_type {
+DEVLINK_SB_THRESHOLD_TYPE_STATIC = 0x0
+DEVLINK_SB_THRESHOLD_TYPE_DYNAMIC = 0x1
+}

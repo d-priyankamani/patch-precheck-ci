@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/quota.h:206
+Symbol:
+Byte size 72
+struct mem_dqblk {
+0x0 dqb_bhardlimit @"typedef--qsize_t.txt"
+0x8 dqb_bsoftlimit @"typedef--qsize_t.txt"
+0x10 dqb_curspace @"typedef--qsize_t.txt"
+0x18 dqb_rsvspace @"typedef--qsize_t.txt"
+0x20 dqb_ihardlimit @"typedef--qsize_t.txt"
+0x28 dqb_isoftlimit @"typedef--qsize_t.txt"
+0x30 dqb_curinodes @"typedef--qsize_t.txt"
+0x38 dqb_btime @"typedef--time64_t.txt"
+0x40 dqb_itime @"typedef--time64_t.txt"
+}

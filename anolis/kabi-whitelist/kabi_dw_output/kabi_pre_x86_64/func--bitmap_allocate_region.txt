@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/bitmap.c:1355
+Symbol:
+func bitmap_allocate_region (
+bitmap * "long unsigned int"
+pos "unsigned int"
+order "int"
+)
+"int"

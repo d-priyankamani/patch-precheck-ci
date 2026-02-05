@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/include/asm/ftrace.h:38
+Symbol:
+Byte size 168
+struct ftrace_regs {
+0x0 regs @"struct--pt_regs.txt"
+}

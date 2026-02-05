@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/linux/dma-buf.h:302
+Symbol:
+Byte size 232
+struct dma_buf {
+0x0 size @"typedef--size_t.txt"
+0x8 file * @"struct--file.txt"
+0x10 attachments @"struct--list_head.txt"
+0x20 ops * const @"struct--dma_buf_ops.txt"
+0x28 vmapping_counter "unsigned int"
+0x30 vmap_ptr @"struct--iosys_map.txt"
+0x40 exp_name * const "char"
+0x48 name * const "char"
+0x50 name_lock @"typedef--spinlock_t.txt"
+0x58 owner * @"struct--module.txt"
+0x60 list_node @"struct--list_head.txt"
+0x70 priv * "void"
+0x78 resv * @"struct--dma_resv.txt"
+0x80 poll @"typedef--wait_queue_head_t.txt"
+0x98 cb_in @"struct--dma_buf_poll_cb_t.txt"
+0xc0 cb_out @"struct--dma_buf_poll_cb_t.txt"
+}

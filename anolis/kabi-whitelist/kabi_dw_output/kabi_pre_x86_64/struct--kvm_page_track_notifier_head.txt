@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_page_track.h:15
+Symbol:
+Byte size 32
+struct kvm_page_track_notifier_head {
+0x0 track_srcu @"struct--srcu_struct.txt"
+0x18 track_notifier_list @"struct--hlist_head.txt"
+}

@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/x86/include/asm/msi.h:7
+Symbol:
+typedef msi_alloc_info_t
+@"struct--irq_alloc_info.txt"

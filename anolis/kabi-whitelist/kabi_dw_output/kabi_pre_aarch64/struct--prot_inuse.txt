@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/sock.h:1550
+Symbol:
+Byte size 272
+struct prot_inuse {
+0x0 all "int"
+0x4 val [64]"int"
+0x108 ck_reserved1 "long unsigned int"
+}

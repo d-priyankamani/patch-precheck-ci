@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/net/macsec.c:4274
+Symbol:
+func macsec_netdev_is_offloaded (
+dev * @"struct--net_device.txt"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:1277
+Symbol:
+func ib_create_qp_user (
+dev * @"struct--ib_device.txt"
+pd * @"struct--ib_pd.txt"
+attr * @"struct--ib_qp_init_attr.txt"
+udata * @"struct--ib_udata.txt"
+uobj * @"<declarations>/struct--ib_uqp_object.txt"
+caller * const "char"
+)
+* @"struct--ib_qp.txt"

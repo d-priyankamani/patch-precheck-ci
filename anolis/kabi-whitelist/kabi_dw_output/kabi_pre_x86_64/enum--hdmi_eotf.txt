@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/hdmi.h:162
+Symbol:
+Byte size 4
+enum hdmi_eotf {
+HDMI_EOTF_TRADITIONAL_GAMMA_SDR = 0x0
+HDMI_EOTF_TRADITIONAL_GAMMA_HDR = 0x1
+HDMI_EOTF_SMPTE_ST2084 = 0x2
+HDMI_EOTF_BT_2100_HLG = 0x3
+}

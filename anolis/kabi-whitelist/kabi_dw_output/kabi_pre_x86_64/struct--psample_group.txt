@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/psample.h:8
+Symbol:
+Byte size 56
+Alignment 8
+struct psample_group {
+0x0 list @"struct--list_head.txt"
+0x10 net * @"struct--net.txt"
+0x18 group_num @"typedef--u32.txt"
+0x1c refcount @"typedef--u32.txt"
+0x20 seq @"typedef--u32.txt"
+0x28 8 rcu @"struct--callback_head.txt"
+}

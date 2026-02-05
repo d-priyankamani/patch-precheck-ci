@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/ptp_classify.h:68
+Symbol:
+Byte size 34
+struct ptp_header {
+0x0 tsmt @"typedef--u8.txt"
+0x1 ver @"typedef--u8.txt"
+0x2 message_length @"typedef--__be16.txt"
+0x4 domain_number @"typedef--u8.txt"
+0x5 reserved1 @"typedef--u8.txt"
+0x6 flag_field [2]@"typedef--u8.txt"
+0x8 correction @"typedef--__be64.txt"
+0x10 reserved2 @"typedef--__be32.txt"
+0x14 source_port_identity @"struct--port_identity.txt"
+0x1e sequence_id @"typedef--__be16.txt"
+0x20 control @"typedef--u8.txt"
+0x21 log_message_interval @"typedef--u8.txt"
+}

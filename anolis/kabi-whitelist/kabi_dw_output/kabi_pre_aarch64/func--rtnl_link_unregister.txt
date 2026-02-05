@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/rtnetlink.c:550
+Symbol:
+func rtnl_link_unregister (
+ops * @"struct--rtnl_link_ops.txt"
+)
+"void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/argv_split.c:60
+Symbol:
+func argv_split (
+gfp @"typedef--gfp_t.txt"
+str * const "char"
+argcp * "int"
+)
+* * "char"

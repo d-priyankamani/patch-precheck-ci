@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo_util.c:397
+Symbol:
+func ttm_bo_kmap (
+bo * @"struct--ttm_buffer_object.txt"
+start_page "long unsigned int"
+num_pages "long unsigned int"
+map * @"struct--ttm_bo_kmap_obj.txt"
+)
+"int"

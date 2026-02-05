@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/hosts.c:601
+Symbol:
+func scsi_host_busy (
+shost * @"struct--Scsi_Host.txt"
+)
+"int"

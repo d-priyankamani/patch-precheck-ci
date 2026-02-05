@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/lib/iomem.c:114
+Symbol:
+func memset_io (
+a * volatile "void"
+b "int"
+c @"typedef--size_t.txt"
+)
+"void"

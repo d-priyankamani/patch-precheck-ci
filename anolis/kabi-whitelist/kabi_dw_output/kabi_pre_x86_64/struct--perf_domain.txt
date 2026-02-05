@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/sched/sched.h:1175
+Symbol:
+Byte size 32
+Alignment 8
+struct perf_domain {
+0x0 em_pd * @"struct--em_perf_domain.txt"
+0x8 next * @"struct--perf_domain.txt"
+0x10 8 rcu @"struct--callback_head.txt"
+}

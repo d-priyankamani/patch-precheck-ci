@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_mst_topology.c:1693
+Symbol:
+func drm_atomic_get_mst_payload_state (
+state * @"struct--drm_dp_mst_topology_state.txt"
+port * @"struct--drm_dp_mst_port.txt"
+)
+* @"struct--drm_dp_mst_atomic_payload.txt"

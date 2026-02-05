@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/drm_gem.h:231
+Symbol:
+Byte size 32
+struct drm_gem_lru {
+0x0 lock * @"struct--mutex.txt"
+0x8 count "long int"
+0x10 list @"struct--list_head.txt"
+}

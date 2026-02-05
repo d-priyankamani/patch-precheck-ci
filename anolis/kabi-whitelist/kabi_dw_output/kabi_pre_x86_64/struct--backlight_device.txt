@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/backlight.h:280
+Symbol:
+Byte size 1168
+Alignment 8
+struct backlight_device {
+0x0 props @"struct--backlight_properties.txt"
+0x20 update_lock @"struct--mutex.txt"
+0x40 ops_lock @"struct--mutex.txt"
+0x60 ops * const @"struct--backlight_ops.txt"
+0x68 fb_notif @"struct--notifier_block.txt"
+0x80 entry @"struct--list_head.txt"
+0x90 8 dev @"struct--device.txt"
+0x468 fb_bl_on [32]@"typedef--bool.txt"
+0x488 use_count "int"
+}

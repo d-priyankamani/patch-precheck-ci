@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:190
+Symbol:
+Byte size 4
+struct acpi_device_status {
+0x0:0-1 present @"typedef--u32.txt"
+0x0:1-2 enabled @"typedef--u32.txt"
+0x0:2-3 show_in_ui @"typedef--u32.txt"
+0x0:3-4 functional @"typedef--u32.txt"
+0x0:4-5 battery_present @"typedef--u32.txt"
+0x0:5-32 reserved @"typedef--u32.txt"
+}

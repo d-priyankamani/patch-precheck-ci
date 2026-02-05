@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/sysctl.h:64
+Symbol:
+Byte size 4
+typedef proc_handler
+func (NULL) (
+(NULL) * @"struct--ctl_table.txt"
+(NULL) "int"
+(NULL) * "void"
+(NULL) * @"typedef--size_t.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+"int"

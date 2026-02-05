@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/mmzone.h:744
+Symbol:
+Byte size 56
+struct per_cpu_nodestat {
+0x0 stat_threshold @"typedef--s8.txt"
+0x1 vm_node_stat_diff [45]@"typedef--s8.txt"
+0x30 ck_reserved1 "long unsigned int"
+}

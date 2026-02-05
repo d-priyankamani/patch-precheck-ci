@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/iommu/iommu.c:2463
+Symbol:
+func iommu_iova_to_phys (
+domain * @"struct--iommu_domain.txt"
+iova @"typedef--dma_addr_t.txt"
+)
+@"typedef--phys_addr_t.txt"

@@ -1,0 +1,54 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:73
+Symbol:
+Byte size 120
+struct bpf_reg_state {
+0x0 type @"enum--bpf_reg_type.txt"
+0x4 off @"typedef--s32.txt"
+0x8 (NULL) union (NULL) {
+range "int"
+(NULL) struct (NULL) {
+0x0 map_ptr * @"struct--bpf_map.txt"
+0x8 map_uid @"typedef--u32.txt"
+}
+(NULL) struct (NULL) {
+0x0 btf * @"<declarations>/struct--btf.txt"
+0x8 btf_id @"typedef--u32.txt"
+}
+(NULL) struct (NULL) {
+0x0 mem_size @"typedef--u32.txt"
+0x4 dynptr_id @"typedef--u32.txt"
+}
+dynptr struct (NULL) {
+0x0 type @"enum--bpf_dynptr_type.txt"
+0x4 first_slot @"typedef--bool.txt"
+}
+iter struct (NULL) {
+0x0 btf * @"<declarations>/struct--btf.txt"
+0x8 btf_id @"typedef--u32.txt"
+0xc:0-2 state @"enum--bpf_iter_state.txt"
+0xc:2-32 depth "int"
+}
+raw struct (NULL) {
+0x0 raw1 "long unsigned int"
+0x8 raw2 "long unsigned int"
+}
+subprogno @"typedef--u32.txt"
+}
+0x18 var_off @"struct--tnum.txt"
+0x28 smin_value @"typedef--s64.txt"
+0x30 smax_value @"typedef--s64.txt"
+0x38 umin_value @"typedef--u64.txt"
+0x40 umax_value @"typedef--u64.txt"
+0x48 s32_min_value @"typedef--s32.txt"
+0x4c s32_max_value @"typedef--s32.txt"
+0x50 u32_min_value @"typedef--u32.txt"
+0x54 u32_max_value @"typedef--u32.txt"
+0x58 id @"typedef--u32.txt"
+0x5c ref_obj_id @"typedef--u32.txt"
+0x60 parent * @"struct--bpf_reg_state.txt"
+0x68 frameno @"typedef--u32.txt"
+0x6c subreg_def @"typedef--s32.txt"
+0x70 live @"enum--bpf_reg_liveness.txt"
+0x74 precise @"typedef--bool.txt"
+}

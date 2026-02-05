@@ -1,0 +1,13 @@
+Version: 1.0
+File: drivers/infiniband/core/rdma_core.h:113
+Symbol:
+Byte size 64
+struct uverbs_api {
+0x0 radix @"struct--xarray.txt"
+0x10 driver_id @"enum--rdma_driver_id.txt"
+0x14 num_write "unsigned int"
+0x18 num_write_ex "unsigned int"
+0x20 notsupp_method @"struct--uverbs_api_write_method.txt"
+0x30 write_methods * * const @"struct--uverbs_api_write_method.txt"
+0x38 write_ex_methods * * const @"struct--uverbs_api_write_method.txt"
+}

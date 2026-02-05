@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/netns/conntrack.h:61
+Symbol:
+Byte size 40
+struct nf_sctp_net {
+0x0 timeouts [10]"unsigned int"
+}

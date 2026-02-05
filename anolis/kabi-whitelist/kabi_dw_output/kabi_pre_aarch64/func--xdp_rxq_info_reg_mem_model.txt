@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/xdp.c:346
+Symbol:
+func xdp_rxq_info_reg_mem_model (
+xdp_rxq * @"struct--xdp_rxq_info.txt"
+type @"enum--xdp_mem_type.txt"
+allocator * "void"
+)
+"int"

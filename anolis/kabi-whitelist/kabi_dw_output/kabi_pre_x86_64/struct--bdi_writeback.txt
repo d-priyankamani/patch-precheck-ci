@@ -1,0 +1,48 @@
+Version: 1.0
+File: include/linux/backing-dev-defs.h:106
+Symbol:
+Byte size 1016
+Alignment 8
+struct bdi_writeback {
+0x0 bdi * @"struct--backing_dev_info.txt"
+0x8 state "long unsigned int"
+0x10 last_old_flush "long unsigned int"
+0x18 b_dirty @"struct--list_head.txt"
+0x28 b_io @"struct--list_head.txt"
+0x38 b_more_io @"struct--list_head.txt"
+0x48 b_dirty_time @"struct--list_head.txt"
+0x58 list_lock @"typedef--spinlock_t.txt"
+0x5c writeback_inodes @"typedef--atomic_t.txt"
+0x60 stat [4]@"struct--percpu_counter.txt"
+0x100 bw_time_stamp "long unsigned int"
+0x108 dirtied_stamp "long unsigned int"
+0x110 written_stamp "long unsigned int"
+0x118 write_bandwidth "long unsigned int"
+0x120 avg_write_bandwidth "long unsigned int"
+0x128 dirty_ratelimit "long unsigned int"
+0x130 balanced_dirty_ratelimit "long unsigned int"
+0x138 completions @"struct--fprop_local_percpu.txt"
+0x168 dirty_exceeded "int"
+0x16c start_all_reason @"enum--wb_reason.txt"
+0x170 work_lock @"typedef--spinlock_t.txt"
+0x178 work_list @"struct--list_head.txt"
+0x188 dwork @"struct--delayed_work.txt"
+0x240 bw_dwork @"struct--delayed_work.txt"
+0x2f8 bdi_node @"struct--list_head.txt"
+0x308 refcnt @"struct--percpu_ref.txt"
+0x318 memcg_completions @"struct--fprop_local_percpu.txt"
+0x348 memcg_css * @"struct--cgroup_subsys_state.txt"
+0x350 blkcg_css * @"struct--cgroup_subsys_state.txt"
+0x358 memcg_node @"struct--list_head.txt"
+0x368 blkcg_node @"struct--list_head.txt"
+0x378 b_attached @"struct--list_head.txt"
+0x388 offline_node @"struct--list_head.txt"
+0x398 8 (NULL) union (NULL) {
+release_work @"struct--work_struct.txt"
+rcu @"struct--callback_head.txt"
+}
+0x3d8 ck_reserved1 "long unsigned int"
+0x3e0 ck_reserved2 "long unsigned int"
+0x3e8 ck_reserved3 "long unsigned int"
+0x3f0 ck_reserved4 "long unsigned int"
+}

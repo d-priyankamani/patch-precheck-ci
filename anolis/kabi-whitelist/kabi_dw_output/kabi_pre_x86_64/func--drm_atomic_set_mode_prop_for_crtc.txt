@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_uapi.c:120
+Symbol:
+func drm_atomic_set_mode_prop_for_crtc (
+state * @"struct--drm_crtc_state.txt"
+blob * @"struct--drm_property_blob.txt"
+)
+"int"

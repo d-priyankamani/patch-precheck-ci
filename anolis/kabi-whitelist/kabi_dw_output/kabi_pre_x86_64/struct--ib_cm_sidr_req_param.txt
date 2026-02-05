@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:521
+Symbol:
+Byte size 48
+struct ib_cm_sidr_req_param {
+0x0 path * @"struct--sa_path_rec.txt"
+0x8 sgid_attr * const @"struct--ib_gid_attr.txt"
+0x10 service_id @"typedef--__be64.txt"
+0x18 timeout_ms "long unsigned int"
+0x20 private_data * const "void"
+0x28 private_data_len @"typedef--u8.txt"
+0x29 max_cm_retries @"typedef--u8.txt"
+}

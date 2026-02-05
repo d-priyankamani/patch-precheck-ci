@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/smp.c:960
+Symbol:
+var nr_cpu_ids "void"

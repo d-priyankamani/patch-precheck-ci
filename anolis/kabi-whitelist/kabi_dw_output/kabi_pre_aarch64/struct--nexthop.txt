@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/net/nexthop.h:139
+Symbol:
+Byte size 136
+Alignment 8
+struct nexthop {
+0x0 8 rb_node @"struct--rb_node.txt"
+0x18 fi_list @"struct--list_head.txt"
+0x28 f6i_list @"struct--list_head.txt"
+0x38 fdb_list @"struct--list_head.txt"
+0x48 grp_list @"struct--list_head.txt"
+0x58 net * @"struct--net.txt"
+0x60 id @"typedef--u32.txt"
+0x64 protocol @"typedef--u8.txt"
+0x65 nh_flags @"typedef--u8.txt"
+0x66 is_group @"typedef--bool.txt"
+0x68 refcnt @"typedef--refcount_t.txt"
+0x70 8 rcu @"struct--callback_head.txt"
+0x80 (NULL) union (NULL) {
+nh_info * @"struct--nh_info.txt"
+nh_grp * @"struct--nh_group.txt"
+}
+}

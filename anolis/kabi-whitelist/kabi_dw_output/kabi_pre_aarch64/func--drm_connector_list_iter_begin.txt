@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:784
+Symbol:
+func drm_connector_list_iter_begin (
+dev * @"struct--drm_device.txt"
+iter * @"struct--drm_connector_list_iter.txt"
+)
+"void"

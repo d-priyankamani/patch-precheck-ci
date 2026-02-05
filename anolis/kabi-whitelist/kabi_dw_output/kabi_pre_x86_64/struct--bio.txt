@@ -1,0 +1,39 @@
+Version: 1.0
+File: include/linux/blk_types.h:272
+Symbol:
+Byte size 200
+Alignment 8
+struct bio {
+0x0 bi_next * @"struct--bio.txt"
+0x8 bi_bdev * @"struct--block_device.txt"
+0x10 bi_opf @"typedef--blk_opf_t.txt"
+0x14 bi_flags "short unsigned int"
+0x16 bi_ioprio "short unsigned int"
+0x18 bi_status @"typedef--blk_status_t.txt"
+0x1c __bi_remaining @"typedef--atomic_t.txt"
+0x20 4 bi_iter @"struct--bvec_iter.txt"
+0x34 bi_cookie @"typedef--blk_qc_t.txt"
+0x38 bi_end_io * @"typedef--bio_end_io_t.txt"
+0x40 bi_private * "void"
+0x48 bi_blkg * @"<declarations>/struct--blkcg_gq.txt"
+0x50 bi_issue @"struct--bio_issue.txt"
+0x58 start_time_ns "long long unsigned int"
+0x60 io_start_time_ns "long long unsigned int"
+0x68 bi_tg_end_io * @"typedef--bio_end_io_t.txt"
+0x70 bi_tg_private * "void"
+0x78 bi_iocost_cost @"typedef--u64.txt"
+0x80 (NULL) union (NULL) {
+bi_integrity * @"struct--bio_integrity_payload.txt"
+}
+0x88 bi_vcnt "short unsigned int"
+0x8a bi_max_vecs "short unsigned int"
+0x8c __bi_cnt @"typedef--atomic_t.txt"
+0x90 bi_io_vec * @"struct--bio_vec.txt"
+0x98 bi_pool * @"struct--bio_set.txt"
+0xa0 bi_ext_flags "long unsigned int"
+0xa8 ck_reserved1 "long unsigned int"
+0xb0 ck_reserved2 "long unsigned int"
+0xb8 ck_reserved3 "long unsigned int"
+0xc0 ck_reserved4 "long unsigned int"
+0xc8 bi_inline_vecs [0]@"struct--bio_vec.txt"
+}

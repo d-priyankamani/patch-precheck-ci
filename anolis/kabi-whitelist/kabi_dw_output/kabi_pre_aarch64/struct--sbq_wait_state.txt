@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/sbitmap.h:95
+Symbol:
+Byte size 64
+Alignment 64
+struct sbq_wait_state {
+0x0 wait @"typedef--wait_queue_head_t.txt"
+}

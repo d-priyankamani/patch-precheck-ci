@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_drv.c:483
+Symbol:
+func drm_dev_unplug (
+dev * @"struct--drm_device.txt"
+)
+"void"

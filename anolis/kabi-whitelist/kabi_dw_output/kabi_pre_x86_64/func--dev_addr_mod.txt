@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/core/dev_addr_lists.c:572
+Symbol:
+func dev_addr_mod (
+dev * @"struct--net_device.txt"
+offset "unsigned int"
+addr * const "void"
+len @"typedef--size_t.txt"
+)
+"void"

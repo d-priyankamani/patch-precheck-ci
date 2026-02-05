@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/rhashtable.c:934
+Symbol:
+func rhashtable_walk_stop (
+iter * @"struct--rhashtable_iter.txt"
+)
+"void"

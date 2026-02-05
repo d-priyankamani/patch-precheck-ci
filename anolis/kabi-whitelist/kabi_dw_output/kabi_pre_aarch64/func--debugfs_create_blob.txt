@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/debugfs/file.c:1067
+Symbol:
+func debugfs_create_blob (
+name * const "char"
+mode @"typedef--umode_t.txt"
+parent * @"struct--dentry.txt"
+blob * @"struct--debugfs_blob_wrapper.txt"
+)
+* @"struct--dentry.txt"

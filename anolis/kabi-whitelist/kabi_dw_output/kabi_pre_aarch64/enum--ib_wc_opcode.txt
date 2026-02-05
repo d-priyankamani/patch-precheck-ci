@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:982
+Symbol:
+Byte size 4
+enum ib_wc_opcode {
+IB_WC_SEND = 0x0
+IB_WC_RDMA_WRITE = 0x1
+IB_WC_RDMA_READ = 0x2
+IB_WC_COMP_SWAP = 0x3
+IB_WC_FETCH_ADD = 0x4
+IB_WC_BIND_MW = 0x5
+IB_WC_LOCAL_INV = 0x6
+IB_WC_LSO = 0x7
+IB_WC_ATOMIC_WRITE = 0x9
+IB_WC_REG_MR = 0xa
+IB_WC_MASKED_COMP_SWAP = 0xb
+IB_WC_MASKED_FETCH_ADD = 0xc
+IB_WC_FLUSH = 0x8
+IB_WC_RECV = 0x80
+IB_WC_RECV_RDMA_WITH_IMM = 0x81
+}

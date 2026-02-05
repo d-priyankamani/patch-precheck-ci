@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/fb.h:188
+Symbol:
+Byte size 12
+struct fb_bitfield {
+0x0 offset @"typedef--__u32.txt"
+0x4 length @"typedef--__u32.txt"
+0x8 msb_right @"typedef--__u32.txt"
+}

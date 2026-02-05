@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/drm/drm_fourcc.h:61
+Symbol:
+Byte size 24
+struct drm_format_info {
+0x0 format @"typedef--u32.txt"
+0x4 depth @"typedef--u8.txt"
+0x5 num_planes @"typedef--u8.txt"
+0x6 (NULL) union (NULL) {
+cpp [4]@"typedef--u8.txt"
+char_per_block [4]@"typedef--u8.txt"
+}
+0xa block_w [4]@"typedef--u8.txt"
+0xe block_h [4]@"typedef--u8.txt"
+0x12 hsub @"typedef--u8.txt"
+0x13 vsub @"typedef--u8.txt"
+0x14 has_alpha @"typedef--bool.txt"
+0x15 is_yuv @"typedef--bool.txt"
+0x16 is_color_indexed @"typedef--bool.txt"
+}

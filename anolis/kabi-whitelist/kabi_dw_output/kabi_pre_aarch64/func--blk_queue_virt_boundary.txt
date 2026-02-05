@@ -1,0 +1,8 @@
+Version: 1.0
+File: block/blk-settings.c:773
+Symbol:
+func blk_queue_virt_boundary (
+q * @"struct--request_queue.txt"
+mask "long unsigned int"
+)
+"void"

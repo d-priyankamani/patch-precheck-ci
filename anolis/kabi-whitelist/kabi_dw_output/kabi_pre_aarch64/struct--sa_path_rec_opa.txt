@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/rdma/ib_sa.h:151
+Symbol:
+Byte size 16
+struct sa_path_rec_opa {
+0x0 dlid @"typedef--__be32.txt"
+0x4 slid @"typedef--__be32.txt"
+0x8 raw_traffic @"typedef--u8.txt"
+0x9 l2_8B @"typedef--u8.txt"
+0xa l2_10B @"typedef--u8.txt"
+0xb l2_9B @"typedef--u8.txt"
+0xc l2_16B @"typedef--u8.txt"
+0xd qos_type @"typedef--u8.txt"
+0xe qos_priority @"typedef--u8.txt"
+}

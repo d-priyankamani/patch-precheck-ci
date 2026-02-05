@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/umem_odp.c:225
+Symbol:
+func ib_umem_odp_get (
+device * @"struct--ib_device.txt"
+addr "long unsigned int"
+size @"typedef--size_t.txt"
+access "int"
+ops * const @"struct--mmu_interval_notifier_ops.txt"
+)
+* @"struct--ib_umem_odp.txt"

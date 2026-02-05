@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/perf_event.h:83
+Symbol:
+Byte size 28
+struct perf_raw_frag {
+0x0 (NULL) union (NULL) {
+next * @"struct--perf_raw_frag.txt"
+pad "long unsigned int"
+}
+0x8 copy @"typedef--perf_copy_f.txt"
+0x10 data * "void"
+0x18 size @"typedef--u32.txt"
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/rdma/ib_user_verbs.h:528
+Symbol:
+Byte size 24
+struct ib_uverbs_global_route {
+0x0 dgid [16]@"typedef--__u8.txt"
+0x10 flow_label @"typedef--__u32.txt"
+0x14 sgid_index @"typedef--__u8.txt"
+0x15 hop_limit @"typedef--__u8.txt"
+0x16 traffic_class @"typedef--__u8.txt"
+0x17 reserved @"typedef--__u8.txt"
+}

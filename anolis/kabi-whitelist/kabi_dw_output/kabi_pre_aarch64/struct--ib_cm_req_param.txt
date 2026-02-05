@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:349
+Symbol:
+Byte size 96
+struct ib_cm_req_param {
+0x0 primary_path * @"struct--sa_path_rec.txt"
+0x8 primary_path_inbound * @"struct--sa_path_rec.txt"
+0x10 primary_path_outbound * @"struct--sa_path_rec.txt"
+0x18 alternate_path * @"struct--sa_path_rec.txt"
+0x20 ppath_sgid_attr * const @"struct--ib_gid_attr.txt"
+0x28 service_id @"typedef--__be64.txt"
+0x30 qp_num @"typedef--u32.txt"
+0x34 qp_type @"enum--ib_qp_type.txt"
+0x38 starting_psn @"typedef--u32.txt"
+0x40 private_data * const "void"
+0x48 private_data_len @"typedef--u8.txt"
+0x49 responder_resources @"typedef--u8.txt"
+0x4a initiator_depth @"typedef--u8.txt"
+0x4b remote_cm_response_timeout @"typedef--u8.txt"
+0x4c flow_control @"typedef--u8.txt"
+0x4d local_cm_response_timeout @"typedef--u8.txt"
+0x4e retry_count @"typedef--u8.txt"
+0x4f rnr_retry_count @"typedef--u8.txt"
+0x50 max_cm_retries @"typedef--u8.txt"
+0x51 srq @"typedef--u8.txt"
+0x54 ece @"struct--rdma_ucm_ece.txt"
+}

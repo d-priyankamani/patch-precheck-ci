@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/sched/types.h:17
+Symbol:
+Byte size 24
+struct task_cputime {
+0x0 stime @"typedef--u64.txt"
+0x8 utime @"typedef--u64.txt"
+0x10 sum_exec_runtime "long long unsigned int"
+}

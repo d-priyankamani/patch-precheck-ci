@@ -1,0 +1,13 @@
+Version: 1.0
+File: drivers/base/devres.c:742
+Symbol:
+func __devm_add_action (
+dev * @"struct--device.txt"
+action * func (NULL) (
+(NULL) * "void"
+)
+"void"
+data * "void"
+name * const "char"
+)
+"int"

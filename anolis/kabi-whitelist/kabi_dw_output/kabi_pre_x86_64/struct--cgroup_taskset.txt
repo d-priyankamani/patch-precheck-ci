@@ -1,0 +1,14 @@
+Version: 1.0
+File: kernel/cgroup/cgroup-internal.h:107
+Symbol:
+Byte size 72
+struct cgroup_taskset {
+0x0 src_csets @"struct--list_head.txt"
+0x10 dst_csets @"struct--list_head.txt"
+0x20 dst_count "int"
+0x24 nr_tasks "int"
+0x28 ssid "int"
+0x30 csets * @"struct--list_head.txt"
+0x38 cur_cset * @"struct--css_set.txt"
+0x40 cur_task * @"struct--task_struct.txt"
+}

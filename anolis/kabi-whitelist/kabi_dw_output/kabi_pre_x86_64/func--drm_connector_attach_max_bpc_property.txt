@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:2427
+Symbol:
+func drm_connector_attach_max_bpc_property (
+connector * @"struct--drm_connector.txt"
+min "int"
+max "int"
+)
+"int"

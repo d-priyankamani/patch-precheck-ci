@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/user_namespace.h:23
+Symbol:
+Byte size 72
+struct uid_gid_map {
+0x0 nr_extents @"typedef--u32.txt"
+0x8 (NULL) union (NULL) {
+extent [5]@"struct--uid_gid_extent.txt"
+(NULL) struct (NULL) {
+0x0 forward * @"struct--uid_gid_extent.txt"
+0x8 reverse * @"struct--uid_gid_extent.txt"
+}
+}
+}

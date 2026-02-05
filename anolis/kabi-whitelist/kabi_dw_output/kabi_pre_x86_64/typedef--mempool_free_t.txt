@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/mempool.h:15
+Symbol:
+typedef mempool_free_t
+func (NULL) (
+(NULL) * "void"
+(NULL) * "void"
+)
+"void"

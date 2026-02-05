@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vma_manager.c:140
+Symbol:
+func drm_vma_offset_lookup_locked (
+mgr * @"struct--drm_vma_offset_manager.txt"
+start "long unsigned int"
+pages "long unsigned int"
+)
+* @"struct--drm_vma_offset_node.txt"

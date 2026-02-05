@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/resource.c:41
+Symbol:
+var iomem_resource "void"

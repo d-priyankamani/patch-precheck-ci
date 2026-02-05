@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/irq_poll.h:6
+Symbol:
+Byte size 4
+typedef irq_poll_fn
+func (NULL) (
+(NULL) * @"struct--irq_poll.txt"
+(NULL) "int"
+)
+"int"

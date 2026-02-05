@@ -1,0 +1,34 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:643
+Symbol:
+Byte size 3448
+Alignment 8
+struct kvm_vcpu_hv {
+0x0 vcpu * @"struct--kvm_vcpu.txt"
+0x8 vp_index @"typedef--u32.txt"
+0x10 hv_vapic @"typedef--u64.txt"
+0x18 runtime_offset @"typedef--s64.txt"
+0x20 synic @"struct--kvm_vcpu_hv_synic.txt"
+0x148 exit @"struct--kvm_hyperv_exit.txt"
+0x180 8 stimer [4]@"struct--kvm_vcpu_hv_stimer.txt"
+0x780 stimer_pending_bitmap [1]"long unsigned int"
+0x788 enforce_cpuid @"typedef--bool.txt"
+0x78c cpuid_cache struct (NULL) {
+0x0 features_eax @"typedef--u32.txt"
+0x4 features_ebx @"typedef--u32.txt"
+0x8 features_edx @"typedef--u32.txt"
+0xc enlightenments_eax @"typedef--u32.txt"
+0x10 enlightenments_ebx @"typedef--u32.txt"
+0x14 syndbg_cap_eax @"typedef--u32.txt"
+0x18 nested_eax @"typedef--u32.txt"
+0x1c nested_ebx @"typedef--u32.txt"
+}
+0x7b0 tlb_flush_fifo [2]@"struct--kvm_vcpu_hv_tlb_flush_fifo.txt"
+0x8f0 sparse_banks [64]@"typedef--u64.txt"
+0xaf0 vp_assist_page @"struct--hv_vp_assist_page.txt"
+0xd60 nested struct (NULL) {
+0x0 pa_page_gpa @"typedef--u64.txt"
+0x8 vm_id @"typedef--u64.txt"
+0x10 vp_id @"typedef--u32.txt"
+}
+}

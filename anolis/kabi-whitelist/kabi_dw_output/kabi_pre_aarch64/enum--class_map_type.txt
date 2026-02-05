@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/dynamic_debug.h:61
+Symbol:
+Byte size 4
+enum class_map_type {
+DD_CLASS_TYPE_DISJOINT_BITS = 0x0
+DD_CLASS_TYPE_LEVEL_NUM = 0x1
+DD_CLASS_TYPE_DISJOINT_NAMES = 0x2
+DD_CLASS_TYPE_LEVEL_NAMES = 0x3
+}

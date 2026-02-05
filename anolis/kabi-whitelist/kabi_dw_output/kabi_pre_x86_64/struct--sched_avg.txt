@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/sched.h:515
+Symbol:
+Byte size 128
+Alignment 64
+struct sched_avg {
+0x0 last_update_time @"typedef--u64.txt"
+0x8 load_sum @"typedef--u64.txt"
+0x10 runnable_sum @"typedef--u64.txt"
+0x18 util_sum @"typedef--u32.txt"
+0x1c period_contrib @"typedef--u32.txt"
+0x20 load_avg "long unsigned int"
+0x28 runnable_avg "long unsigned int"
+0x30 util_avg "long unsigned int"
+0x38 8 util_est @"struct--util_est.txt"
+0x40 ck_reserved1 "long unsigned int"
+0x48 ck_reserved2 "long unsigned int"
+0x50 ck_reserved3 "long unsigned int"
+0x58 ck_reserved4 "long unsigned int"
+}

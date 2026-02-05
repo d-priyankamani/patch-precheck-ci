@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/kobject.c:730
+Symbol:
+func kobject_put (
+kobj * @"struct--kobject.txt"
+)
+"void"

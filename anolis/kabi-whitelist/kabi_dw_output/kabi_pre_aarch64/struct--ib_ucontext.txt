@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1516
+Symbol:
+Byte size 112
+struct ib_ucontext {
+0x0 device * @"struct--ib_device.txt"
+0x8 ufile * @"struct--ib_uverbs_file.txt"
+0x10 cg_obj @"struct--ib_rdmacg_object.txt"
+0x18 res @"struct--rdma_restrack_entry.txt"
+0x60 mmap_xa @"struct--xarray.txt"
+}

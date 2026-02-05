@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/trace/trace_seq.c:234
+Symbol:
+func trace_seq_putc (
+s * @"struct--trace_seq.txt"
+c "unsigned char"
+)
+"void"

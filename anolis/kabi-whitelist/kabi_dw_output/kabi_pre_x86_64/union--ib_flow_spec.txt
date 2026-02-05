@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2082
+Symbol:
+Byte size 88
+union ib_flow_spec {
+(NULL) struct (NULL) {
+0x0 type @"typedef--u32.txt"
+0x4 size @"typedef--u16.txt"
+}
+eth @"struct--ib_flow_spec_eth.txt"
+ib @"struct--ib_flow_spec_ib.txt"
+ipv4 @"struct--ib_flow_spec_ipv4.txt"
+tcp_udp @"struct--ib_flow_spec_tcp_udp.txt"
+ipv6 @"struct--ib_flow_spec_ipv6.txt"
+tunnel @"struct--ib_flow_spec_tunnel.txt"
+esp @"struct--ib_flow_spec_esp.txt"
+gre @"struct--ib_flow_spec_gre.txt"
+mpls @"struct--ib_flow_spec_mpls.txt"
+flow_tag @"struct--ib_flow_spec_action_tag.txt"
+drop @"struct--ib_flow_spec_action_drop.txt"
+action @"struct--ib_flow_spec_action_handle.txt"
+flow_count @"struct--ib_flow_spec_action_count.txt"
+}

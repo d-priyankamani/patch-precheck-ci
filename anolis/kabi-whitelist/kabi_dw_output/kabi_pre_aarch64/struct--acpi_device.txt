@@ -1,0 +1,34 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:396
+Symbol:
+Byte size 1720
+Alignment 8
+struct acpi_device {
+0x0 pld_crc @"typedef--u32.txt"
+0x4 device_type "int"
+0x8 handle @"typedef--acpi_handle.txt"
+0x10 fwnode @"struct--fwnode_handle.txt"
+0x80 wakeup_list @"struct--list_head.txt"
+0x90 del_list @"struct--list_head.txt"
+0xa0 status @"struct--acpi_device_status.txt"
+0xa4 flags @"struct--acpi_device_flags.txt"
+0xa8 pnp @"struct--acpi_device_pnp.txt"
+0x120 power @"struct--acpi_device_power.txt"
+0x1d8 wakeup @"struct--acpi_device_wakeup.txt"
+0x228 performance @"struct--acpi_device_perf.txt"
+0x240 dir @"struct--acpi_device_dir.txt"
+0x248 data @"struct--acpi_device_data.txt"
+0x278 handler * @"struct--acpi_scan_handler.txt"
+0x280 hp * @"struct--acpi_hotplug_context.txt"
+0x288 driver_gpios * const @"struct--acpi_gpio_mapping.txt"
+0x290 driver_data * "void"
+0x298 8 dev @"struct--device.txt"
+0x678 physical_node_count "unsigned int"
+0x67c dep_unmet "unsigned int"
+0x680 physical_node_list @"struct--list_head.txt"
+0x690 physical_node_lock @"struct--mutex.txt"
+0x6b0 remove * func (NULL) (
+(NULL) * @"struct--acpi_device.txt"
+)
+"void"
+}

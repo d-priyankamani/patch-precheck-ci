@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/power/wakeup.c:479
+Symbol:
+func device_set_wakeup_capable (
+dev * @"struct--device.txt"
+capable @"typedef--bool.txt"
+)
+"void"

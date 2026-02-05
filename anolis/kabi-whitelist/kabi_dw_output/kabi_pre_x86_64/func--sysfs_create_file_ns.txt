@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/sysfs/file.c:345
+Symbol:
+func sysfs_create_file_ns (
+kobj * @"struct--kobject.txt"
+attr * const @"struct--attribute.txt"
+ns * const "void"
+)
+"int"

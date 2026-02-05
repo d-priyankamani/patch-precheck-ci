@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/genalloc.h:48
+Symbol:
+Byte size 8
+typedef genpool_algo_t
+* func (NULL) (
+(NULL) * "long unsigned int"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+(NULL) "unsigned int"
+(NULL) * "void"
+(NULL) * @"struct--gen_pool.txt"
+(NULL) "long unsigned int"
+)
+"long unsigned int"

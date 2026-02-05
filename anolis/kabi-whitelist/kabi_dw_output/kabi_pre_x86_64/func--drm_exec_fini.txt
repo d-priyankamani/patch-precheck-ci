@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_exec.c:95
+Symbol:
+func drm_exec_fini (
+exec * @"struct--drm_exec.txt"
+)
+"void"

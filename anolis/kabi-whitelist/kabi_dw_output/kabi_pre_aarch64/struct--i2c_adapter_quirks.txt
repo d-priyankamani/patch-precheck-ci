@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/i2c.h:692
+Symbol:
+Byte size 24
+struct i2c_adapter_quirks {
+0x0 flags @"typedef--u64.txt"
+0x8 max_num_msgs "int"
+0xc max_write_len @"typedef--u16.txt"
+0xe max_read_len @"typedef--u16.txt"
+0x10 max_comb_1st_msg_len @"typedef--u16.txt"
+0x12 max_comb_2nd_msg_len @"typedef--u16.txt"
+}

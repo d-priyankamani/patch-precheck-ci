@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/netlink/af_netlink.c:1567
+Symbol:
+func netlink_broadcast (
+ssk * @"struct--sock.txt"
+skb * @"struct--sk_buff.txt"
+portid @"typedef--u32.txt"
+group @"typedef--u32.txt"
+allocation @"typedef--gfp_t.txt"
+)
+"int"

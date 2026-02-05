@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/asm-generic/int-ll64.h:16
+Symbol:
+typedef s8
+@"typedef--__s8.txt"

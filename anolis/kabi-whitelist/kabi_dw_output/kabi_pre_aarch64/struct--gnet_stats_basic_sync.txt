@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/gen_stats.h:18
+Symbol:
+Byte size 16
+Alignment 16
+struct gnet_stats_basic_sync {
+0x0 bytes @"typedef--u64_stats_t.txt"
+0x8 packets @"typedef--u64_stats_t.txt"
+0x10 syncp @"struct--u64_stats_sync.txt"
+}

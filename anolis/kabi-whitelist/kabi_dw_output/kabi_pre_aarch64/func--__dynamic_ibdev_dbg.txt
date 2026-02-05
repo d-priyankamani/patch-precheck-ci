@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/dynamic_debug.c:955
+Symbol:
+func __dynamic_ibdev_dbg (
+descriptor * @"struct--_ddebug.txt"
+ibdev * const @"struct--ib_device.txt"
+fmt * const "char"
+(NULL) ...
+)
+"void"

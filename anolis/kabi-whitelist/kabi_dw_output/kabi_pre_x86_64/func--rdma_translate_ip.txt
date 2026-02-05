@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/addr.c:275
+Symbol:
+func rdma_translate_ip (
+addr * const @"struct--sockaddr.txt"
+dev_addr * @"struct--rdma_dev_addr.txt"
+)
+"int"

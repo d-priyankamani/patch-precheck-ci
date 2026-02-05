@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/uapi/linux/types.h:60
+Symbol:
+Byte size 4
+typedef __poll_t
+"unsigned int"

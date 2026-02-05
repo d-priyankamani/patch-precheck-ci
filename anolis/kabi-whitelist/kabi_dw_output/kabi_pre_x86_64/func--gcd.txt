@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/math/gcd.c:23
+Symbol:
+func gcd (
+a "long unsigned int"
+b "long unsigned int"
+)
+"long unsigned int"

@@ -1,0 +1,4 @@
+Version: 1.0
+File: arch/x86/mm/mem_encrypt_amd.c:47
+Symbol:
+var sme_me_mask "void"

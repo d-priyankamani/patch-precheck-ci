@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modeset_lock.c:422
+Symbol:
+func drm_modeset_unlock (
+lock * @"struct--drm_modeset_lock.txt"
+)
+"void"

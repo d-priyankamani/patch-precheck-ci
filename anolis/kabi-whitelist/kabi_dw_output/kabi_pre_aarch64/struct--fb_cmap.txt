@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/fb.h:282
+Symbol:
+Byte size 40
+struct fb_cmap {
+0x0 start @"typedef--__u32.txt"
+0x4 len @"typedef--__u32.txt"
+0x8 red * @"typedef--__u16.txt"
+0x10 green * @"typedef--__u16.txt"
+0x18 blue * @"typedef--__u16.txt"
+0x20 transp * @"typedef--__u16.txt"
+}

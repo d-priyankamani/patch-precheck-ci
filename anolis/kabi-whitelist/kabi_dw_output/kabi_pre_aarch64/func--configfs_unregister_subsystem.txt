@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/configfs/dir.c:1904
+Symbol:
+func configfs_unregister_subsystem (
+subsys * @"struct--configfs_subsystem.txt"
+)
+"void"

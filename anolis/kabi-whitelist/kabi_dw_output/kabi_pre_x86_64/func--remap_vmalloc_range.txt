@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/vmalloc.c:3976
+Symbol:
+func remap_vmalloc_range (
+vma * @"struct--vm_area_struct.txt"
+addr * "void"
+pgoff "long unsigned int"
+)
+"int"

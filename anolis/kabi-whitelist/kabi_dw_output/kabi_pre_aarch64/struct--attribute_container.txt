@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/attribute_container.h:16
+Symbol:
+Byte size 96
+Alignment 8
+struct attribute_container {
+0x0 node @"struct--list_head.txt"
+0x10 8 containers @"struct--klist.txt"
+0x38 class * @"struct--class.txt"
+0x40 grp * const @"struct--attribute_group.txt"
+0x48 attrs * * @"struct--device_attribute.txt"
+0x50 match * func (NULL) (
+(NULL) * @"struct--attribute_container.txt"
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x58 flags "long unsigned int"
+}

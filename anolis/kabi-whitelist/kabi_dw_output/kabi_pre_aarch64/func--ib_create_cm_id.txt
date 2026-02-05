@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cm.c:855
+Symbol:
+func ib_create_cm_id (
+device * @"struct--ib_device.txt"
+cm_handler @"typedef--ib_cm_handler.txt"
+context * "void"
+)
+* @"struct--ib_cm_id.txt"

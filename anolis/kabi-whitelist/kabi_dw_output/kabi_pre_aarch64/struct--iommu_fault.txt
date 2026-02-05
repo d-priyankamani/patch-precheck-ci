@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/iommu.h:92
+Symbol:
+Byte size 48
+struct iommu_fault {
+0x0 type @"typedef--u32.txt"
+0x8 prm @"struct--iommu_fault_page_request.txt"
+}

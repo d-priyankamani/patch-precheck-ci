@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/math/int_pow.c:19
+Symbol:
+func int_pow (
+base @"typedef--u64.txt"
+exp "unsigned int"
+)
+@"typedef--u64.txt"

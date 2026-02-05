@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/if_link.h:723
+Symbol:
+Byte size 4
+enum macsec_offload {
+MACSEC_OFFLOAD_OFF = 0x0
+MACSEC_OFFLOAD_PHY = 0x1
+MACSEC_OFFLOAD_MAC = 0x2
+__MACSEC_OFFLOAD_END = 0x3
+MACSEC_OFFLOAD_MAX = 0x2
+}

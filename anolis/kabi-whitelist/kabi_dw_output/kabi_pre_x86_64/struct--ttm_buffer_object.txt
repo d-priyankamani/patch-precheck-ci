@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/drm/ttm/ttm_bo.h:98
+Symbol:
+Byte size 496
+Alignment 8
+struct ttm_buffer_object {
+0x0 8 base @"struct--drm_gem_object.txt"
+0x160 bdev * @"struct--ttm_device.txt"
+0x168 type @"enum--ttm_bo_type.txt"
+0x16c page_alignment @"typedef--uint32_t.txt"
+0x170 destroy * func (NULL) (
+(NULL) * @"struct--ttm_buffer_object.txt"
+)
+"void"
+0x178 kref @"struct--kref.txt"
+0x180 resource * @"struct--ttm_resource.txt"
+0x188 ttm * @"struct--ttm_tt.txt"
+0x190 deleted @"typedef--bool.txt"
+0x198 bulk_move * @"struct--ttm_lru_bulk_move.txt"
+0x1a0 priority "unsigned int"
+0x1a4 pin_count "unsigned int"
+0x1a8 delayed_delete @"struct--work_struct.txt"
+0x1e8 sg * @"struct--sg_table.txt"
+}

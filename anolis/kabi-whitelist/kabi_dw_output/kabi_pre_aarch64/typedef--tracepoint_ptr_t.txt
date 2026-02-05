@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/tracepoint-defs.h:48
+Symbol:
+Byte size 4
+typedef tracepoint_ptr_t
+const "int"

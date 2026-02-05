@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/drm/drm_legacy.h:70
+Symbol:
+Byte size 88
+struct drm_buf {
+0x0 idx "int"
+0x4 total "int"
+0x8 order "int"
+0xc used "int"
+0x10 offset "long unsigned int"
+0x18 address * "void"
+0x20 bus_address "long unsigned int"
+0x28 next * @"struct--drm_buf.txt"
+0x30 waiting volatile "int"
+0x34 pending volatile "int"
+0x38 file_priv * @"struct--drm_file.txt"
+0x40 context "int"
+0x44 while_locked "int"
+0x48 list enum (NULL) {
+DRM_LIST_NONE = 0x0
+DRM_LIST_FREE = 0x1
+DRM_LIST_WAIT = 0x2
+DRM_LIST_PEND = 0x3
+DRM_LIST_PRIO = 0x4
+DRM_LIST_RECLAIM = 0x5
+}
+0x4c dev_priv_size "int"
+0x50 dev_private * "void"
+}

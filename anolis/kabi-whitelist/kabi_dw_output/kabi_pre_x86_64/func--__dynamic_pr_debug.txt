@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/dynamic_debug.c:865
+Symbol:
+func __dynamic_pr_debug (
+descriptor * @"struct--_ddebug.txt"
+fmt * const "char"
+(NULL) ...
+)
+"void"

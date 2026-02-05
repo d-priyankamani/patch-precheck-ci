@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/linux/page_counter.h:10
+Symbol:
+Byte size 256
+Alignment 64
+struct page_counter {
+0x0 usage @"typedef--atomic_long_t.txt"
+0x40 64 _pad1_ @"struct--cacheline_padding.txt"
+0x40 emin "long unsigned int"
+0x48 min_usage @"typedef--atomic_long_t.txt"
+0x50 children_min_usage @"typedef--atomic_long_t.txt"
+0x58 elow "long unsigned int"
+0x60 low_usage @"typedef--atomic_long_t.txt"
+0x68 children_low_usage @"typedef--atomic_long_t.txt"
+0x70 wmark_low "long unsigned int"
+0x78 wmark_high "long unsigned int"
+0x80 watermark "long unsigned int"
+0x88 failcnt "long unsigned int"
+0xc0 64 _pad2_ @"struct--cacheline_padding.txt"
+0xc0 min "long unsigned int"
+0xc8 low "long unsigned int"
+0xd0 high "long unsigned int"
+0xd8 max "long unsigned int"
+0xe0 parent * @"struct--page_counter.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/vga/vga_switcheroo.c:235
+Symbol:
+func vga_switcheroo_register_handler (
+handler * const @"struct--vga_switcheroo_handler.txt"
+handler_flags @"enum--vga_switcheroo_handler_flags_t.txt"
+)
+"int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/module.h:396
+Symbol:
+Byte size 88
+struct klp_modinfo {
+0x0 hdr @"typedef--Elf64_Ehdr.txt"
+0x40 sechdrs * @"typedef--Elf64_Shdr.txt"
+0x48 secstrings * "char"
+0x50 symndx "unsigned int"
+}

@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/drm/drm_debugfs_crc.h:53
+Symbol:
+Byte size 72
+struct drm_crtc_crc {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 source * const "char"
+0x10 opened @"typedef--bool.txt"
+0x11 overflow @"typedef--bool.txt"
+0x18 entries * @"struct--drm_crtc_crc_entry.txt"
+0x20 head "int"
+0x24 tail "int"
+0x28 values_cnt @"typedef--size_t.txt"
+0x30 wq @"typedef--wait_queue_head_t.txt"
+}

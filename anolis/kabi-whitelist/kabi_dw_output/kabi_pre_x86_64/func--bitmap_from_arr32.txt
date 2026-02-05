@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/bitmap.c:1457
+Symbol:
+func bitmap_from_arr32 (
+bitmap * "long unsigned int"
+buf * const @"typedef--u32.txt"
+nbits "unsigned int"
+)
+"void"

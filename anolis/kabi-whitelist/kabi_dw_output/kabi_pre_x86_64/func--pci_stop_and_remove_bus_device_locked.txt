@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/remove.c:124
+Symbol:
+func pci_stop_and_remove_bus_device_locked (
+dev * @"struct--pci_dev.txt"
+)
+"void"

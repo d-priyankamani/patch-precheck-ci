@@ -1,0 +1,18 @@
+Version: 1.0
+File: net/switchdev/switchdev.c:805
+Symbol:
+func switchdev_handle_port_obj_del (
+dev * @"struct--net_device.txt"
+port_obj_info * @"struct--switchdev_notifier_port_obj_info.txt"
+check_cb * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+)
+@"typedef--bool.txt"
+del_cb * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const "void"
+(NULL) * const @"struct--switchdev_obj.txt"
+)
+"int"
+)
+"int"

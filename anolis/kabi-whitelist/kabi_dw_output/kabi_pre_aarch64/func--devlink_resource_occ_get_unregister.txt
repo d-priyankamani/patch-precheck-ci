@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/devlink/resource.c:572
+Symbol:
+func devlink_resource_occ_get_unregister (
+devlink * @"struct--devlink.txt"
+resource_id @"typedef--u64.txt"
+)
+"void"

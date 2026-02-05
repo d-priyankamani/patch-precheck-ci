@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/jump_label.c:104
+Symbol:
+func static_key_count (
+key * @"struct--static_key.txt"
+)
+"int"

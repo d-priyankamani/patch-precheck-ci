@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/sysfs/file.c:759
+Symbol:
+func sysfs_emit_at (
+buf * "char"
+at "int"
+fmt * const "char"
+(NULL) ...
+)
+"int"

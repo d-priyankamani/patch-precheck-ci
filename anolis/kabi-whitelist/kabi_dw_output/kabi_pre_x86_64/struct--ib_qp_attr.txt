@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1290
+Symbol:
+Byte size 216
+struct ib_qp_attr {
+0x0 qp_state @"enum--ib_qp_state.txt"
+0x4 cur_qp_state @"enum--ib_qp_state.txt"
+0x8 path_mtu @"enum--ib_mtu.txt"
+0xc path_mig_state @"enum--ib_mig_state.txt"
+0x10 qkey @"typedef--u32.txt"
+0x14 rq_psn @"typedef--u32.txt"
+0x18 sq_psn @"typedef--u32.txt"
+0x1c dest_qp_num @"typedef--u32.txt"
+0x20 qp_access_flags "int"
+0x24 cap @"struct--ib_qp_cap.txt"
+0x40 ah_attr @"struct--rdma_ah_attr.txt"
+0x78 alt_ah_attr @"struct--rdma_ah_attr.txt"
+0xb0 pkey_index @"typedef--u16.txt"
+0xb2 alt_pkey_index @"typedef--u16.txt"
+0xb4 en_sqd_async_notify @"typedef--u8.txt"
+0xb5 sq_draining @"typedef--u8.txt"
+0xb6 max_rd_atomic @"typedef--u8.txt"
+0xb7 max_dest_rd_atomic @"typedef--u8.txt"
+0xb8 min_rnr_timer @"typedef--u8.txt"
+0xbc port_num @"typedef--u32.txt"
+0xc0 timeout @"typedef--u8.txt"
+0xc1 retry_cnt @"typedef--u8.txt"
+0xc2 rnr_retry @"typedef--u8.txt"
+0xc4 alt_port_num @"typedef--u32.txt"
+0xc8 alt_timeout @"typedef--u8.txt"
+0xcc rate_limit @"typedef--u32.txt"
+0xd0 xmit_slave * @"struct--net_device.txt"
+}

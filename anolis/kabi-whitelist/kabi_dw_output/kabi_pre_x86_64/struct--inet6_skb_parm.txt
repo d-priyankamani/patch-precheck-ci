@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/ipv6.h:131
+Symbol:
+Byte size 24
+struct inet6_skb_parm {
+0x0 iif "int"
+0x4 ra @"typedef--__be16.txt"
+0x6 dst0 @"typedef--__u16.txt"
+0x8 srcrt @"typedef--__u16.txt"
+0xa dst1 @"typedef--__u16.txt"
+0xc lastopt @"typedef--__u16.txt"
+0xe nhoff @"typedef--__u16.txt"
+0x10 flags @"typedef--__u16.txt"
+0x12 dsthao @"typedef--__u16.txt"
+0x14 frag_max_size @"typedef--__u16.txt"
+0x16 srhoff @"typedef--__u16.txt"
+}

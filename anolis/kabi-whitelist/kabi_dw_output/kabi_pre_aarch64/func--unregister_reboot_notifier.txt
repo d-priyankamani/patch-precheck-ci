@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/reboot.c:115
+Symbol:
+func unregister_reboot_notifier (
+nb * @"struct--notifier_block.txt"
+)
+"int"

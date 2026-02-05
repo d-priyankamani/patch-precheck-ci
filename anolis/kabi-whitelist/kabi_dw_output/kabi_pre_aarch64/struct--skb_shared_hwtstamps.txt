@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/skbuff.h:459
+Symbol:
+Byte size 8
+struct skb_shared_hwtstamps {
+0x0 (NULL) union (NULL) {
+hwtstamp @"typedef--ktime_t.txt"
+netdev_data * "void"
+}
+}

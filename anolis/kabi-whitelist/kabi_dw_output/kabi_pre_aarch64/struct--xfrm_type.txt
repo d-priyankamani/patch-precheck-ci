@@ -1,0 +1,34 @@
+Version: 1.0
+File: include/net/xfrm.h:420
+Symbol:
+Byte size 56
+struct xfrm_type {
+0x0 owner * @"struct--module.txt"
+0x8 proto @"typedef--u8.txt"
+0x9 flags @"typedef--u8.txt"
+0x10 init_state * func (NULL) (
+(NULL) * @"struct--xfrm_state.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x18 destructor * func (NULL) (
+(NULL) * @"struct--xfrm_state.txt"
+)
+"void"
+0x20 input * func (NULL) (
+(NULL) * @"struct--xfrm_state.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x28 output * func (NULL) (
+(NULL) * @"struct--xfrm_state.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x30 reject * func (NULL) (
+(NULL) * @"struct--xfrm_state.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * const @"struct--flowi.txt"
+)
+"int"
+}

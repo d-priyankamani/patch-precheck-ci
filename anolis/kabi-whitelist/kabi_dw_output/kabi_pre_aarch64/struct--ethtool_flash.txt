@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:1396
+Symbol:
+Byte size 136
+struct ethtool_flash {
+0x0 cmd @"typedef--__u32.txt"
+0x4 region @"typedef--__u32.txt"
+0x8 data [128]"char"
+}

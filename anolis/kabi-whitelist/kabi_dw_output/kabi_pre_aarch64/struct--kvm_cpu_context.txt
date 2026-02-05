@@ -1,0 +1,14 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:422
+Symbol:
+Byte size 2176
+struct kvm_cpu_context {
+0x0 regs @"struct--user_pt_regs.txt"
+0x110 spsr_abt @"typedef--u64.txt"
+0x118 spsr_und @"typedef--u64.txt"
+0x120 spsr_irq @"typedef--u64.txt"
+0x128 spsr_fiq @"typedef--u64.txt"
+0x130 fp_regs @"struct--user_fpsimd_state.txt"
+0x340 sys_regs [166]@"typedef--u64.txt"
+0x870 __hyp_running_vcpu * @"struct--kvm_vcpu.txt"
+}

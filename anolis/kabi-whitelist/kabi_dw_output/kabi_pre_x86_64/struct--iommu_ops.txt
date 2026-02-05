@@ -1,0 +1,110 @@
+Version: 1.0
+File: include/linux/iommu.h:672
+Symbol:
+Byte size 272
+struct iommu_ops {
+0x0 capable * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"enum--iommu_cap.txt"
+)
+@"typedef--bool.txt"
+0x8 hw_info * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"typedef--u32.txt"
+(NULL) * @"enum--iommu_hw_info_type.txt"
+)
+* "void"
+0x10 domain_alloc_identity * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+* @"struct--iommu_domain.txt"
+0x18 domain_alloc_paging_flags * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * const @"struct--iommu_user_data.txt"
+)
+* @"struct--iommu_domain.txt"
+0x20 domain_alloc_paging * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+* @"struct--iommu_domain.txt"
+0x28 domain_alloc_sva * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--mm_struct.txt"
+)
+* @"struct--iommu_domain.txt"
+0x30 domain_alloc_nested * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * const @"struct--iommu_user_data.txt"
+)
+* @"struct--iommu_domain.txt"
+0x38 probe_device * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+* @"struct--iommu_device.txt"
+0x40 release_device * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x48 probe_finalize * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x50 device_group * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+* @"struct--iommu_group.txt"
+0x58 get_resv_regions * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--list_head.txt"
+)
+"void"
+0x60 of_xlate * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * const @"struct--of_phandle_args.txt"
+)
+"int"
+0x68 is_attach_deferred * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+@"typedef--bool.txt"
+0x70 page_response * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--iopf_fault.txt"
+(NULL) * @"struct--iommu_page_response.txt"
+)
+"void"
+0x78 def_domain_type * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x80 get_viommu_size * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"enum--iommu_viommu_type.txt"
+)
+@"typedef--size_t.txt"
+0x88 viommu_init * func (NULL) (
+(NULL) * @"struct--iommufd_viommu.txt"
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) * const @"struct--iommu_user_data.txt"
+)
+"int"
+0x90 default_domain_ops * const @"struct--iommu_domain_ops.txt"
+0x98 pgsize_bitmap "long unsigned int"
+0xa0 owner * @"struct--module.txt"
+0xa8 identity_domain * @"struct--iommu_domain.txt"
+0xb0 blocked_domain * @"struct--iommu_domain.txt"
+0xb8 release_domain * @"struct--iommu_domain.txt"
+0xc0 default_domain * @"struct--iommu_domain.txt"
+0xc8:0-1 user_pasid_table @"typedef--u8.txt"
+0xd0 ck_reserved1 "long unsigned int"
+0xd8 ck_reserved2 "long unsigned int"
+0xe0 ck_reserved3 "long unsigned int"
+0xe8 ck_reserved4 "long unsigned int"
+0xf0 ck_reserved5 "long unsigned int"
+0xf8 ck_reserved6 "long unsigned int"
+0x100 ck_reserved7 "long unsigned int"
+0x108 ck_reserved8 "long unsigned int"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/xfrm.h:510
+Symbol:
+Byte size 24
+struct xfrm_policy_walk_entry {
+0x0 all @"struct--list_head.txt"
+0x10 dead @"typedef--u8.txt"
+}

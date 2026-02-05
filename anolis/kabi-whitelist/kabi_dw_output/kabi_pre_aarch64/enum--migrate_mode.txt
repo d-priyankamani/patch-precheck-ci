@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/migrate_mode.h:15
+Symbol:
+Byte size 4
+enum migrate_mode {
+MIGRATE_ASYNC = 0x0
+MIGRATE_SYNC_LIGHT = 0x1
+MIGRATE_SYNC = 0x2
+MIGRATE_SYNC_NO_COPY = 0x3
+}

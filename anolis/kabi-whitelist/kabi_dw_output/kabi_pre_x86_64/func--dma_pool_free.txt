@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/dmapool.c:450
+Symbol:
+func dma_pool_free (
+pool * @"struct--dma_pool.txt"
+vaddr * "void"
+dma @"typedef--dma_addr_t.txt"
+)
+"void"

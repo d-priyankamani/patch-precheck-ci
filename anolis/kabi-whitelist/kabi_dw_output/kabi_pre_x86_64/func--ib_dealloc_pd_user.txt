@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:334
+Symbol:
+func ib_dealloc_pd_user (
+pd * @"struct--ib_pd.txt"
+udata * @"struct--ib_udata.txt"
+)
+"int"

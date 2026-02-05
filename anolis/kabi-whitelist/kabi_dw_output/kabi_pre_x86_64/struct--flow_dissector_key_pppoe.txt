@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/flow_dissector.h:291
+Symbol:
+Byte size 6
+struct flow_dissector_key_pppoe {
+0x0 session_id @"typedef--__be16.txt"
+0x2 ppp_proto @"typedef--__be16.txt"
+0x4 type @"typedef--__be16.txt"
+}

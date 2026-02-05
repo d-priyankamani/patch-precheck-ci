@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/scsi/scsi.c:217
+Symbol:
+func scsi_change_queue_depth (
+sdev * @"struct--scsi_device.txt"
+depth "int"
+)
+"int"

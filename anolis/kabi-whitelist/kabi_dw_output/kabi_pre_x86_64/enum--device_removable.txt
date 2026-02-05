@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/device.h:502
+Symbol:
+Byte size 4
+enum device_removable {
+DEVICE_REMOVABLE_NOT_SUPPORTED = 0x0
+DEVICE_REMOVABLE_UNKNOWN = 0x1
+DEVICE_FIXED = 0x2
+DEVICE_REMOVABLE = 0x3
+}

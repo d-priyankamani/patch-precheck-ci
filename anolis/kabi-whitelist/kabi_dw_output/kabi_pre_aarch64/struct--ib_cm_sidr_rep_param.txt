@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:541
+Symbol:
+Byte size 56
+struct ib_cm_sidr_rep_param {
+0x0 qp_num @"typedef--u32.txt"
+0x4 qkey @"typedef--u32.txt"
+0x8 status @"enum--ib_cm_sidr_status.txt"
+0x10 info * const "void"
+0x18 info_length @"typedef--u8.txt"
+0x20 private_data * const "void"
+0x28 private_data_len @"typedef--u8.txt"
+0x2c ece @"struct--rdma_ucm_ece.txt"
+}

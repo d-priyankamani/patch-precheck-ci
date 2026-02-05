@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/dst_metadata.h:17
+Symbol:
+Byte size 16
+struct hw_port_info {
+0x0 lower_dev * @"struct--net_device.txt"
+0x8 port_id @"typedef--u32.txt"
+}

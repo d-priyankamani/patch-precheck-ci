@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:332
+Symbol:
+Byte size 152
+struct bpf_verifier_state {
+0x0 frame [8]* @"struct--bpf_func_state.txt"
+0x40 parent * @"struct--bpf_verifier_state.txt"
+0x48 branches @"typedef--u32.txt"
+0x4c insn_idx @"typedef--u32.txt"
+0x50 curframe @"typedef--u32.txt"
+0x58 active_lock @"struct--bpf_active_lock.txt"
+0x68 speculative @"typedef--bool.txt"
+0x69 active_rcu_lock @"typedef--bool.txt"
+0x6a used_as_loop_entry @"typedef--bool.txt"
+0x6c first_insn_idx @"typedef--u32.txt"
+0x70 last_insn_idx @"typedef--u32.txt"
+0x78 loop_entry * @"struct--bpf_verifier_state.txt"
+0x80 jmp_history * @"struct--bpf_idx_pair.txt"
+0x88 jmp_history_cnt @"typedef--u32.txt"
+0x8c dfs_depth @"typedef--u32.txt"
+0x90 callback_unroll_depth @"typedef--u32.txt"
+}

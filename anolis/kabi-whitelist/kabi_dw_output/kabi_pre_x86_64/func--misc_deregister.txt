@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/char/misc.c:294
+Symbol:
+func misc_deregister (
+misc * @"struct--miscdevice.txt"
+)
+"void"

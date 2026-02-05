@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/fb.h:327
+Symbol:
+Byte size 32
+struct fb_tilerect {
+0x0 sx @"typedef--__u32.txt"
+0x4 sy @"typedef--__u32.txt"
+0x8 width @"typedef--__u32.txt"
+0xc height @"typedef--__u32.txt"
+0x10 index @"typedef--__u32.txt"
+0x14 fg @"typedef--__u32.txt"
+0x18 bg @"typedef--__u32.txt"
+0x1c rop @"typedef--__u32.txt"
+}

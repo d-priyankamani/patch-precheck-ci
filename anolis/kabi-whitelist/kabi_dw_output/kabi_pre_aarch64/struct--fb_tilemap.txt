@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/fb.h:318
+Symbol:
+Byte size 24
+struct fb_tilemap {
+0x0 width @"typedef--__u32.txt"
+0x4 height @"typedef--__u32.txt"
+0x8 depth @"typedef--__u32.txt"
+0xc length @"typedef--__u32.txt"
+0x10 data * const @"typedef--__u8.txt"
+}

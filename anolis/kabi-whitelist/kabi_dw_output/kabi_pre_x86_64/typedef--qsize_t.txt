@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/quota.h:67
+Symbol:
+Byte size 8
+typedef qsize_t
+"long long int"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/ptp_clock_kernel.h:222
+Symbol:
+Byte size 24
+struct ptp_clock_event {
+0x0 type "int"
+0x4 index "int"
+0x8 (NULL) union (NULL) {
+timestamp @"typedef--u64.txt"
+pps_times @"struct--pps_event_time.txt"
+}
+}

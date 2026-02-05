@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/net/timewait_sock.h:14
+Symbol:
+Byte size 40
+struct timewait_sock_ops {
+0x0 twsk_slab * @"<declarations>/struct--kmem_cache.txt"
+0x8 twsk_slab_name * "char"
+0x10 twsk_obj_size "unsigned int"
+0x18 twsk_unique * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sock.txt"
+(NULL) * "void"
+)
+"int"
+0x20 twsk_destructor * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/parser.c:194
+Symbol:
+func match_int (
+s * @"typedef--substring_t.txt"
+result * "int"
+)
+"int"

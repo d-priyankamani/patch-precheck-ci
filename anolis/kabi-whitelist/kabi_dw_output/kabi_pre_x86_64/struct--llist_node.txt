@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/llist.h:60
+Symbol:
+Byte size 8
+struct llist_node {
+0x0 next * @"struct--llist_node.txt"
+}

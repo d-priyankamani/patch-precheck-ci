@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/utsname.h:24
+Symbol:
+Byte size 440
+struct uts_namespace {
+0x0 name @"struct--new_utsname.txt"
+0x188 user_ns * @"struct--user_namespace.txt"
+0x190 ucounts * @"struct--ucounts.txt"
+0x198 ns @"struct--ns_common.txt"
+}

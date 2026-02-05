@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/neighbour.h:182
+Symbol:
+Byte size 32
+struct pneigh_entry {
+0x0 next * @"struct--pneigh_entry.txt"
+0x8 net @"typedef--possible_net_t.txt"
+0x10 dev * @"struct--net_device.txt"
+0x18 dev_tracker @"typedef--netdevice_tracker.txt"
+0x18 flags @"typedef--u32.txt"
+0x1c protocol @"typedef--u8.txt"
+0x20 key [0]@"typedef--u32.txt"
+}

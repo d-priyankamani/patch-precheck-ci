@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/ip6_fib.h:139
+Symbol:
+Byte size 16
+struct rt6_exception_bucket {
+0x0 chain @"struct--hlist_head.txt"
+0x8 depth "int"
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/drm/drm_fb_helper.h:57
+Symbol:
+Byte size 24
+struct drm_fb_helper_surface_size {
+0x0 fb_width @"typedef--u32.txt"
+0x4 fb_height @"typedef--u32.txt"
+0x8 surface_width @"typedef--u32.txt"
+0xc surface_height @"typedef--u32.txt"
+0x10 surface_bpp @"typedef--u32.txt"
+0x14 surface_depth @"typedef--u32.txt"
+}

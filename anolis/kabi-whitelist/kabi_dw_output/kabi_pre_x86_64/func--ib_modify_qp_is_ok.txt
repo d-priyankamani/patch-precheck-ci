@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:1688
+Symbol:
+func ib_modify_qp_is_ok (
+cur_state @"enum--ib_qp_state.txt"
+next_state @"enum--ib_qp_state.txt"
+type @"enum--ib_qp_type.txt"
+mask @"enum--ib_qp_attr_mask.txt"
+)
+@"typedef--bool.txt"

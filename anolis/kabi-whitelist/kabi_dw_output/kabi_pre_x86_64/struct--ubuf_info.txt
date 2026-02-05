@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/skbuff.h:533
+Symbol:
+Byte size 16
+struct ubuf_info {
+0x0 callback * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--ubuf_info.txt"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+0x8 refcnt @"typedef--refcount_t.txt"
+0xc flags @"typedef--u8.txt"
+}

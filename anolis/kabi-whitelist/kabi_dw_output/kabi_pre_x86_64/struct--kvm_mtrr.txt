@@ -1,0 +1,10 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:586
+Symbol:
+Byte size 368
+struct kvm_mtrr {
+0x0 var_ranges [8]@"struct--kvm_mtrr_range.txt"
+0x100 fixed_ranges [88]@"typedef--mtrr_type.txt"
+0x158 deftype @"typedef--u64.txt"
+0x160 head @"struct--list_head.txt"
+}

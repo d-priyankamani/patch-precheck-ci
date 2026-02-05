@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/sa_query.c:1134
+Symbol:
+func ib_sa_unregister_client (
+client * @"struct--ib_sa_client.txt"
+)
+"void"

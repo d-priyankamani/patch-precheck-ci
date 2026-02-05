@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:2472
+Symbol:
+func rdma_read_gids (
+cm_id * @"struct--rdma_cm_id.txt"
+sgid * @"union--ib_gid.txt"
+dgid * @"union--ib_gid.txt"
+)
+"void"

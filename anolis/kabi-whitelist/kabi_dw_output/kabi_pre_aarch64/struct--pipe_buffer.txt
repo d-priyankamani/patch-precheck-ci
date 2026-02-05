@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/pipe_fs_i.h:26
+Symbol:
+Byte size 40
+struct pipe_buffer {
+0x0 page * @"struct--page.txt"
+0x8 offset "unsigned int"
+0xc len "unsigned int"
+0x10 ops * const @"struct--pipe_buf_operations.txt"
+0x18 flags "unsigned int"
+0x20 private "long unsigned int"
+}

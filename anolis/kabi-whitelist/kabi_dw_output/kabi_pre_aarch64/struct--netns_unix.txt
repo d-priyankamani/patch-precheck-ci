@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/netns/unix.h:16
+Symbol:
+Byte size 48
+struct netns_unix {
+0x0 table @"struct--unix_table.txt"
+0x10 sysctl_max_dgram_qlen "int"
+0x18 ctl * @"struct--ctl_table_header.txt"
+0x20 ck_reserved1 "long unsigned int"
+0x28 ck_reserved2 "long unsigned int"
+}

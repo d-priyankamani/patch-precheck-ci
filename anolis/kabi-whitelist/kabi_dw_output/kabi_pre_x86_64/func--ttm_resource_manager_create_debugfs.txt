@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_resource.c:757
+Symbol:
+func ttm_resource_manager_create_debugfs (
+man * @"struct--ttm_resource_manager.txt"
+parent * @"struct--dentry.txt"
+name * const "char"
+)
+"void"

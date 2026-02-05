@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/uapi/linux/hdlc/ioctl.h:66
+Symbol:
+Byte size 24
+typedef fr_proto
+struct (NULL) {
+0x0 t391 "unsigned int"
+0x4 t392 "unsigned int"
+0x8 n391 "unsigned int"
+0xc n392 "unsigned int"
+0x10 n393 "unsigned int"
+0x14 lmi "short unsigned int"
+0x16 dce "short unsigned int"
+}

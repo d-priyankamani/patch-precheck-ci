@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/probe.c:2211
+Symbol:
+func pcie_relaxed_ordering_enabled (
+dev * @"struct--pci_dev.txt"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/bpf.h:222
+Symbol:
+Byte size 48
+struct btf_field {
+0x0 offset @"typedef--u32.txt"
+0x4 size @"typedef--u32.txt"
+0x8 type @"enum--btf_field_type.txt"
+0x10 (NULL) union (NULL) {
+kptr @"struct--btf_field_kptr.txt"
+graph_root @"struct--btf_field_graph_root.txt"
+}
+}

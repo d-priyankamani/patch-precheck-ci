@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:1071
+Symbol:
+func ib_query_srq (
+srq * @"struct--ib_srq.txt"
+srq_attr * @"struct--ib_srq_attr.txt"
+)
+"int"

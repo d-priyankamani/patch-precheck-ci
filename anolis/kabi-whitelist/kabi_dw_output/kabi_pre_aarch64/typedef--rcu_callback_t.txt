@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/types.h:239
+Symbol:
+Byte size 8
+typedef rcu_callback_t
+* func (NULL) (
+(NULL) * @"struct--callback_head.txt"
+)
+"void"

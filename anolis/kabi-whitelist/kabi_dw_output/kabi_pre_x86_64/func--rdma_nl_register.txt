@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/netlink.c:111
+Symbol:
+func rdma_nl_register (
+index "unsigned int"
+cb_table * const @"struct--rdma_nl_cbs.txt"
+)
+"void"

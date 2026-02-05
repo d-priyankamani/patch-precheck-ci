@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/hdmi.h:139
+Symbol:
+Byte size 4
+enum hdmi_nups {
+HDMI_NUPS_UNKNOWN = 0x0
+HDMI_NUPS_HORIZONTAL = 0x1
+HDMI_NUPS_VERTICAL = 0x2
+HDMI_NUPS_BOTH = 0x3
+}

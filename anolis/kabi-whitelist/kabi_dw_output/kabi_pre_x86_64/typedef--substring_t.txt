@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/parser.h:28
+Symbol:
+Byte size 16
+typedef substring_t
+struct (NULL) {
+0x0 from * "char"
+0x8 to * "char"
+}

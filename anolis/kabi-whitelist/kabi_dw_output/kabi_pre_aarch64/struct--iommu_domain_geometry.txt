@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/iommu.h:164
+Symbol:
+Byte size 24
+struct iommu_domain_geometry {
+0x0 aperture_start @"typedef--dma_addr_t.txt"
+0x8 aperture_end @"typedef--dma_addr_t.txt"
+0x10 force_aperture @"typedef--bool.txt"
+}

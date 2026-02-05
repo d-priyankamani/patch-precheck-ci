@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/bpf_mprog.h:139
+Symbol:
+Byte size 520
+struct bpf_mprog_entry {
+0x0 fp_items [64]@"struct--bpf_mprog_fp.txt"
+0x200 parent * @"struct--bpf_mprog_bundle.txt"
+}

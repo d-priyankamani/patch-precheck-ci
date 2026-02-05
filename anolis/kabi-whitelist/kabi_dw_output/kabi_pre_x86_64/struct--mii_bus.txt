@@ -1,0 +1,62 @@
+Version: 1.0
+File: include/linux/phy.h:370
+Symbol:
+Byte size 2880
+Alignment 8
+struct mii_bus {
+0x0 owner * @"struct--module.txt"
+0x8 name * const "char"
+0x10 id [61]"char"
+0x50 priv * "void"
+0x58 read * func (NULL) (
+(NULL) * @"struct--mii_bus.txt"
+(NULL) "int"
+(NULL) "int"
+)
+"int"
+0x60 write * func (NULL) (
+(NULL) * @"struct--mii_bus.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0x68 read_c45 * func (NULL) (
+(NULL) * @"struct--mii_bus.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) "int"
+)
+"int"
+0x70 write_c45 * func (NULL) (
+(NULL) * @"struct--mii_bus.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) "int"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0x78 reset * func (NULL) (
+(NULL) * @"struct--mii_bus.txt"
+)
+"int"
+0x80 stats [32]@"struct--mdio_bus_stats.txt"
+0x480 mdio_lock @"struct--mutex.txt"
+0x4a0 parent * @"struct--device.txt"
+0x4a8 state enum (NULL) {
+MDIOBUS_ALLOCATED = 0x1
+MDIOBUS_REGISTERED = 0x2
+MDIOBUS_UNREGISTERED = 0x3
+MDIOBUS_RELEASED = 0x4
+}
+0x4b0 8 dev @"struct--device.txt"
+0x888 mdio_map [32]* @"struct--mdio_device.txt"
+0x988 phy_mask @"typedef--u32.txt"
+0x98c phy_ignore_ta_mask @"typedef--u32.txt"
+0x990 irq [32]"int"
+0xa10 reset_delay_us "int"
+0xa14 reset_post_delay_us "int"
+0xa18 reset_gpiod * @"<declarations>/struct--gpio_desc.txt"
+0xa20 shared_lock @"struct--mutex.txt"
+0xa40 shared [32]* @"struct--phy_package_shared.txt"
+}

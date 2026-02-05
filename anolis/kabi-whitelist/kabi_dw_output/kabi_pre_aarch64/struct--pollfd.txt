@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/asm-generic/poll.h:36
+Symbol:
+Byte size 8
+struct pollfd {
+0x0 fd "int"
+0x4 events "short int"
+0x6 revents "short int"
+}

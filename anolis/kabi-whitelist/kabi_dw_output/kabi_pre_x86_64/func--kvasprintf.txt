@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/kasprintf.c:15
+Symbol:
+func kvasprintf (
+gfp @"typedef--gfp_t.txt"
+fmt * const "char"
+ap * @"struct--__va_list_tag.txt"
+)
+* "char"

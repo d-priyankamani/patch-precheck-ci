@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/hosts.c:632
+Symbol:
+func scsi_is_host_device (
+dev * const @"struct--device.txt"
+)
+"int"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/cgroup-defs.h:169
+Symbol:
+Byte size 104
+struct cgroup_file {
+0x0 kn * @"struct--kernfs_node.txt"
+0x8 notified_at "long unsigned int"
+0x10 notify_timer @"struct--timer_list.txt"
+0x58 ck_reserved1 "long unsigned int"
+0x60 ck_reserved2 "long unsigned int"
+}

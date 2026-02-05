@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/hweight.c:47
+Symbol:
+func __sw_hweight64 (
+w @"typedef--__u64.txt"
+)
+"long unsigned int"

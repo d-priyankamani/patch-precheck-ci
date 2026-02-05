@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/slab_common.c:1285
+Symbol:
+func kfree (
+object * const "void"
+)
+"void"

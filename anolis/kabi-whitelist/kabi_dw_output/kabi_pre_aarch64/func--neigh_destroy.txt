@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/neighbour.c:889
+Symbol:
+func neigh_destroy (
+neigh * @"struct--neighbour.txt"
+)
+"void"

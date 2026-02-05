@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:1879
+Symbol:
+func ib_modify_qp_with_udata (
+ib_qp * @"struct--ib_qp.txt"
+attr * @"struct--ib_qp_attr.txt"
+attr_mask "int"
+udata * @"struct--ib_udata.txt"
+)
+"int"

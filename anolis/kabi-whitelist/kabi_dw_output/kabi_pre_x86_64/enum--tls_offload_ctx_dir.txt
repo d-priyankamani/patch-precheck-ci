@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/tls.h:276
+Symbol:
+Byte size 4
+enum tls_offload_ctx_dir {
+TLS_OFFLOAD_CTX_DIR_RX = 0x0
+TLS_OFFLOAD_CTX_DIR_TX = 0x1
+}

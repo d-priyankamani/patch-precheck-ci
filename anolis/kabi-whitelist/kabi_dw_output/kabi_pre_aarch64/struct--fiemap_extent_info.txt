@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/fiemap.h:8
+Symbol:
+Byte size 24
+struct fiemap_extent_info {
+0x0 fi_flags "unsigned int"
+0x4 fi_extents_mapped "unsigned int"
+0x8 fi_extents_max "unsigned int"
+0x10 fi_extents_start * @"struct--fiemap_extent.txt"
+}

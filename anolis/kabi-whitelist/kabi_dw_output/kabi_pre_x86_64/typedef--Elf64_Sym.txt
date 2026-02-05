@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/elf.h:204
+Symbol:
+typedef Elf64_Sym
+@"struct--elf64_sym.txt"

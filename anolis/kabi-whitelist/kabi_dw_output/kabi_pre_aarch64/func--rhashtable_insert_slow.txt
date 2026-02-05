@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/rhashtable.c:633
+Symbol:
+func rhashtable_insert_slow (
+ht * @"struct--rhashtable.txt"
+key * const "void"
+obj * @"struct--rhash_head.txt"
+)
+* "void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/hweight.c:13
+Symbol:
+func __sw_hweight32 (
+w "unsigned int"
+)
+"unsigned int"

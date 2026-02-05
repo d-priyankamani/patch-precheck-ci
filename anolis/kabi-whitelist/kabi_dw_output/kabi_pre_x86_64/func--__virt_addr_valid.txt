@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/mm/physaddr.c:47
+Symbol:
+func __virt_addr_valid (
+x "long unsigned int"
+)
+@"typedef--bool.txt"

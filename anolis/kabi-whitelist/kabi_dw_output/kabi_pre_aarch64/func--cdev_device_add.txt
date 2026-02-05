@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/char_dev.c:544
+Symbol:
+func cdev_device_add (
+cdev * @"struct--cdev.txt"
+dev * @"struct--device.txt"
+)
+"int"

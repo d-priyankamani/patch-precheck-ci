@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/uapi/linux/netfilter/nf_conntrack_tuple_common.h:20
+Symbol:
+Byte size 2
+union nf_conntrack_man_proto {
+all @"typedef--__be16.txt"
+tcp struct (NULL) {
+0x0 port @"typedef--__be16.txt"
+}
+udp struct (NULL) {
+0x0 port @"typedef--__be16.txt"
+}
+icmp struct (NULL) {
+0x0 id @"typedef--__be16.txt"
+}
+dccp struct (NULL) {
+0x0 port @"typedef--__be16.txt"
+}
+sctp struct (NULL) {
+0x0 port @"typedef--__be16.txt"
+}
+gre struct (NULL) {
+0x0 key @"typedef--__be16.txt"
+}
+}

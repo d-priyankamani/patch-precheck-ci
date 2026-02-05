@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_prime.c:722
+Symbol:
+func drm_gem_prime_mmap (
+obj * @"struct--drm_gem_object.txt"
+vma * @"struct--vm_area_struct.txt"
+)
+"int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/tcp.h:1855
+Symbol:
+Byte size 56
+Alignment 8
+struct tcp_fastopen_context {
+0x0 key [2]@"typedef--siphash_key_t.txt"
+0x20 num "int"
+0x28 8 rcu @"struct--callback_head.txt"
+}

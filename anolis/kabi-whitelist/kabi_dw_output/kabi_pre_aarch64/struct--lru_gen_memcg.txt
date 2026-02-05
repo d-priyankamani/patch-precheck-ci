@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/mmzone.h:553
+Symbol:
+Byte size 232
+struct lru_gen_memcg {
+0x0 seq "long unsigned int"
+0x8 nr_memcgs [3]"long unsigned int"
+0x20 fifo [3][8]@"struct--hlist_nulls_head.txt"
+0xe0 lock @"typedef--spinlock_t.txt"
+}

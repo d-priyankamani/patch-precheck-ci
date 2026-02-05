@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:2076
+Symbol:
+func call_netdevice_notifiers (
+val "long unsigned int"
+dev * @"struct--net_device.txt"
+)
+"int"

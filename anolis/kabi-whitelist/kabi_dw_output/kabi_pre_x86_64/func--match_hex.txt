@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/parser.c:265
+Symbol:
+func match_hex (
+s * @"typedef--substring_t.txt"
+result * "int"
+)
+"int"

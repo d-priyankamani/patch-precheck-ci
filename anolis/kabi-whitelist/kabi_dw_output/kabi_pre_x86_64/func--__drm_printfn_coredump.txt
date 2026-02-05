@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_print.c:123
+Symbol:
+func __drm_printfn_coredump (
+p * @"struct--drm_printer.txt"
+vaf * @"struct--va_format.txt"
+)
+"void"

@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:552
+Symbol:
+Byte size 36
+struct ethtool_channels {
+0x0 cmd @"typedef--__u32.txt"
+0x4 max_rx @"typedef--__u32.txt"
+0x8 max_tx @"typedef--__u32.txt"
+0xc max_other @"typedef--__u32.txt"
+0x10 max_combined @"typedef--__u32.txt"
+0x14 rx_count @"typedef--__u32.txt"
+0x18 tx_count @"typedef--__u32.txt"
+0x1c other_count @"typedef--__u32.txt"
+0x20 combined_count @"typedef--__u32.txt"
+}

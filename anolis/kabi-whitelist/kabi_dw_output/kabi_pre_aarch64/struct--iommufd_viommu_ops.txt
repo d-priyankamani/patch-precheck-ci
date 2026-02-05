@@ -1,0 +1,37 @@
+Version: 1.0
+File: include/linux/iommufd.h:184
+Symbol:
+Byte size 56
+struct iommufd_viommu_ops {
+0x0 destroy * func (NULL) (
+(NULL) * @"struct--iommufd_viommu.txt"
+)
+"void"
+0x8 alloc_domain_nested * func (NULL) (
+(NULL) * @"struct--iommufd_viommu.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * const @"struct--iommu_user_data.txt"
+)
+* @"struct--iommu_domain.txt"
+0x10 cache_invalidate * func (NULL) (
+(NULL) * @"struct--iommufd_viommu.txt"
+(NULL) * @"struct--iommu_user_data_array.txt"
+)
+"int"
+0x18 vdevice_size const @"typedef--size_t.txt"
+0x20 vdevice_init * func (NULL) (
+(NULL) * @"struct--iommufd_vdevice.txt"
+)
+"int"
+0x28 get_hw_queue_size * func (NULL) (
+(NULL) * @"struct--iommufd_viommu.txt"
+(NULL) @"enum--iommu_hw_queue_type.txt"
+)
+@"typedef--size_t.txt"
+0x30 hw_queue_init_phys * func (NULL) (
+(NULL) * @"struct--iommufd_hw_queue.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--phys_addr_t.txt"
+)
+"int"
+}

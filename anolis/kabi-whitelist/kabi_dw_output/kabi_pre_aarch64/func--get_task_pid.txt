@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/pid.c:441
+Symbol:
+func get_task_pid (
+task * @"struct--task_struct.txt"
+type @"enum--pid_type.txt"
+)
+* @"struct--pid.txt"

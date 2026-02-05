@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/proc/generic.c:734
+Symbol:
+func remove_proc_subtree (
+name * const "char"
+parent * @"struct--proc_dir_entry.txt"
+)
+"int"

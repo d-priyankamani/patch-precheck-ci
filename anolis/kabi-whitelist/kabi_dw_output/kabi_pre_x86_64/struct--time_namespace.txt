@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/time_namespace.h:19
+Symbol:
+Byte size 96
+struct time_namespace {
+0x0 user_ns * @"struct--user_namespace.txt"
+0x8 ucounts * @"struct--ucounts.txt"
+0x10 ns @"struct--ns_common.txt"
+0x30 offsets @"struct--timens_offsets.txt"
+0x50 vvar_page * @"struct--page.txt"
+0x58 frozen_offsets @"typedef--bool.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:1970
+Symbol:
+func ib_set_client_data (
+device * @"struct--ib_device.txt"
+client * @"struct--ib_client.txt"
+data * "void"
+)
+"void"

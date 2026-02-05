@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:460
+Symbol:
+Byte size 8
+struct bpf_loop_inline_state {
+0x0:0-1 initialized "unsigned int"
+0x0:1-2 fit_for_inline "unsigned int"
+0x4 callback_subprogno @"typedef--u32.txt"
+}

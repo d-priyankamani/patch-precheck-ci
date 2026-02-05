@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/uprobes.h:85
+Symbol:
+Byte size 48
+struct return_instance {
+0x0 uprobe * @"<declarations>/struct--uprobe.txt"
+0x8 func "long unsigned int"
+0x10 stack "long unsigned int"
+0x18 orig_ret_vaddr "long unsigned int"
+0x20 chained @"typedef--bool.txt"
+0x28 next * @"struct--return_instance.txt"
+}

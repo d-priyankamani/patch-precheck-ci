@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/dma-buf/dma-resv.c:464
+Symbol:
+func dma_resv_iter_first (
+cursor * @"struct--dma_resv_iter.txt"
+)
+* @"struct--dma_fence.txt"

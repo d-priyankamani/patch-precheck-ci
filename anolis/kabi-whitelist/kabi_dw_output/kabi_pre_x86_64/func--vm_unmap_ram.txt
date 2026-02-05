@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/vmalloc.c:2395
+Symbol:
+func vm_unmap_ram (
+mem * const "void"
+count "unsigned int"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/sync.c:200
+Symbol:
+func vfs_fsync (
+file * @"struct--file.txt"
+datasync "int"
+)
+"int"

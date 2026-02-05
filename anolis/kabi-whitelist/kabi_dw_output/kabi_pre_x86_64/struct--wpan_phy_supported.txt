@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/net/cfg802154.h:144
+Symbol:
+Byte size 184
+struct wpan_phy_supported {
+0x0 channels [32]@"typedef--u32.txt"
+0x80 cca_modes @"typedef--u32.txt"
+0x84 cca_opts @"typedef--u32.txt"
+0x88 iftypes @"typedef--u32.txt"
+0x8c lbt @"enum--nl802154_supported_bool_states.txt"
+0x90 min_minbe @"typedef--u8.txt"
+0x91 max_minbe @"typedef--u8.txt"
+0x92 min_maxbe @"typedef--u8.txt"
+0x93 max_maxbe @"typedef--u8.txt"
+0x94 min_csma_backoffs @"typedef--u8.txt"
+0x95 max_csma_backoffs @"typedef--u8.txt"
+0x96 min_frame_retries @"typedef--s8.txt"
+0x97 max_frame_retries @"typedef--s8.txt"
+0x98 tx_powers_size @"typedef--size_t.txt"
+0xa0 cca_ed_levels_size @"typedef--size_t.txt"
+0xa8 tx_powers * const @"typedef--s32.txt"
+0xb0 cca_ed_levels * const @"typedef--s32.txt"
+}

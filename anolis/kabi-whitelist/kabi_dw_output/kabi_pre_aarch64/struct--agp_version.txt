@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/agp_backend.h:40
+Symbol:
+Byte size 4
+struct agp_version {
+0x0 major @"typedef--u16.txt"
+0x2 minor @"typedef--u16.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:678
+Symbol:
+Byte size 8
+struct kvm_hypervisor_cpuid {
+0x0 base @"typedef--u32.txt"
+0x4 limit @"typedef--u32.txt"
+}

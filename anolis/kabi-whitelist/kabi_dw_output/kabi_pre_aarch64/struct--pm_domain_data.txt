@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/pm_domain.h:197
+Symbol:
+Byte size 24
+struct pm_domain_data {
+0x0 list_node @"struct--list_head.txt"
+0x10 dev * @"struct--device.txt"
+}

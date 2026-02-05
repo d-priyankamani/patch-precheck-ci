@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/moduleparam.h:86
+Symbol:
+Byte size 16
+struct kparam_string {
+0x0 maxlen "unsigned int"
+0x8 string * "char"
+}

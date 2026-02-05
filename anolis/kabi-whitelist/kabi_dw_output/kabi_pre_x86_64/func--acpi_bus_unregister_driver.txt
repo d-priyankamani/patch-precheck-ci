@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/acpi/bus.c:996
+Symbol:
+func acpi_bus_unregister_driver (
+driver * @"struct--acpi_driver.txt"
+)
+"void"

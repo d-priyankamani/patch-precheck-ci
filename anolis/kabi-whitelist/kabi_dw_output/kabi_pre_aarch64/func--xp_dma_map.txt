@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/xdp/xsk_buff_pool.c:419
+Symbol:
+func xp_dma_map (
+pool * @"struct--xsk_buff_pool.txt"
+dev * @"struct--device.txt"
+attrs "long unsigned int"
+pages * * @"struct--page.txt"
+nr_pages @"typedef--u32.txt"
+)
+"int"

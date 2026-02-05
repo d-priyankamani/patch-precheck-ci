@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/linux/ethtool.h:462
+Symbol:
+Byte size 200
+struct ethtool_rmon_stats {
+0x0 src @"enum--ethtool_mac_stats_src.txt"
+0x8 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 undersize_pkts @"typedef--u64.txt"
+0x8 oversize_pkts @"typedef--u64.txt"
+0x10 fragments @"typedef--u64.txt"
+0x18 jabbers @"typedef--u64.txt"
+0x20 hist [10]@"typedef--u64.txt"
+0x70 hist_tx [10]@"typedef--u64.txt"
+}
+stats struct (NULL) {
+0x0 undersize_pkts @"typedef--u64.txt"
+0x8 oversize_pkts @"typedef--u64.txt"
+0x10 fragments @"typedef--u64.txt"
+0x18 jabbers @"typedef--u64.txt"
+0x20 hist [10]@"typedef--u64.txt"
+0x70 hist_tx [10]@"typedef--u64.txt"
+}
+}
+}

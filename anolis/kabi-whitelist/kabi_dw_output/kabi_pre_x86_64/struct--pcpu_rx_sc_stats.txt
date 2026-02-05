@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/macsec.h:142
+Symbol:
+Byte size 80
+struct pcpu_rx_sc_stats {
+0x0 stats @"struct--macsec_rx_sc_stats.txt"
+0x50 syncp @"struct--u64_stats_sync.txt"
+}

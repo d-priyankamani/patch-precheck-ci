@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/seq_file.c:352
+Symbol:
+func seq_release (
+inode * @"struct--inode.txt"
+file * @"struct--file.txt"
+)
+"int"

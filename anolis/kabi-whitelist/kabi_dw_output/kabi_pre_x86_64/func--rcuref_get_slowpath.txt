@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/rcuref.c:192
+Symbol:
+func rcuref_get_slowpath (
+ref * @"typedef--rcuref_t.txt"
+)
+@"typedef--bool.txt"

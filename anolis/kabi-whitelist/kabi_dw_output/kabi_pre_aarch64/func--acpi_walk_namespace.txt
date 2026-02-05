@@ -1,0 +1,13 @@
+Version: 1.0
+File: drivers/acpi/acpica/nsxfeval.c:554
+Symbol:
+func acpi_walk_namespace (
+type @"typedef--acpi_object_type.txt"
+start_object @"typedef--acpi_handle.txt"
+max_depth @"typedef--u32.txt"
+descending_callback @"typedef--acpi_walk_callback.txt"
+ascending_callback @"typedef--acpi_walk_callback.txt"
+context * "void"
+return_value * * "void"
+)
+@"typedef--acpi_status.txt"

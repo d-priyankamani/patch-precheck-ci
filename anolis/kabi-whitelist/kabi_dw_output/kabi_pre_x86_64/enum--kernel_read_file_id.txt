@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/kernel_read_file.h:22
+Symbol:
+Byte size 4
+enum kernel_read_file_id {
+READING_UNKNOWN = 0x0
+READING_FIRMWARE = 0x1
+READING_MODULE = 0x2
+READING_KEXEC_IMAGE = 0x3
+READING_KEXEC_INITRAMFS = 0x4
+READING_POLICY = 0x5
+READING_X509_CERTIFICATE = 0x6
+READING_MAX_ID = 0x7
+}

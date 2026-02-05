@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/net/devlink.h:155
+Symbol:
+Byte size 20
+struct devlink_port_new_attrs {
+0x0 flavour @"enum--devlink_port_flavour.txt"
+0x4 port_index "unsigned int"
+0x8 controller @"typedef--u32.txt"
+0xc sfnum @"typedef--u32.txt"
+0x10 pfnum @"typedef--u16.txt"
+0x12:0-1 port_index_valid @"typedef--u8.txt"
+0x12:1-2 controller_valid @"typedef--u8.txt"
+0x12:2-3 sfnum_valid @"typedef--u8.txt"
+}

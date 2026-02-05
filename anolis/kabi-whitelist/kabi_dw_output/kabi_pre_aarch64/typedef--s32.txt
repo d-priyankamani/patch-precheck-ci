@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/asm-generic/int-ll64.h:20
+Symbol:
+typedef s32
+@"typedef--__s32.txt"

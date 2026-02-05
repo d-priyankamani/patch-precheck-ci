@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:37
+Symbol:
+Byte size 64
+Alignment 64
+struct io_hash_bucket {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 list @"struct--hlist_head.txt"
+}

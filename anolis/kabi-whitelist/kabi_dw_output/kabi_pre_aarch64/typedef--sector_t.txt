@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:132
+Symbol:
+typedef sector_t
+@"typedef--u64.txt"

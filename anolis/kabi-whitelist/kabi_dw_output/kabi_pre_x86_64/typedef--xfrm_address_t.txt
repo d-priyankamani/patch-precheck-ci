@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/xfrm.h:19
+Symbol:
+Byte size 16
+typedef xfrm_address_t
+union (NULL) {
+a4 @"typedef--__be32.txt"
+a6 [4]@"typedef--__be32.txt"
+in6 @"struct--in6_addr.txt"
+}

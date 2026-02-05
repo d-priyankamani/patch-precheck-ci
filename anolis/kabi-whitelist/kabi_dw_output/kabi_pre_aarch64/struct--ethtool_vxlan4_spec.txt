@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:1031
+Symbol:
+Byte size 28
+struct ethtool_vxlan4_spec {
+0x0 vni @"typedef--__be32.txt"
+0x4 dst [6]@"typedef--__u8.txt"
+0xa src [6]@"typedef--__u8.txt"
+0x10 eth_type @"typedef--__be16.txt"
+0x12 tos @"typedef--__u8.txt"
+0x13 l4_proto @"typedef--__u8.txt"
+0x14 ip4src @"typedef--__be32.txt"
+0x18 ip4dst @"typedef--__be32.txt"
+}

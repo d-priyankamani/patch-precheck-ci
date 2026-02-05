@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/trace_events.h:727
+Symbol:
+Byte size 4
+enum event_trigger_type {
+ETT_NONE = 0x0
+ETT_TRACE_ONOFF = 0x1
+ETT_SNAPSHOT = 0x2
+ETT_STACKTRACE = 0x4
+ETT_EVENT_ENABLE = 0x8
+ETT_EVENT_HIST = 0x10
+ETT_HIST_ENABLE = 0x20
+ETT_EVENT_EPROBE = 0x40
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/memory.c:2240
+Symbol:
+func zap_vma_ptes (
+vma * @"struct--vm_area_struct.txt"
+address "long unsigned int"
+size "long unsigned int"
+)
+"void"

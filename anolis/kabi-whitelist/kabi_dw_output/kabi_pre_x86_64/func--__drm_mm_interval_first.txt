@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mm.c:157
+Symbol:
+func __drm_mm_interval_first (
+mm * const @"struct--drm_mm.txt"
+start @"typedef--u64.txt"
+last @"typedef--u64.txt"
+)
+* @"struct--drm_mm_node.txt"

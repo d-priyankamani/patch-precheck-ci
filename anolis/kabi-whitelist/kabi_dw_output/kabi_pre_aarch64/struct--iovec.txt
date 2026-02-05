@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/uio.h:17
+Symbol:
+Byte size 16
+struct iovec {
+0x0 iov_base * "void"
+0x8 iov_len @"typedef--__kernel_size_t.txt"
+}

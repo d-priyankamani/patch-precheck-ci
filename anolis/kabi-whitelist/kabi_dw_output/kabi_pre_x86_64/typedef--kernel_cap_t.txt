@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/capability.h:24
+Symbol:
+Byte size 8
+typedef kernel_cap_t
+struct (NULL) {
+0x0 val @"typedef--u64.txt"
+}

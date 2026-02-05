@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/dma-direction.h:5
+Symbol:
+Byte size 4
+enum dma_data_direction {
+DMA_BIDIRECTIONAL = 0x0
+DMA_TO_DEVICE = 0x1
+DMA_FROM_DEVICE = 0x2
+DMA_NONE = 0x3
+}

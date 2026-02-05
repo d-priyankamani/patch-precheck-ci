@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/poll.h:31
+Symbol:
+Byte size 8
+typedef poll_queue_proc
+* func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * @"typedef--wait_queue_head_t.txt"
+(NULL) * @"struct--poll_table_struct.txt"
+)
+"void"

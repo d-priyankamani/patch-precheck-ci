@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/linux/seq_file.h:32
+Symbol:
+Byte size 32
+struct seq_operations {
+0x0 start * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+* "void"
+0x8 stop * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+)
+"void"
+0x10 next * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+(NULL) * @"typedef--loff_t.txt"
+)
+* "void"
+0x18 show * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+)
+"int"
+}

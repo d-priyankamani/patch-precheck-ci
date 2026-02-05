@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/drm/drm.h:1258
+Symbol:
+Byte size 32
+struct drm_event_vblank {
+0x0 base @"struct--drm_event.txt"
+0x8 user_data @"typedef--__u64.txt"
+0x10 tv_sec @"typedef--__u32.txt"
+0x14 tv_usec @"typedef--__u32.txt"
+0x18 sequence @"typedef--__u32.txt"
+0x1c crtc_id @"typedef--__u32.txt"
+}

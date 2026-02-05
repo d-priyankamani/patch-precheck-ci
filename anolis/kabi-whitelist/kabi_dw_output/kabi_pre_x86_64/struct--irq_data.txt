@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/irq.h:182
+Symbol:
+Byte size 88
+struct irq_data {
+0x0 mask @"typedef--u32.txt"
+0x4 irq "unsigned int"
+0x8 hwirq "long unsigned int"
+0x10 common * @"struct--irq_common_data.txt"
+0x18 chip * @"struct--irq_chip.txt"
+0x20 domain * @"struct--irq_domain.txt"
+0x28 parent_data * @"struct--irq_data.txt"
+0x30 chip_data * "void"
+0x38 ck_reserved1 "long unsigned int"
+0x40 ck_reserved2 "long unsigned int"
+0x48 ck_reserved3 "long unsigned int"
+0x50 ck_reserved4 "long unsigned int"
+}

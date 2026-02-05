@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:284
+Symbol:
+Byte size 80
+struct opa_class_port_info {
+0x0 base_version @"typedef--u8.txt"
+0x1 class_version @"typedef--u8.txt"
+0x2 cap_mask @"typedef--__be16.txt"
+0x4 cap_mask2_resp_time @"typedef--__be32.txt"
+0x8 redirect_gid [16]@"typedef--u8.txt"
+0x18 redirect_tc_fl @"typedef--__be32.txt"
+0x1c redirect_lid @"typedef--__be32.txt"
+0x20 redirect_sl_qp @"typedef--__be32.txt"
+0x24 redirect_qkey @"typedef--__be32.txt"
+0x28 trap_gid [16]@"typedef--u8.txt"
+0x38 trap_tc_fl @"typedef--__be32.txt"
+0x3c trap_lid @"typedef--__be32.txt"
+0x40 trap_hl_qp @"typedef--__be32.txt"
+0x44 trap_qkey @"typedef--__be32.txt"
+0x48 trap_pkey @"typedef--__be16.txt"
+0x4a redirect_pkey @"typedef--__be16.txt"
+0x4c trap_sl_rsvd @"typedef--u8.txt"
+0x4d reserved [3]@"typedef--u8.txt"
+}

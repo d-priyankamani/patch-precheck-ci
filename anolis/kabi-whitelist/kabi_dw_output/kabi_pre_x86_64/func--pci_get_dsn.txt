@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:645
+Symbol:
+func pci_get_dsn (
+dev * @"struct--pci_dev.txt"
+)
+@"typedef--u64.txt"

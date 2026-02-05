@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/devlink.h:230
+Symbol:
+Byte size 32
+struct devlink_dpipe_header {
+0x0 name * const "char"
+0x8 id "unsigned int"
+0x10 fields * @"struct--devlink_dpipe_field.txt"
+0x18 fields_count "unsigned int"
+0x1c global @"typedef--bool.txt"
+}

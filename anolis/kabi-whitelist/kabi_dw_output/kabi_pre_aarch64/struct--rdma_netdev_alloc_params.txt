@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2264
+Symbol:
+Byte size 32
+struct rdma_netdev_alloc_params {
+0x0 sizeof_priv @"typedef--size_t.txt"
+0x8 txqs "unsigned int"
+0xc rxqs "unsigned int"
+0x10 param * "void"
+0x18 initialize_rdma_netdev * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * "void"
+)
+"int"
+}

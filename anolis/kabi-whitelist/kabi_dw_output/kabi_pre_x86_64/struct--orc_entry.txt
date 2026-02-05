@@ -1,0 +1,12 @@
+Version: 1.0
+File: arch/x86/include/asm/orc_types.h:59
+Symbol:
+Byte size 6
+struct orc_entry {
+0x0 sp_offset @"typedef--s16.txt"
+0x2 bp_offset @"typedef--s16.txt"
+0x4:0-4 sp_reg "unsigned int"
+0x4:4-8 bp_reg "unsigned int"
+0x5:0-3 type "unsigned int"
+0x5:3-4 signal "unsigned int"
+}

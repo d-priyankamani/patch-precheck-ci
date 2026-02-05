@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_transport_sas.c:947
+Symbol:
+func sas_port_alloc_num (
+parent * @"struct--device.txt"
+)
+* @"struct--sas_port.txt"

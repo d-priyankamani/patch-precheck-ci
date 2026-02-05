@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/memremap.h:71
+Symbol:
+Byte size 4
+enum memory_type {
+MEMORY_DEVICE_PRIVATE = 0x1
+MEMORY_DEVICE_COHERENT = 0x2
+MEMORY_DEVICE_FS_DAX = 0x3
+MEMORY_DEVICE_GENERIC = 0x4
+MEMORY_DEVICE_PCI_P2PDMA = 0x5
+}

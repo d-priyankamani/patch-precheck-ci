@@ -1,0 +1,11 @@
+Version: 1.0
+File: fs/proc/generic.c:574
+Symbol:
+func proc_create_data (
+name * const "char"
+mode @"typedef--umode_t.txt"
+parent * @"struct--proc_dir_entry.txt"
+proc_ops * const @"struct--proc_ops.txt"
+data * "void"
+)
+* @"struct--proc_dir_entry.txt"

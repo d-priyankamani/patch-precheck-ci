@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/sched/completion.c:45
+Symbol:
+func complete (
+x * @"struct--completion.txt"
+)
+"void"

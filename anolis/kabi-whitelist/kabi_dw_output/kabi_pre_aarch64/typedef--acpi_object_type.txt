@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/acpi/actypes.h:644
+Symbol:
+typedef acpi_object_type
+@"typedef--u32.txt"

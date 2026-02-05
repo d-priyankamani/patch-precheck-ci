@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/idr.c:172
+Symbol:
+func idr_find (
+idr * const @"struct--idr.txt"
+id "long unsigned int"
+)
+* "void"

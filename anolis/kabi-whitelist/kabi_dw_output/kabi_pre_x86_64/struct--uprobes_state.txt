@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/uprobes.h:103
+Symbol:
+Byte size 8
+struct uprobes_state {
+0x0 xol_area * @"<declarations>/struct--xol_area.txt"
+}

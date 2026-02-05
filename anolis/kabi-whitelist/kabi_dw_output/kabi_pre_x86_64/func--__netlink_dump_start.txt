@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/netlink/af_netlink.c:2328
+Symbol:
+func __netlink_dump_start (
+ssk * @"struct--sock.txt"
+skb * @"struct--sk_buff.txt"
+nlh * const @"struct--nlmsghdr.txt"
+control * @"struct--netlink_dump_control.txt"
+)
+"int"

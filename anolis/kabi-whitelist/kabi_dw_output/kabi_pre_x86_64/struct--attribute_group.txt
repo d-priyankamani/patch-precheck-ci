@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/sysfs.h:94
+Symbol:
+Byte size 40
+struct attribute_group {
+0x0 name * const "char"
+0x8 is_visible * func (NULL) (
+(NULL) * @"struct--kobject.txt"
+(NULL) * @"struct--attribute.txt"
+(NULL) "int"
+)
+@"typedef--umode_t.txt"
+0x10 is_bin_visible * func (NULL) (
+(NULL) * @"struct--kobject.txt"
+(NULL) * @"struct--bin_attribute.txt"
+(NULL) "int"
+)
+@"typedef--umode_t.txt"
+0x18 attrs * * @"struct--attribute.txt"
+0x20 bin_attrs * * @"struct--bin_attribute.txt"
+}

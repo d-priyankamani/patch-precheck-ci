@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:11145
+Symbol:
+func unregister_netdev (
+dev * @"struct--net_device.txt"
+)
+"void"

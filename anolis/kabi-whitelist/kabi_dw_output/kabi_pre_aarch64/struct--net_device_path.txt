@@ -1,0 +1,35 @@
+Version: 1.0
+File: include/linux/netdevice.h:913
+Symbol:
+Byte size 32
+struct net_device_path {
+0x0 type @"enum--net_device_path_type.txt"
+0x8 dev * const @"struct--net_device.txt"
+0x10 (NULL) union (NULL) {
+encap struct (NULL) {
+0x0 id @"typedef--u16.txt"
+0x2 proto @"typedef--__be16.txt"
+0x4 h_dest [6]@"typedef--u8.txt"
+}
+bridge struct (NULL) {
+0x0 vlan_mode enum (NULL) {
+DEV_PATH_BR_VLAN_KEEP = 0x0
+DEV_PATH_BR_VLAN_TAG = 0x1
+DEV_PATH_BR_VLAN_UNTAG = 0x2
+DEV_PATH_BR_VLAN_UNTAG_HW = 0x3
+}
+0x4 vlan_id @"typedef--u16.txt"
+0x6 vlan_proto @"typedef--__be16.txt"
+}
+dsa struct (NULL) {
+0x0 port "int"
+0x4 proto @"typedef--u16.txt"
+}
+mtk_wdma struct (NULL) {
+0x0 wdma_idx @"typedef--u8.txt"
+0x1 queue @"typedef--u8.txt"
+0x2 wcid @"typedef--u16.txt"
+0x4 bss @"typedef--u8.txt"
+}
+}
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/netfilter/nf_conntrack_tcp.h:8
+Symbol:
+Byte size 20
+struct ip_ct_tcp_state {
+0x0 td_end @"typedef--u_int32_t.txt"
+0x4 td_maxend @"typedef--u_int32_t.txt"
+0x8 td_maxwin @"typedef--u_int32_t.txt"
+0xc td_maxack @"typedef--u_int32_t.txt"
+0x10 td_scale @"typedef--u_int8_t.txt"
+0x11 flags @"typedef--u_int8_t.txt"
+}

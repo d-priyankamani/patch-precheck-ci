@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:538
+Symbol:
+func drm_connector_cleanup (
+connector * @"struct--drm_connector.txt"
+)
+"void"

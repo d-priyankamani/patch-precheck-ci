@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/devlink/trap.c:1616
+Symbol:
+func devl_trap_groups_register (
+devlink * @"struct--devlink.txt"
+groups * const @"struct--devlink_trap_group.txt"
+groups_count @"typedef--size_t.txt"
+)
+"int"

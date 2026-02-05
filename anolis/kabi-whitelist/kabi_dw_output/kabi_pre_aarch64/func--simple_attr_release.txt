@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/libfs.c:1309
+Symbol:
+func simple_attr_release (
+inode * @"struct--inode.txt"
+file * @"struct--file.txt"
+)
+"int"

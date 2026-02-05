@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:222
+Symbol:
+Byte size 4
+enum devlink_rate_type {
+DEVLINK_RATE_TYPE_LEAF = 0x0
+DEVLINK_RATE_TYPE_NODE = 0x1
+}

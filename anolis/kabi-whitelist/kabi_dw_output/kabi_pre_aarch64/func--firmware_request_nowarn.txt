@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/base/firmware_loader/main.c:1007
+Symbol:
+func firmware_request_nowarn (
+firmware * * const @"struct--firmware.txt"
+name * const "char"
+device * @"struct--device.txt"
+)
+"int"

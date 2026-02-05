@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/arm64/include/asm/processor.h:125
+Symbol:
+Byte size 4
+enum fp_type {
+FP_STATE_CURRENT = 0x0
+FP_STATE_FPSIMD = 0x1
+FP_STATE_SVE = 0x2
+}

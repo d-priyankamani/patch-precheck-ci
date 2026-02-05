@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/printk/printk.c:4167
+Symbol:
+func kmsg_dump_get_line (
+iter * @"struct--kmsg_dump_iter.txt"
+syslog @"typedef--bool.txt"
+line * "char"
+size @"typedef--size_t.txt"
+len * @"typedef--size_t.txt"
+)
+@"typedef--bool.txt"

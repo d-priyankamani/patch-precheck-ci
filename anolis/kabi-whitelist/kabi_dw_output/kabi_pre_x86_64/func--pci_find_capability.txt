@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/pci.c:518
+Symbol:
+func pci_find_capability (
+dev * @"struct--pci_dev.txt"
+cap "int"
+)
+@"typedef--u8.txt"

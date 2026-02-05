@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/scsi/scsi_host.h:530
+Symbol:
+Byte size 4
+enum scsi_host_state {
+SHOST_CREATED = 0x1
+SHOST_RUNNING = 0x2
+SHOST_CANCEL = 0x3
+SHOST_DEL = 0x4
+SHOST_RECOVERY = 0x5
+SHOST_CANCEL_RECOVERY = 0x6
+SHOST_DEL_RECOVERY = 0x7
+}

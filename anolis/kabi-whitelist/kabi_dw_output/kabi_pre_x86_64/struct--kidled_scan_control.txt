@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/kidled.h:139
+Symbol:
+Byte size 8
+struct kidled_scan_control {
+0x0 (NULL) union (NULL) {
+val @"typedef--atomic_t.txt"
+(NULL) struct (NULL) {
+0x0 seq @"typedef--u16.txt"
+0x2 duration @"typedef--u16.txt"
+}
+}
+0x4 scan_target "unsigned int"
+}

@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/net/flow_offload.h:523
+Symbol:
+Byte size 64
+struct flow_block_indr {
+0x0 list @"struct--list_head.txt"
+0x10 dev * @"struct--net_device.txt"
+0x18 sch * @"struct--Qdisc.txt"
+0x20 binder_type @"enum--flow_block_binder_type.txt"
+0x28 data * "void"
+0x30 cb_priv * "void"
+0x38 cleanup * func (NULL) (
+(NULL) * @"struct--flow_block_cb.txt"
+)
+"void"
+}

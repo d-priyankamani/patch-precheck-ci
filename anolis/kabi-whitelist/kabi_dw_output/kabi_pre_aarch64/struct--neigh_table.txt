@@ -1,0 +1,76 @@
+Version: 1.0
+File: include/net/neighbour.h:206
+Symbol:
+Byte size 896
+Alignment 8
+struct neigh_table {
+0x0 family "int"
+0x4 entry_size "unsigned int"
+0x8 key_len "unsigned int"
+0xc protocol @"typedef--__be16.txt"
+0x10 hash * func (NULL) (
+(NULL) * const "void"
+(NULL) * const @"struct--net_device.txt"
+(NULL) * @"typedef--__u32.txt"
+)
+@"typedef--__u32.txt"
+0x18 key_eq * func (NULL) (
+(NULL) * const @"struct--neighbour.txt"
+(NULL) * const "void"
+)
+@"typedef--bool.txt"
+0x20 constructor * func (NULL) (
+(NULL) * @"struct--neighbour.txt"
+)
+"int"
+0x28 pconstructor * func (NULL) (
+(NULL) * @"struct--pneigh_entry.txt"
+)
+"int"
+0x30 pdestructor * func (NULL) (
+(NULL) * @"struct--pneigh_entry.txt"
+)
+"void"
+0x38 proxy_redo * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+)
+"void"
+0x40 is_multicast * func (NULL) (
+(NULL) * const "void"
+)
+"int"
+0x48 allow_add * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+@"typedef--bool.txt"
+0x50 id * "char"
+0x58 8 parms @"struct--neigh_parms.txt"
+0xf8 parms_list @"struct--list_head.txt"
+0x108 gc_interval "int"
+0x10c gc_thresh1 "int"
+0x110 gc_thresh2 "int"
+0x114 gc_thresh3 "int"
+0x118 last_flush "long unsigned int"
+0x120 gc_work @"struct--delayed_work.txt"
+0x1d8 managed_work @"struct--delayed_work.txt"
+0x290 proxy_timer @"struct--timer_list.txt"
+0x2d8 proxy_queue @"struct--sk_buff_head.txt"
+0x2f0 entries @"typedef--atomic_t.txt"
+0x2f4 gc_entries @"typedef--atomic_t.txt"
+0x2f8 gc_list @"struct--list_head.txt"
+0x308 managed_list @"struct--list_head.txt"
+0x318 lock @"typedef--rwlock_t.txt"
+0x320 last_rand "long unsigned int"
+0x328 stats * @"struct--neigh_statistics.txt"
+0x330 nht * @"struct--neigh_hash_table.txt"
+0x338 phash_buckets * * @"struct--pneigh_entry.txt"
+0x340 ck_reserved1 "long unsigned int"
+0x348 ck_reserved2 "long unsigned int"
+0x350 ck_reserved3 "long unsigned int"
+0x358 ck_reserved4 "long unsigned int"
+0x360 ck_reserved5 "long unsigned int"
+0x368 ck_reserved6 "long unsigned int"
+0x370 ck_reserved7 "long unsigned int"
+0x378 ck_reserved8 "long unsigned int"
+}

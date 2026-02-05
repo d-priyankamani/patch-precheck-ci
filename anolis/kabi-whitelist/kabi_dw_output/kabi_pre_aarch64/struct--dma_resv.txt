@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/dma-resv.h:155
+Symbol:
+Byte size 48
+struct dma_resv {
+0x0 lock @"struct--ww_mutex.txt"
+0x28 fences * @"struct--dma_resv_list.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/smp.h:23
+Symbol:
+Byte size 32
+struct __call_single_data {
+0x0 node @"struct--__call_single_node.txt"
+0x10 func @"typedef--smp_call_func_t.txt"
+0x18 info * "void"
+}

@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/drm/drm_connector.h:1359
+Symbol:
+Byte size 96
+struct drm_cmdline_mode {
+0x0 name [32]"char"
+0x20 specified @"typedef--bool.txt"
+0x21 refresh_specified @"typedef--bool.txt"
+0x22 bpp_specified @"typedef--bool.txt"
+0x24 pixel_clock "unsigned int"
+0x28 xres "int"
+0x2c yres "int"
+0x30 bpp "int"
+0x34 refresh "int"
+0x38 rb @"typedef--bool.txt"
+0x39 interlace @"typedef--bool.txt"
+0x3a cvt @"typedef--bool.txt"
+0x3b margins @"typedef--bool.txt"
+0x3c force @"enum--drm_connector_force.txt"
+0x40 rotation_reflection "unsigned int"
+0x44 panel_orientation @"enum--drm_panel_orientation.txt"
+0x48 tv_margins @"struct--drm_connector_tv_margins.txt"
+0x58 tv_mode @"enum--drm_connector_tv_mode.txt"
+0x5c tv_mode_specified @"typedef--bool.txt"
+}

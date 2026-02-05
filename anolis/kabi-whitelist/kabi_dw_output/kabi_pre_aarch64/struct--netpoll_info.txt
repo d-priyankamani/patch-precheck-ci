@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/netpoll.h:37
+Symbol:
+Byte size 264
+Alignment 8
+struct netpoll_info {
+0x0 refcnt @"typedef--refcount_t.txt"
+0x8 dev_lock @"struct--semaphore.txt"
+0x20 txq @"struct--sk_buff_head.txt"
+0x38 tx_work @"struct--delayed_work.txt"
+0xf0 netpoll * @"struct--netpoll.txt"
+0xf8 8 rcu @"struct--callback_head.txt"
+}

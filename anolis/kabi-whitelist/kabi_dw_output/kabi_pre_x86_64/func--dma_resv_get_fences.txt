@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/dma-buf/dma-resv.c:562
+Symbol:
+func dma_resv_get_fences (
+obj * @"struct--dma_resv.txt"
+usage @"enum--dma_resv_usage.txt"
+num_fences * "unsigned int"
+fences * * * @"struct--dma_fence.txt"
+)
+"int"

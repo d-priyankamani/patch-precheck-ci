@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/cdev.h:14
+Symbol:
+Byte size 136
+struct cdev {
+0x0 kobj @"struct--kobject.txt"
+0x60 owner * @"struct--module.txt"
+0x68 ops * const @"struct--file_operations.txt"
+0x70 list @"struct--list_head.txt"
+0x80 dev @"typedef--dev_t.txt"
+0x84 count "unsigned int"
+}

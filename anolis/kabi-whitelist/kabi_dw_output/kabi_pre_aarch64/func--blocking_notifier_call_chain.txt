@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/notifier.c:376
+Symbol:
+func blocking_notifier_call_chain (
+nh * @"struct--blocking_notifier_head.txt"
+val "long unsigned int"
+v * "void"
+)
+"int"

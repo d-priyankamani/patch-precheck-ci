@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modes.c:1347
+Symbol:
+func drm_mode_set_crtcinfo (
+p * @"struct--drm_display_mode.txt"
+adjust_flags "int"
+)
+"void"

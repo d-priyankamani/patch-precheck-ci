@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/i2c/i2c-core-base.c:1747
+Symbol:
+func i2c_del_adapter (
+adap * @"struct--i2c_adapter.txt"
+)
+"void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/seq_file.c:830
+Symbol:
+func seq_write (
+seq * @"struct--seq_file.txt"
+data * const "void"
+len @"typedef--size_t.txt"
+)
+"int"

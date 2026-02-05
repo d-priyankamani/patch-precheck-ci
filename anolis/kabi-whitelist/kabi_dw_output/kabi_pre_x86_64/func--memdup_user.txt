@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/util.c:210
+Symbol:
+func memdup_user (
+src * const "void"
+len @"typedef--size_t.txt"
+)
+* "void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/rhashtable.c:1218
+Symbol:
+func rht_bucket_nested_insert (
+ht * @"struct--rhashtable.txt"
+tbl * @"struct--bucket_table.txt"
+hash "unsigned int"
+)
+* * @"struct--rhash_lock_head.txt"

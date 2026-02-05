@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/trace/trace.h:520
+Symbol:
+Byte size 24
+struct tracer_flags {
+0x0 val @"typedef--u32.txt"
+0x8 opts * @"struct--tracer_opt.txt"
+0x10 trace * @"struct--tracer.txt"
+}

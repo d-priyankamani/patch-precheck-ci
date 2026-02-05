@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/ipv4/igmp.c:1676
+Symbol:
+func __ip_mc_dec_group (
+in_dev * @"struct--in_device.txt"
+addr @"typedef--__be32.txt"
+gfp @"typedef--gfp_t.txt"
+)
+"void"

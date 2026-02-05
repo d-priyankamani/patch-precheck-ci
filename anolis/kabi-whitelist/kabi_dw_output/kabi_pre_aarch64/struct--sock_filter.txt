@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/filter.h:24
+Symbol:
+Byte size 8
+struct sock_filter {
+0x0 code @"typedef--__u16.txt"
+0x2 jt @"typedef--__u8.txt"
+0x3 jf @"typedef--__u8.txt"
+0x4 k @"typedef--__u32.txt"
+}

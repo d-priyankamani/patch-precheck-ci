@@ -1,0 +1,4 @@
+Version: 1.0
+File: net/core/net-sysfs.c:1893
+Symbol:
+var net_ns_type_operations "void"

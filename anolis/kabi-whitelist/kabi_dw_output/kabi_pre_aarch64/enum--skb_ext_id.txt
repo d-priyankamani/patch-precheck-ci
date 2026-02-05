@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/skbuff.h:4711
+Symbol:
+Byte size 4
+enum skb_ext_id {
+SKB_EXT_BRIDGE_NF = 0x0
+SKB_EXT_SEC_PATH = 0x1
+TC_SKB_EXT = 0x2
+SKB_EXT_MPTCP = 0x3
+SKB_EXT_NUM = 0x4
+}

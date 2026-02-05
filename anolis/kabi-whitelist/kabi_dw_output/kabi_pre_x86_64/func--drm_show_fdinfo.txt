@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_file.c:1013
+Symbol:
+func drm_show_fdinfo (
+m * @"struct--seq_file.txt"
+f * @"struct--file.txt"
+)
+"void"

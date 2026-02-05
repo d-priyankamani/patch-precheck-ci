@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/iov_iter.c:284
+Symbol:
+func iov_iter_init (
+i * @"struct--iov_iter.txt"
+direction "unsigned int"
+iov * const @"struct--iovec.txt"
+nr_segs "long unsigned int"
+count @"typedef--size_t.txt"
+)
+"void"

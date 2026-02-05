@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/netlink.c:141
+Symbol:
+func ibnl_put_attr (
+skb * @"struct--sk_buff.txt"
+nlh * @"struct--nlmsghdr.txt"
+len "int"
+data * "void"
+type "int"
+)
+"int"

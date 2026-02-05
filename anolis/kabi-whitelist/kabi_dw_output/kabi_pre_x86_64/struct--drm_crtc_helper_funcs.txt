@@ -1,0 +1,97 @@
+Version: 1.0
+File: include/drm/drm_modeset_helper_vtables.h:65
+Symbol:
+Byte size 128
+struct drm_crtc_helper_funcs {
+0x0 dpms * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) "int"
+)
+"void"
+0x8 prepare * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+"void"
+0x10 commit * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+"void"
+0x18 mode_valid * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * const @"struct--drm_display_mode.txt"
+)
+@"enum--drm_mode_status.txt"
+0x20 mode_fixup * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * const @"struct--drm_display_mode.txt"
+(NULL) * @"struct--drm_display_mode.txt"
+)
+@"typedef--bool.txt"
+0x28 mode_set * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_display_mode.txt"
+(NULL) * @"struct--drm_display_mode.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) * @"struct--drm_framebuffer.txt"
+)
+"int"
+0x30 mode_set_nofb * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+"void"
+0x38 mode_set_base * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) * @"struct--drm_framebuffer.txt"
+)
+"int"
+0x40 mode_set_base_atomic * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_framebuffer.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) @"enum--mode_set_atomic.txt"
+)
+"int"
+0x48 disable * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+"void"
+0x50 atomic_check * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"int"
+0x58 atomic_begin * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"void"
+0x60 atomic_flush * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"void"
+0x68 atomic_enable * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"void"
+0x70 atomic_disable * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"void"
+0x78 get_scanout_position * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * "int"
+(NULL) * "int"
+(NULL) * @"typedef--ktime_t.txt"
+(NULL) * @"typedef--ktime_t.txt"
+(NULL) * const @"struct--drm_display_mode.txt"
+)
+@"typedef--bool.txt"
+}

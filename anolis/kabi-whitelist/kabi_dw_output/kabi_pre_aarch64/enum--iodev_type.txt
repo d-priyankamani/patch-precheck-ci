@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/kvm/arm_vgic.h:168
+Symbol:
+Byte size 4
+enum iodev_type {
+IODEV_CPUIF = 0x0
+IODEV_DIST = 0x1
+IODEV_REDIST = 0x2
+IODEV_ITS = 0x3
+}

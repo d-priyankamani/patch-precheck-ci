@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/fortify-string.h:255
+Symbol:
+func strlcpy (
+p const * "char"
+q const * const "char"
+size @"typedef--size_t.txt"
+)
+@"typedef--size_t.txt"

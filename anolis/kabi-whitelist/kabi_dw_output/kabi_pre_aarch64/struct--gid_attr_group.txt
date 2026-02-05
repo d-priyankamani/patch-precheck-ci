@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/sysfs.c:56
+Symbol:
+Byte size 208
+struct gid_attr_group {
+0x0 port * @"struct--ib_port.txt"
+0x8 kobj @"struct--kobject.txt"
+0x68 groups [2]@"struct--attribute_group.txt"
+0xb8 groups_list [3]* const @"struct--attribute_group.txt"
+0xd0 attrs_list [0]@"struct--port_table_attribute.txt"
+}

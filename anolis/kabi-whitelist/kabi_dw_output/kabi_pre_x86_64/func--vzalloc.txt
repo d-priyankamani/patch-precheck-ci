@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/vmalloc.c:3520
+Symbol:
+func vzalloc (
+size "long unsigned int"
+)
+* "void"

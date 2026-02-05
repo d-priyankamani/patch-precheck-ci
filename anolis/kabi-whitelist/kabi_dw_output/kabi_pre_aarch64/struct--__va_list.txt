@@ -1,0 +1,11 @@
+Version: 1.0
+File: <built-in>:0
+Symbol:
+Byte size 32
+struct __va_list {
+0x0 __stack * "void"
+0x8 __gr_top * "void"
+0x10 __vr_top * "void"
+0x18 __gr_offs "int"
+0x1c __vr_offs "int"
+}

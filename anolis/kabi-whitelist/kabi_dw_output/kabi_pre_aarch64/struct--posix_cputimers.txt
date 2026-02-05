@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/posix-timers.h:133
+Symbol:
+Byte size 80
+struct posix_cputimers {
+0x0 bases [3]@"struct--posix_cputimer_base.txt"
+0x48 timers_active "unsigned int"
+0x4c expiry_active "unsigned int"
+}

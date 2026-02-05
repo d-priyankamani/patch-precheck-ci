@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/stat.c:165
+Symbol:
+func vfs_getattr (
+path * const @"struct--path.txt"
+stat * @"struct--kstat.txt"
+request_mask @"typedef--u32.txt"
+query_flags "unsigned int"
+)
+"int"

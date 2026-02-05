@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/devlink/param.c:703
+Symbol:
+func devlink_params_register (
+devlink * @"struct--devlink.txt"
+params * const @"struct--devlink_param.txt"
+params_count @"typedef--size_t.txt"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/core.c:2829
+Symbol:
+func devm_device_add_group (
+dev * @"struct--device.txt"
+grp * const @"struct--attribute_group.txt"
+)
+"int"

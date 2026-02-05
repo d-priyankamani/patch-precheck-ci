@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/fib_rules.h:15
+Symbol:
+Byte size 8
+struct fib_kuid_range {
+0x0 start @"typedef--kuid_t.txt"
+0x4 end @"typedef--kuid_t.txt"
+}

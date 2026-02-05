@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:290
+Symbol:
+Byte size 4
+enum devlink_selftest_status {
+DEVLINK_SELFTEST_STATUS_SKIP = 0x0
+DEVLINK_SELFTEST_STATUS_PASS = 0x1
+DEVLINK_SELFTEST_STATUS_FAIL = 0x2
+}

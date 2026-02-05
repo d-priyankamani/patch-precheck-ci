@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/devlink/port.c:1298
+Symbol:
+func devlink_port_attrs_set (
+devlink_port * @"struct--devlink_port.txt"
+attrs * @"struct--devlink_port_attrs.txt"
+)
+"void"

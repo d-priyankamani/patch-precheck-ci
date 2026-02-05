@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/flow_offload.c:280
+Symbol:
+func flow_block_cb_free (
+block_cb * @"struct--flow_block_cb.txt"
+)
+"void"

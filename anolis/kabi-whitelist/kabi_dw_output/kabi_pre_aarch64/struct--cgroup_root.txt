@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/linux/cgroup-defs.h:608
+Symbol:
+Byte size 6912
+Alignment 8
+struct cgroup_root {
+0x0 kf_root * @"<declarations>/struct--kernfs_root.txt"
+0x8 subsys_mask "unsigned int"
+0xc hierarchy_id "int"
+0x10 root_list @"struct--list_head.txt"
+0x20 8 rcu @"struct--callback_head.txt"
+0x30 8 cgrp @"struct--cgroup.txt"
+0xa90 cgrp_ancestor_storage * @"struct--cgroup.txt"
+0xa98 nr_cgrps @"typedef--atomic_t.txt"
+0xa9c flags "unsigned int"
+0xaa0 release_agent_path [4096]"char"
+0x1aa0 name [64]"char"
+0x1ae0 ck_reserved1 "long unsigned int"
+0x1ae8 ck_reserved2 "long unsigned int"
+0x1af0 ck_reserved3 "long unsigned int"
+0x1af8 ck_reserved4 "long unsigned int"
+}

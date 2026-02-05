@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/umem_odp.c:265
+Symbol:
+func ib_umem_odp_release (
+umem_odp * @"struct--ib_umem_odp.txt"
+)
+"void"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/wait.h:30
+Symbol:
+Byte size 40
+struct wait_queue_entry {
+0x0 flags "unsigned int"
+0x8 private * "void"
+0x10 func @"typedef--wait_queue_func_t.txt"
+0x18 entry @"struct--list_head.txt"
+}

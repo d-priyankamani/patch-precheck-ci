@@ -1,0 +1,4 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_print.c:42
+Symbol:
+var __drm_debug "void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/kobject.c:619
+Symbol:
+func kobject_del (
+kobj * @"struct--kobject.txt"
+)
+"void"

@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/miscdevice.h:79
+Symbol:
+Byte size 80
+struct miscdevice {
+0x0 minor "int"
+0x8 name * const "char"
+0x10 fops * const @"struct--file_operations.txt"
+0x18 list @"struct--list_head.txt"
+0x28 parent * @"struct--device.txt"
+0x30 this_device * @"struct--device.txt"
+0x38 groups * * const @"struct--attribute_group.txt"
+0x40 nodename * const "char"
+0x48 mode @"typedef--umode_t.txt"
+}

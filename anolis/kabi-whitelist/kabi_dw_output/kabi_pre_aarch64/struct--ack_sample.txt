@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/tcp.h:1053
+Symbol:
+Byte size 12
+struct ack_sample {
+0x0 pkts_acked @"typedef--u32.txt"
+0x4 rtt_us @"typedef--s32.txt"
+0x8 in_flight @"typedef--u32.txt"
+}

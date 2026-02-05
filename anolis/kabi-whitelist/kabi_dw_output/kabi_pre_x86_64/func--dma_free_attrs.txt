@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/dma/mapping.c:609
+Symbol:
+func dma_free_attrs (
+dev * @"struct--device.txt"
+size @"typedef--size_t.txt"
+cpu_addr * "void"
+dma_handle @"typedef--dma_addr_t.txt"
+attrs "long unsigned int"
+)
+"void"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/devlink.h:797
+Symbol:
+Byte size 16
+struct devlink_trap_group {
+0x0 name * const "char"
+0x8 id @"typedef--u16.txt"
+0xa generic @"typedef--bool.txt"
+0xc init_policer_id @"typedef--u32.txt"
+}

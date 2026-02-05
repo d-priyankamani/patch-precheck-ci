@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/memcontrol.h:245
+Symbol:
+Byte size 128
+struct reclaim_coldpgs_stats {
+0x0 counts [12]"long unsigned int"
+0x60 ck_reserved1 "long unsigned int"
+0x68 ck_reserved2 "long unsigned int"
+0x70 ck_reserved3 "long unsigned int"
+0x78 ck_reserved4 "long unsigned int"
+}

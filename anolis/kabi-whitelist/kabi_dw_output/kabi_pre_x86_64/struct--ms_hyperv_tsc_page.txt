@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/asm-generic/hyperv-tlfs.h:98
+Symbol:
+Byte size 24
+struct ms_hyperv_tsc_page {
+0x0 tsc_sequence volatile @"typedef--u32.txt"
+0x4 reserved1 @"typedef--u32.txt"
+0x8 tsc_scale volatile @"typedef--u64.txt"
+0x10 tsc_offset volatile @"typedef--s64.txt"
+}

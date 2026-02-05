@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:381
+Symbol:
+Byte size 4
+struct ib_cq_caps {
+0x0 max_cq_moderation_count @"typedef--u16.txt"
+0x2 max_cq_moderation_period @"typedef--u16.txt"
+}

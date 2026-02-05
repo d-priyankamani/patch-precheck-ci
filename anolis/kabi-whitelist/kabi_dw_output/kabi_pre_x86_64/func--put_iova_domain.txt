@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/iommu/iova.c:445
+Symbol:
+func put_iova_domain (
+iovad * @"struct--iova_domain.txt"
+)
+"void"

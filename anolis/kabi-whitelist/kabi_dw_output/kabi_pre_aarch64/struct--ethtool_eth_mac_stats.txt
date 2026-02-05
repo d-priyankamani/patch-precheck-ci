@@ -1,0 +1,57 @@
+Version: 1.0
+File: include/linux/ethtool.h:323
+Symbol:
+Byte size 184
+struct ethtool_eth_mac_stats {
+0x0 src @"enum--ethtool_mac_stats_src.txt"
+0x8 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 FramesTransmittedOK @"typedef--u64.txt"
+0x8 SingleCollisionFrames @"typedef--u64.txt"
+0x10 MultipleCollisionFrames @"typedef--u64.txt"
+0x18 FramesReceivedOK @"typedef--u64.txt"
+0x20 FrameCheckSequenceErrors @"typedef--u64.txt"
+0x28 AlignmentErrors @"typedef--u64.txt"
+0x30 OctetsTransmittedOK @"typedef--u64.txt"
+0x38 FramesWithDeferredXmissions @"typedef--u64.txt"
+0x40 LateCollisions @"typedef--u64.txt"
+0x48 FramesAbortedDueToXSColls @"typedef--u64.txt"
+0x50 FramesLostDueToIntMACXmitError @"typedef--u64.txt"
+0x58 CarrierSenseErrors @"typedef--u64.txt"
+0x60 OctetsReceivedOK @"typedef--u64.txt"
+0x68 FramesLostDueToIntMACRcvError @"typedef--u64.txt"
+0x70 MulticastFramesXmittedOK @"typedef--u64.txt"
+0x78 BroadcastFramesXmittedOK @"typedef--u64.txt"
+0x80 FramesWithExcessiveDeferral @"typedef--u64.txt"
+0x88 MulticastFramesReceivedOK @"typedef--u64.txt"
+0x90 BroadcastFramesReceivedOK @"typedef--u64.txt"
+0x98 InRangeLengthErrors @"typedef--u64.txt"
+0xa0 OutOfRangeLengthField @"typedef--u64.txt"
+0xa8 FrameTooLongErrors @"typedef--u64.txt"
+}
+stats struct (NULL) {
+0x0 FramesTransmittedOK @"typedef--u64.txt"
+0x8 SingleCollisionFrames @"typedef--u64.txt"
+0x10 MultipleCollisionFrames @"typedef--u64.txt"
+0x18 FramesReceivedOK @"typedef--u64.txt"
+0x20 FrameCheckSequenceErrors @"typedef--u64.txt"
+0x28 AlignmentErrors @"typedef--u64.txt"
+0x30 OctetsTransmittedOK @"typedef--u64.txt"
+0x38 FramesWithDeferredXmissions @"typedef--u64.txt"
+0x40 LateCollisions @"typedef--u64.txt"
+0x48 FramesAbortedDueToXSColls @"typedef--u64.txt"
+0x50 FramesLostDueToIntMACXmitError @"typedef--u64.txt"
+0x58 CarrierSenseErrors @"typedef--u64.txt"
+0x60 OctetsReceivedOK @"typedef--u64.txt"
+0x68 FramesLostDueToIntMACRcvError @"typedef--u64.txt"
+0x70 MulticastFramesXmittedOK @"typedef--u64.txt"
+0x78 BroadcastFramesXmittedOK @"typedef--u64.txt"
+0x80 FramesWithExcessiveDeferral @"typedef--u64.txt"
+0x88 MulticastFramesReceivedOK @"typedef--u64.txt"
+0x90 BroadcastFramesReceivedOK @"typedef--u64.txt"
+0x98 InRangeLengthErrors @"typedef--u64.txt"
+0xa0 OutOfRangeLengthField @"typedef--u64.txt"
+0xa8 FrameTooLongErrors @"typedef--u64.txt"
+}
+}
+}

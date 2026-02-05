@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/drm/drm.h:129
+Symbol:
+Byte size 64
+struct drm_hw_lock {
+0x0 lock volatile "unsigned int"
+0x4 padding [60]"char"
+}

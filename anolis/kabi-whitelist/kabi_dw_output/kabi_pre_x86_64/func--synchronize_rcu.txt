@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/rcu/tree.c:3609
+Symbol:
+func synchronize_rcu (
+)
+"void"

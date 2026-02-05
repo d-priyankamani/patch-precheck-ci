@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1997
+Symbol:
+Byte size 4
+struct ib_flow_tunnel_filter {
+0x0 tunnel_id @"typedef--__be32.txt"
+0x4 real_sz [0]@"typedef--u8.txt"
+}

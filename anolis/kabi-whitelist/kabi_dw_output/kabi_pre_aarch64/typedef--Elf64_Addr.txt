@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/elf.h:16
+Symbol:
+typedef Elf64_Addr
+@"typedef--__u64.txt"

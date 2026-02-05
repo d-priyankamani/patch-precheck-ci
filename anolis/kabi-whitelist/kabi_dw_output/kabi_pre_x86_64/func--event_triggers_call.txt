@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/trace/trace_events_trigger.c:58
+Symbol:
+func event_triggers_call (
+file * @"struct--trace_event_file.txt"
+buffer * @"<declarations>/struct--trace_buffer.txt"
+rec * "void"
+event * @"struct--ring_buffer_event.txt"
+)
+@"enum--event_trigger_type.txt"

@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/atomic/atomic-long.h:13
+Symbol:
+typedef atomic_long_t
+@"typedef--atomic64_t.txt"

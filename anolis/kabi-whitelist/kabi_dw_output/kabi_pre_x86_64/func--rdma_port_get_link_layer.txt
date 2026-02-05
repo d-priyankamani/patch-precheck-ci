@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:233
+Symbol:
+func rdma_port_get_link_layer (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+)
+@"enum--rdma_link_layer.txt"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/kthread.c:1381
+Symbol:
+func kthread_cancel_delayed_work_sync (
+dwork * @"struct--kthread_delayed_work.txt"
+)
+@"typedef--bool.txt"

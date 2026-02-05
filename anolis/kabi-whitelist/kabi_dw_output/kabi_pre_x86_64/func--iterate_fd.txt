@@ -1,0 +1,15 @@
+Version: 1.0
+File: fs/file.c:1300
+Symbol:
+func iterate_fd (
+files * @"struct--files_struct.txt"
+n "unsigned int"
+f * func (NULL) (
+(NULL) * const "void"
+(NULL) * @"struct--file.txt"
+(NULL) "unsigned int"
+)
+"int"
+p * const "void"
+)
+"int"

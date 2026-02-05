@@ -1,0 +1,57 @@
+Version: 1.0
+File: include/linux/phylink.h:241
+Symbol:
+Byte size 64
+struct phylink_mac_ops {
+0x0 validate * func (NULL) (
+(NULL) * @"struct--phylink_config.txt"
+(NULL) * "long unsigned int"
+(NULL) * @"struct--phylink_link_state.txt"
+)
+"void"
+0x8 mac_get_caps * func (NULL) (
+(NULL) * @"struct--phylink_config.txt"
+(NULL) @"typedef--phy_interface_t.txt"
+)
+"long unsigned int"
+0x10 mac_select_pcs * func (NULL) (
+(NULL) * @"struct--phylink_config.txt"
+(NULL) @"typedef--phy_interface_t.txt"
+)
+* @"struct--phylink_pcs.txt"
+0x18 mac_prepare * func (NULL) (
+(NULL) * @"struct--phylink_config.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--phy_interface_t.txt"
+)
+"int"
+0x20 mac_config * func (NULL) (
+(NULL) * @"struct--phylink_config.txt"
+(NULL) "unsigned int"
+(NULL) * const @"struct--phylink_link_state.txt"
+)
+"void"
+0x28 mac_finish * func (NULL) (
+(NULL) * @"struct--phylink_config.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--phy_interface_t.txt"
+)
+"int"
+0x30 mac_link_down * func (NULL) (
+(NULL) * @"struct--phylink_config.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--phy_interface_t.txt"
+)
+"void"
+0x38 mac_link_up * func (NULL) (
+(NULL) * @"struct--phylink_config.txt"
+(NULL) * @"struct--phy_device.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--phy_interface_t.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) @"typedef--bool.txt"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+}

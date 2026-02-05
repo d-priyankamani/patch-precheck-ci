@@ -1,0 +1,12 @@
+Version: 1.0
+File: arch/arm64/include/asm/mmu.h:32
+Symbol:
+Byte size 40
+typedef mm_context_t
+struct (NULL) {
+0x0 id @"typedef--atomic64_t.txt"
+0x8 sigpage * "void"
+0x10 pinned @"typedef--refcount_t.txt"
+0x18 vdso * "void"
+0x20 flags "long unsigned int"
+}

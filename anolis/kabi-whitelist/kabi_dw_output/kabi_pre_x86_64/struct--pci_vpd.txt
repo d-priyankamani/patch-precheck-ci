@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/pci.h:310
+Symbol:
+Byte size 40
+struct pci_vpd {
+0x0 lock @"struct--mutex.txt"
+0x20 len "unsigned int"
+0x24 cap @"typedef--u8.txt"
+}

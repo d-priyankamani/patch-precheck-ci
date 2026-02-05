@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/mm_types.h:624
+Symbol:
+Byte size 40
+struct vma_numab_state {
+0x0 next_scan "long unsigned int"
+0x8 pids_active_reset "long unsigned int"
+0x10 pids_active [2]"long unsigned int"
+0x20 start_scan_seq "int"
+0x24 prev_scan_seq "int"
+}

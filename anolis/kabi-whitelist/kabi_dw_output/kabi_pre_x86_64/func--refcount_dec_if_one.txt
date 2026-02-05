@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/refcount.c:55
+Symbol:
+func refcount_dec_if_one (
+r * @"typedef--refcount_t.txt"
+)
+@"typedef--bool.txt"

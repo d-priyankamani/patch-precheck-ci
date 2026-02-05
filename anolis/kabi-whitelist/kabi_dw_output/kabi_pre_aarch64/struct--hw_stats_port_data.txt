@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/sysfs.c:100
+Symbol:
+Byte size 8
+struct hw_stats_port_data {
+0x0 stats * @"struct--rdma_hw_stats.txt"
+0x8 attrs [0]@"struct--hw_stats_port_attribute.txt"
+}

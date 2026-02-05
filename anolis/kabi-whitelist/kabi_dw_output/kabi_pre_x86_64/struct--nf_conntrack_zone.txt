@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/netfilter/nf_conntrack_zones_common.h:16
+Symbol:
+Byte size 4
+struct nf_conntrack_zone {
+0x0 id @"typedef--u16.txt"
+0x2 flags @"typedef--u8.txt"
+0x3 dir @"typedef--u8.txt"
+}

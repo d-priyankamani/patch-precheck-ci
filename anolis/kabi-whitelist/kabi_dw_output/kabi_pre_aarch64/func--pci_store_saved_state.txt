@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:1935
+Symbol:
+func pci_store_saved_state (
+dev * @"struct--pci_dev.txt"
+)
+* @"struct--pci_saved_state.txt"

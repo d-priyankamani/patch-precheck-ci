@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_syncobj.c:517
+Symbol:
+func drm_syncobj_free (
+kref * @"struct--kref.txt"
+)
+"void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/xdp.c:425
+Symbol:
+func xdp_return_frame_rx_napi (
+xdpf * @"struct--xdp_frame.txt"
+)
+"void"

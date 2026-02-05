@@ -1,0 +1,4 @@
+Version: 1.0
+File: arch/x86/xen/enlighten.c:67
+Symbol:
+var xen_domain_type "void"

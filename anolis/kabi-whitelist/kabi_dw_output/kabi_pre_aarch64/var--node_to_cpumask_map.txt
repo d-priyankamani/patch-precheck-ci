@@ -1,0 +1,4 @@
+Version: 1.0
+File: drivers/base/arch_numa.c:38
+Symbol:
+var node_to_cpumask_map "void"

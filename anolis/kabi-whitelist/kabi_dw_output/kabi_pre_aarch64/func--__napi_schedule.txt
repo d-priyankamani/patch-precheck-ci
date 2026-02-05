@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:6075
+Symbol:
+func __napi_schedule (
+n * @"struct--napi_struct.txt"
+)
+"void"

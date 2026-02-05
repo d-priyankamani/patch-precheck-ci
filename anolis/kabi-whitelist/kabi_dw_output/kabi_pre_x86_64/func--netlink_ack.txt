@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/netlink/af_netlink.c:2468
+Symbol:
+func netlink_ack (
+in_skb * @"struct--sk_buff.txt"
+nlh * @"struct--nlmsghdr.txt"
+err "int"
+extack * const @"struct--netlink_ext_ack.txt"
+)
+"void"

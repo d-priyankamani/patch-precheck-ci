@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_crtc_helper.c:1040
+Symbol:
+func drm_helper_force_disable_all (
+dev * @"struct--drm_device.txt"
+)
+"int"

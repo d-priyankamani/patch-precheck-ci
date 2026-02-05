@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_helper.c:720
+Symbol:
+func drm_dp_dpcd_read_link_status (
+aux * @"struct--drm_dp_aux.txt"
+status * @"typedef--u8.txt"
+)
+"int"

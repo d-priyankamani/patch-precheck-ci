@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:209
+Symbol:
+Byte size 32
+struct ib_cm_sidr_req_event_param {
+0x0 listen_id * @"struct--ib_cm_id.txt"
+0x8 service_id @"typedef--__be64.txt"
+0x10 sgid_attr * const @"struct--ib_gid_attr.txt"
+0x18 bth_pkey @"typedef--u16.txt"
+0x1a port @"typedef--u8.txt"
+0x1c pkey @"typedef--u16.txt"
+}

@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/sched.h:817
+Symbol:
+struct kmap_ctrl {
+}

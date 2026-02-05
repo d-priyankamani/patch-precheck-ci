@@ -1,0 +1,21 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs.h:99
+Symbol:
+Byte size 1320
+Alignment 8
+struct ib_uverbs_device {
+0x0 refcount @"typedef--refcount_t.txt"
+0x4 num_comp_vectors @"typedef--u32.txt"
+0x8 comp @"struct--completion.txt"
+0x28 8 dev @"struct--device.txt"
+0x408 groups [2]* const @"struct--attribute_group.txt"
+0x418 ib_dev * @"struct--ib_device.txt"
+0x420 devnum "int"
+0x428 cdev @"struct--cdev.txt"
+0x4b0 xrcd_tree @"struct--rb_root.txt"
+0x4b8 xrcd_tree_mutex @"struct--mutex.txt"
+0x4d8 disassociate_srcu @"struct--srcu_struct.txt"
+0x4f0 lists_mutex @"struct--mutex.txt"
+0x510 uverbs_file_list @"struct--list_head.txt"
+0x520 uapi * @"struct--uverbs_api.txt"
+}

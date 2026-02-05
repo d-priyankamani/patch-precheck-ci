@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/switchdev.h:254
+Symbol:
+Byte size 40
+struct switchdev_notifier_port_obj_info {
+0x0 info @"struct--switchdev_notifier_info.txt"
+0x18 obj * const @"struct--switchdev_obj.txt"
+0x20 handled @"typedef--bool.txt"
+}

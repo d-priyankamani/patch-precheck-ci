@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_cmd.c:2572
+Symbol:
+func flow_resources_alloc (
+num_specs @"typedef--size_t.txt"
+)
+* @"struct--ib_uflow_resources.txt"

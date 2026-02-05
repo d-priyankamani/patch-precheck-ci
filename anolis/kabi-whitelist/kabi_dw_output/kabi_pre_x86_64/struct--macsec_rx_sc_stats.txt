@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/net/macsec.h:74
+Symbol:
+Byte size 80
+struct macsec_rx_sc_stats {
+0x0 InOctetsValidated @"typedef--__u64.txt"
+0x8 InOctetsDecrypted @"typedef--__u64.txt"
+0x10 InPktsUnchecked @"typedef--__u64.txt"
+0x18 InPktsDelayed @"typedef--__u64.txt"
+0x20 InPktsOK @"typedef--__u64.txt"
+0x28 InPktsInvalid @"typedef--__u64.txt"
+0x30 InPktsLate @"typedef--__u64.txt"
+0x38 InPktsNotValid @"typedef--__u64.txt"
+0x40 InPktsNotUsingSA @"typedef--__u64.txt"
+0x48 InPktsUnusedSA @"typedef--__u64.txt"
+}

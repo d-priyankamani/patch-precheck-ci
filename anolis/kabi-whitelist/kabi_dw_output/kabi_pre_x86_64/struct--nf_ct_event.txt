@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/netfilter/nf_conntrack_ecache.h:51
+Symbol:
+Byte size 16
+struct nf_ct_event {
+0x0 ct * @"struct--nf_conn.txt"
+0x8 portid @"typedef--u32.txt"
+0xc report "int"
+}

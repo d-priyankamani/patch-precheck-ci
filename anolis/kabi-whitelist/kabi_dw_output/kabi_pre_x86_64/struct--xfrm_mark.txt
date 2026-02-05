@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/xfrm.h:323
+Symbol:
+Byte size 8
+struct xfrm_mark {
+0x0 v @"typedef--__u32.txt"
+0x4 m @"typedef--__u32.txt"
+}

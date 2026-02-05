@@ -1,0 +1,166 @@
+Version: 1.0
+File: include/linux/dma-map-ops.h:16
+Symbol:
+Byte size 224
+struct dma_map_ops {
+0x0 alloc * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--dma_addr_t.txt"
+(NULL) @"typedef--gfp_t.txt"
+(NULL) "long unsigned int"
+)
+* "void"
+0x8 free * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) * "void"
+(NULL) @"typedef--dma_addr_t.txt"
+(NULL) "long unsigned int"
+)
+"void"
+0x10 alloc_pages_op * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--dma_addr_t.txt"
+(NULL) @"enum--dma_data_direction.txt"
+(NULL) @"typedef--gfp_t.txt"
+)
+* @"struct--page.txt"
+0x18 free_pages * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"struct--page.txt"
+(NULL) @"typedef--dma_addr_t.txt"
+(NULL) @"enum--dma_data_direction.txt"
+)
+"void"
+0x20 mmap * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+(NULL) * "void"
+(NULL) @"typedef--dma_addr_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x28 get_sgtable * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--sg_table.txt"
+(NULL) * "void"
+(NULL) @"typedef--dma_addr_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x30 map_page * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--page.txt"
+(NULL) "long unsigned int"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"enum--dma_data_direction.txt"
+(NULL) "long unsigned int"
+)
+@"typedef--dma_addr_t.txt"
+0x38 unmap_page * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--dma_addr_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"enum--dma_data_direction.txt"
+(NULL) "long unsigned int"
+)
+"void"
+0x40 map_sg * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--scatterlist.txt"
+(NULL) "int"
+(NULL) @"enum--dma_data_direction.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x48 unmap_sg * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--scatterlist.txt"
+(NULL) "int"
+(NULL) @"enum--dma_data_direction.txt"
+(NULL) "long unsigned int"
+)
+"void"
+0x50 map_resource * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--phys_addr_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"enum--dma_data_direction.txt"
+(NULL) "long unsigned int"
+)
+@"typedef--dma_addr_t.txt"
+0x58 unmap_resource * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--dma_addr_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"enum--dma_data_direction.txt"
+(NULL) "long unsigned int"
+)
+"void"
+0x60 sync_single_for_cpu * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--dma_addr_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"enum--dma_data_direction.txt"
+)
+"void"
+0x68 sync_single_for_device * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--dma_addr_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"enum--dma_data_direction.txt"
+)
+"void"
+0x70 sync_sg_for_cpu * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--scatterlist.txt"
+(NULL) "int"
+(NULL) @"enum--dma_data_direction.txt"
+)
+"void"
+0x78 sync_sg_for_device * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--scatterlist.txt"
+(NULL) "int"
+(NULL) @"enum--dma_data_direction.txt"
+)
+"void"
+0x80 cache_sync * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * "void"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"enum--dma_data_direction.txt"
+)
+"void"
+0x88 dma_supported * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--u64.txt"
+)
+"int"
+0x90 get_required_mask * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+@"typedef--u64.txt"
+0x98 max_mapping_size * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+@"typedef--size_t.txt"
+0xa0 opt_mapping_size * func (NULL) (
+)
+@"typedef--size_t.txt"
+0xa8 get_merge_boundary * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"long unsigned int"
+0xb0 ck_reserved1 "long unsigned int"
+0xb8 ck_reserved2 "long unsigned int"
+0xc0 ck_reserved3 "long unsigned int"
+0xc8 ck_reserved4 "long unsigned int"
+0xd0 ck_reserved5 "long unsigned int"
+0xd8 ck_reserved6 "long unsigned int"
+}

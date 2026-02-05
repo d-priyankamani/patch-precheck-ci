@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/timer.h:12
+Symbol:
+Byte size 72
+struct timer_list {
+0x0 entry @"struct--hlist_node.txt"
+0x10 expires "long unsigned int"
+0x18 function * func (NULL) (
+(NULL) * @"struct--timer_list.txt"
+)
+"void"
+0x20 flags @"typedef--u32.txt"
+0x28 ck_reserved1 "long unsigned int"
+0x30 ck_reserved2 "long unsigned int"
+0x38 ck_reserved3 "long unsigned int"
+0x40 ck_reserved4 "long unsigned int"
+}

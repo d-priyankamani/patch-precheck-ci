@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/params.c:511
+Symbol:
+func param_set_copystring (
+val * const "char"
+kp * const @"struct--kernel_param.txt"
+)
+"int"

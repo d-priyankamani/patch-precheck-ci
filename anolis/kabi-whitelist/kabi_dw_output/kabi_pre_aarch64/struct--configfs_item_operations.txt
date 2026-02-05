@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/configfs.h:208
+Symbol:
+Byte size 24
+struct configfs_item_operations {
+0x0 release * func (NULL) (
+(NULL) * @"struct--config_item.txt"
+)
+"void"
+0x8 allow_link * func (NULL) (
+(NULL) * @"struct--config_item.txt"
+(NULL) * @"struct--config_item.txt"
+)
+"int"
+0x10 drop_link * func (NULL) (
+(NULL) * @"struct--config_item.txt"
+(NULL) * @"struct--config_item.txt"
+)
+"void"
+}

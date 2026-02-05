@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/pci/search.c:228
+Symbol:
+func pci_get_domain_bus_and_slot (
+domain "int"
+bus "unsigned int"
+devfn "unsigned int"
+)
+* @"struct--pci_dev.txt"

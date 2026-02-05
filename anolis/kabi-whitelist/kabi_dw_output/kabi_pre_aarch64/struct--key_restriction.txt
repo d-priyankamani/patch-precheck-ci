@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/key.h:177
+Symbol:
+Byte size 24
+struct key_restriction {
+0x0 check @"typedef--key_restrict_link_func_t.txt"
+0x8 key * @"struct--key.txt"
+0x10 keytype * @"<declarations>/struct--key_type.txt"
+}

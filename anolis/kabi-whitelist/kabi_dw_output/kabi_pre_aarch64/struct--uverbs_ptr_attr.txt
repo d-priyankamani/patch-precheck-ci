@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/rdma/uverbs_ioctl.h:599
+Symbol:
+Byte size 16
+struct uverbs_ptr_attr {
+0x0 (NULL) union (NULL) {
+ptr * "void"
+data @"typedef--u64.txt"
+}
+0x8 len @"typedef--u16.txt"
+0xa uattr_idx @"typedef--u16.txt"
+0xc enum_id @"typedef--u8.txt"
+}

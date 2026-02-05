@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/vsprintf.c:2753
+Symbol:
+func vsnprintf (
+buf * "char"
+size @"typedef--size_t.txt"
+fmt * const "char"
+args * @"struct--__va_list_tag.txt"
+)
+"int"

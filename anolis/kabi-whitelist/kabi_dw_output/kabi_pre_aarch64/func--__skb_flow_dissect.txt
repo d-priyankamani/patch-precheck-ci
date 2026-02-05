@@ -1,0 +1,15 @@
+Version: 1.0
+File: net/core/flow_dissector.c:1033
+Symbol:
+func __skb_flow_dissect (
+net * const @"struct--net.txt"
+skb * const @"struct--sk_buff.txt"
+flow_dissector * @"struct--flow_dissector.txt"
+target_container * "void"
+data * const "void"
+proto @"typedef--__be16.txt"
+nhoff "int"
+hlen "int"
+flags "unsigned int"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpio/gpiolib-legacy.c:9
+Symbol:
+func gpio_free (
+gpio "unsigned int"
+)
+"void"

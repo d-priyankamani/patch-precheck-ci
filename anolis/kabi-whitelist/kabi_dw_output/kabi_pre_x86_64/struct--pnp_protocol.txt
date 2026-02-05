@@ -1,0 +1,38 @@
+Version: 1.0
+File: include/linux/pnp.h:411
+Symbol:
+Byte size 1096
+Alignment 8
+struct pnp_protocol {
+0x0 protocol_list @"struct--list_head.txt"
+0x10 name * "char"
+0x18 get * func (NULL) (
+(NULL) * @"struct--pnp_dev.txt"
+)
+"int"
+0x20 set * func (NULL) (
+(NULL) * @"struct--pnp_dev.txt"
+)
+"int"
+0x28 disable * func (NULL) (
+(NULL) * @"struct--pnp_dev.txt"
+)
+"int"
+0x30 can_wakeup * func (NULL) (
+(NULL) * @"struct--pnp_dev.txt"
+)
+@"typedef--bool.txt"
+0x38 suspend * func (NULL) (
+(NULL) * @"struct--pnp_dev.txt"
+(NULL) @"typedef--pm_message_t.txt"
+)
+"int"
+0x40 resume * func (NULL) (
+(NULL) * @"struct--pnp_dev.txt"
+)
+"int"
+0x48 number "unsigned char"
+0x50 8 dev @"struct--device.txt"
+0x428 cards @"struct--list_head.txt"
+0x438 devices @"struct--list_head.txt"
+}

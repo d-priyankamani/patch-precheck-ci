@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/mad.c:522
+Symbol:
+func ib_unregister_mad_agent (
+mad_agent * @"struct--ib_mad_agent.txt"
+)
+"void"

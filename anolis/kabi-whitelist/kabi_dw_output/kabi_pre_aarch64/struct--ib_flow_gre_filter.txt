@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2026
+Symbol:
+Byte size 8
+struct ib_flow_gre_filter {
+0x0 c_ks_res0_ver @"typedef--__be16.txt"
+0x2 protocol @"typedef--__be16.txt"
+0x4 key @"typedef--__be32.txt"
+0x8 real_sz [0]@"typedef--u8.txt"
+}

@@ -1,0 +1,98 @@
+Version: 1.0
+File: include/linux/pm.h:286
+Symbol:
+Byte size 184
+struct dev_pm_ops {
+0x0 prepare * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x8 complete * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x10 suspend * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x18 resume * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x20 freeze * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x28 thaw * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x30 poweroff * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x38 restore * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x40 suspend_late * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x48 resume_early * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x50 freeze_late * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x58 thaw_early * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x60 poweroff_late * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x68 restore_early * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x70 suspend_noirq * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x78 resume_noirq * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x80 freeze_noirq * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x88 thaw_noirq * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x90 poweroff_noirq * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x98 restore_noirq * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0xa0 runtime_suspend * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0xa8 runtime_resume * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0xb0 runtime_idle * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+}

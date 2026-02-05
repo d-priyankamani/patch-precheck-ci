@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/drm/drm_edid.h:91
+Symbol:
+Byte size 13
+struct detailed_data_string {
+0x0 str [13]@"typedef--u8.txt"
+}

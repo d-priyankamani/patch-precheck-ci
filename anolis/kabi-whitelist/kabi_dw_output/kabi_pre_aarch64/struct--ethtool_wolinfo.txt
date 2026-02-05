@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:211
+Symbol:
+Byte size 20
+struct ethtool_wolinfo {
+0x0 cmd @"typedef--__u32.txt"
+0x4 supported @"typedef--__u32.txt"
+0x8 wolopts @"typedef--__u32.txt"
+0xc sopass [6]@"typedef--__u8.txt"
+}

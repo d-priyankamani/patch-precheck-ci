@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/timekeeping.h:60
+Symbol:
+Byte size 4
+enum tk_offsets {
+TK_OFFS_REAL = 0x0
+TK_OFFS_BOOT = 0x1
+TK_OFFS_TAI = 0x2
+TK_OFFS_MAX = 0x3
+}

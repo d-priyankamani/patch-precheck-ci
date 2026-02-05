@@ -1,0 +1,26 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:684
+Symbol:
+Byte size 784
+Alignment 8
+struct kvm_vcpu_xen {
+0x0 hypercall_rip @"typedef--u64.txt"
+0x8 current_runstate @"typedef--u32.txt"
+0xc upcall_vector @"typedef--u8.txt"
+0x10 vcpu_info_cache @"struct--gfn_to_pfn_cache.txt"
+0x90 vcpu_time_info_cache @"struct--gfn_to_pfn_cache.txt"
+0x110 runstate_cache @"struct--gfn_to_pfn_cache.txt"
+0x190 runstate2_cache @"struct--gfn_to_pfn_cache.txt"
+0x210 last_steal @"typedef--u64.txt"
+0x218 runstate_entry_time @"typedef--u64.txt"
+0x220 runstate_times [4]@"typedef--u64.txt"
+0x240 evtchn_pending_sel "long unsigned int"
+0x248 vcpu_id @"typedef--u32.txt"
+0x24c timer_virq @"typedef--u32.txt"
+0x250 timer_expires @"typedef--u64.txt"
+0x258 timer_pending @"typedef--atomic_t.txt"
+0x260 8 timer @"struct--hrtimer.txt"
+0x2b8 poll_evtchn "int"
+0x2c0 poll_timer @"struct--timer_list.txt"
+0x308 cpuid @"struct--kvm_hypervisor_cpuid.txt"
+}

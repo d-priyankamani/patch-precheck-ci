@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/perf_event.h:134
+Symbol:
+Byte size 24
+struct hw_perf_event_extra {
+0x0 config @"typedef--u64.txt"
+0x8 reg "unsigned int"
+0xc alloc "int"
+0x10 idx "int"
+}

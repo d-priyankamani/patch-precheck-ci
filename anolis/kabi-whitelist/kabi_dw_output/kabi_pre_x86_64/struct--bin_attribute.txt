@@ -1,0 +1,38 @@
+Version: 1.0
+File: include/linux/sysfs.h:214
+Symbol:
+Byte size 72
+struct bin_attribute {
+0x0 attr @"struct--attribute.txt"
+0x10 size @"typedef--size_t.txt"
+0x18 private * "void"
+0x20 f_mapping * func (NULL) (
+)
+* @"struct--address_space.txt"
+0x28 read * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * @"struct--kobject.txt"
+(NULL) * @"struct--bin_attribute.txt"
+(NULL) * "char"
+(NULL) @"typedef--loff_t.txt"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x30 write * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * @"struct--kobject.txt"
+(NULL) * @"struct--bin_attribute.txt"
+(NULL) * "char"
+(NULL) @"typedef--loff_t.txt"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x38 mmap * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * @"struct--kobject.txt"
+(NULL) * @"struct--bin_attribute.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+0x40 ck_reserved1 "long unsigned int"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/sched/topology.c:2244
+Symbol:
+func sched_numa_hop_mask (
+node "unsigned int"
+hops "unsigned int"
+)
+* const @"struct--cpumask.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/ethtool.h:425
+Symbol:
+Byte size 216
+struct ethtool_fec_stats {
+0x0 corrected_blocks @"struct--ethtool_fec_stat.txt"
+0x48 uncorrectable_blocks @"struct--ethtool_fec_stat.txt"
+0x90 corrected_bits @"struct--ethtool_fec_stat.txt"
+}

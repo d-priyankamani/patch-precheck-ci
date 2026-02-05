@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/uapi/rdma/ib_user_sa.h:55
+Symbol:
+Byte size 64
+struct ib_user_path_rec {
+0x0 dgid [16]@"typedef--__u8.txt"
+0x10 sgid [16]@"typedef--__u8.txt"
+0x20 dlid @"typedef--__be16.txt"
+0x22 slid @"typedef--__be16.txt"
+0x24 raw_traffic @"typedef--__u32.txt"
+0x28 flow_label @"typedef--__be32.txt"
+0x2c reversible @"typedef--__u32.txt"
+0x30 mtu @"typedef--__u32.txt"
+0x34 pkey @"typedef--__be16.txt"
+0x36 hop_limit @"typedef--__u8.txt"
+0x37 traffic_class @"typedef--__u8.txt"
+0x38 numb_path @"typedef--__u8.txt"
+0x39 sl @"typedef--__u8.txt"
+0x3a mtu_selector @"typedef--__u8.txt"
+0x3b rate_selector @"typedef--__u8.txt"
+0x3c rate @"typedef--__u8.txt"
+0x3d packet_life_time_selector @"typedef--__u8.txt"
+0x3e packet_life_time @"typedef--__u8.txt"
+0x3f preference @"typedef--__u8.txt"
+}

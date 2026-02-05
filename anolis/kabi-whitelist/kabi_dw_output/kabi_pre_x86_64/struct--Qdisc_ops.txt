@@ -1,0 +1,89 @@
+Version: 1.0
+File: include/net/sch_generic.h:302
+Symbol:
+Byte size 184
+struct Qdisc_ops {
+0x0 next * @"struct--Qdisc_ops.txt"
+0x8 cl_ops * const @"struct--Qdisc_class_ops.txt"
+0x10 id [16]"char"
+0x20 priv_size "int"
+0x24 static_flags "unsigned int"
+0x28 enqueue * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--Qdisc.txt"
+(NULL) * * @"struct--sk_buff.txt"
+)
+"int"
+0x30 dequeue * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+)
+* @"struct--sk_buff.txt"
+0x38 peek * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+)
+* @"struct--sk_buff.txt"
+0x40 init * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) * @"struct--nlattr.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x48 reset * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+)
+"void"
+0x50 destroy * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+)
+"void"
+0x58 change * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) * @"struct--nlattr.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x60 attach * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+)
+"void"
+0x68 change_tx_queue_len * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x70 change_real_num_tx * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "unsigned int"
+)
+"void"
+0x78 dump * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x80 dump_stats * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) * @"struct--gnet_dump.txt"
+)
+"int"
+0x88 ingress_block_set * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) @"typedef--u32.txt"
+)
+"void"
+0x90 egress_block_set * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) @"typedef--u32.txt"
+)
+"void"
+0x98 ingress_block_get * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+)
+@"typedef--u32.txt"
+0xa0 egress_block_get * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+)
+@"typedef--u32.txt"
+0xa8 owner * @"struct--module.txt"
+0xb0 ck_reserved1 "long unsigned int"
+}

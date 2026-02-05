@@ -1,0 +1,23 @@
+Version: 1.0
+File: arch/arm64/include/asm/ptrace.h:178
+Symbol:
+Byte size 336
+struct pt_regs {
+0x0 (NULL) union (NULL) {
+user_regs @"struct--user_pt_regs.txt"
+(NULL) struct (NULL) {
+0x0 regs [31]@"typedef--u64.txt"
+0xf8 sp @"typedef--u64.txt"
+0x100 pc @"typedef--u64.txt"
+0x108 pstate @"typedef--u64.txt"
+}
+}
+0x110 orig_x0 @"typedef--u64.txt"
+0x118 syscallno @"typedef--s32.txt"
+0x11c unused2 @"typedef--u32.txt"
+0x120 sdei_ttbr1 @"typedef--u64.txt"
+0x128 pmr_save @"typedef--u64.txt"
+0x130 stackframe [2]@"typedef--u64.txt"
+0x140 lockdep_hardirqs @"typedef--u64.txt"
+0x148 exit_rcu @"typedef--u64.txt"
+}

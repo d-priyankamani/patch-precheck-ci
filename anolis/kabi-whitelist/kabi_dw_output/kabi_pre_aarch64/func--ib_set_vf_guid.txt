@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2616
+Symbol:
+func ib_set_vf_guid (
+device * @"struct--ib_device.txt"
+vf "int"
+port @"typedef--u32.txt"
+guid @"typedef--u64.txt"
+type "int"
+)
+"int"

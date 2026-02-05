@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/sockptr.h:20
+Symbol:
+Byte size 16
+typedef sockptr_t
+struct (NULL) {
+0x0 (NULL) union (NULL) {
+kernel * "void"
+user * "void"
+}
+0x8:0-1 is_kernel @"typedef--bool.txt"
+}

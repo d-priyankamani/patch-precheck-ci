@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/net/macsec.h:60
+Symbol:
+typedef pn_t
+@"union--pn.txt"

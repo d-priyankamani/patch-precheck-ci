@@ -1,0 +1,10 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:288
+Symbol:
+Byte size 32
+struct kvm_vcpu_fault_info {
+0x0 esr_el2 @"typedef--u64.txt"
+0x8 far_el2 @"typedef--u64.txt"
+0x10 hpfar_el2 @"typedef--u64.txt"
+0x18 disr_el1 @"typedef--u64.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/rdma_counter.h:22
+Symbol:
+Byte size 12
+struct rdma_counter_mode {
+0x0 mode @"enum--rdma_nl_counter_mode.txt"
+0x4 mask @"enum--rdma_nl_counter_mask.txt"
+0x8 param @"struct--auto_mode_param.txt"
+}

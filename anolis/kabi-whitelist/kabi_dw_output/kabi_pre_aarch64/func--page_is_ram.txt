@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/resource.c:486
+Symbol:
+func page_is_ram (
+pfn "long unsigned int"
+)
+"int"

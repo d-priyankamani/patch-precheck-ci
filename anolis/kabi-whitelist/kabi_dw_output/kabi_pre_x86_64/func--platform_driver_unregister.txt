@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/platform.c:876
+Symbol:
+func platform_driver_unregister (
+drv * @"struct--platform_driver.txt"
+)
+"void"

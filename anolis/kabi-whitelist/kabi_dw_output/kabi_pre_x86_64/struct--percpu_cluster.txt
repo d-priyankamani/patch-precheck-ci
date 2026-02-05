@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/swap.h:284
+Symbol:
+Byte size 40
+struct percpu_cluster {
+0x0 next [10]"unsigned int"
+}

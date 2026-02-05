@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/ttm/ttm_tt.h:46
+Symbol:
+Byte size 48
+struct ttm_tt {
+0x0 pages * * @"struct--page.txt"
+0x8 page_flags @"typedef--uint32_t.txt"
+0xc num_pages @"typedef--uint32_t.txt"
+0x10 sg * @"struct--sg_table.txt"
+0x18 dma_address * @"typedef--dma_addr_t.txt"
+0x20 swap_storage * @"struct--file.txt"
+0x28 caching @"enum--ttm_caching.txt"
+}

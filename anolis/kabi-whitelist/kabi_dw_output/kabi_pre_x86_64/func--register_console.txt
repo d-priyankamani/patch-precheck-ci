@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/printk/printk.c:3493
+Symbol:
+func register_console (
+newcon * @"struct--console.txt"
+)
+"void"

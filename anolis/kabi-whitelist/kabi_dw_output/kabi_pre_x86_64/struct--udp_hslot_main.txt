@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/udp.h:79
+Symbol:
+Byte size 32
+Alignment 16
+struct udp_hslot_main {
+0x0 16 hslot @"struct--udp_hslot.txt"
+0x10 hash4_cnt @"typedef--u32.txt"
+}

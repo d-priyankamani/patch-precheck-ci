@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/params.c:542
+Symbol:
+Byte size 64
+struct param_attribute {
+0x0 mattr @"struct--module_attribute.txt"
+0x38 param * const @"struct--kernel_param.txt"
+}

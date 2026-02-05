@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/cpumask.c:59
+Symbol:
+func alloc_cpumask_var_node (
+mask * @"typedef--cpumask_var_t.txt"
+flags @"typedef--gfp_t.txt"
+node "int"
+)
+@"typedef--bool.txt"

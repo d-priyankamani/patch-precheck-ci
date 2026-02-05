@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/base/devres.c:829
+Symbol:
+func devm_kmalloc (
+dev * @"struct--device.txt"
+size @"typedef--size_t.txt"
+gfp @"typedef--gfp_t.txt"
+)
+* "void"

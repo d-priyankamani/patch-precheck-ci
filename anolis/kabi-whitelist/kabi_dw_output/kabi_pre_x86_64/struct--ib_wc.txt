@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1014
+Symbol:
+Byte size 72
+struct ib_wc {
+0x0 (NULL) union (NULL) {
+wr_id @"typedef--u64.txt"
+wr_cqe * @"struct--ib_cqe.txt"
+}
+0x8 status @"enum--ib_wc_status.txt"
+0xc opcode @"enum--ib_wc_opcode.txt"
+0x10 vendor_err @"typedef--u32.txt"
+0x14 byte_len @"typedef--u32.txt"
+0x18 qp * @"struct--ib_qp.txt"
+0x20 ex union (NULL) {
+imm_data @"typedef--__be32.txt"
+invalidate_rkey @"typedef--u32.txt"
+}
+0x24 src_qp @"typedef--u32.txt"
+0x28 slid @"typedef--u32.txt"
+0x2c wc_flags "int"
+0x30 pkey_index @"typedef--u16.txt"
+0x32 sl @"typedef--u8.txt"
+0x33 dlid_path_bits @"typedef--u8.txt"
+0x34 port_num @"typedef--u32.txt"
+0x38 smac [6]@"typedef--u8.txt"
+0x3e vlan_id @"typedef--u16.txt"
+0x40 network_hdr_type @"typedef--u8.txt"
+}

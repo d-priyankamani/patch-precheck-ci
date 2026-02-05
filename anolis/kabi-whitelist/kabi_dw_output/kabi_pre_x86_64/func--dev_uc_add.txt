@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev_addr_lists.c:684
+Symbol:
+func dev_uc_add (
+dev * @"struct--net_device.txt"
+addr * const "unsigned char"
+)
+"int"

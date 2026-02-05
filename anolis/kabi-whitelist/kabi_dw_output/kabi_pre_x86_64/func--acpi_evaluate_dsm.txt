@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/acpi/utils.c:690
+Symbol:
+func acpi_evaluate_dsm (
+handle @"typedef--acpi_handle.txt"
+guid * const @"typedef--guid_t.txt"
+rev @"typedef--u64.txt"
+func @"typedef--u64.txt"
+argv4 * @"union--acpi_object.txt"
+)
+* @"union--acpi_object.txt"

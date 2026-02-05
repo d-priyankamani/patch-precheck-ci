@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/mutex.c:558
+Symbol:
+func ww_mutex_unlock (
+lock * @"struct--ww_mutex.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/libfs.c:723
+Symbol:
+func simple_open (
+inode * @"struct--inode.txt"
+file * @"struct--file.txt"
+)
+"int"

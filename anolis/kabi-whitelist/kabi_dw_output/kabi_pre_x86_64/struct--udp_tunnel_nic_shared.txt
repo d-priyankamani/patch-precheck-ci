@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/udp_tunnel.h:211
+Symbol:
+Byte size 24
+struct udp_tunnel_nic_shared {
+0x0 udp_tunnel_nic_info * @"<declarations>/struct--udp_tunnel_nic.txt"
+0x8 devices @"struct--list_head.txt"
+}

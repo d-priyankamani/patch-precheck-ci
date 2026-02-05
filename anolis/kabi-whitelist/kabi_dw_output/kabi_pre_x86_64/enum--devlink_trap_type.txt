@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:337
+Symbol:
+Byte size 4
+enum devlink_trap_type {
+DEVLINK_TRAP_TYPE_DROP = 0x0
+DEVLINK_TRAP_TYPE_EXCEPTION = 0x1
+DEVLINK_TRAP_TYPE_CONTROL = 0x2
+}

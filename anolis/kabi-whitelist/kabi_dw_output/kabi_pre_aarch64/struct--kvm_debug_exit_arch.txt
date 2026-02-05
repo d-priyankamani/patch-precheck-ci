@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/arm64/include/uapi/asm/kvm.h:147
+Symbol:
+Byte size 16
+struct kvm_debug_exit_arch {
+0x0 hsr @"typedef--__u32.txt"
+0x4 hsr_high @"typedef--__u32.txt"
+0x8 far @"typedef--__u64.txt"
+}

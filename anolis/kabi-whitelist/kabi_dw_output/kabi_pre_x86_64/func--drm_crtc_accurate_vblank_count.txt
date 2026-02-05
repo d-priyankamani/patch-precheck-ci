@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vblank.c:403
+Symbol:
+func drm_crtc_accurate_vblank_count (
+crtc * @"struct--drm_crtc.txt"
+)
+@"typedef--u64.txt"

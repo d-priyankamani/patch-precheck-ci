@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/bpf.h:999
+Symbol:
+Byte size 72
+struct bpf_prog_offload {
+0x0 prog * @"struct--bpf_prog.txt"
+0x8 netdev * @"struct--net_device.txt"
+0x10 offdev * @"<declarations>/struct--bpf_offload_dev.txt"
+0x18 dev_priv * "void"
+0x20 offloads @"struct--list_head.txt"
+0x30 dev_state @"typedef--bool.txt"
+0x31 opt_failed @"typedef--bool.txt"
+0x38 jited_image * "void"
+0x40 jited_len @"typedef--u32.txt"
+}

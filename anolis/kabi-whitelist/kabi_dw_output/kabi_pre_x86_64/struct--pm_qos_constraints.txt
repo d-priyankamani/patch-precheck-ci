@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/pm_qos.h:52
+Symbol:
+Byte size 40
+struct pm_qos_constraints {
+0x0 list @"struct--plist_head.txt"
+0x10 target_value @"typedef--s32.txt"
+0x14 default_value @"typedef--s32.txt"
+0x18 no_constraint_value @"typedef--s32.txt"
+0x1c type @"enum--pm_qos_type.txt"
+0x20 notifiers * @"struct--blocking_notifier_head.txt"
+}

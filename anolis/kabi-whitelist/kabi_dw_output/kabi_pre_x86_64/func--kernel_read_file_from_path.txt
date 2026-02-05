@@ -1,0 +1,12 @@
+Version: 1.0
+File: fs/kernel_read_file.c:127
+Symbol:
+func kernel_read_file_from_path (
+path * const "char"
+offset @"typedef--loff_t.txt"
+buf * * "void"
+buf_size @"typedef--size_t.txt"
+file_size * @"typedef--size_t.txt"
+id @"enum--kernel_read_file_id.txt"
+)
+@"typedef--ssize_t.txt"

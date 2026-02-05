@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/types.h:38
+Symbol:
+typedef __le32
+@"typedef--__u32.txt"

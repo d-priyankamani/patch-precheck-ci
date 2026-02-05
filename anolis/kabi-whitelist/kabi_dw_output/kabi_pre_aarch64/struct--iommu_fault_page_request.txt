@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/iommu.h:75
+Symbol:
+Byte size 40
+struct iommu_fault_page_request {
+0x0 flags @"typedef--u32.txt"
+0x4 pasid @"typedef--u32.txt"
+0x8 grpid @"typedef--u32.txt"
+0xc perm @"typedef--u32.txt"
+0x10 addr @"typedef--u64.txt"
+0x18 private_data [2]@"typedef--u64.txt"
+}

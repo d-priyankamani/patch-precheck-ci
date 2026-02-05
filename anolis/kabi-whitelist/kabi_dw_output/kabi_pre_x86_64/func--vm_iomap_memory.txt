@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/memory.c:3004
+Symbol:
+func vm_iomap_memory (
+vma * @"struct--vm_area_struct.txt"
+start @"typedef--phys_addr_t.txt"
+len "long unsigned int"
+)
+"int"

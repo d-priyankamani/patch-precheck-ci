@@ -1,0 +1,19 @@
+Version: 1.0
+File: drivers/iommu/dma-iommu.c:56
+Symbol:
+Byte size 280
+Alignment 8
+struct iommu_dma_cookie {
+0x0 8 iovad @"struct--iova_domain.txt"
+0x80 msi_page_list @"struct--list_head.txt"
+0x90 (NULL) union (NULL) {
+single_fq * @"struct--iova_fq.txt"
+percpu_fq * @"struct--iova_fq.txt"
+}
+0x98 fq_flush_start_cnt @"typedef--atomic64_t.txt"
+0xa0 fq_flush_finish_cnt @"typedef--atomic64_t.txt"
+0xa8 fq_timer @"struct--timer_list.txt"
+0xf0 fq_timer_on @"typedef--atomic_t.txt"
+0xf8 fq_domain * @"struct--iommu_domain.txt"
+0x100 options @"struct--iommu_dma_options.txt"
+}

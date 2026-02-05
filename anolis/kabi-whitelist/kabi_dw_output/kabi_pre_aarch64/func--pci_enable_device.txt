@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:2171
+Symbol:
+func pci_enable_device (
+dev * @"struct--pci_dev.txt"
+)
+"int"

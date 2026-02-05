@@ -1,0 +1,4 @@
+Version: 1.0
+File: drivers/dma-buf/dma-resv.c:57
+Symbol:
+var reservation_ww_class "void"

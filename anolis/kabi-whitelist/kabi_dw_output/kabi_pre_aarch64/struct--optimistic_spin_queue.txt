@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/osq_lock.h:15
+Symbol:
+Byte size 4
+struct optimistic_spin_queue {
+0x0 tail @"typedef--atomic_t.txt"
+}

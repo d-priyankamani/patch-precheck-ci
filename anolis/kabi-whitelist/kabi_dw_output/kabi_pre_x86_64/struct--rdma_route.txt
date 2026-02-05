@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/rdma_cm.h:52
+Symbol:
+Byte size 424
+struct rdma_route {
+0x0 addr @"struct--rdma_addr.txt"
+0x188 path_rec * @"struct--sa_path_rec.txt"
+0x190 path_rec_inbound * @"struct--sa_path_rec.txt"
+0x198 path_rec_outbound * @"struct--sa_path_rec.txt"
+0x1a0 num_pri_alt_paths "int"
+}

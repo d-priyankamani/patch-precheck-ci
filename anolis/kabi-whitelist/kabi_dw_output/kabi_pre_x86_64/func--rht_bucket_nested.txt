@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/rhashtable.c:1207
+Symbol:
+func rht_bucket_nested (
+tbl * const @"struct--bucket_table.txt"
+hash "unsigned int"
+)
+* * @"struct--rhash_lock_head.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_helper.c:136
+Symbol:
+func drm_dp_get_adjust_request_pre_emphasis (
+link_status * const @"typedef--u8.txt"
+lane "int"
+)
+@"typedef--u8.txt"

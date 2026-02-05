@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/trace_events.h:140
+Symbol:
+Byte size 8
+typedef trace_print_func
+* func (NULL) (
+(NULL) * @"struct--trace_iterator.txt"
+(NULL) "int"
+(NULL) * @"struct--trace_event.txt"
+)
+@"enum--print_line_t.txt"

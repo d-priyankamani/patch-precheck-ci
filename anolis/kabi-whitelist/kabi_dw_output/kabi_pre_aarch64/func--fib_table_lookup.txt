@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/ipv4/fib_trie.c:1425
+Symbol:
+func fib_table_lookup (
+tb * @"struct--fib_table.txt"
+flp * const @"struct--flowi4.txt"
+res * @"struct--fib_result.txt"
+fib_flags "int"
+)
+"int"

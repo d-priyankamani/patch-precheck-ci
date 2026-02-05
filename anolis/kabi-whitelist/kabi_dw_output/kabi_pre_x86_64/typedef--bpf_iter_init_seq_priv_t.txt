@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/bpf.h:63
+Symbol:
+Byte size 8
+typedef bpf_iter_init_seq_priv_t
+* func (NULL) (
+(NULL) * "void"
+(NULL) * @"struct--bpf_iter_aux_info.txt"
+)
+"int"

@@ -1,0 +1,6 @@
+Version: 1.0
+File: arch/x86/kernel/tsc.c:279
+Symbol:
+func sched_clock (
+)
+@"typedef--u64.txt"

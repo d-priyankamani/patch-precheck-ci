@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/leds.h:471
+Symbol:
+Byte size 88
+struct led_trigger {
+0x0 name * const "char"
+0x8 activate * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+)
+"int"
+0x10 deactivate * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+)
+"void"
+0x18 brightness @"enum--led_brightness.txt"
+0x20 trigger_type * @"struct--led_hw_trigger_type.txt"
+0x28 leddev_list_lock @"typedef--spinlock_t.txt"
+0x30 led_cdevs @"struct--list_head.txt"
+0x40 next_trig @"struct--list_head.txt"
+0x50 groups * * const @"struct--attribute_group.txt"
+}

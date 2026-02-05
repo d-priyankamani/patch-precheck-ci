@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1269
+Symbol:
+Byte size 4
+enum ib_qp_state {
+IB_QPS_RESET = 0x0
+IB_QPS_INIT = 0x1
+IB_QPS_RTR = 0x2
+IB_QPS_RTS = 0x3
+IB_QPS_SQD = 0x4
+IB_QPS_SQE = 0x5
+IB_QPS_ERR = 0x6
+}

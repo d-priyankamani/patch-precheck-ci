@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/libfs.c:1067
+Symbol:
+func simple_pin_fs (
+type * @"struct--file_system_type.txt"
+mount * * @"struct--vfsmount.txt"
+count * "int"
+)
+"int"

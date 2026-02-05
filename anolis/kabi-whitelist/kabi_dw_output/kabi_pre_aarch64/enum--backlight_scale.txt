@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/backlight.h:90
+Symbol:
+Byte size 4
+enum backlight_scale {
+BACKLIGHT_SCALE_UNKNOWN = 0x0
+BACKLIGHT_SCALE_LINEAR = 0x1
+BACKLIGHT_SCALE_NON_LINEAR = 0x2
+}

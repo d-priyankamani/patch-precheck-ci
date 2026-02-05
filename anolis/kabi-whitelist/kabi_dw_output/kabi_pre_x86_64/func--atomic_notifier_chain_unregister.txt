@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/notifier.c:194
+Symbol:
+func atomic_notifier_chain_unregister (
+nh * @"struct--atomic_notifier_head.txt"
+n * @"struct--notifier_block.txt"
+)
+"int"

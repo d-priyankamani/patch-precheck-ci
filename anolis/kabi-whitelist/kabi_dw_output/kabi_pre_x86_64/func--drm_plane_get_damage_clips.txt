@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_plane.c:1513
+Symbol:
+func drm_plane_get_damage_clips (
+state * const @"struct--drm_plane_state.txt"
+)
+* @"struct--drm_mode_rect.txt"

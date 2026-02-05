@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/multicast.c:693
+Symbol:
+func ib_sa_get_mcmember_rec (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+mgid * @"union--ib_gid.txt"
+rec * @"struct--ib_sa_mcmember_rec.txt"
+)
+"int"

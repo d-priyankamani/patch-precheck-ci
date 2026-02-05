@@ -1,0 +1,13 @@
+Version: 1.0
+File: lib/nlattr.c:719
+Symbol:
+func __nla_parse (
+tb * * @"struct--nlattr.txt"
+maxtype "int"
+head * const @"struct--nlattr.txt"
+len "int"
+policy * const @"struct--nla_policy.txt"
+validate "unsigned int"
+extack * @"struct--netlink_ext_ack.txt"
+)
+"int"

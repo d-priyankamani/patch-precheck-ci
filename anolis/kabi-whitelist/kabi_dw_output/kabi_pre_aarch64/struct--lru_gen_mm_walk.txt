@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/mmzone.h:486
+Symbol:
+Byte size 208
+struct lru_gen_mm_walk {
+0x0 lruvec * @"struct--lruvec.txt"
+0x8 max_seq "long unsigned int"
+0x10 next_addr "long unsigned int"
+0x18 nr_pages [4][2][5]"int"
+0xb8 mm_stats [4]"int"
+0xc8 batched "int"
+0xcc can_swap @"typedef--bool.txt"
+0xcd force_scan @"typedef--bool.txt"
+}

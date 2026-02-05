@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/drm_connector.h:50
+Symbol:
+Byte size 4
+enum drm_connector_force {
+DRM_FORCE_UNSPECIFIED = 0x0
+DRM_FORCE_OFF = 0x1
+DRM_FORCE_ON = 0x2
+DRM_FORCE_ON_DIGITAL = 0x3
+}

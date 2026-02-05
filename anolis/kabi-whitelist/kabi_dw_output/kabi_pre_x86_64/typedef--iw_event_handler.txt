@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/iw_cm.h:53
+Symbol:
+Byte size 8
+typedef iw_event_handler
+* func (NULL) (
+(NULL) * @"struct--iw_cm_id.txt"
+(NULL) * @"struct--iw_cm_event.txt"
+)
+"int"

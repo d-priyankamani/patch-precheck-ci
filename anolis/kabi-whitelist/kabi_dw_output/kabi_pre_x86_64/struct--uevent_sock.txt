@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/kobject_uevent.c:38
+Symbol:
+Byte size 24
+struct uevent_sock {
+0x0 list @"struct--list_head.txt"
+0x10 sk * @"struct--sock.txt"
+}

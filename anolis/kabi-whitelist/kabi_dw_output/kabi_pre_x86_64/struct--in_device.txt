@@ -1,0 +1,32 @@
+Version: 1.0
+File: include/linux/inetdevice.h:27
+Symbol:
+Byte size 448
+Alignment 8
+struct in_device {
+0x0 dev * @"struct--net_device.txt"
+0x8 dev_tracker @"typedef--netdevice_tracker.txt"
+0x8 refcnt @"typedef--refcount_t.txt"
+0xc dead "int"
+0x10 ifa_list * @"struct--in_ifaddr.txt"
+0x18 mc_list * @"struct--ip_mc_list.txt"
+0x20 mc_hash * * @"struct--ip_mc_list.txt"
+0x28 mc_count "int"
+0x2c mc_tomb_lock @"typedef--spinlock_t.txt"
+0x30 mc_tomb * @"struct--ip_mc_list.txt"
+0x38 mr_v1_seen "long unsigned int"
+0x40 mr_v2_seen "long unsigned int"
+0x48 mr_maxdelay "long unsigned int"
+0x50 mr_qi "long unsigned int"
+0x58 mr_qri "long unsigned int"
+0x60 mr_qrv "unsigned char"
+0x61 mr_gq_running "unsigned char"
+0x64 mr_ifc_count @"typedef--u32.txt"
+0x68 mr_gq_timer @"struct--timer_list.txt"
+0xb0 mr_ifc_timer @"struct--timer_list.txt"
+0xf8 arp_parms * @"struct--neigh_parms.txt"
+0x100 cnf @"struct--ipv4_devconf.txt"
+0x1a0 8 callback_head @"struct--callback_head.txt"
+0x1b0 ck_reserved1 "long unsigned int"
+0x1b8 ck_reserved2 "long unsigned int"
+}

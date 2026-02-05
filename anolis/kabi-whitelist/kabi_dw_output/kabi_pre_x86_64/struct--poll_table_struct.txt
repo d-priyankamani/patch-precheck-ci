@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/poll.h:37
+Symbol:
+Byte size 16
+struct poll_table_struct {
+0x0 _qproc @"typedef--poll_queue_proc.txt"
+0x8 _key @"typedef--__poll_t.txt"
+}

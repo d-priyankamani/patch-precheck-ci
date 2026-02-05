@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/netdevice.h:731
+Symbol:
+Byte size 24
+Alignment 8
+struct rps_map {
+0x0 len "unsigned int"
+0x8 8 rcu @"struct--callback_head.txt"
+0x18 cpus [0]@"typedef--u16.txt"
+}

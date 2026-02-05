@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/xfrm.h:157
+Symbol:
+Byte size 3
+struct xfrm_mode {
+0x0 encap @"typedef--u8.txt"
+0x1 family @"typedef--u8.txt"
+0x2 flags @"typedef--u8.txt"
+}

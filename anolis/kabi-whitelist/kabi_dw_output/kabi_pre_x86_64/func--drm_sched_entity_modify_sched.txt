@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_entity.c:108
+Symbol:
+func drm_sched_entity_modify_sched (
+entity * @"struct--drm_sched_entity.txt"
+sched_list * * @"struct--drm_gpu_scheduler.txt"
+num_sched_list "unsigned int"
+)
+"void"

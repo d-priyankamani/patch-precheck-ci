@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/dma-resv.h:71
+Symbol:
+Byte size 4
+enum dma_resv_usage {
+DMA_RESV_USAGE_KERNEL = 0x0
+DMA_RESV_USAGE_WRITE = 0x1
+DMA_RESV_USAGE_READ = 0x2
+DMA_RESV_USAGE_BOOKKEEP = 0x3
+}

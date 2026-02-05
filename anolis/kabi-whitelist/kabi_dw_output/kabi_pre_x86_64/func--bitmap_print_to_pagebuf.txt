@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/bitmap.c:491
+Symbol:
+func bitmap_print_to_pagebuf (
+list @"typedef--bool.txt"
+buf * "char"
+maskp * const "long unsigned int"
+nmaskbits "int"
+)
+"int"

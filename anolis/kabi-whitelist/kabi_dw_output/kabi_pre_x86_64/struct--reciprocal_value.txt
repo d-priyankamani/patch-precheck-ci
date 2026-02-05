@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/reciprocal_div.h:23
+Symbol:
+Byte size 8
+struct reciprocal_value {
+0x0 m @"typedef--u32.txt"
+0x4 sh1 @"typedef--u8.txt"
+0x5 sh2 @"typedef--u8.txt"
+}

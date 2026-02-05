@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/quota.h:297
+Symbol:
+Byte size 208
+struct dquot {
+0x0 dq_hash @"struct--hlist_node.txt"
+0x10 dq_inuse @"struct--list_head.txt"
+0x20 dq_free @"struct--list_head.txt"
+0x30 dq_dirty @"struct--list_head.txt"
+0x40 dq_lock @"struct--mutex.txt"
+0x60 dq_dqb_lock @"typedef--spinlock_t.txt"
+0x64 dq_count @"typedef--atomic_t.txt"
+0x68 dq_sb * @"struct--super_block.txt"
+0x70 dq_id @"struct--kqid.txt"
+0x78 dq_off @"typedef--loff_t.txt"
+0x80 dq_flags "long unsigned int"
+0x88 dq_dqb @"struct--mem_dqblk.txt"
+}

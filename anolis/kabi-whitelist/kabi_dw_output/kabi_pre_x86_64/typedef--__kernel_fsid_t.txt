@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/asm-generic/posix_types.h:81
+Symbol:
+Byte size 8
+typedef __kernel_fsid_t
+struct (NULL) {
+0x0 val [2]"int"
+}

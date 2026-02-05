@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:3579
+Symbol:
+func rdma_set_reuseaddr (
+id * @"struct--rdma_cm_id.txt"
+reuse "int"
+)
+"int"

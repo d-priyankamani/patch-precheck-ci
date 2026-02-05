@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/kthread.c:698
+Symbol:
+func kthread_stop (
+k * @"struct--task_struct.txt"
+)
+"int"

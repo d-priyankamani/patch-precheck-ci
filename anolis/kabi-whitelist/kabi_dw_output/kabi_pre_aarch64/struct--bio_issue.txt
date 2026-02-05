@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/blk_types.h:235
+Symbol:
+Byte size 8
+struct bio_issue {
+0x0 value @"typedef--u64.txt"
+}

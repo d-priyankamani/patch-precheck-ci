@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/radix-tree.c:703
+Symbol:
+func radix_tree_insert (
+root * @"struct--xarray.txt"
+index "long unsigned int"
+item * "void"
+)
+"int"

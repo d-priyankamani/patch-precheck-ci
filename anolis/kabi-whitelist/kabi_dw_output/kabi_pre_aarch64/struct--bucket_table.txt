@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/rhashtable.h:76
+Symbol:
+Byte size 64
+Alignment 64
+struct bucket_table {
+0x0 size "unsigned int"
+0x4 nest "unsigned int"
+0x8 hash_rnd @"typedef--u32.txt"
+0x10 walkers @"struct--list_head.txt"
+0x20 8 rcu @"struct--callback_head.txt"
+0x30 future_tbl * @"struct--bucket_table.txt"
+0x38 dep_map @"struct--lockdep_map.txt"
+0x40 64 buckets [0]* @"struct--rhash_lock_head.txt"
+}

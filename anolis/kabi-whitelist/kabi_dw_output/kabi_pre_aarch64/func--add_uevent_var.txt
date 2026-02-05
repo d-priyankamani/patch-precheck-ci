@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/kobject_uevent.c:669
+Symbol:
+func add_uevent_var (
+env * @"struct--kobj_uevent_env.txt"
+format * const "char"
+(NULL) ...
+)
+"int"

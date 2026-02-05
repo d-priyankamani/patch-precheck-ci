@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/skbuff.c:5343
+Symbol:
+func skb_tstamp_tx (
+orig_skb * @"struct--sk_buff.txt"
+hwtstamps * @"struct--skb_shared_hwtstamps.txt"
+)
+"void"

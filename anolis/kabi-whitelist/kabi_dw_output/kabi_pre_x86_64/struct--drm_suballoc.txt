@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/drm/drm_suballoc.h:42
+Symbol:
+Byte size 64
+struct drm_suballoc {
+0x0 olist @"struct--list_head.txt"
+0x10 flist @"struct--list_head.txt"
+0x20 manager * @"struct--drm_suballoc_manager.txt"
+0x28 soffset @"typedef--size_t.txt"
+0x30 eoffset @"typedef--size_t.txt"
+0x38 fence * @"struct--dma_fence.txt"
+}

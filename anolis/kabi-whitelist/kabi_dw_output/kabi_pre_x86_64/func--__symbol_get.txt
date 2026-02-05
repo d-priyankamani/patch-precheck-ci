@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/module/main.c:1422
+Symbol:
+func __symbol_get (
+symbol * const "char"
+)
+* "void"

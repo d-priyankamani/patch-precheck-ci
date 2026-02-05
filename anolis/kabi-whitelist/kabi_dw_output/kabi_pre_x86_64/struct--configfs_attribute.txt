@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/configfs.h:115
+Symbol:
+Byte size 40
+struct configfs_attribute {
+0x0 ca_name * const "char"
+0x8 ca_owner * @"struct--module.txt"
+0x10 ca_mode @"typedef--umode_t.txt"
+0x18 show * func (NULL) (
+(NULL) * @"struct--config_item.txt"
+(NULL) * "char"
+)
+@"typedef--ssize_t.txt"
+0x20 store * func (NULL) (
+(NULL) * @"struct--config_item.txt"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+}

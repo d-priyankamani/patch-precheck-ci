@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/wait_bit.h:24
+Symbol:
+Byte size 4
+typedef wait_bit_action_f
+func (NULL) (
+(NULL) * @"struct--wait_bit_key.txt"
+(NULL) "int"
+)
+"int"

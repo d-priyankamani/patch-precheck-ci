@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/netfilter/nf_conntrack.h:27
+Symbol:
+Byte size 8
+struct nf_ct_udp {
+0x0 stream_ts "long unsigned int"
+}

@@ -1,0 +1,174 @@
+Version: 1.0
+File: include/scsi/scsi_host.h:42
+Symbol:
+Byte size 392
+struct scsi_host_template {
+0x0 cmd_size "unsigned int"
+0x8 queuecommand * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+(NULL) * @"struct--scsi_cmnd.txt"
+)
+"int"
+0x10 commit_rqs * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+(NULL) @"typedef--u16.txt"
+)
+"void"
+0x18 module * @"struct--module.txt"
+0x20 name * const "char"
+0x28 info * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+)
+* const "char"
+0x30 ioctl * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+(NULL) "unsigned int"
+(NULL) * "void"
+)
+"int"
+0x38 compat_ioctl * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+(NULL) "unsigned int"
+(NULL) * "void"
+)
+"int"
+0x40 init_cmd_priv * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+(NULL) * @"struct--scsi_cmnd.txt"
+)
+"int"
+0x48 exit_cmd_priv * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+(NULL) * @"struct--scsi_cmnd.txt"
+)
+"int"
+0x50 eh_abort_handler * func (NULL) (
+(NULL) * @"struct--scsi_cmnd.txt"
+)
+"int"
+0x58 eh_device_reset_handler * func (NULL) (
+(NULL) * @"struct--scsi_cmnd.txt"
+)
+"int"
+0x60 eh_target_reset_handler * func (NULL) (
+(NULL) * @"struct--scsi_cmnd.txt"
+)
+"int"
+0x68 eh_bus_reset_handler * func (NULL) (
+(NULL) * @"struct--scsi_cmnd.txt"
+)
+"int"
+0x70 eh_host_reset_handler * func (NULL) (
+(NULL) * @"struct--scsi_cmnd.txt"
+)
+"int"
+0x78 slave_alloc * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+)
+"int"
+0x80 slave_configure * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+)
+"int"
+0x88 slave_destroy * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+)
+"void"
+0x90 target_alloc * func (NULL) (
+(NULL) * @"struct--scsi_target.txt"
+)
+"int"
+0x98 target_destroy * func (NULL) (
+(NULL) * @"struct--scsi_target.txt"
+)
+"void"
+0xa0 scan_finished * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0xa8 scan_start * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+)
+"void"
+0xb0 change_queue_depth * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+(NULL) "int"
+)
+"int"
+0xb8 map_queues * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+)
+"void"
+0xc0 mq_poll * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+(NULL) "unsigned int"
+)
+"int"
+0xc8 dma_need_drain * func (NULL) (
+(NULL) * @"struct--request.txt"
+)
+@"typedef--bool.txt"
+0xd0 bios_param * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+(NULL) * @"struct--block_device.txt"
+(NULL) @"typedef--sector_t.txt"
+(NULL) * "int"
+)
+"int"
+0xd8 unlock_native_capacity * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+)
+"void"
+0xe0 show_info * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"struct--Scsi_Host.txt"
+)
+"int"
+0xe8 write_info * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+(NULL) * "char"
+(NULL) "int"
+)
+"int"
+0xf0 eh_timed_out * func (NULL) (
+(NULL) * @"struct--scsi_cmnd.txt"
+)
+@"enum--scsi_timeout_action.txt"
+0xf8 eh_should_retry_cmd * func (NULL) (
+(NULL) * @"struct--scsi_cmnd.txt"
+)
+@"typedef--bool.txt"
+0x100 host_reset * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+(NULL) "int"
+)
+"int"
+0x108 proc_name * const "char"
+0x110 can_queue "int"
+0x114 this_id "int"
+0x118 sg_tablesize "short unsigned int"
+0x11a sg_prot_tablesize "short unsigned int"
+0x11c max_sectors "unsigned int"
+0x120 max_segment_size "unsigned int"
+0x128 dma_boundary "long unsigned int"
+0x130 virt_boundary_mask "long unsigned int"
+0x138 cmd_per_lun "short int"
+0x13c tag_alloc_policy "int"
+0x140:0-1 track_queue_depth "unsigned int"
+0x140:1-3 supported_mode "unsigned int"
+0x140:3-4 emulated "unsigned int"
+0x140:4-5 skip_settle_delay "unsigned int"
+0x140:5-6 no_write_same "unsigned int"
+0x140:6-7 host_tagset "unsigned int"
+0x140:7-8 queuecommand_may_block "unsigned int"
+0x144 max_host_blocked "unsigned int"
+0x148 shost_groups * * const @"struct--attribute_group.txt"
+0x150 sdev_groups * * const @"struct--attribute_group.txt"
+0x158 vendor_id @"typedef--u64.txt"
+0x160 rpm_autosuspend_delay "int"
+0x168 ck_reserved1 "long unsigned int"
+0x170 ck_reserved2 "long unsigned int"
+0x178 ck_reserved3 "long unsigned int"
+0x180 ck_reserved4 "long unsigned int"
+}

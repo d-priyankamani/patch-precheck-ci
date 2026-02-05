@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs.h:211
+Symbol:
+Byte size 152
+Alignment 8
+struct ib_ucq_object {
+0x0 8 uevent @"struct--ib_uevent_object.txt"
+0x80 comp_list @"struct--list_head.txt"
+0x90 comp_events_reported @"typedef--u32.txt"
+}

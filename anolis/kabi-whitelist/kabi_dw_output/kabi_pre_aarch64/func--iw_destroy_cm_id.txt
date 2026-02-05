@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/iwcm.c:448
+Symbol:
+func iw_destroy_cm_id (
+cm_id * @"struct--iw_cm_id.txt"
+)
+"void"

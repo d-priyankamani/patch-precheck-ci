@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/phy_led_triggers.h:20
+Symbol:
+Byte size 168
+struct phy_led_trigger {
+0x0 trigger @"struct--led_trigger.txt"
+0x58 name [76]"char"
+0xa4 speed "unsigned int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/bitmap.c:306
+Symbol:
+func __bitmap_intersects (
+bitmap1 * const "long unsigned int"
+bitmap2 * const "long unsigned int"
+bits "unsigned int"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/sysfs/file.c:488
+Symbol:
+func sysfs_remove_file_ns (
+kobj * @"struct--kobject.txt"
+attr * const @"struct--attribute.txt"
+ns * const "void"
+)
+"void"

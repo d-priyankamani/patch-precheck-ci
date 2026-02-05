@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/vfio.h:118
+Symbol:
+Byte size 8
+struct vfio_info_cap_header {
+0x0 id @"typedef--__u16.txt"
+0x2 version @"typedef--__u16.txt"
+0x4 next @"typedef--__u32.txt"
+}

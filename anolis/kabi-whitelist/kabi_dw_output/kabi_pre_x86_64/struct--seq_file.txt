@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/seq_file.h:17
+Symbol:
+Byte size 120
+struct seq_file {
+0x0 buf * "char"
+0x8 size @"typedef--size_t.txt"
+0x10 from @"typedef--size_t.txt"
+0x18 count @"typedef--size_t.txt"
+0x20 pad_until @"typedef--size_t.txt"
+0x28 index @"typedef--loff_t.txt"
+0x30 read_pos @"typedef--loff_t.txt"
+0x38 lock @"struct--mutex.txt"
+0x58 op * const @"struct--seq_operations.txt"
+0x60 poll_event "int"
+0x68 file * const @"struct--file.txt"
+0x70 private * "void"
+}

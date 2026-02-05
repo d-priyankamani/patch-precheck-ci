@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/irq_work.h:17
+Symbol:
+Byte size 64
+struct irq_work {
+0x0 node @"struct--__call_single_node.txt"
+0x10 func * func (NULL) (
+(NULL) * @"struct--irq_work.txt"
+)
+"void"
+0x18 irqwait @"struct--rcuwait.txt"
+0x20 ck_reserved1 "long unsigned int"
+0x28 ck_reserved2 "long unsigned int"
+0x30 ck_reserved3 "long unsigned int"
+0x38 ck_reserved4 "long unsigned int"
+}

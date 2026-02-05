@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/hdlc/ioctl.h:56
+Symbol:
+Byte size 4
+typedef raw_hdlc_proto
+struct (NULL) {
+0x0 encoding "short unsigned int"
+0x2 parity "short unsigned int"
+}

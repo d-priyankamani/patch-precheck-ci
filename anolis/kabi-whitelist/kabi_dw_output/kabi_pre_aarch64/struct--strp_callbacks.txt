@@ -1,0 +1,40 @@
+Version: 1.0
+File: include/net/strparser.h:43
+Symbol:
+Byte size 56
+struct strp_callbacks {
+0x0 parse_msg * func (NULL) (
+(NULL) * @"struct--strparser.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x8 rcv_msg * func (NULL) (
+(NULL) * @"struct--strparser.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"void"
+0x10 read_sock * func (NULL) (
+(NULL) * @"struct--strparser.txt"
+(NULL) * @"typedef--read_descriptor_t.txt"
+(NULL) @"typedef--sk_read_actor_t.txt"
+)
+"int"
+0x18 read_sock_done * func (NULL) (
+(NULL) * @"struct--strparser.txt"
+(NULL) "int"
+)
+"int"
+0x20 abort_parser * func (NULL) (
+(NULL) * @"struct--strparser.txt"
+(NULL) "int"
+)
+"void"
+0x28 lock * func (NULL) (
+(NULL) * @"struct--strparser.txt"
+)
+"void"
+0x30 unlock * func (NULL) (
+(NULL) * @"struct--strparser.txt"
+)
+"void"
+}

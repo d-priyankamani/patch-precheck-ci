@@ -1,0 +1,4 @@
+Version: 1.0
+File: mm/mm_init.c:2608
+Symbol:
+var init_on_alloc "void"

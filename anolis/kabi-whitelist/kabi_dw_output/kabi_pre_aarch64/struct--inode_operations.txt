@@ -1,0 +1,171 @@
+Version: 1.0
+File: include/linux/fs.h:2014
+Symbol:
+Byte size 256
+Alignment 64
+struct inode_operations {
+0x0 lookup * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) "unsigned int"
+)
+* @"struct--dentry.txt"
+0x8 get_link * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--delayed_call.txt"
+)
+* const "char"
+0x10 permission * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) "int"
+)
+"int"
+0x18 get_inode_acl * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) "int"
+(NULL) @"typedef--bool.txt"
+)
+* @"struct--posix_acl.txt"
+0x20 readlink * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) * "char"
+(NULL) "int"
+)
+"int"
+0x28 create * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) @"typedef--umode_t.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x30 link * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--dentry.txt"
+)
+"int"
+0x38 unlink * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--dentry.txt"
+)
+"int"
+0x40 symlink * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) * const "char"
+)
+"int"
+0x48 mkdir * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) @"typedef--umode_t.txt"
+)
+"int"
+0x50 rmdir * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--dentry.txt"
+)
+"int"
+0x58 mknod * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) @"typedef--umode_t.txt"
+(NULL) @"typedef--dev_t.txt"
+)
+"int"
+0x60 rename * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x68 setattr * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--iattr.txt"
+)
+"int"
+0x70 getattr * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * const @"struct--path.txt"
+(NULL) * @"struct--kstat.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x78 listxattr * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x80 fiemap * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--fiemap_extent_info.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+)
+"int"
+0x88 update_time * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) "int"
+)
+"int"
+0x90 atomic_open * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--file.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--umode_t.txt"
+)
+"int"
+0x98 tmpfile * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--file.txt"
+(NULL) @"typedef--umode_t.txt"
+)
+"int"
+0xa0 get_acl * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) "int"
+)
+* @"struct--posix_acl.txt"
+0xa8 set_acl * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--posix_acl.txt"
+(NULL) "int"
+)
+"int"
+0xb0 fileattr_set * func (NULL) (
+(NULL) * @"<declarations>/struct--mnt_idmap.txt"
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--fileattr.txt"
+)
+"int"
+0xb8 fileattr_get * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--fileattr.txt"
+)
+"int"
+0xc0 get_offset_ctx * func (NULL) (
+(NULL) * @"struct--inode.txt"
+)
+* @"struct--offset_ctx.txt"
+0xc8 ck_reserved1 "long unsigned int"
+0xd0 ck_reserved2 "long unsigned int"
+0xd8 ck_reserved3 "long unsigned int"
+0xe0 ck_reserved4 "long unsigned int"
+}

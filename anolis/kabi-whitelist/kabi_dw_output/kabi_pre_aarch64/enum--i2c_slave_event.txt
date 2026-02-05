@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/i2c.h:381
+Symbol:
+Byte size 4
+enum i2c_slave_event {
+I2C_SLAVE_READ_REQUESTED = 0x0
+I2C_SLAVE_WRITE_REQUESTED = 0x1
+I2C_SLAVE_READ_PROCESSED = 0x2
+I2C_SLAVE_WRITE_RECEIVED = 0x3
+I2C_SLAVE_STOP = 0x4
+}

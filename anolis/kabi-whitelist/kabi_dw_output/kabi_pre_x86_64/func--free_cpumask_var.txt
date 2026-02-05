@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/cpumask.c:97
+Symbol:
+func free_cpumask_var (
+mask @"typedef--cpumask_var_t.txt"
+)
+"void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/8021q/vlan_core.c:119
+Symbol:
+func vlan_dev_vlan_proto (
+dev * const @"struct--net_device.txt"
+)
+@"typedef--__be16.txt"

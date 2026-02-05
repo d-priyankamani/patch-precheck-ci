@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/core/dev.h:55
+Symbol:
+Byte size 48
+struct netdev_name_node {
+0x0 hlist @"struct--hlist_node.txt"
+0x10 list @"struct--list_head.txt"
+0x20 dev * @"struct--net_device.txt"
+0x28 name * const "char"
+}

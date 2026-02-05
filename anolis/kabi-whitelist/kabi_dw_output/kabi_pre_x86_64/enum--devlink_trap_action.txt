@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:314
+Symbol:
+Byte size 4
+enum devlink_trap_action {
+DEVLINK_TRAP_ACTION_DROP = 0x0
+DEVLINK_TRAP_ACTION_TRAP = 0x1
+DEVLINK_TRAP_ACTION_MIRROR = 0x2
+}

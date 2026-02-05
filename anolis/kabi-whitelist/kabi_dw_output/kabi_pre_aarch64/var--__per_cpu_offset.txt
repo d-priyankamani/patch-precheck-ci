@@ -1,0 +1,4 @@
+Version: 1.0
+File: drivers/base/arch_numa.c:160
+Symbol:
+var __per_cpu_offset "void"

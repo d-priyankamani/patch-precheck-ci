@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/sched/sch_generic.c:428
+Symbol:
+func dev_trans_start (
+dev * @"struct--net_device.txt"
+)
+"long unsigned int"

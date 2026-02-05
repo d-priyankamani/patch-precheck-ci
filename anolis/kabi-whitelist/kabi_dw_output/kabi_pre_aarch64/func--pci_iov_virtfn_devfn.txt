@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/iov.c:27
+Symbol:
+func pci_iov_virtfn_devfn (
+dev * @"struct--pci_dev.txt"
+vf_id "int"
+)
+"int"

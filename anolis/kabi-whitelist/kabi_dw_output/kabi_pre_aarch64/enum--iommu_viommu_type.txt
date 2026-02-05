@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/iommufd.h:1013
+Symbol:
+Byte size 4
+enum iommu_viommu_type {
+IOMMU_VIOMMU_TYPE_DEFAULT = 0x0
+IOMMU_VIOMMU_TYPE_ARM_SMMUV3 = 0x1
+IOMMU_VIOMMU_TYPE_TEGRA241_CMDQV = 0x2
+}

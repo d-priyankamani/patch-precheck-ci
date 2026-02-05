@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/drm_managed.h:13
+Symbol:
+Byte size 8
+typedef drmres_release_t
+* func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * "void"
+)
+"void"

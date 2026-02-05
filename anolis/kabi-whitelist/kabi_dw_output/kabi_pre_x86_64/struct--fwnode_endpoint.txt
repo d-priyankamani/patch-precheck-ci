@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/fwnode.h:81
+Symbol:
+Byte size 16
+struct fwnode_endpoint {
+0x0 port "unsigned int"
+0x4 id "unsigned int"
+0x8 local_fwnode * const @"struct--fwnode_handle.txt"
+}

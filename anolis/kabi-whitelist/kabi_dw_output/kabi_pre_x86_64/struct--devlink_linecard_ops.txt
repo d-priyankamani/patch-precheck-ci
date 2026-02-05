@@ -1,0 +1,40 @@
+Version: 1.0
+File: include/net/devlink.h:185
+Symbol:
+Byte size 40
+struct devlink_linecard_ops {
+0x0 provision * func (NULL) (
+(NULL) * @"struct--devlink_linecard.txt"
+(NULL) * "void"
+(NULL) * const "char"
+(NULL) * const "void"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x8 unprovision * func (NULL) (
+(NULL) * @"struct--devlink_linecard.txt"
+(NULL) * "void"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x10 same_provision * func (NULL) (
+(NULL) * @"struct--devlink_linecard.txt"
+(NULL) * "void"
+(NULL) * const "char"
+(NULL) * const "void"
+)
+@"typedef--bool.txt"
+0x18 types_count * func (NULL) (
+(NULL) * @"struct--devlink_linecard.txt"
+(NULL) * "void"
+)
+"unsigned int"
+0x20 types_get * func (NULL) (
+(NULL) * @"struct--devlink_linecard.txt"
+(NULL) * "void"
+(NULL) "unsigned int"
+(NULL) * * const "char"
+(NULL) * * const "void"
+)
+"void"
+}

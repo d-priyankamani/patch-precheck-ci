@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/arm64/mm/mmap.c:80
+Symbol:
+func vm_get_page_prot (
+vm_flags "long unsigned int"
+)
+@"typedef--pgprot_t.txt"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_mst_topology.c:1500
+Symbol:
+func drm_dp_mst_get_port_malloc (
+port * @"struct--drm_dp_mst_port.txt"
+)
+"void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/health.c:688
+Symbol:
+func devlink_fmsg_obj_nest_start (
+fmsg * @"struct--devlink_fmsg.txt"
+)
+"int"

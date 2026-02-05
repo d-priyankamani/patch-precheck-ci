@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/net/sock.h:116
+Symbol:
+typedef __addrpair
+@"typedef--__u64.txt"

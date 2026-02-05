@@ -1,0 +1,5 @@
+Version: 1.0
+File: drivers/base/arch_numa.c:18
+Symbol:
+Byte size 512
+var node_data [64]* @"typedef--pg_data_t.txt"

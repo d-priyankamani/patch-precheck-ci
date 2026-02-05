@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/net/devlink.h:101
+Symbol:
+Byte size 88
+struct devlink_rate {
+0x0 list @"struct--list_head.txt"
+0x10 type @"enum--devlink_rate_type.txt"
+0x18 devlink * @"struct--devlink.txt"
+0x20 priv * "void"
+0x28 tx_share @"typedef--u64.txt"
+0x30 tx_max @"typedef--u64.txt"
+0x38 parent * @"struct--devlink_rate.txt"
+0x40 (NULL) union (NULL) {
+devlink_port * @"struct--devlink_port.txt"
+(NULL) struct (NULL) {
+0x0 name * "char"
+0x8 refcnt @"typedef--refcount_t.txt"
+}
+}
+0x50 tx_priority @"typedef--u32.txt"
+0x54 tx_weight @"typedef--u32.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/netevent.c:44
+Symbol:
+func unregister_netevent_notifier (
+nb * @"struct--notifier_block.txt"
+)
+"int"

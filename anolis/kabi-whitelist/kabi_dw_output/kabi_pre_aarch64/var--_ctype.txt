@@ -1,0 +1,5 @@
+Version: 1.0
+File: lib/ctype.c:12
+Symbol:
+Byte size 256
+var _ctype const [256]const "unsigned char"

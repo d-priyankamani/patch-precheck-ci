@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/linux/psi_types.h:160
+Symbol:
+Byte size 928
+struct psi_group {
+0x0 parent * @"struct--psi_group.txt"
+0x8 enabled @"typedef--bool.txt"
+0x10 avgs_lock @"struct--mutex.txt"
+0x30 pcpu * @"struct--psi_group_cpu.txt"
+0x38 avg_total [7]@"typedef--u64.txt"
+0x70 avg_last_update @"typedef--u64.txt"
+0x78 avg_next_update @"typedef--u64.txt"
+0x80 avgs_work @"struct--delayed_work.txt"
+0x138 avg_triggers @"struct--list_head.txt"
+0x148 avg_nr_triggers [7]@"typedef--u32.txt"
+0x168 total [2][7]@"typedef--u64.txt"
+0x1d8 avg [7][3]"long unsigned int"
+0x280 rtpoll_task * @"struct--task_struct.txt"
+0x288 rtpoll_timer @"struct--timer_list.txt"
+0x2d0 rtpoll_wait @"typedef--wait_queue_head_t.txt"
+0x2e8 rtpoll_wakeup @"typedef--atomic_t.txt"
+0x2ec rtpoll_scheduled @"typedef--atomic_t.txt"
+0x2f0 rtpoll_trigger_lock @"struct--mutex.txt"
+0x310 rtpoll_triggers @"struct--list_head.txt"
+0x320 rtpoll_nr_triggers [7]@"typedef--u32.txt"
+0x33c rtpoll_states @"typedef--u32.txt"
+0x340 rtpoll_min_period @"typedef--u64.txt"
+0x348 rtpoll_total [7]@"typedef--u64.txt"
+0x380 rtpoll_next_update @"typedef--u64.txt"
+0x388 rtpoll_until @"typedef--u64.txt"
+0x390 ck_reserved1 "long unsigned int"
+0x398 ck_reserved2 "long unsigned int"
+}

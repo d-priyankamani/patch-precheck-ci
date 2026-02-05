@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/pkt_cls.h:795
+Symbol:
+Byte size 32
+Alignment 8
+struct tc_cookie {
+0x0 data * @"typedef--u8.txt"
+0x8 len @"typedef--u32.txt"
+0x10 8 rcu @"struct--callback_head.txt"
+}

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/ethtool.h:81
+Symbol:
+Byte size 20
+struct kernel_ethtool_ringparam {
+0x0 rx_buf_len @"typedef--u32.txt"
+0x4 tcp_data_split @"typedef--u8.txt"
+0x5 tx_push @"typedef--u8.txt"
+0x6 rx_push @"typedef--u8.txt"
+0x8 cqe_size @"typedef--u32.txt"
+0xc tx_push_buf_len @"typedef--u32.txt"
+0x10 tx_push_buf_max_len @"typedef--u32.txt"
+}

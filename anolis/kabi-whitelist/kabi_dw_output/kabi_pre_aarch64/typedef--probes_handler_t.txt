@@ -1,0 +1,10 @@
+Version: 1.0
+File: arch/arm64/include/asm/probes.h:14
+Symbol:
+typedef probes_handler_t
+func (NULL) (
+(NULL) @"typedef--u32.txt"
+(NULL) "long int"
+(NULL) * @"struct--pt_regs.txt"
+)
+"void"

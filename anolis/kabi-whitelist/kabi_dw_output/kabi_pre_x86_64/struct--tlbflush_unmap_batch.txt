@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/mm_types_task.h:51
+Symbol:
+Byte size 144
+struct tlbflush_unmap_batch {
+0x0 arch @"struct--arch_tlbflush_unmap_batch.txt"
+0x88 flush_required @"typedef--bool.txt"
+0x89 writable @"typedef--bool.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/vmstat.c:663
+Symbol:
+func mod_node_page_state (
+pgdat * @"struct--pglist_data.txt"
+item @"enum--node_stat_item.txt"
+delta "long int"
+)
+"void"

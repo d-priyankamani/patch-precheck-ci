@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/proc/generic.c:458
+Symbol:
+func proc_symlink (
+name * const "char"
+parent * @"struct--proc_dir_entry.txt"
+dest * const "char"
+)
+* @"struct--proc_dir_entry.txt"

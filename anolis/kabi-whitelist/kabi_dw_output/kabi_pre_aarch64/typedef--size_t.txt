@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:61
+Symbol:
+typedef size_t
+@"typedef--__kernel_size_t.txt"

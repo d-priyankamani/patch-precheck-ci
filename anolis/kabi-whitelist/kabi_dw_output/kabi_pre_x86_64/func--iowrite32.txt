@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/iomap.c:221
+Symbol:
+func iowrite32 (
+val @"typedef--u32.txt"
+addr * "void"
+)
+"void"

@@ -1,0 +1,140 @@
+Version: 1.0
+File: include/net/sch_generic.h:356
+Symbol:
+Byte size 216
+struct tcf_proto_ops {
+0x0 head @"struct--list_head.txt"
+0x10 kind [16]"char"
+0x20 classify * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * const @"struct--tcf_proto.txt"
+(NULL) * @"struct--tcf_result.txt"
+)
+"int"
+0x28 init * func (NULL) (
+(NULL) * @"struct--tcf_proto.txt"
+)
+"int"
+0x30 destroy * func (NULL) (
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"void"
+0x38 get * func (NULL) (
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) @"typedef--u32.txt"
+)
+* "void"
+0x40 put * func (NULL) (
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) * "void"
+)
+"void"
+0x48 change * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) "long unsigned int"
+(NULL) @"typedef--u32.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * * "void"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x50 delete * func (NULL) (
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) * "void"
+(NULL) * @"typedef--bool.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x58 delete_empty * func (NULL) (
+(NULL) * @"struct--tcf_proto.txt"
+)
+@"typedef--bool.txt"
+0x60 walk * func (NULL) (
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) * @"struct--tcf_walker.txt"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+0x68 reoffload * func (NULL) (
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * @"typedef--flow_setup_cb_t.txt"
+(NULL) * "void"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x70 hw_add * func (NULL) (
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) * "void"
+)
+"void"
+0x78 hw_del * func (NULL) (
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) * "void"
+)
+"void"
+0x80 bind_class * func (NULL) (
+(NULL) * "void"
+(NULL) @"typedef--u32.txt"
+(NULL) "long unsigned int"
+(NULL) * "void"
+(NULL) "long unsigned int"
+)
+"void"
+0x88 tmplt_create * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * @"struct--tcf_chain.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+* "void"
+0x90 tmplt_destroy * func (NULL) (
+(NULL) * "void"
+)
+"void"
+0x98 tmplt_reoffload * func (NULL) (
+(NULL) * @"struct--tcf_chain.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * @"typedef--flow_setup_cb_t.txt"
+(NULL) * "void"
+)
+"void"
+0xa0 get_exts * func (NULL) (
+(NULL) * const @"struct--tcf_proto.txt"
+(NULL) @"typedef--u32.txt"
+)
+* @"struct--tcf_exts.txt"
+0xa8 dump * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) * "void"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--tcmsg.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0xb0 terse_dump * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) * "void"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--tcmsg.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0xb8 tmplt_dump * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--net.txt"
+(NULL) * "void"
+)
+"int"
+0xc0 owner * @"struct--module.txt"
+0xc8 flags "int"
+0xd0 ck_reserved1 "long unsigned int"
+}

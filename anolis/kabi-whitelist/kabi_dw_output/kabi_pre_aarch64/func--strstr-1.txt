@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/string.c:756
+Symbol:
+func strstr (
+s1 * const "char"
+s2 * const "char"
+)
+* "char"

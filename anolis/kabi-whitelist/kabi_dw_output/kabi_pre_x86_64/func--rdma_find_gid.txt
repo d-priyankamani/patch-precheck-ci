@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:1011
+Symbol:
+func rdma_find_gid (
+device * @"struct--ib_device.txt"
+gid * const @"union--ib_gid.txt"
+gid_type @"enum--ib_gid_type.txt"
+ndev * @"struct--net_device.txt"
+)
+* const @"struct--ib_gid_attr.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2280
+Symbol:
+Byte size 24
+struct ib_counters {
+0x0 device * @"struct--ib_device.txt"
+0x8 uobject * @"struct--ib_uobject.txt"
+0x10 usecnt @"typedef--atomic_t.txt"
+}

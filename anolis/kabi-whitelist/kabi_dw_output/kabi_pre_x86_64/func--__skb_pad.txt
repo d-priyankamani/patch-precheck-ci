@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/skbuff.c:2364
+Symbol:
+func __skb_pad (
+skb * @"struct--sk_buff.txt"
+pad "int"
+free_on_error @"typedef--bool.txt"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/iommu/dma-iommu.c:395
+Symbol:
+func iommu_get_msi_cookie (
+domain * @"struct--iommu_domain.txt"
+base @"typedef--dma_addr_t.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/workqueue.c:3469
+Symbol:
+func flush_work (
+work * @"struct--work_struct.txt"
+)
+@"typedef--bool.txt"

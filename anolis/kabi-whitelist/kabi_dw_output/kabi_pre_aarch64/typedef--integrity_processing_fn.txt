@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/blk-integrity.h:26
+Symbol:
+typedef integrity_processing_fn
+func (NULL) (
+(NULL) * @"struct--blk_integrity_iter.txt"
+)
+@"typedef--blk_status_t.txt"

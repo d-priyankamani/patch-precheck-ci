@@ -1,0 +1,31 @@
+Version: 1.0
+File: arch/x86/include/uapi/asm/mce.h:13
+Symbol:
+Byte size 128
+struct mce {
+0x0 status @"typedef--__u64.txt"
+0x8 misc @"typedef--__u64.txt"
+0x10 addr @"typedef--__u64.txt"
+0x18 mcgstatus @"typedef--__u64.txt"
+0x20 ip @"typedef--__u64.txt"
+0x28 tsc @"typedef--__u64.txt"
+0x30 time @"typedef--__u64.txt"
+0x38 cpuvendor @"typedef--__u8.txt"
+0x39 inject_flags @"typedef--__u8.txt"
+0x3a severity @"typedef--__u8.txt"
+0x3b pad @"typedef--__u8.txt"
+0x3c cpuid @"typedef--__u32.txt"
+0x40 cs @"typedef--__u8.txt"
+0x41 bank @"typedef--__u8.txt"
+0x42 cpu @"typedef--__u8.txt"
+0x43 finished @"typedef--__u8.txt"
+0x44 extcpu @"typedef--__u32.txt"
+0x48 socketid @"typedef--__u32.txt"
+0x4c apicid @"typedef--__u32.txt"
+0x50 mcgcap @"typedef--__u64.txt"
+0x58 synd @"typedef--__u64.txt"
+0x60 ipid @"typedef--__u64.txt"
+0x68 ppin @"typedef--__u64.txt"
+0x70 microcode @"typedef--__u32.txt"
+0x78 kflags @"typedef--__u64.txt"
+}

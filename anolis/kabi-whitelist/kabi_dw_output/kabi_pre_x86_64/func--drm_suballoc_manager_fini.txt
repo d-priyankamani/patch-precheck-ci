@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_suballoc.c:93
+Symbol:
+func drm_suballoc_manager_fini (
+sa_manager * @"struct--drm_suballoc_manager.txt"
+)
+"void"

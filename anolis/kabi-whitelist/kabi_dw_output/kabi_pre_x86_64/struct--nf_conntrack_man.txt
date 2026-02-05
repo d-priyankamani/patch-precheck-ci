@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/netfilter/nf_conntrack_tuple.h:29
+Symbol:
+Byte size 20
+struct nf_conntrack_man {
+0x0 u3 @"union--nf_inet_addr.txt"
+0x10 u @"union--nf_conntrack_man_proto.txt"
+0x12 l3num @"typedef--u_int16_t.txt"
+}

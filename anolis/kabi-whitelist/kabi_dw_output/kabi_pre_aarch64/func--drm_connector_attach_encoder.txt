@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:486
+Symbol:
+func drm_connector_attach_encoder (
+connector * @"struct--drm_connector.txt"
+encoder * @"struct--drm_encoder.txt"
+)
+"int"

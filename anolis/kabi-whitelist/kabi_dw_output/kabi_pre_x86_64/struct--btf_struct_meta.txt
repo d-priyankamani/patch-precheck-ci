@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/btf.h:128
+Symbol:
+Byte size 16
+struct btf_struct_meta {
+0x0 btf_id @"typedef--u32.txt"
+0x8 record * @"struct--btf_record.txt"
+}

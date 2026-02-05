@@ -1,0 +1,28 @@
+Version: 1.0
+File: include/drm/display/drm_dp_mst_helper.h:86
+Symbol:
+Byte size 1808
+Alignment 8
+struct drm_dp_mst_port {
+0x0 topology_kref @"struct--kref.txt"
+0x4 malloc_kref @"struct--kref.txt"
+0x8 port_num @"typedef--u8.txt"
+0x9 input @"typedef--bool.txt"
+0xa mcs @"typedef--bool.txt"
+0xb ddps @"typedef--bool.txt"
+0xc pdt @"typedef--u8.txt"
+0xd ldps @"typedef--bool.txt"
+0xe dpcd_rev @"typedef--u8.txt"
+0xf num_sdp_streams @"typedef--u8.txt"
+0x10 num_sdp_stream_sinks @"typedef--u8.txt"
+0x12 full_pbn @"typedef--uint16_t.txt"
+0x18 next @"struct--list_head.txt"
+0x28 mstb * @"struct--drm_dp_mst_branch.txt"
+0x30 8 aux @"struct--drm_dp_aux.txt"
+0x6e0 passthrough_aux * @"struct--drm_dp_aux.txt"
+0x6e8 parent * @"struct--drm_dp_mst_branch.txt"
+0x6f0 connector * @"struct--drm_connector.txt"
+0x6f8 mgr * @"struct--drm_dp_mst_topology_mgr.txt"
+0x700 cached_edid * const @"<declarations>/struct--drm_edid.txt"
+0x708 fec_capable @"typedef--bool.txt"
+}

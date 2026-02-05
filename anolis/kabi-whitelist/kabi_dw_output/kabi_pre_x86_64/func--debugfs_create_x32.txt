@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/debugfs/file.c:695
+Symbol:
+func debugfs_create_x32 (
+name * const "char"
+mode @"typedef--umode_t.txt"
+parent * @"struct--dentry.txt"
+value * @"typedef--u32.txt"
+)
+"void"

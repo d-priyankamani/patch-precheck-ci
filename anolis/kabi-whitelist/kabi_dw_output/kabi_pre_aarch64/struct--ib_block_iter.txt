@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2870
+Symbol:
+Byte size 40
+struct ib_block_iter {
+0x0 __sg * @"struct--scatterlist.txt"
+0x8 __dma_addr @"typedef--dma_addr_t.txt"
+0x10 __sg_numblocks @"typedef--size_t.txt"
+0x18 __sg_nents "unsigned int"
+0x1c __sg_advance "unsigned int"
+0x20 __pg_bit "unsigned int"
+}

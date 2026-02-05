@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/asm-generic/hyperv-tlfs.h:301
+Symbol:
+Byte size 4
+union hv_port_id {
+asu32 @"typedef--__u32.txt"
+u struct (NULL) {
+0x0:0-24 id @"typedef--__u32.txt"
+0x3:0-8 reserved @"typedef--__u32.txt"
+}
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/cpu_rmap.c:310
+Symbol:
+func irq_cpu_rmap_add (
+rmap * @"struct--cpu_rmap.txt"
+irq "int"
+)
+"int"

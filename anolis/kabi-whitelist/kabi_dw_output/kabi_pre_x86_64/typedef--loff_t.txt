@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:52
+Symbol:
+typedef loff_t
+@"typedef--__kernel_loff_t.txt"

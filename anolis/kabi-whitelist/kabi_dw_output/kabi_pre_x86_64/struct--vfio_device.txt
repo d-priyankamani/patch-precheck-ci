@@ -1,0 +1,32 @@
+Version: 1.0
+File: include/linux/vfio.h:37
+Symbol:
+Byte size 1312
+Alignment 8
+struct vfio_device {
+0x0 dev * @"struct--device.txt"
+0x8 ops * const @"struct--vfio_device_ops.txt"
+0x10 mig_ops * const @"struct--vfio_migration_ops.txt"
+0x18 log_ops * const @"struct--vfio_log_ops.txt"
+0x20 group * @"struct--vfio_group.txt"
+0x28 group_next @"struct--list_head.txt"
+0x38 iommu_entry @"struct--list_head.txt"
+0x48 dev_set * @"struct--vfio_device_set.txt"
+0x50 dev_set_list @"struct--list_head.txt"
+0x60 migration_flags "unsigned int"
+0x68 kvm * @"struct--kvm.txt"
+0x70 index "unsigned int"
+0x78 8 device @"struct--device.txt"
+0x450 cdev @"struct--cdev.txt"
+0x4d8 refcount @"typedef--refcount_t.txt"
+0x4dc open_count "unsigned int"
+0x4e0 comp @"struct--completion.txt"
+0x500 iommufd_access * @"<declarations>/struct--iommufd_access.txt"
+0x508 put_kvm * func (NULL) (
+(NULL) * @"struct--kvm.txt"
+)
+"void"
+0x510 iommufd_device * @"<declarations>/struct--iommufd_device.txt"
+0x518:0-1 iommufd_attached @"typedef--u8.txt"
+0x518:1-2 cdev_opened @"typedef--u8.txt"
+}

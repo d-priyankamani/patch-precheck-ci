@@ -1,0 +1,37 @@
+Version: 1.0
+File: include/linux/kernfs.h:240
+Symbol:
+Byte size 72
+struct kernfs_syscall_ops {
+0x0 show_options * func (NULL) (
+(NULL) * @"<declarations>/struct--seq_file.txt"
+(NULL) * @"struct--kernfs_root.txt"
+)
+"int"
+0x8 mkdir * func (NULL) (
+(NULL) * @"struct--kernfs_node.txt"
+(NULL) * const "char"
+(NULL) @"typedef--umode_t.txt"
+)
+"int"
+0x10 rmdir * func (NULL) (
+(NULL) * @"struct--kernfs_node.txt"
+)
+"int"
+0x18 rename * func (NULL) (
+(NULL) * @"struct--kernfs_node.txt"
+(NULL) * @"struct--kernfs_node.txt"
+(NULL) * const "char"
+)
+"int"
+0x20 show_path * func (NULL) (
+(NULL) * @"<declarations>/struct--seq_file.txt"
+(NULL) * @"struct--kernfs_node.txt"
+(NULL) * @"struct--kernfs_root.txt"
+)
+"int"
+0x28 ck_reserved1 "long unsigned int"
+0x30 ck_reserved2 "long unsigned int"
+0x38 ck_reserved3 "long unsigned int"
+0x40 ck_reserved4 "long unsigned int"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/nsproxy.h:62
+Symbol:
+Byte size 32
+struct nsset {
+0x0 flags "unsigned int"
+0x8 nsproxy * @"struct--nsproxy.txt"
+0x10 fs * @"<declarations>/struct--fs_struct.txt"
+0x18 cred * const @"struct--cred.txt"
+}

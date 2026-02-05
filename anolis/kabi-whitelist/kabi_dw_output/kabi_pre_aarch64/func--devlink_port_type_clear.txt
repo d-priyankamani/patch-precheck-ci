@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/port.c:1211
+Symbol:
+func devlink_port_type_clear (
+devlink_port * @"struct--devlink_port.txt"
+)
+"void"

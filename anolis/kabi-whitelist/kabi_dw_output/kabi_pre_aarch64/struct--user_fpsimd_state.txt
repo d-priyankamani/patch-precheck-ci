@@ -1,0 +1,10 @@
+Version: 1.0
+File: arch/arm64/include/uapi/asm/ptrace.h:95
+Symbol:
+Byte size 528
+struct user_fpsimd_state {
+0x0 vregs [32]"__int128 unsigned"
+0x200 fpsr @"typedef--__u32.txt"
+0x204 fpcr @"typedef--__u32.txt"
+0x208 __reserved [2]@"typedef--__u32.txt"
+}

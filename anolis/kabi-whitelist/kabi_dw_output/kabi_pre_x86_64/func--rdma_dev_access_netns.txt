@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:141
+Symbol:
+func rdma_dev_access_netns (
+dev * const @"struct--ib_device.txt"
+net * const @"struct--net.txt"
+)
+@"typedef--bool.txt"

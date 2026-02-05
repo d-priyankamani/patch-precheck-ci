@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/rcu/tree.c:2835
+Symbol:
+func call_rcu (
+head * @"struct--callback_head.txt"
+func @"typedef--rcu_callback_t.txt"
+)
+"void"

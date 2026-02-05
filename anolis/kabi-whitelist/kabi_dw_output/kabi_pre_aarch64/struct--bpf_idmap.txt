@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:608
+Symbol:
+Byte size 4804
+struct bpf_idmap {
+0x0 tmp_id_gen @"typedef--u32.txt"
+0x4 map [600]@"struct--bpf_id_pair.txt"
+}

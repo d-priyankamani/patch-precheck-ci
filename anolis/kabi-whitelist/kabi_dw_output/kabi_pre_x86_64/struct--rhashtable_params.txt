@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/rhashtable-types.h:56
+Symbol:
+Byte size 40
+struct rhashtable_params {
+0x0 nelem_hint @"typedef--u16.txt"
+0x2 key_len @"typedef--u16.txt"
+0x4 key_offset @"typedef--u16.txt"
+0x6 head_offset @"typedef--u16.txt"
+0x8 max_size "unsigned int"
+0xc min_size @"typedef--u16.txt"
+0xe automatic_shrinking @"typedef--bool.txt"
+0x10 hashfn @"typedef--rht_hashfn_t.txt"
+0x18 obj_hashfn @"typedef--rht_obj_hashfn_t.txt"
+0x20 obj_cmpfn @"typedef--rht_obj_cmpfn_t.txt"
+}

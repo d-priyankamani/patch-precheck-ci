@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_prime.c:1049
+Symbol:
+func drm_prime_gem_destroy (
+obj * @"struct--drm_gem_object.txt"
+sg * @"struct--sg_table.txt"
+)
+"void"

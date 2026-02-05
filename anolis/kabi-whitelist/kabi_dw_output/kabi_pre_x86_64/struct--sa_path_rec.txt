@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/rdma/ib_sa.h:163
+Symbol:
+Byte size 88
+struct sa_path_rec {
+0x0 dgid @"union--ib_gid.txt"
+0x10 sgid @"union--ib_gid.txt"
+0x20 service_id @"typedef--__be64.txt"
+0x28 flow_label @"typedef--__be32.txt"
+0x2c hop_limit @"typedef--u8.txt"
+0x2d traffic_class @"typedef--u8.txt"
+0x2e reversible @"typedef--u8.txt"
+0x2f numb_path @"typedef--u8.txt"
+0x30 pkey @"typedef--__be16.txt"
+0x32 qos_class @"typedef--__be16.txt"
+0x34 sl @"typedef--u8.txt"
+0x35 mtu_selector @"typedef--u8.txt"
+0x36 mtu @"typedef--u8.txt"
+0x37 rate_selector @"typedef--u8.txt"
+0x38 rate @"typedef--u8.txt"
+0x39 packet_life_time_selector @"typedef--u8.txt"
+0x3a packet_life_time @"typedef--u8.txt"
+0x3b preference @"typedef--u8.txt"
+0x3c (NULL) union (NULL) {
+ib @"struct--sa_path_rec_ib.txt"
+roce @"struct--sa_path_rec_roce.txt"
+opa @"struct--sa_path_rec_opa.txt"
+}
+0x4c rec_type @"enum--sa_path_rec_type.txt"
+0x50 flags @"typedef--u32.txt"
+}

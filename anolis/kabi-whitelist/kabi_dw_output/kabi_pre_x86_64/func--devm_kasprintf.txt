@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/base/devres.c:1042
+Symbol:
+func devm_kasprintf (
+dev * @"struct--device.txt"
+gfp @"typedef--gfp_t.txt"
+fmt * const "char"
+(NULL) ...
+)
+* "char"

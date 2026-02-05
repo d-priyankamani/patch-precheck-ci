@@ -1,0 +1,27 @@
+Version: 1.0
+File: fs/namei.c:569
+Symbol:
+Byte size 232
+struct nameidata {
+0x0 path @"struct--path.txt"
+0x10 last @"struct--qstr.txt"
+0x20 root @"struct--path.txt"
+0x30 inode * @"struct--inode.txt"
+0x38 flags "unsigned int"
+0x3c state "unsigned int"
+0x40 seq "unsigned int"
+0x44 next_seq "unsigned int"
+0x48 m_seq "unsigned int"
+0x4c r_seq "unsigned int"
+0x50 last_type "int"
+0x54 depth "unsigned int"
+0x58 total_link_count "int"
+0x60 stack * @"struct--saved.txt"
+0x68 internal [2]@"struct--saved.txt"
+0xc8 name * @"struct--filename.txt"
+0xd0 saved * @"struct--nameidata.txt"
+0xd8 root_seq "unsigned int"
+0xdc dfd "int"
+0xe0 dir_vfsuid @"typedef--vfsuid_t.txt"
+0xe4 dir_mode @"typedef--umode_t.txt"
+}

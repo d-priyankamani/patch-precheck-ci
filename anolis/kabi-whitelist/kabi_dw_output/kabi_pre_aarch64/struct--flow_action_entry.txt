@@ -1,0 +1,110 @@
+Version: 1.0
+File: include/net/flow_offload.h:234
+Symbol:
+Byte size 160
+struct flow_action_entry {
+0x0 id @"enum--flow_action_id.txt"
+0x4 hw_index @"typedef--u32.txt"
+0x8 cookie "long unsigned int"
+0x10 miss_cookie @"typedef--u64.txt"
+0x18 hw_stats @"enum--flow_action_hw_stats.txt"
+0x20 destructor @"typedef--action_destr.txt"
+0x28 destructor_priv * "void"
+0x30 (NULL) union (NULL) {
+chain_index @"typedef--u32.txt"
+dev * @"struct--net_device.txt"
+vlan struct (NULL) {
+0x0 vid @"typedef--u16.txt"
+0x2 proto @"typedef--__be16.txt"
+0x4 prio @"typedef--u8.txt"
+}
+vlan_push_eth struct (NULL) {
+0x0 dst [6]"unsigned char"
+0x6 src [6]"unsigned char"
+}
+mangle struct (NULL) {
+0x0 htype @"enum--flow_action_mangle_base.txt"
+0x4 offset @"typedef--u32.txt"
+0x8 mask @"typedef--u32.txt"
+0xc val @"typedef--u32.txt"
+}
+tunnel * @"<declarations>/struct--ip_tunnel_info.txt"
+csum_flags @"typedef--u32.txt"
+mark @"typedef--u32.txt"
+ptype @"typedef--u16.txt"
+rx_queue @"typedef--u16.txt"
+priority @"typedef--u32.txt"
+queue struct (NULL) {
+0x0 ctx @"typedef--u32.txt"
+0x4 index @"typedef--u32.txt"
+0x8 vf @"typedef--u8.txt"
+}
+sample struct (NULL) {
+0x0 psample_group * @"<declarations>/struct--psample_group.txt"
+0x8 rate @"typedef--u32.txt"
+0xc trunc_size @"typedef--u32.txt"
+0x10 truncate @"typedef--bool.txt"
+}
+police struct (NULL) {
+0x0 burst @"typedef--u32.txt"
+0x8 rate_bytes_ps @"typedef--u64.txt"
+0x10 peakrate_bytes_ps @"typedef--u64.txt"
+0x18 avrate @"typedef--u32.txt"
+0x1c overhead @"typedef--u16.txt"
+0x20 burst_pkt @"typedef--u64.txt"
+0x28 rate_pkt_ps @"typedef--u64.txt"
+0x30 mtu @"typedef--u32.txt"
+0x34 exceed struct (NULL) {
+0x0 act_id @"enum--flow_action_id.txt"
+0x4 extval @"typedef--u32.txt"
+}
+0x3c notexceed struct (NULL) {
+0x0 act_id @"enum--flow_action_id.txt"
+0x4 extval @"typedef--u32.txt"
+}
+}
+ct struct (NULL) {
+0x0 action "int"
+0x4 zone @"typedef--u16.txt"
+0x8 flow_table * @"<declarations>/struct--nf_flowtable.txt"
+}
+ct_metadata struct (NULL) {
+0x0 cookie "long unsigned int"
+0x8 mark @"typedef--u32.txt"
+0xc labels [4]@"typedef--u32.txt"
+0x1c orig_dir @"typedef--bool.txt"
+}
+mpls_push struct (NULL) {
+0x0 label @"typedef--u32.txt"
+0x4 proto @"typedef--__be16.txt"
+0x6 tc @"typedef--u8.txt"
+0x7 bos @"typedef--u8.txt"
+0x8 ttl @"typedef--u8.txt"
+}
+mpls_pop struct (NULL) {
+0x0 proto @"typedef--__be16.txt"
+}
+mpls_mangle struct (NULL) {
+0x0 label @"typedef--u32.txt"
+0x4 tc @"typedef--u8.txt"
+0x5 bos @"typedef--u8.txt"
+0x6 ttl @"typedef--u8.txt"
+}
+gate struct (NULL) {
+0x0 prio @"typedef--s32.txt"
+0x8 basetime @"typedef--u64.txt"
+0x10 cycletime @"typedef--u64.txt"
+0x18 cycletimeext @"typedef--u64.txt"
+0x20 num_entries @"typedef--u32.txt"
+0x28 entries * @"<declarations>/struct--action_gate_entry.txt"
+}
+pppoe struct (NULL) {
+0x0 sid @"typedef--u16.txt"
+}
+}
+0x78 user_cookie * @"struct--flow_action_cookie.txt"
+0x80 ck_reserved1 "long unsigned int"
+0x88 ck_reserved2 "long unsigned int"
+0x90 ck_reserved3 "long unsigned int"
+0x98 ck_reserved4 "long unsigned int"
+}

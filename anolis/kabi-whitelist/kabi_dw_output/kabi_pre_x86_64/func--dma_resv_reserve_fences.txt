@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/dma-buf/dma-resv.c:182
+Symbol:
+func dma_resv_reserve_fences (
+obj * @"struct--dma_resv.txt"
+num_fences "unsigned int"
+)
+"int"

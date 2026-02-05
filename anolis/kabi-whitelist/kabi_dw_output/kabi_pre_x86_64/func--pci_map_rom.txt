@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/rom.c:186
+Symbol:
+func pci_map_rom (
+pdev * @"struct--pci_dev.txt"
+size * @"typedef--size_t.txt"
+)
+* "void"

@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/net/net_trackers.h:9
+Symbol:
+typedef netdevice_tracker
+struct (NULL) {
+}

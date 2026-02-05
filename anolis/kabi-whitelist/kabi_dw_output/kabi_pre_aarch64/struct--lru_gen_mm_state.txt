@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/mmzone.h:473
+Symbol:
+Byte size 72
+struct lru_gen_mm_state {
+0x0 seq "long unsigned int"
+0x8 head * @"struct--list_head.txt"
+0x10 tail * @"struct--list_head.txt"
+0x18 filters [2]* "long unsigned int"
+0x28 stats [1][4]"long unsigned int"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/trace/trace.h:220
+Symbol:
+Byte size 16
+struct trace_options {
+0x0 tracer * @"struct--tracer.txt"
+0x8 topts * @"struct--trace_option_dentry.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/flow_dissector.h:46
+Symbol:
+Byte size 4
+struct flow_dissector_key_basic {
+0x0 n_proto @"typedef--__be16.txt"
+0x2 ip_proto @"typedef--u8.txt"
+0x3 padding @"typedef--u8.txt"
+}

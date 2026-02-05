@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/pinctrl/devinfo.h:36
+Symbol:
+Byte size 40
+struct dev_pin_info {
+0x0 p * @"<declarations>/struct--pinctrl.txt"
+0x8 default_state * @"<declarations>/struct--pinctrl_state.txt"
+0x10 init_state * @"<declarations>/struct--pinctrl_state.txt"
+0x18 sleep_state * @"<declarations>/struct--pinctrl_state.txt"
+0x20 idle_state * @"<declarations>/struct--pinctrl_state.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_main.c:1183
+Symbol:
+func drm_sched_increase_karma (
+bad * @"struct--drm_sched_job.txt"
+)
+"void"

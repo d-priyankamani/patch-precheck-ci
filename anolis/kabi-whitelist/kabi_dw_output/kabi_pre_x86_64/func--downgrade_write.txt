@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/rwsem.c:1633
+Symbol:
+func downgrade_write (
+sem * @"struct--rw_semaphore.txt"
+)
+"void"

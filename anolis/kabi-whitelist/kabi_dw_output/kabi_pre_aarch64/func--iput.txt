@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/inode.c:1990
+Symbol:
+func iput (
+inode * @"struct--inode.txt"
+)
+"void"

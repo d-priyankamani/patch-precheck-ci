@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:165
+Symbol:
+typedef resource_size_t
+@"typedef--phys_addr_t.txt"

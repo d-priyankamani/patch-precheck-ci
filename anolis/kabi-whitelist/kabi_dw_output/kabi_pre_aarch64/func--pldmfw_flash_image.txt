@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/pldmfw/pldmfw.c:832
+Symbol:
+func pldmfw_flash_image (
+context * @"struct--pldmfw.txt"
+fw * const @"struct--firmware.txt"
+)
+"int"

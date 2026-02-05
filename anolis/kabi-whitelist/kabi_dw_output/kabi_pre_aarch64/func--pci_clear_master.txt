@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:4591
+Symbol:
+func pci_clear_master (
+dev * @"struct--pci_dev.txt"
+)
+"void"

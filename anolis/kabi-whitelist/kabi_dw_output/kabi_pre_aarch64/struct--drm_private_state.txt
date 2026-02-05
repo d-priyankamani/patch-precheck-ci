@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/drm_atomic.h:333
+Symbol:
+Byte size 24
+struct drm_private_state {
+0x0 state * @"struct--drm_atomic_state.txt"
+0x8 obj * @"struct--drm_private_obj.txt"
+0x10 ck_reserved1 "long unsigned int"
+}

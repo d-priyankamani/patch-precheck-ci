@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/acpi/event.c:46
+Symbol:
+func unregister_acpi_notifier (
+nb * @"struct--notifier_block.txt"
+)
+"int"

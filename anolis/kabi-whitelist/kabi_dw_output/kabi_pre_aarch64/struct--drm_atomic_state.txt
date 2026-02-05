@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/drm/drm_atomic.h:369
+Symbol:
+Byte size 152
+struct drm_atomic_state {
+0x0 ref @"struct--kref.txt"
+0x8 dev * @"struct--drm_device.txt"
+0x10:0-1 allow_modeset @"typedef--bool.txt"
+0x10:1-2 legacy_cursor_update @"typedef--bool.txt"
+0x10:2-3 async_update @"typedef--bool.txt"
+0x10:3-4 duplicated @"typedef--bool.txt"
+0x18 planes * @"struct--__drm_planes_state.txt"
+0x20 crtcs * @"struct--__drm_crtcs_state.txt"
+0x28 num_connector "int"
+0x30 connectors * @"struct--__drm_connnectors_state.txt"
+0x38 num_private_objs "int"
+0x40 private_objs * @"struct--__drm_private_objs_state.txt"
+0x48 acquire_ctx * @"struct--drm_modeset_acquire_ctx.txt"
+0x50 fake_commit * @"struct--drm_crtc_commit.txt"
+0x58 commit_work @"struct--work_struct.txt"
+}

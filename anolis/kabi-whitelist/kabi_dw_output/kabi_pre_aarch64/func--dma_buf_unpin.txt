@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/dma-buf/dma-buf.c:1064
+Symbol:
+Namespace DMA_BUF
+func dma_buf_unpin (
+attach * @"struct--dma_buf_attachment.txt"
+)
+"void"

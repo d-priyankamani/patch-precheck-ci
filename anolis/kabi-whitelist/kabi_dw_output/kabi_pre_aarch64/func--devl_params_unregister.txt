@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/devlink/param.c:722
+Symbol:
+func devl_params_unregister (
+devlink * @"struct--devlink.txt"
+params * const @"struct--devlink_param.txt"
+params_count @"typedef--size_t.txt"
+)
+"void"

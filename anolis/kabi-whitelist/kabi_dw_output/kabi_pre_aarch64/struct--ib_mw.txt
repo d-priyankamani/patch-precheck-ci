@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1855
+Symbol:
+Byte size 32
+struct ib_mw {
+0x0 device * @"struct--ib_device.txt"
+0x8 pd * @"struct--ib_pd.txt"
+0x10 uobject * @"struct--ib_uobject.txt"
+0x18 rkey @"typedef--u32.txt"
+0x1c type @"enum--ib_mw_type.txt"
+}

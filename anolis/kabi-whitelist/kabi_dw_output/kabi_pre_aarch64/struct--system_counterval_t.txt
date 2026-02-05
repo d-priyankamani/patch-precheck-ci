@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/timekeeping.h:276
+Symbol:
+Byte size 16
+struct system_counterval_t {
+0x0 cycles @"typedef--u64.txt"
+0x8 cs * @"struct--clocksource.txt"
+}

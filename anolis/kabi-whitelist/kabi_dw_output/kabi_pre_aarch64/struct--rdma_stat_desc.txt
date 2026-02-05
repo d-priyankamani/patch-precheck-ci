@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:577
+Symbol:
+Byte size 24
+struct rdma_stat_desc {
+0x0 name * const "char"
+0x8 flags "unsigned int"
+0x10 priv * const "void"
+}

@@ -1,0 +1,37 @@
+Version: 1.0
+File: include/linux/hwmon.h:406
+Symbol:
+Byte size 32
+struct hwmon_ops {
+0x0 is_visible * func (NULL) (
+(NULL) * const "void"
+(NULL) @"enum--hwmon_sensor_types.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+)
+@"typedef--umode_t.txt"
+0x8 read * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"enum--hwmon_sensor_types.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+(NULL) * "long int"
+)
+"int"
+0x10 read_string * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"enum--hwmon_sensor_types.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+(NULL) * * const "char"
+)
+"int"
+0x18 write * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"enum--hwmon_sensor_types.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+(NULL) "long int"
+)
+"int"
+}

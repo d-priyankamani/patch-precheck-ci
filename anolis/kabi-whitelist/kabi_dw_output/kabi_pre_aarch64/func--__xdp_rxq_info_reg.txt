@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/core/xdp.c:165
+Symbol:
+func __xdp_rxq_info_reg (
+xdp_rxq * @"struct--xdp_rxq_info.txt"
+dev * @"struct--net_device.txt"
+queue_index @"typedef--u32.txt"
+napi_id "unsigned int"
+frag_size @"typedef--u32.txt"
+)
+"int"

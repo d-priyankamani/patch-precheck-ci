@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_hdcp_helper.c:355
+Symbol:
+func drm_connector_attach_content_protection_property (
+connector * @"struct--drm_connector.txt"
+hdcp_content_type @"typedef--bool.txt"
+)
+"int"

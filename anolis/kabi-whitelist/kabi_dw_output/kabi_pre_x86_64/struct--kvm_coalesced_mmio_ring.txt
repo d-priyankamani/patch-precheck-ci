@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/kvm.h:587
+Symbol:
+Byte size 8
+struct kvm_coalesced_mmio_ring {
+0x0 first @"typedef--__u32.txt"
+0x4 last @"typedef--__u32.txt"
+0x8 coalesced_mmio [0]@"struct--kvm_coalesced_mmio.txt"
+}

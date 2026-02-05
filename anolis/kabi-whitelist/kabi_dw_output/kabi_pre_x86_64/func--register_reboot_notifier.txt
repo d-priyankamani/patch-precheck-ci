@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/reboot.c:100
+Symbol:
+func register_reboot_notifier (
+nb * @"struct--notifier_block.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/tty/tty_port.c:90
+Symbol:
+func tty_port_init (
+port * @"struct--tty_port.txt"
+)
+"void"

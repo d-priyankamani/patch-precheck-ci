@@ -1,0 +1,57 @@
+Version: 1.0
+File: block/blk-rq-qos.h:37
+Symbol:
+Byte size 88
+struct rq_qos_ops {
+0x0 throttle * func (NULL) (
+(NULL) * @"struct--rq_qos.txt"
+(NULL) * @"struct--bio.txt"
+)
+"void"
+0x8 track * func (NULL) (
+(NULL) * @"struct--rq_qos.txt"
+(NULL) * @"struct--request.txt"
+(NULL) * @"struct--bio.txt"
+)
+"void"
+0x10 merge * func (NULL) (
+(NULL) * @"struct--rq_qos.txt"
+(NULL) * @"struct--request.txt"
+(NULL) * @"struct--bio.txt"
+)
+"void"
+0x18 issue * func (NULL) (
+(NULL) * @"struct--rq_qos.txt"
+(NULL) * @"struct--request.txt"
+)
+"void"
+0x20 requeue * func (NULL) (
+(NULL) * @"struct--rq_qos.txt"
+(NULL) * @"struct--request.txt"
+)
+"void"
+0x28 done * func (NULL) (
+(NULL) * @"struct--rq_qos.txt"
+(NULL) * @"struct--request.txt"
+)
+"void"
+0x30 done_bio * func (NULL) (
+(NULL) * @"struct--rq_qos.txt"
+(NULL) * @"struct--bio.txt"
+)
+"void"
+0x38 cleanup * func (NULL) (
+(NULL) * @"struct--rq_qos.txt"
+(NULL) * @"struct--bio.txt"
+)
+"void"
+0x40 queue_depth_changed * func (NULL) (
+(NULL) * @"struct--rq_qos.txt"
+)
+"void"
+0x48 exit * func (NULL) (
+(NULL) * @"struct--rq_qos.txt"
+)
+"void"
+0x50 debugfs_attrs * const @"struct--blk_mq_debugfs_attr.txt"
+}

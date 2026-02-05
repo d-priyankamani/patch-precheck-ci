@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:2872
+Symbol:
+func netdev_set_num_tc (
+dev * @"struct--net_device.txt"
+num_tc @"typedef--u8.txt"
+)
+"int"

@@ -1,0 +1,14 @@
+Version: 1.0
+File: fs/debugfs/file.c:1274
+Symbol:
+func debugfs_create_devm_seqfile (
+dev * @"struct--device.txt"
+name * const "char"
+parent * @"struct--dentry.txt"
+read_fn * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+)
+"int"
+)
+"void"

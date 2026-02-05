@@ -1,0 +1,4 @@
+Version: 1.0
+File: arch/x86/kernel/head64.c:63
+Symbol:
+var page_offset_base "void"

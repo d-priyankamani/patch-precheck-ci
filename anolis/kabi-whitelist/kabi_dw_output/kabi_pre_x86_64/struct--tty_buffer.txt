@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/tty_buffer.h:10
+Symbol:
+Byte size 32
+Alignment 8
+struct tty_buffer {
+0x0 (NULL) union (NULL) {
+next * @"struct--tty_buffer.txt"
+free @"struct--llist_node.txt"
+}
+0x8 used "unsigned int"
+0xc size "unsigned int"
+0x10 commit "unsigned int"
+0x14 lookahead "unsigned int"
+0x18 read "unsigned int"
+0x1c flags @"typedef--bool.txt"
+0x20 8 data [0]@"typedef--u8.txt"
+}

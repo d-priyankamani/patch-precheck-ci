@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:4155
+Symbol:
+func rdma_bind_addr (
+id * @"struct--rdma_cm_id.txt"
+addr * @"struct--sockaddr.txt"
+)
+"int"

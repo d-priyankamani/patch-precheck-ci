@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/mad.c:945
+Symbol:
+func ib_get_rmpp_segment (
+send_buf * @"struct--ib_mad_send_buf.txt"
+seg_num "int"
+)
+* "void"

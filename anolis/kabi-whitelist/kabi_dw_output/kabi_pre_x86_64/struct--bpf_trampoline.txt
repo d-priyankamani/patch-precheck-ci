@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/linux/bpf.h:1181
+Symbol:
+Byte size 216
+struct bpf_trampoline {
+0x0 hlist @"struct--hlist_node.txt"
+0x10 fops * @"struct--ftrace_ops.txt"
+0x18 mutex @"struct--mutex.txt"
+0x38 refcnt @"typedef--refcount_t.txt"
+0x3c flags @"typedef--u32.txt"
+0x40 key @"typedef--u64.txt"
+0x48 func struct (NULL) {
+0x0 model @"struct--btf_func_model.txt"
+0x30 addr * "void"
+0x38 ftrace_managed @"typedef--bool.txt"
+}
+0x88 extension_prog * @"struct--bpf_prog.txt"
+0x90 progs_hlist [3]@"struct--hlist_head.txt"
+0xa8 progs_cnt [3]"int"
+0xb8 cur_image * @"struct--bpf_tramp_image.txt"
+0xc0 mod * @"struct--module.txt"
+0xc8 ck_reserved1 "long unsigned int"
+0xd0 ck_reserved2 "long unsigned int"
+}

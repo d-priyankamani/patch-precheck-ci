@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/refcount.h:119
+Symbol:
+Byte size 4
+enum refcount_saturation_type {
+REFCOUNT_ADD_NOT_ZERO_OVF = 0x0
+REFCOUNT_ADD_OVF = 0x1
+REFCOUNT_ADD_UAF = 0x2
+REFCOUNT_SUB_UAF = 0x3
+REFCOUNT_DEC_LEAK = 0x4
+}

@@ -1,0 +1,65 @@
+Version: 1.0
+File: include/drm/drm_modeset_helper_vtables.h:860
+Symbol:
+Byte size 96
+struct drm_connector_helper_funcs {
+0x0 get_modes * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+)
+"int"
+0x8 detect_ctx * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) * @"struct--drm_modeset_acquire_ctx.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x10 mode_valid * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) * @"struct--drm_display_mode.txt"
+)
+@"enum--drm_mode_status.txt"
+0x18 mode_valid_ctx * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) * @"struct--drm_display_mode.txt"
+(NULL) * @"struct--drm_modeset_acquire_ctx.txt"
+(NULL) * @"enum--drm_mode_status.txt"
+)
+"int"
+0x20 best_encoder * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+)
+* @"struct--drm_encoder.txt"
+0x28 atomic_best_encoder * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+* @"struct--drm_encoder.txt"
+0x30 atomic_check * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"int"
+0x38 atomic_commit * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"void"
+0x40 prepare_writeback_job * func (NULL) (
+(NULL) * @"struct--drm_writeback_connector.txt"
+(NULL) * @"struct--drm_writeback_job.txt"
+)
+"int"
+0x48 cleanup_writeback_job * func (NULL) (
+(NULL) * @"struct--drm_writeback_connector.txt"
+(NULL) * @"struct--drm_writeback_job.txt"
+)
+"void"
+0x50 enable_hpd * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+)
+"void"
+0x58 disable_hpd * func (NULL) (
+(NULL) * @"struct--drm_connector.txt"
+)
+"void"
+}

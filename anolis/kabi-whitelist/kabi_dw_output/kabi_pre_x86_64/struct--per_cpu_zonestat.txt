@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/mmzone.h:729
+Symbol:
+Byte size 64
+struct per_cpu_zonestat {
+0x0 vm_stat_diff [13]@"typedef--s8.txt"
+0xd stat_threshold @"typedef--s8.txt"
+0x10 vm_numa_event [6]"long unsigned int"
+}

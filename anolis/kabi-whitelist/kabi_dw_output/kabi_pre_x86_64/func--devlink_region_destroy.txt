@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/region.c:1191
+Symbol:
+func devlink_region_destroy (
+region * @"struct--devlink_region.txt"
+)
+"void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/device.h:563
+Symbol:
+Byte size 4
+enum device_physical_location_vertical_position {
+DEVICE_VERT_POS_UPPER = 0x0
+DEVICE_VERT_POS_CENTER = 0x1
+DEVICE_VERT_POS_LOWER = 0x2
+}

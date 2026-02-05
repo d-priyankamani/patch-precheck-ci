@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/umem_odp.c:473
+Symbol:
+func ib_umem_odp_unmap_dma_pages (
+umem_odp * @"struct--ib_umem_odp.txt"
+virt @"typedef--u64.txt"
+bound @"typedef--u64.txt"
+)
+"void"

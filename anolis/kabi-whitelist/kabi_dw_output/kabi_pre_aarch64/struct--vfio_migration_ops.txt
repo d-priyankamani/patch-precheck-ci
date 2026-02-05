@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/vfio.h:194
+Symbol:
+Byte size 24
+struct vfio_migration_ops {
+0x0 migration_set_state * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) @"enum--vfio_device_mig_state.txt"
+)
+* @"struct--file.txt"
+0x8 migration_get_state * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) * @"enum--vfio_device_mig_state.txt"
+)
+"int"
+0x10 migration_get_data_size * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) * "long unsigned int"
+)
+"int"
+}

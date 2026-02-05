@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_property.c:738
+Symbol:
+func drm_property_replace_blob (
+blob * * @"struct--drm_property_blob.txt"
+new_blob * @"struct--drm_property_blob.txt"
+)
+@"typedef--bool.txt"

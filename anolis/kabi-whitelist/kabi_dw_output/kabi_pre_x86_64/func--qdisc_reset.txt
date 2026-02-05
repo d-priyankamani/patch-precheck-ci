@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/sched/sch_generic.c:1028
+Symbol:
+func qdisc_reset (
+qdisc * @"struct--Qdisc.txt"
+)
+"void"

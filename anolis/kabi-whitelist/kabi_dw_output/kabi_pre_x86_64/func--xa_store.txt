@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/xarray.c:1575
+Symbol:
+func xa_store (
+xa * @"struct--xarray.txt"
+index "long unsigned int"
+entry * "void"
+gfp @"typedef--gfp_t.txt"
+)
+* "void"

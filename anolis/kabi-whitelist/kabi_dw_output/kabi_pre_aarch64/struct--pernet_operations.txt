@@ -1,0 +1,30 @@
+Version: 1.0
+File: include/net/net_namespace.h:431
+Symbol:
+Byte size 72
+struct pernet_operations {
+0x0 list @"struct--list_head.txt"
+0x10 init * func (NULL) (
+(NULL) * @"struct--net.txt"
+)
+"int"
+0x18 pre_exit * func (NULL) (
+(NULL) * @"struct--net.txt"
+)
+"void"
+0x20 exit * func (NULL) (
+(NULL) * @"struct--net.txt"
+)
+"void"
+0x28 exit_batch * func (NULL) (
+(NULL) * @"struct--list_head.txt"
+)
+"void"
+0x30 exit_batch_rtnl * func (NULL) (
+(NULL) * @"struct--list_head.txt"
+(NULL) * @"struct--list_head.txt"
+)
+"void"
+0x38 id * "unsigned int"
+0x40 size @"typedef--size_t.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/fortify-string.h:179
+Symbol:
+func strnlen (
+p const * const "char"
+maxlen @"typedef--__kernel_size_t.txt"
+)
+@"typedef--__kernel_size_t.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/pci/pci.c:568
+Symbol:
+func pci_find_next_ext_capability (
+dev * @"struct--pci_dev.txt"
+start @"typedef--u16.txt"
+cap "int"
+)
+@"typedef--u16.txt"

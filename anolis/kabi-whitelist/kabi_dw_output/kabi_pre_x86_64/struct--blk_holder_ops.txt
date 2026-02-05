@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/blkdev.h:1518
+Symbol:
+Byte size 16
+struct blk_holder_ops {
+0x0 mark_dead * func (NULL) (
+(NULL) * @"struct--block_device.txt"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+0x8 sync * func (NULL) (
+(NULL) * @"struct--block_device.txt"
+)
+"void"
+}

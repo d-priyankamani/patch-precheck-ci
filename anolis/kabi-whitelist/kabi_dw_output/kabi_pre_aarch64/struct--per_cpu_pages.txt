@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/mmzone.h:711
+Symbol:
+Byte size 256
+Alignment 64
+struct per_cpu_pages {
+0x0 lock @"typedef--spinlock_t.txt"
+0x4 count "int"
+0x8 high "int"
+0xc high_min "int"
+0x10 high_max "int"
+0x14 batch "int"
+0x18 flags @"typedef--u8.txt"
+0x19 alloc_factor @"typedef--u8.txt"
+0x1a expire @"typedef--u8.txt"
+0x1c free_count "short int"
+0x20 lists [14]@"struct--list_head.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:1348
+Symbol:
+func rdma_read_gid_attr_ndev_rcu (
+attr * const @"struct--ib_gid_attr.txt"
+)
+* @"struct--net_device.txt"

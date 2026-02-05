@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/net/neighbour.h:117
+Symbol:
+Byte size 96
+struct neigh_statistics {
+0x0 allocs "long unsigned int"
+0x8 destroys "long unsigned int"
+0x10 hash_grows "long unsigned int"
+0x18 res_failed "long unsigned int"
+0x20 lookups "long unsigned int"
+0x28 hits "long unsigned int"
+0x30 rcv_probes_mcast "long unsigned int"
+0x38 rcv_probes_ucast "long unsigned int"
+0x40 periodic_gc_runs "long unsigned int"
+0x48 forced_gc_runs "long unsigned int"
+0x50 unres_discards "long unsigned int"
+0x58 table_fulls "long unsigned int"
+}

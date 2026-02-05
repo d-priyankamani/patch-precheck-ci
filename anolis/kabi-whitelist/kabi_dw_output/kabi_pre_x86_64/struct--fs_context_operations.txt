@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/linux/fs_context.h:115
+Symbol:
+Byte size 48
+struct fs_context_operations {
+0x0 free * func (NULL) (
+(NULL) * @"struct--fs_context.txt"
+)
+"void"
+0x8 dup * func (NULL) (
+(NULL) * @"struct--fs_context.txt"
+(NULL) * @"struct--fs_context.txt"
+)
+"int"
+0x10 parse_param * func (NULL) (
+(NULL) * @"struct--fs_context.txt"
+(NULL) * @"struct--fs_parameter.txt"
+)
+"int"
+0x18 parse_monolithic * func (NULL) (
+(NULL) * @"struct--fs_context.txt"
+(NULL) * "void"
+)
+"int"
+0x20 get_tree * func (NULL) (
+(NULL) * @"struct--fs_context.txt"
+)
+"int"
+0x28 reconfigure * func (NULL) (
+(NULL) * @"struct--fs_context.txt"
+)
+"int"
+}

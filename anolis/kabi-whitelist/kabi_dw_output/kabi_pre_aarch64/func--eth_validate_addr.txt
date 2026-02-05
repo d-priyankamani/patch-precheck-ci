@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ethernet/eth.c:324
+Symbol:
+func eth_validate_addr (
+dev * @"struct--net_device.txt"
+)
+"int"

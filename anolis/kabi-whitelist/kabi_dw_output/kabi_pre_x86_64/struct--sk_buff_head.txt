@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/skbuff.h:336
+Symbol:
+Byte size 24
+struct sk_buff_head {
+0x0 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 next * @"struct--sk_buff.txt"
+0x8 prev * @"struct--sk_buff.txt"
+}
+list @"struct--sk_buff_list.txt"
+}
+0x10 qlen @"typedef--__u32.txt"
+0x14 lock @"typedef--spinlock_t.txt"
+}

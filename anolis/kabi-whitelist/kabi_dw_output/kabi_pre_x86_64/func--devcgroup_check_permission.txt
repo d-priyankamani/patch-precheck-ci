@@ -1,0 +1,10 @@
+Version: 1.0
+File: security/device_cgroup.c:860
+Symbol:
+func devcgroup_check_permission (
+type "short int"
+major @"typedef--u32.txt"
+minor @"typedef--u32.txt"
+access "short int"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/memremap.c:525
+Symbol:
+func __put_devmap_managed_page_refs (
+page * @"struct--page.txt"
+refs "int"
+)
+@"typedef--bool.txt"

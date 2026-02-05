@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/sysfs/symlink.c:143
+Symbol:
+func sysfs_remove_link (
+kobj * @"struct--kobject.txt"
+name * const "char"
+)
+"void"

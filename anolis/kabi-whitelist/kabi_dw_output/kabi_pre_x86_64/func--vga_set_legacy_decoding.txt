@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/vgaarb.c:955
+Symbol:
+func vga_set_legacy_decoding (
+pdev * @"struct--pci_dev.txt"
+decodes "unsigned int"
+)
+"void"

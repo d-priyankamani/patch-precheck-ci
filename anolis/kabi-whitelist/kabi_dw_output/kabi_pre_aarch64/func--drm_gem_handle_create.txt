@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem.c:478
+Symbol:
+func drm_gem_handle_create (
+file_priv * @"struct--drm_file.txt"
+obj * @"struct--drm_gem_object.txt"
+handlep * @"typedef--u32.txt"
+)
+"int"

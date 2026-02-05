@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/asm-generic/siginfo.h:11
+Symbol:
+typedef sigval_t
+@"union--sigval.txt"

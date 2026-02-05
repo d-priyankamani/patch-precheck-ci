@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/scsi/scsi_proto.h:274
+Symbol:
+Byte size 8
+struct scsi_lun {
+0x0 scsi_lun [8]@"typedef--__u8.txt"
+}

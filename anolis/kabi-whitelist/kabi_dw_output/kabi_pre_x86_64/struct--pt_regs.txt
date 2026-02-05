@@ -1,0 +1,35 @@
+Version: 1.0
+File: arch/x86/include/asm/ptrace.h:103
+Symbol:
+Byte size 168
+struct pt_regs {
+0x0 r15 "long unsigned int"
+0x8 r14 "long unsigned int"
+0x10 r13 "long unsigned int"
+0x18 r12 "long unsigned int"
+0x20 bp "long unsigned int"
+0x28 bx "long unsigned int"
+0x30 r11 "long unsigned int"
+0x38 r10 "long unsigned int"
+0x40 r9 "long unsigned int"
+0x48 r8 "long unsigned int"
+0x50 ax "long unsigned int"
+0x58 cx "long unsigned int"
+0x60 dx "long unsigned int"
+0x68 si "long unsigned int"
+0x70 di "long unsigned int"
+0x78 orig_ax "long unsigned int"
+0x80 ip "long unsigned int"
+0x88 (NULL) union (NULL) {
+cs @"typedef--u16.txt"
+csx @"typedef--u64.txt"
+fred_cs @"struct--fred_cs.txt"
+}
+0x90 flags "long unsigned int"
+0x98 sp "long unsigned int"
+0xa0 (NULL) union (NULL) {
+ss @"typedef--u16.txt"
+ssx @"typedef--u64.txt"
+fred_ss @"struct--fred_ss.txt"
+}
+}

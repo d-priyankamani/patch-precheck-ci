@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/softirq.c:383
+Symbol:
+func __local_bh_enable_ip (
+ip "long unsigned int"
+cnt "unsigned int"
+)
+"void"

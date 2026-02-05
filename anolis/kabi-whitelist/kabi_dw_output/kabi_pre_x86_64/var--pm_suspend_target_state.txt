@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/power/suspend.c:51
+Symbol:
+var pm_suspend_target_state "void"

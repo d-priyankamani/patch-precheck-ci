@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/netdevice.h:428
+Symbol:
+typedef gro_result_t
+@"enum--gro_result.txt"

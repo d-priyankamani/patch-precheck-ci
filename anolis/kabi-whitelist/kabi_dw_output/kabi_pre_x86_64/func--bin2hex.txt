@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/hexdump.c:87
+Symbol:
+func bin2hex (
+dst * "char"
+src * const "void"
+count @"typedef--size_t.txt"
+)
+* "char"

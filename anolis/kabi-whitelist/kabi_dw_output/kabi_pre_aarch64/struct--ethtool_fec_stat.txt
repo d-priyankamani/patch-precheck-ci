@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/ethtool.h:426
+Symbol:
+Byte size 72
+struct ethtool_fec_stat {
+0x0 total @"typedef--u64.txt"
+0x8 lanes [8]@"typedef--u64.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:172
+Symbol:
+Byte size 24
+struct ib_cm_rej_event_param {
+0x0 reason @"enum--ib_cm_rej_reason.txt"
+0x8 ari * "void"
+0x10 ari_length @"typedef--u8.txt"
+}

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2102
+Symbol:
+Byte size 24
+struct ib_flow_attr {
+0x0 type @"enum--ib_flow_attr_type.txt"
+0x4 size @"typedef--u16.txt"
+0x6 priority @"typedef--u16.txt"
+0x8 flags @"typedef--u32.txt"
+0xc num_of_specs @"typedef--u8.txt"
+0x10 port @"typedef--u32.txt"
+0x18 flows [0]@"union--ib_flow_spec.txt"
+}

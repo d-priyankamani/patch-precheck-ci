@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:9951
+Symbol:
+func netdev_update_features (
+dev * @"struct--net_device.txt"
+)
+"void"

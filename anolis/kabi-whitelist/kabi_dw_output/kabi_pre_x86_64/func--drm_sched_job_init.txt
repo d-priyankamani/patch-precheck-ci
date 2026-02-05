@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_main.c:631
+Symbol:
+func drm_sched_job_init (
+job * @"struct--drm_sched_job.txt"
+entity * @"struct--drm_sched_entity.txt"
+owner * "void"
+)
+"int"

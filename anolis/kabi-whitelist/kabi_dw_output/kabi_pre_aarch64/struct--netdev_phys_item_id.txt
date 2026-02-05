@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/netdevice.h:888
+Symbol:
+Byte size 33
+struct netdev_phys_item_id {
+0x0 id [32]"unsigned char"
+0x20 id_len "unsigned char"
+}

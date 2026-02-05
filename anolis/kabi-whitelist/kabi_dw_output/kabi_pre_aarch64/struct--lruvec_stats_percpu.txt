@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/memcontrol.h:143
+Symbol:
+Byte size 720
+struct lruvec_stats_percpu {
+0x0 state [45]"long int"
+0x168 state_prev [45]"long int"
+}

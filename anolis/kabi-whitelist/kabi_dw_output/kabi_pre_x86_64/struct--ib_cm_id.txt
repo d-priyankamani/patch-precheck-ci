@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:292
+Symbol:
+Byte size 56
+struct ib_cm_id {
+0x0 cm_handler @"typedef--ib_cm_handler.txt"
+0x8 context * "void"
+0x10 device * @"struct--ib_device.txt"
+0x18 service_id @"typedef--__be64.txt"
+0x20 state @"enum--ib_cm_state.txt"
+0x24 lap_state @"enum--ib_cm_lap_state.txt"
+0x28 local_id @"typedef--__be32.txt"
+0x2c remote_id @"typedef--__be32.txt"
+0x30 remote_cm_qpn @"typedef--u32.txt"
+}

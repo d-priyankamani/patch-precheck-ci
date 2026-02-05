@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/drm/drm_client.h:71
+Symbol:
+Byte size 96
+struct drm_client_dev {
+0x0 dev * @"struct--drm_device.txt"
+0x8 name * const "char"
+0x10 list @"struct--list_head.txt"
+0x20 funcs * const @"struct--drm_client_funcs.txt"
+0x28 file * @"struct--drm_file.txt"
+0x30 modeset_mutex @"struct--mutex.txt"
+0x50 modesets * @"struct--drm_mode_set.txt"
+0x58 hotplug_failed @"typedef--bool.txt"
+}

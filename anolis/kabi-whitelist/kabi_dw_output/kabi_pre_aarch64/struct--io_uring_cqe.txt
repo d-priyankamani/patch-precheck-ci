@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/io_uring.h:382
+Symbol:
+Byte size 16
+struct io_uring_cqe {
+0x0 user_data @"typedef--__u64.txt"
+0x8 res @"typedef--__s32.txt"
+0xc flags @"typedef--__u32.txt"
+0x10 big_cqe [0]@"typedef--__u64.txt"
+}

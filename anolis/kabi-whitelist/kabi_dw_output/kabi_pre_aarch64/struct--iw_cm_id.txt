@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/rdma/iw_cm.h:56
+Symbol:
+Byte size 576
+struct iw_cm_id {
+0x0 cm_handler @"typedef--iw_cm_handler.txt"
+0x8 context * "void"
+0x10 device * @"struct--ib_device.txt"
+0x18 local_addr @"struct--__kernel_sockaddr_storage.txt"
+0x98 remote_addr @"struct--__kernel_sockaddr_storage.txt"
+0x118 m_local_addr @"struct--__kernel_sockaddr_storage.txt"
+0x198 m_remote_addr @"struct--__kernel_sockaddr_storage.txt"
+0x218 provider_data * "void"
+0x220 event_handler @"typedef--iw_event_handler.txt"
+0x228 add_ref * func (NULL) (
+(NULL) * @"struct--iw_cm_id.txt"
+)
+"void"
+0x230 rem_ref * func (NULL) (
+(NULL) * @"struct--iw_cm_id.txt"
+)
+"void"
+0x238 tos @"typedef--u8.txt"
+0x239:0-1 tos_set @"typedef--bool.txt"
+0x239:1-2 mapped @"typedef--bool.txt"
+0x239:2-3 afonly @"typedef--bool.txt"
+}

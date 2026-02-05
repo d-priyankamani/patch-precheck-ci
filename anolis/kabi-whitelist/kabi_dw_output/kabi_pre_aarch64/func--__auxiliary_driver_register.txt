@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/base/auxiliary.c:377
+Symbol:
+func __auxiliary_driver_register (
+auxdrv * @"struct--auxiliary_driver.txt"
+owner * @"struct--module.txt"
+modname * const "char"
+)
+"int"

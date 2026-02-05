@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/configfs.h:38
+Symbol:
+Byte size 80
+struct config_item {
+0x0 ci_name * "char"
+0x8 ci_namebuf [20]"char"
+0x1c ci_kref @"struct--kref.txt"
+0x20 ci_entry @"struct--list_head.txt"
+0x30 ci_parent * @"struct--config_item.txt"
+0x38 ci_group * @"struct--config_group.txt"
+0x40 ci_type * const @"struct--config_item_type.txt"
+0x48 ci_dentry * @"struct--dentry.txt"
+}

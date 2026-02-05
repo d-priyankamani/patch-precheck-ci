@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/trace/trace_seq.c:81
+Symbol:
+func trace_seq_printf (
+s * @"struct--trace_seq.txt"
+fmt * const "char"
+(NULL) ...
+)
+"void"

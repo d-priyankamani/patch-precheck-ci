@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/pci.c:3932
+Symbol:
+func pci_enable_atomic_ops_to_root (
+dev * @"struct--pci_dev.txt"
+cap_mask @"typedef--u32.txt"
+)
+"int"

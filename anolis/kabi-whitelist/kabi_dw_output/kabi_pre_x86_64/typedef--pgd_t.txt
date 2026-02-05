@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/x86/include/asm/pgtable_types.h:299
+Symbol:
+Byte size 8
+typedef pgd_t
+struct (NULL) {
+0x0 pgd @"typedef--pgdval_t.txt"
+}

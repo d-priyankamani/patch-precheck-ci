@@ -1,0 +1,4 @@
+Version: 1.0
+File: mm/slab_common.c:660
+Symbol:
+var kmalloc_caches "void"

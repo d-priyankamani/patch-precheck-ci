@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/crc32.c:195
+Symbol:
+func crc32_le (
+crc @"typedef--u32.txt"
+p * const "unsigned char"
+len @"typedef--size_t.txt"
+)
+@"typedef--u32.txt"

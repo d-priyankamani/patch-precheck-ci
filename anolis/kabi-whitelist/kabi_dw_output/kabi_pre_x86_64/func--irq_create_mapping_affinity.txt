@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/irq/irqdomain.c:727
+Symbol:
+func irq_create_mapping_affinity (
+domain * @"struct--irq_domain.txt"
+hwirq @"typedef--irq_hw_number_t.txt"
+affinity * const @"struct--irq_affinity_desc.txt"
+)
+"unsigned int"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mm.c:963
+Symbol:
+func drm_mm_init (
+mm * @"struct--drm_mm.txt"
+start @"typedef--u64.txt"
+size @"typedef--u64.txt"
+)
+"void"

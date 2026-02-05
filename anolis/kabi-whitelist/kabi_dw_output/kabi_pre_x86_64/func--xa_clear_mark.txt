@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/xarray.c:2005
+Symbol:
+func xa_clear_mark (
+xa * @"struct--xarray.txt"
+index "long unsigned int"
+mark @"typedef--xa_mark_t.txt"
+)
+"void"

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/iommu.h:161
+Symbol:
+Byte size 8
+typedef iommu_fault_handler_t
+* func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) * @"struct--device.txt"
+(NULL) "long unsigned int"
+(NULL) "int"
+(NULL) * "void"
+)
+"int"

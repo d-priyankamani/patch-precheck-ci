@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/drm/gpu_scheduler.h:256
+Symbol:
+Byte size 56
+struct drm_sched_rq {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 sched * @"struct--drm_gpu_scheduler.txt"
+0x10 entities @"struct--list_head.txt"
+0x20 current_entity * @"struct--drm_sched_entity.txt"
+0x28 rb_tree_root @"struct--rb_root_cached.txt"
+}

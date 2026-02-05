@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/scsi/scsi_device.h:60
+Symbol:
+Byte size 4
+enum scsi_scan_mode {
+SCSI_SCAN_INITIAL = 0x0
+SCSI_SCAN_RESCAN = 0x1
+SCSI_SCAN_MANUAL = 0x2
+}

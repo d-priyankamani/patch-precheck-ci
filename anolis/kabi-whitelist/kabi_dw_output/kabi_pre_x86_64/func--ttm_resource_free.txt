@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_resource.c:244
+Symbol:
+func ttm_resource_free (
+bo * @"struct--ttm_buffer_object.txt"
+res * * @"struct--ttm_resource.txt"
+)
+"void"

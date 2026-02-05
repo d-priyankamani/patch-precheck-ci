@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:247
+Symbol:
+Byte size 120
+struct acpi_device_pnp {
+0x0 bus_id @"typedef--acpi_bus_id.txt"
+0x8 instance_no "int"
+0xc type @"struct--acpi_pnp_type.txt"
+0x10 bus_address @"typedef--acpi_bus_address.txt"
+0x18 unique_id * "char"
+0x20 ids @"struct--list_head.txt"
+0x30 device_name @"typedef--acpi_device_name.txt"
+0x58 device_class @"typedef--acpi_device_class.txt"
+0x70 str_obj * @"union--acpi_object.txt"
+}

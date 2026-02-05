@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/socket.h:28
+Symbol:
+typedef sa_family_t
+@"typedef--__kernel_sa_family_t.txt"

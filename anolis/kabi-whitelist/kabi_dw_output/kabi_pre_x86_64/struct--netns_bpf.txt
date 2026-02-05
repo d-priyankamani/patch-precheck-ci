@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/netns/bpf.h:21
+Symbol:
+Byte size 64
+struct netns_bpf {
+0x0 run_array [2]* @"struct--bpf_prog_array.txt"
+0x10 progs [2]* @"struct--bpf_prog.txt"
+0x20 links [2]@"struct--list_head.txt"
+}

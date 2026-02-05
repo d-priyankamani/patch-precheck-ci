@@ -1,0 +1,10 @@
+Version: 1.0
+File: mm/vmalloc.c:2958
+Symbol:
+func vmap (
+pages * * @"struct--page.txt"
+count "unsigned int"
+flags "long unsigned int"
+prot @"typedef--pgprot_t.txt"
+)
+* "void"

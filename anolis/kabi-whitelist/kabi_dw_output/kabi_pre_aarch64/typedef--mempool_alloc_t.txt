@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/mempool.h:14
+Symbol:
+Byte size 8
+typedef mempool_alloc_t
+func (NULL) (
+(NULL) @"typedef--gfp_t.txt"
+(NULL) * "void"
+)
+* "void"

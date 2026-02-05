@@ -1,0 +1,4 @@
+Version: 1.0
+File: arch/x86/kernel/setup.c:132
+Symbol:
+var boot_cpu_data "void"

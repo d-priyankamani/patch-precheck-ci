@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/power/runtime.c:1408
+Symbol:
+func pm_runtime_barrier (
+dev * @"struct--device.txt"
+)
+"int"

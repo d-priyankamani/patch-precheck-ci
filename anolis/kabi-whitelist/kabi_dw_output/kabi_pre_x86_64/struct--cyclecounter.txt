@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/timecounter.h:30
+Symbol:
+Byte size 24
+struct cyclecounter {
+0x0 read * func (NULL) (
+(NULL) * const @"struct--cyclecounter.txt"
+)
+@"typedef--u64.txt"
+0x8 mask @"typedef--u64.txt"
+0x10 mult @"typedef--u32.txt"
+0x14 shift @"typedef--u32.txt"
+}

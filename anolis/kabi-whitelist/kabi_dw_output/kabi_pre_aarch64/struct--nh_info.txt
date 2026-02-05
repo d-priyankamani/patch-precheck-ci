@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/net/nexthop.h:57
+Symbol:
+Byte size 144
+struct nh_info {
+0x0 dev_hash @"struct--hlist_node.txt"
+0x10 nh_parent * @"struct--nexthop.txt"
+0x18 family @"typedef--u8.txt"
+0x19 reject_nh @"typedef--bool.txt"
+0x1a fdb_nh @"typedef--bool.txt"
+0x20 (NULL) union (NULL) {
+fib_nhc @"struct--fib_nh_common.txt"
+fib_nh @"struct--fib_nh.txt"
+fib6_nh @"struct--fib6_nh.txt"
+}
+}

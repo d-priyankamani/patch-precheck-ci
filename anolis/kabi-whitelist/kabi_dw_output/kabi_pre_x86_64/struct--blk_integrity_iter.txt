@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/blk-integrity.h:16
+Symbol:
+Byte size 40
+struct blk_integrity_iter {
+0x0 prot_buf * "void"
+0x8 data_buf * "void"
+0x10 seed @"typedef--sector_t.txt"
+0x18 data_size "unsigned int"
+0x1c interval "short unsigned int"
+0x1e tuple_size "unsigned char"
+0x20 disk_name * const "char"
+}

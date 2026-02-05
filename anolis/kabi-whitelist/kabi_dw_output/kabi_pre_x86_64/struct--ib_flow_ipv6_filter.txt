@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1965
+Symbol:
+Byte size 40
+struct ib_flow_ipv6_filter {
+0x0 src_ip [16]@"typedef--u8.txt"
+0x10 dst_ip [16]@"typedef--u8.txt"
+0x20 flow_label @"typedef--__be32.txt"
+0x24 next_hdr @"typedef--u8.txt"
+0x25 traffic_class @"typedef--u8.txt"
+0x26 hop_limit @"typedef--u8.txt"
+0x27 real_sz [0]@"typedef--u8.txt"
+}

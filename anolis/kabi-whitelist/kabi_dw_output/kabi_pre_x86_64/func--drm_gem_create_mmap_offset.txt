@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem.c:549
+Symbol:
+func drm_gem_create_mmap_offset (
+obj * @"struct--drm_gem_object.txt"
+)
+"int"

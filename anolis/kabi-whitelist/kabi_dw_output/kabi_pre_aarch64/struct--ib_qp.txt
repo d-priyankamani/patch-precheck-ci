@@ -1,0 +1,39 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1783
+Symbol:
+Byte size 296
+struct ib_qp {
+0x0 device * @"struct--ib_device.txt"
+0x8 pd * @"struct--ib_pd.txt"
+0x10 send_cq * @"struct--ib_cq.txt"
+0x18 recv_cq * @"struct--ib_cq.txt"
+0x20 mr_lock @"typedef--spinlock_t.txt"
+0x24 mrs_used "int"
+0x28 rdma_mrs @"struct--list_head.txt"
+0x38 sig_mrs @"struct--list_head.txt"
+0x48 srq * @"struct--ib_srq.txt"
+0x50 xrcd * @"struct--ib_xrcd.txt"
+0x58 xrcd_list @"struct--list_head.txt"
+0x68 usecnt @"typedef--atomic_t.txt"
+0x70 open_list @"struct--list_head.txt"
+0x80 real_qp * @"struct--ib_qp.txt"
+0x88 uobject * @"struct--ib_uqp_object.txt"
+0x90 event_handler * func (NULL) (
+(NULL) * @"struct--ib_event.txt"
+(NULL) * "void"
+)
+"void"
+0x98 qp_context * "void"
+0xa0 av_sgid_attr * const @"struct--ib_gid_attr.txt"
+0xa8 alt_path_sgid_attr * const @"struct--ib_gid_attr.txt"
+0xb0 qp_num @"typedef--u32.txt"
+0xb4 max_write_sge @"typedef--u32.txt"
+0xb8 max_read_sge @"typedef--u32.txt"
+0xbc qp_type @"enum--ib_qp_type.txt"
+0xc0 rwq_ind_tbl * @"struct--ib_rwq_ind_table.txt"
+0xc8 qp_sec * @"struct--ib_qp_security.txt"
+0xd0 port @"typedef--u32.txt"
+0xd4 integrity_en @"typedef--bool.txt"
+0xd8 res @"struct--rdma_restrack_entry.txt"
+0x120 counter * @"struct--rdma_counter.txt"
+}

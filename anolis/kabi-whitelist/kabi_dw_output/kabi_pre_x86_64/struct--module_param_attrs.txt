@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/params.c:548
+Symbol:
+Byte size 48
+struct module_param_attrs {
+0x0 num "unsigned int"
+0x8 grp @"struct--attribute_group.txt"
+0x30 attrs [0]@"struct--param_attribute.txt"
+}

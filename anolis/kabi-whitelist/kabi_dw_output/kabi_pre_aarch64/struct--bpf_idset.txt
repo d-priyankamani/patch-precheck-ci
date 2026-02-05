@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:613
+Symbol:
+Byte size 2404
+struct bpf_idset {
+0x0 count @"typedef--u32.txt"
+0x4 ids [600]@"typedef--u32.txt"
+}

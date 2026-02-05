@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/netns/flow_table.h:5
+Symbol:
+Byte size 12
+struct nf_flow_table_stat {
+0x0 count_wq_add "unsigned int"
+0x4 count_wq_del "unsigned int"
+0x8 count_wq_stats "unsigned int"
+}

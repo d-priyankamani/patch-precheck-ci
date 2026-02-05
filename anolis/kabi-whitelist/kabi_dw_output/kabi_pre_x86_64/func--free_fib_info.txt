@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ipv4/fib_semantics.c:250
+Symbol:
+func free_fib_info (
+fi * @"struct--fib_info.txt"
+)
+"void"

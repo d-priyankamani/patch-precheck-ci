@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:147
+Symbol:
+Byte size 4
+enum devlink_port_type {
+DEVLINK_PORT_TYPE_NOTSET = 0x0
+DEVLINK_PORT_TYPE_AUTO = 0x1
+DEVLINK_PORT_TYPE_ETH = 0x2
+DEVLINK_PORT_TYPE_IB = 0x3
+}

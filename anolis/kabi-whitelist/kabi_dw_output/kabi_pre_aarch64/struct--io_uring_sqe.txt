@@ -1,0 +1,65 @@
+Version: 1.0
+File: include/uapi/linux/io_uring.h:30
+Symbol:
+Byte size 64
+struct io_uring_sqe {
+0x0 opcode @"typedef--__u8.txt"
+0x1 flags @"typedef--__u8.txt"
+0x2 ioprio @"typedef--__u16.txt"
+0x4 fd @"typedef--__s32.txt"
+0x8 (NULL) union (NULL) {
+off @"typedef--__u64.txt"
+addr2 @"typedef--__u64.txt"
+(NULL) struct (NULL) {
+0x0 cmd_op @"typedef--__u32.txt"
+0x4 __pad1 @"typedef--__u32.txt"
+}
+}
+0x10 (NULL) union (NULL) {
+addr @"typedef--__u64.txt"
+splice_off_in @"typedef--__u64.txt"
+}
+0x18 len @"typedef--__u32.txt"
+0x1c (NULL) union (NULL) {
+rw_flags @"typedef--__kernel_rwf_t.txt"
+fsync_flags @"typedef--__u32.txt"
+poll_events @"typedef--__u16.txt"
+poll32_events @"typedef--__u32.txt"
+sync_range_flags @"typedef--__u32.txt"
+msg_flags @"typedef--__u32.txt"
+timeout_flags @"typedef--__u32.txt"
+accept_flags @"typedef--__u32.txt"
+cancel_flags @"typedef--__u32.txt"
+open_flags @"typedef--__u32.txt"
+statx_flags @"typedef--__u32.txt"
+fadvise_advice @"typedef--__u32.txt"
+splice_flags @"typedef--__u32.txt"
+rename_flags @"typedef--__u32.txt"
+unlink_flags @"typedef--__u32.txt"
+hardlink_flags @"typedef--__u32.txt"
+xattr_flags @"typedef--__u32.txt"
+msg_ring_flags @"typedef--__u32.txt"
+uring_cmd_flags @"typedef--__u32.txt"
+}
+0x20 user_data @"typedef--__u64.txt"
+0x28 (NULL) union (NULL) {
+buf_index @"typedef--__u16.txt"
+buf_group @"typedef--__u16.txt"
+}
+0x2a personality @"typedef--__u16.txt"
+0x2c (NULL) union (NULL) {
+splice_fd_in @"typedef--__s32.txt"
+file_index @"typedef--__u32.txt"
+(NULL) struct (NULL) {
+0x0 addr_len @"typedef--__u16.txt"
+0x2 __pad3 [1]@"typedef--__u16.txt"
+}
+}
+0x30 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 addr3 @"typedef--__u64.txt"
+0x8 __pad2 [1]@"typedef--__u64.txt"
+}
+cmd [0]@"typedef--__u8.txt"
+}
+}

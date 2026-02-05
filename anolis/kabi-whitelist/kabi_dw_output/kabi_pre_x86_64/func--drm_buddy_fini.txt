@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_buddy.c:187
+Symbol:
+func drm_buddy_fini (
+mm * @"struct--drm_buddy.txt"
+)
+"void"

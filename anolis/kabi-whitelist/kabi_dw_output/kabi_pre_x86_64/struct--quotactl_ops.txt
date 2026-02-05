@@ -1,0 +1,71 @@
+Version: 1.0
+File: include/linux/quota.h:437
+Symbol:
+Byte size 120
+struct quotactl_ops {
+0x0 quota_on * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) * const @"struct--path.txt"
+)
+"int"
+0x8 quota_off * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "int"
+)
+"int"
+0x10 quota_enable * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x18 quota_disable * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x20 quota_sync * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "int"
+)
+"int"
+0x28 set_info * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "int"
+(NULL) * @"struct--qc_info.txt"
+)
+"int"
+0x30 get_dqblk * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) @"struct--kqid.txt"
+(NULL) * @"struct--qc_dqblk.txt"
+)
+"int"
+0x38 get_nextdqblk * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) * @"struct--kqid.txt"
+(NULL) * @"struct--qc_dqblk.txt"
+)
+"int"
+0x40 set_dqblk * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) @"struct--kqid.txt"
+(NULL) * @"struct--qc_dqblk.txt"
+)
+"int"
+0x48 get_state * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) * @"struct--qc_state.txt"
+)
+"int"
+0x50 rm_xquota * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x58 ck_reserved1 "long unsigned int"
+0x60 ck_reserved2 "long unsigned int"
+0x68 ck_reserved3 "long unsigned int"
+0x70 ck_reserved4 "long unsigned int"
+}

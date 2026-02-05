@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/umem_odp.c:160
+Symbol:
+func ib_umem_odp_alloc_child (
+root * @"struct--ib_umem_odp.txt"
+addr "long unsigned int"
+size @"typedef--size_t.txt"
+ops * const @"struct--mmu_interval_notifier_ops.txt"
+)
+* @"struct--ib_umem_odp.txt"

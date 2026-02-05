@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/irqdesc.h:25
+Symbol:
+Byte size 8
+struct irqstat {
+0x0 cnt "unsigned int"
+0x4 ref "unsigned int"
+}

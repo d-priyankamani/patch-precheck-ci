@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vblank.c:1974
+Symbol:
+func drm_handle_vblank (
+dev * @"struct--drm_device.txt"
+pipe "unsigned int"
+)
+@"typedef--bool.txt"

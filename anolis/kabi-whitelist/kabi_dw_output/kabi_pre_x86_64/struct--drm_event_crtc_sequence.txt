@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/drm/drm.h:1270
+Symbol:
+Byte size 32
+struct drm_event_crtc_sequence {
+0x0 base @"struct--drm_event.txt"
+0x8 user_data @"typedef--__u64.txt"
+0x10 time_ns @"typedef--__s64.txt"
+0x18 sequence @"typedef--__u64.txt"
+}

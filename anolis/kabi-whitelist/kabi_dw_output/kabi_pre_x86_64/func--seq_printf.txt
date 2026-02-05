@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/seq_file.c:401
+Symbol:
+func seq_printf (
+m * @"struct--seq_file.txt"
+f * const "char"
+(NULL) ...
+)
+"void"

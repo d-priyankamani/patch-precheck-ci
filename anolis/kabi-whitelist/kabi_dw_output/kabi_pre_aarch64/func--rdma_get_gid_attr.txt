@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:1215
+Symbol:
+func rdma_get_gid_attr (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+index "int"
+)
+* const @"struct--ib_gid_attr.txt"

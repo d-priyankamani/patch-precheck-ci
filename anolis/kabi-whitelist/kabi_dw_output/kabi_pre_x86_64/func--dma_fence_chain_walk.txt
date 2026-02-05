@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence-chain.c:39
+Symbol:
+func dma_fence_chain_walk (
+fence * @"struct--dma_fence.txt"
+)
+* @"struct--dma_fence.txt"

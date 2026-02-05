@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/uprobes.h:51
+Symbol:
+Byte size 4
+enum uprobe_task_state {
+UTASK_RUNNING = 0x0
+UTASK_SSTEP = 0x1
+UTASK_SSTEP_ACK = 0x2
+UTASK_SSTEP_TRAPPED = 0x3
+}

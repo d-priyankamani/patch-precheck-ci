@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/mad.c:1062
+Symbol:
+func ib_post_send_mad (
+send_buf * @"struct--ib_mad_send_buf.txt"
+bad_send_buf * * @"struct--ib_mad_send_buf.txt"
+)
+"int"

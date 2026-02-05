@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/rbtree.c:623
+Symbol:
+func rb_first_postorder (
+root * const @"struct--rb_root.txt"
+)
+* @"struct--rb_node.txt"

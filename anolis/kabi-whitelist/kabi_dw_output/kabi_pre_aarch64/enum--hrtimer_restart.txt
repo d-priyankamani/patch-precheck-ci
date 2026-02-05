@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/hrtimer.h:66
+Symbol:
+Byte size 4
+enum hrtimer_restart {
+HRTIMER_NORESTART = 0x0
+HRTIMER_RESTART = 0x1
+}

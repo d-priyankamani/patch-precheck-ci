@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/xz.h:52
+Symbol:
+Byte size 4
+enum xz_mode {
+XZ_SINGLE = 0x0
+XZ_PREALLOC = 0x1
+XZ_DYNALLOC = 0x2
+}

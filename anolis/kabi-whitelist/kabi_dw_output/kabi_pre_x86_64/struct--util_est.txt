@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/sched.h:463
+Symbol:
+Byte size 8
+Alignment 8
+struct util_est {
+0x0 enqueued "unsigned int"
+0x4 ewma "unsigned int"
+}

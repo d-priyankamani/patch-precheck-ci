@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/rdma/ib_addr.h:36
+Symbol:
+Byte size 136
+struct rdma_dev_addr {
+0x0 src_dev_addr [32]"unsigned char"
+0x20 dst_dev_addr [32]"unsigned char"
+0x40 broadcast [32]"unsigned char"
+0x60 dev_type "short unsigned int"
+0x64 bound_dev_if "int"
+0x68 transport @"enum--rdma_transport_type.txt"
+0x70 net * @"struct--net.txt"
+0x78 sgid_attr * const @"struct--ib_gid_attr.txt"
+0x80 network @"enum--rdma_network_type.txt"
+0x84 hoplimit "int"
+}

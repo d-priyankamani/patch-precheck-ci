@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/iommu/iova.c:424
+Symbol:
+func free_iova_fast (
+iovad * @"struct--iova_domain.txt"
+pfn "long unsigned int"
+size "long unsigned int"
+)
+"void"

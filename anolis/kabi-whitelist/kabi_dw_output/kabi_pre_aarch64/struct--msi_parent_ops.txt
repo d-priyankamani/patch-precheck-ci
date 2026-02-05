@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/msi.h:597
+Symbol:
+Byte size 32
+struct msi_parent_ops {
+0x0 supported_flags @"typedef--u32.txt"
+0x4 required_flags @"typedef--u32.txt"
+0x8 bus_select_token @"typedef--u32.txt"
+0xc bus_select_mask @"typedef--u32.txt"
+0x10 prefix * const "char"
+0x18 init_dev_msi_info * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--msi_domain_info.txt"
+)
+@"typedef--bool.txt"
+}

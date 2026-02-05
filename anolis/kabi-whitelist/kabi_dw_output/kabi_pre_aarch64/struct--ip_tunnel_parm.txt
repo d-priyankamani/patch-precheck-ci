@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/uapi/linux/if_tunnel.h:48
+Symbol:
+Byte size 52
+struct ip_tunnel_parm {
+0x0 name [16]"char"
+0x10 link "int"
+0x14 i_flags @"typedef--__be16.txt"
+0x16 o_flags @"typedef--__be16.txt"
+0x18 i_key @"typedef--__be32.txt"
+0x1c o_key @"typedef--__be32.txt"
+0x20 iph @"struct--iphdr.txt"
+}

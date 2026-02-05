@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/dma-buf/dma-buf.c:753
+Symbol:
+Namespace DMA_BUF
+func dma_buf_put (
+dmabuf * @"struct--dma_buf.txt"
+)
+"void"

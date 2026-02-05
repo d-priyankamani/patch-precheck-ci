@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/wait.h:16
+Symbol:
+Byte size 8
+typedef wait_queue_func_t
+* func (NULL) (
+(NULL) * @"struct--wait_queue_entry.txt"
+(NULL) "unsigned int"
+(NULL) "int"
+(NULL) * "void"
+)
+"int"

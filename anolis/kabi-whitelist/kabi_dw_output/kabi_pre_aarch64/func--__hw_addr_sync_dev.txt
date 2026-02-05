@@ -1,0 +1,18 @@
+Version: 1.0
+File: net/core/dev_addr_lists.c:314
+Symbol:
+func __hw_addr_sync_dev (
+list * @"struct--netdev_hw_addr_list.txt"
+dev * @"struct--net_device.txt"
+sync * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const "unsigned char"
+)
+"int"
+unsync * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const "unsigned char"
+)
+"int"
+)
+"int"

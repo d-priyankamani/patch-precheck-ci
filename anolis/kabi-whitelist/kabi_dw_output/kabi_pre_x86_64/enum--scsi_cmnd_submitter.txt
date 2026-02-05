@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/scsi/scsi_cmnd.h:68
+Symbol:
+Byte size 1
+enum scsi_cmnd_submitter {
+SUBMITTED_BY_BLOCK_LAYER = 0x0
+SUBMITTED_BY_SCSI_ERROR_HANDLER = 0x1
+SUBMITTED_BY_SCSI_RESET_IOCTL = 0x2
+}

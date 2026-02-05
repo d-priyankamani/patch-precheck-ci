@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/netdevice.h:1025
+Symbol:
+Byte size 32
+struct netdev_bpf {
+0x0 command @"enum--bpf_netdev_command.txt"
+0x8 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 flags @"typedef--u32.txt"
+0x8 prog * @"struct--bpf_prog.txt"
+0x10 extack * @"struct--netlink_ext_ack.txt"
+}
+(NULL) struct (NULL) {
+0x0 offmap * @"struct--bpf_offloaded_map.txt"
+}
+xsk struct (NULL) {
+0x0 pool * @"struct--xsk_buff_pool.txt"
+0x8 queue_id @"typedef--u16.txt"
+}
+}
+}

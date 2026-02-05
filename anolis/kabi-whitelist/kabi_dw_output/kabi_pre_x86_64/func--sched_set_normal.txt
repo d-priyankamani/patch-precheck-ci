@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/sched/syscalls.c:1002
+Symbol:
+func sched_set_normal (
+p * @"struct--task_struct.txt"
+nice "int"
+)
+"void"

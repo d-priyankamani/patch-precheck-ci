@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/driver.c:194
+Symbol:
+func driver_remove_file (
+drv * @"struct--device_driver.txt"
+attr * const @"struct--driver_attribute.txt"
+)
+"void"

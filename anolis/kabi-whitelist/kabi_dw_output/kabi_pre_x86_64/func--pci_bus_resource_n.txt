@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/bus.c:64
+Symbol:
+func pci_bus_resource_n (
+bus * const @"struct--pci_bus.txt"
+n "int"
+)
+* @"struct--resource.txt"

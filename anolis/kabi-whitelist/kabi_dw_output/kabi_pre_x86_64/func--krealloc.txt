@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/slab_common.c:1674
+Symbol:
+func krealloc (
+p * const "void"
+new_size @"typedef--size_t.txt"
+flags @"typedef--gfp_t.txt"
+)
+* "void"

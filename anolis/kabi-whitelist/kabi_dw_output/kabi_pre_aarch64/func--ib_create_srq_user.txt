@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:1010
+Symbol:
+func ib_create_srq_user (
+pd * @"struct--ib_pd.txt"
+srq_init_attr * @"struct--ib_srq_init_attr.txt"
+uobject * @"<declarations>/struct--ib_usrq_object.txt"
+udata * @"struct--ib_udata.txt"
+)
+* @"struct--ib_srq.txt"

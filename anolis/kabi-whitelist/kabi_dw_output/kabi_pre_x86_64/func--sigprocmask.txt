@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/signal.c:3115
+Symbol:
+func sigprocmask (
+how "int"
+set * @"typedef--sigset_t.txt"
+oldset * @"typedef--sigset_t.txt"
+)
+"int"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/blkdev.h:391
+Symbol:
+Byte size 112
+struct blk_independent_access_range {
+0x0 kobj @"struct--kobject.txt"
+0x60 sector @"typedef--sector_t.txt"
+0x68 nr_sectors @"typedef--sector_t.txt"
+}

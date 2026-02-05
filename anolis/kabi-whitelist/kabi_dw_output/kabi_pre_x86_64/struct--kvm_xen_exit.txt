@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/uapi/linux/kvm.h:226
+Symbol:
+Byte size 80
+struct kvm_xen_exit {
+0x0 type @"typedef--__u32.txt"
+0x8 u union (NULL) {
+hcall struct (NULL) {
+0x0 longmode @"typedef--__u32.txt"
+0x4 cpl @"typedef--__u32.txt"
+0x8 input @"typedef--__u64.txt"
+0x10 result @"typedef--__u64.txt"
+0x18 params [6]@"typedef--__u64.txt"
+}
+}
+}

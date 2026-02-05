@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/net/netns/conntrack.h:96
+Symbol:
+Byte size 232
+struct netns_ct {
+0x0 ecache_dwork_pending @"typedef--bool.txt"
+0x1 sysctl_log_invalid @"typedef--u8.txt"
+0x2 sysctl_events @"typedef--u8.txt"
+0x3 sysctl_acct @"typedef--u8.txt"
+0x4 sysctl_tstamp @"typedef--u8.txt"
+0x5 sysctl_checksum @"typedef--u8.txt"
+0x8 stat * @"struct--ip_conntrack_stat.txt"
+0x10 nf_conntrack_event_cb * @"struct--nf_ct_event_notifier.txt"
+0x18 nf_ct_proto @"struct--nf_ip_net.txt"
+0xe0 labels_used "unsigned int"
+}

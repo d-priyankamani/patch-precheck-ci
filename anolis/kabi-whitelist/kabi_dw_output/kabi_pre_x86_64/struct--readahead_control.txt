@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/pagemap.h:1423
+Symbol:
+Byte size 88
+struct readahead_control {
+0x0 file * @"struct--file.txt"
+0x8 mapping * @"struct--address_space.txt"
+0x10 ra * @"struct--file_ra_state.txt"
+0x18 _index "long unsigned int"
+0x20 _nr_pages "unsigned int"
+0x24 _batch_count "unsigned int"
+0x28 dropbehind @"typedef--bool.txt"
+0x29 _workingset @"typedef--bool.txt"
+0x30 _pflags "long unsigned int"
+0x38 ck_reserved1 "long unsigned int"
+0x40 ck_reserved2 "long unsigned int"
+0x48 ck_reserved3 "long unsigned int"
+0x50 ck_reserved4 "long unsigned int"
+}

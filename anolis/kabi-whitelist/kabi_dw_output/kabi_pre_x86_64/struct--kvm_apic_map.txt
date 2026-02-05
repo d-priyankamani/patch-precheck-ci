@@ -1,0 +1,15 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:1053
+Symbol:
+Byte size 536
+Alignment 8
+struct kvm_apic_map {
+0x0 8 rcu @"struct--callback_head.txt"
+0x10 logical_mode @"enum--kvm_apic_logical_mode.txt"
+0x14 max_apic_id @"typedef--u32.txt"
+0x18 (NULL) union (NULL) {
+xapic_flat_map [8]* @"<declarations>/struct--kvm_lapic.txt"
+xapic_cluster_map [16][4]* @"<declarations>/struct--kvm_lapic.txt"
+}
+0x218 phys_map [0]* @"<declarations>/struct--kvm_lapic.txt"
+}

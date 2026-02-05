@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_plane.c:536
+Symbol:
+func drm_plane_cleanup (
+plane * @"struct--drm_plane.txt"
+)
+"void"

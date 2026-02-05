@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/skbuff.c:5995
+Symbol:
+func skb_vlan_pop (
+skb * @"struct--sk_buff.txt"
+)
+"int"

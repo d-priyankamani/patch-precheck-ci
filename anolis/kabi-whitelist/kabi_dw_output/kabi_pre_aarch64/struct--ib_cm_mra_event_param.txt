@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:178
+Symbol:
+Byte size 1
+struct ib_cm_mra_event_param {
+0x0 service_timeout @"typedef--u8.txt"
+}

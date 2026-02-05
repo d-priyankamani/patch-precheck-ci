@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/mdio.h:50
+Symbol:
+Byte size 184
+struct mdio_driver_common {
+0x0 driver @"struct--device_driver.txt"
+0xb0 flags "int"
+}

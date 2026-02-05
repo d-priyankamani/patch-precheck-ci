@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/bpf.h:1438
+Symbol:
+Byte size 16
+struct btf_mod_pair {
+0x0 btf * @"<declarations>/struct--btf.txt"
+0x8 module * @"struct--module.txt"
+}

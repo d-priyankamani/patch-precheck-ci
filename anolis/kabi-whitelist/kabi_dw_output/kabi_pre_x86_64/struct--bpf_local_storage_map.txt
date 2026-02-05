@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/bpf_local_storage.h:47
+Symbol:
+Byte size 640
+Alignment 64
+struct bpf_local_storage_map {
+0x0 64 map @"struct--bpf_map.txt"
+0x180 buckets * @"struct--bpf_local_storage_map_bucket.txt"
+0x188 bucket_log @"typedef--u32.txt"
+0x18c elem_size @"typedef--u16.txt"
+0x18e cache_idx @"typedef--u16.txt"
+0x190 selem_ma @"struct--bpf_mem_alloc.txt"
+0x1e8 storage_ma @"struct--bpf_mem_alloc.txt"
+0x240 bpf_ma @"typedef--bool.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/rdma_cm.h:46
+Symbol:
+Byte size 392
+struct rdma_addr {
+0x0 src_addr @"struct--__kernel_sockaddr_storage.txt"
+0x80 dst_addr @"struct--__kernel_sockaddr_storage.txt"
+0x100 dev_addr @"struct--rdma_dev_addr.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/page_pool.c:246
+Symbol:
+func page_pool_create (
+params * const @"struct--page_pool_params.txt"
+)
+* @"struct--page_pool.txt"

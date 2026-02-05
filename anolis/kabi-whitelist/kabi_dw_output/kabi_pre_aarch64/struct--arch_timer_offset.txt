@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/kvm/arm_arch_timer.h:30
+Symbol:
+Byte size 16
+struct arch_timer_offset {
+0x0 vm_offset * @"typedef--u64.txt"
+0x8 vcpu_offset * @"typedef--u64.txt"
+}

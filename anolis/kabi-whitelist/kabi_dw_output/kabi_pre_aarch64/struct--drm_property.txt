@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/drm/drm_property.h:80
+Symbol:
+Byte size 120
+struct drm_property {
+0x0 head @"struct--list_head.txt"
+0x10 base @"struct--drm_mode_object.txt"
+0x30 flags @"typedef--uint32_t.txt"
+0x34 name [32]"char"
+0x54 num_values @"typedef--uint32_t.txt"
+0x58 values * @"typedef--uint64_t.txt"
+0x60 dev * @"struct--drm_device.txt"
+0x68 enum_list @"struct--list_head.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/sysfs.c:1479
+Symbol:
+func ib_port_unregister_client_groups (
+ibdev * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+groups * * const @"struct--attribute_group.txt"
+)
+"void"

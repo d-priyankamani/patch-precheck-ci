@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/nlattr.c:764
+Symbol:
+func nla_strscpy (
+dst * "char"
+nla * const @"struct--nlattr.txt"
+dstsize @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"

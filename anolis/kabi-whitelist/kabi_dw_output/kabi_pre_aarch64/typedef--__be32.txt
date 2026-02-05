@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/types.h:39
+Symbol:
+typedef __be32
+@"typedef--__u32.txt"

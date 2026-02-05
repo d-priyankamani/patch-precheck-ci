@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/rdma/ib_sa.h:420
+Symbol:
+Byte size 88
+struct ib_sa_multicast {
+0x0 rec @"struct--ib_sa_mcmember_rec.txt"
+0x40 comp_mask @"typedef--ib_sa_comp_mask.txt"
+0x48 callback * func (NULL) (
+(NULL) "int"
+(NULL) * @"struct--ib_sa_multicast.txt"
+)
+"int"
+0x50 context * "void"
+}

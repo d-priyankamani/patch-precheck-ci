@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/net_namespace.c:1397
+Symbol:
+func unregister_pernet_device (
+ops * @"struct--pernet_operations.txt"
+)
+"void"

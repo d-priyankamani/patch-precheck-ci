@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/swap.h:249
+Symbol:
+Byte size 24
+struct swap_cluster_info {
+0x0 lock @"typedef--spinlock_t.txt"
+0x4 count @"typedef--u16.txt"
+0x6 flags @"typedef--u8.txt"
+0x7 order @"typedef--u8.txt"
+0x8 list @"struct--list_head.txt"
+}

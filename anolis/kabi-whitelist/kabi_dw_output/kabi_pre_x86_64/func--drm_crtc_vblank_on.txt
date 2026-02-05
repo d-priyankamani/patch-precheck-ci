@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vblank.c:1483
+Symbol:
+func drm_crtc_vblank_on (
+crtc * @"struct--drm_crtc.txt"
+)
+"void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/rcu/srcutree.c:305
+Symbol:
+func init_srcu_struct (
+ssp * @"struct--srcu_struct.txt"
+)
+"int"

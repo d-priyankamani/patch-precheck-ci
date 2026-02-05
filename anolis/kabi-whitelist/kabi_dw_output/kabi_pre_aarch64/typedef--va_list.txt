@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/stdarg.h:5
+Symbol:
+typedef va_list
+@"struct--__va_list.txt"

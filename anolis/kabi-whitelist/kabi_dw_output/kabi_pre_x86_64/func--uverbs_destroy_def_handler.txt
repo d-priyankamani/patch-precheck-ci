@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_std_types.c:168
+Symbol:
+func uverbs_destroy_def_handler (
+attrs * @"struct--uverbs_attr_bundle.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/scatterlist.c:923
+Symbol:
+func sg_miter_stop (
+miter * @"struct--sg_mapping_iter.txt"
+)
+"void"

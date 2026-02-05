@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/power/console.c:46
+Symbol:
+func pm_vt_switch_required (
+dev * @"struct--device.txt"
+required @"typedef--bool.txt"
+)
+"void"

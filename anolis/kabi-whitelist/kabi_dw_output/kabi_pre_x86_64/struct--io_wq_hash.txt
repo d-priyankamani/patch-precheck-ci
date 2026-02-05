@@ -1,0 +1,9 @@
+Version: 1.0
+File: io_uring/io-wq.h:27
+Symbol:
+Byte size 40
+struct io_wq_hash {
+0x0 refs @"typedef--refcount_t.txt"
+0x8 map "long unsigned int"
+0x10 wait @"struct--wait_queue_head.txt"
+}

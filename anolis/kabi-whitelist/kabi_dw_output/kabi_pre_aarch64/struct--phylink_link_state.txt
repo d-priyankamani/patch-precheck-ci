@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/phylink.h:183
+Symbol:
+Byte size 56
+struct phylink_link_state {
+0x0 advertising [2]"long unsigned int"
+0x10 lp_advertising [2]"long unsigned int"
+0x20 interface @"typedef--phy_interface_t.txt"
+0x24 speed "int"
+0x28 duplex "int"
+0x2c pause "int"
+0x30 rate_matching "int"
+0x34:0-1 link "unsigned int"
+0x34:1-2 an_complete "unsigned int"
+}

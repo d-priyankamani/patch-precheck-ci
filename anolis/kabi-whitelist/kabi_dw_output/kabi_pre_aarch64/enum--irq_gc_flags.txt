@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/irq.h:1106
+Symbol:
+Byte size 4
+enum irq_gc_flags {
+IRQ_GC_INIT_MASK_CACHE = 0x1
+IRQ_GC_INIT_NESTED_LOCK = 0x2
+IRQ_GC_MASK_CACHE_PER_TYPE = 0x4
+IRQ_GC_NO_MASK = 0x8
+IRQ_GC_BE_IO = 0x10
+}

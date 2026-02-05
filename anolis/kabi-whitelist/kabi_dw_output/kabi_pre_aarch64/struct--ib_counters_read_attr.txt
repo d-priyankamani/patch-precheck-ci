@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2287
+Symbol:
+Byte size 16
+struct ib_counters_read_attr {
+0x0 counters_buff * @"typedef--u64.txt"
+0x8 ncounters @"typedef--u32.txt"
+0xc flags @"typedef--u32.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/idr.c:152
+Symbol:
+func idr_remove (
+idr * @"struct--idr.txt"
+id "long unsigned int"
+)
+* "void"

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/genalloc.h:72
+Symbol:
+Byte size 56
+struct gen_pool_chunk {
+0x0 next_chunk @"struct--list_head.txt"
+0x10 avail @"typedef--atomic_long_t.txt"
+0x18 phys_addr @"typedef--phys_addr_t.txt"
+0x20 owner * "void"
+0x28 start_addr "long unsigned int"
+0x30 end_addr "long unsigned int"
+0x38 bits [0]"long unsigned int"
+}

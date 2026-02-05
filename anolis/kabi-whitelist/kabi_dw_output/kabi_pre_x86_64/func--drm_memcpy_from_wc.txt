@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_cache.c:305
+Symbol:
+func drm_memcpy_from_wc (
+dst * @"struct--iosys_map.txt"
+src * const @"struct--iosys_map.txt"
+len "long unsigned int"
+)
+"void"

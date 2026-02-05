@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/roce_gid_mgmt.c:511
+Symbol:
+func rdma_roce_rescan_device (
+ib_dev * @"struct--ib_device.txt"
+)
+"void"

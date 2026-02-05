@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/rhashtable-types.h:17
+Symbol:
+Byte size 8
+struct rhash_head {
+0x0 next * @"struct--rhash_head.txt"
+}

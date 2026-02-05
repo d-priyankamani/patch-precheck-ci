@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/cpufreq/cpufreq.c:1892
+Symbol:
+func cpufreq_quick_get_max (
+cpu "unsigned int"
+)
+"unsigned int"

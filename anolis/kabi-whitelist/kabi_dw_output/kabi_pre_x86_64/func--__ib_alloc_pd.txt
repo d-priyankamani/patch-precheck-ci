@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:262
+Symbol:
+func __ib_alloc_pd (
+device * @"struct--ib_device.txt"
+flags "unsigned int"
+caller * const "char"
+)
+* @"struct--ib_pd.txt"

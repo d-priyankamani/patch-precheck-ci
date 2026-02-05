@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/devlink/trap.c:1418
+Symbol:
+func devl_traps_unregister (
+devlink * @"struct--devlink.txt"
+traps * const @"struct--devlink_trap.txt"
+traps_count @"typedef--size_t.txt"
+)
+"void"

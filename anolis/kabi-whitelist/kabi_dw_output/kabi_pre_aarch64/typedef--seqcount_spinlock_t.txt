@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/seqlock.h:275
+Symbol:
+typedef seqcount_spinlock_t
+@"struct--seqcount_spinlock.txt"

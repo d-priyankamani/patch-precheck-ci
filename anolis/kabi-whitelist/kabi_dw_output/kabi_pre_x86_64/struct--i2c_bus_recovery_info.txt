@@ -1,0 +1,47 @@
+Version: 1.0
+File: include/linux/i2c.h:643
+Symbol:
+Byte size 120
+struct i2c_bus_recovery_info {
+0x0 recover_bus * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+)
+"int"
+0x8 get_scl * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+)
+"int"
+0x10 set_scl * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+(NULL) "int"
+)
+"void"
+0x18 get_sda * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+)
+"int"
+0x20 set_sda * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+(NULL) "int"
+)
+"void"
+0x28 get_bus_free * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+)
+"int"
+0x30 prepare_recovery * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+)
+"void"
+0x38 unprepare_recovery * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+)
+"void"
+0x40 scl_gpiod * @"<declarations>/struct--gpio_desc.txt"
+0x48 sda_gpiod * @"<declarations>/struct--gpio_desc.txt"
+0x50 pinctrl * @"<declarations>/struct--pinctrl.txt"
+0x58 pins_default * @"<declarations>/struct--pinctrl_state.txt"
+0x60 pins_gpio * @"<declarations>/struct--pinctrl_state.txt"
+0x68 ck_reserved1 "long unsigned int"
+0x70 ck_reserved2 "long unsigned int"
+}

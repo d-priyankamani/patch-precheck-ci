@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/property.h:21
+Symbol:
+Byte size 4
+enum dev_prop_type {
+DEV_PROP_U8 = 0x0
+DEV_PROP_U16 = 0x1
+DEV_PROP_U32 = 0x2
+DEV_PROP_U64 = 0x3
+DEV_PROP_STRING = 0x4
+DEV_PROP_REF = 0x5
+}

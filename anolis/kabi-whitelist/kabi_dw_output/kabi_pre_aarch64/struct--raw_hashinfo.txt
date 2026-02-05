@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/raw.h:37
+Symbol:
+Byte size 2112
+Alignment 64
+struct raw_hashinfo {
+0x0 lock @"typedef--spinlock_t.txt"
+0x40 64 ht [256]@"struct--hlist_head.txt"
+}

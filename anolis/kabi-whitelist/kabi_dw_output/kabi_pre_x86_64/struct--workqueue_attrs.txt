@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/workqueue.h:155
+Symbol:
+Byte size 40
+struct workqueue_attrs {
+0x0 nice "int"
+0x8 cpumask @"typedef--cpumask_var_t.txt"
+0x10 __pod_cpumask @"typedef--cpumask_var_t.txt"
+0x18 affn_strict @"typedef--bool.txt"
+0x1c affn_scope @"enum--wq_affn_scope.txt"
+0x20 ordered @"typedef--bool.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:701
+Symbol:
+Byte size 4
+enum devlink_port_fn_opstate {
+DEVLINK_PORT_FN_OPSTATE_DETACHED = 0x0
+DEVLINK_PORT_FN_OPSTATE_ATTACHED = 0x1
+}

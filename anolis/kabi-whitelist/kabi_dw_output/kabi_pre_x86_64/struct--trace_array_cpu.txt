@@ -1,0 +1,23 @@
+Version: 1.0
+File: kernel/trace/trace.h:183
+Symbol:
+Byte size 128
+struct trace_array_cpu {
+0x0 disabled @"typedef--atomic_t.txt"
+0x8 buffer_page * "void"
+0x10 entries "long unsigned int"
+0x18 saved_latency "long unsigned int"
+0x20 critical_start "long unsigned int"
+0x28 critical_end "long unsigned int"
+0x30 critical_sequence "long unsigned int"
+0x38 nice "long unsigned int"
+0x40 policy "long unsigned int"
+0x48 rt_priority "long unsigned int"
+0x50 skipped_entries "long unsigned int"
+0x58 preempt_timestamp @"typedef--u64.txt"
+0x60 pid @"typedef--pid_t.txt"
+0x64 uid @"typedef--kuid_t.txt"
+0x68 comm [16]"char"
+0x78 ftrace_ignore_pid "int"
+0x7c ignore_pid @"typedef--bool.txt"
+}

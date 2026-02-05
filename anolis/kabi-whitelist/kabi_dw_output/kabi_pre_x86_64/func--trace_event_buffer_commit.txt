@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/trace/trace.c:2990
+Symbol:
+func trace_event_buffer_commit (
+fbuffer * @"struct--trace_event_buffer.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/shrinker.h:17
+Symbol:
+Byte size 520
+struct shrinker_info_unit {
+0x0 nr_deferred [64]@"typedef--atomic_long_t.txt"
+0x200 map [1]"long unsigned int"
+}

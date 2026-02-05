@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/umem_odp.c:348
+Symbol:
+func ib_umem_odp_map_dma_and_lock (
+umem_odp * @"struct--ib_umem_odp.txt"
+user_virt @"typedef--u64.txt"
+bcnt @"typedef--u64.txt"
+access_mask @"typedef--u64.txt"
+fault @"typedef--bool.txt"
+)
+"int"

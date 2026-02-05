@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/drm/drm_edid.h:59
+Symbol:
+Byte size 2
+struct std_timing {
+0x0 hsize @"typedef--u8.txt"
+0x1 vfreq_aspect @"typedef--u8.txt"
+}

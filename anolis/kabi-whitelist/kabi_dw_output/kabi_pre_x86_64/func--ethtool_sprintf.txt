@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/ethtool/ioctl.c:1985
+Symbol:
+func ethtool_sprintf (
+data * * @"typedef--u8.txt"
+fmt * const "char"
+(NULL) ...
+)
+"void"

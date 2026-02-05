@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/dma/mapping.c:66
+Symbol:
+func dmam_free_coherent (
+dev * @"struct--device.txt"
+size @"typedef--size_t.txt"
+vaddr * "void"
+dma_handle @"typedef--dma_addr_t.txt"
+)
+"void"

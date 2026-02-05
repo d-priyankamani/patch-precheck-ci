@@ -1,0 +1,11 @@
+Version: 1.0
+File: mm/dmapool.c:224
+Symbol:
+func dma_pool_create (
+name * const "char"
+dev * @"struct--device.txt"
+size @"typedef--size_t.txt"
+align @"typedef--size_t.txt"
+boundary @"typedef--size_t.txt"
+)
+* @"struct--dma_pool.txt"

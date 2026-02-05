@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/shrinker.h:35
+Symbol:
+Byte size 40
+struct shrink_control {
+0x0 gfp_mask @"typedef--gfp_t.txt"
+0x4 nid "int"
+0x8 nr_to_scan "long unsigned int"
+0x10 nr_scanned "long unsigned int"
+0x18 threshold "long unsigned int"
+0x20 memcg * @"struct--mem_cgroup.txt"
+}

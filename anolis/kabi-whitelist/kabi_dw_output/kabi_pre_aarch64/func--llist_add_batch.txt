@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/llist.c:26
+Symbol:
+func llist_add_batch (
+new_first * @"struct--llist_node.txt"
+new_last * @"struct--llist_node.txt"
+head * @"struct--llist_head.txt"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/memcontrol.h:151
+Symbol:
+Byte size 1080
+struct lruvec_stats {
+0x0 state [45]"long int"
+0x168 state_local [45]"long int"
+0x2d0 state_pending [45]"long int"
+}

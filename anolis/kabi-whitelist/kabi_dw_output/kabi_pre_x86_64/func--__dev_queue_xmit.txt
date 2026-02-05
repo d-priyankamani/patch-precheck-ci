@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:4321
+Symbol:
+func __dev_queue_xmit (
+skb * @"struct--sk_buff.txt"
+sb_dev * @"struct--net_device.txt"
+)
+"int"

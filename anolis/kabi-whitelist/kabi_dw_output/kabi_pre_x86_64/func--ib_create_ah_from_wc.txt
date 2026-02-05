@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:920
+Symbol:
+func ib_create_ah_from_wc (
+pd * @"struct--ib_pd.txt"
+wc * const @"struct--ib_wc.txt"
+grh * const @"struct--ib_grh.txt"
+port_num @"typedef--u32.txt"
+)
+* @"struct--ib_ah.txt"

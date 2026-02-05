@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_entity.c:59
+Symbol:
+func drm_sched_entity_init (
+entity * @"struct--drm_sched_entity.txt"
+priority @"enum--drm_sched_priority.txt"
+sched_list * * @"struct--drm_gpu_scheduler.txt"
+num_sched_list "unsigned int"
+guilty * @"typedef--atomic_t.txt"
+)
+"int"

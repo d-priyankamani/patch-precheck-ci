@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/drm/drm_gem.h:265
+Symbol:
+Byte size 352
+Alignment 8
+struct drm_gem_object {
+0x0 refcount @"struct--kref.txt"
+0x4 handle_count "unsigned int"
+0x8 dev * @"struct--drm_device.txt"
+0x10 filp * @"struct--file.txt"
+0x18 8 vma_node @"struct--drm_vma_offset_node.txt"
+0xd8 size @"typedef--size_t.txt"
+0xe0 name "int"
+0xe8 dma_buf * @"struct--dma_buf.txt"
+0xf0 import_attach * @"struct--dma_buf_attachment.txt"
+0xf8 resv * @"struct--dma_resv.txt"
+0x100 _resv @"struct--dma_resv.txt"
+0x130 gpuva struct (NULL) {
+0x0 list @"struct--list_head.txt"
+}
+0x140 funcs * const @"struct--drm_gem_object_funcs.txt"
+0x148 lru_node @"struct--list_head.txt"
+0x158 lru * @"struct--drm_gem_lru.txt"
+}

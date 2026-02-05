@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/device/driver.h:140
+Symbol:
+Byte size 32
+struct driver_attribute {
+0x0 attr @"struct--attribute.txt"
+0x10 show * func (NULL) (
+(NULL) * @"struct--device_driver.txt"
+(NULL) * "char"
+)
+@"typedef--ssize_t.txt"
+0x18 store * func (NULL) (
+(NULL) * @"struct--device_driver.txt"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+}

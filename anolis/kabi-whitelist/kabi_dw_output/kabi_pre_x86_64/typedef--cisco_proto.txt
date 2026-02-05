@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/hdlc/ioctl.h:80
+Symbol:
+Byte size 8
+typedef cisco_proto
+struct (NULL) {
+0x0 interval "unsigned int"
+0x4 timeout "unsigned int"
+}

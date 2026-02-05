@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/if_link.h:9
+Symbol:
+Byte size 64
+struct ifla_vf_stats {
+0x0 rx_packets @"typedef--__u64.txt"
+0x8 tx_packets @"typedef--__u64.txt"
+0x10 rx_bytes @"typedef--__u64.txt"
+0x18 tx_bytes @"typedef--__u64.txt"
+0x20 broadcast @"typedef--__u64.txt"
+0x28 multicast @"typedef--__u64.txt"
+0x30 rx_dropped @"typedef--__u64.txt"
+0x38 tx_dropped @"typedef--__u64.txt"
+}

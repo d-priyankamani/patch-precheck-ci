@@ -1,0 +1,26 @@
+Version: 1.0
+File: include/linux/hdmi.h:169
+Symbol:
+Byte size 60
+struct hdmi_avi_infoframe {
+0x0 type @"enum--hdmi_infoframe_type.txt"
+0x4 version "unsigned char"
+0x5 length "unsigned char"
+0x6 itc @"typedef--bool.txt"
+0x7 pixel_repeat "unsigned char"
+0x8 colorspace @"enum--hdmi_colorspace.txt"
+0xc scan_mode @"enum--hdmi_scan_mode.txt"
+0x10 colorimetry @"enum--hdmi_colorimetry.txt"
+0x14 picture_aspect @"enum--hdmi_picture_aspect.txt"
+0x18 active_aspect @"enum--hdmi_active_aspect.txt"
+0x1c extended_colorimetry @"enum--hdmi_extended_colorimetry.txt"
+0x20 quantization_range @"enum--hdmi_quantization_range.txt"
+0x24 nups @"enum--hdmi_nups.txt"
+0x28 video_code "unsigned char"
+0x2c ycc_quantization_range @"enum--hdmi_ycc_quantization_range.txt"
+0x30 content_type @"enum--hdmi_content_type.txt"
+0x34 top_bar "short unsigned int"
+0x36 bottom_bar "short unsigned int"
+0x38 left_bar "short unsigned int"
+0x3a right_bar "short unsigned int"
+}

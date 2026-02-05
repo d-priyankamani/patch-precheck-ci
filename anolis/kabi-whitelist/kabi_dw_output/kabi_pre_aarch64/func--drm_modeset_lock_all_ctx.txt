@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modeset_lock.c:449
+Symbol:
+func drm_modeset_lock_all_ctx (
+dev * @"struct--drm_device.txt"
+ctx * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"

@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/iommufd.h:129
+Symbol:
+Byte size 64
+struct iommufd_hw_queue {
+0x0 obj @"struct--iommufd_object.txt"
+0x10 viommu * @"struct--iommufd_viommu.txt"
+0x18 access * @"<declarations>/struct--iommufd_access.txt"
+0x20 base_addr @"typedef--u64.txt"
+0x28 length @"typedef--size_t.txt"
+0x30 type @"enum--iommu_hw_queue_type.txt"
+0x38 destroy * func (NULL) (
+(NULL) * @"struct--iommufd_hw_queue.txt"
+)
+"void"
+}

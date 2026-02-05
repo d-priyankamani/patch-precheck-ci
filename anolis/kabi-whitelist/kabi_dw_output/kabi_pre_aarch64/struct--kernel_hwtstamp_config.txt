@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/net_tstamp.h:30
+Symbol:
+Byte size 32
+struct kernel_hwtstamp_config {
+0x0 flags "int"
+0x4 tx_type "int"
+0x8 rx_filter "int"
+0x10 ifr * @"struct--ifreq.txt"
+0x18 copied_to_user @"typedef--bool.txt"
+0x1c source @"enum--hwtstamp_source.txt"
+}

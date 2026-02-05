@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/configfs.h:221
+Symbol:
+Byte size 168
+struct configfs_subsystem {
+0x0 su_group @"struct--config_group.txt"
+0x88 su_mutex @"struct--mutex.txt"
+}

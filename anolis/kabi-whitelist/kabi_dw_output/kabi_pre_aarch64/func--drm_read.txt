@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_file.c:599
+Symbol:
+func drm_read (
+filp * @"struct--file.txt"
+buffer * "char"
+count @"typedef--size_t.txt"
+offset * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"

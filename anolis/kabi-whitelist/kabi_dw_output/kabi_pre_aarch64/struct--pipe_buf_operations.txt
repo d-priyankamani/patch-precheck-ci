@@ -1,0 +1,26 @@
+Version: 1.0
+File: include/linux/pipe_fs_i.h:95
+Symbol:
+Byte size 32
+struct pipe_buf_operations {
+0x0 confirm * func (NULL) (
+(NULL) * @"struct--pipe_inode_info.txt"
+(NULL) * @"struct--pipe_buffer.txt"
+)
+"int"
+0x8 release * func (NULL) (
+(NULL) * @"struct--pipe_inode_info.txt"
+(NULL) * @"struct--pipe_buffer.txt"
+)
+"void"
+0x10 try_steal * func (NULL) (
+(NULL) * @"struct--pipe_inode_info.txt"
+(NULL) * @"struct--pipe_buffer.txt"
+)
+@"typedef--bool.txt"
+0x18 get * func (NULL) (
+(NULL) * @"struct--pipe_inode_info.txt"
+(NULL) * @"struct--pipe_buffer.txt"
+)
+@"typedef--bool.txt"
+}

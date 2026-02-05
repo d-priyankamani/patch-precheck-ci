@@ -1,0 +1,25 @@
+Version: 1.0
+File: arch/x86/include/asm/vdso.h:13
+Symbol:
+Byte size 152
+struct vdso_image {
+0x0 data * "void"
+0x8 size "long unsigned int"
+0x10 alt "long unsigned int"
+0x18 alt_len "long unsigned int"
+0x20 extable_base "long unsigned int"
+0x28 extable_len "long unsigned int"
+0x30 extable * const "void"
+0x38 sym_vvar_start "long int"
+0x40 sym_vvar_page "long int"
+0x48 sym_pvclock_page "long int"
+0x50 sym_hvclock_page "long int"
+0x58 sym_timens_page "long int"
+0x60 sym_VDSO32_NOTE_MASK "long int"
+0x68 sym___kernel_sigreturn "long int"
+0x70 sym___kernel_rt_sigreturn "long int"
+0x78 sym___kernel_vsyscall "long int"
+0x80 sym_int80_landing_pad "long int"
+0x88 sym_vdso32_sigreturn_landing_pad "long int"
+0x90 sym_vdso32_rt_sigreturn_landing_pad "long int"
+}

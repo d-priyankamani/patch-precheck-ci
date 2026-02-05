@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:779
+Symbol:
+Byte size 32
+struct ib_global_route {
+0x0 sgid_attr * const @"struct--ib_gid_attr.txt"
+0x8 dgid @"union--ib_gid.txt"
+0x18 flow_label @"typedef--u32.txt"
+0x1c sgid_index @"typedef--u8.txt"
+0x1d hop_limit @"typedef--u8.txt"
+0x1e traffic_class @"typedef--u8.txt"
+}

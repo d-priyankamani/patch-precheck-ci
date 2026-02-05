@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/uapi/linux/pkt_sched.h:102
+Symbol:
+Byte size 24
+struct tc_sizespec {
+0x0 cell_log "unsigned char"
+0x1 size_log "unsigned char"
+0x2 cell_align "short int"
+0x4 overhead "int"
+0x8 linklayer "unsigned int"
+0xc mpu "unsigned int"
+0x10 mtu "unsigned int"
+0x14 tsize "unsigned int"
+}

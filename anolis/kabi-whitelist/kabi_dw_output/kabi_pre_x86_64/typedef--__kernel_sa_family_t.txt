@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/uapi/linux/socket.h:10
+Symbol:
+Byte size 2
+typedef __kernel_sa_family_t
+"short unsigned int"

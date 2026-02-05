@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:463
+Symbol:
+Byte size 80
+struct ib_mad_send_buf {
+0x0 next * @"struct--ib_mad_send_buf.txt"
+0x8 mad * "void"
+0x10 mad_agent * @"struct--ib_mad_agent.txt"
+0x18 ah * @"struct--ib_ah.txt"
+0x20 context [2]* "void"
+0x30 hdr_len "int"
+0x34 data_len "int"
+0x38 seg_count "int"
+0x3c seg_size "int"
+0x40 seg_rmpp_size "int"
+0x44 timeout_ms "int"
+0x48 retries "int"
+}

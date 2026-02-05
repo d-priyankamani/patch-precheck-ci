@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/drm/drm_connector.h:875
+Symbol:
+Byte size 56
+struct drm_tv_connector_state {
+0x0 select_subconnector @"enum--drm_mode_subconnector.txt"
+0x4 subconnector @"enum--drm_mode_subconnector.txt"
+0x8 margins @"struct--drm_connector_tv_margins.txt"
+0x18 legacy_mode "unsigned int"
+0x1c mode "unsigned int"
+0x20 brightness "unsigned int"
+0x24 contrast "unsigned int"
+0x28 flicker_reduction "unsigned int"
+0x2c overscan "unsigned int"
+0x30 saturation "unsigned int"
+0x34 hue "unsigned int"
+}

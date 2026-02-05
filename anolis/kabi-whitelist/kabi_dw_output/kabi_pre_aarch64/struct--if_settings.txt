@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/uapi/linux/if.h:207
+Symbol:
+Byte size 16
+struct if_settings {
+0x0 type "unsigned int"
+0x4 size "unsigned int"
+0x8 ifs_ifsu union (NULL) {
+raw_hdlc * @"typedef--raw_hdlc_proto.txt"
+cisco * @"typedef--cisco_proto.txt"
+fr * @"typedef--fr_proto.txt"
+fr_pvc * @"typedef--fr_proto_pvc.txt"
+fr_pvc_info * @"typedef--fr_proto_pvc_info.txt"
+x25 * @"typedef--x25_hdlc_proto.txt"
+sync * @"typedef--sync_serial_settings.txt"
+te1 * @"typedef--te1_settings.txt"
+}
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2497
+Symbol:
+func ib_dealloc_xrcd_user (
+xrcd * @"struct--ib_xrcd.txt"
+udata * @"struct--ib_udata.txt"
+)
+"int"

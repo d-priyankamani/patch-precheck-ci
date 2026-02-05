@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/x86/include/asm/kprobes.h:26
+Symbol:
+typedef kprobe_opcode_t
+@"typedef--u8.txt"

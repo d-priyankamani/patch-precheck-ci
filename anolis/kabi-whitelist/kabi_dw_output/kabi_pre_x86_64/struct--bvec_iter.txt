@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/bvec.h:80
+Symbol:
+Byte size 20
+Alignment 4
+struct bvec_iter {
+0x0 bi_sector @"typedef--sector_t.txt"
+0x8 bi_size "unsigned int"
+0xc bi_idx "unsigned int"
+0x10 bi_bvec_done "unsigned int"
+}

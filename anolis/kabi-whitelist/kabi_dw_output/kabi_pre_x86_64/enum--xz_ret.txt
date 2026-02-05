@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/xz.h:108
+Symbol:
+Byte size 4
+enum xz_ret {
+XZ_OK = 0x0
+XZ_STREAM_END = 0x1
+XZ_UNSUPPORTED_CHECK = 0x2
+XZ_MEM_ERROR = 0x3
+XZ_MEMLIMIT_ERROR = 0x4
+XZ_FORMAT_ERROR = 0x5
+XZ_OPTIONS_ERROR = 0x6
+XZ_DATA_ERROR = 0x7
+XZ_BUF_ERROR = 0x8
+}

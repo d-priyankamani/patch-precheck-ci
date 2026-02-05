@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/transport_class.h:56
+Symbol:
+Byte size 104
+Alignment 8
+struct transport_container {
+0x0 8 ac @"struct--attribute_container.txt"
+0x60 statistics * const @"struct--attribute_group.txt"
+}

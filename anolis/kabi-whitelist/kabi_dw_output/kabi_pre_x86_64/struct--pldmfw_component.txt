@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/pldmfw.h:91
+Symbol:
+Byte size 56
+struct pldmfw_component {
+0x0 entry @"struct--list_head.txt"
+0x10 classification @"typedef--u16.txt"
+0x12 identifier @"typedef--u16.txt"
+0x14 options @"typedef--u16.txt"
+0x16 activation_method @"typedef--u16.txt"
+0x18 comparison_stamp @"typedef--u32.txt"
+0x1c component_size @"typedef--u32.txt"
+0x20 component_data * const @"typedef--u8.txt"
+0x28 version_string * const @"typedef--u8.txt"
+0x30 version_type @"typedef--u8.txt"
+0x31 version_len @"typedef--u8.txt"
+0x32 index @"typedef--u8.txt"
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/signal_types.h:12
+Symbol:
+Byte size 48
+struct kernel_siginfo {
+0x0 (NULL) struct (NULL) {
+0x0 si_signo "int"
+0x4 si_errno "int"
+0x8 si_code "int"
+0x10 _sifields @"union--__sifields.txt"
+}
+}

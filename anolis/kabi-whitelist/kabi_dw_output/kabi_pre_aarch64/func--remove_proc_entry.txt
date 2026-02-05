@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/proc/generic.c:695
+Symbol:
+func remove_proc_entry (
+name * const "char"
+parent * @"struct--proc_dir_entry.txt"
+)
+"void"

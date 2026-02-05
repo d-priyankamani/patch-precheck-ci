@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/seq_file.c:57
+Symbol:
+func seq_open (
+file * @"struct--file.txt"
+op * const @"struct--seq_operations.txt"
+)
+"int"

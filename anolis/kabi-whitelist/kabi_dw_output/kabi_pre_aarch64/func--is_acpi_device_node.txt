@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/acpi/property.c:1612
+Symbol:
+func is_acpi_device_node (
+fwnode * const @"struct--fwnode_handle.txt"
+)
+@"typedef--bool.txt"

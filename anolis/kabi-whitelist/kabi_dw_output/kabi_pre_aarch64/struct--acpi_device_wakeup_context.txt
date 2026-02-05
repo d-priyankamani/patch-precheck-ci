@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:336
+Symbol:
+Byte size 16
+struct acpi_device_wakeup_context {
+0x0 func * func (NULL) (
+(NULL) * @"struct--acpi_device_wakeup_context.txt"
+)
+"void"
+0x8 dev * @"struct--device.txt"
+}

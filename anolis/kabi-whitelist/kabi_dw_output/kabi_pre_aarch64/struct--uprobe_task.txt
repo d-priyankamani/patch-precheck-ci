@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/linux/uprobes.h:61
+Symbol:
+Byte size 72
+Alignment 8
+struct uprobe_task {
+0x0 state @"enum--uprobe_task_state.txt"
+0x8 8 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 autask @"struct--arch_uprobe_task.txt"
+0x0 vaddr "long unsigned int"
+}
+(NULL) struct (NULL) {
+0x0 8 dup_xol_work @"struct--callback_head.txt"
+0x10 dup_xol_addr "long unsigned int"
+}
+}
+0x20 active_uprobe * @"<declarations>/struct--uprobe.txt"
+0x28 xol_vaddr "long unsigned int"
+0x30 auprobe * @"struct--arch_uprobe.txt"
+0x38 return_instances * @"struct--return_instance.txt"
+0x40 depth "unsigned int"
+}

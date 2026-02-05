@@ -1,0 +1,14 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:595
+Symbol:
+Byte size 384
+Alignment 8
+struct kvm_vcpu_hv_stimer {
+0x0 8 timer @"struct--hrtimer.txt"
+0x58 index "int"
+0x60 config @"union--hv_stimer_config.txt"
+0x68 count @"typedef--u64.txt"
+0x70 exp_time @"typedef--u64.txt"
+0x78 msg @"struct--hv_message.txt"
+0x178 msg_pending @"typedef--bool.txt"
+}

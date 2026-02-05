@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cq.c:138
+Symbol:
+func ib_process_cq_direct (
+cq * @"struct--ib_cq.txt"
+budget "int"
+)
+"int"

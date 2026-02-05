@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/time.h:36
+Symbol:
+Byte size 40
+struct tm {
+0x0 tm_sec "int"
+0x4 tm_min "int"
+0x8 tm_hour "int"
+0xc tm_mday "int"
+0x10 tm_mon "int"
+0x18 tm_year "long int"
+0x20 tm_wday "int"
+0x24 tm_yday "int"
+}

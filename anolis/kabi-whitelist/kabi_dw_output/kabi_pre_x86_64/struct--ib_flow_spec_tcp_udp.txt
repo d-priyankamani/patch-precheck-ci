@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1990
+Symbol:
+Byte size 16
+struct ib_flow_spec_tcp_udp {
+0x0 type @"typedef--u32.txt"
+0x4 size @"typedef--u16.txt"
+0x6 val @"struct--ib_flow_tcp_udp_filter.txt"
+0xa mask @"struct--ib_flow_tcp_udp_filter.txt"
+}

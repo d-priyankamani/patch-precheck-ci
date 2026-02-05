@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/xdp.c:406
+Symbol:
+func xdp_return_frame (
+xdpf * @"struct--xdp_frame.txt"
+)
+"void"

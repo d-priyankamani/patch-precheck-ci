@@ -1,0 +1,8 @@
+Version: 1.0
+File: virt/kvm/kvm_main.c:2675
+Symbol:
+func kvm_is_visible_gfn (
+kvm * @"struct--kvm.txt"
+gfn @"typedef--gfn_t.txt"
+)
+@"typedef--bool.txt"

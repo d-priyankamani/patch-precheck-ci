@@ -1,0 +1,51 @@
+Version: 1.0
+File: include/linux/bpf.h:808
+Symbol:
+Byte size 96
+struct bpf_func_proto {
+0x0 func * func (NULL) (
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+)
+@"typedef--u64.txt"
+0x8 gpl_only @"typedef--bool.txt"
+0x9 pkt_access @"typedef--bool.txt"
+0xa might_sleep @"typedef--bool.txt"
+0xc ret_type @"enum--bpf_return_type.txt"
+0x10 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 arg1_type @"enum--bpf_arg_type.txt"
+0x4 arg2_type @"enum--bpf_arg_type.txt"
+0x8 arg3_type @"enum--bpf_arg_type.txt"
+0xc arg4_type @"enum--bpf_arg_type.txt"
+0x10 arg5_type @"enum--bpf_arg_type.txt"
+}
+arg_type [5]@"enum--bpf_arg_type.txt"
+}
+0x28 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 arg1_btf_id * @"typedef--u32.txt"
+0x8 arg2_btf_id * @"typedef--u32.txt"
+0x10 arg3_btf_id * @"typedef--u32.txt"
+0x18 arg4_btf_id * @"typedef--u32.txt"
+0x20 arg5_btf_id * @"typedef--u32.txt"
+}
+arg_btf_id [5]* @"typedef--u32.txt"
+(NULL) struct (NULL) {
+0x0 arg1_size @"typedef--size_t.txt"
+0x8 arg2_size @"typedef--size_t.txt"
+0x10 arg3_size @"typedef--size_t.txt"
+0x18 arg4_size @"typedef--size_t.txt"
+0x20 arg5_size @"typedef--size_t.txt"
+}
+arg_size [5]@"typedef--size_t.txt"
+}
+0x50 ret_btf_id * "int"
+0x58 allowed * func (NULL) (
+(NULL) * const @"struct--bpf_prog.txt"
+)
+@"typedef--bool.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/acpi/acpica/nsxfname.c:124
+Symbol:
+func acpi_get_name (
+handle @"typedef--acpi_handle.txt"
+name_type @"typedef--u32.txt"
+buffer * @"struct--acpi_buffer.txt"
+)
+@"typedef--acpi_status.txt"

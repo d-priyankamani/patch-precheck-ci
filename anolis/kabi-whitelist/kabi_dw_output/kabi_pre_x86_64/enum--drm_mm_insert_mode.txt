@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/drm_mm.h:70
+Symbol:
+Byte size 4
+enum drm_mm_insert_mode {
+DRM_MM_INSERT_BEST = 0x0
+DRM_MM_INSERT_LOW = 0x1
+DRM_MM_INSERT_HIGH = 0x2
+DRM_MM_INSERT_EVICT = 0x3
+DRM_MM_INSERT_ONCE = 0x80000000
+DRM_MM_INSERT_HIGHEST = 0x80000002
+DRM_MM_INSERT_LOWEST = 0x80000001
+}

@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:137
+Symbol:
+Byte size 24
+struct ib_mad_hdr {
+0x0 base_version @"typedef--u8.txt"
+0x1 mgmt_class @"typedef--u8.txt"
+0x2 class_version @"typedef--u8.txt"
+0x3 method @"typedef--u8.txt"
+0x4 status @"typedef--__be16.txt"
+0x6 class_specific @"typedef--__be16.txt"
+0x8 tid @"typedef--__be64.txt"
+0x10 attr_id @"typedef--__be16.txt"
+0x12 resv @"typedef--__be16.txt"
+0x14 attr_mod @"typedef--__be32.txt"
+}

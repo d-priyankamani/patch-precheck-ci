@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/page_alloc.c:5020
+Symbol:
+func get_zeroed_page (
+gfp_mask @"typedef--gfp_t.txt"
+)
+"long unsigned int"

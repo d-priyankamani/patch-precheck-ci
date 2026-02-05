@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/flow_offload.c:121
+Symbol:
+func flow_rule_match_ip (
+rule * const @"struct--flow_rule.txt"
+out * @"struct--flow_match_ip.txt"
+)
+"void"

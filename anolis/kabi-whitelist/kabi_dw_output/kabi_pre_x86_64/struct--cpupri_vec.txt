@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/sched/cpupri.h:10
+Symbol:
+Byte size 16
+struct cpupri_vec {
+0x0 count @"typedef--atomic_t.txt"
+0x8 mask @"typedef--cpumask_var_t.txt"
+}

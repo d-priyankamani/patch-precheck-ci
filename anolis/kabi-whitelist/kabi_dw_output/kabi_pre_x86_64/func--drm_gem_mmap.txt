@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem.c:1153
+Symbol:
+func drm_gem_mmap (
+filp * @"struct--file.txt"
+vma * @"struct--vm_area_struct.txt"
+)
+"int"

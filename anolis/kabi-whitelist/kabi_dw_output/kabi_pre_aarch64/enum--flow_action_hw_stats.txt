@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/flow_offload.h:211
+Symbol:
+Byte size 4
+enum flow_action_hw_stats {
+FLOW_ACTION_HW_STATS_IMMEDIATE = 0x1
+FLOW_ACTION_HW_STATS_DELAYED = 0x2
+FLOW_ACTION_HW_STATS_ANY = 0x3
+FLOW_ACTION_HW_STATS_DISABLED = 0x4
+FLOW_ACTION_HW_STATS_DONT_CARE = 0x7
+}

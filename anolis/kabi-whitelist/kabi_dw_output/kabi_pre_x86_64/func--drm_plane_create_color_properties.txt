@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_color_mgmt.c:527
+Symbol:
+func drm_plane_create_color_properties (
+plane * @"struct--drm_plane.txt"
+supported_encodings @"typedef--u32.txt"
+supported_ranges @"typedef--u32.txt"
+default_encoding @"enum--drm_color_encoding.txt"
+default_range @"enum--drm_color_range.txt"
+)
+"int"

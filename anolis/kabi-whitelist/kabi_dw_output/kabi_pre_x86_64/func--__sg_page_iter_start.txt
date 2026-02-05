@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/scatterlist.c:725
+Symbol:
+func __sg_page_iter_start (
+piter * @"struct--sg_page_iter.txt"
+sglist * @"struct--scatterlist.txt"
+nents "unsigned int"
+pgoffset "long unsigned int"
+)
+"void"

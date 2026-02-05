@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/pid.c:312
+Symbol:
+func find_pid_ns (
+nr "int"
+ns * @"struct--pid_namespace.txt"
+)
+* @"struct--pid.txt"

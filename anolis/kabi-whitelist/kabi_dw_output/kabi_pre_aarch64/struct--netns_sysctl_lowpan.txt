@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/netns/ieee802154_6lowpan.h:11
+Symbol:
+Byte size 8
+struct netns_sysctl_lowpan {
+0x0 frags_hdr * @"struct--ctl_table_header.txt"
+}

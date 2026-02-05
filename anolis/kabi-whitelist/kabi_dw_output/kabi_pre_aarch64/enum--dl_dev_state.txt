@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/device.h:486
+Symbol:
+Byte size 4
+enum dl_dev_state {
+DL_DEV_NO_DRIVER = 0x0
+DL_DEV_PROBING = 0x1
+DL_DEV_DRIVER_BOUND = 0x2
+DL_DEV_UNBINDING = 0x3
+}

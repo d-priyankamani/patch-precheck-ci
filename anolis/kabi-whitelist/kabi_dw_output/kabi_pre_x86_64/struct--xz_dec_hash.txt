@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/xz/xz_dec_stream.c:14
+Symbol:
+Byte size 24
+struct xz_dec_hash {
+0x0 unpadded @"typedef--vli_type.txt"
+0x8 uncompressed @"typedef--vli_type.txt"
+0x10 crc32 @"typedef--uint32_t.txt"
+}

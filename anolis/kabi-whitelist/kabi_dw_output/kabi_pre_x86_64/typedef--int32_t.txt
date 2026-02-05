@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:104
+Symbol:
+typedef int32_t
+@"typedef--s32.txt"

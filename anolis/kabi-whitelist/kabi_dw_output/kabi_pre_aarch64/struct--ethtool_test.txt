@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:901
+Symbol:
+Byte size 16
+struct ethtool_test {
+0x0 cmd @"typedef--__u32.txt"
+0x4 flags @"typedef--__u32.txt"
+0x8 reserved @"typedef--__u32.txt"
+0xc len @"typedef--__u32.txt"
+0x10 data [0]@"typedef--__u64.txt"
+}

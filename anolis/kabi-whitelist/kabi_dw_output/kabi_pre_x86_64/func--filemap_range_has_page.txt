@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/filemap.c:494
+Symbol:
+func filemap_range_has_page (
+mapping * @"struct--address_space.txt"
+start_byte @"typedef--loff_t.txt"
+end_byte @"typedef--loff_t.txt"
+)
+@"typedef--bool.txt"

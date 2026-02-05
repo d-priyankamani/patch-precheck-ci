@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/siphash.h:21
+Symbol:
+Byte size 16
+typedef siphash_key_t
+struct (NULL) {
+0x0 key [2]@"typedef--u64.txt"
+}

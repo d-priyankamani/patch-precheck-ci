@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/rdma/signature.h:27
+Symbol:
+Byte size 4
+enum ib_signature_type {
+IB_SIG_TYPE_NONE = 0x0
+IB_SIG_TYPE_T10_DIF = 0x1
+}

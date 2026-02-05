@@ -1,0 +1,70 @@
+Version: 1.0
+File: include/linux/device/bus.h:77
+Symbol:
+Byte size 176
+struct bus_type {
+0x0 name * const "char"
+0x8 dev_name * const "char"
+0x10 bus_groups * * const @"struct--attribute_group.txt"
+0x18 dev_groups * * const @"struct--attribute_group.txt"
+0x20 drv_groups * * const @"struct--attribute_group.txt"
+0x28 match * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--device_driver.txt"
+)
+"int"
+0x30 uevent * func (NULL) (
+(NULL) * const @"struct--device.txt"
+(NULL) * @"struct--kobj_uevent_env.txt"
+)
+"int"
+0x38 probe * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x40 sync_state * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x48 remove * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x50 shutdown * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x58 online * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x60 offline * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x68 suspend * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--pm_message_t.txt"
+)
+"int"
+0x70 resume * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x78 num_vf * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x80 dma_configure * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x88 dma_cleanup * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x90 pm * const @"struct--dev_pm_ops.txt"
+0x98 need_parent_lock @"typedef--bool.txt"
+0xa0 ck_reserved1 "long unsigned int"
+0xa8 ck_reserved2 "long unsigned int"
+}

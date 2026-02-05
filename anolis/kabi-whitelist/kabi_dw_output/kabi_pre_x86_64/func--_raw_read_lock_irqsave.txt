@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/spinlock.c:234
+Symbol:
+func _raw_read_lock_irqsave (
+lock * @"typedef--rwlock_t.txt"
+)
+"long unsigned int"

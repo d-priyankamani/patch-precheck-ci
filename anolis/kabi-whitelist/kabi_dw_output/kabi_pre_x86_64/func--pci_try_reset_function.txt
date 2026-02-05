@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:5812
+Symbol:
+func pci_try_reset_function (
+dev * @"struct--pci_dev.txt"
+)
+"int"

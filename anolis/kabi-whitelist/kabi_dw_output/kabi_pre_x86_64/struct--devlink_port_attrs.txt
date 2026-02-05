@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/devlink.h:87
+Symbol:
+Byte size 60
+struct devlink_port_attrs {
+0x0:0-1 split @"typedef--u8.txt"
+0x0:1-2 splittable @"typedef--u8.txt"
+0x4 lanes @"typedef--u32.txt"
+0x8 flavour @"enum--devlink_port_flavour.txt"
+0xc switch_id @"struct--netdev_phys_item_id.txt"
+0x30 (NULL) union (NULL) {
+phys @"struct--devlink_port_phys_attrs.txt"
+pci_pf @"struct--devlink_port_pci_pf_attrs.txt"
+pci_vf @"struct--devlink_port_pci_vf_attrs.txt"
+pci_sf @"struct--devlink_port_pci_sf_attrs.txt"
+}
+}

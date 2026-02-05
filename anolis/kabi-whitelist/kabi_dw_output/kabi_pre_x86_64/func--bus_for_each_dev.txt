@@ -1,0 +1,14 @@
+Version: 1.0
+File: drivers/base/bus.c:356
+Symbol:
+func bus_for_each_dev (
+bus * const @"struct--bus_type.txt"
+start * @"struct--device.txt"
+data * "void"
+fn * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * "void"
+)
+"int"
+)
+"int"

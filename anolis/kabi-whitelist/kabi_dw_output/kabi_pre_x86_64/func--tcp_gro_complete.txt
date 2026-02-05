@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ipv4/tcp_offload.c:305
+Symbol:
+func tcp_gro_complete (
+skb * @"struct--sk_buff.txt"
+)
+"void"

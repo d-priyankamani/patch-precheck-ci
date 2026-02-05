@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/folio-compat.c:55
+Symbol:
+func set_page_dirty (
+page * @"struct--page.txt"
+)
+@"typedef--bool.txt"

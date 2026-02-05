@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/drm/drm_client.h:25
+Symbol:
+Byte size 32
+struct drm_client_funcs {
+0x0 owner * @"struct--module.txt"
+0x8 unregister * func (NULL) (
+(NULL) * @"struct--drm_client_dev.txt"
+)
+"void"
+0x10 restore * func (NULL) (
+(NULL) * @"struct--drm_client_dev.txt"
+)
+"int"
+0x18 hotplug * func (NULL) (
+(NULL) * @"struct--drm_client_dev.txt"
+)
+"int"
+}

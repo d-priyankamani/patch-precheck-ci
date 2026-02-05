@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/elf.h:21
+Symbol:
+typedef Elf64_Word
+@"typedef--__u32.txt"

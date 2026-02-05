@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:2036
+Symbol:
+func drm_edid_is_valid (
+edid * @"struct--edid.txt"
+)
+@"typedef--bool.txt"

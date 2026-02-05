@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/asm-generic/msi.h:32
+Symbol:
+typedef msi_alloc_info_t
+@"struct--msi_alloc_info.txt"

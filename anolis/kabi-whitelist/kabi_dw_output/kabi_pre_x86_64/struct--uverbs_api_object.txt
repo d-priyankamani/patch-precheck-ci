@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/uverbs_std_types.h:165
+Symbol:
+Byte size 24
+struct uverbs_api_object {
+0x0 type_attrs * const @"struct--uverbs_obj_type.txt"
+0x8 type_class * const @"struct--uverbs_obj_type_class.txt"
+0x10:0-1 disabled @"typedef--u8.txt"
+0x14 id @"typedef--u32.txt"
+}

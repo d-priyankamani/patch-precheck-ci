@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:6498
+Symbol:
+func pcie_get_speed_cap (
+dev * @"struct--pci_dev.txt"
+)
+@"enum--pci_bus_speed.txt"

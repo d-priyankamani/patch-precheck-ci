@@ -1,0 +1,59 @@
+Version: 1.0
+File: include/linux/pci.h:963
+Symbol:
+Byte size 392
+struct pci_driver {
+0x0 node @"struct--list_head.txt"
+0x10 name * const "char"
+0x18 id_table * const @"struct--pci_device_id.txt"
+0x20 probe * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+(NULL) * const @"struct--pci_device_id.txt"
+)
+"int"
+0x28 remove * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+)
+"void"
+0x30 suspend * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+(NULL) @"typedef--pm_message_t.txt"
+)
+"int"
+0x38 resume * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+)
+"int"
+0x40 shutdown * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+)
+"void"
+0x48 sriov_configure * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+(NULL) "int"
+)
+"int"
+0x50 sriov_set_msix_vec_count * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+(NULL) "int"
+)
+"int"
+0x58 sriov_get_vf_total_msix * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+)
+@"typedef--u32.txt"
+0x60 err_handler * const @"struct--pci_error_handlers.txt"
+0x68 groups * * const @"struct--attribute_group.txt"
+0x70 dev_groups * * const @"struct--attribute_group.txt"
+0x78 driver @"struct--device_driver.txt"
+0x128 dynids @"struct--pci_dynids.txt"
+0x140 driver_managed_dma @"typedef--bool.txt"
+0x148 ck_reserved1 "long unsigned int"
+0x150 ck_reserved2 "long unsigned int"
+0x158 ck_reserved3 "long unsigned int"
+0x160 ck_reserved4 "long unsigned int"
+0x168 ck_reserved5 "long unsigned int"
+0x170 ck_reserved6 "long unsigned int"
+0x178 ck_reserved7 "long unsigned int"
+0x180 ck_reserved8 "long unsigned int"
+}

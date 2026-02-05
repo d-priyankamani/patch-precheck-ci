@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/linux/cgroup-defs.h:186
+Symbol:
+Byte size 304
+Alignment 8
+struct cgroup_subsys_state {
+0x0 cgroup * @"struct--cgroup.txt"
+0x8 ss * @"struct--cgroup_subsys.txt"
+0x10 refcnt @"struct--percpu_ref.txt"
+0x20 sibling @"struct--list_head.txt"
+0x30 children @"struct--list_head.txt"
+0x40 rstat_css_node @"struct--list_head.txt"
+0x50 id "int"
+0x54 nr_procs "int"
+0x58 flags "unsigned int"
+0x60 serial_nr @"typedef--u64.txt"
+0x68 online_cnt @"typedef--atomic_t.txt"
+0x70 destroy_work @"struct--work_struct.txt"
+0xb0 8 destroy_rwork @"struct--rcu_work.txt"
+0x108 ck_reserved1 "long unsigned int"
+0x110 ck_reserved2 "long unsigned int"
+0x118 ck_reserved3 "long unsigned int"
+0x120 ck_reserved4 "long unsigned int"
+0x128 parent * @"struct--cgroup_subsys_state.txt"
+}

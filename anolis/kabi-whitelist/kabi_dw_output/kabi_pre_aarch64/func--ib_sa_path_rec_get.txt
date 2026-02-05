@@ -1,0 +1,22 @@
+Version: 1.0
+File: drivers/infiniband/core/sa_query.c:1516
+Symbol:
+func ib_sa_path_rec_get (
+client * @"struct--ib_sa_client.txt"
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+rec * @"struct--sa_path_rec.txt"
+comp_mask @"typedef--ib_sa_comp_mask.txt"
+timeout_ms "long unsigned int"
+gfp_mask @"typedef--gfp_t.txt"
+callback * func (NULL) (
+(NULL) "int"
+(NULL) * @"struct--sa_path_rec.txt"
+(NULL) "unsigned int"
+(NULL) * "void"
+)
+"void"
+context * "void"
+sa_query * * @"struct--ib_sa_query.txt"
+)
+"int"

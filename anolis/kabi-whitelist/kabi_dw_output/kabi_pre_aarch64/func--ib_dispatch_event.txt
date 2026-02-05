@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:1610
+Symbol:
+func ib_dispatch_event (
+event * const @"struct--ib_event.txt"
+)
+"void"

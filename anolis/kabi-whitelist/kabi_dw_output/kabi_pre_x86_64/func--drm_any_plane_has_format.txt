@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_plane.c:841
+Symbol:
+func drm_any_plane_has_format (
+dev * @"struct--drm_device.txt"
+format @"typedef--u32.txt"
+modifier @"typedef--u64.txt"
+)
+@"typedef--bool.txt"

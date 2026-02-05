@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/libfs.c:1088
+Symbol:
+func simple_release_fs (
+mount * * @"struct--vfsmount.txt"
+count * "int"
+)
+"void"

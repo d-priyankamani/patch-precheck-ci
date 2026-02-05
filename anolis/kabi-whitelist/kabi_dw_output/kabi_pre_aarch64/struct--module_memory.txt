@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/module.h:364
+Symbol:
+Byte size 72
+Alignment 8
+struct module_memory {
+0x0 base * "void"
+0x8 size "unsigned int"
+0x10 8 mtn @"struct--mod_tree_node.txt"
+}

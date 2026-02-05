@@ -1,0 +1,4 @@
+Version: 1.0
+File: arch/x86/kernel/setup_percpu.c:35
+Symbol:
+var __per_cpu_offset "void"

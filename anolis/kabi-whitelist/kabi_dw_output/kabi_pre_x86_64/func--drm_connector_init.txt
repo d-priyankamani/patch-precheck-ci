@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:356
+Symbol:
+func drm_connector_init (
+dev * @"struct--drm_device.txt"
+connector * @"struct--drm_connector.txt"
+funcs * const @"struct--drm_connector_funcs.txt"
+connector_type "int"
+)
+"int"

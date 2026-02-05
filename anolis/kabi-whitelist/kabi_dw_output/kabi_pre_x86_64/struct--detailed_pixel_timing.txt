@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/drm/drm_edid.h:71
+Symbol:
+Byte size 16
+struct detailed_pixel_timing {
+0x0 hactive_lo @"typedef--u8.txt"
+0x1 hblank_lo @"typedef--u8.txt"
+0x2 hactive_hblank_hi @"typedef--u8.txt"
+0x3 vactive_lo @"typedef--u8.txt"
+0x4 vblank_lo @"typedef--u8.txt"
+0x5 vactive_vblank_hi @"typedef--u8.txt"
+0x6 hsync_offset_lo @"typedef--u8.txt"
+0x7 hsync_pulse_width_lo @"typedef--u8.txt"
+0x8 vsync_offset_pulse_width_lo @"typedef--u8.txt"
+0x9 hsync_vsync_offset_pulse_width_hi @"typedef--u8.txt"
+0xa width_mm_lo @"typedef--u8.txt"
+0xb height_mm_lo @"typedef--u8.txt"
+0xc width_height_mm_hi @"typedef--u8.txt"
+0xd hborder @"typedef--u8.txt"
+0xe vborder @"typedef--u8.txt"
+0xf misc @"typedef--u8.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/vfio/vfio_main.c:1445
+Symbol:
+func vfio_info_cap_shift (
+caps * @"struct--vfio_info_cap.txt"
+offset @"typedef--size_t.txt"
+)
+"void"

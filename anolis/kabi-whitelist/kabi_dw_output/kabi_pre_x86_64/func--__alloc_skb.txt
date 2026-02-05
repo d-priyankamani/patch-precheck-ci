@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/core/skbuff.c:621
+Symbol:
+func __alloc_skb (
+size "unsigned int"
+gfp_mask @"typedef--gfp_t.txt"
+flags "int"
+node "int"
+)
+* @"struct--sk_buff.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/blk-mq.h:277
+Symbol:
+Byte size 4
+enum blk_eh_timer_return {
+BLK_EH_DONE = 0x0
+BLK_EH_RESET_TIMER = 0x1
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/psi_types.h:84
+Symbol:
+Byte size 128
+Alignment 64
+struct psi_group_cpu {
+0x0 64 tasks [4]"unsigned int"
+0x10 state_mask @"typedef--u32.txt"
+0x14 times [8]@"typedef--u32.txt"
+0x38 state_start @"typedef--u64.txt"
+0x40 64 times_prev [2][8]@"typedef--u32.txt"
+}

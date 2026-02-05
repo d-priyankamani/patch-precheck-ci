@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/iommufd.h:636
+Symbol:
+Byte size 4
+enum iommu_hw_info_type {
+IOMMU_HW_INFO_TYPE_NONE = 0x0
+IOMMU_HW_INFO_TYPE_DEFAULT = 0x0
+IOMMU_HW_INFO_TYPE_INTEL_VTD = 0x1
+IOMMU_HW_INFO_TYPE_ARM_SMMUV3 = 0x2
+IOMMU_HW_INFO_TYPE_TEGRA241_CMDQV = 0x3
+}

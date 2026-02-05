@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/netfilter/nf_conntrack_tcp.h:17
+Symbol:
+Byte size 60
+struct ip_ct_tcp {
+0x0 seen [2]@"struct--ip_ct_tcp_state.txt"
+0x28 state @"typedef--u_int8_t.txt"
+0x29 last_dir @"typedef--u_int8_t.txt"
+0x2a retrans @"typedef--u_int8_t.txt"
+0x2b last_index @"typedef--u_int8_t.txt"
+0x2c last_seq @"typedef--u_int32_t.txt"
+0x30 last_ack @"typedef--u_int32_t.txt"
+0x34 last_end @"typedef--u_int32_t.txt"
+0x38 last_win @"typedef--u_int16_t.txt"
+0x3a last_wscale @"typedef--u_int8_t.txt"
+0x3b last_flags @"typedef--u_int8_t.txt"
+}

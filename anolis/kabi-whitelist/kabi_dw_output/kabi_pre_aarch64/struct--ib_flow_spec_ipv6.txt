@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1976
+Symbol:
+Byte size 88
+struct ib_flow_spec_ipv6 {
+0x0 type @"typedef--u32.txt"
+0x4 size @"typedef--u16.txt"
+0x8 val @"struct--ib_flow_ipv6_filter.txt"
+0x30 mask @"struct--ib_flow_ipv6_filter.txt"
+}

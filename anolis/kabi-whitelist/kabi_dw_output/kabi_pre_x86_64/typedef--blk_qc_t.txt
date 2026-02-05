@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/blk_types.h:265
+Symbol:
+Byte size 4
+typedef blk_qc_t
+"unsigned int"

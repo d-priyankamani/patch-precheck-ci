@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/bitmap.c:349
+Symbol:
+func __bitmap_weight (
+bitmap * const "long unsigned int"
+bits "unsigned int"
+)
+"unsigned int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/cfg802154.h:155
+Symbol:
+Byte size 8
+struct wpan_phy_cca {
+0x0 mode @"enum--nl802154_cca_modes.txt"
+0x4 opt @"enum--nl802154_cca_opts.txt"
+}

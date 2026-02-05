@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/spinlock_types_raw.h:14
+Symbol:
+Byte size 4
+struct raw_spinlock {
+0x0 raw_lock @"typedef--arch_spinlock_t.txt"
+}

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/posix_acl.h:29
+Symbol:
+Byte size 32
+Alignment 8
+struct posix_acl {
+0x0 a_refcount @"typedef--refcount_t.txt"
+0x8 8 a_rcu @"struct--callback_head.txt"
+0x18 a_count "unsigned int"
+0x1c a_entries [0]@"struct--posix_acl_entry.txt"
+}

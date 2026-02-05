@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/flow_dissector.h:22
+Symbol:
+Byte size 8
+struct flow_dissector_key_control {
+0x0 thoff @"typedef--u16.txt"
+0x2 addr_type @"typedef--u16.txt"
+0x4 flags @"typedef--u32.txt"
+}

@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/slub_def.h:50
+Symbol:
+Byte size 32
+Alignment 16
+struct kmem_cache_cpu {
+0x0 16 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 freelist * * "void"
+0x8 tid "long unsigned int"
+}
+freelist_tid @"typedef--freelist_aba_t.txt"
+}
+0x10 slab * @"struct--slab.txt"
+0x18 partial * @"struct--slab.txt"
+0x20 lock @"typedef--local_lock_t.txt"
+}

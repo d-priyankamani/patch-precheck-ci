@@ -1,0 +1,64 @@
+Version: 1.0
+File: include/net/sock.h:163
+Symbol:
+Byte size 136
+struct sock_common {
+0x0 (NULL) union (NULL) {
+skc_addrpair @"typedef--__addrpair.txt"
+(NULL) struct (NULL) {
+0x0 skc_daddr @"typedef--__be32.txt"
+0x4 skc_rcv_saddr @"typedef--__be32.txt"
+}
+}
+0x8 (NULL) union (NULL) {
+skc_hash "unsigned int"
+skc_u16hashes [2]@"typedef--__u16.txt"
+}
+0xc (NULL) union (NULL) {
+skc_portpair @"typedef--__portpair.txt"
+(NULL) struct (NULL) {
+0x0 skc_dport @"typedef--__be16.txt"
+0x2 skc_num @"typedef--__u16.txt"
+}
+}
+0x10 skc_family "short unsigned int"
+0x12 skc_state volatile "unsigned char"
+0x13:0-4 skc_reuse "unsigned char"
+0x13:4-5 skc_reuseport "unsigned char"
+0x13:5-6 skc_ipv6only "unsigned char"
+0x13:6-7 skc_net_refcnt "unsigned char"
+0x14 skc_bound_dev_if "int"
+0x18 (NULL) union (NULL) {
+skc_bind_node @"struct--hlist_node.txt"
+skc_portaddr_node @"struct--hlist_node.txt"
+}
+0x28 skc_prot * @"struct--proto.txt"
+0x30 skc_net @"typedef--possible_net_t.txt"
+0x38 skc_v6_daddr @"struct--in6_addr.txt"
+0x48 skc_v6_rcv_saddr @"struct--in6_addr.txt"
+0x58 skc_cookie @"typedef--atomic64_t.txt"
+0x60 (NULL) union (NULL) {
+skc_flags "long unsigned int"
+skc_listener * @"struct--sock.txt"
+skc_tw_dr * @"struct--inet_timewait_death_row.txt"
+}
+0x68 skc_dontcopy_begin [0]"int"
+0x68 (NULL) union (NULL) {
+skc_node @"struct--hlist_node.txt"
+skc_nulls_node @"struct--hlist_nulls_node.txt"
+}
+0x78 skc_tx_queue_mapping "short unsigned int"
+0x7a skc_rx_queue_mapping "short unsigned int"
+0x7c (NULL) union (NULL) {
+skc_incoming_cpu "int"
+skc_rcv_wnd @"typedef--u32.txt"
+skc_tw_rcv_nxt @"typedef--u32.txt"
+}
+0x80 skc_refcnt @"typedef--refcount_t.txt"
+0x84 skc_dontcopy_end [0]"int"
+0x84 (NULL) union (NULL) {
+skc_rxhash @"typedef--u32.txt"
+skc_window_clamp @"typedef--u32.txt"
+skc_tw_snd_nxt @"typedef--u32.txt"
+}
+}

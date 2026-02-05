@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/vfio.h:323
+Symbol:
+Byte size 16
+struct vfio_info_cap {
+0x0 buf * @"struct--vfio_info_cap_header.txt"
+0x8 size @"typedef--size_t.txt"
+}

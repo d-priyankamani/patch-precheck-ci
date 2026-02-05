@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/xdp.h:74
+Symbol:
+Byte size 8
+struct xdp_txq_info {
+0x0 dev * @"struct--net_device.txt"
+}

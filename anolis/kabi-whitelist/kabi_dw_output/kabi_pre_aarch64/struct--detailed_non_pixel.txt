@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/drm/drm_edid.h:154
+Symbol:
+Byte size 16
+struct detailed_non_pixel {
+0x0 pad1 @"typedef--u8.txt"
+0x1 type @"typedef--u8.txt"
+0x2 pad2 @"typedef--u8.txt"
+0x3 data union (NULL) {
+str @"struct--detailed_data_string.txt"
+range @"struct--detailed_data_monitor_range.txt"
+color @"struct--detailed_data_wpindex.txt"
+timings [6]@"struct--std_timing.txt"
+cvt [4]@"struct--cvt_timing.txt"
+}
+}

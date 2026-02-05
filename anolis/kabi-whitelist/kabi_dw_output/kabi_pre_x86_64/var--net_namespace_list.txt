@@ -1,0 +1,4 @@
+Version: 1.0
+File: net/core/net_namespace.c:37
+Symbol:
+var net_namespace_list "void"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/iommu/iova.c:584
+Symbol:
+Byte size 216
+struct iova_rcache {
+0x0 lock @"typedef--spinlock_t.txt"
+0x4 depot_size "unsigned int"
+0x8 depot * @"struct--iova_magazine.txt"
+0x10 cpu_rcaches * @"struct--iova_cpu_rcache.txt"
+0x18 iovad * @"struct--iova_domain.txt"
+0x20 work @"struct--delayed_work.txt"
+}

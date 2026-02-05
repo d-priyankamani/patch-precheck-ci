@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/devres.c:1062
+Symbol:
+func devm_kfree (
+dev * @"struct--device.txt"
+p * const "void"
+)
+"void"

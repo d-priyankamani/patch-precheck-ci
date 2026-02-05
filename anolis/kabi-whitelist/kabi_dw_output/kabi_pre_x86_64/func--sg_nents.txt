@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/scatterlist.c:47
+Symbol:
+func sg_nents (
+sg * @"struct--scatterlist.txt"
+)
+"int"

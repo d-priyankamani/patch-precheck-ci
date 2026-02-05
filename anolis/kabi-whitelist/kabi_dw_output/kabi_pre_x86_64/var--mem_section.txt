@@ -1,0 +1,4 @@
+Version: 1.0
+File: mm/sparse.c:27
+Symbol:
+var mem_section "void"

@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/uapi/linux/serial.h:19
+Symbol:
+Byte size 72
+struct serial_struct {
+0x0 type "int"
+0x4 line "int"
+0x8 port "unsigned int"
+0xc irq "int"
+0x10 flags "int"
+0x14 xmit_fifo_size "int"
+0x18 custom_divisor "int"
+0x1c baud_base "int"
+0x20 close_delay "short unsigned int"
+0x22 io_type "char"
+0x23 reserved_char [1]"char"
+0x24 hub6 "int"
+0x28 closing_wait "short unsigned int"
+0x2a closing_wait2 "short unsigned int"
+0x30 iomem_base * "unsigned char"
+0x38 iomem_reg_shift "short unsigned int"
+0x3c port_high "unsigned int"
+0x40 iomap_base "long unsigned int"
+}

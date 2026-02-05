@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/net/fib_notifier.h:28
+Symbol:
+Byte size 64
+Alignment 8
+struct fib_notifier_ops {
+0x0 family "int"
+0x8 list @"struct--list_head.txt"
+0x18 fib_seq_read * func (NULL) (
+(NULL) * @"struct--net.txt"
+)
+"unsigned int"
+0x20 fib_dump * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * @"struct--notifier_block.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x28 owner * @"struct--module.txt"
+0x30 8 rcu @"struct--callback_head.txt"
+}

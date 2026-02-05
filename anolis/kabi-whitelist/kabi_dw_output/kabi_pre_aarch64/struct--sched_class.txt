@@ -1,0 +1,167 @@
+Version: 1.0
+File: kernel/sched/sched.h:2731
+Symbol:
+Byte size 280
+struct sched_class {
+0x0 enqueue_task * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+(NULL) "int"
+)
+"void"
+0x8 dequeue_task * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+(NULL) "int"
+)
+@"typedef--bool.txt"
+0x10 yield_task * func (NULL) (
+(NULL) * @"struct--rq.txt"
+)
+"void"
+0x18 yield_to_task * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+)
+@"typedef--bool.txt"
+0x20 wakeup_preempt * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+(NULL) "int"
+)
+"void"
+0x28 balance * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+(NULL) * @"struct--rq_flags.txt"
+)
+"int"
+0x30 pick_task * func (NULL) (
+(NULL) * @"struct--rq.txt"
+)
+* @"struct--task_struct.txt"
+0x38 pick_next_task * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+)
+* @"struct--task_struct.txt"
+0x40 put_prev_task * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+0x48 set_next_task * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+0x50 select_task_rq * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+(NULL) "int"
+(NULL) "int"
+)
+"int"
+0x58 migrate_task_rq * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+(NULL) "int"
+)
+"void"
+0x60 task_woken * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+0x68 set_cpus_allowed * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+(NULL) * @"struct--affinity_context.txt"
+)
+"void"
+0x70 rq_online * func (NULL) (
+(NULL) * @"struct--rq.txt"
+)
+"void"
+0x78 rq_offline * func (NULL) (
+(NULL) * @"struct--rq.txt"
+)
+"void"
+0x80 find_lock_rq * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+(NULL) * @"struct--rq.txt"
+)
+* @"struct--rq.txt"
+0x88 task_tick * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+(NULL) "int"
+)
+"void"
+0x90 task_fork * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+0x98 task_dead * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+0xa0 switching_to * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+0xa8 switched_from * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+0xb0 switched_to * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+0xb8 reweight_task * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+(NULL) * const @"struct--load_weight.txt"
+)
+"void"
+0xc0 prio_changed * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+(NULL) "int"
+)
+"void"
+0xc8 get_rr_interval * func (NULL) (
+(NULL) * @"struct--rq.txt"
+(NULL) * @"struct--task_struct.txt"
+)
+"unsigned int"
+0xd0 update_curr * func (NULL) (
+(NULL) * @"struct--rq.txt"
+)
+"void"
+0xd8 task_change_group * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+0xe0 task_is_throttled * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+(NULL) "int"
+)
+"int"
+0xe8 update_nr_uninterruptible * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+(NULL) "long int"
+)
+"void"
+0xf0 update_nr_iowait * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+(NULL) "long int"
+)
+"void"
+0xf8 ck_reserved1 "long unsigned int"
+0x100 ck_reserved2 "long unsigned int"
+0x108 ck_reserved3 "long unsigned int"
+0x110 ck_reserved4 "long unsigned int"
+}

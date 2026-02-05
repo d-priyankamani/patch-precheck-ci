@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/i2c.h:141
+Symbol:
+Byte size 34
+union i2c_smbus_data {
+byte @"typedef--__u8.txt"
+word @"typedef--__u16.txt"
+block [34]@"typedef--__u8.txt"
+}

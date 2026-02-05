@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/linux/netdevice.h:2776
+Symbol:
+Byte size 72
+struct packet_type {
+0x0 type @"typedef--__be16.txt"
+0x2 ignore_outgoing @"typedef--bool.txt"
+0x8 dev * @"struct--net_device.txt"
+0x10 dev_tracker @"typedef--netdevice_tracker.txt"
+0x10 func * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--packet_type.txt"
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0x18 list_func * func (NULL) (
+(NULL) * @"struct--list_head.txt"
+(NULL) * @"struct--packet_type.txt"
+(NULL) * @"struct--net_device.txt"
+)
+"void"
+0x20 id_match * func (NULL) (
+(NULL) * @"struct--packet_type.txt"
+(NULL) * @"struct--sock.txt"
+)
+@"typedef--bool.txt"
+0x28 af_packet_net * @"struct--net.txt"
+0x30 af_packet_priv * "void"
+0x38 list @"struct--list_head.txt"
+}

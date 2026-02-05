@@ -1,0 +1,13 @@
+Version: 1.0
+File: lib/hexdump.c:127
+Symbol:
+func hex_dump_to_buffer (
+buf * const "void"
+len @"typedef--size_t.txt"
+rowsize "int"
+groupsize "int"
+linebuf * "char"
+linebuflen @"typedef--size_t.txt"
+ascii @"typedef--bool.txt"
+)
+"int"

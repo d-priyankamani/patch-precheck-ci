@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/firmware_loader/main.c:1161
+Symbol:
+func release_firmware (
+fw * const @"struct--firmware.txt"
+)
+"void"

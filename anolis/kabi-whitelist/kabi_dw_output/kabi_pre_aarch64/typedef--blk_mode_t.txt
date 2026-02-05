@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/blkdev.h:118
+Symbol:
+Byte size 4
+typedef blk_mode_t
+"unsigned int"

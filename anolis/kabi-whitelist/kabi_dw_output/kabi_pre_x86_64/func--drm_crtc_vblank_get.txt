@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vblank.c:1238
+Symbol:
+func drm_crtc_vblank_get (
+crtc * @"struct--drm_crtc.txt"
+)
+"int"

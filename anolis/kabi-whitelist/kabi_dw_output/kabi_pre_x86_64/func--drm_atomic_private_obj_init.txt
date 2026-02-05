@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic.c:791
+Symbol:
+func drm_atomic_private_obj_init (
+dev * @"struct--drm_device.txt"
+obj * @"struct--drm_private_obj.txt"
+state * @"struct--drm_private_state.txt"
+funcs * const @"struct--drm_private_state_funcs.txt"
+)
+"void"

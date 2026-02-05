@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:358
+Symbol:
+Byte size 20
+struct ib_tm_caps {
+0x0 max_rndv_hdr_size @"typedef--u32.txt"
+0x4 max_num_tags @"typedef--u32.txt"
+0x8 flags @"typedef--u32.txt"
+0xc max_ops @"typedef--u32.txt"
+0x10 max_sge @"typedef--u32.txt"
+}

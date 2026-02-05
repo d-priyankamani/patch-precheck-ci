@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:2577
+Symbol:
+func ib_set_device_ops (
+dev * @"struct--ib_device.txt"
+ops * const @"struct--ib_device_ops.txt"
+)
+"void"

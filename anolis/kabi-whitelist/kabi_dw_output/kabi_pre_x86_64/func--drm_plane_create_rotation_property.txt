@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_blend.c:272
+Symbol:
+func drm_plane_create_rotation_property (
+plane * @"struct--drm_plane.txt"
+rotation "unsigned int"
+supported_rotations "unsigned int"
+)
+"int"

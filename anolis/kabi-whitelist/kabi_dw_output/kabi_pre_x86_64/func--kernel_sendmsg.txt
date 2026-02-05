@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/socket.c:788
+Symbol:
+func kernel_sendmsg (
+sock * @"struct--socket.txt"
+msg * @"struct--msghdr.txt"
+vec * @"struct--kvec.txt"
+num @"typedef--size_t.txt"
+size @"typedef--size_t.txt"
+)
+"int"

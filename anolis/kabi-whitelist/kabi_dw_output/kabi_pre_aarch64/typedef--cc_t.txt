@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/uapi/asm-generic/termbits-common.h:5
+Symbol:
+Byte size 1
+typedef cc_t
+"unsigned char"

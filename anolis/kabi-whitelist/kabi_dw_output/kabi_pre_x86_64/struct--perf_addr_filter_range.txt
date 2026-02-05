@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/perf_event.h:610
+Symbol:
+Byte size 16
+struct perf_addr_filter_range {
+0x0 start "long unsigned int"
+0x8 size "long unsigned int"
+}

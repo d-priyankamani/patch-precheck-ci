@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/firmware/efi/libstub/intrinsics.c:26
+Symbol:
+func memset (
+dst * "void"
+c "int"
+len @"typedef--size_t.txt"
+)
+* "void"

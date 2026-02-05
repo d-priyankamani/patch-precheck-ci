@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:3188
+Symbol:
+func netif_tx_wake_queue (
+dev_queue * @"struct--netdev_queue.txt"
+)
+"void"

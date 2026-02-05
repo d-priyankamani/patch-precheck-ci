@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/xfrm.h:122
+Symbol:
+Byte size 12
+struct xfrm_stats {
+0x0 replay_window @"typedef--__u32.txt"
+0x4 replay @"typedef--__u32.txt"
+0x8 integrity_failed @"typedef--__u32.txt"
+}

@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/uapi/asm-generic/posix_types.h:16
+Symbol:
+Byte size 8
+typedef __kernel_ulong_t
+"long unsigned int"

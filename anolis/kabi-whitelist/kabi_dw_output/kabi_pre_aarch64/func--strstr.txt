@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/firmware/efi/libstub/string.c:50
+Symbol:
+func strstr (
+s1 * const "char"
+s2 * const "char"
+)
+* "char"

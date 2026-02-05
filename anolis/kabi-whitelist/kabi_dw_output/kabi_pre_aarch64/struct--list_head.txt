@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/types.h:191
+Symbol:
+Byte size 16
+struct list_head {
+0x0 next * @"struct--list_head.txt"
+0x8 prev * @"struct--list_head.txt"
+}

@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/asm-generic/int-ll64.h:18
+Symbol:
+typedef s16
+@"typedef--__s16.txt"

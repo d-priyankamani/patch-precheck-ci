@@ -1,0 +1,6 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:131
+Symbol:
+func dma_fence_get_stub (
+)
+* @"struct--dma_fence.txt"

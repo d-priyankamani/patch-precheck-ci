@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/perf_event.h:93
+Symbol:
+Byte size 32
+struct perf_raw_record {
+0x0 frag @"struct--perf_raw_frag.txt"
+0x1c size @"typedef--u32.txt"
+}

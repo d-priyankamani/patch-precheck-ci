@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1702
+Symbol:
+Byte size 48
+struct ib_wq_init_attr {
+0x0 wq_context * "void"
+0x8 wq_type @"enum--ib_wq_type.txt"
+0xc max_wr @"typedef--u32.txt"
+0x10 max_sge @"typedef--u32.txt"
+0x18 cq * @"struct--ib_cq.txt"
+0x20 event_handler * func (NULL) (
+(NULL) * @"struct--ib_event.txt"
+(NULL) * "void"
+)
+"void"
+0x28 create_flags @"typedef--u32.txt"
+}

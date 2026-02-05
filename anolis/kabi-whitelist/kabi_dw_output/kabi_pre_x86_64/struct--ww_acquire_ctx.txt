@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/ww_mutex.h:55
+Symbol:
+Byte size 24
+struct ww_acquire_ctx {
+0x0 task * @"struct--task_struct.txt"
+0x8 stamp "long unsigned int"
+0x10 acquired "unsigned int"
+0x14 wounded "short unsigned int"
+0x16 is_wait_die "short unsigned int"
+}

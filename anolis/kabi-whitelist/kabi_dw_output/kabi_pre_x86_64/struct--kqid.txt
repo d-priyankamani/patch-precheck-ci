@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/quota.h:69
+Symbol:
+Byte size 8
+struct kqid {
+0x0 (NULL) union (NULL) {
+uid @"typedef--kuid_t.txt"
+gid @"typedef--kgid_t.txt"
+projid @"typedef--kprojid_t.txt"
+}
+0x4 type @"enum--quota_type.txt"
+}

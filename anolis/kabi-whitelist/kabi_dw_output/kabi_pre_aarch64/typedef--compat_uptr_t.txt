@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/asm-generic/compat.h:46
+Symbol:
+typedef compat_uptr_t
+@"typedef--u32.txt"

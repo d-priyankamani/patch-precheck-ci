@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/tracepoint-defs.h:17
+Symbol:
+Byte size 16
+struct trace_print_flags {
+0x0 mask "long unsigned int"
+0x8 name * const "char"
+}

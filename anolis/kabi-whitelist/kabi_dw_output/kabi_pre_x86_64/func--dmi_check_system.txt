@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/firmware/dmi_scan.c:903
+Symbol:
+func dmi_check_system (
+list * const @"struct--dmi_system_id.txt"
+)
+"int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/pci/pci.h:54
+Symbol:
+Byte size 8
+struct pci_cap_saved_data {
+0x0 cap_nr @"typedef--u16.txt"
+0x2 cap_extended @"typedef--bool.txt"
+0x4 size "unsigned int"
+0x8 data [0]@"typedef--u32.txt"
+}

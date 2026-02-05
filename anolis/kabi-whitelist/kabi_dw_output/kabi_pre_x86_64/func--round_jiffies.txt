@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/timer.c:408
+Symbol:
+func round_jiffies (
+j "long unsigned int"
+)
+"long unsigned int"

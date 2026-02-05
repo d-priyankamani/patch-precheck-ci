@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_color_mgmt.c:206
+Symbol:
+func drm_mode_crtc_set_gamma_size (
+crtc * @"struct--drm_crtc.txt"
+gamma_size "int"
+)
+"int"

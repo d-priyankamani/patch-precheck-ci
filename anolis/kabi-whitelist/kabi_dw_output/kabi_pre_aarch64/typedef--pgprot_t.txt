@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/arm64/include/asm/pgtable-types.h:43
+Symbol:
+Byte size 8
+typedef pgprot_t
+struct (NULL) {
+0x0 pgprot @"typedef--pteval_t.txt"
+}

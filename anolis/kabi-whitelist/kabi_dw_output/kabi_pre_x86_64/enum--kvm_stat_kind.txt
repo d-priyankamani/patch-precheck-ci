@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/kvm_host.h:1815
+Symbol:
+Byte size 4
+enum kvm_stat_kind {
+KVM_STAT_VM = 0x0
+KVM_STAT_VCPU = 0x1
+}

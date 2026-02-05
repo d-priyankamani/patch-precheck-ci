@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/devlink/health.c:20
+Symbol:
+Byte size 24
+struct devlink_fmsg {
+0x0 item_list @"struct--list_head.txt"
+0x10 putting_binary @"typedef--bool.txt"
+}

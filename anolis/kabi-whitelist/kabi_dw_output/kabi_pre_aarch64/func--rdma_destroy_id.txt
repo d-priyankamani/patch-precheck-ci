@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:2095
+Symbol:
+func rdma_destroy_id (
+id * @"struct--rdma_cm_id.txt"
+)
+"void"

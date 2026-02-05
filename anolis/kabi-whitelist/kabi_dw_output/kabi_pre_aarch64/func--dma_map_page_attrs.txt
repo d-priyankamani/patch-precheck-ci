@@ -1,0 +1,12 @@
+Version: 1.0
+File: kernel/dma/mapping.c:152
+Symbol:
+func dma_map_page_attrs (
+dev * @"struct--device.txt"
+page * @"struct--page.txt"
+offset @"typedef--size_t.txt"
+size @"typedef--size_t.txt"
+dir @"enum--dma_data_direction.txt"
+attrs "long unsigned int"
+)
+@"typedef--dma_addr_t.txt"

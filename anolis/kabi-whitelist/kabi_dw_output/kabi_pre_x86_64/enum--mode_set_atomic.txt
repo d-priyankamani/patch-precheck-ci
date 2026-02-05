@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/drm/drm_modeset_helper_vtables.h:54
+Symbol:
+Byte size 4
+enum mode_set_atomic {
+LEAVE_ATOMIC_MODE_SET = 0x0
+ENTER_ATOMIC_MODE_SET = 0x1
+}

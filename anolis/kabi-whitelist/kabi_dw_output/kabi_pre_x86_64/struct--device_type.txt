@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/linux/device.h:88
+Symbol:
+Byte size 48
+struct device_type {
+0x0 name * const "char"
+0x8 groups * * const @"struct--attribute_group.txt"
+0x10 uevent * func (NULL) (
+(NULL) * const @"struct--device.txt"
+(NULL) * @"struct--kobj_uevent_env.txt"
+)
+"int"
+0x18 devnode * func (NULL) (
+(NULL) * const @"struct--device.txt"
+(NULL) * @"typedef--umode_t.txt"
+(NULL) * @"typedef--kuid_t.txt"
+(NULL) * @"typedef--kgid_t.txt"
+)
+* "char"
+0x20 release * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x28 pm * const @"struct--dev_pm_ops.txt"
+}

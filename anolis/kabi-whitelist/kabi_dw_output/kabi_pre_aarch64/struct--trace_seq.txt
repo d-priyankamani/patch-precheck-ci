@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/trace_seq.h:14
+Symbol:
+Byte size 4136
+struct trace_seq {
+0x0 buffer [4096]"char"
+0x1000 seq @"struct--seq_buf.txt"
+0x1018 readpos @"typedef--size_t.txt"
+0x1020 full "int"
+}

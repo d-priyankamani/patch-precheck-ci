@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/flow_offload.h:224
+Symbol:
+Byte size 4
+struct flow_action_cookie {
+0x0 cookie_len @"typedef--u32.txt"
+0x4 cookie [0]@"typedef--u8.txt"
+}

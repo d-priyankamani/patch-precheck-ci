@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/xfrm.h:120
+Symbol:
+Byte size 40
+struct xfrm_state_walk {
+0x0 all @"struct--list_head.txt"
+0x10 state @"typedef--u8.txt"
+0x11 dying @"typedef--u8.txt"
+0x12 proto @"typedef--u8.txt"
+0x14 seq @"typedef--u32.txt"
+0x18 filter * @"struct--xfrm_address_filter.txt"
+0x20 ck_reserved1 "long unsigned int"
+}

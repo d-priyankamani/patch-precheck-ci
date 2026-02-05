@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:232
+Symbol:
+Byte size 20
+typedef acpi_device_class
+[20]"char"

@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/sched/ext.h:59
+Symbol:
+Byte size 80
+Alignment 8
+struct scx_dispatch_q {
+0x0 lock @"typedef--raw_spinlock_t.txt"
+0x8 list @"struct--list_head.txt"
+0x18 priq @"struct--rb_root.txt"
+0x20 nr @"typedef--u32.txt"
+0x24 seq @"typedef--u32.txt"
+0x28 id @"typedef--u64.txt"
+0x30 hash_node @"struct--rhash_head.txt"
+0x38 free_node @"struct--llist_node.txt"
+0x40 8 rcu @"struct--callback_head.txt"
+}

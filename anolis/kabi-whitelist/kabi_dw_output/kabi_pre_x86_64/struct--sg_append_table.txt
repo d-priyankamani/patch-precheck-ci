@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/scatterlist.h:45
+Symbol:
+Byte size 32
+struct sg_append_table {
+0x0 sgt @"struct--sg_table.txt"
+0x10 prv * @"struct--scatterlist.txt"
+0x18 total_nents "unsigned int"
+}

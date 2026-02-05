@@ -1,0 +1,12 @@
+Version: 1.0
+File: net/socket.c:1500
+Symbol:
+func __sock_create (
+net * @"struct--net.txt"
+family "int"
+type "int"
+protocol "int"
+res * * @"struct--socket.txt"
+kern "int"
+)
+"int"

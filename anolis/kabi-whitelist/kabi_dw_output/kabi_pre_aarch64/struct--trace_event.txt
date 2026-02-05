@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/trace_events.h:150
+Symbol:
+Byte size 32
+struct trace_event {
+0x0 node @"struct--hlist_node.txt"
+0x10 type "int"
+0x18 funcs * @"struct--trace_event_functions.txt"
+}

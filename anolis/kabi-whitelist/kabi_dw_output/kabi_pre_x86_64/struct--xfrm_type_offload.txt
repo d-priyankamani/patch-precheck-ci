@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/net/xfrm.h:441
+Symbol:
+Byte size 40
+struct xfrm_type_offload {
+0x0 owner * @"struct--module.txt"
+0x8 proto @"typedef--u8.txt"
+0x10 encap * func (NULL) (
+(NULL) * @"struct--xfrm_state.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"void"
+0x18 input_tail * func (NULL) (
+(NULL) * @"struct--xfrm_state.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x20 xmit * func (NULL) (
+(NULL) * @"struct--xfrm_state.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) @"typedef--netdev_features_t.txt"
+)
+"int"
+}

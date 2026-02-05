@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/rtc/lib.c:52
+Symbol:
+func rtc_time64_to_tm (
+time @"typedef--time64_t.txt"
+tm * @"struct--rtc_time.txt"
+)
+"void"

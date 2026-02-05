@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_drv.c:986
+Symbol:
+func drm_dev_unregister (
+dev * @"struct--drm_device.txt"
+)
+"void"

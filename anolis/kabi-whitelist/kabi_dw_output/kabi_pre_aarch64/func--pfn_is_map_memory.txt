@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/arm64/mm/init.c:283
+Symbol:
+func pfn_is_map_memory (
+pfn "long unsigned int"
+)
+"int"

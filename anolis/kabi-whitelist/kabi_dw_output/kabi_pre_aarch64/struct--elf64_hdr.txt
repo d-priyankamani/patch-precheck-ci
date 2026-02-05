@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/uapi/linux/elf.h:226
+Symbol:
+Byte size 64
+struct elf64_hdr {
+0x0 e_ident [16]"unsigned char"
+0x10 e_type @"typedef--Elf64_Half.txt"
+0x12 e_machine @"typedef--Elf64_Half.txt"
+0x14 e_version @"typedef--Elf64_Word.txt"
+0x18 e_entry @"typedef--Elf64_Addr.txt"
+0x20 e_phoff @"typedef--Elf64_Off.txt"
+0x28 e_shoff @"typedef--Elf64_Off.txt"
+0x30 e_flags @"typedef--Elf64_Word.txt"
+0x34 e_ehsize @"typedef--Elf64_Half.txt"
+0x36 e_phentsize @"typedef--Elf64_Half.txt"
+0x38 e_phnum @"typedef--Elf64_Half.txt"
+0x3a e_shentsize @"typedef--Elf64_Half.txt"
+0x3c e_shnum @"typedef--Elf64_Half.txt"
+0x3e e_shstrndx @"typedef--Elf64_Half.txt"
+}

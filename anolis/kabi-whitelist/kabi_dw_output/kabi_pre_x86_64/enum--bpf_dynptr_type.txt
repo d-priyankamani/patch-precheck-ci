@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/bpf.h:1271
+Symbol:
+Byte size 4
+enum bpf_dynptr_type {
+BPF_DYNPTR_TYPE_INVALID = 0x0
+BPF_DYNPTR_TYPE_LOCAL = 0x1
+BPF_DYNPTR_TYPE_RINGBUF = 0x2
+BPF_DYNPTR_TYPE_SKB = 0x3
+BPF_DYNPTR_TYPE_XDP = 0x4
+}

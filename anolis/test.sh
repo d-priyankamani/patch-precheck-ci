@@ -477,25 +477,7 @@ test_check_kapi() {
   local PATCHLEVEL=$(grep "^PATCHLEVEL = " "${LINUX_SRC_PATH}/Makefile" | awk '{print $3}')
   local KABI_BRANCH="devel-${KERNEL_VERSION}.${PATCHLEVEL}"
 
-  # Clean tools and previous outputs
-  rm -f "${KAPI_DIFF_OUTPUT}" "${KAPI_WITH_BP}" "${KAPI_WITHOUT_BP}"
-  rm -rf "${KAPI_OP_DIR}" "${KABI_DW_DIR}" "${KABI_WHITELIST_DIR}"
-
   echo "  → Checking KAPI..." > "$KAPI_LOG"
-
-  # Clone kabi-dw repo
-  echo "  → Cloning kabi-dw repository..." >> "$KAPI_LOG"
-  if ! git clone https://gitee.com/anolis/kabi-dw.git "${KABI_DW_DIR}" >> "${KAPI_LOG}" 2>&1; then
-    fail "check_kapi" "Failed to clone kabi-dw repository"
-    return
-  fi
-
-  # Clone kabi-whitelist repository
-  echo "  → Cloning kabi-whitelist repository (branch: ${KABI_BRANCH})..." >> "$KAPI_LOG"
-  if ! git clone --depth 1 -b "${KABI_BRANCH}" https://gitee.com/anolis/kabi-whitelist.git "${KABI_WHITELIST_DIR}" >> "${KAPI_LOG}" 2>&1; then
-    fail "check_kapi" "Failed to clone kabi-whitelist repository (branch ${KABI_BRANCH} may not exist)"
-    return
-  fi
 
   # Clean and build kabi-dw tool
   cd "${KABI_DW_DIR}"

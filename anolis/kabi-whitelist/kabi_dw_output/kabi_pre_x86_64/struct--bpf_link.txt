@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/bpf.h:1591
+Symbol:
+Byte size 96
+Alignment 8
+struct bpf_link {
+0x0 refcnt @"typedef--atomic64_t.txt"
+0x8 id @"typedef--u32.txt"
+0xc type @"enum--bpf_link_type.txt"
+0x10 ops * const @"struct--bpf_link_ops.txt"
+0x18 prog * @"struct--bpf_prog.txt"
+0x20 8 (NULL) union (NULL) {
+rcu @"struct--callback_head.txt"
+work @"struct--work_struct.txt"
+}
+}

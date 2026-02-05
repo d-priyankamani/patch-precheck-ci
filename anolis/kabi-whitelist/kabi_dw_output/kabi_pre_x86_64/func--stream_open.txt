@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/open.c:1656
+Symbol:
+func stream_open (
+inode * @"struct--inode.txt"
+filp * @"struct--file.txt"
+)
+"int"

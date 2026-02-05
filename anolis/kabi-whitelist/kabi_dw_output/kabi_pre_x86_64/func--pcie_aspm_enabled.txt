@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pcie/aspm.c:1507
+Symbol:
+func pcie_aspm_enabled (
+pdev * @"struct--pci_dev.txt"
+)
+@"typedef--bool.txt"

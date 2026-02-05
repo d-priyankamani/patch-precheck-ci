@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/spinlock.c:218
+Symbol:
+func _raw_read_trylock (
+lock * @"typedef--rwlock_t.txt"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/netfilter.h:109
+Symbol:
+Byte size 8
+struct nf_hook_entries {
+0x0 num_hook_entries @"typedef--u16.txt"
+0x8 hooks [0]@"struct--nf_hook_entry.txt"
+}

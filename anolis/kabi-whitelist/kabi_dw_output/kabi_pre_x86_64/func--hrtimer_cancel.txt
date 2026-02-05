@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/hrtimer.c:1508
+Symbol:
+func hrtimer_cancel (
+timer * @"struct--hrtimer.txt"
+)
+"int"

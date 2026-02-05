@@ -1,0 +1,63 @@
+Version: 1.0
+File: include/linux/mmu_notifier.h:64
+Symbol:
+Byte size 80
+struct mmu_notifier_ops {
+0x0 release * func (NULL) (
+(NULL) * @"struct--mmu_notifier.txt"
+(NULL) * @"struct--mm_struct.txt"
+)
+"void"
+0x8 clear_flush_young * func (NULL) (
+(NULL) * @"struct--mmu_notifier.txt"
+(NULL) * @"struct--mm_struct.txt"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x10 clear_young * func (NULL) (
+(NULL) * @"struct--mmu_notifier.txt"
+(NULL) * @"struct--mm_struct.txt"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x18 test_young * func (NULL) (
+(NULL) * @"struct--mmu_notifier.txt"
+(NULL) * @"struct--mm_struct.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x20 change_pte * func (NULL) (
+(NULL) * @"struct--mmu_notifier.txt"
+(NULL) * @"struct--mm_struct.txt"
+(NULL) "long unsigned int"
+(NULL) @"typedef--pte_t.txt"
+)
+"void"
+0x28 invalidate_range_start * func (NULL) (
+(NULL) * @"struct--mmu_notifier.txt"
+(NULL) * const @"struct--mmu_notifier_range.txt"
+)
+"int"
+0x30 invalidate_range_end * func (NULL) (
+(NULL) * @"struct--mmu_notifier.txt"
+(NULL) * const @"struct--mmu_notifier_range.txt"
+)
+"void"
+0x38 arch_invalidate_secondary_tlbs * func (NULL) (
+(NULL) * @"struct--mmu_notifier.txt"
+(NULL) * @"struct--mm_struct.txt"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+)
+"void"
+0x40 alloc_notifier * func (NULL) (
+(NULL) * @"struct--mm_struct.txt"
+)
+* @"struct--mmu_notifier.txt"
+0x48 free_notifier * func (NULL) (
+(NULL) * @"struct--mmu_notifier.txt"
+)
+"void"
+}

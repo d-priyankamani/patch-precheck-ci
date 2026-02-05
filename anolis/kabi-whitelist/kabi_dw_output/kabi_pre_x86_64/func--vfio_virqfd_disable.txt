@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/vfio/virqfd.c:203
+Symbol:
+func vfio_virqfd_disable (
+pvirqfd * * @"struct--virqfd.txt"
+)
+"void"

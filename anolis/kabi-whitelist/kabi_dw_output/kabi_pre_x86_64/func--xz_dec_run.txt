@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/xz/xz_dec_stream.c:750
+Symbol:
+func xz_dec_run (
+s * @"struct--xz_dec.txt"
+b * @"struct--xz_buf.txt"
+)
+@"enum--xz_ret.txt"

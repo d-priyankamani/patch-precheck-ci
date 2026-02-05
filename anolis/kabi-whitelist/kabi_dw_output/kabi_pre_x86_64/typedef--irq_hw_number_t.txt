@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/types.h:171
+Symbol:
+Byte size 8
+typedef irq_hw_number_t
+"long unsigned int"

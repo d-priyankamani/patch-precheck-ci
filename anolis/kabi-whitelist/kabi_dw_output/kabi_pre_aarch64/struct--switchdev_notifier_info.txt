@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/switchdev.h:235
+Symbol:
+Byte size 24
+struct switchdev_notifier_info {
+0x0 dev * @"struct--net_device.txt"
+0x8 extack * @"struct--netlink_ext_ack.txt"
+0x10 ctx * const "void"
+}

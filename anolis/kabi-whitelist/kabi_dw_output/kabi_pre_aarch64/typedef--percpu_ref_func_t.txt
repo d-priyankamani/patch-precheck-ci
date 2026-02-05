@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/percpu-refcount.h:60
+Symbol:
+typedef percpu_ref_func_t
+func (NULL) (
+(NULL) * @"struct--percpu_ref.txt"
+)
+"void"

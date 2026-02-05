@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/pci/controller/pci-hyperv-intf.c:21
+Symbol:
+func hyperv_read_cfg_blk (
+dev * @"<declarations>/struct--pci_dev.txt"
+buf * "void"
+buf_len "unsigned int"
+block_id "unsigned int"
+bytes_returned * "unsigned int"
+)
+"int"

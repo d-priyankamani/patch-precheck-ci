@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/if_link.h:20
+Symbol:
+Byte size 72
+struct ifla_vf_info {
+0x0 vf @"typedef--__u32.txt"
+0x4 mac [32]@"typedef--__u8.txt"
+0x24 vlan @"typedef--__u32.txt"
+0x28 qos @"typedef--__u32.txt"
+0x2c spoofchk @"typedef--__u32.txt"
+0x30 linkstate @"typedef--__u32.txt"
+0x34 min_tx_rate @"typedef--__u32.txt"
+0x38 max_tx_rate @"typedef--__u32.txt"
+0x3c rss_query_en @"typedef--__u32.txt"
+0x40 trusted @"typedef--__u32.txt"
+0x44 vlan_proto @"typedef--__be16.txt"
+}

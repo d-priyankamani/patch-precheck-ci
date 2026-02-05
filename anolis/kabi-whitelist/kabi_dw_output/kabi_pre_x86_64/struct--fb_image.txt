@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/uapi/linux/fb.h:360
+Symbol:
+Byte size 80
+struct fb_image {
+0x0 dx @"typedef--__u32.txt"
+0x4 dy @"typedef--__u32.txt"
+0x8 width @"typedef--__u32.txt"
+0xc height @"typedef--__u32.txt"
+0x10 fg_color @"typedef--__u32.txt"
+0x14 bg_color @"typedef--__u32.txt"
+0x18 depth @"typedef--__u8.txt"
+0x20 data * const "char"
+0x28 cmap @"struct--fb_cmap.txt"
+}

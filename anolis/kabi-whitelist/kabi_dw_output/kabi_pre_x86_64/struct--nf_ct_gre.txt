@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/netfilter/nf_conntrack_proto_gre.h:8
+Symbol:
+Byte size 8
+struct nf_ct_gre {
+0x0 stream_timeout "unsigned int"
+0x4 timeout "unsigned int"
+}

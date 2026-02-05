@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/workqueue.c:5973
+Symbol:
+Byte size 992
+Alignment 8
+struct wq_device {
+0x0 wq * @"struct--workqueue_struct.txt"
+0x8 8 dev @"struct--device.txt"
+}

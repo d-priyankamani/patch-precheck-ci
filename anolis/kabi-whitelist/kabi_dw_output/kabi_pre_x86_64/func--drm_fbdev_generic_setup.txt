@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_fbdev_generic.c:321
+Symbol:
+func drm_fbdev_generic_setup (
+dev * @"struct--drm_device.txt"
+preferred_bpp "unsigned int"
+)
+"void"

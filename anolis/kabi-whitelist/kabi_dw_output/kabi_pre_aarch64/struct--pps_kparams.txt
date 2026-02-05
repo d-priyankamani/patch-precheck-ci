@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/pps.h:83
+Symbol:
+Byte size 40
+struct pps_kparams {
+0x0 api_version "int"
+0x4 mode "int"
+0x8 assert_off_tu @"struct--pps_ktime.txt"
+0x18 clear_off_tu @"struct--pps_ktime.txt"
+}

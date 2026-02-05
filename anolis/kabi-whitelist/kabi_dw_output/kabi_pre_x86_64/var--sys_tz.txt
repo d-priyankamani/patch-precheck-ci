@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/time/time.c:50
+Symbol:
+var sys_tz "void"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:2460
+Symbol:
+func ib_find_gid (
+device * @"struct--ib_device.txt"
+gid * @"union--ib_gid.txt"
+port_num * @"typedef--u32.txt"
+index * @"typedef--u16.txt"
+)
+"int"

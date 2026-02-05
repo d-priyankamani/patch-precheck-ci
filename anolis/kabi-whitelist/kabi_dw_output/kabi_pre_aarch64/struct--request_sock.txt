@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/net/request_sock.h:53
+Symbol:
+Byte size 264
+struct request_sock {
+0x0 __req_common @"struct--sock_common.txt"
+0x88 dl_next * @"struct--request_sock.txt"
+0x90 mss @"typedef--u16.txt"
+0x92 num_retrans @"typedef--u8.txt"
+0x93:0-1 syncookie @"typedef--u8.txt"
+0x93:1-8 num_timeout @"typedef--u8.txt"
+0x94 ts_recent @"typedef--u32.txt"
+0x98 rsk_timer @"struct--timer_list.txt"
+0xe0 rsk_ops * const @"struct--request_sock_ops.txt"
+0xe8 sk * @"struct--sock.txt"
+0xf0 saved_syn * @"struct--saved_syn.txt"
+0xf8 secid @"typedef--u32.txt"
+0xfc peer_secid @"typedef--u32.txt"
+0x100 timeout @"typedef--u32.txt"
+}

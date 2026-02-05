@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/if_link.h:1065
+Symbol:
+Byte size 16
+struct ifla_vf_guid {
+0x0 vf @"typedef--__u32.txt"
+0x8 guid @"typedef--__u64.txt"
+}

@@ -1,0 +1,14 @@
+Version: 1.0
+File: arch/x86/include/asm/pvclock-abi.h:26
+Symbol:
+Byte size 32
+struct pvclock_vcpu_time_info {
+0x0 version @"typedef--u32.txt"
+0x4 pad0 @"typedef--u32.txt"
+0x8 tsc_timestamp @"typedef--u64.txt"
+0x10 system_time @"typedef--u64.txt"
+0x18 tsc_to_system_mul @"typedef--u32.txt"
+0x1c tsc_shift @"typedef--s8.txt"
+0x1d flags @"typedef--u8.txt"
+0x1e pad [2]@"typedef--u8.txt"
+}

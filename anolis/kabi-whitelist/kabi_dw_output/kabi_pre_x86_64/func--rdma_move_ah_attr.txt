@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:402
+Symbol:
+func rdma_move_ah_attr (
+dest * @"struct--rdma_ah_attr.txt"
+src * @"struct--rdma_ah_attr.txt"
+)
+"void"

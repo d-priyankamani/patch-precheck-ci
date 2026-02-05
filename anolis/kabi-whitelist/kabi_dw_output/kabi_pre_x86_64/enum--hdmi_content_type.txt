@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/hdmi.h:151
+Symbol:
+Byte size 4
+enum hdmi_content_type {
+HDMI_CONTENT_TYPE_GRAPHICS = 0x0
+HDMI_CONTENT_TYPE_PHOTO = 0x1
+HDMI_CONTENT_TYPE_CINEMA = 0x2
+HDMI_CONTENT_TYPE_GAME = 0x3
+}

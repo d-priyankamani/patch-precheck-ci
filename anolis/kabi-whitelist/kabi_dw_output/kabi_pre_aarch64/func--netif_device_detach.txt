@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:3239
+Symbol:
+func netif_device_detach (
+dev * @"struct--net_device.txt"
+)
+"void"

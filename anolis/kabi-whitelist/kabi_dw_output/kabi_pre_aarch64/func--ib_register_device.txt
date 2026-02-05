@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:1375
+Symbol:
+func ib_register_device (
+device * @"struct--ib_device.txt"
+name * const "char"
+dma_device * @"struct--device.txt"
+)
+"int"

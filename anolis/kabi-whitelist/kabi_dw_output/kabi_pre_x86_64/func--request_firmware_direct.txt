@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/base/firmware_loader/main.c:1032
+Symbol:
+func request_firmware_direct (
+firmware_p * * const @"struct--firmware.txt"
+name * const "char"
+device * @"struct--device.txt"
+)
+"int"

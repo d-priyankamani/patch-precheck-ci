@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/cgroup.h:778
+Symbol:
+Byte size 56
+struct cgroup_namespace {
+0x0 ns @"struct--ns_common.txt"
+0x20 user_ns * @"struct--user_namespace.txt"
+0x28 ucounts * @"struct--ucounts.txt"
+0x30 root_cset * @"struct--css_set.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/signature.h:94
+Symbol:
+Byte size 4
+enum ib_sig_err_type {
+IB_SIG_BAD_GUARD = 0x0
+IB_SIG_BAD_REFTAG = 0x1
+IB_SIG_BAD_APPTAG = 0x2
+}

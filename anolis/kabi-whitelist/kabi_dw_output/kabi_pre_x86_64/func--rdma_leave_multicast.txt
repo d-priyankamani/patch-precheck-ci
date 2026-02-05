@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:5079
+Symbol:
+func rdma_leave_multicast (
+id * @"struct--rdma_cm_id.txt"
+addr * @"struct--sockaddr.txt"
+)
+"void"

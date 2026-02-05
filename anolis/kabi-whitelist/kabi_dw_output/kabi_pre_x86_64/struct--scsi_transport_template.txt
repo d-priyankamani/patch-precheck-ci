@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/scsi/scsi_transport.h:16
+Symbol:
+Byte size 352
+Alignment 8
+struct scsi_transport_template {
+0x0 8 host_attrs @"struct--transport_container.txt"
+0x68 8 target_attrs @"struct--transport_container.txt"
+0xd0 8 device_attrs @"struct--transport_container.txt"
+0x138 user_scan * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+(NULL) @"typedef--uint.txt"
+(NULL) @"typedef--uint.txt"
+(NULL) @"typedef--u64.txt"
+)
+"int"
+0x140 device_size "int"
+0x144 device_private_offset "int"
+0x148 target_size "int"
+0x14c target_private_offset "int"
+0x150 host_size "int"
+0x154:0-1 create_work_queue "unsigned int"
+0x158 eh_strategy_handler * func (NULL) (
+(NULL) * @"struct--Scsi_Host.txt"
+)
+"void"
+}

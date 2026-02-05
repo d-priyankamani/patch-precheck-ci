@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_blend.c:369
+Symbol:
+func drm_plane_create_zpos_property (
+plane * @"struct--drm_plane.txt"
+zpos "unsigned int"
+min "unsigned int"
+max "unsigned int"
+)
+"int"

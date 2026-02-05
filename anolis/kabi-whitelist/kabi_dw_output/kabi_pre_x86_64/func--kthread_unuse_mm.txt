@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/kthread.c:1484
+Symbol:
+func kthread_unuse_mm (
+mm * @"struct--mm_struct.txt"
+)
+"void"

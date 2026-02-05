@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/char_dev.c:658
+Symbol:
+func cdev_init (
+cdev * @"struct--cdev.txt"
+fops * const @"struct--file_operations.txt"
+)
+"void"

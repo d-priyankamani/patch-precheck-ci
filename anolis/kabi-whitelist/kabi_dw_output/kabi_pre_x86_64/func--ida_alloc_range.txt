@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/idr.c:380
+Symbol:
+func ida_alloc_range (
+ida * @"struct--ida.txt"
+min "unsigned int"
+max "unsigned int"
+gfp @"typedef--gfp_t.txt"
+)
+"int"

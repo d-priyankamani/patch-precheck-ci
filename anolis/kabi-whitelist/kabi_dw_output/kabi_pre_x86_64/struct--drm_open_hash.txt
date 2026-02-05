@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/drm/drm_legacy.h:62
+Symbol:
+Byte size 16
+struct drm_open_hash {
+0x0 table * @"struct--hlist_head.txt"
+0x8 order @"typedef--u8.txt"
+}

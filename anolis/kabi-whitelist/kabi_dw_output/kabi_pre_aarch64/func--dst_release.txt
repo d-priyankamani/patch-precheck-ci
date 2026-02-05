@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dst.c:167
+Symbol:
+func dst_release (
+dst * @"struct--dst_entry.txt"
+)
+"void"

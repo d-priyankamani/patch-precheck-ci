@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_fb_helper.c:785
+Symbol:
+func drm_fb_helper_set_suspend_unlocked (
+fb_helper * @"struct--drm_fb_helper.txt"
+suspend @"typedef--bool.txt"
+)
+"void"

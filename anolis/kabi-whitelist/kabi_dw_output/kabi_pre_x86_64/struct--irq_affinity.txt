@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/interrupt.h:285
+Symbol:
+Byte size 56
+struct irq_affinity {
+0x0 pre_vectors "unsigned int"
+0x4 post_vectors "unsigned int"
+0x8 nr_sets "unsigned int"
+0xc set_size [4]"unsigned int"
+0x20 calc_sets * func (NULL) (
+(NULL) * @"struct--irq_affinity.txt"
+(NULL) "unsigned int"
+)
+"void"
+0x28 priv * "void"
+0x30 ck_reserved1 "long unsigned int"
+}

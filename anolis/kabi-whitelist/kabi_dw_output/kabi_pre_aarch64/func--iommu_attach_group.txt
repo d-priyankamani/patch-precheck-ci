@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/iommu/iommu.c:2318
+Symbol:
+func iommu_attach_group (
+domain * @"struct--iommu_domain.txt"
+group * @"struct--iommu_group.txt"
+)
+"int"

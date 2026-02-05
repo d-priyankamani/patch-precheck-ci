@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/core.c:3091
+Symbol:
+func device_create_bin_file (
+dev * @"struct--device.txt"
+attr * const @"struct--bin_attribute.txt"
+)
+"int"

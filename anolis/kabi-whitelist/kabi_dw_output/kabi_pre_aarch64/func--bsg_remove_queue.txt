@@ -1,0 +1,7 @@
+Version: 1.0
+File: block/bsg-lib.c:320
+Symbol:
+func bsg_remove_queue (
+q * @"struct--request_queue.txt"
+)
+"void"

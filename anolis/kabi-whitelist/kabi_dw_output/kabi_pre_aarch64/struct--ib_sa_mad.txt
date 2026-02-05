@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:198
+Symbol:
+Byte size 256
+struct ib_sa_mad {
+0x0 mad_hdr @"struct--ib_mad_hdr.txt"
+0x18 rmpp_hdr @"struct--ib_rmpp_hdr.txt"
+0x24 sa_hdr @"struct--ib_sa_hdr.txt"
+0x38 data [200]@"typedef--u8.txt"
+}

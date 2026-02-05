@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/drm/drm.h:1226
+Symbol:
+Byte size 8
+struct drm_event {
+0x0 type @"typedef--__u32.txt"
+0x4 length @"typedef--__u32.txt"
+}

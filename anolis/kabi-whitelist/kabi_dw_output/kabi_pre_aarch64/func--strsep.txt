@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/string.c:513
+Symbol:
+func strsep (
+s * * "char"
+ct * const "char"
+)
+* "char"

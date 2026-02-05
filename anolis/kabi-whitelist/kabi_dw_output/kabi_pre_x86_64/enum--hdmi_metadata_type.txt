@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/hdmi.h:158
+Symbol:
+Byte size 4
+enum hdmi_metadata_type {
+HDMI_STATIC_METADATA_TYPE1 = 0x0
+}

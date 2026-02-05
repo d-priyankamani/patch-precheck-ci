@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/kthread.h:116
+Symbol:
+Byte size 8
+typedef kthread_work_func_t
+* func (NULL) (
+(NULL) * @"struct--kthread_work.txt"
+)
+"void"

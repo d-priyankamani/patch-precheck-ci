@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:853
+Symbol:
+func dev_get_by_index_rcu (
+net * @"struct--net.txt"
+ifindex "int"
+)
+* @"struct--net_device.txt"

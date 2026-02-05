@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/cgroup_rdma.h:19
+Symbol:
+Byte size 320
+Alignment 8
+struct rdma_cgroup {
+0x0 8 css @"struct--cgroup_subsys_state.txt"
+0x130 rpools @"struct--list_head.txt"
+}

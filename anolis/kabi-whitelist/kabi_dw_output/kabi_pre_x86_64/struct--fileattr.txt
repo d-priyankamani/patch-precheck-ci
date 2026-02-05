@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/fileattr.h:23
+Symbol:
+Byte size 28
+struct fileattr {
+0x0 flags @"typedef--u32.txt"
+0x4 fsx_xflags @"typedef--u32.txt"
+0x8 fsx_extsize @"typedef--u32.txt"
+0xc fsx_nextents @"typedef--u32.txt"
+0x10 fsx_projid @"typedef--u32.txt"
+0x14 fsx_cowextsize @"typedef--u32.txt"
+0x18:0-1 flags_valid @"typedef--bool.txt"
+0x18:1-2 fsx_valid @"typedef--bool.txt"
+}

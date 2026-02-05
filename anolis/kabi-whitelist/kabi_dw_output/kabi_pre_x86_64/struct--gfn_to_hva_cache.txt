@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/kvm_types.h:57
+Symbol:
+Byte size 40
+struct gfn_to_hva_cache {
+0x0 generation @"typedef--u64.txt"
+0x8 gpa @"typedef--gpa_t.txt"
+0x10 hva "long unsigned int"
+0x18 len "long unsigned int"
+0x20 memslot * @"struct--kvm_memory_slot.txt"
+}

@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/vfio/vfio_main.c:1535
+Symbol:
+func vfio_pin_pages (
+device * @"struct--vfio_device.txt"
+iova @"typedef--dma_addr_t.txt"
+npage "int"
+prot "int"
+pages * * @"struct--page.txt"
+)
+"int"

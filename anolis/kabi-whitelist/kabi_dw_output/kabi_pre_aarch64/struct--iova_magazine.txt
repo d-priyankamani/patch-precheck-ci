@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/iommu/iova.c:569
+Symbol:
+Byte size 1024
+struct iova_magazine {
+0x0 (NULL) union (NULL) {
+size "long unsigned int"
+next * @"struct--iova_magazine.txt"
+}
+0x8 pfns [127]"long unsigned int"
+}

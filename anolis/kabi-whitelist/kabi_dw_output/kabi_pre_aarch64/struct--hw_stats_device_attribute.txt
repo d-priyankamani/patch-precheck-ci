@@ -1,0 +1,24 @@
+Version: 1.0
+File: drivers/infiniband/core/sysfs.c:76
+Symbol:
+Byte size 48
+struct hw_stats_device_attribute {
+0x0 attr @"struct--device_attribute.txt"
+0x20 show * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) * @"struct--rdma_hw_stats.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) * "char"
+)
+@"typedef--ssize_t.txt"
+0x28 store * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) * @"struct--rdma_hw_stats.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+}

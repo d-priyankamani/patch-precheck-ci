@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:1498
+Symbol:
+Byte size 44
+struct ethtool_ts_info {
+0x0 cmd @"typedef--__u32.txt"
+0x4 so_timestamping @"typedef--__u32.txt"
+0x8 phc_index @"typedef--__s32.txt"
+0xc tx_types @"typedef--__u32.txt"
+0x10 tx_reserved [3]@"typedef--__u32.txt"
+0x1c rx_filters @"typedef--__u32.txt"
+0x20 rx_reserved [3]@"typedef--__u32.txt"
+}

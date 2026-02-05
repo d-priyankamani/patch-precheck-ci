@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/base/core.c:5022
+Symbol:
+func _dev_notice (
+dev * const @"struct--device.txt"
+fmt * const "char"
+(NULL) ...
+)
+"void"

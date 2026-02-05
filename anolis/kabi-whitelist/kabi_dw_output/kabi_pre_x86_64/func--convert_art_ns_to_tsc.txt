@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/kernel/tsc.c:1338
+Symbol:
+func convert_art_ns_to_tsc (
+art_ns @"typedef--u64.txt"
+)
+@"struct--system_counterval_t.txt"

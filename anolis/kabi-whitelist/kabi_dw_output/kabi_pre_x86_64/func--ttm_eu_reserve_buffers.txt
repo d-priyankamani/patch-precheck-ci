@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_execbuf_util.c:74
+Symbol:
+func ttm_eu_reserve_buffers (
+ticket * @"struct--ww_acquire_ctx.txt"
+list * @"struct--list_head.txt"
+intr @"typedef--bool.txt"
+dups * @"struct--list_head.txt"
+)
+"int"

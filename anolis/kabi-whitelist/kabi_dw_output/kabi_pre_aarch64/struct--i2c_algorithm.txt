@@ -1,0 +1,52 @@
+Version: 1.0
+File: include/linux/i2c.h:541
+Symbol:
+Byte size 72
+struct i2c_algorithm {
+0x0 master_xfer * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+(NULL) * @"struct--i2c_msg.txt"
+(NULL) "int"
+)
+"int"
+0x8 master_xfer_atomic * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+(NULL) * @"struct--i2c_msg.txt"
+(NULL) "int"
+)
+"int"
+0x10 smbus_xfer * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) "short unsigned int"
+(NULL) "char"
+(NULL) @"typedef--u8.txt"
+(NULL) "int"
+(NULL) * @"union--i2c_smbus_data.txt"
+)
+"int"
+0x18 smbus_xfer_atomic * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) "short unsigned int"
+(NULL) "char"
+(NULL) @"typedef--u8.txt"
+(NULL) "int"
+(NULL) * @"union--i2c_smbus_data.txt"
+)
+"int"
+0x20 functionality * func (NULL) (
+(NULL) * @"struct--i2c_adapter.txt"
+)
+@"typedef--u32.txt"
+0x28 reg_slave * func (NULL) (
+(NULL) * @"struct--i2c_client.txt"
+)
+"int"
+0x30 unreg_slave * func (NULL) (
+(NULL) * @"struct--i2c_client.txt"
+)
+"int"
+0x38 ck_reserved1 "long unsigned int"
+0x40 ck_reserved2 "long unsigned int"
+}

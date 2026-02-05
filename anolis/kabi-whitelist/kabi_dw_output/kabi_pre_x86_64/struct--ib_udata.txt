@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1545
+Symbol:
+Byte size 32
+struct ib_udata {
+0x0 inbuf * const "void"
+0x8 outbuf * "void"
+0x10 inlen @"typedef--size_t.txt"
+0x18 outlen @"typedef--size_t.txt"
+}

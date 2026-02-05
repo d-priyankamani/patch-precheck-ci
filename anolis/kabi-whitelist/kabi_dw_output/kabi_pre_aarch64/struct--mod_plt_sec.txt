@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/arm64/include/asm/module.h:11
+Symbol:
+Byte size 12
+struct mod_plt_sec {
+0x0 plt_shndx "int"
+0x4 plt_num_entries "int"
+0x8 plt_max_entries "int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_marshall.c:96
+Symbol:
+func ib_copy_qp_attr_to_user (
+device * @"struct--ib_device.txt"
+dst * @"struct--ib_uverbs_qp_attr.txt"
+src * @"struct--ib_qp_attr.txt"
+)
+"void"

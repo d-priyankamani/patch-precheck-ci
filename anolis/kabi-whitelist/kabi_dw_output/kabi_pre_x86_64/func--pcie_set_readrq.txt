@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/pci.c:6347
+Symbol:
+func pcie_set_readrq (
+dev * @"struct--pci_dev.txt"
+rq "int"
+)
+"int"

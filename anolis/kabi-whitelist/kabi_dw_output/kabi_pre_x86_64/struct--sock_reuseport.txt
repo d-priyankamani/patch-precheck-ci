@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/net/sock_reuseport.h:13
+Symbol:
+Byte size 56
+Alignment 8
+struct sock_reuseport {
+0x0 8 rcu @"struct--callback_head.txt"
+0x10 max_socks @"typedef--u16.txt"
+0x12 num_socks @"typedef--u16.txt"
+0x14 num_closed_socks @"typedef--u16.txt"
+0x16 incoming_cpu @"typedef--u16.txt"
+0x18 synq_overflow_ts "unsigned int"
+0x1c reuseport_id "unsigned int"
+0x20:0-1 bind_inany "unsigned int"
+0x20:1-2 has_conns "unsigned int"
+0x28 prog * @"struct--bpf_prog.txt"
+0x30 ck_reserved1 "long unsigned int"
+0x38 socks [0]* @"struct--sock.txt"
+}

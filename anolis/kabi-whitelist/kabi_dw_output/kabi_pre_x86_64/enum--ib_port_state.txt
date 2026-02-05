@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:516
+Symbol:
+Byte size 4
+enum ib_port_state {
+IB_PORT_NOP = 0x0
+IB_PORT_DOWN = 0x1
+IB_PORT_INIT = 0x2
+IB_PORT_ARMED = 0x3
+IB_PORT_ACTIVE = 0x4
+IB_PORT_ACTIVE_DEFER = 0x5
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vblank.c:523
+Symbol:
+func drm_vblank_init (
+dev * @"struct--drm_device.txt"
+num_crtcs "unsigned int"
+)
+"int"

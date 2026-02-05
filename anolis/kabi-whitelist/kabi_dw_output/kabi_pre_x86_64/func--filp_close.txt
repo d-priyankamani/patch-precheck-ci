@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/open.c:1544
+Symbol:
+func filp_close (
+filp * @"struct--file.txt"
+id @"typedef--fl_owner_t.txt"
+)
+"int"

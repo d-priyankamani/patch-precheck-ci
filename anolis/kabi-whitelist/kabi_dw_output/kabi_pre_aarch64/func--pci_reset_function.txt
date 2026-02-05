@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:5753
+Symbol:
+func pci_reset_function (
+dev * @"struct--pci_dev.txt"
+)
+"int"

@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:159
+Symbol:
+typedef ib_sa_comp_mask
+@"typedef--u64.txt"

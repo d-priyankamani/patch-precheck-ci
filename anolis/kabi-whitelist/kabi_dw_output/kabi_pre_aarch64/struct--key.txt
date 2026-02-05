@@ -1,0 +1,47 @@
+Version: 1.0
+File: include/linux/key.h:196
+Symbol:
+Byte size 224
+Alignment 8
+struct key {
+0x0 usage @"typedef--refcount_t.txt"
+0x4 serial @"typedef--key_serial_t.txt"
+0x8 8 (NULL) union (NULL) {
+graveyard_link @"struct--list_head.txt"
+serial_node @"struct--rb_node.txt"
+}
+0x20 sem @"struct--rw_semaphore.txt"
+0x48 user * @"<declarations>/struct--key_user.txt"
+0x50 security * "void"
+0x58 (NULL) union (NULL) {
+expiry @"typedef--time64_t.txt"
+revoked_at @"typedef--time64_t.txt"
+}
+0x60 last_used_at @"typedef--time64_t.txt"
+0x68 uid @"typedef--kuid_t.txt"
+0x6c gid @"typedef--kgid_t.txt"
+0x70 perm @"typedef--key_perm_t.txt"
+0x74 quotalen "short unsigned int"
+0x76 datalen "short unsigned int"
+0x78 state "short int"
+0x80 flags "long unsigned int"
+0x88 (NULL) union (NULL) {
+index_key @"struct--keyring_index_key.txt"
+(NULL) struct (NULL) {
+0x0 hash "long unsigned int"
+0x8 len_desc "long unsigned int"
+0x10 type * @"<declarations>/struct--key_type.txt"
+0x18 domain_tag * @"struct--key_tag.txt"
+0x20 description * "char"
+}
+}
+0xb0 (NULL) union (NULL) {
+payload @"union--key_payload.txt"
+(NULL) struct (NULL) {
+0x0 name_link @"struct--list_head.txt"
+0x10 keys @"struct--assoc_array.txt"
+}
+}
+0xd0 restrict_link * @"struct--key_restriction.txt"
+0xd8 ck_reserved1 "long unsigned int"
+}

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/sched.h:796
+Symbol:
+Byte size 4
+union rcu_special {
+b struct (NULL) {
+0x0 blocked @"typedef--u8.txt"
+0x1 need_qs @"typedef--u8.txt"
+0x2 exp_hint @"typedef--u8.txt"
+0x3 need_mb @"typedef--u8.txt"
+}
+s @"typedef--u32.txt"
+}

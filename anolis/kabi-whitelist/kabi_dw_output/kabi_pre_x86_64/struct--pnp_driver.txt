@@ -1,0 +1,32 @@
+Version: 1.0
+File: include/linux/pnp.h:374
+Symbol:
+Byte size 240
+struct pnp_driver {
+0x0 name * const "char"
+0x8 id_table * const @"struct--pnp_device_id.txt"
+0x10 flags "unsigned int"
+0x18 probe * func (NULL) (
+(NULL) * @"struct--pnp_dev.txt"
+(NULL) * const @"struct--pnp_device_id.txt"
+)
+"int"
+0x20 remove * func (NULL) (
+(NULL) * @"struct--pnp_dev.txt"
+)
+"void"
+0x28 shutdown * func (NULL) (
+(NULL) * @"struct--pnp_dev.txt"
+)
+"void"
+0x30 suspend * func (NULL) (
+(NULL) * @"struct--pnp_dev.txt"
+(NULL) @"typedef--pm_message_t.txt"
+)
+"int"
+0x38 resume * func (NULL) (
+(NULL) * @"struct--pnp_dev.txt"
+)
+"int"
+0x40 driver @"struct--device_driver.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:1025
+Symbol:
+Byte size 48
+struct kvm_arch_memory_slot {
+0x0 rmap [3]* @"struct--kvm_rmap_head.txt"
+0x18 lpage_info [2]* @"struct--kvm_lpage_info.txt"
+0x28 gfn_write_track * "short unsigned int"
+}

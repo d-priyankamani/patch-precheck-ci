@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/seqlock.h:69
+Symbol:
+typedef seqcount_t
+@"struct--seqcount.txt"

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/flow.h:164
+Symbol:
+Byte size 128
+Alignment 8
+struct flowi {
+0x0 8 u union (NULL) {
+__fl_common @"struct--flowi_common.txt"
+ip4 @"struct--flowi4.txt"
+ip6 @"struct--flowi6.txt"
+}
+0x78 ck_reserved1 "long unsigned int"
+}

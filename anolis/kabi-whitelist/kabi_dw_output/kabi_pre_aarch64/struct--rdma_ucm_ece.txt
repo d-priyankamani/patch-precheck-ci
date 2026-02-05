@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/rdma/rdma_user_cm.h:213
+Symbol:
+Byte size 8
+struct rdma_ucm_ece {
+0x0 vendor_id @"typedef--__u32.txt"
+0x4 attr_mod @"typedef--__u32.txt"
+}

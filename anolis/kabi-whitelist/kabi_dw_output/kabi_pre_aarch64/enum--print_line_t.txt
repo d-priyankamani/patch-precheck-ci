@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/trace_events.h:160
+Symbol:
+Byte size 4
+enum print_line_t {
+TRACE_TYPE_PARTIAL_LINE = 0x0
+TRACE_TYPE_HANDLED = 0x1
+TRACE_TYPE_UNHANDLED = 0x2
+TRACE_TYPE_NO_CONSUME = 0x3
+}

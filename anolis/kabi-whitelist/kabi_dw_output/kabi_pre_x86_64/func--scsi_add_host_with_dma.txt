@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/scsi/hosts.c:219
+Symbol:
+func scsi_add_host_with_dma (
+shost * @"struct--Scsi_Host.txt"
+dev * @"struct--device.txt"
+dma_dev * @"struct--device.txt"
+)
+"int"

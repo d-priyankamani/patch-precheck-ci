@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modeset_lock.c:392
+Symbol:
+func drm_modeset_lock (
+lock * @"struct--drm_modeset_lock.txt"
+ctx * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"

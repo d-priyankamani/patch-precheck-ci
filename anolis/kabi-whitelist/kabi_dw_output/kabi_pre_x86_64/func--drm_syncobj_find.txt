@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_syncobj.c:242
+Symbol:
+func drm_syncobj_find (
+file_private * @"struct--drm_file.txt"
+handle @"typedef--u32.txt"
+)
+* @"struct--drm_syncobj.txt"

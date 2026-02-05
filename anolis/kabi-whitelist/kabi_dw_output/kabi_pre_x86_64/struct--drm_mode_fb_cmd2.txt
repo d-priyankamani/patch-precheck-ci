@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/uapi/drm/drm_mode.h:703
+Symbol:
+Byte size 104
+struct drm_mode_fb_cmd2 {
+0x0 fb_id @"typedef--__u32.txt"
+0x4 width @"typedef--__u32.txt"
+0x8 height @"typedef--__u32.txt"
+0xc pixel_format @"typedef--__u32.txt"
+0x10 flags @"typedef--__u32.txt"
+0x14 handles [4]@"typedef--__u32.txt"
+0x24 pitches [4]@"typedef--__u32.txt"
+0x34 offsets [4]@"typedef--__u32.txt"
+0x48 modifier [4]@"typedef--__u64.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_hdmi_helper.c:25
+Symbol:
+func drm_hdmi_infoframe_set_hdr_metadata (
+frame * @"struct--hdmi_drm_infoframe.txt"
+conn_state * const @"struct--drm_connector_state.txt"
+)
+"int"

@@ -1,0 +1,14 @@
+Version: 1.0
+File: net/ipv4/inet_hashtables.c:497
+Symbol:
+func __inet_lookup_established (
+net * @"struct--net.txt"
+hashinfo * @"struct--inet_hashinfo.txt"
+saddr const @"typedef--__be32.txt"
+sport const @"typedef--__be16.txt"
+daddr const @"typedef--__be32.txt"
+hnum const @"typedef--u16.txt"
+dif const "int"
+sdif const "int"
+)
+* @"struct--sock.txt"

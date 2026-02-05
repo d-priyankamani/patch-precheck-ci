@@ -1,0 +1,13 @@
+Version: 1.0
+File: arch/x86/include/asm/pgtable_types.h:168
+Symbol:
+Byte size 4
+enum page_cache_mode {
+_PAGE_CACHE_MODE_WB = 0x0
+_PAGE_CACHE_MODE_WC = 0x1
+_PAGE_CACHE_MODE_UC_MINUS = 0x2
+_PAGE_CACHE_MODE_UC = 0x3
+_PAGE_CACHE_MODE_WT = 0x4
+_PAGE_CACHE_MODE_WP = 0x5
+_PAGE_CACHE_MODE_NUM = 0x8
+}

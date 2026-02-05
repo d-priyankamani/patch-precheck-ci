@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:604
+Symbol:
+Byte size 72
+struct rdma_hw_stats {
+0x0 lock @"struct--mutex.txt"
+0x20 timestamp "long unsigned int"
+0x28 lifespan "long unsigned int"
+0x30 descs * const @"struct--rdma_stat_desc.txt"
+0x38 is_disabled * "long unsigned int"
+0x40 num_counters "int"
+0x48 value [0]@"typedef--u64.txt"
+}

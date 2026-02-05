@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/xdp/xsk_buff_pool.c:666
+Symbol:
+func xp_raw_get_data (
+pool * @"struct--xsk_buff_pool.txt"
+addr @"typedef--u64.txt"
+)
+* "void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/panic.c:545
+Symbol:
+func add_taint (
+flag "unsigned int"
+lockdep_ok @"enum--lockdep_ok.txt"
+)
+"void"

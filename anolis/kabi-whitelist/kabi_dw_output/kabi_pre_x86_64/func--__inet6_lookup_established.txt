@@ -1,0 +1,14 @@
+Version: 1.0
+File: net/ipv6/inet6_hashtables.c:50
+Symbol:
+func __inet6_lookup_established (
+net * @"struct--net.txt"
+hashinfo * @"struct--inet_hashinfo.txt"
+saddr * const @"struct--in6_addr.txt"
+sport const @"typedef--__be16.txt"
+daddr * const @"struct--in6_addr.txt"
+hnum const @"typedef--u16.txt"
+dif const "int"
+sdif const "int"
+)
+* @"struct--sock.txt"

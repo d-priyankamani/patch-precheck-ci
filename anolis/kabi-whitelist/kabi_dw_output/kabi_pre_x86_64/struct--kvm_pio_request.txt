@@ -1,0 +1,11 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:399
+Symbol:
+Byte size 32
+struct kvm_pio_request {
+0x0 linear_rip "long unsigned int"
+0x8 count "long unsigned int"
+0x10 in "int"
+0x14 port "int"
+0x18 size "int"
+}

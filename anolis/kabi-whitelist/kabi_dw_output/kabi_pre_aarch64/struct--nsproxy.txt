@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/linux/nsproxy.h:31
+Symbol:
+Byte size 136
+struct nsproxy {
+0x0 count @"typedef--refcount_t.txt"
+0x8 uts_ns * @"struct--uts_namespace.txt"
+0x10 ipc_ns * @"<declarations>/struct--ipc_namespace.txt"
+0x18 mnt_ns * @"struct--mnt_namespace.txt"
+0x20 pid_ns_for_children * @"struct--pid_namespace.txt"
+0x28 net_ns * @"struct--net.txt"
+0x30 time_ns * @"struct--time_namespace.txt"
+0x38 time_ns_for_children * @"struct--time_namespace.txt"
+0x40 cgroup_ns * @"struct--cgroup_namespace.txt"
+0x48 ck_reserved1 "long unsigned int"
+0x50 ck_reserved2 "long unsigned int"
+0x58 ck_reserved3 "long unsigned int"
+0x60 ck_reserved4 "long unsigned int"
+0x68 ck_reserved5 "long unsigned int"
+0x70 ck_reserved6 "long unsigned int"
+0x78 ck_reserved7 "long unsigned int"
+0x80 ck_reserved8 "long unsigned int"
+}

@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/blk-mq.h:756
+Symbol:
+Byte size 232
+struct blk_mq_tags {
+0x0 nr_tags "unsigned int"
+0x4 nr_reserved_tags "unsigned int"
+0x8 active_queues "unsigned int"
+0x10 bitmap_tags @"struct--sbitmap_queue.txt"
+0x58 breserved_tags @"struct--sbitmap_queue.txt"
+0xa0 rqs * * @"struct--request.txt"
+0xa8 static_rqs * * @"struct--request.txt"
+0xb0 page_list @"struct--list_head.txt"
+0xc0 lock @"typedef--spinlock_t.txt"
+0xc8 ck_reserved1 "long unsigned int"
+0xd0 ck_reserved2 "long unsigned int"
+0xd8 ck_reserved3 "long unsigned int"
+0xe0 ck_reserved4 "long unsigned int"
+}

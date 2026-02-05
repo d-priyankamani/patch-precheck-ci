@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/trace_events.h:310
+Symbol:
+Byte size 48
+struct trace_event_buffer {
+0x0 buffer * @"<declarations>/struct--trace_buffer.txt"
+0x8 event * @"struct--ring_buffer_event.txt"
+0x10 trace_file * @"struct--trace_event_file.txt"
+0x18 entry * "void"
+0x20 trace_ctx "unsigned int"
+0x28 regs * @"struct--pt_regs.txt"
+}

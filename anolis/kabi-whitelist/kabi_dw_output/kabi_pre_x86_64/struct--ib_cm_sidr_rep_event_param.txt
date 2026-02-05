@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:233
+Symbol:
+Byte size 40
+struct ib_cm_sidr_rep_event_param {
+0x0 status @"enum--ib_cm_sidr_status.txt"
+0x4 qkey @"typedef--u32.txt"
+0x8 qpn @"typedef--u32.txt"
+0x10 info * "void"
+0x18 sgid_attr * const @"struct--ib_gid_attr.txt"
+0x20 info_len @"typedef--u8.txt"
+}

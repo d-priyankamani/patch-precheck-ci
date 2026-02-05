@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/irq/manage.c:554
+Symbol:
+func irq_set_affinity_notifier (
+irq "unsigned int"
+notify * @"struct--irq_affinity_notify.txt"
+)
+"int"

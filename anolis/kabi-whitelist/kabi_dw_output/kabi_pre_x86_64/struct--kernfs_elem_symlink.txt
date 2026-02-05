@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/kernfs.h:173
+Symbol:
+Byte size 8
+struct kernfs_elem_symlink {
+0x0 target_kn * @"struct--kernfs_node.txt"
+}

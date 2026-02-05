@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/drm/ttm/ttm_resource.h:258
+Symbol:
+Byte size 512
+struct ttm_lru_bulk_move {
+0x0 pos [8][4]@"struct--ttm_lru_bulk_move_pos.txt"
+}

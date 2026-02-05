@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/rdma_core.h:109
+Symbol:
+Byte size 16
+struct uverbs_api_attr {
+0x0 spec @"struct--uverbs_attr_spec.txt"
+}

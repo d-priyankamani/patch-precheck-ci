@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_range_manager.c:214
+Symbol:
+func ttm_range_man_fini_nocheck (
+bdev * @"struct--ttm_device.txt"
+type "unsigned int"
+)
+"int"

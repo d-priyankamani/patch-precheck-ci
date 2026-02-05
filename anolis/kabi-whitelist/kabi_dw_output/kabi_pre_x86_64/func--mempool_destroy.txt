@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/mempool.c:175
+Symbol:
+func mempool_destroy (
+pool * @"typedef--mempool_t.txt"
+)
+"void"

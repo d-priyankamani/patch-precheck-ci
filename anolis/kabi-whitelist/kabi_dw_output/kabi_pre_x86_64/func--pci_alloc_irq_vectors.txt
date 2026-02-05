@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/pci/msi/api.c:234
+Symbol:
+func pci_alloc_irq_vectors (
+dev * @"struct--pci_dev.txt"
+min_vecs "unsigned int"
+max_vecs "unsigned int"
+flags "unsigned int"
+)
+"int"

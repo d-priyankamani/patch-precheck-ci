@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/memory.c:2703
+Symbol:
+func vmf_insert_pfn (
+vma * @"struct--vm_area_struct.txt"
+addr "long unsigned int"
+pfn "long unsigned int"
+)
+@"typedef--vm_fault_t.txt"

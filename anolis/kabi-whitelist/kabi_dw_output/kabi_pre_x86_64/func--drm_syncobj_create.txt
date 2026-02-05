@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_syncobj.c:545
+Symbol:
+func drm_syncobj_create (
+out_syncobj * * @"struct--drm_syncobj.txt"
+flags @"typedef--uint32_t.txt"
+fence * @"struct--dma_fence.txt"
+)
+"int"

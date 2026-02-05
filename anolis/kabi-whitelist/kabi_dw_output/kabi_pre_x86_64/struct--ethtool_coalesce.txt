@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:473
+Symbol:
+Byte size 92
+struct ethtool_coalesce {
+0x0 cmd @"typedef--__u32.txt"
+0x4 rx_coalesce_usecs @"typedef--__u32.txt"
+0x8 rx_max_coalesced_frames @"typedef--__u32.txt"
+0xc rx_coalesce_usecs_irq @"typedef--__u32.txt"
+0x10 rx_max_coalesced_frames_irq @"typedef--__u32.txt"
+0x14 tx_coalesce_usecs @"typedef--__u32.txt"
+0x18 tx_max_coalesced_frames @"typedef--__u32.txt"
+0x1c tx_coalesce_usecs_irq @"typedef--__u32.txt"
+0x20 tx_max_coalesced_frames_irq @"typedef--__u32.txt"
+0x24 stats_block_coalesce_usecs @"typedef--__u32.txt"
+0x28 use_adaptive_rx_coalesce @"typedef--__u32.txt"
+0x2c use_adaptive_tx_coalesce @"typedef--__u32.txt"
+0x30 pkt_rate_low @"typedef--__u32.txt"
+0x34 rx_coalesce_usecs_low @"typedef--__u32.txt"
+0x38 rx_max_coalesced_frames_low @"typedef--__u32.txt"
+0x3c tx_coalesce_usecs_low @"typedef--__u32.txt"
+0x40 tx_max_coalesced_frames_low @"typedef--__u32.txt"
+0x44 pkt_rate_high @"typedef--__u32.txt"
+0x48 rx_coalesce_usecs_high @"typedef--__u32.txt"
+0x4c rx_max_coalesced_frames_high @"typedef--__u32.txt"
+0x50 tx_coalesce_usecs_high @"typedef--__u32.txt"
+0x54 tx_max_coalesced_frames_high @"typedef--__u32.txt"
+0x58 rate_sample_interval @"typedef--__u32.txt"
+}

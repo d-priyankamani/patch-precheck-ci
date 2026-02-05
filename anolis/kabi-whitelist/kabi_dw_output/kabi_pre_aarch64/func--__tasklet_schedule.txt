@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/softirq.c:759
+Symbol:
+func __tasklet_schedule (
+t * @"struct--tasklet_struct.txt"
+)
+"void"

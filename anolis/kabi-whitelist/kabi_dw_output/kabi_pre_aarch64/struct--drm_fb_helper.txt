@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/drm/drm_fb_helper.h:122
+Symbol:
+Byte size 480
+struct drm_fb_helper {
+0x0 client @"struct--drm_client_dev.txt"
+0x60 buffer * @"struct--drm_client_buffer.txt"
+0x68 fb * @"struct--drm_framebuffer.txt"
+0x70 dev * @"struct--drm_device.txt"
+0x78 funcs * const @"struct--drm_fb_helper_funcs.txt"
+0x80 info * @"struct--fb_info.txt"
+0x88 pseudo_palette [17]@"typedef--u32.txt"
+0xcc damage_clip @"struct--drm_clip_rect.txt"
+0xd4 damage_lock @"typedef--spinlock_t.txt"
+0xd8 damage_work @"struct--work_struct.txt"
+0x118 resume_work @"struct--work_struct.txt"
+0x158 lock @"struct--mutex.txt"
+0x178 kernel_fb_list @"struct--list_head.txt"
+0x188 delayed_hotplug @"typedef--bool.txt"
+0x189 deferred_setup @"typedef--bool.txt"
+0x18c preferred_bpp "int"
+0x190 fbdefio @"struct--fb_deferred_io.txt"
+}

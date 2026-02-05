@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/iommu.h:1140
+Symbol:
+Byte size 16
+struct iommu_fwspec {
+0x0 iommu_fwnode * @"struct--fwnode_handle.txt"
+0x8 flags @"typedef--u32.txt"
+0xc num_ids "unsigned int"
+0x10 ids [0]@"typedef--u32.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/base/devres.c:1088
+Symbol:
+func devm_kmemdup (
+dev * @"struct--device.txt"
+src * const "void"
+len @"typedef--size_t.txt"
+gfp @"typedef--gfp_t.txt"
+)
+* "void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/xdp/xsk_buff_pool.c:648
+Symbol:
+func xp_can_alloc (
+pool * @"struct--xsk_buff_pool.txt"
+count @"typedef--u32.txt"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/configfs/item.c:92
+Symbol:
+func config_group_init_type_name (
+group * @"struct--config_group.txt"
+name * const "char"
+type * const @"struct--config_item_type.txt"
+)
+"void"

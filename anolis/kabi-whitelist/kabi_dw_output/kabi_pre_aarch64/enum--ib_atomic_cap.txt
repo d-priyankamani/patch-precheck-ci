@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:313
+Symbol:
+Byte size 4
+enum ib_atomic_cap {
+IB_ATOMIC_NONE = 0x0
+IB_ATOMIC_HCA = 0x1
+IB_ATOMIC_GLOB = 0x2
+}

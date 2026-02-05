@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/i2c.h:330
+Symbol:
+Byte size 1048
+Alignment 8
+struct i2c_client {
+0x0 flags "short unsigned int"
+0x2 addr "short unsigned int"
+0x4 name [20]"char"
+0x18 adapter * @"struct--i2c_adapter.txt"
+0x20 8 dev @"struct--device.txt"
+0x3f8 init_irq "int"
+0x3fc irq "int"
+0x400 detected @"struct--list_head.txt"
+0x410 devres_group_id * "void"
+}

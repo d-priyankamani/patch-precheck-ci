@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:151
+Symbol:
+Byte size 48
+struct ib_gid_attr {
+0x0 ndev * @"struct--net_device.txt"
+0x8 device * @"struct--ib_device.txt"
+0x10 gid @"union--ib_gid.txt"
+0x20 gid_type @"enum--ib_gid_type.txt"
+0x24 index @"typedef--u16.txt"
+0x28 port_num @"typedef--u32.txt"
+}

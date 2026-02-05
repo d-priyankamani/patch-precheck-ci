@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/dcb/dcbnl.c:2176
+Symbol:
+func dcb_ieee_setapp (
+dev * @"struct--net_device.txt"
+new * @"struct--dcb_app.txt"
+)
+"int"

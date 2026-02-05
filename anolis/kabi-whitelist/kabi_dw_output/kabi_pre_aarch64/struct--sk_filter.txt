@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/filter.h:578
+Symbol:
+Byte size 32
+Alignment 8
+struct sk_filter {
+0x0 refcnt @"typedef--refcount_t.txt"
+0x8 8 rcu @"struct--callback_head.txt"
+0x18 prog * @"struct--bpf_prog.txt"
+}

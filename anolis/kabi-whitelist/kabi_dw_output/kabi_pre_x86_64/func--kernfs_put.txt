@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/kernfs/dir.c:552
+Symbol:
+func kernfs_put (
+kn * @"struct--kernfs_node.txt"
+)
+"void"

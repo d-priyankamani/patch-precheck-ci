@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/notifier.h:65
+Symbol:
+Byte size 48
+struct blocking_notifier_head {
+0x0 rwsem @"struct--rw_semaphore.txt"
+0x28 head * @"struct--notifier_block.txt"
+}

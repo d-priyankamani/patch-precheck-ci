@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/rdma/ib_umem.h:19
+Symbol:
+Byte size 80
+struct ib_umem {
+0x0 ibdev * @"struct--ib_device.txt"
+0x8 owning_mm * @"struct--mm_struct.txt"
+0x10 iova @"typedef--u64.txt"
+0x18 length @"typedef--size_t.txt"
+0x20 address "long unsigned int"
+0x28:0-1 writable @"typedef--u32.txt"
+0x28:1-2 is_odp @"typedef--u32.txt"
+0x28:2-3 is_dmabuf @"typedef--u32.txt"
+0x30 sgt_append @"struct--sg_append_table.txt"
+}

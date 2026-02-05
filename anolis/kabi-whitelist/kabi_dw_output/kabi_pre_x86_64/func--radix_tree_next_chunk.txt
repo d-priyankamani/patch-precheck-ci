@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/radix-tree.c:1154
+Symbol:
+func radix_tree_next_chunk (
+root * const @"struct--xarray.txt"
+iter * @"struct--radix_tree_iter.txt"
+flags "unsigned int"
+)
+* * "void"

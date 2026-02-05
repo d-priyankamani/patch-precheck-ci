@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/ethtool.h:570
+Symbol:
+Byte size 12
+struct ethtool_mm_cfg {
+0x0 verify_time @"typedef--u32.txt"
+0x4 verify_enabled @"typedef--bool.txt"
+0x5 tx_enabled @"typedef--bool.txt"
+0x6 pmac_enabled @"typedef--bool.txt"
+0x8 tx_min_frag_size @"typedef--u32.txt"
+}

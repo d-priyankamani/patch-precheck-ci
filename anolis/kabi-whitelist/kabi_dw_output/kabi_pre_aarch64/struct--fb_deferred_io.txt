@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/fb.h:212
+Symbol:
+Byte size 80
+struct fb_deferred_io {
+0x0 delay "long unsigned int"
+0x8 sort_pagereflist @"typedef--bool.txt"
+0xc open_count "int"
+0x10 lock @"struct--mutex.txt"
+0x30 pagereflist @"struct--list_head.txt"
+0x40 deferred_io * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * @"struct--list_head.txt"
+)
+"void"
+0x48 ck_reserved1 "long unsigned int"
+}

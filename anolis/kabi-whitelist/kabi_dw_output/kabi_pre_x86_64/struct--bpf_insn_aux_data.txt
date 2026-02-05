@@ -1,0 +1,47 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:484
+Symbol:
+Byte size 88
+struct bpf_insn_aux_data {
+0x0 (NULL) union (NULL) {
+ptr_type @"enum--bpf_reg_type.txt"
+map_ptr_state @"struct--bpf_map_ptr_state.txt"
+call_imm @"typedef--s32.txt"
+alu_limit @"typedef--u32.txt"
+(NULL) struct (NULL) {
+0x0 map_index @"typedef--u32.txt"
+0x4 map_off @"typedef--u32.txt"
+}
+btf_var struct (NULL) {
+0x0 reg_type @"enum--bpf_reg_type.txt"
+0x8 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 btf * @"<declarations>/struct--btf.txt"
+0x8 btf_id @"typedef--u32.txt"
+}
+mem_size @"typedef--u32.txt"
+}
+}
+loop_inline_state @"struct--bpf_loop_inline_state.txt"
+}
+0x18 (NULL) union (NULL) {
+obj_new_size @"typedef--u64.txt"
+insert_off @"typedef--u64.txt"
+}
+0x20 kptr_struct_meta * @"struct--btf_struct_meta.txt"
+0x28 map_key_state @"typedef--u64.txt"
+0x30 ctx_field_size "int"
+0x34 seen @"typedef--u32.txt"
+0x38 sanitize_stack_spill @"typedef--bool.txt"
+0x39 zext_dst @"typedef--bool.txt"
+0x3a storage_get_func_atomic @"typedef--bool.txt"
+0x3b is_iter_next @"typedef--bool.txt"
+0x3c alu_state @"typedef--u8.txt"
+0x40 orig_idx "unsigned int"
+0x44 jmp_point @"typedef--bool.txt"
+0x45 prune_point @"typedef--bool.txt"
+0x46 force_checkpoint @"typedef--bool.txt"
+0x47 calls_callback @"typedef--bool.txt"
+0x48 ck_reserved1 "long unsigned int"
+0x50 ck_reserved2 "long unsigned int"
+}

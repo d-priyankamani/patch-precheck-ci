@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/rbtree_types.h:26
+Symbol:
+Byte size 16
+struct rb_root_cached {
+0x0 rb_root @"struct--rb_root.txt"
+0x8 rb_leftmost * @"struct--rb_node.txt"
+}

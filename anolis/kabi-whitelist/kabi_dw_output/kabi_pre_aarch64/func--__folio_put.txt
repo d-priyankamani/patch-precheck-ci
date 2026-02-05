@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/swap.c:121
+Symbol:
+func __folio_put (
+folio * @"struct--folio.txt"
+)
+"void"

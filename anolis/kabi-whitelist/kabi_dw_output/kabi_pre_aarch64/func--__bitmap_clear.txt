@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/bitmap.c:383
+Symbol:
+func __bitmap_clear (
+map * "long unsigned int"
+start "unsigned int"
+len "int"
+)
+"void"

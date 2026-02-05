@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/kvm_types.h:93
+Symbol:
+Byte size 32
+struct kvm_mmu_memory_cache {
+0x0 gfp_zero @"typedef--gfp_t.txt"
+0x4 gfp_custom @"typedef--gfp_t.txt"
+0x8 kmem_cache * @"<declarations>/struct--kmem_cache.txt"
+0x10 capacity "int"
+0x14 nobjs "int"
+0x18 objects * * "void"
+}

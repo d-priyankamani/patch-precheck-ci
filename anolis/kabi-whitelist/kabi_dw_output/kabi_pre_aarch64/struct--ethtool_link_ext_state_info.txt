@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/ethtool.h:121
+Symbol:
+Byte size 8
+struct ethtool_link_ext_state_info {
+0x0 link_ext_state @"enum--ethtool_link_ext_state.txt"
+0x4 (NULL) union (NULL) {
+autoneg @"enum--ethtool_link_ext_substate_autoneg.txt"
+link_training @"enum--ethtool_link_ext_substate_link_training.txt"
+link_logical_mismatch @"enum--ethtool_link_ext_substate_link_logical_mismatch.txt"
+bad_signal_integrity @"enum--ethtool_link_ext_substate_bad_signal_integrity.txt"
+cable_issue @"enum--ethtool_link_ext_substate_cable_issue.txt"
+module @"enum--ethtool_link_ext_substate_module.txt"
+__link_ext_substate @"typedef--u32.txt"
+}
+}

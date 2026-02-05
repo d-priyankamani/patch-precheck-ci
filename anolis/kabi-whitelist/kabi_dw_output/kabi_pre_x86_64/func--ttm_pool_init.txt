@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_pool.c:563
+Symbol:
+func ttm_pool_init (
+pool * @"struct--ttm_pool.txt"
+dev * @"struct--device.txt"
+nid "int"
+use_dma_alloc @"typedef--bool.txt"
+use_dma32 @"typedef--bool.txt"
+)
+"void"

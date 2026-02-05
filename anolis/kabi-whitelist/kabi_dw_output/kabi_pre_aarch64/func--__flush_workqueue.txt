@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/workqueue.c:3176
+Symbol:
+func __flush_workqueue (
+wq * @"struct--workqueue_struct.txt"
+)
+"void"

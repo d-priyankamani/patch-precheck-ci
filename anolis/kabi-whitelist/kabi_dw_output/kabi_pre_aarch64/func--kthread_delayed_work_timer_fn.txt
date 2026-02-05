@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/kthread.c:1047
+Symbol:
+func kthread_delayed_work_timer_fn (
+t * @"struct--timer_list.txt"
+)
+"void"

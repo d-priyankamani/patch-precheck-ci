@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/memcontrol.h:217
+Symbol:
+Byte size 96
+struct reclaim_coldpgs_control {
+0x0 rwsem @"struct--rw_semaphore.txt"
+0x28 threshold "long unsigned int"
+0x30 size "long unsigned int"
+0x38 flags "long unsigned int"
+0x40 ck_reserved1 "long unsigned int"
+0x48 ck_reserved2 "long unsigned int"
+0x50 ck_reserved3 "long unsigned int"
+0x58 ck_reserved4 "long unsigned int"
+}

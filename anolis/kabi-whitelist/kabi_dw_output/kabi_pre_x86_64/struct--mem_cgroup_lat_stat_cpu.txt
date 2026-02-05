@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/memcontrol.h:107
+Symbol:
+Byte size 384
+struct mem_cgroup_lat_stat_cpu {
+0x0 item [6][8]"long unsigned int"
+}

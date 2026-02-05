@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/umem.c:305
+Symbol:
+func ib_umem_copy_from (
+dst * "void"
+umem * @"struct--ib_umem.txt"
+offset @"typedef--size_t.txt"
+length @"typedef--size_t.txt"
+)
+"int"

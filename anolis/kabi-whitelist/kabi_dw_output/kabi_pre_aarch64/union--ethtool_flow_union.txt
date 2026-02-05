@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:1114
+Symbol:
+Byte size 52
+union ethtool_flow_union {
+tcp_ip4_spec @"struct--ethtool_tcpip4_spec.txt"
+udp_ip4_spec @"struct--ethtool_tcpip4_spec.txt"
+sctp_ip4_spec @"struct--ethtool_tcpip4_spec.txt"
+ah_ip4_spec @"struct--ethtool_ah_espip4_spec.txt"
+esp_ip4_spec @"struct--ethtool_ah_espip4_spec.txt"
+usr_ip4_spec @"struct--ethtool_usrip4_spec.txt"
+vxlan_ip4_spec @"struct--ethtool_vxlan4_spec.txt"
+tcp_ip6_spec @"struct--ethtool_tcpip6_spec.txt"
+udp_ip6_spec @"struct--ethtool_tcpip6_spec.txt"
+sctp_ip6_spec @"struct--ethtool_tcpip6_spec.txt"
+ah_ip6_spec @"struct--ethtool_ah_espip6_spec.txt"
+esp_ip6_spec @"struct--ethtool_ah_espip6_spec.txt"
+usr_ip6_spec @"struct--ethtool_usrip6_spec.txt"
+vxlan_ip6_spec @"struct--ethtool_vxlan6_spec.txt"
+ether_spec @"struct--ethhdr.txt"
+hdata [52]@"typedef--__u8.txt"
+}

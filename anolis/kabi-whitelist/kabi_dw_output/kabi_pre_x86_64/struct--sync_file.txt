@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/sync_file.h:35
+Symbol:
+Byte size 120
+struct sync_file {
+0x0 file * @"struct--file.txt"
+0x8 user_name [32]"char"
+0x28 sync_file_list @"struct--list_head.txt"
+0x38 wq @"typedef--wait_queue_head_t.txt"
+0x50 flags "long unsigned int"
+0x58 fence * @"struct--dma_fence.txt"
+0x60 cb @"struct--dma_fence_cb.txt"
+}

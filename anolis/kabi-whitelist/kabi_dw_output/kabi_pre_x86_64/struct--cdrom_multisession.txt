@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/cdrom.h:250
+Symbol:
+Byte size 8
+struct cdrom_multisession {
+0x0 addr @"union--cdrom_addr.txt"
+0x4 xa_flag @"typedef--__u8.txt"
+0x5 addr_format @"typedef--__u8.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/mempool.c:380
+Symbol:
+func mempool_alloc (
+pool * @"typedef--mempool_t.txt"
+gfp_mask @"typedef--gfp_t.txt"
+)
+* "void"

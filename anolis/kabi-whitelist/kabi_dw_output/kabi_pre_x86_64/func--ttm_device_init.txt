@@ -1,0 +1,13 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_device.c:192
+Symbol:
+func ttm_device_init (
+bdev * @"struct--ttm_device.txt"
+funcs * const @"struct--ttm_device_funcs.txt"
+dev * @"struct--device.txt"
+mapping * @"struct--address_space.txt"
+vma_manager * @"struct--drm_vma_offset_manager.txt"
+use_dma_alloc @"typedef--bool.txt"
+use_dma32 @"typedef--bool.txt"
+)
+"int"

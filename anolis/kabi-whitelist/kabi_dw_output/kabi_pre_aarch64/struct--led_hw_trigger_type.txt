@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/leds.h:95
+Symbol:
+Byte size 4
+struct led_hw_trigger_type {
+0x0 dummy "int"
+}

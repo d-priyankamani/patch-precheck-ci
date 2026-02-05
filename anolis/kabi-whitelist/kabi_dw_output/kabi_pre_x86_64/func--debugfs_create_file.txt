@@ -1,0 +1,11 @@
+Version: 1.0
+File: fs/debugfs/inode.c:483
+Symbol:
+func debugfs_create_file (
+name * const "char"
+mode @"typedef--umode_t.txt"
+parent * @"struct--dentry.txt"
+data * "void"
+fops * const @"struct--file_operations.txt"
+)
+* @"struct--dentry.txt"

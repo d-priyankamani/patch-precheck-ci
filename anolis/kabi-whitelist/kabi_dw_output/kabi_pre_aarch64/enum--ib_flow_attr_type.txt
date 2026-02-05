@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1864
+Symbol:
+Byte size 4
+enum ib_flow_attr_type {
+IB_FLOW_ATTR_NORMAL = 0x0
+IB_FLOW_ATTR_ALL_DEFAULT = 0x1
+IB_FLOW_ATTR_MC_DEFAULT = 0x2
+IB_FLOW_ATTR_SNIFFER = 0x3
+}

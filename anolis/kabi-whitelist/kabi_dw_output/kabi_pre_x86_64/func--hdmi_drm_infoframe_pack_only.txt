@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/video/hdmi.c:755
+Symbol:
+func hdmi_drm_infoframe_pack_only (
+frame * const @"struct--hdmi_drm_infoframe.txt"
+buffer * "void"
+size @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"

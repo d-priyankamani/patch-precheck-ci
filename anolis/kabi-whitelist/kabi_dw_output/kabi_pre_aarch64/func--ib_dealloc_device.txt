@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:663
+Symbol:
+func ib_dealloc_device (
+device * @"struct--ib_device.txt"
+)
+"void"

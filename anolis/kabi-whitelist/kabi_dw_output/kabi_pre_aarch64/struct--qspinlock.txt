@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/asm-generic/qspinlock_types.h:14
+Symbol:
+Byte size 4
+struct qspinlock {
+0x0 (NULL) union (NULL) {
+val @"typedef--atomic_t.txt"
+(NULL) struct (NULL) {
+0x0 locked @"typedef--u8.txt"
+0x1 pending @"typedef--u8.txt"
+}
+(NULL) struct (NULL) {
+0x0 locked_pending @"typedef--u16.txt"
+0x2 tail @"typedef--u16.txt"
+}
+}
+}

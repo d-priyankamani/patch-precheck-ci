@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/util.c:127
+Symbol:
+func kmemdup (
+src * const "void"
+len @"typedef--size_t.txt"
+gfp @"typedef--gfp_t.txt"
+)
+* "void"

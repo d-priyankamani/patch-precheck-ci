@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/moduleparam.h:47
+Symbol:
+Byte size 32
+struct kernel_param_ops {
+0x0 flags "unsigned int"
+0x8 set * func (NULL) (
+(NULL) * const "char"
+(NULL) * const @"struct--kernel_param.txt"
+)
+"int"
+0x10 get * func (NULL) (
+(NULL) * "char"
+(NULL) * const @"struct--kernel_param.txt"
+)
+"int"
+0x18 free * func (NULL) (
+(NULL) * "void"
+)
+"void"
+}

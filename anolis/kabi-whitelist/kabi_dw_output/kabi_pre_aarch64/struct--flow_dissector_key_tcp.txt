@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/flow_dissector.h:229
+Symbol:
+Byte size 2
+struct flow_dissector_key_tcp {
+0x0 flags @"typedef--__be16.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_helper.c:1544
+Symbol:
+func drm_dp_set_subconnector_property (
+connector * @"struct--drm_connector.txt"
+status @"enum--drm_connector_status.txt"
+dpcd * const @"typedef--u8.txt"
+port_cap * const @"typedef--u8.txt"
+)
+"void"

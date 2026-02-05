@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cm.c:3997
+Symbol:
+func ib_cm_notify (
+cm_id * @"struct--ib_cm_id.txt"
+event @"enum--ib_event_type.txt"
+)
+"int"

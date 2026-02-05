@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/ttm/ttm_bo.h:178
+Symbol:
+Byte size 24
+struct ttm_operation_ctx {
+0x0 interruptible @"typedef--bool.txt"
+0x1 no_wait_gpu @"typedef--bool.txt"
+0x2 gfp_retry_mayfail @"typedef--bool.txt"
+0x3 allow_res_evict @"typedef--bool.txt"
+0x4 force_alloc @"typedef--bool.txt"
+0x8 resv * @"struct--dma_resv.txt"
+0x10 bytes_moved @"typedef--uint64_t.txt"
+}

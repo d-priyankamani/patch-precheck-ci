@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_entity.c:269
+Symbol:
+func drm_sched_entity_flush (
+entity * @"struct--drm_sched_entity.txt"
+timeout "long int"
+)
+"long int"

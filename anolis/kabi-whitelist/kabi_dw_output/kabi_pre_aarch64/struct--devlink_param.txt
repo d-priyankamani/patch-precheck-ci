@@ -1,0 +1,30 @@
+Version: 1.0
+File: include/net/devlink.h:476
+Symbol:
+Byte size 56
+struct devlink_param {
+0x0 id @"typedef--u32.txt"
+0x8 name * const "char"
+0x10 generic @"typedef--bool.txt"
+0x14 type @"enum--devlink_param_type.txt"
+0x18 supported_cmodes "long unsigned int"
+0x20 get * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--devlink_param_gset_ctx.txt"
+)
+"int"
+0x28 set * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--devlink_param_gset_ctx.txt"
+)
+"int"
+0x30 validate * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"union--devlink_param_value.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+}

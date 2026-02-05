@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/semaphore.c:135
+Symbol:
+func down_trylock (
+sem * @"struct--semaphore.txt"
+)
+"int"

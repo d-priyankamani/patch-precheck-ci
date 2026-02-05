@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/devlink/health.c:895
+Symbol:
+func devlink_fmsg_binary_put (
+fmsg * @"struct--devlink_fmsg.txt"
+value * const "void"
+value_len @"typedef--u16.txt"
+)
+"int"

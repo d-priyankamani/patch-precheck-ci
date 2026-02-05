@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/string_helpers.c:846
+Symbol:
+func strscpy_pad (
+dest * "char"
+src * const "char"
+count @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"

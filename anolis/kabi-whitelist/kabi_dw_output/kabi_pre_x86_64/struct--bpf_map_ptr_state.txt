@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:469
+Symbol:
+Byte size 16
+struct bpf_map_ptr_state {
+0x0 map_ptr * @"struct--bpf_map.txt"
+0x8 poison @"typedef--bool.txt"
+0x9 unpriv @"typedef--bool.txt"
+}

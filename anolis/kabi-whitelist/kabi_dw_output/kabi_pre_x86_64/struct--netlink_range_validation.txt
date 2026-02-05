@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/netlink.h:197
+Symbol:
+Byte size 16
+struct netlink_range_validation {
+0x0 min @"typedef--u64.txt"
+0x8 max @"typedef--u64.txt"
+}

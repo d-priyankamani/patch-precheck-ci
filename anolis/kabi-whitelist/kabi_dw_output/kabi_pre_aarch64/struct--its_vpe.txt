@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/linux/irqchip/arm-gic-v4.h:32
+Symbol:
+Byte size 120
+struct its_vpe {
+0x0 vpt_page * @"struct--page.txt"
+0x8 its_vm * @"struct--its_vm.txt"
+0x10 vlpi_count @"typedef--atomic_t.txt"
+0x14 irq "int"
+0x18 vpe_db_lpi @"typedef--irq_hw_number_t.txt"
+0x20 resident @"typedef--bool.txt"
+0x21 ready @"typedef--bool.txt"
+0x28 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 vpe_proxy_event "int"
+0x4 idai @"typedef--bool.txt"
+}
+(NULL) struct (NULL) {
+0x0 fwnode * @"struct--fwnode_handle.txt"
+0x8 sgi_domain * @"<declarations>/struct--irq_domain.txt"
+0x10 sgi_config [16]struct (NULL) {
+0x0 priority @"typedef--u8.txt"
+0x1 enabled @"typedef--bool.txt"
+0x2 group @"typedef--bool.txt"
+}
+}
+}
+0x68 vmapp_count @"typedef--atomic_t.txt"
+0x6c vpe_lock @"typedef--raw_spinlock_t.txt"
+0x70 col_idx @"typedef--u16.txt"
+0x72 vpe_id @"typedef--u16.txt"
+0x74 pending_last @"typedef--bool.txt"
+}

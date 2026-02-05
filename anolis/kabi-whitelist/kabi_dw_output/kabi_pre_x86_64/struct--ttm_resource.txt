@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/ttm/ttm_resource.h:212
+Symbol:
+Byte size 72
+struct ttm_resource {
+0x0 start "long unsigned int"
+0x8 size @"typedef--size_t.txt"
+0x10 mem_type @"typedef--uint32_t.txt"
+0x14 placement @"typedef--uint32_t.txt"
+0x18 bus @"struct--ttm_bus_placement.txt"
+0x30 bo * @"struct--ttm_buffer_object.txt"
+0x38 lru @"struct--list_head.txt"
+}

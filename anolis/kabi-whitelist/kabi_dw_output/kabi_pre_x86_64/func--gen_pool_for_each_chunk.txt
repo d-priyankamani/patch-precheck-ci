@@ -1,0 +1,14 @@
+Version: 1.0
+File: lib/genalloc.c:531
+Symbol:
+func gen_pool_for_each_chunk (
+pool * @"struct--gen_pool.txt"
+func * func (NULL) (
+(NULL) * @"struct--gen_pool.txt"
+(NULL) * @"struct--gen_pool_chunk.txt"
+(NULL) * "void"
+)
+"void"
+data * "void"
+)
+"void"

@@ -1,0 +1,23 @@
+Version: 1.0
+File: drivers/base/devcoredump.c:322
+Symbol:
+func dev_coredumpm (
+dev * @"struct--device.txt"
+owner * @"struct--module.txt"
+data * "void"
+datalen @"typedef--size_t.txt"
+gfp @"typedef--gfp_t.txt"
+read * func (NULL) (
+(NULL) * "char"
+(NULL) @"typedef--loff_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) * "void"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+free * func (NULL) (
+(NULL) * "void"
+)
+"void"
+)
+"void"

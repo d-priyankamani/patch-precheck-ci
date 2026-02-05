@@ -1,0 +1,12 @@
+Version: 1.0
+File: arch/x86/include/asm/thread_info.h:56
+Symbol:
+Byte size 40
+struct thread_info {
+0x0 flags "long unsigned int"
+0x8 syscall_work "long unsigned int"
+0x10 status @"typedef--u32.txt"
+0x14 cpu @"typedef--u32.txt"
+0x18 ck_reserved1 "long unsigned int"
+0x20 ck_reserved2 "long unsigned int"
+}

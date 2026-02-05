@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/irq.h:1029
+Symbol:
+Byte size 360
+struct irq_chip_type {
+0x0 chip @"struct--irq_chip.txt"
+0x110 regs @"struct--irq_chip_regs.txt"
+0x148 handler @"typedef--irq_flow_handler_t.txt"
+0x150 type @"typedef--u32.txt"
+0x154 mask_cache_priv @"typedef--u32.txt"
+0x158 mask_cache * @"typedef--u32.txt"
+0x160 ck_reserved1 "long unsigned int"
+}

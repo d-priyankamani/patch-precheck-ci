@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:165
+Symbol:
+Byte size 24
+struct acpi_device_ops {
+0x0 add @"typedef--acpi_op_add.txt"
+0x8 remove @"typedef--acpi_op_remove.txt"
+0x10 notify @"typedef--acpi_op_notify.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/flow_dissector.h:262
+Symbol:
+Byte size 24
+struct flow_dissector_key_ct {
+0x0 ct_state @"typedef--u16.txt"
+0x2 ct_zone @"typedef--u16.txt"
+0x4 ct_mark @"typedef--u32.txt"
+0x8 ct_labels [4]@"typedef--u32.txt"
+}

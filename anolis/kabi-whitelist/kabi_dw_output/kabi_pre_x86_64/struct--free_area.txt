@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/mmzone.h:113
+Symbol:
+Byte size 104
+struct free_area {
+0x0 free_list [6]@"struct--list_head.txt"
+0x60 nr_free "long unsigned int"
+}

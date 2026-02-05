@@ -1,0 +1,26 @@
+Version: 1.0
+File: include/uapi/linux/timex.h:102
+Symbol:
+Byte size 208
+struct __kernel_timex {
+0x0 modes "unsigned int"
+0x8 offset "long long int"
+0x10 freq "long long int"
+0x18 maxerror "long long int"
+0x20 esterror "long long int"
+0x28 status "int"
+0x30 constant "long long int"
+0x38 precision "long long int"
+0x40 tolerance "long long int"
+0x48 time @"struct--__kernel_timex_timeval.txt"
+0x58 tick "long long int"
+0x60 ppsfreq "long long int"
+0x68 jitter "long long int"
+0x70 shift "int"
+0x78 stabil "long long int"
+0x80 jitcnt "long long int"
+0x88 calcnt "long long int"
+0x90 errcnt "long long int"
+0x98 stbcnt "long long int"
+0xa0 tai "int"
+}

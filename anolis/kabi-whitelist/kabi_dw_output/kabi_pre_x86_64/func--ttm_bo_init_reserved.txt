@@ -1,0 +1,18 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo.c:964
+Symbol:
+func ttm_bo_init_reserved (
+bdev * @"struct--ttm_device.txt"
+bo * @"struct--ttm_buffer_object.txt"
+type @"enum--ttm_bo_type.txt"
+placement * @"struct--ttm_placement.txt"
+alignment @"typedef--uint32_t.txt"
+ctx * @"struct--ttm_operation_ctx.txt"
+sg * @"struct--sg_table.txt"
+resv * @"struct--dma_resv.txt"
+destroy * func (NULL) (
+(NULL) * @"struct--ttm_buffer_object.txt"
+)
+"void"
+)
+"int"

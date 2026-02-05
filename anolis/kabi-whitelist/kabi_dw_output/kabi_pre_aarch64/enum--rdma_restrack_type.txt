@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/rdma/restrack.h:23
+Symbol:
+Byte size 4
+enum rdma_restrack_type {
+RDMA_RESTRACK_PD = 0x0
+RDMA_RESTRACK_CQ = 0x1
+RDMA_RESTRACK_QP = 0x2
+RDMA_RESTRACK_CM_ID = 0x3
+RDMA_RESTRACK_MR = 0x4
+RDMA_RESTRACK_CTX = 0x5
+RDMA_RESTRACK_COUNTER = 0x6
+RDMA_RESTRACK_SRQ = 0x7
+RDMA_RESTRACK_MAX = 0x8
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/firmware/efi/libstub/string.c:73
+Symbol:
+func strcmp (
+cs * const "char"
+ct * const "char"
+)
+"int"

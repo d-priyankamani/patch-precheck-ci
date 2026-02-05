@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/writeback.h:32
+Symbol:
+Byte size 4
+enum writeback_sync_modes {
+WB_SYNC_NONE = 0x0
+WB_SYNC_ALL = 0x1
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/read_write.c:439
+Symbol:
+func kernel_read (
+file * @"struct--file.txt"
+buf * "void"
+count @"typedef--size_t.txt"
+pos * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"

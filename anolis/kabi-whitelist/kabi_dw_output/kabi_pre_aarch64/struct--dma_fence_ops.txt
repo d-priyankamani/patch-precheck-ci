@@ -1,0 +1,51 @@
+Version: 1.0
+File: include/linux/dma-fence.h:125
+Symbol:
+Byte size 88
+struct dma_fence_ops {
+0x0 use_64bit_seqno @"typedef--bool.txt"
+0x8 get_driver_name * func (NULL) (
+(NULL) * @"struct--dma_fence.txt"
+)
+* const "char"
+0x10 get_timeline_name * func (NULL) (
+(NULL) * @"struct--dma_fence.txt"
+)
+* const "char"
+0x18 enable_signaling * func (NULL) (
+(NULL) * @"struct--dma_fence.txt"
+)
+@"typedef--bool.txt"
+0x20 signaled * func (NULL) (
+(NULL) * @"struct--dma_fence.txt"
+)
+@"typedef--bool.txt"
+0x28 wait * func (NULL) (
+(NULL) * @"struct--dma_fence.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) "long int"
+)
+"long int"
+0x30 release * func (NULL) (
+(NULL) * @"struct--dma_fence.txt"
+)
+"void"
+0x38 fence_value_str * func (NULL) (
+(NULL) * @"struct--dma_fence.txt"
+(NULL) * "char"
+(NULL) "int"
+)
+"void"
+0x40 timeline_value_str * func (NULL) (
+(NULL) * @"struct--dma_fence.txt"
+(NULL) * "char"
+(NULL) "int"
+)
+"void"
+0x48 set_deadline * func (NULL) (
+(NULL) * @"struct--dma_fence.txt"
+(NULL) @"typedef--ktime_t.txt"
+)
+"void"
+0x50 ck_reserved1 "long unsigned int"
+}

@@ -1,0 +1,140 @@
+Version: 1.0
+File: include/linux/perf_event.h:317
+Symbol:
+Byte size 344
+struct pmu {
+0x0 entry @"struct--list_head.txt"
+0x10 module * @"struct--module.txt"
+0x18 dev * @"struct--device.txt"
+0x20 parent * @"struct--device.txt"
+0x28 attr_groups * * const @"struct--attribute_group.txt"
+0x30 attr_update * * const @"struct--attribute_group.txt"
+0x38 name * const "char"
+0x40 type "int"
+0x44 capabilities "int"
+0x48 scope "unsigned int"
+0x50 pmu_disable_count * "int"
+0x58 cpu_pmu_context * @"struct--perf_cpu_pmu_context.txt"
+0x60 exclusive_cnt @"typedef--atomic_t.txt"
+0x64 task_ctx_nr "int"
+0x68 hrtimer_interval_ms "int"
+0x6c nr_addr_filters "unsigned int"
+0x70 pmu_enable * func (NULL) (
+(NULL) * @"struct--pmu.txt"
+)
+"void"
+0x78 pmu_disable * func (NULL) (
+(NULL) * @"struct--pmu.txt"
+)
+"void"
+0x80 event_init * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+)
+"int"
+0x88 event_mapped * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+(NULL) * @"struct--mm_struct.txt"
+)
+"void"
+0x90 event_unmapped * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+(NULL) * @"struct--mm_struct.txt"
+)
+"void"
+0x98 add * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+(NULL) "int"
+)
+"int"
+0xa0 del * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+(NULL) "int"
+)
+"void"
+0xa8 start * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+(NULL) "int"
+)
+"void"
+0xb0 stop * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+(NULL) "int"
+)
+"void"
+0xb8 read * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+)
+"void"
+0xc0 start_txn * func (NULL) (
+(NULL) * @"struct--pmu.txt"
+(NULL) "unsigned int"
+)
+"void"
+0xc8 commit_txn * func (NULL) (
+(NULL) * @"struct--pmu.txt"
+)
+"int"
+0xd0 cancel_txn * func (NULL) (
+(NULL) * @"struct--pmu.txt"
+)
+"void"
+0xd8 event_idx * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+)
+"int"
+0xe0 sched_task * func (NULL) (
+(NULL) * @"struct--perf_event_pmu_context.txt"
+(NULL) * @"struct--task_struct.txt"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+0xe8 task_ctx_cache * @"struct--kmem_cache.txt"
+0xf0 swap_task_ctx * func (NULL) (
+(NULL) * @"struct--perf_event_pmu_context.txt"
+(NULL) * @"struct--perf_event_pmu_context.txt"
+)
+"void"
+0xf8 setup_aux * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+(NULL) * * "void"
+(NULL) "int"
+(NULL) @"typedef--bool.txt"
+)
+* "void"
+0x100 free_aux * func (NULL) (
+(NULL) * "void"
+)
+"void"
+0x108 snapshot_aux * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+(NULL) * @"struct--perf_output_handle.txt"
+(NULL) "long unsigned int"
+)
+"long int"
+0x110 addr_filters_validate * func (NULL) (
+(NULL) * @"struct--list_head.txt"
+)
+"int"
+0x118 addr_filters_sync * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+)
+"void"
+0x120 aux_output_match * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+)
+"int"
+0x128 filter * func (NULL) (
+(NULL) * @"struct--pmu.txt"
+(NULL) "int"
+)
+@"typedef--bool.txt"
+0x130 check_period * func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+(NULL) @"typedef--u64.txt"
+)
+"int"
+0x138 ck_reserved1 "long unsigned int"
+0x140 ck_reserved2 "long unsigned int"
+0x148 ck_reserved3 "long unsigned int"
+0x150 ck_reserved4 "long unsigned int"
+}

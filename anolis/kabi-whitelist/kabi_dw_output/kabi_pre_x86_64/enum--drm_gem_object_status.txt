@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/drm/drm_gem.h:62
+Symbol:
+Byte size 4
+enum drm_gem_object_status {
+DRM_GEM_OBJECT_RESIDENT = 0x1
+DRM_GEM_OBJECT_PURGEABLE = 0x2
+}

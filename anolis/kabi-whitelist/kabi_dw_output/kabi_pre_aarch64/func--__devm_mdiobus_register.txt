@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/net/phy/mdio_devres.c:73
+Symbol:
+func __devm_mdiobus_register (
+dev * @"struct--device.txt"
+bus * @"struct--mii_bus.txt"
+owner * @"struct--module.txt"
+)
+"int"

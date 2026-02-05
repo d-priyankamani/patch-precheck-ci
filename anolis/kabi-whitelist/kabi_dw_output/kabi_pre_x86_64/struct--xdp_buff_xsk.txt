@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/net/xsk_buff_pool.h:24
+Symbol:
+Byte size 144
+struct xdp_buff_xsk {
+0x0 xdp @"struct--xdp_buff.txt"
+0x38 cb [24]@"typedef--u8.txt"
+0x50 dma @"typedef--dma_addr_t.txt"
+0x58 frame_dma @"typedef--dma_addr_t.txt"
+0x60 pool * @"struct--xsk_buff_pool.txt"
+0x68 orig_addr @"typedef--u64.txt"
+0x70 free_list_node @"struct--list_head.txt"
+0x80 xskb_list_node @"struct--list_head.txt"
+}

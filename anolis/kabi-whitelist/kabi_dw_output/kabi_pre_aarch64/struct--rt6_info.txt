@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/ip6_fib.h:214
+Symbol:
+Byte size 296
+Alignment 8
+struct rt6_info {
+0x0 8 dst @"struct--dst_entry.txt"
+0xc8 from * @"struct--fib6_info.txt"
+0xd0 sernum "int"
+0xd4 rt6i_dst @"struct--rt6key.txt"
+0xe8 rt6i_src @"struct--rt6key.txt"
+0xfc rt6i_gateway @"struct--in6_addr.txt"
+0x110 rt6i_idev * @"struct--inet6_dev.txt"
+0x118 rt6i_flags @"typedef--u32.txt"
+0x11c rt6i_nfheader_len "short unsigned int"
+0x120 ck_reserved1 "long unsigned int"
+}

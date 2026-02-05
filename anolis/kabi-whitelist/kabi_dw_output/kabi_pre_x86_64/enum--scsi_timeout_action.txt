@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/scsi/scsi_host.h:36
+Symbol:
+Byte size 4
+enum scsi_timeout_action {
+SCSI_EH_DONE = 0x0
+SCSI_EH_RESET_TIMER = 0x1
+SCSI_EH_NOT_HANDLED = 0x2
+}

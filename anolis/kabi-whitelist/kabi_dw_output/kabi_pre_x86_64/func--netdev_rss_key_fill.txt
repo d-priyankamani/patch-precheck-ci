@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/ethtool/ioctl.c:1053
+Symbol:
+func netdev_rss_key_fill (
+buffer * "void"
+len @"typedef--size_t.txt"
+)
+"void"

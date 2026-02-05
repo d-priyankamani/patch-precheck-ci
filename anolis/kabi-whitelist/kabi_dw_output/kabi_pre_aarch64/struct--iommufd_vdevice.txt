@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/iommufd.h:114
+Symbol:
+Byte size 48
+struct iommufd_vdevice {
+0x0 obj @"struct--iommufd_object.txt"
+0x10 viommu * @"struct--iommufd_viommu.txt"
+0x18 idev * @"<declarations>/struct--iommufd_device.txt"
+0x20 virt_id @"typedef--u64.txt"
+0x28 destroy * func (NULL) (
+(NULL) * @"struct--iommufd_vdevice.txt"
+)
+"void"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/pm_qos.h:92
+Symbol:
+Byte size 56
+struct freq_qos_request {
+0x0 type @"enum--freq_qos_req_type.txt"
+0x8 pnode @"struct--plist_node.txt"
+0x30 qos * @"struct--freq_constraints.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/dma/mapping.c:281
+Symbol:
+func dma_map_sgtable (
+dev * @"struct--device.txt"
+sgt * @"struct--sg_table.txt"
+dir @"enum--dma_data_direction.txt"
+attrs "long unsigned int"
+)
+"int"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/locking/mutex.c:46
+Symbol:
+func __mutex_init (
+lock * @"struct--mutex.txt"
+name * const "char"
+key * @"struct--lock_class_key.txt"
+)
+"void"

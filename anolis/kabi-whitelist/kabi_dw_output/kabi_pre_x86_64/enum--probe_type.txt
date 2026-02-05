@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/device/driver.h:45
+Symbol:
+Byte size 4
+enum probe_type {
+PROBE_DEFAULT_STRATEGY = 0x0
+PROBE_PREFER_ASYNCHRONOUS = 0x1
+PROBE_FORCE_SYNCHRONOUS = 0x2
+}

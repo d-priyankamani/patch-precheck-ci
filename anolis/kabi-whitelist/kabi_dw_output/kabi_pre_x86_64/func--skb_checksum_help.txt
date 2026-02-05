@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:3327
+Symbol:
+func skb_checksum_help (
+skb * @"struct--sk_buff.txt"
+)
+"int"

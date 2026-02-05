@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci-driver.c:1566
+Symbol:
+func pci_dev_put (
+dev * @"struct--pci_dev.txt"
+)
+"void"

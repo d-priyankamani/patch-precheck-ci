@@ -1,0 +1,41 @@
+Version: 1.0
+File: include/net/netns/xfrm.h:32
+Symbol:
+Byte size 1088
+Alignment 64
+struct netns_xfrm {
+0x0 state_all @"struct--list_head.txt"
+0x10 state_bydst * @"struct--hlist_head.txt"
+0x18 state_bysrc * @"struct--hlist_head.txt"
+0x20 state_byspi * @"struct--hlist_head.txt"
+0x28 state_byseq * @"struct--hlist_head.txt"
+0x30 state_hmask "unsigned int"
+0x34 state_num "unsigned int"
+0x38 state_hash_work @"struct--work_struct.txt"
+0x78 policy_all @"struct--list_head.txt"
+0x88 policy_byidx * @"struct--hlist_head.txt"
+0x90 policy_idx_hmask "unsigned int"
+0x94 idx_generator "unsigned int"
+0x98 policy_inexact [3]@"struct--hlist_head.txt"
+0xb0 policy_bydst [3]@"struct--xfrm_policy_hash.txt"
+0xe0 policy_count [6]"unsigned int"
+0xf8 policy_hash_work @"struct--work_struct.txt"
+0x138 policy_hthresh @"struct--xfrm_policy_hthresh.txt"
+0x188 inexact_bins @"struct--list_head.txt"
+0x198 nlsk * @"struct--sock.txt"
+0x1a0 nlsk_stash * @"struct--sock.txt"
+0x1a8 sysctl_aevent_etime @"typedef--u32.txt"
+0x1ac sysctl_aevent_rseqth @"typedef--u32.txt"
+0x1b0 sysctl_larval_drop "int"
+0x1b4 sysctl_acq_expires @"typedef--u32.txt"
+0x1b8 policy_default [3]@"typedef--u8.txt"
+0x1c0 sysctl_hdr * @"struct--ctl_table_header.txt"
+0x200 64 xfrm4_dst_ops @"struct--dst_ops.txt"
+0x300 64 xfrm6_dst_ops @"struct--dst_ops.txt"
+0x400 xfrm_state_lock @"typedef--spinlock_t.txt"
+0x404 xfrm_state_hash_generation @"typedef--seqcount_spinlock_t.txt"
+0x408 xfrm_policy_hash_generation @"typedef--seqcount_spinlock_t.txt"
+0x40c xfrm_policy_lock @"typedef--spinlock_t.txt"
+0x410 xfrm_cfg_mutex @"struct--mutex.txt"
+0x430 ck_reserved1 "long unsigned int"
+}

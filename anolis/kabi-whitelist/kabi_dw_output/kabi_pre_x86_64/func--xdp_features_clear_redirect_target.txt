@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/xdp.c:793
+Symbol:
+func xdp_features_clear_redirect_target (
+dev * @"struct--net_device.txt"
+)
+"void"

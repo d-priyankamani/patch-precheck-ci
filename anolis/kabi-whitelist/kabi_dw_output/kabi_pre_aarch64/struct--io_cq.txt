@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/iocontext.h:73
+Symbol:
+Byte size 56
+Alignment 8
+struct io_cq {
+0x0 q * @"struct--request_queue.txt"
+0x8 ioc * @"struct--io_context.txt"
+0x10 (NULL) union (NULL) {
+q_node @"struct--list_head.txt"
+__rcu_icq_cache * @"struct--kmem_cache.txt"
+}
+0x20 8 (NULL) union (NULL) {
+ioc_node @"struct--hlist_node.txt"
+__rcu_head @"struct--callback_head.txt"
+}
+0x30 flags "unsigned int"
+}

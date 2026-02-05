@@ -1,0 +1,35 @@
+Version: 1.0
+File: include/linux/crypto.h:343
+Symbol:
+Byte size 384
+Alignment 8
+struct crypto_alg {
+0x0 cra_list @"struct--list_head.txt"
+0x10 cra_users @"struct--list_head.txt"
+0x20 cra_flags @"typedef--u32.txt"
+0x24 cra_blocksize "unsigned int"
+0x28 cra_ctxsize "unsigned int"
+0x2c cra_alignmask "unsigned int"
+0x30 cra_priority "int"
+0x34 cra_refcnt @"typedef--refcount_t.txt"
+0x38 cra_name [128]"char"
+0xb8 cra_driver_name [128]"char"
+0x138 cra_type * const @"<declarations>/struct--crypto_type.txt"
+0x140 cra_u union (NULL) {
+cipher @"struct--cipher_alg.txt"
+compress @"struct--compress_alg.txt"
+}
+0x160 cra_init * func (NULL) (
+(NULL) * @"struct--crypto_tfm.txt"
+)
+"int"
+0x168 cra_exit * func (NULL) (
+(NULL) * @"struct--crypto_tfm.txt"
+)
+"void"
+0x170 cra_destroy * func (NULL) (
+(NULL) * @"struct--crypto_alg.txt"
+)
+"void"
+0x178 cra_module * @"struct--module.txt"
+}

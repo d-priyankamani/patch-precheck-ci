@@ -1,0 +1,37 @@
+Version: 1.0
+File: include/uapi/rdma/ib_user_verbs.h:548
+Symbol:
+Byte size 144
+struct ib_uverbs_qp_attr {
+0x0 qp_attr_mask @"typedef--__u32.txt"
+0x4 qp_state @"typedef--__u32.txt"
+0x8 cur_qp_state @"typedef--__u32.txt"
+0xc path_mtu @"typedef--__u32.txt"
+0x10 path_mig_state @"typedef--__u32.txt"
+0x14 qkey @"typedef--__u32.txt"
+0x18 rq_psn @"typedef--__u32.txt"
+0x1c sq_psn @"typedef--__u32.txt"
+0x20 dest_qp_num @"typedef--__u32.txt"
+0x24 qp_access_flags @"typedef--__u32.txt"
+0x28 ah_attr @"struct--ib_uverbs_ah_attr.txt"
+0x48 alt_ah_attr @"struct--ib_uverbs_ah_attr.txt"
+0x68 max_send_wr @"typedef--__u32.txt"
+0x6c max_recv_wr @"typedef--__u32.txt"
+0x70 max_send_sge @"typedef--__u32.txt"
+0x74 max_recv_sge @"typedef--__u32.txt"
+0x78 max_inline_data @"typedef--__u32.txt"
+0x7c pkey_index @"typedef--__u16.txt"
+0x7e alt_pkey_index @"typedef--__u16.txt"
+0x80 en_sqd_async_notify @"typedef--__u8.txt"
+0x81 sq_draining @"typedef--__u8.txt"
+0x82 max_rd_atomic @"typedef--__u8.txt"
+0x83 max_dest_rd_atomic @"typedef--__u8.txt"
+0x84 min_rnr_timer @"typedef--__u8.txt"
+0x85 port_num @"typedef--__u8.txt"
+0x86 timeout @"typedef--__u8.txt"
+0x87 retry_cnt @"typedef--__u8.txt"
+0x88 rnr_retry @"typedef--__u8.txt"
+0x89 alt_port_num @"typedef--__u8.txt"
+0x8a alt_timeout @"typedef--__u8.txt"
+0x8b reserved [5]@"typedef--__u8.txt"
+}

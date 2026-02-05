@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/flow_dissector.h:219
+Symbol:
+Byte size 12
+struct flow_dissector_key_eth_addrs {
+0x0 dst [6]"unsigned char"
+0x6 src [6]"unsigned char"
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/netdevice.h:2816
+Symbol:
+Byte size 32
+Alignment 32
+struct pcpu_sw_netstats {
+0x0 rx_packets @"typedef--u64_stats_t.txt"
+0x8 rx_bytes @"typedef--u64_stats_t.txt"
+0x10 tx_packets @"typedef--u64_stats_t.txt"
+0x18 tx_bytes @"typedef--u64_stats_t.txt"
+0x20 syncp @"struct--u64_stats_sync.txt"
+}

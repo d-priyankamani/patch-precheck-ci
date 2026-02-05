@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/tcp.h:1020
+Symbol:
+Byte size 4
+enum tcp_ca_event {
+CA_EVENT_TX_START = 0x0
+CA_EVENT_CWND_RESTART = 0x1
+CA_EVENT_COMPLETE_CWR = 0x2
+CA_EVENT_LOSS = 0x3
+CA_EVENT_ECN_NO_CE = 0x4
+CA_EVENT_ECN_IS_CE = 0x5
+}

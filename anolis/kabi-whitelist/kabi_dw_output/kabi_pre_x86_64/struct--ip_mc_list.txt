@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/linux/igmp.h:68
+Symbol:
+Byte size 176
+Alignment 8
+struct ip_mc_list {
+0x0 interface * @"struct--in_device.txt"
+0x8 multiaddr @"typedef--__be32.txt"
+0xc sfmode "unsigned int"
+0x10 sources * @"struct--ip_sf_list.txt"
+0x18 tomb * @"struct--ip_sf_list.txt"
+0x20 sfcount [2]"long unsigned int"
+0x30 (NULL) union (NULL) {
+next * @"struct--ip_mc_list.txt"
+next_rcu * @"struct--ip_mc_list.txt"
+}
+0x38 next_hash * @"struct--ip_mc_list.txt"
+0x40 timer @"struct--timer_list.txt"
+0x88 users "int"
+0x8c refcnt @"typedef--refcount_t.txt"
+0x90 lock @"typedef--spinlock_t.txt"
+0x94 tm_running "char"
+0x95 reporter "char"
+0x96 unsolicit_count "char"
+0x97 loaded "char"
+0x98 gsquery "unsigned char"
+0x99 crcount "unsigned char"
+0xa0 8 rcu @"struct--callback_head.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/workqueue.c:4829
+Symbol:
+func destroy_workqueue (
+wq * @"struct--workqueue_struct.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/radix-tree.c:1456
+Symbol:
+func radix_tree_tagged (
+root * const @"struct--xarray.txt"
+tag "unsigned int"
+)
+"int"

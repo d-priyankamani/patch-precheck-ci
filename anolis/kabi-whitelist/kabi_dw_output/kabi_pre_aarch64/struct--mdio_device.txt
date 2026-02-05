@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/linux/mdio.h:28
+Symbol:
+Byte size 1088
+Alignment 8
+struct mdio_device {
+0x0 8 dev @"struct--device.txt"
+0x3e0 bus * @"struct--mii_bus.txt"
+0x3e8 modalias [32]"char"
+0x408 bus_match * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--device_driver.txt"
+)
+"int"
+0x410 device_free * func (NULL) (
+(NULL) * @"struct--mdio_device.txt"
+)
+"void"
+0x418 device_remove * func (NULL) (
+(NULL) * @"struct--mdio_device.txt"
+)
+"void"
+0x420 addr "int"
+0x424 flags "int"
+0x428 reset_gpio * @"<declarations>/struct--gpio_desc.txt"
+0x430 reset_ctrl * @"<declarations>/struct--reset_control.txt"
+0x438 reset_assert_delay "unsigned int"
+0x43c reset_deassert_delay "unsigned int"
+}

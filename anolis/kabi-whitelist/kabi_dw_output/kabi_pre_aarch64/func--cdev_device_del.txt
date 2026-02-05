@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/char_dev.c:578
+Symbol:
+func cdev_device_del (
+cdev * @"struct--cdev.txt"
+dev * @"struct--device.txt"
+)
+"void"

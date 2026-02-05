@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_suballoc.c:424
+Symbol:
+func drm_suballoc_dump_debug_info (
+sa_manager * @"struct--drm_suballoc_manager.txt"
+p * @"struct--drm_printer.txt"
+suballoc_base "long long unsigned int"
+)
+"void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/namei.c:2625
+Symbol:
+func kern_path (
+name * const "char"
+flags "unsigned int"
+path * @"struct--path.txt"
+)
+"int"

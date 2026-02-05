@@ -1,0 +1,6 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_probe_helper.c:870
+Symbol:
+func drm_kms_helper_is_poll_worker (
+)
+@"typedef--bool.txt"

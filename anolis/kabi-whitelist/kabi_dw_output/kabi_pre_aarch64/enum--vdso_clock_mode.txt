@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/vdso/clocksource.h:11
+Symbol:
+Byte size 4
+enum vdso_clock_mode {
+VDSO_CLOCKMODE_NONE = 0x0
+VDSO_CLOCKMODE_ARCHTIMER = 0x1
+VDSO_CLOCKMODE_ARCHTIMER_NOCOMPAT = 0x2
+VDSO_CLOCKMODE_MAX = 0x3
+VDSO_CLOCKMODE_TIMENS = 0x7fffffff
+}

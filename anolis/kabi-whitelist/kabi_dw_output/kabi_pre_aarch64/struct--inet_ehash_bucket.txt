@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/inet_hashtables.h:39
+Symbol:
+Byte size 8
+struct inet_ehash_bucket {
+0x0 chain @"struct--hlist_nulls_head.txt"
+}

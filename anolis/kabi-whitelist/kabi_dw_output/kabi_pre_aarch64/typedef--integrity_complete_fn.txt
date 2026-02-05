@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/blk-integrity.h:28
+Symbol:
+typedef integrity_complete_fn
+func (NULL) (
+(NULL) * @"struct--request.txt"
+(NULL) "unsigned int"
+)
+"void"

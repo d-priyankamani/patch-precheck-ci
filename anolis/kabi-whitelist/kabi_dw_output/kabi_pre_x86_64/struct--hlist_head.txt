@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/types.h:195
+Symbol:
+Byte size 8
+struct hlist_head {
+0x0 first * @"struct--hlist_node.txt"
+}

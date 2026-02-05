@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/devres.c:113
+Symbol:
+func devm_iounmap (
+dev * @"struct--device.txt"
+addr * "void"
+)
+"void"

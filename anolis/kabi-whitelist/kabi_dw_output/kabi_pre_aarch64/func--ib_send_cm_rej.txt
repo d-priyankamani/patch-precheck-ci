@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/infiniband/core/cm.c:2977
+Symbol:
+func ib_send_cm_rej (
+cm_id * @"struct--ib_cm_id.txt"
+reason @"enum--ib_cm_rej_reason.txt"
+ari * "void"
+ari_length @"typedef--u8.txt"
+private_data * const "void"
+private_data_len @"typedef--u8.txt"
+)
+"int"

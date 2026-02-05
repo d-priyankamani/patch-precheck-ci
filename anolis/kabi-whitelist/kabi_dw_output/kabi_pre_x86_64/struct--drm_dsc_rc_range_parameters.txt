@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/display/drm_dsc.h:53
+Symbol:
+Byte size 3
+struct drm_dsc_rc_range_parameters {
+0x0 range_min_qp @"typedef--u8.txt"
+0x1 range_max_qp @"typedef--u8.txt"
+0x2 range_bpg_offset @"typedef--u8.txt"
+}

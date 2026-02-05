@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/ioctl.c:938
+Symbol:
+func compat_ptr_ioctl (
+file * @"struct--file.txt"
+cmd "unsigned int"
+arg "long unsigned int"
+)
+"long int"

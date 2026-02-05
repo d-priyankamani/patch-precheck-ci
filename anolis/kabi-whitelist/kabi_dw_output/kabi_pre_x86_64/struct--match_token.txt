@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/parser.h:14
+Symbol:
+Byte size 16
+struct match_token {
+0x0 token "int"
+0x8 pattern * const "char"
+}

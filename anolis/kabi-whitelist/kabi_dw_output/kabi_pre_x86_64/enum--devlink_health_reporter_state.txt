@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/devlink.h:714
+Symbol:
+Byte size 4
+enum devlink_health_reporter_state {
+DEVLINK_HEALTH_REPORTER_STATE_HEALTHY = 0x0
+DEVLINK_HEALTH_REPORTER_STATE_ERROR = 0x1
+}

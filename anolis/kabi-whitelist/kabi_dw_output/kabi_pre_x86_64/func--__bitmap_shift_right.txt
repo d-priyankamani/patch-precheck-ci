@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/bitmap.c:103
+Symbol:
+func __bitmap_shift_right (
+dst * "long unsigned int"
+src * const "long unsigned int"
+shift "unsigned int"
+nbits "unsigned int"
+)
+"void"

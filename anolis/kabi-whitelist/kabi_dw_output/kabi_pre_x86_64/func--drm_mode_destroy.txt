@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modes.c:93
+Symbol:
+func drm_mode_destroy (
+dev * @"struct--drm_device.txt"
+mode * @"struct--drm_display_mode.txt"
+)
+"void"

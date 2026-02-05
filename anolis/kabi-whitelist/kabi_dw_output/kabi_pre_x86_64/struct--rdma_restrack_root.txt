@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/restrack.h:15
+Symbol:
+Byte size 24
+struct rdma_restrack_root {
+0x0 xa @"struct--xarray.txt"
+0x10 next_id @"typedef--u32.txt"
+}

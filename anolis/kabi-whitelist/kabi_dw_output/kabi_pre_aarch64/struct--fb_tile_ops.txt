@@ -1,0 +1,35 @@
+Version: 1.0
+File: include/linux/fb.h:367
+Symbol:
+Byte size 48
+struct fb_tile_ops {
+0x0 fb_settile * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * @"struct--fb_tilemap.txt"
+)
+"void"
+0x8 fb_tilecopy * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * @"struct--fb_tilearea.txt"
+)
+"void"
+0x10 fb_tilefill * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * @"struct--fb_tilerect.txt"
+)
+"void"
+0x18 fb_tileblit * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * @"struct--fb_tileblit.txt"
+)
+"void"
+0x20 fb_tilecursor * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * @"struct--fb_tilecursor.txt"
+)
+"void"
+0x28 fb_get_tilemax * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+)
+"int"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/bpf.h:852
+Symbol:
+Byte size 4
+enum bpf_access_type {
+BPF_READ = 0x1
+BPF_WRITE = 0x2
+}

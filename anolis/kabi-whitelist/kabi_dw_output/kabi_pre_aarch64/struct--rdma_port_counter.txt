@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/rdma_counter.h:28
+Symbol:
+Byte size 64
+struct rdma_port_counter {
+0x0 mode @"struct--rdma_counter_mode.txt"
+0x10 hstats * @"struct--rdma_hw_stats.txt"
+0x18 num_counters "unsigned int"
+0x20 lock @"struct--mutex.txt"
+}

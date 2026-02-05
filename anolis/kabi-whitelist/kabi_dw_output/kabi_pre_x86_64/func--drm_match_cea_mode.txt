@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:4295
+Symbol:
+func drm_match_cea_mode (
+to_match * const @"struct--drm_display_mode.txt"
+)
+@"typedef--u8.txt"

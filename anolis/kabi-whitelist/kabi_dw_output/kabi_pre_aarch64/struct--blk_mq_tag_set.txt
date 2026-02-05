@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/linux/blk-mq.h:504
+Symbol:
+Byte size 200
+struct blk_mq_tag_set {
+0x0 ops * const @"struct--blk_mq_ops.txt"
+0x8 map [3]@"struct--blk_mq_queue_map.txt"
+0x38 nr_maps "unsigned int"
+0x3c nr_hw_queues "unsigned int"
+0x40 queue_depth "unsigned int"
+0x44 reserved_tags "unsigned int"
+0x48 cmd_size "unsigned int"
+0x4c numa_node "int"
+0x50 timeout "unsigned int"
+0x54 flags "unsigned int"
+0x58 driver_data * "void"
+0x60 tags * * @"struct--blk_mq_tags.txt"
+0x68 shared_tags * @"struct--blk_mq_tags.txt"
+0x70 tag_list_lock @"struct--mutex.txt"
+0x90 tag_list @"struct--list_head.txt"
+0xa0 srcu * @"struct--srcu_struct.txt"
+0xa8 (NULL) union (NULL) {
+nr_static_rqs "unsigned int"
+ck_kabi_hidden_526 struct (NULL) {
+0x0 ck_reserved1 "long unsigned int"
+}
+(NULL) union (NULL) {
+}
+}
+0xb0 ck_reserved2 "long unsigned int"
+0xb8 ck_reserved3 "long unsigned int"
+0xc0 ck_reserved4 "long unsigned int"
+}

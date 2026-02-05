@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/leds.h:713
+Symbol:
+Byte size 8
+struct led_pattern {
+0x0 delta_t @"typedef--u32.txt"
+0x4 brightness "int"
+}

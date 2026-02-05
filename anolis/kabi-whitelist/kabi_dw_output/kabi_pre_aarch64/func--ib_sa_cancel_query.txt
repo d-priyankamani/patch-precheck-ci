@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/sa_query.c:1150
+Symbol:
+func ib_sa_cancel_query (
+id "int"
+query * @"struct--ib_sa_query.txt"
+)
+"void"

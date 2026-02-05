@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/irq/manage.c:735
+Symbol:
+func disable_irq (
+irq "unsigned int"
+)
+"void"

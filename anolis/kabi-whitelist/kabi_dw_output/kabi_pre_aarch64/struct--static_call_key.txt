@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/static_call_types.h:94
+Symbol:
+Byte size 8
+struct static_call_key {
+0x0 func * "void"
+}

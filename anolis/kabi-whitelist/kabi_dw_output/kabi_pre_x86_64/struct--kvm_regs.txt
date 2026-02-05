@@ -1,0 +1,24 @@
+Version: 1.0
+File: arch/x86/include/uapi/asm/kvm.h:111
+Symbol:
+Byte size 144
+struct kvm_regs {
+0x0 rax @"typedef--__u64.txt"
+0x8 rbx @"typedef--__u64.txt"
+0x10 rcx @"typedef--__u64.txt"
+0x18 rdx @"typedef--__u64.txt"
+0x20 rsi @"typedef--__u64.txt"
+0x28 rdi @"typedef--__u64.txt"
+0x30 rsp @"typedef--__u64.txt"
+0x38 rbp @"typedef--__u64.txt"
+0x40 r8 @"typedef--__u64.txt"
+0x48 r9 @"typedef--__u64.txt"
+0x50 r10 @"typedef--__u64.txt"
+0x58 r11 @"typedef--__u64.txt"
+0x60 r12 @"typedef--__u64.txt"
+0x68 r13 @"typedef--__u64.txt"
+0x70 r14 @"typedef--__u64.txt"
+0x78 r15 @"typedef--__u64.txt"
+0x80 rip @"typedef--__u64.txt"
+0x88 rflags @"typedef--__u64.txt"
+}

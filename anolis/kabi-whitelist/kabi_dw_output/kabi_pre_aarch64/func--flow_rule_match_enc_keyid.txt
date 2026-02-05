@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/flow_offload.c:205
+Symbol:
+func flow_rule_match_enc_keyid (
+rule * const @"struct--flow_rule.txt"
+out * @"struct--flow_match_enc_keyid.txt"
+)
+"void"

@@ -1,0 +1,53 @@
+Version: 1.0
+File: include/linux/blk-mq.h:81
+Symbol:
+Byte size 248
+Alignment 8
+struct request {
+0x0 q * @"struct--request_queue.txt"
+0x8 mq_ctx * @"struct--blk_mq_ctx.txt"
+0x10 mq_hctx * @"struct--blk_mq_hw_ctx.txt"
+0x18 cmd_flags @"typedef--blk_opf_t.txt"
+0x1c rq_flags @"typedef--req_flags_t.txt"
+0x20 tag "int"
+0x24 internal_tag "int"
+0x28 timeout "unsigned int"
+0x2c __data_len "unsigned int"
+0x30 __sector @"typedef--sector_t.txt"
+0x38 bio * @"struct--bio.txt"
+0x40 biotail * @"struct--bio.txt"
+0x48 (NULL) union (NULL) {
+queuelist @"struct--list_head.txt"
+rq_next * @"struct--request.txt"
+}
+0x58 part * @"struct--block_device.txt"
+0x60 alloc_time_ns @"typedef--u64.txt"
+0x68 start_time_ns @"typedef--u64.txt"
+0x70 io_start_time_ns @"typedef--u64.txt"
+0x78 stats_sectors "short unsigned int"
+0x7a nr_phys_segments "short unsigned int"
+0x7c nr_integrity_segments "short unsigned int"
+0x7e ioprio "short unsigned int"
+0x80 state @"enum--mq_rq_state.txt"
+0x84 ref @"typedef--atomic_t.txt"
+0x88 deadline "long unsigned int"
+0x90 (NULL) union (NULL) {
+hash @"struct--hlist_node.txt"
+ipi_list @"struct--llist_node.txt"
+}
+0xa0 8 (NULL) union (NULL) {
+rb_node @"struct--rb_node.txt"
+special_vec @"struct--bio_vec.txt"
+}
+0xb8 elv struct (NULL) {
+0x0 icq * @"struct--io_cq.txt"
+0x8 priv [2]* "void"
+}
+0xd0 flush struct (NULL) {
+0x0 seq "unsigned int"
+0x8 saved_end_io * @"typedef--rq_end_io_fn.txt"
+}
+0xe0 fifo_time @"typedef--u64.txt"
+0xe8 end_io * @"typedef--rq_end_io_fn.txt"
+0xf0 end_io_data * "void"
+}

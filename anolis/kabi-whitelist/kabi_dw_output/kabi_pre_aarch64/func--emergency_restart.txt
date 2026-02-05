@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/reboot.c:74
+Symbol:
+func emergency_restart (
+)
+"void"

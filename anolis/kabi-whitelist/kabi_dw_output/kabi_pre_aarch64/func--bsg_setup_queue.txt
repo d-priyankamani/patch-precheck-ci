@@ -1,0 +1,11 @@
+Version: 1.0
+File: block/bsg-lib.c:361
+Symbol:
+func bsg_setup_queue (
+dev * @"struct--device.txt"
+name * const "char"
+job_fn * @"typedef--bsg_job_fn.txt"
+timeout * @"typedef--bsg_timeout_fn.txt"
+dd_job_size "int"
+)
+* @"struct--request_queue.txt"

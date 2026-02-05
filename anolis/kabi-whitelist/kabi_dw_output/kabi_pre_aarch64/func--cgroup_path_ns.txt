@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/cgroup/cgroup.c:2384
+Symbol:
+func cgroup_path_ns (
+cgrp * @"struct--cgroup.txt"
+buf * "char"
+buflen @"typedef--size_t.txt"
+ns * @"struct--cgroup_namespace.txt"
+)
+"int"

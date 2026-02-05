@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_resource.c:385
+Symbol:
+func ttm_resource_manager_init (
+man * @"struct--ttm_resource_manager.txt"
+bdev * @"struct--ttm_device.txt"
+size @"typedef--uint64_t.txt"
+)
+"void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/ftrace.h:298
+Symbol:
+Byte size 48
+struct ftrace_ops_hash {
+0x0 notrace_hash * @"struct--ftrace_hash.txt"
+0x8 filter_hash * @"struct--ftrace_hash.txt"
+0x10 regex_lock @"struct--mutex.txt"
+}

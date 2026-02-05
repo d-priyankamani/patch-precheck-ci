@@ -1,0 +1,13 @@
+Version: 1.0
+File: kernel/trace/pid_list.h:78
+Symbol:
+Byte size 2144
+struct trace_pid_list {
+0x0 lock @"typedef--raw_spinlock_t.txt"
+0x8 refill_irqwork @"struct--irq_work.txt"
+0x48 upper [256]* @"union--upper_chunk.txt"
+0x848 upper_list * @"union--upper_chunk.txt"
+0x850 lower_list * @"union--lower_chunk.txt"
+0x858 free_upper_chunks "int"
+0x85c free_lower_chunks "int"
+}

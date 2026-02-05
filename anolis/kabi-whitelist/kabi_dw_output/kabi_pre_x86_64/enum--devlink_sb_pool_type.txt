@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:154
+Symbol:
+Byte size 4
+enum devlink_sb_pool_type {
+DEVLINK_SB_POOL_TYPE_INGRESS = 0x0
+DEVLINK_SB_POOL_TYPE_EGRESS = 0x1
+}

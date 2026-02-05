@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/sched/sched.h:596
+Symbol:
+Byte size 64
+Alignment 64
+struct cpu_alistats {
+0x0 nr_migrations @"typedef--u64.txt"
+0x8 steal_high @"typedef--u64.txt"
+}

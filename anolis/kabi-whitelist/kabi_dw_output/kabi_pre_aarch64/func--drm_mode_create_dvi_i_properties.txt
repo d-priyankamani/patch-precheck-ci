@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:1557
+Symbol:
+func drm_mode_create_dvi_i_properties (
+dev * @"struct--drm_device.txt"
+)
+"int"

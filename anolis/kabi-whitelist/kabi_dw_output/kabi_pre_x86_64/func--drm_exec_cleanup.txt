@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_exec.c:114
+Symbol:
+func drm_exec_cleanup (
+exec * @"struct--drm_exec.txt"
+)
+@"typedef--bool.txt"

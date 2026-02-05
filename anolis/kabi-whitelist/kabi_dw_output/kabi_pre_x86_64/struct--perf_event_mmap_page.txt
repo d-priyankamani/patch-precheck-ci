@@ -1,0 +1,43 @@
+Version: 1.0
+File: include/uapi/linux/perf_event.h:583
+Symbol:
+Byte size 1088
+struct perf_event_mmap_page {
+0x0 version @"typedef--__u32.txt"
+0x4 compat_version @"typedef--__u32.txt"
+0x8 lock @"typedef--__u32.txt"
+0xc index @"typedef--__u32.txt"
+0x10 offset @"typedef--__s64.txt"
+0x18 time_enabled @"typedef--__u64.txt"
+0x20 time_running @"typedef--__u64.txt"
+0x28 (NULL) union (NULL) {
+capabilities @"typedef--__u64.txt"
+(NULL) struct (NULL) {
+0x0:0-1 cap_bit0 @"typedef--__u64.txt"
+0x0:1-2 cap_bit0_is_deprecated @"typedef--__u64.txt"
+0x0:2-3 cap_user_rdpmc @"typedef--__u64.txt"
+0x0:3-4 cap_user_time @"typedef--__u64.txt"
+0x0:4-5 cap_user_time_zero @"typedef--__u64.txt"
+0x0:5-6 cap_user_time_short @"typedef--__u64.txt"
+0x0:6-64 cap_____res @"typedef--__u64.txt"
+}
+}
+0x30 pmc_width @"typedef--__u16.txt"
+0x32 time_shift @"typedef--__u16.txt"
+0x34 time_mult @"typedef--__u32.txt"
+0x38 time_offset @"typedef--__u64.txt"
+0x40 time_zero @"typedef--__u64.txt"
+0x48 size @"typedef--__u32.txt"
+0x4c __reserved_1 @"typedef--__u32.txt"
+0x50 time_cycles @"typedef--__u64.txt"
+0x58 time_mask @"typedef--__u64.txt"
+0x60 __reserved [928]@"typedef--__u8.txt"
+0x400 data_head @"typedef--__u64.txt"
+0x408 data_tail @"typedef--__u64.txt"
+0x410 data_offset @"typedef--__u64.txt"
+0x418 data_size @"typedef--__u64.txt"
+0x420 aux_head @"typedef--__u64.txt"
+0x428 aux_tail @"typedef--__u64.txt"
+0x430 aux_offset @"typedef--__u64.txt"
+0x438 aux_size @"typedef--__u64.txt"
+}

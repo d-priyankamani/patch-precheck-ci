@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/drm/drm_connector.h:404
+Symbol:
+Byte size 8
+struct drm_luminance_range_info {
+0x0 min_luminance @"typedef--u32.txt"
+0x4 max_luminance @"typedef--u32.txt"
+}

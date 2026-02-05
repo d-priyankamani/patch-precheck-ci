@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/linux/trace_events.h:293
+Symbol:
+Byte size 72
+struct trace_event_class {
+0x0 system * const "char"
+0x8 probe * "void"
+0x10 perf_probe * "void"
+0x18 reg * func (NULL) (
+(NULL) * @"struct--trace_event_call.txt"
+(NULL) @"enum--trace_reg.txt"
+(NULL) * "void"
+)
+"int"
+0x20 fields_array * @"struct--trace_event_fields.txt"
+0x28 get_fields * func (NULL) (
+(NULL) * @"struct--trace_event_call.txt"
+)
+* @"struct--list_head.txt"
+0x30 fields @"struct--list_head.txt"
+0x40 raw_init * func (NULL) (
+(NULL) * @"struct--trace_event_call.txt"
+)
+"int"
+}

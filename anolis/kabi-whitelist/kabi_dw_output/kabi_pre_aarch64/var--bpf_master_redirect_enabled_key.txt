@@ -1,0 +1,4 @@
+Version: 1.0
+File: net/core/filter.c:4334
+Symbol:
+var bpf_master_redirect_enabled_key "void"

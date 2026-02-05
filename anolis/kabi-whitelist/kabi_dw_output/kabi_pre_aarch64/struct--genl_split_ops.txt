@@ -1,0 +1,48 @@
+Version: 1.0
+File: include/net/genetlink.h:236
+Symbol:
+Byte size 40
+struct genl_split_ops {
+0x0 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 pre_doit * func (NULL) (
+(NULL) * const @"struct--genl_split_ops.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--genl_info.txt"
+)
+"int"
+0x8 doit * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--genl_info.txt"
+)
+"int"
+0x10 post_doit * func (NULL) (
+(NULL) * const @"struct--genl_split_ops.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--genl_info.txt"
+)
+"void"
+}
+(NULL) struct (NULL) {
+0x0 start * func (NULL) (
+(NULL) * @"struct--netlink_callback.txt"
+)
+"int"
+0x8 dumpit * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--netlink_callback.txt"
+)
+"int"
+0x10 done * func (NULL) (
+(NULL) * @"struct--netlink_callback.txt"
+)
+"int"
+}
+}
+0x18 policy * const @"struct--nla_policy.txt"
+0x20 maxattr "unsigned int"
+0x24 cmd @"typedef--u8.txt"
+0x25 internal_flags @"typedef--u8.txt"
+0x26 flags @"typedef--u8.txt"
+0x27 validate @"typedef--u8.txt"
+}

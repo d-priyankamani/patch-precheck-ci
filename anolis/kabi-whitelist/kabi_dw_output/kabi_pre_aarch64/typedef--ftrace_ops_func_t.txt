@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/ftrace.h:294
+Symbol:
+Byte size 8
+typedef ftrace_ops_func_t
+* func (NULL) (
+(NULL) * @"struct--ftrace_ops.txt"
+(NULL) @"enum--ftrace_ops_cmd.txt"
+)
+"int"

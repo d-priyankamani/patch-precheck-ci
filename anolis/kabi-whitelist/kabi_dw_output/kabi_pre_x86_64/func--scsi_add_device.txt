@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/scsi/scsi_scan.c:1609
+Symbol:
+func scsi_add_device (
+host * @"struct--Scsi_Host.txt"
+channel @"typedef--uint.txt"
+target @"typedef--uint.txt"
+lun @"typedef--u64.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo.c:392
+Symbol:
+func ttm_bo_put (
+bo * @"struct--ttm_buffer_object.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/page_alloc.c:5046
+Symbol:
+func __free_pages (
+page * @"struct--page.txt"
+order "unsigned int"
+)
+"void"

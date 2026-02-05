@@ -1,0 +1,15 @@
+Version: 1.0
+File: net/core/dev.c:6287
+Symbol:
+func napi_busy_loop (
+napi_id "unsigned int"
+loop_end * func (NULL) (
+(NULL) * "void"
+(NULL) "long unsigned int"
+)
+@"typedef--bool.txt"
+loop_end_arg * "void"
+prefer_busy_poll @"typedef--bool.txt"
+budget @"typedef--u16.txt"
+)
+"void"

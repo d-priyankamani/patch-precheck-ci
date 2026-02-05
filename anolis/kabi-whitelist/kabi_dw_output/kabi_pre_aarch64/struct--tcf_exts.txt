@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/net/pkt_cls.h:214
+Symbol:
+Byte size 40
+struct tcf_exts {
+0x0 type @"typedef--__u32.txt"
+0x4 nr_actions "int"
+0x8 actions * * @"struct--tc_action.txt"
+0x10 net * @"struct--net.txt"
+0x18 ns_tracker @"typedef--netns_tracker.txt"
+0x18 miss_cookie_node * @"<declarations>/struct--tcf_exts_miss_cookie_node.txt"
+0x20 action "int"
+0x24 police "int"
+}

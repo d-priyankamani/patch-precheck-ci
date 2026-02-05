@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/notifier.h:51
+Symbol:
+Byte size 8
+typedef notifier_fn_t
+* func (NULL) (
+(NULL) * @"struct--notifier_block.txt"
+(NULL) "long unsigned int"
+(NULL) * "void"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/scatterlist.c:126
+Symbol:
+func sg_init_table (
+sgl * @"struct--scatterlist.txt"
+nents "unsigned int"
+)
+"void"

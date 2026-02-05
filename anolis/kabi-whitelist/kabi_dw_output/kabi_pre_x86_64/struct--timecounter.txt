@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/timecounter.h:55
+Symbol:
+Byte size 40
+struct timecounter {
+0x0 cc * const @"struct--cyclecounter.txt"
+0x8 cycle_last @"typedef--u64.txt"
+0x10 nsec @"typedef--u64.txt"
+0x18 mask @"typedef--u64.txt"
+0x20 frac @"typedef--u64.txt"
+}

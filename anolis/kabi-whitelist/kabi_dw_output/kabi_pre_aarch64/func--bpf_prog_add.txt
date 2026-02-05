@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/bpf/syscall.c:2319
+Symbol:
+func bpf_prog_add (
+prog * @"struct--bpf_prog.txt"
+i "int"
+)
+"void"

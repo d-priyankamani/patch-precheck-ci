@@ -1,0 +1,26 @@
+Version: 1.0
+File: include/linux/crypto.h:235
+Symbol:
+Byte size 32
+struct cipher_alg {
+0x0 cia_min_keysize "unsigned int"
+0x4 cia_max_keysize "unsigned int"
+0x8 cia_setkey * func (NULL) (
+(NULL) * @"struct--crypto_tfm.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x10 cia_encrypt * func (NULL) (
+(NULL) * @"struct--crypto_tfm.txt"
+(NULL) * @"typedef--u8.txt"
+(NULL) * const @"typedef--u8.txt"
+)
+"void"
+0x18 cia_decrypt * func (NULL) (
+(NULL) * @"struct--crypto_tfm.txt"
+(NULL) * @"typedef--u8.txt"
+(NULL) * const @"typedef--u8.txt"
+)
+"void"
+}

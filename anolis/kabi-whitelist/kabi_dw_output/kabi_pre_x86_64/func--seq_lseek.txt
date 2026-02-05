@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/seq_file.c:308
+Symbol:
+func seq_lseek (
+file * @"struct--file.txt"
+offset @"typedef--loff_t.txt"
+whence "int"
+)
+@"typedef--loff_t.txt"

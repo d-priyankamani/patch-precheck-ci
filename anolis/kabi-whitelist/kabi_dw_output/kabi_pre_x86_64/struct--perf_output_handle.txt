@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/linux/perf_event.h:1056
+Symbol:
+Byte size 56
+struct perf_output_handle {
+0x0 event * @"struct--perf_event.txt"
+0x8 rb * @"struct--perf_buffer.txt"
+0x10 wakeup "long unsigned int"
+0x18 size "long unsigned int"
+0x20 (NULL) union (NULL) {
+flags @"typedef--u64.txt"
+aux_flags @"typedef--u64.txt"
+(NULL) struct (NULL) {
+0x0:0-1 skip_read @"typedef--u64.txt"
+}
+}
+0x28 (NULL) union (NULL) {
+addr * "void"
+head "long unsigned int"
+}
+0x30 page "int"
+}

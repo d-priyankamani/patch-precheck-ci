@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vma_manager.c:398
+Symbol:
+func drm_vma_node_is_allowed (
+node * @"struct--drm_vma_offset_node.txt"
+tag * @"<declarations>/struct--drm_file.txt"
+)
+@"typedef--bool.txt"

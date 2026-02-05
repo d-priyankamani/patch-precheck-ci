@@ -1,0 +1,233 @@
+Version: 1.0
+File: include/linux/bpf.h:76
+Symbol:
+Byte size 368
+struct bpf_map_ops {
+0x0 map_alloc_check * func (NULL) (
+(NULL) * @"union--bpf_attr.txt"
+)
+"int"
+0x8 map_alloc * func (NULL) (
+(NULL) * @"union--bpf_attr.txt"
+)
+* @"struct--bpf_map.txt"
+0x10 map_release * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * @"struct--file.txt"
+)
+"void"
+0x18 map_free * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+)
+"void"
+0x20 map_get_next_key * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+(NULL) * "void"
+)
+"int"
+0x28 map_release_uref * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+)
+"void"
+0x30 map_lookup_elem_sys_only * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+)
+* "void"
+0x38 map_lookup_batch * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * const @"union--bpf_attr.txt"
+(NULL) * @"union--bpf_attr.txt"
+)
+"int"
+0x40 map_lookup_and_delete_elem * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+(NULL) * "void"
+(NULL) @"typedef--u64.txt"
+)
+"int"
+0x48 map_lookup_and_delete_batch * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * const @"union--bpf_attr.txt"
+(NULL) * @"union--bpf_attr.txt"
+)
+"int"
+0x50 map_update_batch * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * @"struct--file.txt"
+(NULL) * const @"union--bpf_attr.txt"
+(NULL) * @"union--bpf_attr.txt"
+)
+"int"
+0x58 map_delete_batch * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * const @"union--bpf_attr.txt"
+(NULL) * @"union--bpf_attr.txt"
+)
+"int"
+0x60 map_lookup_elem * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+)
+* "void"
+0x68 map_update_elem * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+(NULL) * "void"
+(NULL) @"typedef--u64.txt"
+)
+"long int"
+0x70 map_delete_elem * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+)
+"long int"
+0x78 map_push_elem * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+(NULL) @"typedef--u64.txt"
+)
+"long int"
+0x80 map_pop_elem * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+)
+"long int"
+0x88 map_peek_elem * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+)
+"long int"
+0x90 map_lookup_percpu_elem * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+(NULL) @"typedef--u32.txt"
+)
+* "void"
+0x98 map_fd_get_ptr * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * @"struct--file.txt"
+(NULL) "int"
+)
+* "void"
+0xa0 map_fd_put_ptr * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+0xa8 map_gen_lookup * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * @"struct--bpf_insn.txt"
+)
+"int"
+0xb0 map_fd_sys_lookup_elem * func (NULL) (
+(NULL) * "void"
+)
+@"typedef--u32.txt"
+0xb8 map_seq_show_elem * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * "void"
+(NULL) * @"struct--seq_file.txt"
+)
+"void"
+0xc0 map_check_btf * func (NULL) (
+(NULL) * const @"struct--bpf_map.txt"
+(NULL) * const @"<declarations>/struct--btf.txt"
+(NULL) * const @"struct--btf_type.txt"
+(NULL) * const @"struct--btf_type.txt"
+)
+"int"
+0xc8 map_poke_track * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * @"struct--bpf_prog_aux.txt"
+)
+"int"
+0xd0 map_poke_untrack * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * @"struct--bpf_prog_aux.txt"
+)
+"void"
+0xd8 map_poke_run * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--bpf_prog.txt"
+(NULL) * @"struct--bpf_prog.txt"
+)
+"void"
+0xe0 map_direct_value_addr * func (NULL) (
+(NULL) * const @"struct--bpf_map.txt"
+(NULL) * @"typedef--u64.txt"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0xe8 map_direct_value_meta * func (NULL) (
+(NULL) * const @"struct--bpf_map.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) * @"typedef--u32.txt"
+)
+"int"
+0xf0 map_mmap * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+0xf8 map_poll * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * @"struct--file.txt"
+(NULL) * @"struct--poll_table_struct.txt"
+)
+@"typedef--__poll_t.txt"
+0x100 map_local_storage_charge * func (NULL) (
+(NULL) * @"struct--bpf_local_storage_map.txt"
+(NULL) * "void"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0x108 map_local_storage_uncharge * func (NULL) (
+(NULL) * @"struct--bpf_local_storage_map.txt"
+(NULL) * "void"
+(NULL) @"typedef--u32.txt"
+)
+"void"
+0x110 map_owner_storage_ptr * func (NULL) (
+(NULL) * "void"
+)
+* * @"struct--bpf_local_storage.txt"
+0x118 map_redirect * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+)
+"long int"
+0x120 map_meta_equal * func (NULL) (
+(NULL) * const @"struct--bpf_map.txt"
+(NULL) * const @"struct--bpf_map.txt"
+)
+@"typedef--bool.txt"
+0x128 map_set_for_each_callback_args * func (NULL) (
+(NULL) * @"struct--bpf_verifier_env.txt"
+(NULL) * @"struct--bpf_func_state.txt"
+(NULL) * @"struct--bpf_func_state.txt"
+)
+"int"
+0x130 map_for_each_callback * func (NULL) (
+(NULL) * @"struct--bpf_map.txt"
+(NULL) @"typedef--bpf_callback_t.txt"
+(NULL) * "void"
+(NULL) @"typedef--u64.txt"
+)
+"long int"
+0x138 map_mem_usage * func (NULL) (
+(NULL) * const @"struct--bpf_map.txt"
+)
+@"typedef--u64.txt"
+0x140 map_btf_id * "int"
+0x148 iter_seq_info * const @"struct--bpf_iter_seq_info.txt"
+0x150 ck_reserved1 "long unsigned int"
+0x158 ck_reserved2 "long unsigned int"
+0x160 ck_reserved3 "long unsigned int"
+0x168 ck_reserved4 "long unsigned int"
+}

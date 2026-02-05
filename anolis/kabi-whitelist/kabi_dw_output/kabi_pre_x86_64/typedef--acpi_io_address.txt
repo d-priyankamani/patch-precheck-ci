@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/acpi/actypes.h:128
+Symbol:
+typedef acpi_io_address
+@"typedef--u64.txt"

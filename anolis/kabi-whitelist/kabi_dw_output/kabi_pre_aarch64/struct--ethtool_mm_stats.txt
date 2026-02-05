@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/ethtool.h:594
+Symbol:
+Byte size 48
+struct ethtool_mm_stats {
+0x0 MACMergeFrameAssErrorCount @"typedef--u64.txt"
+0x8 MACMergeFrameSmdErrorCount @"typedef--u64.txt"
+0x10 MACMergeFrameAssOkCount @"typedef--u64.txt"
+0x18 MACMergeFragCountRx @"typedef--u64.txt"
+0x20 MACMergeFragCountTx @"typedef--u64.txt"
+0x28 MACMergeHoldCount @"typedef--u64.txt"
+}

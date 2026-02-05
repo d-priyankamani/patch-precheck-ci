@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_prime.c:688
+Symbol:
+func drm_gem_dmabuf_vmap (
+dma_buf * @"struct--dma_buf.txt"
+map * @"struct--iosys_map.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/eventfd.c:118
+Symbol:
+func eventfd_ctx_put (
+ctx * @"struct--eventfd_ctx.txt"
+)
+"void"

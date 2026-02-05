@@ -1,0 +1,90 @@
+Version: 1.0
+File: include/linux/vfio.h:101
+Symbol:
+Byte size 136
+struct vfio_device_ops {
+0x0 name * "char"
+0x8 init * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+)
+"int"
+0x10 release * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+)
+"void"
+0x18 bind_iommufd * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) * @"<declarations>/struct--iommufd_ctx.txt"
+(NULL) * @"typedef--u32.txt"
+)
+"int"
+0x20 unbind_iommufd * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+)
+"void"
+0x28 attach_ioas * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) * @"typedef--u32.txt"
+)
+"int"
+0x30 detach_ioas * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+)
+"void"
+0x38 open_device * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+)
+"int"
+0x40 close_device * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+)
+"void"
+0x48 read * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x50 write * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x58 ioctl * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"long int"
+0x60 mmap * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+0x68 request * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) "unsigned int"
+)
+"void"
+0x70 match * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) * "char"
+)
+"int"
+0x78 dma_unmap * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+)
+"void"
+0x80 device_feature * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * "void"
+(NULL) @"typedef--size_t.txt"
+)
+"int"
+}

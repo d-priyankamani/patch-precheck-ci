@@ -1,0 +1,26 @@
+Version: 1.0
+File: include/kvm/iodev.h:17
+Symbol:
+Byte size 24
+struct kvm_io_device_ops {
+0x0 read * func (NULL) (
+(NULL) * @"struct--kvm_vcpu.txt"
+(NULL) * @"struct--kvm_io_device.txt"
+(NULL) @"typedef--gpa_t.txt"
+(NULL) "int"
+(NULL) * "void"
+)
+"int"
+0x8 write * func (NULL) (
+(NULL) * @"struct--kvm_vcpu.txt"
+(NULL) * @"struct--kvm_io_device.txt"
+(NULL) @"typedef--gpa_t.txt"
+(NULL) "int"
+(NULL) * const "void"
+)
+"int"
+0x10 destructor * func (NULL) (
+(NULL) * @"struct--kvm_io_device.txt"
+)
+"void"
+}

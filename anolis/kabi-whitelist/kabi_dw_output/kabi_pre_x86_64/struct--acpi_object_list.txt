@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/acpi/actypes.h:956
+Symbol:
+Byte size 16
+struct acpi_object_list {
+0x0 count @"typedef--u32.txt"
+0x8 pointer * @"union--acpi_object.txt"
+}

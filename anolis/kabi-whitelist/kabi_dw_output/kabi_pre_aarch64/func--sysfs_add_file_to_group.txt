@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/sysfs/file.c:379
+Symbol:
+func sysfs_add_file_to_group (
+kobj * @"struct--kobject.txt"
+attr * const @"struct--attribute.txt"
+group * const "char"
+)
+"int"

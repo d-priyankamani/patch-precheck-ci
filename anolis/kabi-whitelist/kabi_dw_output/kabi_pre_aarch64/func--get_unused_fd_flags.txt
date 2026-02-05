@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/file.c:558
+Symbol:
+func get_unused_fd_flags (
+flags "unsigned int"
+)
+"int"

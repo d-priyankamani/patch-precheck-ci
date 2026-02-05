@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/strparser.h:17
+Symbol:
+Byte size 40
+struct strp_stats {
+0x0 msgs "long long unsigned int"
+0x8 bytes "long long unsigned int"
+0x10 mem_fail "unsigned int"
+0x14 need_more_hdr "unsigned int"
+0x18 msg_too_big "unsigned int"
+0x1c msg_timeouts "unsigned int"
+0x20 bad_hdr_len "unsigned int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/parser.c:115
+Symbol:
+func match_token (
+s * "char"
+table * const @"struct--match_token.txt"
+args * @"typedef--substring_t.txt"
+)
+"int"

@@ -1,0 +1,14 @@
+Version: 1.0
+File: kernel/events/core.c:10270
+Symbol:
+func perf_trace_run_bpf_submit (
+raw_data * "void"
+size "int"
+rctx "int"
+call * @"struct--trace_event_call.txt"
+count @"typedef--u64.txt"
+regs * @"struct--pt_regs.txt"
+head * @"struct--hlist_head.txt"
+task * @"struct--task_struct.txt"
+)
+"void"

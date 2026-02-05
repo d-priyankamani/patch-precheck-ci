@@ -1,0 +1,46 @@
+Version: 1.0
+File: include/rdma/uverbs_types.h:57
+Symbol:
+Byte size 64
+struct uverbs_obj_type_class {
+0x0 alloc_begin * func (NULL) (
+(NULL) * const @"struct--uverbs_api_object.txt"
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+* @"struct--ib_uobject.txt"
+0x8 alloc_commit * func (NULL) (
+(NULL) * @"struct--ib_uobject.txt"
+)
+"void"
+0x10 alloc_abort * func (NULL) (
+(NULL) * @"struct--ib_uobject.txt"
+)
+"void"
+0x18 lookup_get * func (NULL) (
+(NULL) * const @"struct--uverbs_api_object.txt"
+(NULL) * @"struct--ib_uverbs_file.txt"
+(NULL) @"typedef--s64.txt"
+(NULL) @"enum--rdma_lookup_mode.txt"
+)
+* @"struct--ib_uobject.txt"
+0x20 lookup_put * func (NULL) (
+(NULL) * @"struct--ib_uobject.txt"
+(NULL) @"enum--rdma_lookup_mode.txt"
+)
+"void"
+0x28 destroy_hw * func (NULL) (
+(NULL) * @"struct--ib_uobject.txt"
+(NULL) @"enum--rdma_remove_reason.txt"
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+"int"
+0x30 remove_handle * func (NULL) (
+(NULL) * @"struct--ib_uobject.txt"
+)
+"void"
+0x38 swap_uobjects * func (NULL) (
+(NULL) * @"struct--ib_uobject.txt"
+(NULL) * @"struct--ib_uobject.txt"
+)
+"void"
+}

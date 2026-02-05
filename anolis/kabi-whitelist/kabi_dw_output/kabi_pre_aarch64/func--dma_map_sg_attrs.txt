@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/dma/mapping.c:242
+Symbol:
+func dma_map_sg_attrs (
+dev * @"struct--device.txt"
+sg * @"struct--scatterlist.txt"
+nents "int"
+dir @"enum--dma_data_direction.txt"
+attrs "long unsigned int"
+)
+"unsigned int"

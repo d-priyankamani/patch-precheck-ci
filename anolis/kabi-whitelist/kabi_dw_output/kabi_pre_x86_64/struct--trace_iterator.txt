@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/linux/trace_events.h:93
+Symbol:
+Byte size 8488
+struct trace_iterator {
+0x0 tr * @"struct--trace_array.txt"
+0x8 trace * @"struct--tracer.txt"
+0x10 array_buffer * @"struct--array_buffer.txt"
+0x18 private * "void"
+0x20 cpu_file "int"
+0x28 mutex @"struct--mutex.txt"
+0x48 buffer_iter * * @"<declarations>/struct--ring_buffer_iter.txt"
+0x50 iter_flags "long unsigned int"
+0x58 temp * "void"
+0x60 temp_size "unsigned int"
+0x68 fmt * "char"
+0x70 fmt_size "unsigned int"
+0x78 wait_index "long int"
+0x80 tmp_seq @"struct--trace_seq.txt"
+0x10a8 started @"typedef--cpumask_var_t.txt"
+0x10b0 snapshot @"typedef--bool.txt"
+0x10b8 seq @"struct--trace_seq.txt"
+0x20e0 ent * @"struct--trace_entry.txt"
+0x20e8 lost_events "long unsigned int"
+0x20f0 leftover "int"
+0x20f4 ent_size "int"
+0x20f8 cpu "int"
+0x2100 ts @"typedef--u64.txt"
+0x2108 pos @"typedef--loff_t.txt"
+0x2110 idx "long int"
+0x2118 ck_reserved1 "long unsigned int"
+0x2120 ck_reserved2 "long unsigned int"
+}

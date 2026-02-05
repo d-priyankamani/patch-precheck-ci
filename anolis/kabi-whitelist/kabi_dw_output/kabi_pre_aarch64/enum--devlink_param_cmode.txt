@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:227
+Symbol:
+Byte size 4
+enum devlink_param_cmode {
+DEVLINK_PARAM_CMODE_RUNTIME = 0x0
+DEVLINK_PARAM_CMODE_DRIVERINIT = 0x1
+DEVLINK_PARAM_CMODE_PERMANENT = 0x2
+__DEVLINK_PARAM_CMODE_MAX = 0x3
+DEVLINK_PARAM_CMODE_MAX = 0x2
+}

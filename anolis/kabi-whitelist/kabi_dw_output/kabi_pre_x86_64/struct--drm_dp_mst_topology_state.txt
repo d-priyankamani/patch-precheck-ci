@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/drm/display/drm_dp_mst_helper.h:583
+Symbol:
+Byte size 88
+struct drm_dp_mst_topology_state {
+0x0 base @"struct--drm_private_state.txt"
+0x18 mgr * @"struct--drm_dp_mst_topology_mgr.txt"
+0x20 pending_crtc_mask @"typedef--u32.txt"
+0x28 commit_deps * * @"struct--drm_crtc_commit.txt"
+0x30 num_commit_deps @"typedef--size_t.txt"
+0x38 payload_mask @"typedef--u32.txt"
+0x40 payloads @"struct--list_head.txt"
+0x50 total_avail_slots @"typedef--u8.txt"
+0x51 start_slot @"typedef--u8.txt"
+0x54 pbn_div "int"
+}

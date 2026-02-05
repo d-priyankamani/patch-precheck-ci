@@ -1,0 +1,15 @@
+Version: 1.0
+File: drivers/infiniband/core/mad.c:218
+Symbol:
+func ib_register_mad_agent (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+qp_type @"enum--ib_qp_type.txt"
+mad_reg_req * @"struct--ib_mad_reg_req.txt"
+rmpp_version @"typedef--u8.txt"
+send_handler @"typedef--ib_mad_send_handler.txt"
+recv_handler @"typedef--ib_mad_recv_handler.txt"
+context * "void"
+registration_flags @"typedef--u32.txt"
+)
+* @"struct--ib_mad_agent.txt"

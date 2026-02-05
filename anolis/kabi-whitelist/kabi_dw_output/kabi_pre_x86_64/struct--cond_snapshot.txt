@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/trace/trace.h:298
+Symbol:
+Byte size 16
+struct cond_snapshot {
+0x0 cond_data * "void"
+0x8 update @"typedef--cond_update_fn_t.txt"
+}

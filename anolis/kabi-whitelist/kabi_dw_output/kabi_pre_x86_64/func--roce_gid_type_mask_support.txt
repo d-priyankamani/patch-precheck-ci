@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/roce_gid_mgmt.c:82
+Symbol:
+func roce_gid_type_mask_support (
+ib_dev * @"struct--ib_device.txt"
+port @"typedef--u32.txt"
+)
+"long unsigned int"

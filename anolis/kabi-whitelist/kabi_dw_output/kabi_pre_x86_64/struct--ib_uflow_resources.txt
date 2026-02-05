@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/uverbs_std_types.h:126
+Symbol:
+Byte size 48
+struct ib_uflow_resources {
+0x0 max @"typedef--size_t.txt"
+0x8 num @"typedef--size_t.txt"
+0x10 collection_num @"typedef--size_t.txt"
+0x18 counters_num @"typedef--size_t.txt"
+0x20 counters * * @"struct--ib_counters.txt"
+0x28 collection * * @"struct--ib_flow_action.txt"
+}

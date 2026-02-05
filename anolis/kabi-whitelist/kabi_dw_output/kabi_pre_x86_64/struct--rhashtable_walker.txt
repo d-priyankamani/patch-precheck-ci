@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/rhashtable-types.h:106
+Symbol:
+Byte size 24
+struct rhashtable_walker {
+0x0 list @"struct--list_head.txt"
+0x10 tbl * @"struct--bucket_table.txt"
+}

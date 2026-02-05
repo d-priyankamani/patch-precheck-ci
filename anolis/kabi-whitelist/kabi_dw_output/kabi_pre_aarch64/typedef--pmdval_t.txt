@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/arm64/include/asm/pgtable-types.h:15
+Symbol:
+typedef pmdval_t
+@"typedef--u64.txt"

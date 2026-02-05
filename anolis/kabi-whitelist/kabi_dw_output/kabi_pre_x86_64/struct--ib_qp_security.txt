@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1762
+Symbol:
+Byte size 128
+struct ib_qp_security {
+0x0 qp * @"struct--ib_qp.txt"
+0x8 dev * @"struct--ib_device.txt"
+0x10 mutex @"struct--mutex.txt"
+0x30 ports_pkeys * @"struct--ib_ports_pkeys.txt"
+0x38 shared_qp_list @"struct--list_head.txt"
+0x48 security * "void"
+0x50 destroying @"typedef--bool.txt"
+0x54 error_list_count @"typedef--atomic_t.txt"
+0x58 error_complete @"struct--completion.txt"
+0x78 error_comps_pending "int"
+}

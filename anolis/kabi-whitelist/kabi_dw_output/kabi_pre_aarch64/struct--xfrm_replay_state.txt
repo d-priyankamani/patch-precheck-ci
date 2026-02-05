@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/xfrm.h:84
+Symbol:
+Byte size 12
+struct xfrm_replay_state {
+0x0 oseq @"typedef--__u32.txt"
+0x4 seq @"typedef--__u32.txt"
+0x8 bitmap @"typedef--__u32.txt"
+}

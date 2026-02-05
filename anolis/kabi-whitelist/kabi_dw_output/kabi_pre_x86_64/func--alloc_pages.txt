@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/mempolicy.c:2366
+Symbol:
+func alloc_pages (
+gfp @"typedef--gfp_t.txt"
+order "unsigned int"
+)
+* @"struct--page.txt"

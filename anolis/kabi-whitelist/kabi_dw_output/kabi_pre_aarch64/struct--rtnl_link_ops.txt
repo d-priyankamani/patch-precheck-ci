@@ -1,0 +1,119 @@
+Version: 1.0
+File: include/net/rtnetlink.h:95
+Symbol:
+Byte size 272
+struct rtnl_link_ops {
+0x0 list @"struct--list_head.txt"
+0x10 kind * const "char"
+0x18 priv_size @"typedef--size_t.txt"
+0x20 alloc * func (NULL) (
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * const "char"
+(NULL) "unsigned char"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+)
+* @"struct--net_device.txt"
+0x28 setup * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"void"
+0x30 netns_refund @"typedef--bool.txt"
+0x34 maxtype "unsigned int"
+0x38 policy * const @"struct--nla_policy.txt"
+0x40 validate * func (NULL) (
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x48 newlink * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x50 changelink * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x58 dellink * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--list_head.txt"
+)
+"void"
+0x60 get_size * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+)
+@"typedef--size_t.txt"
+0x68 fill_info * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * const @"struct--net_device.txt"
+)
+"int"
+0x70 get_xstats_size * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+)
+@"typedef--size_t.txt"
+0x78 fill_xstats * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * const @"struct--net_device.txt"
+)
+"int"
+0x80 get_num_tx_queues * func (NULL) (
+)
+"unsigned int"
+0x88 get_num_rx_queues * func (NULL) (
+)
+"unsigned int"
+0x90 slave_maxtype "unsigned int"
+0x98 slave_policy * const @"struct--nla_policy.txt"
+0xa0 slave_changelink * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0xa8 get_slave_size * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+(NULL) * const @"struct--net_device.txt"
+)
+@"typedef--size_t.txt"
+0xb0 fill_slave_info * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * const @"struct--net_device.txt"
+(NULL) * const @"struct--net_device.txt"
+)
+"int"
+0xb8 get_link_net * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+)
+* @"struct--net.txt"
+0xc0 get_linkxstats_size * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+(NULL) "int"
+)
+@"typedef--size_t.txt"
+0xc8 fill_linkxstats * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * const @"struct--net_device.txt"
+(NULL) * "int"
+(NULL) "int"
+)
+"int"
+0xd0 ck_reserved1 "long unsigned int"
+0xd8 ck_reserved2 "long unsigned int"
+0xe0 ck_reserved3 "long unsigned int"
+0xe8 ck_reserved4 "long unsigned int"
+0xf0 ck_reserved5 "long unsigned int"
+0xf8 ck_reserved6 "long unsigned int"
+0x100 ck_reserved7 "long unsigned int"
+0x108 ck_reserved8 "long unsigned int"
+}

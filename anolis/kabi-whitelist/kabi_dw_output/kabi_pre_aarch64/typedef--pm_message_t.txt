@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/pm.h:60
+Symbol:
+typedef pm_message_t
+@"struct--pm_message.txt"

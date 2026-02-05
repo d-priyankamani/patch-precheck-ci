@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/irq/manage.c:136
+Symbol:
+func synchronize_irq (
+irq "unsigned int"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/power/runtime.c:1444
+Symbol:
+func __pm_runtime_disable (
+dev * @"struct--device.txt"
+check_resume @"typedef--bool.txt"
+)
+"void"

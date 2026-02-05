@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/ipv4/devinet.c:1461
+Symbol:
+func inet_confirm_addr (
+net * @"struct--net.txt"
+in_dev * @"struct--in_device.txt"
+dst @"typedef--__be32.txt"
+local @"typedef--__be32.txt"
+scope "int"
+)
+@"typedef--__be32.txt"

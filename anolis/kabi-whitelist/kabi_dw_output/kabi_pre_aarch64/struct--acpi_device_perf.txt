@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:323
+Symbol:
+Byte size 24
+struct acpi_device_perf {
+0x0 state "int"
+0x4 flags @"struct--acpi_device_perf_flags.txt"
+0x8 state_count "int"
+0x10 states * @"struct--acpi_device_perf_state.txt"
+}

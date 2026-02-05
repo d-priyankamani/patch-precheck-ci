@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modes.c:1456
+Symbol:
+func drm_mode_duplicate (
+dev * @"struct--drm_device.txt"
+mode * const @"struct--drm_display_mode.txt"
+)
+* @"struct--drm_display_mode.txt"

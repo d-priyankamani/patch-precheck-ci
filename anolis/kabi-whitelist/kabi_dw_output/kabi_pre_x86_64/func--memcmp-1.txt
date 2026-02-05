@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/string.c:678
+Symbol:
+func memcmp (
+cs * const "void"
+ct * const "void"
+count @"typedef--size_t.txt"
+)
+"int"

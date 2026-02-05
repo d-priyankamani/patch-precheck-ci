@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/devlink.h:382
+Symbol:
+Byte size 16
+struct devlink_dpipe_headers {
+0x0 headers * * @"struct--devlink_dpipe_header.txt"
+0x8 headers_count "unsigned int"
+}

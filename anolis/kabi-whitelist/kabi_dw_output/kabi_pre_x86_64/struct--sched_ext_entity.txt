@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/linux/sched/ext.h:139
+Symbol:
+Byte size 208
+Alignment 8
+struct sched_ext_entity {
+0x0 dsq * @"struct--scx_dispatch_q.txt"
+0x8 dsq_list @"struct--scx_dsq_list_node.txt"
+0x20 8 dsq_priq @"struct--rb_node.txt"
+0x38 dsq_seq @"typedef--u32.txt"
+0x3c dsq_flags @"typedef--u32.txt"
+0x40 flags @"typedef--u32.txt"
+0x44 weight @"typedef--u32.txt"
+0x48 sticky_cpu @"typedef--s32.txt"
+0x4c holding_cpu @"typedef--s32.txt"
+0x50 kf_mask @"typedef--u32.txt"
+0x58 kf_tasks [2]* @"struct--task_struct.txt"
+0x68 ops_state @"typedef--atomic_long_t.txt"
+0x70 runnable_node @"struct--list_head.txt"
+0x80 runnable_at "long unsigned int"
+0x88 core_sched_at @"typedef--u64.txt"
+0x90 ddsp_dsq_id @"typedef--u64.txt"
+0x98 ddsp_enq_flags @"typedef--u64.txt"
+0xa0 slice @"typedef--u64.txt"
+0xa8 dsq_vtime @"typedef--u64.txt"
+0xb0 disallow @"typedef--bool.txt"
+0xb8 cgrp_moving_from * @"struct--cgroup.txt"
+0xc0 tasks_node @"struct--list_head.txt"
+}

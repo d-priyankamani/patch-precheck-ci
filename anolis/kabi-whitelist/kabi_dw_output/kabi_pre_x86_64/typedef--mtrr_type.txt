@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/x86/include/uapi/asm/mtrr.h:79
+Symbol:
+typedef mtrr_type
+@"typedef--__u8.txt"

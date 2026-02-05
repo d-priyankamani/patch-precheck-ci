@@ -1,0 +1,10 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:516
+Symbol:
+Byte size 24
+struct vcpu_reset_state {
+0x0 pc "long unsigned int"
+0x8 r0 "long unsigned int"
+0x10 be @"typedef--bool.txt"
+0x11 reset @"typedef--bool.txt"
+}

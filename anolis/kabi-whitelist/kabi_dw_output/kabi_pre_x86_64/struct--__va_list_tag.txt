@@ -1,0 +1,10 @@
+Version: 1.0
+File: <built-in>:0
+Symbol:
+Byte size 24
+struct __va_list_tag {
+0x0 gp_offset "unsigned int"
+0x4 fp_offset "unsigned int"
+0x8 overflow_arg_area * "void"
+0x10 reg_save_area * "void"
+}

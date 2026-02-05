@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/locking/rwsem.c:310
+Symbol:
+func __init_rwsem (
+sem * @"struct--rw_semaphore.txt"
+name * const "char"
+key * @"struct--lock_class_key.txt"
+)
+"void"

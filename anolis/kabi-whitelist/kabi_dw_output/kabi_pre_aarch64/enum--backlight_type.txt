@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/backlight.h:40
+Symbol:
+Byte size 4
+enum backlight_type {
+BACKLIGHT_RAW = 0x1
+BACKLIGHT_PLATFORM = 0x2
+BACKLIGHT_FIRMWARE = 0x3
+BACKLIGHT_TYPE_MAX = 0x4
+}

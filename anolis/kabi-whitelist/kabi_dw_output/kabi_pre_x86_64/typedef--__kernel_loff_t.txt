@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/uapi/asm-generic/posix_types.h:88
+Symbol:
+Byte size 8
+typedef __kernel_loff_t
+"long long int"

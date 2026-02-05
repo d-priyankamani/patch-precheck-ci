@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/time.c:400
+Symbol:
+func jiffies_to_usecs (
+j const "long unsigned int"
+)
+"unsigned int"

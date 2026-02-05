@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/backlight.h:182
+Symbol:
+Byte size 28
+struct backlight_properties {
+0x0 brightness "int"
+0x4 max_brightness "int"
+0x8 power "int"
+0xc fb_blank "int"
+0x10 type @"enum--backlight_type.txt"
+0x14 state "unsigned int"
+0x18 scale @"enum--backlight_scale.txt"
+}

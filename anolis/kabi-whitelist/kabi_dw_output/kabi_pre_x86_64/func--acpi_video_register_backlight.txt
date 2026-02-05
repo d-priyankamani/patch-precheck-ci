@@ -1,0 +1,6 @@
+Version: 1.0
+File: drivers/acpi/acpi_video.c:2246
+Symbol:
+func acpi_video_register_backlight (
+)
+"void"

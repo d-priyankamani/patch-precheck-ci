@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/core/dev.c:2858
+Symbol:
+func netdev_set_tc_queue (
+dev * @"struct--net_device.txt"
+tc @"typedef--u8.txt"
+count @"typedef--u16.txt"
+offset @"typedef--u16.txt"
+)
+"int"

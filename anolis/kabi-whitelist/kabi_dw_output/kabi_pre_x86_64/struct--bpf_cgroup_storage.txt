@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/bpf-cgroup.h:85
+Symbol:
+Byte size 104
+Alignment 8
+struct bpf_cgroup_storage {
+0x0 (NULL) union (NULL) {
+buf * @"struct--bpf_storage_buffer.txt"
+percpu_buf * "void"
+}
+0x8 map * @"<declarations>/struct--bpf_cgroup_storage_map.txt"
+0x10 key @"struct--bpf_cgroup_storage_key.txt"
+0x20 list_map @"struct--list_head.txt"
+0x30 list_cg @"struct--list_head.txt"
+0x40 8 node @"struct--rb_node.txt"
+0x58 8 rcu @"struct--callback_head.txt"
+}

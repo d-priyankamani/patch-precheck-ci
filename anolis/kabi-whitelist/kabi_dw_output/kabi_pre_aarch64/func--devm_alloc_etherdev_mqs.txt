@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/devres.c:21
+Symbol:
+func devm_alloc_etherdev_mqs (
+dev * @"struct--device.txt"
+sizeof_priv "int"
+txqs "unsigned int"
+rxqs "unsigned int"
+)
+* @"struct--net_device.txt"

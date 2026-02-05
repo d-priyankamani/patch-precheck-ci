@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/ratelimit.c:27
+Symbol:
+func ___ratelimit (
+rs * @"struct--ratelimit_state.txt"
+func * const "char"
+)
+"int"

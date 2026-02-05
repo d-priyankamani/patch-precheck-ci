@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/net/tcp.h:1067
+Symbol:
+Byte size 88
+struct rate_sample {
+0x0 prior_mstamp @"typedef--u64.txt"
+0x8 prior_delivered @"typedef--u32.txt"
+0xc prior_delivered_ce @"typedef--u32.txt"
+0x10 delivered @"typedef--s32.txt"
+0x14 delivered_ce @"typedef--s32.txt"
+0x18 interval_us "long int"
+0x20 snd_interval_us @"typedef--u32.txt"
+0x24 rcv_interval_us @"typedef--u32.txt"
+0x28 rtt_us "long int"
+0x30 losses "int"
+0x34 acked_sacked @"typedef--u32.txt"
+0x38 prior_in_flight @"typedef--u32.txt"
+0x3c last_end_seq @"typedef--u32.txt"
+0x40 is_app_limited @"typedef--bool.txt"
+0x41 is_retrans @"typedef--bool.txt"
+0x42 is_ack_delayed @"typedef--bool.txt"
+0x48 ck_reserved1 "long unsigned int"
+0x50 ck_reserved2 "long unsigned int"
+}

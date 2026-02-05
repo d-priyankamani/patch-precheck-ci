@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/netdevice.h:133
+Symbol:
+typedef netdev_tx_t
+@"enum--netdev_tx.txt"

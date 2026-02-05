@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/rdma/rdma_counter.h:35
+Symbol:
+Byte size 152
+struct rdma_counter {
+0x0 res @"struct--rdma_restrack_entry.txt"
+0x48 device * @"struct--ib_device.txt"
+0x50 id @"typedef--uint32_t.txt"
+0x54 kref @"struct--kref.txt"
+0x58 mode @"struct--rdma_counter_mode.txt"
+0x68 lock @"struct--mutex.txt"
+0x88 stats * @"struct--rdma_hw_stats.txt"
+0x90 port @"typedef--u32.txt"
+}

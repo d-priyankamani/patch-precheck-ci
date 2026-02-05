@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/pci.c:2764
+Symbol:
+func pci_wake_from_d3 (
+dev * @"struct--pci_dev.txt"
+enable @"typedef--bool.txt"
+)
+"int"

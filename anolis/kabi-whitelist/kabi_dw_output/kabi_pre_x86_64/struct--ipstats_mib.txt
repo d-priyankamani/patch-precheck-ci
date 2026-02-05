@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/snmp.h:51
+Symbol:
+Byte size 304
+struct ipstats_mib {
+0x0 mibs [38]@"typedef--u64.txt"
+0x130 syncp @"struct--u64_stats_sync.txt"
+}

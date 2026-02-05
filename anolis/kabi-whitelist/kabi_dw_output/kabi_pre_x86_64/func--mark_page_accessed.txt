@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/folio-compat.c:43
+Symbol:
+func mark_page_accessed (
+page * @"struct--page.txt"
+)
+"void"

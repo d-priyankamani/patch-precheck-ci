@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/debug/debug_core.c:108
+Symbol:
+var kgdb_active "void"

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/uapi/linux/kvm.h:577
+Symbol:
+Byte size 24
+struct kvm_coalesced_mmio {
+0x0 phys_addr @"typedef--__u64.txt"
+0x8 len @"typedef--__u32.txt"
+0xc (NULL) union (NULL) {
+pad @"typedef--__u32.txt"
+pio @"typedef--__u32.txt"
+}
+0x10 data [8]@"typedef--__u8.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/kprobes.h:54
+Symbol:
+Byte size 8
+typedef kprobe_pre_handler_t
+* func (NULL) (
+(NULL) * @"struct--kprobe.txt"
+(NULL) * @"struct--pt_regs.txt"
+)
+"int"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/rdma_cm.h:82
+Symbol:
+Byte size 80
+struct rdma_ud_param {
+0x0 private_data * const "void"
+0x8 private_data_len @"typedef--u8.txt"
+0x10 ah_attr @"struct--rdma_ah_attr.txt"
+0x48 qp_num @"typedef--u32.txt"
+0x4c qkey @"typedef--u32.txt"
+}

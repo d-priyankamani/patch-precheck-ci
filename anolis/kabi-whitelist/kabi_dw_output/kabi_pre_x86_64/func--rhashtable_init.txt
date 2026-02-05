@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/rhashtable.c:1019
+Symbol:
+func rhashtable_init (
+ht * @"struct--rhashtable.txt"
+params * const @"struct--rhashtable_params.txt"
+)
+"int"

@@ -1,0 +1,202 @@
+Version: 1.0
+File: include/linux/fs.h:1946
+Symbol:
+Byte size 296
+struct file_operations {
+0x0 owner * @"struct--module.txt"
+0x8 fop_flags @"typedef--fop_flags_t.txt"
+0x10 llseek * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) "int"
+)
+@"typedef--loff_t.txt"
+0x18 read * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x20 write * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x28 read_iter * func (NULL) (
+(NULL) * @"struct--kiocb.txt"
+(NULL) * @"struct--iov_iter.txt"
+)
+@"typedef--ssize_t.txt"
+0x30 write_iter * func (NULL) (
+(NULL) * @"struct--kiocb.txt"
+(NULL) * @"struct--iov_iter.txt"
+)
+@"typedef--ssize_t.txt"
+0x38 iopoll * func (NULL) (
+(NULL) * @"struct--kiocb.txt"
+(NULL) * @"struct--io_comp_batch.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x40 iterate_shared * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * @"struct--dir_context.txt"
+)
+"int"
+0x48 poll * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * @"struct--poll_table_struct.txt"
+)
+@"typedef--__poll_t.txt"
+0x50 unlocked_ioctl * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"long int"
+0x58 compat_ioctl * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"long int"
+0x60 mmap * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+0x68 open * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--file.txt"
+)
+"int"
+0x70 flush * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) @"typedef--fl_owner_t.txt"
+)
+"int"
+0x78 release * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--file.txt"
+)
+"int"
+0x80 fsync * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) "int"
+)
+"int"
+0x88 fasync * func (NULL) (
+(NULL) "int"
+(NULL) * @"struct--file.txt"
+(NULL) "int"
+)
+"int"
+0x90 lock * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) "int"
+(NULL) * @"struct--file_lock.txt"
+)
+"int"
+0x98 get_unmapped_area * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+)
+"long unsigned int"
+0xa0 check_flags * func (NULL) (
+(NULL) "int"
+)
+"int"
+0xa8 flock * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) "int"
+(NULL) * @"struct--file_lock.txt"
+)
+"int"
+0xb0 splice_write * func (NULL) (
+(NULL) * @"struct--pipe_inode_info.txt"
+(NULL) * @"struct--file.txt"
+(NULL) * @"typedef--loff_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) "unsigned int"
+)
+@"typedef--ssize_t.txt"
+0xb8 splice_read * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * @"typedef--loff_t.txt"
+(NULL) * @"struct--pipe_inode_info.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) "unsigned int"
+)
+@"typedef--ssize_t.txt"
+0xc0 splice_eof * func (NULL) (
+(NULL) * @"struct--file.txt"
+)
+"void"
+0xc8 setlease * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) "int"
+(NULL) * * @"struct--file_lock.txt"
+(NULL) * * "void"
+)
+"int"
+0xd0 fallocate * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) "int"
+(NULL) @"typedef--loff_t.txt"
+(NULL) @"typedef--loff_t.txt"
+)
+"long int"
+0xd8 show_fdinfo * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"struct--file.txt"
+)
+"void"
+0xe0 copy_file_range * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) * @"struct--file.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) "unsigned int"
+)
+@"typedef--ssize_t.txt"
+0xe8 remap_file_range * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) * @"struct--file.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) "unsigned int"
+)
+@"typedef--loff_t.txt"
+0xf0 fadvise * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) "int"
+)
+"int"
+0xf8 uring_cmd * func (NULL) (
+(NULL) * @"struct--io_uring_cmd.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x100 uring_cmd_iopoll * func (NULL) (
+(NULL) * @"struct--io_uring_cmd.txt"
+(NULL) * @"struct--io_comp_batch.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x108 ck_reserved1 "long unsigned int"
+0x110 ck_reserved2 "long unsigned int"
+0x118 ck_reserved3 "long unsigned int"
+0x120 ck_reserved4 "long unsigned int"
+}

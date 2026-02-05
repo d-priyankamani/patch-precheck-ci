@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/scatterlist.c:742
+Symbol:
+func __sg_page_iter_next (
+piter * @"struct--sg_page_iter.txt"
+)
+@"typedef--bool.txt"

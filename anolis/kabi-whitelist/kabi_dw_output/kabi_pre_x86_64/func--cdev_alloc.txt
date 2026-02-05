@@ -1,0 +1,6 @@
+Version: 1.0
+File: fs/char_dev.c:640
+Symbol:
+func cdev_alloc (
+)
+* @"struct--cdev.txt"

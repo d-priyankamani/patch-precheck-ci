@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/kvm/arm_pmu.h:16
+Symbol:
+Byte size 16
+struct kvm_pmc {
+0x0 idx @"typedef--u8.txt"
+0x8 perf_event * @"struct--perf_event.txt"
+}

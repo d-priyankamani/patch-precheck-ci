@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:360
+Symbol:
+Byte size 4
+enum devlink_reload_limit {
+DEVLINK_RELOAD_LIMIT_UNSPEC = 0x0
+DEVLINK_RELOAD_LIMIT_NO_RESET = 0x1
+__DEVLINK_RELOAD_LIMIT_MAX = 0x2
+DEVLINK_RELOAD_LIMIT_MAX = 0x1
+}

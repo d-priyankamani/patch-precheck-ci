@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/mutex.c:1081
+Symbol:
+func mutex_trylock (
+lock * @"struct--mutex.txt"
+)
+"int"

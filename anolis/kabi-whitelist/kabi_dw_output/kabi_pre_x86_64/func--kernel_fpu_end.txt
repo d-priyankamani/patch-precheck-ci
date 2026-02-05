@@ -1,0 +1,6 @@
+Version: 1.0
+File: arch/x86/kernel/fpu/core.c:450
+Symbol:
+func kernel_fpu_end (
+)
+"void"

@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/rdma/iw_cm.h:23
+Symbol:
+Byte size 288
+struct iw_cm_event {
+0x0 event @"enum--iw_cm_event_type.txt"
+0x4 status "int"
+0x8 local_addr @"struct--__kernel_sockaddr_storage.txt"
+0x88 remote_addr @"struct--__kernel_sockaddr_storage.txt"
+0x108 private_data * "void"
+0x110 provider_data * "void"
+0x118 private_data_len @"typedef--u8.txt"
+0x119 ord @"typedef--u8.txt"
+0x11a ird @"typedef--u8.txt"
+}

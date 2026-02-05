@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/string.c:107
+Symbol:
+func strlcpy (
+dest * "char"
+src * const "char"
+size @"typedef--size_t.txt"
+)
+@"typedef--size_t.txt"

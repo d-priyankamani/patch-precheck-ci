@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:2098
+Symbol:
+func ib_query_port (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+port_attr * @"struct--ib_port_attr.txt"
+)
+"int"

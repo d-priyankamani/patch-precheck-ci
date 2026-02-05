@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/bpf.h:205
+Symbol:
+Byte size 32
+struct btf_field_kptr {
+0x0 btf * @"<declarations>/struct--btf.txt"
+0x8 module * @"struct--module.txt"
+0x10 dtor @"typedef--btf_dtor_kfunc_t.txt"
+0x18 btf_id @"typedef--u32.txt"
+}

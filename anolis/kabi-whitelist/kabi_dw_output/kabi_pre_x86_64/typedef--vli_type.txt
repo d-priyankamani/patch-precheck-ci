@@ -1,0 +1,5 @@
+Version: 1.0
+File: lib/xz/xz_stream.h:43
+Symbol:
+typedef vli_type
+@"typedef--uint64_t.txt"

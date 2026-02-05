@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_property.c:96
+Symbol:
+func drm_property_create (
+dev * @"struct--drm_device.txt"
+flags @"typedef--u32.txt"
+name * const "char"
+num_values "int"
+)
+* @"struct--drm_property.txt"

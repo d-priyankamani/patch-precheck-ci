@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/core/skbuff.c:2081
+Symbol:
+func pskb_expand_head (
+skb * @"struct--sk_buff.txt"
+nhead "int"
+ntail "int"
+gfp_mask @"typedef--gfp_t.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/rtnetlink.c:468
+Symbol:
+func rtnl_link_register (
+ops * @"struct--rtnl_link_ops.txt"
+)
+"int"

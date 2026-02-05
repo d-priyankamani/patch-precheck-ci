@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_uapi.c:187
+Symbol:
+func drm_atomic_set_crtc_for_plane (
+plane_state * @"struct--drm_plane_state.txt"
+crtc * @"struct--drm_crtc.txt"
+)
+"int"

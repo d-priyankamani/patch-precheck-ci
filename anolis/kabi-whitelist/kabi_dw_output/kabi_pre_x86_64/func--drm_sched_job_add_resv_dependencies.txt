@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_main.c:775
+Symbol:
+func drm_sched_job_add_resv_dependencies (
+job * @"struct--drm_sched_job.txt"
+resv * @"struct--dma_resv.txt"
+usage @"enum--dma_resv_usage.txt"
+)
+"int"

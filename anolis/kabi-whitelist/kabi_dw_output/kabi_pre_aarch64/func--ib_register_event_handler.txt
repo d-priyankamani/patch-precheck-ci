@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:1993
+Symbol:
+func ib_register_event_handler (
+event_handler * @"struct--ib_event_handler.txt"
+)
+"void"

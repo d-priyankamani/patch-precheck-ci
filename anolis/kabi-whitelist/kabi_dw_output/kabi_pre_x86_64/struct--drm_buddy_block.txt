@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/drm_buddy.h:28
+Symbol:
+Byte size 72
+struct drm_buddy_block {
+0x0 header @"typedef--u64.txt"
+0x8 left * @"struct--drm_buddy_block.txt"
+0x10 right * @"struct--drm_buddy_block.txt"
+0x18 parent * @"struct--drm_buddy_block.txt"
+0x20 private * "void"
+0x28 link @"struct--list_head.txt"
+0x38 tmp_link @"struct--list_head.txt"
+}

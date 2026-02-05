@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:83
+Symbol:
+Byte size 64
+Alignment 64
+struct io_rings {
+0x0 sq @"struct--io_uring.txt"
+0x8 cq @"struct--io_uring.txt"
+0x10 sq_ring_mask @"typedef--u32.txt"
+0x14 cq_ring_mask @"typedef--u32.txt"
+0x18 sq_ring_entries @"typedef--u32.txt"
+0x1c cq_ring_entries @"typedef--u32.txt"
+0x20 sq_dropped @"typedef--u32.txt"
+0x24 sq_flags @"typedef--atomic_t.txt"
+0x28 cq_flags @"typedef--u32.txt"
+0x2c cq_overflow @"typedef--u32.txt"
+0x40 64 cqes [0]@"struct--io_uring_cqe.txt"
+}

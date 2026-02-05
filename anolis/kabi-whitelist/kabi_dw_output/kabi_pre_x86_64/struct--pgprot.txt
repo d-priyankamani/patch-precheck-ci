@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/include/asm/pgtable_types.h:297
+Symbol:
+Byte size 8
+struct pgprot {
+0x0 pgprot @"typedef--pgprotval_t.txt"
+}

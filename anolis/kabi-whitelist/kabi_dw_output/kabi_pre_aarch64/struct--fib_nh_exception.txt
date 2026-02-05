@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/net/ip_fib.h:59
+Symbol:
+Byte size 80
+Alignment 8
+struct fib_nh_exception {
+0x0 fnhe_next * @"struct--fib_nh_exception.txt"
+0x8 fnhe_genid "int"
+0xc fnhe_daddr @"typedef--__be32.txt"
+0x10 fnhe_pmtu @"typedef--u32.txt"
+0x14 fnhe_mtu_locked @"typedef--bool.txt"
+0x18 fnhe_gw @"typedef--__be32.txt"
+0x20 fnhe_expires "long unsigned int"
+0x28 fnhe_rth_input * @"struct--rtable.txt"
+0x30 fnhe_rth_output * @"struct--rtable.txt"
+0x38 fnhe_stamp "long unsigned int"
+0x40 8 rcu @"struct--callback_head.txt"
+}

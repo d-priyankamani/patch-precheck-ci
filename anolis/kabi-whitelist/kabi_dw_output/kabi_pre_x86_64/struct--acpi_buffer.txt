@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/acpi/actypes.h:978
+Symbol:
+Byte size 16
+struct acpi_buffer {
+0x0 length @"typedef--acpi_size.txt"
+0x8 pointer * "void"
+}

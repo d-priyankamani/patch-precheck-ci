@@ -1,0 +1,15 @@
+Version: 1.0
+File: drivers/pci/pcie/aer.c:54
+Symbol:
+Byte size 608
+struct aer_stats {
+0x0 dev_cor_errs [16]@"typedef--u64.txt"
+0x80 dev_fatal_errs [27]@"typedef--u64.txt"
+0x158 dev_nonfatal_errs [27]@"typedef--u64.txt"
+0x230 dev_total_cor_errs @"typedef--u64.txt"
+0x238 dev_total_fatal_errs @"typedef--u64.txt"
+0x240 dev_total_nonfatal_errs @"typedef--u64.txt"
+0x248 rootport_total_cor_errs @"typedef--u64.txt"
+0x250 rootport_total_fatal_errs @"typedef--u64.txt"
+0x258 rootport_total_nonfatal_errs @"typedef--u64.txt"
+}

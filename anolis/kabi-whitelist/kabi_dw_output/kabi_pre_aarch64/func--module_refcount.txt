@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/module/main.c:766
+Symbol:
+func module_refcount (
+mod * @"struct--module.txt"
+)
+"int"

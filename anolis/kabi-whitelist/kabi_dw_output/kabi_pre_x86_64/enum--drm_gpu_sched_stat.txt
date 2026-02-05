@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/gpu_scheduler.h:382
+Symbol:
+Byte size 4
+enum drm_gpu_sched_stat {
+DRM_GPU_SCHED_STAT_NONE = 0x0
+DRM_GPU_SCHED_STAT_NOMINAL = 0x1
+DRM_GPU_SCHED_STAT_ENODEV = 0x2
+}

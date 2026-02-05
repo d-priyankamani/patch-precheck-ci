@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/sysctl.h:117
+Symbol:
+Byte size 32
+struct ctl_table_poll {
+0x0 event @"typedef--atomic_t.txt"
+0x8 wait @"typedef--wait_queue_head_t.txt"
+}

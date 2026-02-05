@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/socket.c:3550
+Symbol:
+func kernel_bind (
+sock * @"struct--socket.txt"
+addr * @"struct--sockaddr.txt"
+addrlen "int"
+)
+"int"

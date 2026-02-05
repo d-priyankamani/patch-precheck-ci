@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/vga_switcheroo.h:68
+Symbol:
+Byte size 4
+enum vga_switcheroo_state {
+VGA_SWITCHEROO_OFF = 0x0
+VGA_SWITCHEROO_ON = 0x1
+VGA_SWITCHEROO_NOT_FOUND = 0x2
+}

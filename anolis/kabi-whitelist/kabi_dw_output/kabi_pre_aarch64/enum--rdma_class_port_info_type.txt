@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/sa_query.c:71
+Symbol:
+Byte size 4
+enum rdma_class_port_info_type {
+RDMA_CLASS_PORT_INFO_IB = 0x0
+RDMA_CLASS_PORT_INFO_OPA = 0x1
+}

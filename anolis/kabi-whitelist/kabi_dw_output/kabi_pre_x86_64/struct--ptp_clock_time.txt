@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/ptp_clock.h:81
+Symbol:
+Byte size 16
+struct ptp_clock_time {
+0x0 sec @"typedef--__s64.txt"
+0x8 nsec @"typedef--__u32.txt"
+0xc reserved @"typedef--__u32.txt"
+}

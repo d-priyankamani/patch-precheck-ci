@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:83
+Symbol:
+Byte size 16
+struct kvm_hyp_memcache {
+0x0 head @"typedef--phys_addr_t.txt"
+0x8 nr_pages "long unsigned int"
+}

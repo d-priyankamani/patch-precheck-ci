@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vblank.c:2048
+Symbol:
+func drm_crtc_handle_vblank (
+crtc * @"struct--drm_crtc.txt"
+)
+@"typedef--bool.txt"

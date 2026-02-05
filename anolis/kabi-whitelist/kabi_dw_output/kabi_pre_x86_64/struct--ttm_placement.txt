@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/ttm/ttm_placement.h:94
+Symbol:
+Byte size 32
+struct ttm_placement {
+0x0 num_placement "unsigned int"
+0x8 placement * const @"struct--ttm_place.txt"
+0x10 num_busy_placement "unsigned int"
+0x18 busy_placement * const @"struct--ttm_place.txt"
+}

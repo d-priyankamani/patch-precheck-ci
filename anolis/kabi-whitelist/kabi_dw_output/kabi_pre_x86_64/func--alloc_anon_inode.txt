@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/libfs.c:1594
+Symbol:
+func alloc_anon_inode (
+s * @"struct--super_block.txt"
+)
+* @"struct--inode.txt"

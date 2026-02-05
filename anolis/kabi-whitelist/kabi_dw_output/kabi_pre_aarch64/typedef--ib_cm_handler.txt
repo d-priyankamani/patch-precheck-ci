@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:289
+Symbol:
+Byte size 8
+typedef ib_cm_handler
+* func (NULL) (
+(NULL) * @"struct--ib_cm_id.txt"
+(NULL) * const @"struct--ib_cm_event.txt"
+)
+"int"

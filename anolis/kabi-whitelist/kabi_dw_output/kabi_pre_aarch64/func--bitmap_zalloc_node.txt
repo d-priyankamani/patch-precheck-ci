@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/bitmap.c:1406
+Symbol:
+func bitmap_zalloc_node (
+nbits "unsigned int"
+flags @"typedef--gfp_t.txt"
+node "int"
+)
+* "long unsigned int"

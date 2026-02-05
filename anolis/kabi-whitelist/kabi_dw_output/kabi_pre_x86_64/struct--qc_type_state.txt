@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/quota.h:404
+Symbol:
+Byte size 56
+struct qc_type_state {
+0x0 flags "unsigned int"
+0x4 spc_timelimit "unsigned int"
+0x8 ino_timelimit "unsigned int"
+0xc rt_spc_timelimit "unsigned int"
+0x10 spc_warnlimit "unsigned int"
+0x14 ino_warnlimit "unsigned int"
+0x18 rt_spc_warnlimit "unsigned int"
+0x20 ino "long long unsigned int"
+0x28 blocks @"typedef--blkcnt_t.txt"
+0x30 nextents @"typedef--blkcnt_t.txt"
+}

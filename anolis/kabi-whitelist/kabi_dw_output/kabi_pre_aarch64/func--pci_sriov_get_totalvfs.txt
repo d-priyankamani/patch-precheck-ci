@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/iov.c:1191
+Symbol:
+func pci_sriov_get_totalvfs (
+dev * @"struct--pci_dev.txt"
+)
+"int"

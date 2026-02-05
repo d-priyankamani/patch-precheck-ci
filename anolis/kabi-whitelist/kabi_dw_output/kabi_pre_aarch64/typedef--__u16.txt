@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/uapi/asm-generic/int-ll64.h:24
+Symbol:
+Byte size 2
+typedef __u16
+"short unsigned int"

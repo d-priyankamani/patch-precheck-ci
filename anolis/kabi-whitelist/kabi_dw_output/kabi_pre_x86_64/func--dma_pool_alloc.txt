@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/dmapool.c:404
+Symbol:
+func dma_pool_alloc (
+pool * @"struct--dma_pool.txt"
+mem_flags @"typedef--gfp_t.txt"
+handle * @"typedef--dma_addr_t.txt"
+)
+* "void"

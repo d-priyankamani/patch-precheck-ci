@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/kfifo.h:44
+Symbol:
+Byte size 24
+struct __kfifo {
+0x0 in "unsigned int"
+0x4 out "unsigned int"
+0x8 mask "unsigned int"
+0xc esize "unsigned int"
+0x10 data * "void"
+}

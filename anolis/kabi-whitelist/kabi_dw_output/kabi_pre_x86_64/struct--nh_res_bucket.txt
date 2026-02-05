@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/nexthop.h:72
+Symbol:
+Byte size 32
+struct nh_res_bucket {
+0x0 nh_entry * @"struct--nh_grp_entry.txt"
+0x8 used_time @"typedef--atomic_long_t.txt"
+0x10 migrated_time "long unsigned int"
+0x18 occupied @"typedef--bool.txt"
+0x19 nh_flags @"typedef--u8.txt"
+}

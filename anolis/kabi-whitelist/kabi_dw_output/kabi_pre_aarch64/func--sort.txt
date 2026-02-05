@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/sort.c:281
+Symbol:
+func sort (
+base * "void"
+num @"typedef--size_t.txt"
+size @"typedef--size_t.txt"
+cmp_func @"typedef--cmp_func_t.txt"
+swap_func @"typedef--swap_func_t.txt"
+)
+"void"

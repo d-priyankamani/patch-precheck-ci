@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/time/timekeeping.c:1020
+Symbol:
+func ktime_get_real_seconds (
+)
+@"typedef--time64_t.txt"

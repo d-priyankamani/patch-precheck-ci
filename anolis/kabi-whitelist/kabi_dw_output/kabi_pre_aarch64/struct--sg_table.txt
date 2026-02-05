@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/scatterlist.h:39
+Symbol:
+Byte size 16
+struct sg_table {
+0x0 sgl * @"struct--scatterlist.txt"
+0x8 nents "unsigned int"
+0xc orig_nents "unsigned int"
+}

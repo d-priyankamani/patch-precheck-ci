@@ -1,0 +1,102 @@
+Version: 1.0
+File: include/linux/cgroup-defs.h:747
+Symbol:
+Byte size 280
+struct cgroup_subsys {
+0x0 css_alloc * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+)
+* @"struct--cgroup_subsys_state.txt"
+0x8 css_online * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+)
+"int"
+0x10 css_offline * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+)
+"void"
+0x18 css_released * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+)
+"void"
+0x20 css_free * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+)
+"void"
+0x28 css_reset * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+)
+"void"
+0x30 css_rstat_flush * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+(NULL) "int"
+)
+"void"
+0x38 css_extra_stat_show * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"struct--cgroup_subsys_state.txt"
+)
+"int"
+0x40 css_local_stat_show * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"struct--cgroup_subsys_state.txt"
+)
+"int"
+0x48 can_attach * func (NULL) (
+(NULL) * @"struct--cgroup_taskset.txt"
+)
+"int"
+0x50 cancel_attach * func (NULL) (
+(NULL) * @"struct--cgroup_taskset.txt"
+)
+"void"
+0x58 attach * func (NULL) (
+(NULL) * @"struct--cgroup_taskset.txt"
+)
+"void"
+0x60 post_attach * func (NULL) (
+)
+"void"
+0x68 can_fork * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+(NULL) * @"struct--css_set.txt"
+)
+"int"
+0x70 cancel_fork * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+(NULL) * @"struct--css_set.txt"
+)
+"void"
+0x78 fork * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+0x80 exit * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+0x88 release * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+0x90 bind * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+)
+"void"
+0x98 ck_reserved1 "long unsigned int"
+0xa0 ck_reserved2 "long unsigned int"
+0xa8 ck_reserved3 "long unsigned int"
+0xb0 ck_reserved4 "long unsigned int"
+0xb8:0-1 early_init @"typedef--bool.txt"
+0xb8:1-2 implicit_on_dfl @"typedef--bool.txt"
+0xb8:2-3 threaded @"typedef--bool.txt"
+0xbc id "int"
+0xc0 name * const "char"
+0xc8 legacy_name * const "char"
+0xd0 root * @"struct--cgroup_root.txt"
+0xd8 css_idr @"struct--idr.txt"
+0xf0 cfts @"struct--list_head.txt"
+0x100 dfl_cftypes * @"struct--cftype.txt"
+0x108 legacy_cftypes * @"struct--cftype.txt"
+0x110 depends_on "unsigned int"
+}

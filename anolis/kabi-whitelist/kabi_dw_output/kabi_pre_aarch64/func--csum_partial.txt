@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/checksum.c:125
+Symbol:
+func csum_partial (
+buff * const "void"
+len "int"
+wsum @"typedef--__wsum.txt"
+)
+@"typedef--__wsum.txt"

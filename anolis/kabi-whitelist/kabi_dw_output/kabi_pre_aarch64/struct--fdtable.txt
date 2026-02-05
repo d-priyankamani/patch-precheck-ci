@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/fdtable.h:26
+Symbol:
+Byte size 56
+Alignment 8
+struct fdtable {
+0x0 max_fds "unsigned int"
+0x8 fd * * @"struct--file.txt"
+0x10 close_on_exec * "long unsigned int"
+0x18 open_fds * "long unsigned int"
+0x20 full_fds_bits * "long unsigned int"
+0x28 8 rcu @"struct--callback_head.txt"
+}

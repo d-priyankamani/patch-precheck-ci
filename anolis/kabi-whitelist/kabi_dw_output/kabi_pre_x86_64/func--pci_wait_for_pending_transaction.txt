@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:4853
+Symbol:
+func pci_wait_for_pending_transaction (
+dev * @"struct--pci_dev.txt"
+)
+"int"

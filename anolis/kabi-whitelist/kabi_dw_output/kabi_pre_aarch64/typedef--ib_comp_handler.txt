@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1584
+Symbol:
+Byte size 8
+typedef ib_comp_handler
+* func (NULL) (
+(NULL) * @"struct--ib_cq.txt"
+(NULL) * "void"
+)
+"void"

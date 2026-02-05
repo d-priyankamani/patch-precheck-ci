@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/uapi/linux/kvm.h:195
+Symbol:
+Byte size 56
+struct kvm_hyperv_exit {
+0x0 type @"typedef--__u32.txt"
+0x4 pad1 @"typedef--__u32.txt"
+0x8 u union (NULL) {
+synic struct (NULL) {
+0x0 msr @"typedef--__u32.txt"
+0x4 pad2 @"typedef--__u32.txt"
+0x8 control @"typedef--__u64.txt"
+0x10 evt_page @"typedef--__u64.txt"
+0x18 msg_page @"typedef--__u64.txt"
+}
+hcall struct (NULL) {
+0x0 input @"typedef--__u64.txt"
+0x8 result @"typedef--__u64.txt"
+0x10 params [2]@"typedef--__u64.txt"
+}
+syndbg struct (NULL) {
+0x0 msr @"typedef--__u32.txt"
+0x4 pad2 @"typedef--__u32.txt"
+0x8 control @"typedef--__u64.txt"
+0x10 status @"typedef--__u64.txt"
+0x18 send_page @"typedef--__u64.txt"
+0x20 recv_page @"typedef--__u64.txt"
+0x28 pending_page @"typedef--__u64.txt"
+}
+}
+}

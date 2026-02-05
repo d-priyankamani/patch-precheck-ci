@@ -1,0 +1,24 @@
+Version: 1.0
+File: arch/x86/include/uapi/asm/kvm.h:144
+Symbol:
+Byte size 312
+struct kvm_sregs {
+0x0 cs @"struct--kvm_segment.txt"
+0x18 ds @"struct--kvm_segment.txt"
+0x30 es @"struct--kvm_segment.txt"
+0x48 fs @"struct--kvm_segment.txt"
+0x60 gs @"struct--kvm_segment.txt"
+0x78 ss @"struct--kvm_segment.txt"
+0x90 tr @"struct--kvm_segment.txt"
+0xa8 ldt @"struct--kvm_segment.txt"
+0xc0 gdt @"struct--kvm_dtable.txt"
+0xd0 idt @"struct--kvm_dtable.txt"
+0xe0 cr0 @"typedef--__u64.txt"
+0xe8 cr2 @"typedef--__u64.txt"
+0xf0 cr3 @"typedef--__u64.txt"
+0xf8 cr4 @"typedef--__u64.txt"
+0x100 cr8 @"typedef--__u64.txt"
+0x108 efer @"typedef--__u64.txt"
+0x110 apic_base @"typedef--__u64.txt"
+0x118 interrupt_bitmap [4]@"typedef--__u64.txt"
+}

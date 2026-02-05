@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/pci_iomap.c:165
+Symbol:
+func pci_iounmap (
+dev * @"struct--pci_dev.txt"
+p * "void"
+)
+"void"

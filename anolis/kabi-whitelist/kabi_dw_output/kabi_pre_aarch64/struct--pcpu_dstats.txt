@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/netdevice.h:2824
+Symbol:
+Byte size 64
+Alignment 64
+struct pcpu_dstats {
+0x0 rx_packets @"typedef--u64.txt"
+0x8 rx_bytes @"typedef--u64.txt"
+0x10 rx_drops @"typedef--u64.txt"
+0x18 tx_packets @"typedef--u64.txt"
+0x20 tx_bytes @"typedef--u64.txt"
+0x28 tx_drops @"typedef--u64.txt"
+0x30 syncp @"struct--u64_stats_sync.txt"
+}

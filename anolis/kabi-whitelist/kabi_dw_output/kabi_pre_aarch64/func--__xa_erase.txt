@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/xarray.c:1492
+Symbol:
+func __xa_erase (
+xa * @"struct--xarray.txt"
+index "long unsigned int"
+)
+* "void"

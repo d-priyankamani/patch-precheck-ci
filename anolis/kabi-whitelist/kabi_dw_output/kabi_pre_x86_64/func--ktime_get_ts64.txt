@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/timekeeping.c:969
+Symbol:
+func ktime_get_ts64 (
+ts * @"struct--timespec64.txt"
+)
+"void"

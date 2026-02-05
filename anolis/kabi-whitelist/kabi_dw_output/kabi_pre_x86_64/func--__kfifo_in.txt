@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/kfifo.c:113
+Symbol:
+func __kfifo_in (
+fifo * @"struct--__kfifo.txt"
+buf * const "void"
+len "unsigned int"
+)
+"unsigned int"

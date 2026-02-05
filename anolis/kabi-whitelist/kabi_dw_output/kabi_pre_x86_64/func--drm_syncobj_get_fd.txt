@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_syncobj.c:664
+Symbol:
+func drm_syncobj_get_fd (
+syncobj * @"struct--drm_syncobj.txt"
+p_fd * "int"
+)
+"int"

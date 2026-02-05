@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:568
+Symbol:
+Byte size 80
+struct ib_mad_agent {
+0x0 device * @"struct--ib_device.txt"
+0x8 qp * @"struct--ib_qp.txt"
+0x10 recv_handler @"typedef--ib_mad_recv_handler.txt"
+0x18 send_handler @"typedef--ib_mad_send_handler.txt"
+0x20 context * "void"
+0x28 hi_tid @"typedef--u32.txt"
+0x2c flags @"typedef--u32.txt"
+0x30 security * "void"
+0x38 mad_agent_sec_list @"struct--list_head.txt"
+0x48 port_num @"typedef--u8.txt"
+0x49 rmpp_version @"typedef--u8.txt"
+0x4a smp_allowed @"typedef--bool.txt"
+}

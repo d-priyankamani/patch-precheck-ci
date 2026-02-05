@@ -1,0 +1,10 @@
+Version: 1.0
+File: mm/page_alloc.c:4914
+Symbol:
+func __alloc_pages (
+gfp @"typedef--gfp_t.txt"
+order "unsigned int"
+preferred_nid "int"
+nodemask * @"typedef--nodemask_t.txt"
+)
+* @"struct--page.txt"

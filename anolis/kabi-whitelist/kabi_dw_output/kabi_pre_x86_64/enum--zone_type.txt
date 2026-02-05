@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/mmzone.h:753
+Symbol:
+Byte size 4
+enum zone_type {
+ZONE_DMA = 0x0
+ZONE_DMA32 = 0x1
+ZONE_NORMAL = 0x2
+ZONE_MOVABLE = 0x3
+ZONE_DEVICE = 0x4
+__MAX_NR_ZONES = 0x5
+}

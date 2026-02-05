@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/perf_regs.h:7
+Symbol:
+Byte size 16
+struct perf_regs {
+0x0 abi @"typedef--__u64.txt"
+0x8 regs * @"struct--pt_regs.txt"
+}

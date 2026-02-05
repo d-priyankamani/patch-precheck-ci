@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/sched/signal.h:30
+Symbol:
+Byte size 56
+struct pacct_struct {
+0x0 ac_flag "int"
+0x8 ac_exitcode "long int"
+0x10 ac_mem "long unsigned int"
+0x18 ac_utime @"typedef--u64.txt"
+0x20 ac_stime @"typedef--u64.txt"
+0x28 ac_minflt "long unsigned int"
+0x30 ac_majflt "long unsigned int"
+}

@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/drm/drm_auth.h:44
+Symbol:
+Byte size 64
+struct drm_lock_data {
+0x0 hw_lock * @"struct--drm_hw_lock.txt"
+0x8 file_priv * @"struct--drm_file.txt"
+0x10 lock_queue @"typedef--wait_queue_head_t.txt"
+0x28 lock_time "long unsigned int"
+0x30 spinlock @"typedef--spinlock_t.txt"
+0x34 kernel_waiters @"typedef--uint32_t.txt"
+0x38 user_waiters @"typedef--uint32_t.txt"
+0x3c idle_has_lock "int"
+}

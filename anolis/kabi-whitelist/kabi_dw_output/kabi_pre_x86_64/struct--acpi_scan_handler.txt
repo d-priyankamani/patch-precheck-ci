@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:129
+Symbol:
+Byte size 184
+struct acpi_scan_handler {
+0x0 list_node @"struct--list_head.txt"
+0x10 ids * const @"struct--acpi_device_id.txt"
+0x18 match * func (NULL) (
+(NULL) * const "char"
+(NULL) * * const @"struct--acpi_device_id.txt"
+)
+@"typedef--bool.txt"
+0x20 attach * func (NULL) (
+(NULL) * @"struct--acpi_device.txt"
+(NULL) * const @"struct--acpi_device_id.txt"
+)
+"int"
+0x28 detach * func (NULL) (
+(NULL) * @"struct--acpi_device.txt"
+)
+"void"
+0x30 bind * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x38 unbind * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x40 hotplug @"struct--acpi_hotplug_profile.txt"
+}

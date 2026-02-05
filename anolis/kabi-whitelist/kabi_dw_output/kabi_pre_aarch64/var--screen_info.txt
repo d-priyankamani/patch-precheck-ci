@@ -1,0 +1,4 @@
+Version: 1.0
+File: arch/arm64/kernel/efi.c:75
+Symbol:
+var screen_info "void"

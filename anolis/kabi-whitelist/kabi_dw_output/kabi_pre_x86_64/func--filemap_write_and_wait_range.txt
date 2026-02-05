@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/filemap.c:715
+Symbol:
+func filemap_write_and_wait_range (
+mapping * @"struct--address_space.txt"
+lstart @"typedef--loff_t.txt"
+lend @"typedef--loff_t.txt"
+)
+"int"

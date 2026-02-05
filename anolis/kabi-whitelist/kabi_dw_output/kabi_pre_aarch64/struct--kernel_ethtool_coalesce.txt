@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/ethtool.h:225
+Symbol:
+Byte size 16
+struct kernel_ethtool_coalesce {
+0x0 use_cqe_mode_tx @"typedef--u8.txt"
+0x1 use_cqe_mode_rx @"typedef--u8.txt"
+0x4 tx_aggr_max_bytes @"typedef--u32.txt"
+0x8 tx_aggr_max_frames @"typedef--u32.txt"
+0xc tx_aggr_time_usecs @"typedef--u32.txt"
+}

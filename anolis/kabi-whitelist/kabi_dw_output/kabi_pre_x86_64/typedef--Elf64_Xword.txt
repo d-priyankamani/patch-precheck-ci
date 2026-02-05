@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/elf.h:22
+Symbol:
+typedef Elf64_Xword
+@"typedef--__u64.txt"

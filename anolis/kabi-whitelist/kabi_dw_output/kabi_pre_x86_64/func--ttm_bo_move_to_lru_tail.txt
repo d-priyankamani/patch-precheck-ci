@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo.c:74
+Symbol:
+func ttm_bo_move_to_lru_tail (
+bo * @"struct--ttm_buffer_object.txt"
+)
+"void"

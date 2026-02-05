@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:144
+Symbol:
+func ib_cache_gid_type_str (
+gid_type @"enum--ib_gid_type.txt"
+)
+* const "char"

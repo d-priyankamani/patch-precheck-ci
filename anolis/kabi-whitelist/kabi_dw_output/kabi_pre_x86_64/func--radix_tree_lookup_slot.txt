@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/radix-tree.c:794
+Symbol:
+func radix_tree_lookup_slot (
+root * const @"struct--xarray.txt"
+index "long unsigned int"
+)
+* * "void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/timer.c:1359
+Symbol:
+func timer_delete (
+timer * @"struct--timer_list.txt"
+)
+"int"

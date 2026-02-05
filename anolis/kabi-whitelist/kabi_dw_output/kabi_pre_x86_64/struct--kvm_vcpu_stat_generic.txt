@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/kvm_types.h:110
+Symbol:
+Byte size 832
+struct kvm_vcpu_stat_generic {
+0x0 halt_successful_poll @"typedef--u64.txt"
+0x8 halt_attempted_poll @"typedef--u64.txt"
+0x10 halt_poll_invalid @"typedef--u64.txt"
+0x18 halt_wakeup @"typedef--u64.txt"
+0x20 halt_poll_success_ns @"typedef--u64.txt"
+0x28 halt_poll_fail_ns @"typedef--u64.txt"
+0x30 halt_wait_ns @"typedef--u64.txt"
+0x38 halt_poll_success_hist [32]@"typedef--u64.txt"
+0x138 halt_poll_fail_hist [32]@"typedef--u64.txt"
+0x238 halt_wait_hist [32]@"typedef--u64.txt"
+0x338 blocking @"typedef--u64.txt"
+}

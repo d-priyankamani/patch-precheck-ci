@@ -1,0 +1,18 @@
+Version: 1.0
+File: net/devlink/region.c:9
+Symbol:
+Byte size 104
+struct devlink_region {
+0x0 devlink * @"struct--devlink.txt"
+0x8 port * @"struct--devlink_port.txt"
+0x10 list @"struct--list_head.txt"
+0x20 (NULL) union (NULL) {
+ops * const @"struct--devlink_region_ops.txt"
+port_ops * const @"struct--devlink_port_region_ops.txt"
+}
+0x28 snapshot_lock @"struct--mutex.txt"
+0x48 snapshot_list @"struct--list_head.txt"
+0x58 max_snapshots @"typedef--u32.txt"
+0x5c cur_snapshots @"typedef--u32.txt"
+0x60 size @"typedef--u64.txt"
+}

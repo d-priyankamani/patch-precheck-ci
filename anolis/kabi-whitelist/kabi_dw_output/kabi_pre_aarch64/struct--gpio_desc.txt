@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/gpio/gpiolib.h:158
+Symbol:
+Byte size 48
+struct gpio_desc {
+0x0 gdev * @"struct--gpio_device.txt"
+0x8 flags "long unsigned int"
+0x10 label * const "char"
+0x18 name * const "char"
+0x20 hog * @"struct--device_node.txt"
+0x28 debounce_period_us "unsigned int"
+}

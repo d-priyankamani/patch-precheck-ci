@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:191
+Symbol:
+Byte size 24
+struct kvm_smccc_features {
+0x0 std_bmap "long unsigned int"
+0x8 std_hyp_bmap "long unsigned int"
+0x10 vendor_hyp_bmap "long unsigned int"
+}

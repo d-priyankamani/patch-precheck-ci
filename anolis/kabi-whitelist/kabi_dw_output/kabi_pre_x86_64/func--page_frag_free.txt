@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/page_alloc.c:5186
+Symbol:
+func page_frag_free (
+addr * "void"
+)
+"void"

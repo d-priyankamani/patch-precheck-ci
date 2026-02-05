@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_pool.c:428
+Symbol:
+func ttm_pool_alloc (
+pool * @"struct--ttm_pool.txt"
+tt * @"struct--ttm_tt.txt"
+ctx * @"struct--ttm_operation_ctx.txt"
+)
+"int"

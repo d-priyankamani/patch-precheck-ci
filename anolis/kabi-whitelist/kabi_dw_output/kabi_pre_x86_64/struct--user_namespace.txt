@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/linux/user_namespace.h:68
+Symbol:
+Byte size 696
+Alignment 8
+struct user_namespace {
+0x0 uid_map @"struct--uid_gid_map.txt"
+0x48 gid_map @"struct--uid_gid_map.txt"
+0x90 projid_map @"struct--uid_gid_map.txt"
+0xd8 parent * @"struct--user_namespace.txt"
+0xe0 level "int"
+0xe4 owner @"typedef--kuid_t.txt"
+0xe8 group @"typedef--kgid_t.txt"
+0xf0 ns @"struct--ns_common.txt"
+0x110 flags "long unsigned int"
+0x118 parent_could_setfcap @"typedef--bool.txt"
+0x120 keyring_name_list @"struct--list_head.txt"
+0x130 user_keyring_register * @"struct--key.txt"
+0x138 keyring_sem @"struct--rw_semaphore.txt"
+0x160 persistent_keyring_register * @"struct--key.txt"
+0x168 work @"struct--work_struct.txt"
+0x1a8 8 set @"struct--ctl_table_set.txt"
+0x208 sysctls * @"struct--ctl_table_header.txt"
+0x210 ucounts * @"struct--ucounts.txt"
+0x218 ucount_max [12]"long int"
+0x278 rlimit_max [4]"long int"
+0x298 ck_reserved1 "long unsigned int"
+0x2a0 ck_reserved2 "long unsigned int"
+0x2a8 ck_reserved3 "long unsigned int"
+0x2b0 ck_reserved4 "long unsigned int"
+}

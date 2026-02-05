@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/devlink.h:644
+Symbol:
+Byte size 24
+struct devlink_flash_update_params {
+0x0 fw * const @"struct--firmware.txt"
+0x8 component * const "char"
+0x10 overwrite_mask @"typedef--u32.txt"
+}

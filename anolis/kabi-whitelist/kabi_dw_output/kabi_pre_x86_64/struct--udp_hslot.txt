@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/udp.h:60
+Symbol:
+Byte size 16
+Alignment 16
+struct udp_hslot {
+0x0 (NULL) union (NULL) {
+head @"struct--hlist_head.txt"
+nulls_head @"struct--hlist_nulls_head.txt"
+}
+0x8 count "int"
+0xc lock @"typedef--spinlock_t.txt"
+}

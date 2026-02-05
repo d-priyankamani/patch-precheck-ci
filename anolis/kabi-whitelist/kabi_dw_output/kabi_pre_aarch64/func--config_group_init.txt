@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/configfs/item.c:157
+Symbol:
+func config_group_init (
+group * @"struct--config_group.txt"
+)
+"void"

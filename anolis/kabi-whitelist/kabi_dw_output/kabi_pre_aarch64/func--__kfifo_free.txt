@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/kfifo.c:55
+Symbol:
+func __kfifo_free (
+fifo * @"struct--__kfifo.txt"
+)
+"void"

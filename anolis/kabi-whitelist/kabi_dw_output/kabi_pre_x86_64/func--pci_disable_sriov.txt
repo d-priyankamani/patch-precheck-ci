@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/iov.c:1086
+Symbol:
+func pci_disable_sriov (
+dev * @"struct--pci_dev.txt"
+)
+"void"

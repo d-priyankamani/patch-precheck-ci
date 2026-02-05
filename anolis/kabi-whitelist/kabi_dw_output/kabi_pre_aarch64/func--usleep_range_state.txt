@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/time/timer.c:2354
+Symbol:
+func usleep_range_state (
+min "long unsigned int"
+max "long unsigned int"
+state "unsigned int"
+)
+"void"

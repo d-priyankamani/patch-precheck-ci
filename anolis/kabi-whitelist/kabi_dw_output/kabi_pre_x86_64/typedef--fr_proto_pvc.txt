@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/hdlc/ioctl.h:70
+Symbol:
+Byte size 4
+typedef fr_proto_pvc
+struct (NULL) {
+0x0 dlci "unsigned int"
+}

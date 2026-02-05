@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/base/devres.c:552
+Symbol:
+func devres_open_group (
+dev * @"struct--device.txt"
+id * "void"
+gfp @"typedef--gfp_t.txt"
+)
+* "void"

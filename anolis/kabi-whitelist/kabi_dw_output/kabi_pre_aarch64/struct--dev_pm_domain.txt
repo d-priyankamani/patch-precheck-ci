@@ -1,0 +1,30 @@
+Version: 1.0
+File: include/linux/pm.h:752
+Symbol:
+Byte size 240
+struct dev_pm_domain {
+0x0 ops @"struct--dev_pm_ops.txt"
+0xb8 start * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0xc0 detach * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+0xc8 activate * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"int"
+0xd0 sync * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0xd8 dismiss * func (NULL) (
+(NULL) * @"struct--device.txt"
+)
+"void"
+0xe0 ck_reserved1 "long unsigned int"
+0xe8 ck_reserved2 "long unsigned int"
+}

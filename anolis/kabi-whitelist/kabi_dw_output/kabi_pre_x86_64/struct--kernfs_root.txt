@@ -1,0 +1,19 @@
+Version: 1.0
+File: fs/kernfs/kernfs-internal.h:34
+Symbol:
+Byte size 232
+Alignment 8
+struct kernfs_root {
+0x0 kn * @"struct--kernfs_node.txt"
+0x8 flags "unsigned int"
+0x10 ino_idr @"struct--idr.txt"
+0x28 last_id_lowbits @"typedef--u32.txt"
+0x2c id_highbits @"typedef--u32.txt"
+0x30 syscall_ops * @"struct--kernfs_syscall_ops.txt"
+0x38 supers @"struct--list_head.txt"
+0x48 deactivate_waitq @"typedef--wait_queue_head_t.txt"
+0x60 kernfs_rwsem @"struct--rw_semaphore.txt"
+0x88 kernfs_iattr_rwsem @"struct--rw_semaphore.txt"
+0xb0 kernfs_supers_rwsem @"struct--rw_semaphore.txt"
+0xd8 8 rcu @"struct--callback_head.txt"
+}

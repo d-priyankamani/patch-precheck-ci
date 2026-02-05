@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/uapi/linux/rtnetlink.h:601
+Symbol:
+Byte size 20
+struct tcmsg {
+0x0 tcm_family "unsigned char"
+0x1 tcm__pad1 "unsigned char"
+0x2 tcm__pad2 "short unsigned int"
+0x4 tcm_ifindex "int"
+0x8 tcm_handle @"typedef--__u32.txt"
+0xc tcm_parent @"typedef--__u32.txt"
+0x10 tcm_info @"typedef--__u32.txt"
+}

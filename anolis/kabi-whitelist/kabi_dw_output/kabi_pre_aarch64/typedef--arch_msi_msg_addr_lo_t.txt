@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/msi.h:32
+Symbol:
+typedef arch_msi_msg_addr_lo_t
+@"struct--arch_msi_msg_addr_lo.txt"

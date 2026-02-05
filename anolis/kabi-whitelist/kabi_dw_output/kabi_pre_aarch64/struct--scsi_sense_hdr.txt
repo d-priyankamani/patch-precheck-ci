@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/scsi/scsi_common.h:63
+Symbol:
+Byte size 8
+struct scsi_sense_hdr {
+0x0 response_code @"typedef--u8.txt"
+0x1 sense_key @"typedef--u8.txt"
+0x2 asc @"typedef--u8.txt"
+0x3 ascq @"typedef--u8.txt"
+0x4 byte4 @"typedef--u8.txt"
+0x5 byte5 @"typedef--u8.txt"
+0x6 byte6 @"typedef--u8.txt"
+0x7 additional_length @"typedef--u8.txt"
+}

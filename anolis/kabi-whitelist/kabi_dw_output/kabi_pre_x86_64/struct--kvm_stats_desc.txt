@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/kvm.h:2273
+Symbol:
+Byte size 16
+struct kvm_stats_desc {
+0x0 flags @"typedef--__u32.txt"
+0x4 exponent @"typedef--__s16.txt"
+0x6 size @"typedef--__u16.txt"
+0x8 offset @"typedef--__u32.txt"
+0xc bucket_size @"typedef--__u32.txt"
+0x10 name [0]"char"
+}

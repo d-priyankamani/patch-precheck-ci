@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/hrtimer.h:119
+Symbol:
+Byte size 88
+Alignment 8
+struct hrtimer {
+0x0 8 node @"struct--timerqueue_node.txt"
+0x20 _softexpires @"typedef--ktime_t.txt"
+0x28 function * func (NULL) (
+(NULL) * @"struct--hrtimer.txt"
+)
+@"enum--hrtimer_restart.txt"
+0x30 base * @"struct--hrtimer_clock_base.txt"
+0x38 state @"typedef--u8.txt"
+0x39 is_rel @"typedef--u8.txt"
+0x3a is_soft @"typedef--u8.txt"
+0x3b is_hard @"typedef--u8.txt"
+0x40 ck_reserved1 "long unsigned int"
+0x48 ck_reserved2 "long unsigned int"
+0x50 ck_reserved3 "long unsigned int"
+}

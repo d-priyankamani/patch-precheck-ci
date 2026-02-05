@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/drm_edid.h:136
+Symbol:
+Byte size 4
+struct detailed_data_wpindex {
+0x0 white_yx_lo @"typedef--u8.txt"
+0x1 white_x_hi @"typedef--u8.txt"
+0x2 white_y_hi @"typedef--u8.txt"
+0x3 gamma @"typedef--u8.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/nldev.c:922
+Symbol:
+func rdma_nl_stat_hwcounter_entry (
+msg * @"struct--sk_buff.txt"
+name * const "char"
+value @"typedef--u64.txt"
+)
+"int"

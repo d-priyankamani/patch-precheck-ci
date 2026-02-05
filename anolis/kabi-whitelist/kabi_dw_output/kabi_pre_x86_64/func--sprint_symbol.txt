@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/kallsyms.c:529
+Symbol:
+func sprint_symbol (
+buffer * "char"
+address "long unsigned int"
+)
+"int"

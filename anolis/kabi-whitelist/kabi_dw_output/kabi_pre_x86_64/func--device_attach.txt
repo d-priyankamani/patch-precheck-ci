@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/dd.c:1071
+Symbol:
+func device_attach (
+dev * @"struct--device.txt"
+)
+"int"

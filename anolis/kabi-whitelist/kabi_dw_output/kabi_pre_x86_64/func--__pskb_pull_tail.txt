@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/skbuff.c:2652
+Symbol:
+func __pskb_pull_tail (
+skb * @"struct--sk_buff.txt"
+delta "int"
+)
+* "void"

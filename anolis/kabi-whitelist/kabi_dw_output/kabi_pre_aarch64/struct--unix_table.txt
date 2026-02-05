@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/netns/unix.h:10
+Symbol:
+Byte size 16
+struct unix_table {
+0x0 locks * @"typedef--spinlock_t.txt"
+0x8 buckets * @"struct--hlist_head.txt"
+}

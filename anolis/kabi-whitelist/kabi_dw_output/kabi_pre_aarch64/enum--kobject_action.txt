@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/kobject.h:53
+Symbol:
+Byte size 4
+enum kobject_action {
+KOBJ_ADD = 0x0
+KOBJ_REMOVE = 0x1
+KOBJ_CHANGE = 0x2
+KOBJ_MOVE = 0x3
+KOBJ_ONLINE = 0x4
+KOBJ_OFFLINE = 0x5
+KOBJ_BIND = 0x6
+KOBJ_UNBIND = 0x7
+}

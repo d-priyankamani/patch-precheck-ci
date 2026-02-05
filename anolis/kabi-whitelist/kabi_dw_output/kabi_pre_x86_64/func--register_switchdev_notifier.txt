@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/switchdev/switchdev.c:392
+Symbol:
+func register_switchdev_notifier (
+nb * @"struct--notifier_block.txt"
+)
+"int"

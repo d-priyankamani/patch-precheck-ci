@@ -1,0 +1,12 @@
+Version: 1.0
+File: block/elevator.h:124
+Symbol:
+Byte size 664
+struct elevator_queue {
+0x0 type * @"struct--elevator_type.txt"
+0x8 elevator_data * "void"
+0x10 kobj @"struct--kobject.txt"
+0x70 sysfs_lock @"struct--mutex.txt"
+0x90 flags "long unsigned int"
+0x98 hash [64]@"struct--hlist_head.txt"
+}

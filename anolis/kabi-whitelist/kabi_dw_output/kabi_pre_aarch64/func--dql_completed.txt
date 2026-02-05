@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/dynamic_queue_limits.c:18
+Symbol:
+func dql_completed (
+dql * @"struct--dql.txt"
+count "unsigned int"
+)
+"void"

@@ -1,0 +1,13 @@
+Version: 1.0
+File: lib/rbtree.c:410
+Symbol:
+func __rb_erase_color (
+parent * @"struct--rb_node.txt"
+root * @"struct--rb_root.txt"
+augment_rotate * func (NULL) (
+(NULL) * @"struct--rb_node.txt"
+(NULL) * @"struct--rb_node.txt"
+)
+"void"
+)
+"void"

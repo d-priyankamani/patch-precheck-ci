@@ -1,0 +1,12 @@
+Version: 1.0
+File: net/core/flow_offload.c:485
+Symbol:
+func flow_indr_dev_unregister (
+cb * @"typedef--flow_indr_block_bind_cb_t.txt"
+cb_priv * "void"
+release * func (NULL) (
+(NULL) * "void"
+)
+"void"
+)
+"void"

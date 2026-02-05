@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/ndisc.h:111
+Symbol:
+Byte size 176
+struct ndisc_options {
+0x0 nd_opt_array [15]* @"struct--nd_opt_hdr.txt"
+0x78 nd_opts_ri * @"struct--nd_opt_hdr.txt"
+0x80 nd_opts_ri_end * @"struct--nd_opt_hdr.txt"
+0x88 nd_useropts * @"struct--nd_opt_hdr.txt"
+0x90 nd_useropts_end * @"struct--nd_opt_hdr.txt"
+0x98 nd_802154_opt_array [3]* @"struct--nd_opt_hdr.txt"
+}

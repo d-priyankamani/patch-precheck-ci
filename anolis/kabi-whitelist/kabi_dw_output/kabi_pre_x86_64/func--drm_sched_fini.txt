@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_main.c:1141
+Symbol:
+func drm_sched_fini (
+sched * @"struct--drm_gpu_scheduler.txt"
+)
+"void"

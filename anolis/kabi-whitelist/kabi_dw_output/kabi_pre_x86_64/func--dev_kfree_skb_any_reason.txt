@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:3223
+Symbol:
+func dev_kfree_skb_any_reason (
+skb * @"struct--sk_buff.txt"
+reason @"enum--skb_drop_reason.txt"
+)
+"void"

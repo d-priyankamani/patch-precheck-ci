@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/switchdev.h:36
+Symbol:
+Byte size 4
+struct switchdev_mst_state {
+0x0 msti @"typedef--u16.txt"
+0x2 state @"typedef--u8.txt"
+}

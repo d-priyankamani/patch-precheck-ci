@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:169
+Symbol:
+Byte size 20
+struct ib_sa_hdr {
+0x0 sm_key @"typedef--__be64.txt"
+0x8 attr_offset @"typedef--__be16.txt"
+0xa reserved @"typedef--__be16.txt"
+0xc comp_mask @"typedef--ib_sa_comp_mask.txt"
+}

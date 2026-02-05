@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/device.h:850
+Symbol:
+Byte size 1128
+Alignment 8
+struct device_link {
+0x0 supplier * @"struct--device.txt"
+0x8 s_node @"struct--list_head.txt"
+0x18 consumer * @"struct--device.txt"
+0x20 c_node @"struct--list_head.txt"
+0x30 8 link_dev @"struct--device.txt"
+0x410 status @"enum--device_link_state.txt"
+0x414 flags @"typedef--u32.txt"
+0x418 rpm_active @"typedef--refcount_t.txt"
+0x41c kref @"struct--kref.txt"
+0x420 rm_work @"struct--work_struct.txt"
+0x460 supplier_preactivated @"typedef--bool.txt"
+}

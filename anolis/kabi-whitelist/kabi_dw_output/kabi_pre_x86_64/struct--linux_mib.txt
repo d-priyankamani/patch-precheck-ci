@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/snmp.h:106
+Symbol:
+Byte size 1016
+struct linux_mib {
+0x0 mibs [127]"long unsigned int"
+}

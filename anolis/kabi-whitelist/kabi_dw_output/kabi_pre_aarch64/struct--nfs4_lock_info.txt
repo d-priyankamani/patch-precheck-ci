@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/nfs_fs_i.h:17
+Symbol:
+Byte size 8
+struct nfs4_lock_info {
+0x0 owner * @"<declarations>/struct--nfs4_lock_state.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/bpf.h:1401
+Symbol:
+Byte size 4
+struct bpf_func_info_aux {
+0x0 linkage @"typedef--u16.txt"
+0x2 unreliable @"typedef--bool.txt"
+0x3:0-1 called @"typedef--bool.txt"
+0x3:1-2 verified @"typedef--bool.txt"
+}

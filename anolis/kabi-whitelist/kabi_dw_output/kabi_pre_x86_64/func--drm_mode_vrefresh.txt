@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modes.c:1286
+Symbol:
+func drm_mode_vrefresh (
+mode * const @"struct--drm_display_mode.txt"
+)
+"int"

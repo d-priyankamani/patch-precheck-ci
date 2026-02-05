@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:187
+Symbol:
+func dma_fence_context_alloc (
+num "unsigned int"
+)
+@"typedef--u64.txt"

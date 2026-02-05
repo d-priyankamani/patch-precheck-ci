@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:17
+Symbol:
+Byte size 4
+enum ib_cm_state {
+IB_CM_IDLE = 0x0
+IB_CM_LISTEN = 0x1
+IB_CM_REQ_SENT = 0x2
+IB_CM_REQ_RCVD = 0x3
+IB_CM_MRA_REQ_SENT = 0x4
+IB_CM_MRA_REQ_RCVD = 0x5
+IB_CM_REP_SENT = 0x6
+IB_CM_REP_RCVD = 0x7
+IB_CM_MRA_REP_SENT = 0x8
+IB_CM_MRA_REP_RCVD = 0x9
+IB_CM_ESTABLISHED = 0xa
+IB_CM_DREQ_SENT = 0xb
+IB_CM_DREQ_RCVD = 0xc
+IB_CM_TIMEWAIT = 0xd
+IB_CM_SIDR_REQ_SENT = 0xe
+IB_CM_SIDR_REQ_RCVD = 0xf
+}

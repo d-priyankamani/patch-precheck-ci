@@ -1,0 +1,10 @@
+Version: 1.0
+File: mm/mempool.c:258
+Symbol:
+func mempool_create (
+min_nr "int"
+alloc_fn * @"typedef--mempool_alloc_t.txt"
+free_fn * @"typedef--mempool_free_t.txt"
+pool_data * "void"
+)
+* @"typedef--mempool_t.txt"

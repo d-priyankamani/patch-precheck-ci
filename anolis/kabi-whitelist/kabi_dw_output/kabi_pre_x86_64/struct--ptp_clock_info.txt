@@ -1,0 +1,93 @@
+Version: 1.0
+File: include/linux/ptp_clock_kernel.h:166
+Symbol:
+Byte size 224
+struct ptp_clock_info {
+0x0 owner * @"struct--module.txt"
+0x8 name [32]"char"
+0x28 max_adj @"typedef--s32.txt"
+0x2c n_alarm "int"
+0x30 n_ext_ts "int"
+0x34 n_per_out "int"
+0x38 n_pins "int"
+0x3c pps "int"
+0x40 pin_config * @"struct--ptp_pin_desc.txt"
+0x48 adjfine * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) "long int"
+)
+"int"
+0x50 adjphase * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) @"typedef--s32.txt"
+)
+"int"
+0x58 getmaxphase * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+)
+@"typedef--s32.txt"
+0x60 adjtime * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) @"typedef--s64.txt"
+)
+"int"
+0x68 gettime64 * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) * @"struct--timespec64.txt"
+)
+"int"
+0x70 gettimex64 * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) * @"struct--timespec64.txt"
+(NULL) * @"struct--ptp_system_timestamp.txt"
+)
+"int"
+0x78 getcrosststamp * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) * @"struct--system_device_crosststamp.txt"
+)
+"int"
+0x80 settime64 * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) * const @"struct--timespec64.txt"
+)
+"int"
+0x88 getcycles64 * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) * @"struct--timespec64.txt"
+)
+"int"
+0x90 getcyclesx64 * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) * @"struct--timespec64.txt"
+(NULL) * @"struct--ptp_system_timestamp.txt"
+)
+"int"
+0x98 getcrosscycles * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) * @"struct--system_device_crosststamp.txt"
+)
+"int"
+0xa0 enable * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) * @"struct--ptp_clock_request.txt"
+(NULL) "int"
+)
+"int"
+0xa8 verify * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+(NULL) "unsigned int"
+(NULL) @"enum--ptp_pin_function.txt"
+(NULL) "unsigned int"
+)
+"int"
+0xb0 do_aux_work * func (NULL) (
+(NULL) * @"struct--ptp_clock_info.txt"
+)
+"long int"
+0xb8 ck_reserved1 "long unsigned int"
+0xc0 ck_reserved2 "long unsigned int"
+0xc8 ck_reserved3 "long unsigned int"
+0xd0 ck_reserved4 "long unsigned int"
+0xd8 ck_reserved5 "long unsigned int"
+}

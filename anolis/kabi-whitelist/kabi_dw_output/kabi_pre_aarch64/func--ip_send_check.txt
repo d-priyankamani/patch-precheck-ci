@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ipv4/ip_output.c:93
+Symbol:
+func ip_send_check (
+iph * @"struct--iphdr.txt"
+)
+"void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/ipv4/route.c:2897
+Symbol:
+func ip_route_output_flow (
+net * @"struct--net.txt"
+flp4 * @"struct--flowi4.txt"
+sk * const @"struct--sock.txt"
+)
+* @"struct--rtable.txt"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:4766
+Symbol:
+func rdma_disconnect (
+id * @"struct--rdma_cm_id.txt"
+)
+"int"

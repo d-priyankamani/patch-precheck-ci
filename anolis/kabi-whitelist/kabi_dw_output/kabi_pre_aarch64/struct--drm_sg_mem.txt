@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/drm/drm_legacy.h:142
+Symbol:
+Byte size 40
+struct drm_sg_mem {
+0x0 handle "long unsigned int"
+0x8 virtual * "void"
+0x10 pages "int"
+0x18 pagelist * * @"struct--page.txt"
+0x20 busaddr * @"typedef--dma_addr_t.txt"
+}

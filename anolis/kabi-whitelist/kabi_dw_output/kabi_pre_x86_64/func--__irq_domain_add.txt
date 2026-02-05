@@ -1,0 +1,12 @@
+Version: 1.0
+File: kernel/irq/irqdomain.c:253
+Symbol:
+func __irq_domain_add (
+fwnode * @"struct--fwnode_handle.txt"
+size "unsigned int"
+hwirq_max @"typedef--irq_hw_number_t.txt"
+direct_max "int"
+ops * const @"struct--irq_domain_ops.txt"
+host_data * "void"
+)
+* @"struct--irq_domain.txt"

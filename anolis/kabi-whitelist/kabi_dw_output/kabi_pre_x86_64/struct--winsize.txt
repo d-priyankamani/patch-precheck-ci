@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/asm-generic/termios.h:15
+Symbol:
+Byte size 8
+struct winsize {
+0x0 ws_row "short unsigned int"
+0x2 ws_col "short unsigned int"
+0x4 ws_xpixel "short unsigned int"
+0x6 ws_ypixel "short unsigned int"
+}

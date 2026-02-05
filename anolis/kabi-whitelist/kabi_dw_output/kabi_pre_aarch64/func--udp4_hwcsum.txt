@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/ipv4/udp.c:998
+Symbol:
+func udp4_hwcsum (
+skb * @"struct--sk_buff.txt"
+src @"typedef--__be32.txt"
+dst @"typedef--__be32.txt"
+)
+"void"

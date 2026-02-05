@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/proc_fs.h:81
+Symbol:
+Byte size 8
+typedef proc_write_t
+* func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+)
+"int"

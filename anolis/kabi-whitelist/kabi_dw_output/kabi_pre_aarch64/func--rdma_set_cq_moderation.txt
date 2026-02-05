@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2157
+Symbol:
+func rdma_set_cq_moderation (
+cq * @"struct--ib_cq.txt"
+cq_count @"typedef--u16.txt"
+cq_period @"typedef--u16.txt"
+)
+"int"

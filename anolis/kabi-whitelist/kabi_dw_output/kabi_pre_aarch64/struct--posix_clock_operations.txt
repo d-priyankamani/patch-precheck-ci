@@ -1,0 +1,59 @@
+Version: 1.0
+File: include/linux/posix-clock.h:38
+Symbol:
+Byte size 112
+struct posix_clock_operations {
+0x0 owner * @"struct--module.txt"
+0x8 clock_adjtime * func (NULL) (
+(NULL) * @"struct--posix_clock.txt"
+(NULL) * @"struct--__kernel_timex.txt"
+)
+"int"
+0x10 clock_gettime * func (NULL) (
+(NULL) * @"struct--posix_clock.txt"
+(NULL) * @"struct--timespec64.txt"
+)
+"int"
+0x18 clock_getres * func (NULL) (
+(NULL) * @"struct--posix_clock.txt"
+(NULL) * @"struct--timespec64.txt"
+)
+"int"
+0x20 clock_settime * func (NULL) (
+(NULL) * @"struct--posix_clock.txt"
+(NULL) * const @"struct--timespec64.txt"
+)
+"int"
+0x28 ioctl * func (NULL) (
+(NULL) * @"struct--posix_clock.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"long int"
+0x30 open * func (NULL) (
+(NULL) * @"struct--posix_clock.txt"
+(NULL) @"typedef--fmode_t.txt"
+)
+"int"
+0x38 poll * func (NULL) (
+(NULL) * @"struct--posix_clock.txt"
+(NULL) * @"struct--file.txt"
+(NULL) * @"typedef--poll_table.txt"
+)
+@"typedef--__poll_t.txt"
+0x40 release * func (NULL) (
+(NULL) * @"struct--posix_clock.txt"
+)
+"int"
+0x48 read * func (NULL) (
+(NULL) * @"struct--posix_clock.txt"
+(NULL) @"typedef--uint.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x50 ck_reserved1 "long unsigned int"
+0x58 ck_reserved2 "long unsigned int"
+0x60 ck_reserved3 "long unsigned int"
+0x68 ck_reserved4 "long unsigned int"
+}

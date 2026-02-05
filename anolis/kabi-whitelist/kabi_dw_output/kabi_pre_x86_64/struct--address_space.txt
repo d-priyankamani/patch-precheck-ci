@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/linux/fs.h:470
+Symbol:
+Byte size 240
+Alignment 8
+struct address_space {
+0x0 host * @"struct--inode.txt"
+0x8 i_pages @"struct--xarray.txt"
+0x18 invalidate_lock @"struct--rw_semaphore.txt"
+0x40 gfp_mask @"typedef--gfp_t.txt"
+0x44 i_mmap_writable @"typedef--atomic_t.txt"
+0x48 nr_thps @"typedef--atomic_t.txt"
+0x4c nr_duptext @"typedef--atomic_t.txt"
+0x50 i_mmap @"struct--rb_root_cached.txt"
+0x60 nrpages "long unsigned int"
+0x68 writeback_index "long unsigned int"
+0x70 a_ops * const @"struct--address_space_operations.txt"
+0x78 flags "long unsigned int"
+0x80 wb_err @"typedef--errseq_t.txt"
+0x84 private_lock @"typedef--spinlock_t.txt"
+0x88 private_list @"struct--list_head.txt"
+0x98 i_mmap_rwsem @"struct--rw_semaphore.txt"
+0xc0 private_data * "void"
+0xc8 fast_reflink_work * @"struct--fast_reflink_work.txt"
+0xd0 ck_reserved1 "long unsigned int"
+0xd8 ck_reserved2 "long unsigned int"
+0xe0 ck_reserved3 "long unsigned int"
+0xe8 ck_reserved4 "long unsigned int"
+}

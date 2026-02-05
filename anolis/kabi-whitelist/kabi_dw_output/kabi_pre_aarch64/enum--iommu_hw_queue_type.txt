@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/iommufd.h:1252
+Symbol:
+Byte size 4
+enum iommu_hw_queue_type {
+IOMMU_HW_QUEUE_TYPE_DEFAULT = 0x0
+IOMMU_HW_QUEUE_TYPE_TEGRA241_CMDQV = 0x1
+}

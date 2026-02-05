@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/drm/drm_syncobj.h:39
+Symbol:
+Byte size 64
+struct drm_syncobj {
+0x0 refcount @"struct--kref.txt"
+0x8 fence * @"struct--dma_fence.txt"
+0x10 cb_list @"struct--list_head.txt"
+0x20 ev_fd_list @"struct--list_head.txt"
+0x30 lock @"typedef--spinlock_t.txt"
+0x38 file * @"struct--file.txt"
+}

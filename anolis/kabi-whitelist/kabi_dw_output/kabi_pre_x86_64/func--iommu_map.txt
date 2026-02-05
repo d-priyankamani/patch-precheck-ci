@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/iommu/iommu.c:2610
+Symbol:
+func iommu_map (
+domain * @"struct--iommu_domain.txt"
+iova "long unsigned int"
+paddr @"typedef--phys_addr_t.txt"
+size @"typedef--size_t.txt"
+prot "int"
+gfp @"typedef--gfp_t.txt"
+)
+"int"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/ttm/ttm_caching.h:33
+Symbol:
+Byte size 4
+enum ttm_caching {
+ttm_uncached = 0x0
+ttm_write_combined = 0x1
+ttm_cached = 0x2
+}

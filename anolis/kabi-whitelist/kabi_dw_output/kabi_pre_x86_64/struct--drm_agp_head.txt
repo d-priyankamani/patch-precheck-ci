@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/drm/drm_legacy.h:250
+Symbol:
+Byte size 144
+struct drm_agp_head {
+0x0 agp_info @"struct--agp_kern_info.txt"
+0x50 memory @"struct--list_head.txt"
+0x60 mode "long unsigned int"
+0x68 bridge * @"<declarations>/struct--agp_bridge_data.txt"
+0x70 enabled "int"
+0x74 acquired "int"
+0x78 base "long unsigned int"
+0x80 agp_mtrr "int"
+0x84 cant_use_aperture "int"
+0x88 page_mask "long unsigned int"
+}

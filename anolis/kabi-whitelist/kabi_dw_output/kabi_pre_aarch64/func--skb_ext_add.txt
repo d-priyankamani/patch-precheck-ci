@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/skbuff.c:6724
+Symbol:
+func skb_ext_add (
+skb * @"struct--sk_buff.txt"
+id @"enum--skb_ext_id.txt"
+)
+* "void"

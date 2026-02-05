@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/iw_cm.h:76
+Symbol:
+Byte size 24
+struct iw_cm_conn_param {
+0x0 private_data * const "void"
+0x8 private_data_len @"typedef--u16.txt"
+0xc ord @"typedef--u32.txt"
+0x10 ird @"typedef--u32.txt"
+0x14 qpn @"typedef--u32.txt"
+}

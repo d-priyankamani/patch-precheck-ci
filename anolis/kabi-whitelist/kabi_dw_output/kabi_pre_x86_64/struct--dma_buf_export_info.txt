@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/dma-buf.h:533
+Symbol:
+Byte size 56
+struct dma_buf_export_info {
+0x0 exp_name * const "char"
+0x8 owner * @"struct--module.txt"
+0x10 ops * const @"struct--dma_buf_ops.txt"
+0x18 size @"typedef--size_t.txt"
+0x20 flags "int"
+0x28 resv * @"struct--dma_resv.txt"
+0x30 priv * "void"
+}

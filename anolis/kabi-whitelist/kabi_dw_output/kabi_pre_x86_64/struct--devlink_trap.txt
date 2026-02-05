@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/devlink.h:820
+Symbol:
+Byte size 32
+struct devlink_trap {
+0x0 type @"enum--devlink_trap_type.txt"
+0x4 init_action @"enum--devlink_trap_action.txt"
+0x8 generic @"typedef--bool.txt"
+0xa id @"typedef--u16.txt"
+0x10 name * const "char"
+0x18 init_group_id @"typedef--u16.txt"
+0x1c metadata_cap @"typedef--u32.txt"
+}

@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/linux/pnp.h:388
+Symbol:
+Byte size 312
+struct pnp_card_driver {
+0x0 global_list @"struct--list_head.txt"
+0x10 name * "char"
+0x18 id_table * const @"struct--pnp_card_device_id.txt"
+0x20 flags "unsigned int"
+0x28 probe * func (NULL) (
+(NULL) * @"struct--pnp_card_link.txt"
+(NULL) * const @"struct--pnp_card_device_id.txt"
+)
+"int"
+0x30 remove * func (NULL) (
+(NULL) * @"struct--pnp_card_link.txt"
+)
+"void"
+0x38 suspend * func (NULL) (
+(NULL) * @"struct--pnp_card_link.txt"
+(NULL) @"typedef--pm_message_t.txt"
+)
+"int"
+0x40 resume * func (NULL) (
+(NULL) * @"struct--pnp_card_link.txt"
+)
+"int"
+0x48 link @"struct--pnp_driver.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/iommu/iommu.c:2455
+Symbol:
+func iommu_detach_group (
+domain * @"struct--iommu_domain.txt"
+group * @"struct--iommu_group.txt"
+)
+"void"

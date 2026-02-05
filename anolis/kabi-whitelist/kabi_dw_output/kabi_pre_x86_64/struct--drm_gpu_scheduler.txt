@@ -1,0 +1,26 @@
+Version: 1.0
+File: include/drm/gpu_scheduler.h:498
+Symbol:
+Byte size 568
+struct drm_gpu_scheduler {
+0x0 ops * const @"struct--drm_sched_backend_ops.txt"
+0x8 hw_submission_limit @"typedef--uint32_t.txt"
+0x10 timeout "long int"
+0x18 name * const "char"
+0x20 sched_rq [4]@"struct--drm_sched_rq.txt"
+0x100 wake_up_worker @"typedef--wait_queue_head_t.txt"
+0x118 job_scheduled @"typedef--wait_queue_head_t.txt"
+0x130 hw_rq_count @"typedef--atomic_t.txt"
+0x138 job_id_count @"typedef--atomic64_t.txt"
+0x140 timeout_wq * @"<declarations>/struct--workqueue_struct.txt"
+0x148 work_tdr @"struct--delayed_work.txt"
+0x200 thread * @"struct--task_struct.txt"
+0x208 pending_list @"struct--list_head.txt"
+0x218 job_list_lock @"typedef--spinlock_t.txt"
+0x21c hang_limit "int"
+0x220 score * @"typedef--atomic_t.txt"
+0x228 _score @"typedef--atomic_t.txt"
+0x22c ready @"typedef--bool.txt"
+0x22d free_guilty @"typedef--bool.txt"
+0x230 dev * @"struct--device.txt"
+}

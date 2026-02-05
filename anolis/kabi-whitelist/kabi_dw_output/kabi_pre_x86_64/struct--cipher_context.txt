@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/tls.h:191
+Symbol:
+Byte size 48
+struct cipher_context {
+0x0 iv * "char"
+0x8 rec_seq * "char"
+0x10 ck_reserved1 "long unsigned int"
+0x18 ck_reserved2 "long unsigned int"
+0x20 ck_reserved3 "long unsigned int"
+0x28 ck_reserved4 "long unsigned int"
+}

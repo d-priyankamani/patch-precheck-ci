@@ -1,0 +1,12 @@
+Version: 1.0
+File: net/devlink/resource.c:403
+Symbol:
+func devlink_resource_register (
+devlink * @"struct--devlink.txt"
+resource_name * const "char"
+resource_size @"typedef--u64.txt"
+resource_id @"typedef--u64.txt"
+parent_resource_id @"typedef--u64.txt"
+size_params * const @"struct--devlink_resource_size_params.txt"
+)
+"int"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/fs_context.h:51
+Symbol:
+Byte size 4
+enum fs_value_type {
+fs_value_is_undefined = 0x0
+fs_value_is_flag = 0x1
+fs_value_is_string = 0x2
+fs_value_is_blob = 0x3
+fs_value_is_filename = 0x4
+fs_value_is_file = 0x5
+}

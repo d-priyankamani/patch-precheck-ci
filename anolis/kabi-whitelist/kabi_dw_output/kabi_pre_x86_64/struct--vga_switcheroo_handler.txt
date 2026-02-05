@@ -1,0 +1,26 @@
+Version: 1.0
+File: include/linux/vga_switcheroo.h:116
+Symbol:
+Byte size 40
+struct vga_switcheroo_handler {
+0x0 init * func (NULL) (
+)
+"int"
+0x8 switchto * func (NULL) (
+(NULL) @"enum--vga_switcheroo_client_id.txt"
+)
+"int"
+0x10 switch_ddc * func (NULL) (
+(NULL) @"enum--vga_switcheroo_client_id.txt"
+)
+"int"
+0x18 power_state * func (NULL) (
+(NULL) @"enum--vga_switcheroo_client_id.txt"
+(NULL) @"enum--vga_switcheroo_state.txt"
+)
+"int"
+0x20 get_client_id * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+)
+@"enum--vga_switcheroo_client_id.txt"
+}

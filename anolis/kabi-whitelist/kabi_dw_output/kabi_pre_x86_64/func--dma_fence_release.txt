@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:531
+Symbol:
+func dma_fence_release (
+kref * @"struct--kref.txt"
+)
+"void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/kvm/iodev.h:32
+Symbol:
+Byte size 8
+struct kvm_io_device {
+0x0 ops * const @"struct--kvm_io_device_ops.txt"
+}

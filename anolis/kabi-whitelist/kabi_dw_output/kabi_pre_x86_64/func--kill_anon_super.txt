@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/super.c:1378
+Symbol:
+func kill_anon_super (
+sb * @"struct--super_block.txt"
+)
+"void"

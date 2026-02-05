@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/time/timecounter.c:79
+Symbol:
+func timecounter_cyc2time (
+tc * const @"struct--timecounter.txt"
+cycle_tstamp @"typedef--u64.txt"
+)
+@"typedef--u64.txt"

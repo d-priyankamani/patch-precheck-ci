@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/genalloc.h:58
+Symbol:
+Byte size 56
+struct gen_pool {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 chunks @"struct--list_head.txt"
+0x18 min_alloc_order "int"
+0x20 algo @"typedef--genpool_algo_t.txt"
+0x28 data * "void"
+0x30 name * const "char"
+}

@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/linux/i2c.h:725
+Symbol:
+Byte size 1312
+Alignment 8
+struct i2c_adapter {
+0x0 owner * @"struct--module.txt"
+0x8 class "unsigned int"
+0x10 algo * const @"struct--i2c_algorithm.txt"
+0x18 algo_data * "void"
+0x20 lock_ops * const @"struct--i2c_lock_operations.txt"
+0x28 bus_lock @"struct--rt_mutex.txt"
+0x48 mux_lock @"struct--rt_mutex.txt"
+0x68 timeout "int"
+0x6c retries "int"
+0x70 8 dev @"struct--device.txt"
+0x448 locked_flags "long unsigned int"
+0x450 nr "int"
+0x454 name [48]"char"
+0x488 dev_released @"struct--completion.txt"
+0x4a8 userspace_clients_lock @"struct--mutex.txt"
+0x4c8 userspace_clients @"struct--list_head.txt"
+0x4d8 bus_recovery_info * @"struct--i2c_bus_recovery_info.txt"
+0x4e0 quirks * const @"struct--i2c_adapter_quirks.txt"
+0x4e8 host_notify_domain * @"struct--irq_domain.txt"
+0x4f0 bus_regulator * @"<declarations>/struct--regulator.txt"
+0x4f8 debugfs * @"struct--dentry.txt"
+0x500 addrs_in_instantiation [2]"long unsigned int"
+0x510 ck_reserved1 "long unsigned int"
+0x518 ck_reserved2 "long unsigned int"
+}

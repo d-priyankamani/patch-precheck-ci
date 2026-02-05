@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/dim.h:119
+Symbol:
+Byte size 20
+struct dim_stats {
+0x0 ppms "int"
+0x4 bpms "int"
+0x8 epms "int"
+0xc cpms "int"
+0x10 cpe_ratio "int"
+}

@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/wait.h:41
+Symbol:
+typedef wait_queue_head_t
+@"struct--wait_queue_head.txt"

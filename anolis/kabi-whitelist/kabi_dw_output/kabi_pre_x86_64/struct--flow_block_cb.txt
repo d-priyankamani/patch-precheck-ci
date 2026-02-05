@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/flow_offload.h:533
+Symbol:
+Byte size 136
+struct flow_block_cb {
+0x0 driver_list @"struct--list_head.txt"
+0x10 list @"struct--list_head.txt"
+0x20 cb * @"typedef--flow_setup_cb_t.txt"
+0x28 cb_ident * "void"
+0x30 cb_priv * "void"
+0x38 release * func (NULL) (
+(NULL) * "void"
+)
+"void"
+0x40 indr @"struct--flow_block_indr.txt"
+0x80 refcnt "unsigned int"
+}

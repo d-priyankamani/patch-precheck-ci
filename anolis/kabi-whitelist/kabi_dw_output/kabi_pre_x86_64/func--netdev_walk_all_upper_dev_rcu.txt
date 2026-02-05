@@ -1,0 +1,13 @@
+Version: 1.0
+File: net/core/dev.c:7103
+Symbol:
+func netdev_walk_all_upper_dev_rcu (
+dev * @"struct--net_device.txt"
+fn * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--netdev_nested_priv.txt"
+)
+"int"
+priv * @"struct--netdev_nested_priv.txt"
+)
+"int"

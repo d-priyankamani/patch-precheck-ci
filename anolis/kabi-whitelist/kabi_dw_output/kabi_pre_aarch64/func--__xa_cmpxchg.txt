@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/xarray.c:1603
+Symbol:
+func __xa_cmpxchg (
+xa * @"struct--xarray.txt"
+index "long unsigned int"
+old * "void"
+entry * "void"
+gfp @"typedef--gfp_t.txt"
+)
+* "void"

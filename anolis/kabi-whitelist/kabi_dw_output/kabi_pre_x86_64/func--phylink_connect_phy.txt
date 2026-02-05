@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/net/phy/phylink.c:1889
+Symbol:
+func phylink_connect_phy (
+pl * @"struct--phylink.txt"
+phy * @"struct--phy_device.txt"
+)
+"int"

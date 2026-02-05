@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/drm/drm_connector.h:366
+Symbol:
+Byte size 4
+enum drm_panel_orientation {
+DRM_MODE_PANEL_ORIENTATION_UNKNOWN = 0xffffffffffffffff
+DRM_MODE_PANEL_ORIENTATION_NORMAL = 0x0
+DRM_MODE_PANEL_ORIENTATION_BOTTOM_UP = 0x1
+DRM_MODE_PANEL_ORIENTATION_LEFT_UP = 0x2
+DRM_MODE_PANEL_ORIENTATION_RIGHT_UP = 0x3
+}

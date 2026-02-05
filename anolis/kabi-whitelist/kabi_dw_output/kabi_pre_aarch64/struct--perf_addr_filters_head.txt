@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/perf_event.h:604
+Symbol:
+Byte size 24
+struct perf_addr_filters_head {
+0x0 list @"struct--list_head.txt"
+0x10 lock @"typedef--raw_spinlock_t.txt"
+0x14 nr_file_filters "unsigned int"
+}

@@ -1,0 +1,6 @@
+Version: 1.0
+File: block/blk-mq.h:39
+Symbol:
+Byte size 4
+typedef blk_insert_t
+"unsigned int"

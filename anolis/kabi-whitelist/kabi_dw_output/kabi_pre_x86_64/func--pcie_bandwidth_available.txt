@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/pci/pci.c:6448
+Symbol:
+func pcie_bandwidth_available (
+dev * @"struct--pci_dev.txt"
+limiting_dev * * @"struct--pci_dev.txt"
+speed * @"enum--pci_bus_speed.txt"
+width * @"enum--pcie_link_width.txt"
+)
+@"typedef--u32.txt"

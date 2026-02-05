@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/phy.h:784
+Symbol:
+Byte size 16
+struct phy_tdr_config {
+0x0 first @"typedef--u32.txt"
+0x4 last @"typedef--u32.txt"
+0x8 step @"typedef--u32.txt"
+0xc pair @"typedef--s8.txt"
+}

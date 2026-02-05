@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/scsi/scsi_logging.c:56
+Symbol:
+func sdev_prefix_printk (
+level * const "char"
+sdev * const @"struct--scsi_device.txt"
+name * const "char"
+fmt * const "char"
+(NULL) ...
+)
+"void"

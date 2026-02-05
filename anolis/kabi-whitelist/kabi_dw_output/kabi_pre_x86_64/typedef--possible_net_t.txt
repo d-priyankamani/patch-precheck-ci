@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/net_namespace.h:379
+Symbol:
+Byte size 8
+typedef possible_net_t
+struct (NULL) {
+0x0 net * @"struct--net.txt"
+}

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/dma-fence-array.h:37
+Symbol:
+Byte size 152
+Alignment 8
+struct dma_fence_array {
+0x0 8 base @"struct--dma_fence.txt"
+0x40 lock @"typedef--spinlock_t.txt"
+0x44 num_fences "unsigned int"
+0x48 num_pending @"typedef--atomic_t.txt"
+0x50 fences * * @"struct--dma_fence.txt"
+0x58 work @"struct--irq_work.txt"
+}

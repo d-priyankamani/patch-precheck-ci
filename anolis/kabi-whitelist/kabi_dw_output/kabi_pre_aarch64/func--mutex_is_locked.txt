@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/mutex.c:89
+Symbol:
+func mutex_is_locked (
+lock * @"struct--mutex.txt"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_drv.c:725
+Symbol:
+func __devm_drm_dev_alloc (
+parent * @"struct--device.txt"
+driver * const @"struct--drm_driver.txt"
+size @"typedef--size_t.txt"
+offset @"typedef--size_t.txt"
+)
+* "void"

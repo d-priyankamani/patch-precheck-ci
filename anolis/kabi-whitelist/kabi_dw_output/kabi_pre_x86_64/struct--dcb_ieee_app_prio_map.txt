@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/dcbnl.h:40
+Symbol:
+Byte size 64
+struct dcb_ieee_app_prio_map {
+0x0 map [8]@"typedef--u64.txt"
+}

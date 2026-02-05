@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci-driver.c:1498
+Symbol:
+func pci_dev_driver (
+dev * const @"struct--pci_dev.txt"
+)
+* @"struct--pci_driver.txt"

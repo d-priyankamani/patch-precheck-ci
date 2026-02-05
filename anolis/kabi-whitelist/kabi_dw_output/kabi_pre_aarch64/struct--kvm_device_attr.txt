@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/kvm.h:1464
+Symbol:
+Byte size 24
+struct kvm_device_attr {
+0x0 flags @"typedef--__u32.txt"
+0x4 group @"typedef--__u32.txt"
+0x8 attr @"typedef--__u64.txt"
+0x10 addr @"typedef--__u64.txt"
+}

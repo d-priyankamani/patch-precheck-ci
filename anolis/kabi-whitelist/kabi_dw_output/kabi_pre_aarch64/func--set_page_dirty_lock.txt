@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/folio-compat.c:67
+Symbol:
+func set_page_dirty_lock (
+page * @"struct--page.txt"
+)
+"int"

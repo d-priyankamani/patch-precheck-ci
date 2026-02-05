@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/rdma/uverbs_ioctl.h:300
+Symbol:
+Byte size 32
+struct uverbs_method_def {
+0x0 id @"typedef--u16.txt"
+0x4 flags @"typedef--u32.txt"
+0x8 num_attrs @"typedef--size_t.txt"
+0x10 attrs * [0]const * const @"struct--uverbs_attr_def.txt"
+0x18 handler * func (NULL) (
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+"int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/mmzone.h:1265
+Symbol:
+Byte size 32
+struct deferred_split {
+0x0 split_queue_lock @"typedef--spinlock_t.txt"
+0x8 split_queue @"struct--list_head.txt"
+0x18 split_queue_len "long unsigned int"
+}

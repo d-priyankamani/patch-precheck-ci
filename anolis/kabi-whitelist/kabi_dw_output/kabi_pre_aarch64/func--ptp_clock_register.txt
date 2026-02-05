@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/ptp/ptp_clock.c:213
+Symbol:
+func ptp_clock_register (
+info * @"struct--ptp_clock_info.txt"
+parent * @"struct--device.txt"
+)
+* @"struct--ptp_clock.txt"

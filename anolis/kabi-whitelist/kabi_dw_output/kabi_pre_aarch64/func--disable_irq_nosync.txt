@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/irq/manage.c:715
+Symbol:
+func disable_irq_nosync (
+irq "unsigned int"
+)
+"void"

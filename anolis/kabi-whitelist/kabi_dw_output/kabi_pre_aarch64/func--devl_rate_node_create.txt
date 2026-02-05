@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/devlink/rate.c:588
+Symbol:
+func devl_rate_node_create (
+devlink * @"struct--devlink.txt"
+priv * "void"
+node_name * "char"
+parent * @"struct--devlink_rate.txt"
+)
+* @"struct--devlink_rate.txt"

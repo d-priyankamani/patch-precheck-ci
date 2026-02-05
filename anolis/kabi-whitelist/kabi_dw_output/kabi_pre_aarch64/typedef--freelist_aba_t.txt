@@ -1,0 +1,13 @@
+Version: 1.0
+File: mm/slab.h:39
+Symbol:
+Byte size 16
+Alignment 16
+typedef freelist_aba_t
+union (NULL) {
+(NULL) struct (NULL) {
+0x0 freelist * "void"
+0x8 counter "long unsigned int"
+}
+full @"typedef--freelist_full_t.txt"
+}

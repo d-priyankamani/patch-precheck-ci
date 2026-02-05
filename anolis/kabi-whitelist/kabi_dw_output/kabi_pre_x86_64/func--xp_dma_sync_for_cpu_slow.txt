@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/xdp/xsk_buff_pool.c:682
+Symbol:
+func xp_dma_sync_for_cpu_slow (
+xskb * @"struct--xdp_buff_xsk.txt"
+)
+"void"

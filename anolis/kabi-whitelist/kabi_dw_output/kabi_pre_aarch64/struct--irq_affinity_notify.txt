@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/interrupt.h:261
+Symbol:
+Byte size 88
+struct irq_affinity_notify {
+0x0 irq "unsigned int"
+0x4 kref @"struct--kref.txt"
+0x8 work @"struct--work_struct.txt"
+0x48 notify * func (NULL) (
+(NULL) * @"struct--irq_affinity_notify.txt"
+(NULL) * const @"typedef--cpumask_t.txt"
+)
+"void"
+0x50 release * func (NULL) (
+(NULL) * @"struct--kref.txt"
+)
+"void"
+}

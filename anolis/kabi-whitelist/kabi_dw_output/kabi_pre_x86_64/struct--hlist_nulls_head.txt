@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/list_nulls.h:21
+Symbol:
+Byte size 8
+struct hlist_nulls_head {
+0x0 first * @"struct--hlist_nulls_node.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/uuid.h:21
+Symbol:
+Byte size 16
+typedef uuid_t
+struct (NULL) {
+0x0 b [16]@"typedef--__u8.txt"
+}

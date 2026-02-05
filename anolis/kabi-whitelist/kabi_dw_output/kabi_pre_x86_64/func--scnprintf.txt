@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/vsprintf.c:2976
+Symbol:
+func scnprintf (
+buf * "char"
+size @"typedef--size_t.txt"
+fmt * const "char"
+(NULL) ...
+)
+"int"

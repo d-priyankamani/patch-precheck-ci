@@ -1,0 +1,17 @@
+Version: 1.0
+File: drivers/base/firmware_loader/main.c:1223
+Symbol:
+func request_firmware_nowait (
+module * @"struct--module.txt"
+uevent @"typedef--bool.txt"
+name * const "char"
+device * @"struct--device.txt"
+gfp @"typedef--gfp_t.txt"
+context * "void"
+cont * func (NULL) (
+(NULL) * const @"struct--firmware.txt"
+(NULL) * "void"
+)
+"void"
+)
+"int"

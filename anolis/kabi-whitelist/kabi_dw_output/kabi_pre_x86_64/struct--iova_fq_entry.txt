@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/iommu/dma-iommu.c:105
+Symbol:
+Byte size 40
+struct iova_fq_entry {
+0x0 iova_pfn "long unsigned int"
+0x8 pages "long unsigned int"
+0x10 freelist @"struct--iommu_pages_list.txt"
+0x20 counter @"typedef--u64.txt"
+}

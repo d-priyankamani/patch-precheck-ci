@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/ip6_fib.h:371
+Symbol:
+Byte size 24
+struct rt6_statistics {
+0x0 fib_nodes @"typedef--__u32.txt"
+0x4 fib_route_nodes @"typedef--__u32.txt"
+0x8 fib_rt_entries @"typedef--__u32.txt"
+0xc fib_rt_cache @"typedef--__u32.txt"
+0x10 fib_discarded_routes @"typedef--__u32.txt"
+0x14 fib_rt_alloc @"typedef--atomic_t.txt"
+}

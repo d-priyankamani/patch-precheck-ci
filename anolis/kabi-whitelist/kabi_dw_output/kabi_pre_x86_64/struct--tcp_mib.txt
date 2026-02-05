@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/snmp.h:92
+Symbol:
+Byte size 136
+struct tcp_mib {
+0x0 mibs [16]"long unsigned int"
+0x80 ck_reserved1 "long unsigned int"
+}

@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/blkdev.h:1007
+Symbol:
+Byte size 72
+struct blk_plug {
+0x0 mq_list * @"struct--request.txt"
+0x8 cached_rq * @"struct--request.txt"
+0x10 nr_ios "short unsigned int"
+0x12 rq_count "short unsigned int"
+0x14 multiple_queues @"typedef--bool.txt"
+0x15 has_elevator @"typedef--bool.txt"
+0x18 cb_list @"struct--list_head.txt"
+0x28 ck_reserved1 "long unsigned int"
+0x30 ck_reserved2 "long unsigned int"
+0x38 ck_reserved3 "long unsigned int"
+0x40 ck_reserved4 "long unsigned int"
+}

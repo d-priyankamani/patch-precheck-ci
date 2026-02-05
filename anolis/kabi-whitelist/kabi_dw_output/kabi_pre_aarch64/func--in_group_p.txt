@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/groups.c:227
+Symbol:
+func in_group_p (
+grp @"typedef--kgid_t.txt"
+)
+"int"

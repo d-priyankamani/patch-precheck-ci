@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:4697
+Symbol:
+func rdma_lock_handler (
+id * @"struct--rdma_cm_id.txt"
+)
+"void"

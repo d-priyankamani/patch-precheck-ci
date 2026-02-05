@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/idr.h:246
+Symbol:
+Byte size 16
+struct ida {
+0x0 xa @"struct--xarray.txt"
+}

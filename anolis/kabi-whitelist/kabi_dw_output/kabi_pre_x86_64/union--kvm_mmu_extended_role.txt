@@ -1,0 +1,17 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:373
+Symbol:
+Byte size 4
+union kvm_mmu_extended_role {
+word @"typedef--u32.txt"
+(NULL) struct (NULL) {
+0x0:0-1 valid "unsigned int"
+0x0:1-2 execonly "unsigned int"
+0x0:2-3 cr4_pse "unsigned int"
+0x0:3-4 cr4_pke "unsigned int"
+0x0:4-5 cr4_smap "unsigned int"
+0x0:5-6 cr4_smep "unsigned int"
+0x0:6-7 cr4_la57 "unsigned int"
+0x0:7-8 efer_lma "unsigned int"
+}
+}

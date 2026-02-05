@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/module/main.c:906
+Symbol:
+func try_module_get (
+module * @"struct--module.txt"
+)
+@"typedef--bool.txt"

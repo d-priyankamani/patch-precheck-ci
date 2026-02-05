@@ -1,0 +1,6 @@
+Version: 1.0
+File: <built-in>:0
+Symbol:
+func strcmp (
+)
+"void"

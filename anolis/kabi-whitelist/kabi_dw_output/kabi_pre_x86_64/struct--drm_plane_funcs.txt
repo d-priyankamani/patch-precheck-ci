@@ -1,0 +1,82 @@
+Version: 1.0
+File: include/drm/drm_plane.h:279
+Symbol:
+Byte size 104
+struct drm_plane_funcs {
+0x0 update_plane * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_framebuffer.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"
+0x8 disable_plane * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"
+0x10 destroy * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+)
+"void"
+0x18 reset * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+)
+"void"
+0x20 set_property * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_property.txt"
+(NULL) @"typedef--uint64_t.txt"
+)
+"int"
+0x28 atomic_duplicate_state * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+)
+* @"struct--drm_plane_state.txt"
+0x30 atomic_destroy_state * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_plane_state.txt"
+)
+"void"
+0x38 atomic_set_property * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_plane_state.txt"
+(NULL) * @"struct--drm_property.txt"
+(NULL) @"typedef--uint64_t.txt"
+)
+"int"
+0x40 atomic_get_property * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * const @"struct--drm_plane_state.txt"
+(NULL) * @"struct--drm_property.txt"
+(NULL) * @"typedef--uint64_t.txt"
+)
+"int"
+0x48 late_register * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+)
+"int"
+0x50 early_unregister * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+)
+"void"
+0x58 atomic_print_state * func (NULL) (
+(NULL) * @"struct--drm_printer.txt"
+(NULL) * const @"struct--drm_plane_state.txt"
+)
+"void"
+0x60 format_mod_supported * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--uint64_t.txt"
+)
+@"typedef--bool.txt"
+}

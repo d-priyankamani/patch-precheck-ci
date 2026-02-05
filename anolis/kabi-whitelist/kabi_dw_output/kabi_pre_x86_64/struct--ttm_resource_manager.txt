@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/drm/ttm/ttm_resource.h:151
+Symbol:
+Byte size 136
+struct ttm_resource_manager {
+0x0 use_type @"typedef--bool.txt"
+0x1 use_tt @"typedef--bool.txt"
+0x8 bdev * @"struct--ttm_device.txt"
+0x10 size @"typedef--uint64_t.txt"
+0x18 func * const @"struct--ttm_resource_manager_func.txt"
+0x20 move_lock @"typedef--spinlock_t.txt"
+0x28 move * @"struct--dma_fence.txt"
+0x30 lru [4]@"struct--list_head.txt"
+0x70 usage @"typedef--uint64_t.txt"
+0x78 ck_reserved1 "long unsigned int"
+0x80 ck_reserved2 "long unsigned int"
+}

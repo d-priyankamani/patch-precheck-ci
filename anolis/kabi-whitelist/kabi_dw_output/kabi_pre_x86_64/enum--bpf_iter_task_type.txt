@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/bpf.h:2350
+Symbol:
+Byte size 4
+enum bpf_iter_task_type {
+BPF_TASK_ITER_ALL = 0x0
+BPF_TASK_ITER_TID = 0x1
+BPF_TASK_ITER_TGID = 0x2
+}

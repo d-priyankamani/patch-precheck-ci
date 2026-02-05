@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/net/sock.h:115
+Symbol:
+typedef __portpair
+@"typedef--__u32.txt"

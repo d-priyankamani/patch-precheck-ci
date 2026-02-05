@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/fortify-string.h:306
+Symbol:
+func strscpy (
+p const * "char"
+q const * const "char"
+size @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"

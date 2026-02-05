@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/drm/drm_fb_helper.h:71
+Symbol:
+Byte size 16
+struct drm_fb_helper_funcs {
+0x0 fb_probe * func (NULL) (
+(NULL) * @"struct--drm_fb_helper.txt"
+(NULL) * @"struct--drm_fb_helper_surface_size.txt"
+)
+"int"
+0x8 fb_dirty * func (NULL) (
+(NULL) * @"struct--drm_fb_helper.txt"
+(NULL) * @"struct--drm_clip_rect.txt"
+)
+"int"
+}

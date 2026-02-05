@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_scan.c:2001
+Symbol:
+func scsi_scan_host (
+shost * @"struct--Scsi_Host.txt"
+)
+"void"

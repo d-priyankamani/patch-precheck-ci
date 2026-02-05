@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/signature.h:87
+Symbol:
+Byte size 64
+struct ib_sig_attrs {
+0x0 check_mask @"typedef--u8.txt"
+0x4 mem @"struct--ib_sig_domain.txt"
+0x20 wire @"struct--ib_sig_domain.txt"
+0x3c meta_length "int"
+}

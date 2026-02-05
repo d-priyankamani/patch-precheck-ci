@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/kprobes.h:55
+Symbol:
+Byte size 8
+typedef kprobe_post_handler_t
+* func (NULL) (
+(NULL) * @"struct--kprobe.txt"
+(NULL) * @"struct--pt_regs.txt"
+(NULL) "long unsigned int"
+)
+"void"

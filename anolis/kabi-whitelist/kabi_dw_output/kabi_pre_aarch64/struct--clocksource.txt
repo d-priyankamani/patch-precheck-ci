@@ -1,0 +1,48 @@
+Version: 1.0
+File: include/linux/clocksource.h:96
+Symbol:
+Byte size 152
+struct clocksource {
+0x0 read * func (NULL) (
+(NULL) * @"struct--clocksource.txt"
+)
+@"typedef--u64.txt"
+0x8 mask @"typedef--u64.txt"
+0x10 mult @"typedef--u32.txt"
+0x14 shift @"typedef--u32.txt"
+0x18 max_idle_ns @"typedef--u64.txt"
+0x20 maxadj @"typedef--u32.txt"
+0x24 uncertainty_margin @"typedef--u32.txt"
+0x28 max_cycles @"typedef--u64.txt"
+0x30 name * const "char"
+0x38 list @"struct--list_head.txt"
+0x48 rating "int"
+0x4c id @"enum--clocksource_ids.txt"
+0x50 vdso_clock_mode @"enum--vdso_clock_mode.txt"
+0x58 flags "long unsigned int"
+0x60 enable * func (NULL) (
+(NULL) * @"struct--clocksource.txt"
+)
+"int"
+0x68 disable * func (NULL) (
+(NULL) * @"struct--clocksource.txt"
+)
+"void"
+0x70 suspend * func (NULL) (
+(NULL) * @"struct--clocksource.txt"
+)
+"void"
+0x78 resume * func (NULL) (
+(NULL) * @"struct--clocksource.txt"
+)
+"void"
+0x80 mark_unstable * func (NULL) (
+(NULL) * @"struct--clocksource.txt"
+)
+"void"
+0x88 tick_stable * func (NULL) (
+(NULL) * @"struct--clocksource.txt"
+)
+"void"
+0x90 owner * @"struct--module.txt"
+}

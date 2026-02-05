@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/pci/controller/pci-hyperv-intf.c:32
+Symbol:
+func hyperv_write_cfg_blk (
+dev * @"<declarations>/struct--pci_dev.txt"
+buf * "void"
+len "unsigned int"
+block_id "unsigned int"
+)
+"int"

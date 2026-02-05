@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/ethtool.h:437
+Symbol:
+Byte size 4
+struct ethtool_rmon_hist_range {
+0x0 low @"typedef--u16.txt"
+0x2 high @"typedef--u16.txt"
+}

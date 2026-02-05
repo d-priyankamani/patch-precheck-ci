@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:221
+Symbol:
+Byte size 8
+struct acpi_device_dir {
+0x0 entry * @"<declarations>/struct--proc_dir_entry.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/rbtree.c:440
+Symbol:
+func rb_erase (
+node * @"struct--rb_node.txt"
+root * @"struct--rb_root.txt"
+)
+"void"

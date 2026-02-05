@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/tty/tty_buffer.c:294
+Symbol:
+func tty_buffer_request_room (
+port * @"struct--tty_port.txt"
+size @"typedef--size_t.txt"
+)
+"int"

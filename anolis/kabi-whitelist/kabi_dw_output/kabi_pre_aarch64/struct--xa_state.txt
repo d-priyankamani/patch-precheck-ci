@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/xarray.h:1344
+Symbol:
+Byte size 56
+struct xa_state {
+0x0 xa * @"struct--xarray.txt"
+0x8 xa_index "long unsigned int"
+0x10 xa_shift "unsigned char"
+0x11 xa_sibs "unsigned char"
+0x12 xa_offset "unsigned char"
+0x13 xa_pad "unsigned char"
+0x18 xa_node * @"struct--xa_node.txt"
+0x20 xa_alloc * @"struct--xa_node.txt"
+0x28 xa_update @"typedef--xa_update_node_t.txt"
+0x30 xa_lru * @"<declarations>/struct--list_lru.txt"
+}

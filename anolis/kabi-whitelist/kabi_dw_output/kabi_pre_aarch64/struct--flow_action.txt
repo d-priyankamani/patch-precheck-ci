@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/flow_offload.h:339
+Symbol:
+Byte size 8
+struct flow_action {
+0x0 num_entries "unsigned int"
+0x8 entries [0]@"struct--flow_action_entry.txt"
+}

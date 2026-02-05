@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/ptp_classifier.c:110
+Symbol:
+func ptp_parse_header (
+skb * @"struct--sk_buff.txt"
+type "unsigned int"
+)
+* @"struct--ptp_header.txt"

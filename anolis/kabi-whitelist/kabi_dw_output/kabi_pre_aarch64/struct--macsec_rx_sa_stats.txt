@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/macsec.h:87
+Symbol:
+Byte size 20
+struct macsec_rx_sa_stats {
+0x0 InPktsOK @"typedef--__u32.txt"
+0x4 InPktsInvalid @"typedef--__u32.txt"
+0x8 InPktsNotValid @"typedef--__u32.txt"
+0xc InPktsNotUsingSA @"typedef--__u32.txt"
+0x10 InPktsUnusedSA @"typedef--__u32.txt"
+}

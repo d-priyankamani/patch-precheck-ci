@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/mm_types.h:777
+Symbol:
+Byte size 16
+struct mm_cid {
+0x0 time @"typedef--u64.txt"
+0x8 cid "int"
+}

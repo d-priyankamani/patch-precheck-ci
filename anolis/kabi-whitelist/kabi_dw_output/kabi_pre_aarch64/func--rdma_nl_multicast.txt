@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/netlink.c:282
+Symbol:
+func rdma_nl_multicast (
+net * @"struct--net.txt"
+skb * @"struct--sk_buff.txt"
+group "unsigned int"
+flags @"typedef--gfp_t.txt"
+)
+"int"

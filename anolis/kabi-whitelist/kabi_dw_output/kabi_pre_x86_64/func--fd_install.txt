@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/file.c:598
+Symbol:
+func fd_install (
+fd "unsigned int"
+file * @"struct--file.txt"
+)
+"void"

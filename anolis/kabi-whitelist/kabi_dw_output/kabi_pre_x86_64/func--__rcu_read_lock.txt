@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/rcu/tree_plugin.h:400
+Symbol:
+func __rcu_read_lock (
+)
+"void"

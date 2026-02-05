@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/netns/conntrack.h:25
+Symbol:
+Byte size 64
+struct nf_tcp_net {
+0x0 timeouts [14]"unsigned int"
+0x38 tcp_loose @"typedef--u8.txt"
+0x39 tcp_be_liberal @"typedef--u8.txt"
+0x3a tcp_max_retrans @"typedef--u8.txt"
+0x3b tcp_ignore_invalid_rst @"typedef--u8.txt"
+0x3c offload_timeout "unsigned int"
+}

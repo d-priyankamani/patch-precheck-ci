@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/vfio/vfio_main.c:1576
+Symbol:
+func vfio_unpin_pages (
+device * @"struct--vfio_device.txt"
+iova @"typedef--dma_addr_t.txt"
+npage "int"
+)
+"void"

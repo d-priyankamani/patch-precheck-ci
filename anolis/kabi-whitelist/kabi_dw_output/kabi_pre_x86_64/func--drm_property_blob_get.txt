@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_property.c:631
+Symbol:
+func drm_property_blob_get (
+blob * @"struct--drm_property_blob.txt"
+)
+* @"struct--drm_property_blob.txt"

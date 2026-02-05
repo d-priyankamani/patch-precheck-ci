@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/linux/socket.h:55
+Symbol:
+Byte size 104
+struct msghdr {
+0x0 msg_name * "void"
+0x8 msg_namelen "int"
+0xc msg_inq "int"
+0x10 msg_iter @"struct--iov_iter.txt"
+0x38 (NULL) union (NULL) {
+msg_control * "void"
+msg_control_user * "void"
+}
+0x40:0-1 msg_control_is_user @"typedef--bool.txt"
+0x40:1-2 msg_get_inq @"typedef--bool.txt"
+0x44 msg_flags "unsigned int"
+0x48 msg_controllen @"typedef--__kernel_size_t.txt"
+0x50 msg_iocb * @"struct--kiocb.txt"
+0x58 msg_ubuf * @"struct--ubuf_info.txt"
+0x60 sg_from_iter * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--iov_iter.txt"
+(NULL) @"typedef--size_t.txt"
+)
+"int"
+}

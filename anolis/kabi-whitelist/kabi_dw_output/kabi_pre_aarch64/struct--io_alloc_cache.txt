@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:189
+Symbol:
+Byte size 24
+struct io_alloc_cache {
+0x0 list @"struct--io_wq_work_node.txt"
+0x8 nr_cached "unsigned int"
+0xc max_cached "unsigned int"
+0x10 elem_size @"typedef--size_t.txt"
+}

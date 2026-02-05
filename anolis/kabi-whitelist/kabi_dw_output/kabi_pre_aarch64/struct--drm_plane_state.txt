@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/drm/drm_plane.h:52
+Symbol:
+Byte size 160
+struct drm_plane_state {
+0x0 plane * @"struct--drm_plane.txt"
+0x8 crtc * @"struct--drm_crtc.txt"
+0x10 fb * @"struct--drm_framebuffer.txt"
+0x18 fence * @"struct--dma_fence.txt"
+0x20 crtc_x @"typedef--int32_t.txt"
+0x24 crtc_y @"typedef--int32_t.txt"
+0x28 crtc_w @"typedef--uint32_t.txt"
+0x2c crtc_h @"typedef--uint32_t.txt"
+0x30 src_x @"typedef--uint32_t.txt"
+0x34 src_y @"typedef--uint32_t.txt"
+0x38 src_h @"typedef--uint32_t.txt"
+0x3c src_w @"typedef--uint32_t.txt"
+0x40 alpha @"typedef--u16.txt"
+0x42 pixel_blend_mode @"typedef--uint16_t.txt"
+0x44 rotation "unsigned int"
+0x48 zpos "unsigned int"
+0x4c normalized_zpos "unsigned int"
+0x50 color_encoding @"enum--drm_color_encoding.txt"
+0x54 color_range @"enum--drm_color_range.txt"
+0x58 fb_damage_clips * @"struct--drm_property_blob.txt"
+0x60 ignore_damage_clips @"typedef--bool.txt"
+0x64 src @"struct--drm_rect.txt"
+0x74 dst @"struct--drm_rect.txt"
+0x84 visible @"typedef--bool.txt"
+0x88 scaling_filter @"enum--drm_scaling_filter.txt"
+0x90 commit * @"struct--drm_crtc_commit.txt"
+0x98 state * @"struct--drm_atomic_state.txt"
+}

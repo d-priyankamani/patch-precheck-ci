@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:52
+Symbol:
+Byte size 320
+Alignment 64
+struct io_uring_task {
+0x0 cached_refs "int"
+0x8 last * const @"struct--io_ring_ctx.txt"
+0x10 io_wq * @"<declarations>/struct--io_wq.txt"
+0x18 registered_rings [16]* @"struct--file.txt"
+0x98 xa @"struct--xarray.txt"
+0xa8 wait @"struct--wait_queue_head.txt"
+0xc0 in_cancel @"typedef--atomic_t.txt"
+0xc4 inflight_tracked @"typedef--atomic_t.txt"
+0xc8 inflight @"struct--percpu_counter.txt"
+0x100 64 (NULL) struct (NULL) {
+0x0 task_list @"struct--llist_head.txt"
+0x8 8 task_work @"struct--callback_head.txt"
+}
+}

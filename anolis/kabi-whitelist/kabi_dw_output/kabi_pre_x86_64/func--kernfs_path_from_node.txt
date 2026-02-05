@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/kernfs/dir.c:223
+Symbol:
+func kernfs_path_from_node (
+to * @"struct--kernfs_node.txt"
+from * @"struct--kernfs_node.txt"
+buf * "char"
+buflen @"typedef--size_t.txt"
+)
+"int"

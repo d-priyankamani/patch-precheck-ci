@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/core/dev.c:2905
+Symbol:
+func netdev_bind_sb_channel_queue (
+dev * @"struct--net_device.txt"
+sb_dev * @"struct--net_device.txt"
+tc @"typedef--u8.txt"
+count @"typedef--u16.txt"
+offset @"typedef--u16.txt"
+)
+"int"

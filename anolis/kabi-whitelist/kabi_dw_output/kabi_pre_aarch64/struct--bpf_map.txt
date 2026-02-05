@@ -1,0 +1,50 @@
+Version: 1.0
+File: include/linux/bpf.h:253
+Symbol:
+Byte size 384
+Alignment 64
+struct bpf_map {
+0x0 64 ops * const @"struct--bpf_map_ops.txt"
+0x8 inner_map_meta * @"struct--bpf_map.txt"
+0x10 security * "void"
+0x18 map_type @"enum--bpf_map_type.txt"
+0x1c key_size @"typedef--u32.txt"
+0x20 value_size @"typedef--u32.txt"
+0x24 max_entries @"typedef--u32.txt"
+0x28 map_extra @"typedef--u64.txt"
+0x30 map_flags @"typedef--u32.txt"
+0x34 id @"typedef--u32.txt"
+0x38 record * @"struct--btf_record.txt"
+0x40 numa_node "int"
+0x44 btf_key_type_id @"typedef--u32.txt"
+0x48 btf_value_type_id @"typedef--u32.txt"
+0x4c btf_vmlinux_value_type_id @"typedef--u32.txt"
+0x50 btf * @"<declarations>/struct--btf.txt"
+0x58 objcg * @"struct--obj_cgroup.txt"
+0x60 name [16]"char"
+0x80 64 refcnt @"typedef--atomic64_t.txt"
+0x88 usercnt @"typedef--atomic64_t.txt"
+0x90 8 (NULL) union (NULL) {
+work @"struct--work_struct.txt"
+rcu @"struct--callback_head.txt"
+}
+0xd0 freeze_mutex @"struct--mutex.txt"
+0xf0 writecnt @"typedef--atomic64_t.txt"
+0xf8 owner struct (NULL) {
+0x0 attach_func_proto * const @"struct--btf_type.txt"
+0x8 lock @"typedef--spinlock_t.txt"
+0xc type @"enum--bpf_prog_type.txt"
+0x10 jited @"typedef--bool.txt"
+0x11 xdp_has_frags @"typedef--bool.txt"
+}
+0x110 bypass_spec_v1 @"typedef--bool.txt"
+0x111 frozen @"typedef--bool.txt"
+0x112 free_after_mult_rcu_gp @"typedef--bool.txt"
+0x113 free_after_rcu_gp @"typedef--bool.txt"
+0x118 sleepable_refcnt @"typedef--atomic64_t.txt"
+0x120 elem_count * @"typedef--s64.txt"
+0x128 ck_reserved1 "long unsigned int"
+0x130 ck_reserved2 "long unsigned int"
+0x138 ck_reserved3 "long unsigned int"
+0x140 ck_reserved4 "long unsigned int"
+}

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/flow_dissector.h:206
+Symbol:
+Byte size 4
+struct flow_dissector_key_icmp {
+0x0 (NULL) struct (NULL) {
+0x0 type @"typedef--u8.txt"
+0x1 code @"typedef--u8.txt"
+}
+0x2 id @"typedef--u16.txt"
+}

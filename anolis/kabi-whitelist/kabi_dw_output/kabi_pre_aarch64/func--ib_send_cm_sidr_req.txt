@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cm.c:3488
+Symbol:
+func ib_send_cm_sidr_req (
+cm_id * @"struct--ib_cm_id.txt"
+param * @"struct--ib_cm_sidr_req_param.txt"
+)
+"int"

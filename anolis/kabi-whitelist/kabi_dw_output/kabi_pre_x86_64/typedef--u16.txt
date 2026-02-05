@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/asm-generic/int-ll64.h:19
+Symbol:
+typedef u16
+@"typedef--__u16.txt"

@@ -1,0 +1,35 @@
+Version: 1.0
+File: include/uapi/linux/fb.h:242
+Symbol:
+Byte size 160
+struct fb_var_screeninfo {
+0x0 xres @"typedef--__u32.txt"
+0x4 yres @"typedef--__u32.txt"
+0x8 xres_virtual @"typedef--__u32.txt"
+0xc yres_virtual @"typedef--__u32.txt"
+0x10 xoffset @"typedef--__u32.txt"
+0x14 yoffset @"typedef--__u32.txt"
+0x18 bits_per_pixel @"typedef--__u32.txt"
+0x1c grayscale @"typedef--__u32.txt"
+0x20 red @"struct--fb_bitfield.txt"
+0x2c green @"struct--fb_bitfield.txt"
+0x38 blue @"struct--fb_bitfield.txt"
+0x44 transp @"struct--fb_bitfield.txt"
+0x50 nonstd @"typedef--__u32.txt"
+0x54 activate @"typedef--__u32.txt"
+0x58 height @"typedef--__u32.txt"
+0x5c width @"typedef--__u32.txt"
+0x60 accel_flags @"typedef--__u32.txt"
+0x64 pixclock @"typedef--__u32.txt"
+0x68 left_margin @"typedef--__u32.txt"
+0x6c right_margin @"typedef--__u32.txt"
+0x70 upper_margin @"typedef--__u32.txt"
+0x74 lower_margin @"typedef--__u32.txt"
+0x78 hsync_len @"typedef--__u32.txt"
+0x7c vsync_len @"typedef--__u32.txt"
+0x80 sync @"typedef--__u32.txt"
+0x84 vmode @"typedef--__u32.txt"
+0x88 rotate @"typedef--__u32.txt"
+0x8c colorspace @"typedef--__u32.txt"
+0x90 reserved [4]@"typedef--__u32.txt"
+}

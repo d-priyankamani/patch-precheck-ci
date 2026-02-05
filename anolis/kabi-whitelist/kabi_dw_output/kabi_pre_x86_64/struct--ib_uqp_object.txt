@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs.h:199
+Symbol:
+Byte size 184
+Alignment 8
+struct ib_uqp_object {
+0x0 8 uevent @"struct--ib_uevent_object.txt"
+0x80 mcast_lock @"struct--mutex.txt"
+0xa0 mcast_list @"struct--list_head.txt"
+0xb0 uxrcd * @"struct--ib_uxrcd_object.txt"
+}

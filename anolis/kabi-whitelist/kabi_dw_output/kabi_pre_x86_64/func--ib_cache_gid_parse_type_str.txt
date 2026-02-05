@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:176
+Symbol:
+func ib_cache_gid_parse_type_str (
+buf * const "char"
+)
+"int"

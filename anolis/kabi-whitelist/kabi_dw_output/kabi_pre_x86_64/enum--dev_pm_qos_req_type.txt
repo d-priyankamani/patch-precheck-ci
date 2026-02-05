@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/pm_qos.h:99
+Symbol:
+Byte size 4
+enum dev_pm_qos_req_type {
+DEV_PM_QOS_RESUME_LATENCY = 0x1
+DEV_PM_QOS_LATENCY_TOLERANCE = 0x2
+DEV_PM_QOS_MIN_FREQUENCY = 0x3
+DEV_PM_QOS_MAX_FREQUENCY = 0x4
+DEV_PM_QOS_FLAGS = 0x5
+}

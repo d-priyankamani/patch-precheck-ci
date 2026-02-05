@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/netns/ipv4.h:34
+Symbol:
+Byte size 128
+Alignment 64
+struct inet_timewait_death_row {
+0x0 tw_refcount @"typedef--refcount_t.txt"
+0x40 64 hashinfo * @"struct--inet_hashinfo.txt"
+0x48 sysctl_max_tw_buckets "int"
+}

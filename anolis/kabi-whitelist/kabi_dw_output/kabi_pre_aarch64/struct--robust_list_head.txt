@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/futex.h:97
+Symbol:
+Byte size 24
+struct robust_list_head {
+0x0 list @"struct--robust_list.txt"
+0x8 futex_offset "long int"
+0x10 list_op_pending * @"struct--robust_list.txt"
+}

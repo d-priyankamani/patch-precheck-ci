@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:21
+Symbol:
+typedef dev_t
+@"typedef--__kernel_dev_t.txt"

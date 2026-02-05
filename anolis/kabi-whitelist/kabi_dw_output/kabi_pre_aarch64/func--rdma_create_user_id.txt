@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:1047
+Symbol:
+func rdma_create_user_id (
+event_handler @"typedef--rdma_cm_event_handler.txt"
+context * "void"
+ps @"enum--rdma_ucm_port_space.txt"
+qp_type @"enum--ib_qp_type.txt"
+)
+* @"struct--rdma_cm_id.txt"

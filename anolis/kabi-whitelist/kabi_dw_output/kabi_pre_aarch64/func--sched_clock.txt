@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/sched/clock.c:62
+Symbol:
+func sched_clock (
+)
+@"typedef--u64.txt"

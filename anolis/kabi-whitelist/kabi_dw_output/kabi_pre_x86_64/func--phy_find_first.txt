@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/net/phy/phy_device.c:1058
+Symbol:
+func phy_find_first (
+bus * @"struct--mii_bus.txt"
+)
+* @"struct--phy_device.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:331
+Symbol:
+Byte size 1
+struct acpi_device_wakeup_flags {
+0x0:0-1 valid @"typedef--u8.txt"
+0x0:1-2 notifier_present @"typedef--u8.txt"
+}

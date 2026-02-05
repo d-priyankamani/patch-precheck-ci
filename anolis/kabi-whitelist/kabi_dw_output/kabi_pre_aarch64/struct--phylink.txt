@@ -1,0 +1,41 @@
+Version: 1.0
+File: drivers/net/phy/phylink.c:46
+Symbol:
+Byte size 464
+struct phylink {
+0x0 netdev * @"struct--net_device.txt"
+0x8 mac_ops * const @"struct--phylink_mac_ops.txt"
+0x10 config * @"struct--phylink_config.txt"
+0x18 pcs * @"struct--phylink_pcs.txt"
+0x20 dev * @"struct--device.txt"
+0x28:0-1 old_link_state "unsigned int"
+0x30 phylink_disable_state "long unsigned int"
+0x38 phydev * @"struct--phy_device.txt"
+0x40 link_interface @"typedef--phy_interface_t.txt"
+0x44 cfg_link_an_mode @"typedef--u8.txt"
+0x45 cur_link_an_mode @"typedef--u8.txt"
+0x46 link_port @"typedef--u8.txt"
+0x48 supported [2]"long unsigned int"
+0x58 link_config @"struct--phylink_link_state.txt"
+0x90 cur_interface @"typedef--phy_interface_t.txt"
+0x98 link_gpio * @"<declarations>/struct--gpio_desc.txt"
+0xa0 link_irq "unsigned int"
+0xa8 link_poll @"struct--timer_list.txt"
+0xf0 get_fixed_state * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--phylink_link_state.txt"
+)
+"void"
+0xf8 state_mutex @"struct--mutex.txt"
+0x118 phy_state @"struct--phylink_link_state.txt"
+0x150 resolve @"struct--work_struct.txt"
+0x190 pcs_neg_mode "unsigned int"
+0x194 pcs_state "unsigned int"
+0x198 mac_link_dropped @"typedef--bool.txt"
+0x199 using_mac_select_pcs @"typedef--bool.txt"
+0x1a0 sfp_bus * @"<declarations>/struct--sfp_bus.txt"
+0x1a8 sfp_may_have_phy @"typedef--bool.txt"
+0x1b0 sfp_interfaces [1]"long unsigned int"
+0x1b8 sfp_support [2]"long unsigned int"
+0x1c8 sfp_port @"typedef--u8.txt"
+}

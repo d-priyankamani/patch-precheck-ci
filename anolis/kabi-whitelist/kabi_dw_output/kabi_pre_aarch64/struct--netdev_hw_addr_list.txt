@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/netdevice.h:254
+Symbol:
+Byte size 40
+struct netdev_hw_addr_list {
+0x0 list @"struct--list_head.txt"
+0x10 count "int"
+0x18 tree @"struct--rb_root.txt"
+0x20 ck_reserved1 "long unsigned int"
+}

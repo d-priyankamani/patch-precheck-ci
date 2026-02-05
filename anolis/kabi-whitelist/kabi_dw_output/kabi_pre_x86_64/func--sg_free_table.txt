@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/scatterlist.c:256
+Symbol:
+func sg_free_table (
+table * @"struct--sg_table.txt"
+)
+"void"

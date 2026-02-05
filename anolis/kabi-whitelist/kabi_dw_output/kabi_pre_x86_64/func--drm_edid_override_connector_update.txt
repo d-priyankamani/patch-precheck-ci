@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:2304
+Symbol:
+func drm_edid_override_connector_update (
+connector * @"struct--drm_connector.txt"
+)
+"int"

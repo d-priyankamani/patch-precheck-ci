@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/pci.c:4169
+Symbol:
+func pci_release_selected_regions (
+pdev * @"struct--pci_dev.txt"
+bars "int"
+)
+"void"

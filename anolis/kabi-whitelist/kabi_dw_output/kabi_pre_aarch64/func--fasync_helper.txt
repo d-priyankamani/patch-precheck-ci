@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/fcntl.c:967
+Symbol:
+func fasync_helper (
+fd "int"
+filp * @"struct--file.txt"
+on "int"
+fapp * * @"struct--fasync_struct.txt"
+)
+"int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/fb.h:146
+Symbol:
+Byte size 16
+struct fb_blit_caps {
+0x0 x @"typedef--u32.txt"
+0x4 y @"typedef--u32.txt"
+0x8 len @"typedef--u32.txt"
+0xc flags @"typedef--u32.txt"
+}

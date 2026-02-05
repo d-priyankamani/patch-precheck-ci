@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:344
+Symbol:
+Byte size 16
+struct ethtool_eeprom {
+0x0 cmd @"typedef--__u32.txt"
+0x4 magic @"typedef--__u32.txt"
+0x8 offset @"typedef--__u32.txt"
+0xc len @"typedef--__u32.txt"
+0x10 data [0]@"typedef--__u8.txt"
+}

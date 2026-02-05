@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/kvm/arm_vgic.h:325
+Symbol:
+Byte size 3992
+struct vgic_cpu {
+0x0 (NULL) union (NULL) {
+vgic_v2 @"struct--vgic_v2_cpu_if.txt"
+vgic_v3 @"struct--vgic_v3_cpu_if.txt"
+}
+0x130 private_irqs [32]@"struct--vgic_irq.txt"
+0xf30 ap_list_lock @"typedef--raw_spinlock_t.txt"
+0xf38 ap_list_head @"struct--list_head.txt"
+0xf48 rd_iodev @"struct--vgic_io_device.txt"
+0xf70 rdreg * @"struct--vgic_redist_region.txt"
+0xf78 rdreg_index @"typedef--u32.txt"
+0xf7c syncr_busy @"typedef--atomic_t.txt"
+0xf80 pendbaser @"typedef--u64.txt"
+0xf88 ctlr @"typedef--atomic_t.txt"
+0xf8c num_pri_bits @"typedef--u32.txt"
+0xf90 num_id_bits @"typedef--u32.txt"
+}

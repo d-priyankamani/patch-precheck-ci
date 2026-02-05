@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev_addr_lists.c:846
+Symbol:
+func dev_mc_add_excl (
+dev * @"struct--net_device.txt"
+addr * const "unsigned char"
+)
+"int"

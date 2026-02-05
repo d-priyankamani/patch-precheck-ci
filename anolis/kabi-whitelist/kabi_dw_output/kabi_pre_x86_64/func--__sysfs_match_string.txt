@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/string_helpers.c:978
+Symbol:
+func __sysfs_match_string (
+array * const * const "char"
+n @"typedef--size_t.txt"
+str * const "char"
+)
+"int"

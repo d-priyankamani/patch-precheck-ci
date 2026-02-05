@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:38
+Symbol:
+typedef gid_t
+@"typedef--__kernel_gid32_t.txt"

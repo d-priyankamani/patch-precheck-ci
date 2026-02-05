@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/types.h:37
+Symbol:
+typedef __be16
+@"typedef--__u16.txt"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_device.c:282
+Symbol:
+func ttm_device_clear_dma_mappings (
+bdev * @"struct--ttm_device.txt"
+)
+"void"

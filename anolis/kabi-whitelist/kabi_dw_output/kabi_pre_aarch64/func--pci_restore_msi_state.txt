@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/msi/api.c:441
+Symbol:
+func pci_restore_msi_state (
+dev * @"struct--pci_dev.txt"
+)
+"void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/netdevice.h:743
+Symbol:
+Byte size 8
+struct rps_dev_flow {
+0x0 cpu @"typedef--u16.txt"
+0x2 filter @"typedef--u16.txt"
+0x4 last_qtail "unsigned int"
+}

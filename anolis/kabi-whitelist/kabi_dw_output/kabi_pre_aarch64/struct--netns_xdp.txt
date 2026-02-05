@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/netns/xdp.h:8
+Symbol:
+Byte size 40
+struct netns_xdp {
+0x0 lock @"struct--mutex.txt"
+0x20 list @"struct--hlist_head.txt"
+}

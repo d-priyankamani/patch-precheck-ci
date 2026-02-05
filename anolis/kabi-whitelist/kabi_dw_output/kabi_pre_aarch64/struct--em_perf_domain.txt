@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/energy_model.h:57
+Symbol:
+Byte size 32
+struct em_perf_domain {
+0x0 table * @"struct--em_perf_state.txt"
+0x8 nr_perf_states "int"
+0x10 flags "long unsigned int"
+0x18 ck_reserved1 "long unsigned int"
+0x20 cpus [0]"long unsigned int"
+}

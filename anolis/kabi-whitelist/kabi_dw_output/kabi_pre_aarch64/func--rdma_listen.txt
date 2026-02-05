@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:3914
+Symbol:
+func rdma_listen (
+id * @"struct--rdma_cm_id.txt"
+backlog "int"
+)
+"int"

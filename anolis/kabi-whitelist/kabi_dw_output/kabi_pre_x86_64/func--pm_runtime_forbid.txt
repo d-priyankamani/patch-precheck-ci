@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/power/runtime.c:1545
+Symbol:
+func pm_runtime_forbid (
+dev * @"struct--device.txt"
+)
+"void"

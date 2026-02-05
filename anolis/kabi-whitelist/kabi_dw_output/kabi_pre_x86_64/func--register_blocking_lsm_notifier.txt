@@ -1,0 +1,7 @@
+Version: 1.0
+File: security/security.c:547
+Symbol:
+func register_blocking_lsm_notifier (
+nb * @"struct--notifier_block.txt"
+)
+"int"

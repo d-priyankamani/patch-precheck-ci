@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:11128
+Symbol:
+func unregister_netdevice_many (
+head * @"struct--list_head.txt"
+)
+"void"

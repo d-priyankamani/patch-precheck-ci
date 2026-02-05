@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/phy.h:530
+Symbol:
+Byte size 136
+struct phy_c45_device_ids {
+0x0 devices_in_package @"typedef--u32.txt"
+0x4 mmds_present @"typedef--u32.txt"
+0x8 device_ids [32]@"typedef--u32.txt"
+}

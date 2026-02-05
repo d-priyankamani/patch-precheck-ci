@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_drv.c:904
+Symbol:
+func drm_dev_register (
+dev * @"struct--drm_device.txt"
+flags "long unsigned int"
+)
+"int"

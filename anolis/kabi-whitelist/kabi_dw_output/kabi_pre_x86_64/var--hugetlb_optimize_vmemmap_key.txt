@@ -1,0 +1,4 @@
+Version: 1.0
+File: mm/hugetlb_vmemmap.c:436
+Symbol:
+var hugetlb_optimize_vmemmap_key "void"

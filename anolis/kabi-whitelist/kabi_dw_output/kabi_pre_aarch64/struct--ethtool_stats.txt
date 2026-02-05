@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:920
+Symbol:
+Byte size 8
+struct ethtool_stats {
+0x0 cmd @"typedef--__u32.txt"
+0x4 n_stats @"typedef--__u32.txt"
+0x8 data [0]@"typedef--__u64.txt"
+}

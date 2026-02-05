@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/range.h:6
+Symbol:
+Byte size 16
+struct range {
+0x0 start @"typedef--u64.txt"
+0x8 end @"typedef--u64.txt"
+}

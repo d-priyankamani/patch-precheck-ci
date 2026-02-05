@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/hosts.c:615
+Symbol:
+func scsi_host_put (
+shost * @"struct--Scsi_Host.txt"
+)
+"void"

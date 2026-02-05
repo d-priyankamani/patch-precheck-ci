@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/hwmon.h:441
+Symbol:
+Byte size 16
+struct hwmon_chip_info {
+0x0 ops * const @"struct--hwmon_ops.txt"
+0x8 info * const * const @"struct--hwmon_channel_info.txt"
+}

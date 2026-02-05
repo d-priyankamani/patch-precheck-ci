@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/rhashtable.c:669
+Symbol:
+func rhashtable_walk_enter (
+ht * @"struct--rhashtable.txt"
+iter * @"struct--rhashtable_iter.txt"
+)
+"void"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_managed.c:165
+Symbol:
+func __drmm_add_action_or_reset (
+dev * @"struct--drm_device.txt"
+action @"typedef--drmres_release_t.txt"
+data * "void"
+name * const "char"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/kref.h:19
+Symbol:
+Byte size 4
+struct kref {
+0x0 refcount @"typedef--refcount_t.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:2844
+Symbol:
+func netdev_reset_tc (
+dev * @"struct--net_device.txt"
+)
+"void"

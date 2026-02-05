@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/auxiliary.c:313
+Symbol:
+func __auxiliary_device_add (
+auxdev * @"struct--auxiliary_device.txt"
+modname * const "char"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_helper.c:2990
+Symbol:
+func drm_atomic_helper_cleanup_planes (
+dev * @"struct--drm_device.txt"
+old_state * @"struct--drm_atomic_state.txt"
+)
+"void"

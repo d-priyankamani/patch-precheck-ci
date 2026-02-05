@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/socket.c:685
+Symbol:
+func sock_release (
+sock * @"struct--socket.txt"
+)
+"void"

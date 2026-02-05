@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/linux/writeback.h:42
+Symbol:
+Byte size 128
+struct writeback_control {
+0x0 nr_to_write "long int"
+0x8 pages_skipped "long int"
+0x10 range_start @"typedef--loff_t.txt"
+0x18 range_end @"typedef--loff_t.txt"
+0x20 sync_mode @"enum--writeback_sync_modes.txt"
+0x24:0-1 for_kupdate "unsigned int"
+0x24:1-2 for_background "unsigned int"
+0x24:2-3 tagged_writepages "unsigned int"
+0x24:3-4 for_reclaim "unsigned int"
+0x24:4-5 range_cyclic "unsigned int"
+0x24:5-6 for_sync "unsigned int"
+0x24:6-7 unpinned_fscache_wb "unsigned int"
+0x24:7-8 no_cgroup_owner "unsigned int"
+0x28 swap_plug * * @"<declarations>/struct--swap_iocb.txt"
+0x30 list * @"struct--list_head.txt"
+0x38 wb * @"struct--bdi_writeback.txt"
+0x40 inode * @"struct--inode.txt"
+0x48 wb_id "int"
+0x4c wb_lcand_id "int"
+0x50 wb_tcand_id "int"
+0x58 wb_bytes @"typedef--size_t.txt"
+0x60 wb_lcand_bytes @"typedef--size_t.txt"
+0x68 wb_tcand_bytes @"typedef--size_t.txt"
+0x70 ck_reserved1 "long unsigned int"
+0x78 ck_reserved2 "long unsigned int"
+}

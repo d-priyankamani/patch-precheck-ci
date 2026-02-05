@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/drm/drm_modeset_lock.h:87
+Symbol:
+Byte size 56
+struct drm_modeset_lock {
+0x0 mutex @"struct--ww_mutex.txt"
+0x28 head @"struct--list_head.txt"
+}

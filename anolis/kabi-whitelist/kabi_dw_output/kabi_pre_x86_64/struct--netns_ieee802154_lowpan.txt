@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/netns/ieee802154_6lowpan.h:17
+Symbol:
+Byte size 16
+struct netns_ieee802154_lowpan {
+0x0 sysctl @"struct--netns_sysctl_lowpan.txt"
+0x8 fqdir * @"struct--fqdir.txt"
+}

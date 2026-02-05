@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/workqueue.c:3661
+Symbol:
+func cancel_delayed_work (
+dwork * @"struct--delayed_work.txt"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/linux/xarray.h:1158
+Symbol:
+Byte size 576
+Alignment 8
+struct xa_node {
+0x0 shift "unsigned char"
+0x1 offset "unsigned char"
+0x2 count "unsigned char"
+0x3 nr_values "unsigned char"
+0x8 parent * @"struct--xa_node.txt"
+0x10 array * @"struct--xarray.txt"
+0x18 8 (NULL) union (NULL) {
+private_list @"struct--list_head.txt"
+callback_head @"struct--callback_head.txt"
+}
+0x28 slots [64]* "void"
+0x228 (NULL) union (NULL) {
+tags [3][1]"long unsigned int"
+marks [3][1]"long unsigned int"
+}
+}

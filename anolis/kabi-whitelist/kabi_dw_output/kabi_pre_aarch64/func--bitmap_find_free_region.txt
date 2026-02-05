@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/bitmap.c:1313
+Symbol:
+func bitmap_find_free_region (
+bitmap * "long unsigned int"
+bits "unsigned int"
+order "int"
+)
+"int"

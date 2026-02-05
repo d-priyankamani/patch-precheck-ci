@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/sched/sch_generic.c:488
+Symbol:
+func netif_tx_unlock (
+dev * @"struct--net_device.txt"
+)
+"void"

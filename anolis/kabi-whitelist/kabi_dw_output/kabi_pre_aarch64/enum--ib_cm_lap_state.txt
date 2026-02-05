@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:36
+Symbol:
+Byte size 4
+enum ib_cm_lap_state {
+IB_CM_LAP_UNINIT = 0x0
+IB_CM_LAP_IDLE = 0x1
+IB_CM_LAP_SENT = 0x2
+IB_CM_LAP_RCVD = 0x3
+IB_CM_MRA_LAP_SENT = 0x4
+IB_CM_MRA_LAP_RCVD = 0x5
+}

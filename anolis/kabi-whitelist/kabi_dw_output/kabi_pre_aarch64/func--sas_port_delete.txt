@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_transport_sas.c:1016
+Symbol:
+func sas_port_delete (
+port * @"struct--sas_port.txt"
+)
+"void"

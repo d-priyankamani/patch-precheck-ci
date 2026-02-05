@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1958
+Symbol:
+Byte size 32
+struct ib_flow_spec_ipv4 {
+0x0 type @"typedef--u32.txt"
+0x4 size @"typedef--u16.txt"
+0x8 val @"struct--ib_flow_ipv4_filter.txt"
+0x14 mask @"struct--ib_flow_ipv4_filter.txt"
+}

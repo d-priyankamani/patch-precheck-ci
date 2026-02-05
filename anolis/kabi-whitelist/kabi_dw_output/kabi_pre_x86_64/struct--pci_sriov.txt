@@ -1,0 +1,36 @@
+Version: 1.0
+File: drivers/pci/pci.h:295
+Symbol:
+Byte size 192
+struct pci_sriov {
+0x0 pos "int"
+0x4 nres "int"
+0x8 cap @"typedef--u32.txt"
+0xc ctrl @"typedef--u16.txt"
+0xe total_VFs @"typedef--u16.txt"
+0x10 initial_VFs @"typedef--u16.txt"
+0x12 num_VFs @"typedef--u16.txt"
+0x14 offset @"typedef--u16.txt"
+0x16 stride @"typedef--u16.txt"
+0x18 vf_device @"typedef--u16.txt"
+0x1c pgsz @"typedef--u32.txt"
+0x20 link @"typedef--u8.txt"
+0x21 max_VF_buses @"typedef--u8.txt"
+0x22 driver_max_VFs @"typedef--u16.txt"
+0x28 dev * @"struct--pci_dev.txt"
+0x30 self * @"struct--pci_dev.txt"
+0x38 class @"typedef--u32.txt"
+0x3c hdr_type @"typedef--u8.txt"
+0x3e subsystem_vendor @"typedef--u16.txt"
+0x40 subsystem_device @"typedef--u16.txt"
+0x48 barsz [6]@"typedef--resource_size_t.txt"
+0x78 drivers_autoprobe @"typedef--bool.txt"
+0x80 ck_reserved1 "long unsigned int"
+0x88 ck_reserved2 "long unsigned int"
+0x90 ck_reserved3 "long unsigned int"
+0x98 ck_reserved4 "long unsigned int"
+0xa0 ck_reserved5 "long unsigned int"
+0xa8 ck_reserved6 "long unsigned int"
+0xb0 ck_reserved7 "long unsigned int"
+0xb8 ck_reserved8 "long unsigned int"
+}

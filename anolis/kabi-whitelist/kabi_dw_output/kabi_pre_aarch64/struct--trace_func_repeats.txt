@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/trace/trace.h:307
+Symbol:
+Byte size 32
+struct trace_func_repeats {
+0x0 ip "long unsigned int"
+0x8 parent_ip "long unsigned int"
+0x10 count "long unsigned int"
+0x18 ts_last_call @"typedef--u64.txt"
+}

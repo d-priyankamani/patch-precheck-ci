@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo_util.c:142
+Symbol:
+func ttm_bo_move_memcpy (
+bo * @"struct--ttm_buffer_object.txt"
+ctx * @"struct--ttm_operation_ctx.txt"
+dst_mem * @"struct--ttm_resource.txt"
+)
+"int"

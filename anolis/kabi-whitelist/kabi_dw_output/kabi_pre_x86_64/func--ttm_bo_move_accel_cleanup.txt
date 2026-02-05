@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo_util.c:652
+Symbol:
+func ttm_bo_move_accel_cleanup (
+bo * @"struct--ttm_buffer_object.txt"
+fence * @"struct--dma_fence.txt"
+evict @"typedef--bool.txt"
+pipeline @"typedef--bool.txt"
+new_mem * @"struct--ttm_resource.txt"
+)
+"int"

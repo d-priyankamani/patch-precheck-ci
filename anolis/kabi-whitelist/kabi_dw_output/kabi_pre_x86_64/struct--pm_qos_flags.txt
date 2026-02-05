@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/pm_qos.h:71
+Symbol:
+Byte size 24
+struct pm_qos_flags {
+0x0 list @"struct--list_head.txt"
+0x10 effective_flags @"typedef--s32.txt"
+}

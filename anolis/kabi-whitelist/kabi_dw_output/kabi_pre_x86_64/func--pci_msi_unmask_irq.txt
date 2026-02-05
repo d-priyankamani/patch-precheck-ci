@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/msi/msi.c:143
+Symbol:
+func pci_msi_unmask_irq (
+data * @"struct--irq_data.txt"
+)
+"void"

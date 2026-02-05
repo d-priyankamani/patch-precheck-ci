@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/net/xdp.h:171
+Symbol:
+Byte size 48
+struct xdp_frame {
+0x0 data * "void"
+0x8 len @"typedef--u16.txt"
+0xa headroom @"typedef--u16.txt"
+0xc metasize @"typedef--u32.txt"
+0x10 mem @"struct--xdp_mem_info.txt"
+0x18 dev_rx * @"struct--net_device.txt"
+0x20 frame_sz @"typedef--u32.txt"
+0x24 flags @"typedef--u32.txt"
+0x28 ck_reserved1 "long unsigned int"
+}

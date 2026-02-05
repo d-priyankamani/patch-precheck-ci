@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_main.c:96
+Symbol:
+func ib_uverbs_get_ucontext_file (
+ufile * @"struct--ib_uverbs_file.txt"
+)
+* @"struct--ib_ucontext.txt"

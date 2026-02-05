@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_crtc_helper.c:905
+Symbol:
+func drm_helper_connector_dpms (
+connector * @"struct--drm_connector.txt"
+mode "int"
+)
+"int"

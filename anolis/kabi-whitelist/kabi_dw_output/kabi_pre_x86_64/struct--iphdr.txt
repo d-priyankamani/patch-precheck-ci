@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/uapi/linux/ip.h:87
+Symbol:
+Byte size 20
+struct iphdr {
+0x0:0-4 ihl @"typedef--__u8.txt"
+0x0:4-8 version @"typedef--__u8.txt"
+0x1 tos @"typedef--__u8.txt"
+0x2 tot_len @"typedef--__be16.txt"
+0x4 id @"typedef--__be16.txt"
+0x6 frag_off @"typedef--__be16.txt"
+0x8 ttl @"typedef--__u8.txt"
+0x9 protocol @"typedef--__u8.txt"
+0xa check @"typedef--__sum16.txt"
+0xc (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 saddr @"typedef--__be32.txt"
+0x4 daddr @"typedef--__be32.txt"
+}
+addrs struct (NULL) {
+0x0 saddr @"typedef--__be32.txt"
+0x4 daddr @"typedef--__be32.txt"
+}
+}
+}

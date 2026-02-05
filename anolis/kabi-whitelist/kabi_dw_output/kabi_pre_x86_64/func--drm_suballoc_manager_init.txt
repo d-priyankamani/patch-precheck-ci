@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_suballoc.c:61
+Symbol:
+func drm_suballoc_manager_init (
+sa_manager * @"struct--drm_suballoc_manager.txt"
+size @"typedef--size_t.txt"
+align @"typedef--size_t.txt"
+)
+"void"

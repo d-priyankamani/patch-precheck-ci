@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/kidled.h:111
+Symbol:
+Byte size 1120
+struct idle_page_stats {
+0x0 buckets [8]"int"
+0x20 count [17][8]"long unsigned int"
+}

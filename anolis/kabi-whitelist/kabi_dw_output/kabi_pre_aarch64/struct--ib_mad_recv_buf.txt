@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:604
+Symbol:
+Byte size 32
+struct ib_mad_recv_buf {
+0x0 list @"struct--list_head.txt"
+0x10 grh * @"struct--ib_grh.txt"
+0x18 (NULL) union (NULL) {
+mad * @"struct--ib_mad.txt"
+opa_mad * @"struct--opa_mad.txt"
+}
+}

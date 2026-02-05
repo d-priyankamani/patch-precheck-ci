@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1378
+Symbol:
+Byte size 8
+struct ib_cqe {
+0x0 done * func (NULL) (
+(NULL) * @"struct--ib_cq.txt"
+(NULL) * @"struct--ib_wc.txt"
+)
+"void"
+}

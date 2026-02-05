@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/seqlock.h:64
+Symbol:
+Byte size 4
+struct seqcount {
+0x0 sequence "unsigned int"
+}

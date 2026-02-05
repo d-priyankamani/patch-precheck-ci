@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/drm/ttm/ttm_bo.h:151
+Symbol:
+Byte size 32
+struct ttm_bo_kmap_obj {
+0x0 virtual * "void"
+0x8 page * @"struct--page.txt"
+0x10 bo_kmap_type enum (NULL) {
+ttm_bo_map_iomap = 0x81
+ttm_bo_map_vmap = 0x2
+ttm_bo_map_kmap = 0x3
+ttm_bo_map_premapped = 0x84
+}
+0x18 bo * @"struct--ttm_buffer_object.txt"
+}

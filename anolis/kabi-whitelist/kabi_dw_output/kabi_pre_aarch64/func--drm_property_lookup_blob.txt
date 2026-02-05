@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_property.c:650
+Symbol:
+func drm_property_lookup_blob (
+dev * @"struct--drm_device.txt"
+id @"typedef--uint32_t.txt"
+)
+* @"struct--drm_property_blob.txt"

@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/sched/core.c:2365
+Symbol:
+func migrate_enable (
+)
+"void"

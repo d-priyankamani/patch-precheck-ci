@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/ratelimit_types.h:15
+Symbol:
+Byte size 40
+struct ratelimit_state {
+0x0 lock @"typedef--raw_spinlock_t.txt"
+0x4 interval "int"
+0x8 burst "int"
+0xc printed "int"
+0x10 missed "int"
+0x18 begin "long unsigned int"
+0x20 flags "long unsigned int"
+}

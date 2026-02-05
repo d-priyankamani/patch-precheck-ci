@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/energy_model.h:22
+Symbol:
+Byte size 40
+struct em_perf_state {
+0x0 frequency "long unsigned int"
+0x8 power "long unsigned int"
+0x10 cost "long unsigned int"
+0x18 flags "long unsigned int"
+0x20 ck_reserved1 "long unsigned int"
+}

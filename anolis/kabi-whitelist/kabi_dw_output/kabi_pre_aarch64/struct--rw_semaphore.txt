@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/rwsem.h:48
+Symbol:
+Byte size 40
+struct rw_semaphore {
+0x0 count @"typedef--atomic_long_t.txt"
+0x8 owner @"typedef--atomic_long_t.txt"
+0x10 osq @"struct--optimistic_spin_queue.txt"
+0x14 wait_lock @"typedef--raw_spinlock_t.txt"
+0x18 wait_list @"struct--list_head.txt"
+}

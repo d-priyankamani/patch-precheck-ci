@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/pps_kernel.h:23
+Symbol:
+Byte size 96
+struct pps_source_info {
+0x0 name [32]"char"
+0x20 path [32]"char"
+0x40 mode "int"
+0x48 echo * func (NULL) (
+(NULL) * @"struct--pps_device.txt"
+(NULL) "int"
+(NULL) * "void"
+)
+"void"
+0x50 owner * @"struct--module.txt"
+0x58 dev * @"struct--device.txt"
+}

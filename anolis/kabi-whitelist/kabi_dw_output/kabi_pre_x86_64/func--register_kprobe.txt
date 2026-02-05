@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/kprobes.c:1625
+Symbol:
+func register_kprobe (
+p * @"struct--kprobe.txt"
+)
+"int"

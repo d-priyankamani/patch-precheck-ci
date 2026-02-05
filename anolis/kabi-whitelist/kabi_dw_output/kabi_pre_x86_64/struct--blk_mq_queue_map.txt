@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/blk-mq.h:450
+Symbol:
+Byte size 16
+struct blk_mq_queue_map {
+0x0 mq_map * "unsigned int"
+0x8 nr_queues "unsigned int"
+0xc queue_offset "unsigned int"
+}

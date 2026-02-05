@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/rate.c:670
+Symbol:
+func devl_rate_leaf_destroy (
+devlink_port * @"struct--devlink_port.txt"
+)
+"void"

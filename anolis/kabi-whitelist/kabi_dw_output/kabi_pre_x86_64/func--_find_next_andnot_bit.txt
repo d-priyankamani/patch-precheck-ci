@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/find_bit.c:189
+Symbol:
+func _find_next_andnot_bit (
+addr1 * const "long unsigned int"
+addr2 * const "long unsigned int"
+nbits "long unsigned int"
+start "long unsigned int"
+)
+"long unsigned int"

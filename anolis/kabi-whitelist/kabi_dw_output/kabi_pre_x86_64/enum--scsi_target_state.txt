@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/scsi/scsi_device.h:329
+Symbol:
+Byte size 4
+enum scsi_target_state {
+STARGET_CREATED = 0x1
+STARGET_RUNNING = 0x2
+STARGET_REMOVE = 0x3
+STARGET_CREATED_REMOVE = 0x4
+STARGET_DEL = 0x5
+}

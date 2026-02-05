@@ -1,0 +1,6 @@
+Version: 1.0
+File: drivers/gpu/vga/vga_switcheroo.c:261
+Symbol:
+func vga_switcheroo_unregister_handler (
+)
+"void"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/phylink.h:506
+Symbol:
+Byte size 24
+struct phylink_pcs {
+0x0 ops * const @"struct--phylink_pcs_ops.txt"
+0x8 phylink * @"struct--phylink.txt"
+0x10 neg_mode @"typedef--bool.txt"
+0x11 poll @"typedef--bool.txt"
+}

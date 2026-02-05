@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:10092
+Symbol:
+func netif_tx_stop_all_queues (
+dev * @"struct--net_device.txt"
+)
+"void"

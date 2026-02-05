@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/dma/mapping.c:573
+Symbol:
+func dma_alloc_attrs (
+dev * @"struct--device.txt"
+size @"typedef--size_t.txt"
+dma_handle * @"typedef--dma_addr_t.txt"
+flag @"typedef--gfp_t.txt"
+attrs "long unsigned int"
+)
+* "void"

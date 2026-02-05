@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/proc/generic.c:510
+Symbol:
+func proc_mkdir_mode (
+name * const "char"
+mode @"typedef--umode_t.txt"
+parent * @"struct--proc_dir_entry.txt"
+)
+* @"struct--proc_dir_entry.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/if_xdp.h:109
+Symbol:
+Byte size 16
+struct xdp_desc {
+0x0 addr @"typedef--__u64.txt"
+0x8 len @"typedef--__u32.txt"
+0xc options @"typedef--__u32.txt"
+}

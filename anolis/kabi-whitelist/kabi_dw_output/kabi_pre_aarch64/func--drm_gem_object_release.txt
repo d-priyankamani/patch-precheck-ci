@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem.c:1007
+Symbol:
+func drm_gem_object_release (
+obj * @"struct--drm_gem_object.txt"
+)
+"void"

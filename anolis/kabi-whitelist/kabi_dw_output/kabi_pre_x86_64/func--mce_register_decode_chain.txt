@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/kernel/cpu/mce/core.c:145
+Symbol:
+func mce_register_decode_chain (
+nb * @"struct--notifier_block.txt"
+)
+"void"

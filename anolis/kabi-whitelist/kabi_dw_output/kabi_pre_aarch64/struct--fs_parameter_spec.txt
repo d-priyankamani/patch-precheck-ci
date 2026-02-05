@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/fs_parser.h:39
+Symbol:
+Byte size 32
+struct fs_parameter_spec {
+0x0 name * const "char"
+0x8 type * @"typedef--fs_param_type.txt"
+0x10 opt @"typedef--u8.txt"
+0x12 flags "short unsigned int"
+0x18 data * const "void"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/kvm_host.h:208
+Symbol:
+Byte size 8
+struct kvm_io_bus {
+0x0 dev_count "int"
+0x4 ioeventfd_count "int"
+0x8 range [0]@"struct--kvm_io_range.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/rcu/srcutree.c:726
+Symbol:
+func __srcu_read_unlock (
+ssp * @"struct--srcu_struct.txt"
+idx "int"
+)
+"void"

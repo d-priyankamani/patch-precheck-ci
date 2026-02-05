@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/nlattr.c:828
+Symbol:
+func nla_memcpy (
+dest * "void"
+src * const @"struct--nlattr.txt"
+count "int"
+)
+"int"

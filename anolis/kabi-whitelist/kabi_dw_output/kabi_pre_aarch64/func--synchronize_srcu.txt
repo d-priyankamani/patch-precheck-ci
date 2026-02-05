@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/rcu/srcutree.c:1462
+Symbol:
+func synchronize_srcu (
+ssp * @"struct--srcu_struct.txt"
+)
+"void"

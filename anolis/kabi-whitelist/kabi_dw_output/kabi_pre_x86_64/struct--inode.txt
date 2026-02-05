@@ -1,0 +1,78 @@
+Version: 1.0
+File: include/linux/fs.h:650
+Symbol:
+Byte size 680
+Alignment 8
+struct inode {
+0x0 i_mode @"typedef--umode_t.txt"
+0x2 i_opflags "short unsigned int"
+0x4 i_uid @"typedef--kuid_t.txt"
+0x8 i_lru @"struct--list_head.txt"
+0x18 i_gid @"typedef--kgid_t.txt"
+0x1c i_flags "unsigned int"
+0x20 i_acl * @"struct--posix_acl.txt"
+0x28 i_default_acl * @"struct--posix_acl.txt"
+0x30 i_op * const @"struct--inode_operations.txt"
+0x38 i_sb * @"struct--super_block.txt"
+0x40 i_mapping * @"struct--address_space.txt"
+0x48 i_security * "void"
+0x50 i_ino "long unsigned int"
+0x58 (NULL) union (NULL) {
+i_nlink const "unsigned int"
+__i_nlink "unsigned int"
+}
+0x5c i_rdev @"typedef--dev_t.txt"
+0x60 i_size @"typedef--loff_t.txt"
+0x68 i_atime @"struct--timespec64.txt"
+0x78 i_mtime @"struct--timespec64.txt"
+0x88 __i_ctime @"struct--timespec64.txt"
+0x98 i_lock @"typedef--spinlock_t.txt"
+0x9c i_bytes "short unsigned int"
+0x9e i_blkbits @"typedef--u8.txt"
+0x9f i_write_hint @"typedef--u8.txt"
+0xa0 i_blocks @"typedef--blkcnt_t.txt"
+0xa8 i_state "long unsigned int"
+0xb0 i_rwsem @"struct--rw_semaphore.txt"
+0xd8 dirtied_when "long unsigned int"
+0xe0 dirtied_time_when "long unsigned int"
+0xe8 i_hash @"struct--hlist_node.txt"
+0xf8 i_io_list @"struct--list_head.txt"
+0x108 i_wb * @"struct--bdi_writeback.txt"
+0x110 i_wb_frn_winner "int"
+0x114 i_wb_frn_avg_time @"typedef--u16.txt"
+0x116 i_wb_frn_history @"typedef--u16.txt"
+0x118 i_sb_list @"struct--list_head.txt"
+0x128 i_wb_list @"struct--list_head.txt"
+0x138 8 (NULL) union (NULL) {
+i_dentry @"struct--hlist_head.txt"
+i_rcu @"struct--callback_head.txt"
+}
+0x148 i_version @"typedef--atomic64_t.txt"
+0x150 i_sequence @"typedef--atomic64_t.txt"
+0x158 i_count @"typedef--atomic_t.txt"
+0x15c i_dio_count @"typedef--atomic_t.txt"
+0x160 i_writecount @"typedef--atomic_t.txt"
+0x164 i_readcount @"typedef--atomic_t.txt"
+0x168 (NULL) union (NULL) {
+i_fop * const @"struct--file_operations.txt"
+free_inode * func (NULL) (
+(NULL) * @"struct--inode.txt"
+)
+"void"
+}
+0x170 i_flctx * @"struct--file_lock_context.txt"
+0x178 8 i_data @"struct--address_space.txt"
+0x268 i_devices @"struct--list_head.txt"
+0x278 (NULL) union (NULL) {
+i_pipe * @"struct--pipe_inode_info.txt"
+i_cdev * @"struct--cdev.txt"
+i_link * "char"
+i_dir_seq "unsigned int"
+}
+0x280 i_generation @"typedef--__u32.txt"
+0x284 i_fsnotify_mask @"typedef--__u32.txt"
+0x288 i_fsnotify_marks * @"struct--fsnotify_mark_connector.txt"
+0x290 i_private * "void"
+0x298 ck_reserved1 "long unsigned int"
+0x2a0 ck_reserved2 "long unsigned int"
+}

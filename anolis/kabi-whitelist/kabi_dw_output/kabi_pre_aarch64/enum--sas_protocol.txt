@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/scsi/sas.h:90
+Symbol:
+Byte size 4
+enum sas_protocol {
+SAS_PROTOCOL_NONE = 0x0
+SAS_PROTOCOL_SATA = 0x1
+SAS_PROTOCOL_SMP = 0x2
+SAS_PROTOCOL_STP = 0x4
+SAS_PROTOCOL_SSP = 0x8
+SAS_PROTOCOL_ALL = 0xe
+SAS_PROTOCOL_STP_ALL = 0x5
+SAS_PROTOCOL_INTERNAL_ABORT = 0x10
+}

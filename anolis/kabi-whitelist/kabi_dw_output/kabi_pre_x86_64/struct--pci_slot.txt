@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/pci.h:76
+Symbol:
+Byte size 136
+struct pci_slot {
+0x0 bus * @"struct--pci_bus.txt"
+0x8 list @"struct--list_head.txt"
+0x18 hotplug * @"struct--hotplug_slot.txt"
+0x20 number "unsigned char"
+0x28 kobj @"struct--kobject.txt"
+}

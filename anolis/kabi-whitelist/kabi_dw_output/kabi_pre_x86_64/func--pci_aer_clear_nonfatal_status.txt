@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pcie/aer.c:246
+Symbol:
+func pci_aer_clear_nonfatal_status (
+dev * @"struct--pci_dev.txt"
+)
+"int"

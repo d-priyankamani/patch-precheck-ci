@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/pm_qos.h:41
+Symbol:
+Byte size 4
+enum pm_qos_type {
+PM_QOS_UNITIALIZED = 0x0
+PM_QOS_MAX = 0x1
+PM_QOS_MIN = 0x2
+}

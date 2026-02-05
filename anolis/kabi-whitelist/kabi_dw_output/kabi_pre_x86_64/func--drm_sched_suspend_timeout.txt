@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_main.c:333
+Symbol:
+func drm_sched_suspend_timeout (
+sched * @"struct--drm_gpu_scheduler.txt"
+)
+"long unsigned int"

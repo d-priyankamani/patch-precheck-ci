@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/iommu.h:425
+Symbol:
+Byte size 32
+struct iommu_user_data_array {
+0x0 type "unsigned int"
+0x8 uptr * "void"
+0x10 entry_len @"typedef--size_t.txt"
+0x18 entry_num @"typedef--u32.txt"
+}

@@ -1,0 +1,185 @@
+Version: 1.0
+File: include/linux/tty_driver.h:357
+Symbol:
+Byte size 296
+struct tty_operations {
+0x0 lookup * func (NULL) (
+(NULL) * @"struct--tty_driver.txt"
+(NULL) * @"struct--file.txt"
+(NULL) "int"
+)
+* @"struct--tty_struct.txt"
+0x8 install * func (NULL) (
+(NULL) * @"struct--tty_driver.txt"
+(NULL) * @"struct--tty_struct.txt"
+)
+"int"
+0x10 remove * func (NULL) (
+(NULL) * @"struct--tty_driver.txt"
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x18 open * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * @"struct--file.txt"
+)
+"int"
+0x20 close * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * @"struct--file.txt"
+)
+"void"
+0x28 shutdown * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x30 cleanup * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x38 write * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x40 put_char * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) @"typedef--u8.txt"
+)
+"int"
+0x48 flush_chars * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x50 write_room * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"unsigned int"
+0x58 chars_in_buffer * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"unsigned int"
+0x60 ioctl * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x68 compat_ioctl * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"long int"
+0x70 set_termios * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * const @"struct--ktermios.txt"
+)
+"void"
+0x78 throttle * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x80 unthrottle * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x88 stop * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x90 start * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x98 hangup * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0xa0 break_ctl * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) "int"
+)
+"int"
+0xa8 flush_buffer * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0xb0 ldisc_ok * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) "int"
+)
+"int"
+0xb8 set_ldisc * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0xc0 wait_until_sent * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) "int"
+)
+"void"
+0xc8 send_xchar * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) "char"
+)
+"void"
+0xd0 tiocmget * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"int"
+0xd8 tiocmset * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+)
+"int"
+0xe0 resize * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * @"struct--winsize.txt"
+)
+"int"
+0xe8 get_icount * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * @"struct--serial_icounter_struct.txt"
+)
+"int"
+0xf0 get_serial * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * @"struct--serial_struct.txt"
+)
+"int"
+0xf8 set_serial * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * @"struct--serial_struct.txt"
+)
+"int"
+0x100 show_fdinfo * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * @"struct--seq_file.txt"
+)
+"void"
+0x108 poll_init * func (NULL) (
+(NULL) * @"struct--tty_driver.txt"
+(NULL) "int"
+(NULL) * "char"
+)
+"int"
+0x110 poll_get_char * func (NULL) (
+(NULL) * @"struct--tty_driver.txt"
+(NULL) "int"
+)
+"int"
+0x118 poll_put_char * func (NULL) (
+(NULL) * @"struct--tty_driver.txt"
+(NULL) "int"
+(NULL) "char"
+)
+"void"
+0x120 proc_show * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+)
+"int"
+}

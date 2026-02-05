@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/pci/pci.c:2741
+Symbol:
+func pci_enable_wake (
+pci_dev * @"struct--pci_dev.txt"
+state @"typedef--pci_power_t.txt"
+enable @"typedef--bool.txt"
+)
+"int"

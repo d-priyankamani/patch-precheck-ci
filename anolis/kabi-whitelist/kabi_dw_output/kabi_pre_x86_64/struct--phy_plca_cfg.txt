@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/phy.h:824
+Symbol:
+Byte size 28
+struct phy_plca_cfg {
+0x0 version "int"
+0x4 enabled "int"
+0x8 node_id "int"
+0xc node_cnt "int"
+0x10 to_tmr "int"
+0x14 burst_cnt "int"
+0x18 burst_tmr "int"
+}

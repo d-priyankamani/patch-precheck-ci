@@ -1,0 +1,4 @@
+Version: 1.0
+File: net/ipv4/arp.c:152
+Symbol:
+var arp_tbl "void"

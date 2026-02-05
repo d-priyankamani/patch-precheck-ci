@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/sch_generic.h:65
+Symbol:
+Byte size 24
+struct qdisc_skb_head {
+0x0 head * @"struct--sk_buff.txt"
+0x8 tail * @"struct--sk_buff.txt"
+0x10 qlen @"typedef--__u32.txt"
+0x14 lock @"typedef--spinlock_t.txt"
+}

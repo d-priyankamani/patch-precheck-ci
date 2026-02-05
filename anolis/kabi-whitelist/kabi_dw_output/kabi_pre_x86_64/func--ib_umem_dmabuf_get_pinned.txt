@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/umem_dmabuf.c:187
+Symbol:
+func ib_umem_dmabuf_get_pinned (
+device * @"struct--ib_device.txt"
+offset "long unsigned int"
+size @"typedef--size_t.txt"
+fd "int"
+access "int"
+)
+* @"struct--ib_umem_dmabuf.txt"

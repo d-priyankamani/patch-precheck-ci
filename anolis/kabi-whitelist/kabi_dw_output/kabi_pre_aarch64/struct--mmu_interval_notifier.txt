@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/mmu_notifier.h:257
+Symbol:
+Byte size 88
+Alignment 8
+struct mmu_interval_notifier {
+0x0 8 interval_tree @"struct--interval_tree_node.txt"
+0x30 ops * const @"struct--mmu_interval_notifier_ops.txt"
+0x38 mm * @"struct--mm_struct.txt"
+0x40 deferred_item @"struct--hlist_node.txt"
+0x50 invalidate_seq "long unsigned int"
+}

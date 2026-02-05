@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/msi/api.c:426
+Symbol:
+func pci_free_irq_vectors (
+dev * @"struct--pci_dev.txt"
+)
+"void"

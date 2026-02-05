@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modes.c:1871
+Symbol:
+func drm_mode_sort (
+mode_list * @"struct--list_head.txt"
+)
+"void"

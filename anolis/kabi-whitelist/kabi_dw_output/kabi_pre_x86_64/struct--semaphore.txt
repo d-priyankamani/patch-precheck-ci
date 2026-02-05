@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/semaphore.h:15
+Symbol:
+Byte size 24
+struct semaphore {
+0x0 lock @"typedef--raw_spinlock_t.txt"
+0x4 count "unsigned int"
+0x8 wait_list @"struct--list_head.txt"
+}

@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/panic.c:940
+Symbol:
+func __stack_chk_fail (
+)
+"void"

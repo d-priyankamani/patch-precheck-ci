@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/filter.c:9030
+Symbol:
+func bpf_warn_invalid_xdp_action (
+dev * @"struct--net_device.txt"
+prog * @"struct--bpf_prog.txt"
+act @"typedef--u32.txt"
+)
+"void"

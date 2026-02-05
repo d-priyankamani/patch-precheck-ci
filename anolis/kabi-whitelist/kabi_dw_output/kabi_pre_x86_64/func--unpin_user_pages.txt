@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/gup.c:401
+Symbol:
+func unpin_user_pages (
+pages * * @"struct--page.txt"
+npages "long unsigned int"
+)
+"void"

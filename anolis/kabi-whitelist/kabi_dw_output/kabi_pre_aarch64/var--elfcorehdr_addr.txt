@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/crash_dump.c:15
+Symbol:
+var elfcorehdr_addr "void"

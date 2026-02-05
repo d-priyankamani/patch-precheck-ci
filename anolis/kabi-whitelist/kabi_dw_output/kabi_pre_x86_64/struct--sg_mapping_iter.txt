@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/scatterlist.h:675
+Symbol:
+Byte size 72
+struct sg_mapping_iter {
+0x0 page * @"struct--page.txt"
+0x8 addr * "void"
+0x10 length @"typedef--size_t.txt"
+0x18 consumed @"typedef--size_t.txt"
+0x20 piter @"struct--sg_page_iter.txt"
+0x38 __offset "unsigned int"
+0x3c __remaining "unsigned int"
+0x40 __flags "unsigned int"
+}

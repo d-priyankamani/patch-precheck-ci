@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/mmap_lock.c:93
+Symbol:
+func __mmap_lock_do_trace_start_locking (
+mm * @"struct--mm_struct.txt"
+write @"typedef--bool.txt"
+)
+"void"

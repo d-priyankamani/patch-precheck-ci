@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_helper.c:3229
+Symbol:
+func drm_atomic_helper_disable_plane (
+plane * @"struct--drm_plane.txt"
+ctx * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"

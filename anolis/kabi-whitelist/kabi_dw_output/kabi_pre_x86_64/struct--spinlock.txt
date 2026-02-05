@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/spinlock_types.h:17
+Symbol:
+Byte size 4
+struct spinlock {
+0x0 (NULL) union (NULL) {
+rlock @"struct--raw_spinlock.txt"
+}
+}

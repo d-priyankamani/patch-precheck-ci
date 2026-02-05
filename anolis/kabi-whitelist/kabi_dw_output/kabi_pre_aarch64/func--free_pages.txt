@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/page_alloc.c:5059
+Symbol:
+func free_pages (
+addr "long unsigned int"
+order "unsigned int"
+)
+"void"

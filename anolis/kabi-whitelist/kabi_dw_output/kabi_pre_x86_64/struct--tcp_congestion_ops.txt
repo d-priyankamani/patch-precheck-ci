@@ -1,0 +1,78 @@
+Version: 1.0
+File: include/net/tcp.h:1089
+Symbol:
+Byte size 192
+Alignment 64
+struct tcp_congestion_ops {
+0x0 ssthresh * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+@"typedef--u32.txt"
+0x8 cong_avoid * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u32.txt"
+)
+"void"
+0x10 set_state * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) @"typedef--u8.txt"
+)
+"void"
+0x18 cwnd_event * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) @"enum--tcp_ca_event.txt"
+)
+"void"
+0x20 in_ack_event * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) @"typedef--u32.txt"
+)
+"void"
+0x28 pkts_acked * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * const @"struct--ack_sample.txt"
+)
+"void"
+0x30 min_tso_segs * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+@"typedef--u32.txt"
+0x38 cong_control * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * const @"struct--rate_sample.txt"
+)
+"void"
+0x40 undo_cwnd * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+@"typedef--u32.txt"
+0x48 sndbuf_expand * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+@"typedef--u32.txt"
+0x50 get_info * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * "int"
+(NULL) * @"<declarations>/union--tcp_cc_info.txt"
+)
+@"typedef--size_t.txt"
+0x58 name [16]"char"
+0x68 owner * @"struct--module.txt"
+0x70 list @"struct--list_head.txt"
+0x80 key @"typedef--u32.txt"
+0x84 flags @"typedef--u32.txt"
+0x88 init * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0x90 release * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0x98 ck_reserved1 "long unsigned int"
+0xa0 ck_reserved2 "long unsigned int"
+0xa8 ck_reserved3 "long unsigned int"
+0xb0 ck_reserved4 "long unsigned int"
+}

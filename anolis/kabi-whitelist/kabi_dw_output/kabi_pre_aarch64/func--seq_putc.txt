@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/seq_file.c:663
+Symbol:
+func seq_putc (
+m * @"struct--seq_file.txt"
+c "char"
+)
+"void"

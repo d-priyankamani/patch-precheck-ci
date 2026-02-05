@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1947
+Symbol:
+Byte size 12
+struct ib_flow_ipv4_filter {
+0x0 src_ip @"typedef--__be32.txt"
+0x4 dst_ip @"typedef--__be32.txt"
+0x8 proto @"typedef--u8.txt"
+0x9 tos @"typedef--u8.txt"
+0xa ttl @"typedef--u8.txt"
+0xb flags @"typedef--u8.txt"
+0xc real_sz [0]@"typedef--u8.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_main.c:699
+Symbol:
+func drm_sched_job_add_dependency (
+job * @"struct--drm_sched_job.txt"
+fence * @"struct--dma_fence.txt"
+)
+"int"

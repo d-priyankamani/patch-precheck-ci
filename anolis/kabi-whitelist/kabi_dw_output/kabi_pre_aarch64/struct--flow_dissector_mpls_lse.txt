@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/flow_dissector.h:70
+Symbol:
+Byte size 4
+struct flow_dissector_mpls_lse {
+0x0:0-8 mpls_ttl @"typedef--u32.txt"
+0x1:0-1 mpls_bos @"typedef--u32.txt"
+0x1:1-4 mpls_tc @"typedef--u32.txt"
+0x1:4-24 mpls_label @"typedef--u32.txt"
+}

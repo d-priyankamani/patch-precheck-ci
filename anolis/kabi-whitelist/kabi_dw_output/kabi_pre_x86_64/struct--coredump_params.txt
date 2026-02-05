@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/coredump.h:19
+Symbol:
+Byte size 104
+struct coredump_params {
+0x0 siginfo * const @"typedef--kernel_siginfo_t.txt"
+0x8 file * @"struct--file.txt"
+0x10 limit "long unsigned int"
+0x18 mm_flags "long unsigned int"
+0x20 cpu "int"
+0x28 written @"typedef--loff_t.txt"
+0x30 pos @"typedef--loff_t.txt"
+0x38 to_skip @"typedef--loff_t.txt"
+0x40 vma_count "int"
+0x48 vma_data_size @"typedef--size_t.txt"
+0x50 vma_meta * @"struct--core_vma_metadata.txt"
+0x58 pid * @"struct--pid.txt"
+0x60 ck_reserved1 "long unsigned int"
+}

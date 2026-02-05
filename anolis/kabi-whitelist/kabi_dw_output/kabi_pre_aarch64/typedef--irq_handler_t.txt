@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/interrupt.h:100
+Symbol:
+Byte size 8
+typedef irq_handler_t
+* func (NULL) (
+(NULL) "int"
+(NULL) * "void"
+)
+@"typedef--irqreturn_t.txt"

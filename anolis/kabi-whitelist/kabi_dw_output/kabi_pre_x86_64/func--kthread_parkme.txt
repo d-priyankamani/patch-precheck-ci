@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/kthread.c:296
+Symbol:
+func kthread_parkme (
+)
+"void"

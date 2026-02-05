@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/mm_types.h:606
+Symbol:
+Byte size 8
+struct vm_userfaultfd_ctx {
+0x0 ctx * @"<declarations>/struct--userfaultfd_ctx.txt"
+}

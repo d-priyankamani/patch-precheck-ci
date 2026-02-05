@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/ip_tunnels.h:84
+Symbol:
+Byte size 96
+struct ip_tunnel_info {
+0x0 key @"struct--ip_tunnel_key.txt"
+0x40 encap @"struct--ip_tunnel_encap.txt"
+0x48 dst_cache @"struct--dst_cache.txt"
+0x58 options_len @"typedef--u8.txt"
+0x59 mode @"typedef--u8.txt"
+}

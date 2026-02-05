@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/sysctl_net.c:182
+Symbol:
+func unregister_net_sysctl_table (
+header * @"struct--ctl_table_header.txt"
+)
+"void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/rcu/srcutree.c:710
+Symbol:
+func __srcu_read_lock (
+ssp * @"struct--srcu_struct.txt"
+)
+"int"

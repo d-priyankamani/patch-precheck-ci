@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modeset_helper.c:80
+Symbol:
+func drm_helper_mode_fill_fb_struct (
+dev * @"struct--drm_device.txt"
+fb * @"struct--drm_framebuffer.txt"
+mode_cmd * const @"struct--drm_mode_fb_cmd2.txt"
+)
+"void"

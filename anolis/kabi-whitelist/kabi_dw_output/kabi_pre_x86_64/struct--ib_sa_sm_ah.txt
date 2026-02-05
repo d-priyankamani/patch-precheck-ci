@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/sa_query.c:64
+Symbol:
+Byte size 16
+struct ib_sa_sm_ah {
+0x0 ah * @"struct--ib_ah.txt"
+0x8 ref @"struct--kref.txt"
+0xc pkey_index @"typedef--u16.txt"
+0xe src_path_mask @"typedef--u8.txt"
+}

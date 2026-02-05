@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/seccomp.h:37
+Symbol:
+Byte size 16
+struct seccomp {
+0x0 mode "int"
+0x4 filter_count @"typedef--atomic_t.txt"
+0x8 filter * @"<declarations>/struct--seccomp_filter.txt"
+}

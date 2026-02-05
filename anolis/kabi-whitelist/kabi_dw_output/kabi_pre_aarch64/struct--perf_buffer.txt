@@ -1,0 +1,46 @@
+Version: 1.0
+File: kernel/events/internal.h:13
+Symbol:
+Byte size 344
+Alignment 8
+struct perf_buffer {
+0x0 refcount @"typedef--refcount_t.txt"
+0x8 8 callback_head @"struct--callback_head.txt"
+0x18 work @"struct--work_struct.txt"
+0x58 page_order "int"
+0x5c nr_pages "int"
+0x60 overwrite "int"
+0x64 paused "int"
+0x68 poll @"typedef--atomic_t.txt"
+0x70 head @"typedef--local_t.txt"
+0x78 nest "unsigned int"
+0x80 events @"typedef--local_t.txt"
+0x88 wakeup @"typedef--local_t.txt"
+0x90 lost @"typedef--local_t.txt"
+0x98 watermark "long int"
+0xa0 aux_watermark "long int"
+0xa8 event_lock @"typedef--spinlock_t.txt"
+0xb0 event_list @"struct--list_head.txt"
+0xc0 mmap_count @"typedef--atomic_t.txt"
+0xc8 mmap_locked "long unsigned int"
+0xd0 mmap_user * @"struct--user_struct.txt"
+0xd8 aux_mutex @"struct--mutex.txt"
+0xf8 aux_head "long int"
+0x100 aux_nest "unsigned int"
+0x108 aux_wakeup "long int"
+0x110 aux_pgoff "long unsigned int"
+0x118 aux_nr_pages "int"
+0x11c aux_overwrite "int"
+0x120 aux_mmap_count @"typedef--atomic_t.txt"
+0x128 aux_mmap_locked "long unsigned int"
+0x130 free_aux * func (NULL) (
+(NULL) * "void"
+)
+"void"
+0x138 aux_refcount @"typedef--refcount_t.txt"
+0x13c aux_in_sampling "int"
+0x140 aux_pages * * "void"
+0x148 aux_priv * "void"
+0x150 user_page * @"struct--perf_event_mmap_page.txt"
+0x158 data_pages [0]* "void"
+}

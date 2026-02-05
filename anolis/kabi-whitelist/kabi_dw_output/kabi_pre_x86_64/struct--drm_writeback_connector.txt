@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/drm/drm_writeback.h:21
+Symbol:
+Byte size 1800
+struct drm_writeback_connector {
+0x0 base @"struct--drm_connector.txt"
+0x5e0 encoder @"struct--drm_encoder.txt"
+0x658 pixel_formats_blob_ptr * @"struct--drm_property_blob.txt"
+0x660 job_lock @"typedef--spinlock_t.txt"
+0x668 job_queue @"struct--list_head.txt"
+0x678 fence_context "unsigned int"
+0x67c fence_lock @"typedef--spinlock_t.txt"
+0x680 fence_seqno "long unsigned int"
+0x688 timeline_name [32]"char"
+0x6a8 ck_reserved1 "long unsigned int"
+0x6b0 ck_reserved2 "long unsigned int"
+0x6b8 ck_reserved3 "long unsigned int"
+0x6c0 ck_reserved4 "long unsigned int"
+0x6c8 ck_reserved5 "long unsigned int"
+0x6d0 ck_reserved6 "long unsigned int"
+0x6d8 ck_reserved7 "long unsigned int"
+0x6e0 ck_reserved8 "long unsigned int"
+0x6e8 ck_reserved9 "long unsigned int"
+0x6f0 ck_reserved10 "long unsigned int"
+0x6f8 ck_reserved11 "long unsigned int"
+0x700 ck_reserved12 "long unsigned int"
+}

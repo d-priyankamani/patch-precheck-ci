@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/elf.h:332
+Symbol:
+typedef Elf64_Shdr
+@"struct--elf64_shdr.txt"

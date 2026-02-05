@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/jump_label.h:117
+Symbol:
+Byte size 16
+struct jump_entry {
+0x0 code @"typedef--s32.txt"
+0x4 target @"typedef--s32.txt"
+0x8 key "long int"
+}

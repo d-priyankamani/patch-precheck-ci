@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_resource.c:177
+Symbol:
+func ttm_resource_init (
+bo * @"struct--ttm_buffer_object.txt"
+place * const @"struct--ttm_place.txt"
+res * @"struct--ttm_resource.txt"
+)
+"void"

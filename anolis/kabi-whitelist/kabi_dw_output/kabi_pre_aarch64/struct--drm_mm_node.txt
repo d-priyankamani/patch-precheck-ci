@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/drm/drm_mm.h:157
+Symbol:
+Byte size 168
+Alignment 8
+struct drm_mm_node {
+0x0 color "long unsigned int"
+0x8 start @"typedef--u64.txt"
+0x10 size @"typedef--u64.txt"
+0x18 mm * @"struct--drm_mm.txt"
+0x20 node_list @"struct--list_head.txt"
+0x30 hole_stack @"struct--list_head.txt"
+0x40 8 rb @"struct--rb_node.txt"
+0x58 8 rb_hole_size @"struct--rb_node.txt"
+0x70 8 rb_hole_addr @"struct--rb_node.txt"
+0x88 __subtree_last @"typedef--u64.txt"
+0x90 hole_size @"typedef--u64.txt"
+0x98 subtree_max_hole @"typedef--u64.txt"
+0xa0 flags "long unsigned int"
+}

@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/linux/auxiliary_bus.h:180
+Symbol:
+Byte size 232
+struct auxiliary_driver {
+0x0 probe * func (NULL) (
+(NULL) * @"struct--auxiliary_device.txt"
+(NULL) * const @"struct--auxiliary_device_id.txt"
+)
+"int"
+0x8 remove * func (NULL) (
+(NULL) * @"struct--auxiliary_device.txt"
+)
+"void"
+0x10 shutdown * func (NULL) (
+(NULL) * @"struct--auxiliary_device.txt"
+)
+"void"
+0x18 suspend * func (NULL) (
+(NULL) * @"struct--auxiliary_device.txt"
+(NULL) @"typedef--pm_message_t.txt"
+)
+"int"
+0x20 resume * func (NULL) (
+(NULL) * @"struct--auxiliary_device.txt"
+)
+"int"
+0x28 name * const "char"
+0x30 driver @"struct--device_driver.txt"
+0xe0 id_table * const @"struct--auxiliary_device_id.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/locking/mutex.c:1112
+Symbol:
+func ww_mutex_lock_interruptible (
+lock * @"struct--ww_mutex.txt"
+ctx * @"struct--ww_acquire_ctx.txt"
+)
+"int"

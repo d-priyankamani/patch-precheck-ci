@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mode_object.c:283
+Symbol:
+func drm_object_property_set_value (
+obj * @"struct--drm_mode_object.txt"
+property * @"struct--drm_property.txt"
+val @"typedef--uint64_t.txt"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/mmu_notifier.c:766
+Symbol:
+func mmu_notifier_get_locked (
+ops * const @"struct--mmu_notifier_ops.txt"
+mm * @"struct--mm_struct.txt"
+)
+* @"struct--mmu_notifier.txt"

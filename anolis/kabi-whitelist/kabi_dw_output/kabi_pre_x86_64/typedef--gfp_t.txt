@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/types.h:155
+Symbol:
+Byte size 4
+typedef gfp_t
+"unsigned int"

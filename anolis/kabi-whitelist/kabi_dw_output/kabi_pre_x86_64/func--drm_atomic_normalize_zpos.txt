@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_blend.c:510
+Symbol:
+func drm_atomic_normalize_zpos (
+dev * @"struct--drm_device.txt"
+state * @"struct--drm_atomic_state.txt"
+)
+"int"

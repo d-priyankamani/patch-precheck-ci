@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:586
+Symbol:
+Byte size 16
+struct ethtool_pauseparam {
+0x0 cmd @"typedef--__u32.txt"
+0x4 autoneg @"typedef--__u32.txt"
+0x8 rx_pause @"typedef--__u32.txt"
+0xc tx_pause @"typedef--__u32.txt"
+}

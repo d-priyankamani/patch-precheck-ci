@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/open.c:1638
+Symbol:
+func nonseekable_open (
+inode * @"struct--inode.txt"
+filp * @"struct--file.txt"
+)
+"int"

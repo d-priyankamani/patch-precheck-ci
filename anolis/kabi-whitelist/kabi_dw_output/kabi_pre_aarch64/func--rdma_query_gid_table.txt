@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:1249
+Symbol:
+func rdma_query_gid_table (
+device * @"struct--ib_device.txt"
+entries * @"struct--ib_uverbs_gid_entry.txt"
+max_entries @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"

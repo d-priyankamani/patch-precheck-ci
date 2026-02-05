@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/iommu.h:328
+Symbol:
+Byte size 4
+typedef ioasid_t
+"unsigned int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_debugfs_crc.c:393
+Symbol:
+func drm_crtc_add_crc_entry (
+crtc * @"struct--drm_crtc.txt"
+has_frame @"typedef--bool.txt"
+frame @"typedef--uint32_t.txt"
+crcs * @"typedef--uint32_t.txt"
+)
+"int"

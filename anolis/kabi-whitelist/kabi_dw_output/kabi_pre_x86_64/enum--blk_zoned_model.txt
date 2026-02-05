@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/blkdev.h:293
+Symbol:
+Byte size 4
+enum blk_zoned_model {
+BLK_ZONED_NONE = 0x0
+BLK_ZONED_HA = 0x1
+BLK_ZONED_HM = 0x2
+}

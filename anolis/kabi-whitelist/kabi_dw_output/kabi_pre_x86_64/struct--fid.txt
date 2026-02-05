@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/linux/exportfs.h:119
+Symbol:
+Byte size 20
+struct fid {
+0x0 (NULL) union (NULL) {
+i32 struct (NULL) {
+0x0 ino @"typedef--u32.txt"
+0x4 gen @"typedef--u32.txt"
+0x8 parent_ino @"typedef--u32.txt"
+0xc parent_gen @"typedef--u32.txt"
+}
+udf struct (NULL) {
+0x0 block @"typedef--u32.txt"
+0x4 partref @"typedef--u16.txt"
+0x6 parent_partref @"typedef--u16.txt"
+0x8 generation @"typedef--u32.txt"
+0xc parent_block @"typedef--u32.txt"
+0x10 parent_generation @"typedef--u32.txt"
+}
+(NULL) struct (NULL) {
+0x0 __empty_raw struct (NULL) {
+}
+0x0 raw [0]@"typedef--__u32.txt"
+}
+}
+}

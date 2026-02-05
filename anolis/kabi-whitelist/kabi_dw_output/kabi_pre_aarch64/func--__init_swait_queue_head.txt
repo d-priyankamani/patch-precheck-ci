@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/sched/swait.c:6
+Symbol:
+func __init_swait_queue_head (
+q * @"struct--swait_queue_head.txt"
+name * const "char"
+key * @"struct--lock_class_key.txt"
+)
+"void"

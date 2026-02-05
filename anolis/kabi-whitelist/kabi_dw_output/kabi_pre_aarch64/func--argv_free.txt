@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/argv_split.c:35
+Symbol:
+func argv_free (
+argv * * "char"
+)
+"void"

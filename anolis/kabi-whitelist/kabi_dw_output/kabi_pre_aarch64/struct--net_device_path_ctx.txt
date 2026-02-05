@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/netdevice.h:953
+Symbol:
+Byte size 32
+struct net_device_path_ctx {
+0x0 dev * const @"struct--net_device.txt"
+0x8 daddr [6]@"typedef--u8.txt"
+0x10 num_vlans "int"
+0x14 vlan [2]struct (NULL) {
+0x0 id @"typedef--u16.txt"
+0x2 proto @"typedef--__be16.txt"
+}
+}

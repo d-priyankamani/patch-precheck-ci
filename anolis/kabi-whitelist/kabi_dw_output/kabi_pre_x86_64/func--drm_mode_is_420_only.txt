@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modes.c:2714
+Symbol:
+func drm_mode_is_420_only (
+display * const @"struct--drm_display_info.txt"
+mode * const @"struct--drm_display_mode.txt"
+)
+@"typedef--bool.txt"

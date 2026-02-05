@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/irq/manage.c:827
+Symbol:
+func enable_irq (
+irq "unsigned int"
+)
+"void"

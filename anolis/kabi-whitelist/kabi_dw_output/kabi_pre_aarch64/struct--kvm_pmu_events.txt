@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/kvm/arm_pmu.h:21
+Symbol:
+Byte size 16
+struct kvm_pmu_events {
+0x0 events_host @"typedef--u64.txt"
+0x8 events_guest @"typedef--u64.txt"
+}

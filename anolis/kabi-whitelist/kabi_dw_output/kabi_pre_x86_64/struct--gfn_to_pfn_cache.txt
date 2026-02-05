@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/kvm_types.h:65
+Symbol:
+Byte size 128
+struct gfn_to_pfn_cache {
+0x0 generation @"typedef--u64.txt"
+0x8 gpa @"typedef--gpa_t.txt"
+0x10 uhva "long unsigned int"
+0x18 memslot * @"struct--kvm_memory_slot.txt"
+0x20 kvm * @"struct--kvm.txt"
+0x28 vcpu * @"struct--kvm_vcpu.txt"
+0x30 list @"struct--list_head.txt"
+0x40 lock @"typedef--rwlock_t.txt"
+0x48 refresh_lock @"struct--mutex.txt"
+0x68 khva * "void"
+0x70 pfn @"typedef--kvm_pfn_t.txt"
+0x78 usage @"enum--pfn_cache_usage.txt"
+0x7c active @"typedef--bool.txt"
+0x7d valid @"typedef--bool.txt"
+}

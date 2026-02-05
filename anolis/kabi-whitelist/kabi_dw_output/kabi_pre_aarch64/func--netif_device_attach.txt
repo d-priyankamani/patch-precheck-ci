@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:3254
+Symbol:
+func netif_device_attach (
+dev * @"struct--net_device.txt"
+)
+"void"

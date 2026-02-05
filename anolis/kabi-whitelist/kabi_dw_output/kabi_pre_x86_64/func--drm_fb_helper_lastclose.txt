@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_fb_helper.c:2016
+Symbol:
+func drm_fb_helper_lastclose (
+dev * @"struct--drm_device.txt"
+)
+"void"

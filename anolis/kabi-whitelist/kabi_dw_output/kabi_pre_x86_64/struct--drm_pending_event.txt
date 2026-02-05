@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/drm/drm_file.h:97
+Symbol:
+Byte size 72
+struct drm_pending_event {
+0x0 completion * @"struct--completion.txt"
+0x8 completion_release * func (NULL) (
+(NULL) * @"struct--completion.txt"
+)
+"void"
+0x10 event * @"struct--drm_event.txt"
+0x18 fence * @"struct--dma_fence.txt"
+0x20 file_priv * @"struct--drm_file.txt"
+0x28 link @"struct--list_head.txt"
+0x38 pending_link @"struct--list_head.txt"
+}

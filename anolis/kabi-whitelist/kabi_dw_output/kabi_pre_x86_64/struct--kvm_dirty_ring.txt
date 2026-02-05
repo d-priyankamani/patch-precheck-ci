@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/kvm_dirty_ring.h:21
+Symbol:
+Byte size 32
+struct kvm_dirty_ring {
+0x0 dirty_index @"typedef--u32.txt"
+0x4 reset_index @"typedef--u32.txt"
+0x8 size @"typedef--u32.txt"
+0xc soft_limit @"typedef--u32.txt"
+0x10 dirty_gfns * @"struct--kvm_dirty_gfn.txt"
+0x18 index "int"
+}

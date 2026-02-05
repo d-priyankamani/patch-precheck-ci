@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_probe_helper.c:729
+Symbol:
+func drm_kms_helper_hotplug_event (
+dev * @"struct--drm_device.txt"
+)
+"void"

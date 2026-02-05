@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/anon_inodes.c:247
+Symbol:
+func anon_inode_getfd (
+name * const "char"
+fops * const @"struct--file_operations.txt"
+priv * "void"
+flags "int"
+)
+"int"

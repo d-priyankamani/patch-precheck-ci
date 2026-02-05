@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/idr.c:608
+Symbol:
+func ida_destroy (
+ida * @"struct--ida.txt"
+)
+"void"

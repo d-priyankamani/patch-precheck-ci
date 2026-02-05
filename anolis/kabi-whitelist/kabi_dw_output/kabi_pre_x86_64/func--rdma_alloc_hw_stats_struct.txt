@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:3061
+Symbol:
+func rdma_alloc_hw_stats_struct (
+descs * const @"struct--rdma_stat_desc.txt"
+num_counters "int"
+lifespan "long unsigned int"
+)
+* @"struct--rdma_hw_stats.txt"

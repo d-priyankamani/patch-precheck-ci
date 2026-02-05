@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1174
+Symbol:
+Byte size 104
+struct ib_qp_init_attr {
+0x0 event_handler * func (NULL) (
+(NULL) * @"struct--ib_event.txt"
+(NULL) * "void"
+)
+"void"
+0x8 qp_context * "void"
+0x10 send_cq * @"struct--ib_cq.txt"
+0x18 recv_cq * @"struct--ib_cq.txt"
+0x20 srq * @"struct--ib_srq.txt"
+0x28 xrcd * @"struct--ib_xrcd.txt"
+0x30 cap @"struct--ib_qp_cap.txt"
+0x48 sq_sig_type @"enum--ib_sig_type.txt"
+0x4c qp_type @"enum--ib_qp_type.txt"
+0x50 create_flags @"typedef--u32.txt"
+0x54 port_num @"typedef--u32.txt"
+0x58 rwq_ind_tbl * @"struct--ib_rwq_ind_table.txt"
+0x60 source_qpn @"typedef--u32.txt"
+}

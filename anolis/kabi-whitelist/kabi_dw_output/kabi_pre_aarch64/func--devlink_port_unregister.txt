@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/port.c:1088
+Symbol:
+func devlink_port_unregister (
+devlink_port * @"struct--devlink_port.txt"
+)
+"void"

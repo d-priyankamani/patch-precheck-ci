@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vma_manager.c:201
+Symbol:
+func drm_vma_offset_add (
+mgr * @"struct--drm_vma_offset_manager.txt"
+node * @"struct--drm_vma_offset_node.txt"
+pages "long unsigned int"
+)
+"int"

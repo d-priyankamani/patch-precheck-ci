@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:229
+Symbol:
+Byte size 8
+typedef acpi_bus_id
+[8]"char"

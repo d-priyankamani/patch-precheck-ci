@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/swiotlb.h:106
+Symbol:
+Byte size 104
+struct io_tlb_mem {
+0x0 defpool @"struct--io_tlb_pool.txt"
+0x40 nslabs "long unsigned int"
+0x48 debugfs * @"struct--dentry.txt"
+0x50 force_bounce @"typedef--bool.txt"
+0x51 for_alloc @"typedef--bool.txt"
+0x58 total_used @"typedef--atomic_long_t.txt"
+0x60 used_hiwater @"typedef--atomic_long_t.txt"
+}

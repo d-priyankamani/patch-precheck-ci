@@ -1,0 +1,6 @@
+Version: 1.0
+File: drivers/pci/probe.c:3367
+Symbol:
+func pci_lock_rescan_remove (
+)
+"void"

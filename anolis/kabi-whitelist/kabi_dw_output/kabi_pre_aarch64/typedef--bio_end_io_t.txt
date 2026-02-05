@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/blk_types.h:22
+Symbol:
+typedef bio_end_io_t
+func (NULL) (
+(NULL) * @"struct--bio.txt"
+)
+"void"

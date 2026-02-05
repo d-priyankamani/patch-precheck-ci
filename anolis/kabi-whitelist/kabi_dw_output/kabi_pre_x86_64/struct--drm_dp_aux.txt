@@ -1,0 +1,30 @@
+Version: 1.0
+File: include/drm/display/drm_dp_helper.h:305
+Symbol:
+Byte size 1712
+Alignment 8
+struct drm_dp_aux {
+0x0 name * const "char"
+0x8 8 ddc @"struct--i2c_adapter.txt"
+0x528 dev * @"struct--device.txt"
+0x530 drm_dev * @"struct--drm_device.txt"
+0x538 crtc * @"struct--drm_crtc.txt"
+0x540 hw_mutex @"struct--mutex.txt"
+0x560 crc_work @"struct--work_struct.txt"
+0x5a0 crc_count @"typedef--u8.txt"
+0x5a8 transfer * func (NULL) (
+(NULL) * @"struct--drm_dp_aux.txt"
+(NULL) * @"struct--drm_dp_aux_msg.txt"
+)
+@"typedef--ssize_t.txt"
+0x5b0 wait_hpd_asserted * func (NULL) (
+(NULL) * @"struct--drm_dp_aux.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x5b8 i2c_nack_count "unsigned int"
+0x5bc i2c_defer_count "unsigned int"
+0x5c0 cec @"struct--drm_dp_aux_cec.txt"
+0x6a8 is_remote @"typedef--bool.txt"
+0x6a9 powered_down @"typedef--bool.txt"
+}

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/configfs.h:65
+Symbol:
+Byte size 40
+struct config_item_type {
+0x0 ct_owner * @"struct--module.txt"
+0x8 ct_item_ops * @"struct--configfs_item_operations.txt"
+0x10 ct_group_ops * @"struct--configfs_group_operations.txt"
+0x18 ct_attrs * * @"struct--configfs_attribute.txt"
+0x20 ct_bin_attrs * * @"struct--configfs_bin_attribute.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/net_namespace.c:697
+Symbol:
+func __put_net (
+net * @"struct--net.txt"
+)
+"void"

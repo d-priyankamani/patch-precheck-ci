@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_mst_topology.c:2231
+Symbol:
+func drm_dp_mst_connector_late_register (
+connector * @"struct--drm_connector.txt"
+port * @"struct--drm_dp_mst_port.txt"
+)
+"int"

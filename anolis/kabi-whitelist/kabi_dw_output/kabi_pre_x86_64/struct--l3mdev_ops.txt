@@ -1,0 +1,32 @@
+Version: 1.0
+File: include/net/l3mdev.h:35
+Symbol:
+Byte size 64
+struct l3mdev_ops {
+0x0 l3mdev_fib_table * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+)
+@"typedef--u32.txt"
+0x8 l3mdev_l3_rcv * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) @"typedef--u16.txt"
+)
+* @"struct--sk_buff.txt"
+0x10 l3mdev_l3_out * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) @"typedef--u16.txt"
+)
+* @"struct--sk_buff.txt"
+0x18 l3mdev_link_scope_lookup * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+(NULL) * @"struct--flowi6.txt"
+)
+* @"struct--dst_entry.txt"
+0x20 ck_reserved1 "long unsigned int"
+0x28 ck_reserved2 "long unsigned int"
+0x30 ck_reserved3 "long unsigned int"
+0x38 ck_reserved4 "long unsigned int"
+}

@@ -1,0 +1,42 @@
+Version: 1.0
+File: include/linux/fb.h:446
+Symbol:
+Byte size 1112
+struct fb_info {
+0x0 count @"typedef--refcount_t.txt"
+0x4 node "int"
+0x8 flags "int"
+0xc fbcon_rotate_hint "int"
+0x10 lock @"struct--mutex.txt"
+0x30 mm_lock @"struct--mutex.txt"
+0x50 var @"struct--fb_var_screeninfo.txt"
+0xf0 fix @"struct--fb_fix_screeninfo.txt"
+0x140 monspecs @"struct--fb_monspecs.txt"
+0x1d0 pixmap @"struct--fb_pixmap.txt"
+0x208 sprite @"struct--fb_pixmap.txt"
+0x240 cmap @"struct--fb_cmap.txt"
+0x268 modelist @"struct--list_head.txt"
+0x278 mode * @"struct--fb_videomode.txt"
+0x280 bl_dev * @"struct--backlight_device.txt"
+0x288 bl_curve_mutex @"struct--mutex.txt"
+0x2a8 bl_curve [128]@"typedef--u8.txt"
+0x328 deferred_work @"struct--delayed_work.txt"
+0x3e0 npagerefs "long unsigned int"
+0x3e8 pagerefs * @"struct--fb_deferred_io_pageref.txt"
+0x3f0 fbdefio * @"struct--fb_deferred_io.txt"
+0x3f8 fbops * const @"struct--fb_ops.txt"
+0x400 device * @"struct--device.txt"
+0x408 dev * @"struct--device.txt"
+0x410 class_flag "int"
+0x418 tileops * @"struct--fb_tile_ops.txt"
+0x420 (NULL) union (NULL) {
+screen_base * "char"
+screen_buffer * "char"
+}
+0x428 screen_size "long unsigned int"
+0x430 pseudo_palette * "void"
+0x438 state @"typedef--u32.txt"
+0x440 fbcon_par * "void"
+0x448 par * "void"
+0x450 skip_vt_switch @"typedef--bool.txt"
+}

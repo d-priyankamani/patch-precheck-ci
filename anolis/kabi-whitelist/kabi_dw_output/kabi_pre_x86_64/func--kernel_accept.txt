@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/socket.c:3586
+Symbol:
+func kernel_accept (
+sock * @"struct--socket.txt"
+newsock * * @"struct--socket.txt"
+flags "int"
+)
+"int"

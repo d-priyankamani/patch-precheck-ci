@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/netfilter.h:68
+Symbol:
+Byte size 48
+struct nf_hook_state {
+0x0 hook @"typedef--u8.txt"
+0x1 pf @"typedef--u8.txt"
+0x8 in * @"struct--net_device.txt"
+0x10 out * @"struct--net_device.txt"
+0x18 sk * @"struct--sock.txt"
+0x20 net * @"struct--net.txt"
+0x28 okfn * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+}

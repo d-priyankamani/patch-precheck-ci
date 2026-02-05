@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/quota.h:418
+Symbol:
+Byte size 176
+struct qc_state {
+0x0 s_incoredqs "unsigned int"
+0x8 s_state [3]@"struct--qc_type_state.txt"
+}

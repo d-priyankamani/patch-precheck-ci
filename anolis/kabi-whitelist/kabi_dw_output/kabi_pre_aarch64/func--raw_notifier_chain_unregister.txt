@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/notifier.c:427
+Symbol:
+func raw_notifier_chain_unregister (
+nh * @"struct--raw_notifier_head.txt"
+n * @"struct--notifier_block.txt"
+)
+"int"

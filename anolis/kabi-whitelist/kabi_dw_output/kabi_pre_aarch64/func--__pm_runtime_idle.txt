@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/power/runtime.c:1084
+Symbol:
+func __pm_runtime_idle (
+dev * @"struct--device.txt"
+rpmflags "int"
+)
+"int"

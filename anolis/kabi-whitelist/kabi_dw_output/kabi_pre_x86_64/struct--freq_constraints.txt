@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/pm_qos.h:85
+Symbol:
+Byte size 176
+struct freq_constraints {
+0x0 min_freq @"struct--pm_qos_constraints.txt"
+0x28 min_freq_notifiers @"struct--blocking_notifier_head.txt"
+0x58 max_freq @"struct--pm_qos_constraints.txt"
+0x80 max_freq_notifiers @"struct--blocking_notifier_head.txt"
+}

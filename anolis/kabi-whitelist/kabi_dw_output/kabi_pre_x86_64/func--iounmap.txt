@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/mm/ioremap.c:456
+Symbol:
+func iounmap (
+addr * volatile "void"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/percpu-refcount.c:383
+Symbol:
+func percpu_ref_kill_and_confirm (
+ref * @"struct--percpu_ref.txt"
+confirm_kill * @"typedef--percpu_ref_func_t.txt"
+)
+"void"

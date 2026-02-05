@@ -1,0 +1,24 @@
+Version: 1.0
+File: drivers/iommu/iommu.c:52
+Symbol:
+Byte size 256
+struct iommu_group {
+0x0 kobj @"struct--kobject.txt"
+0x60 devices_kobj * @"struct--kobject.txt"
+0x68 devices @"struct--list_head.txt"
+0x78 pasid_array @"struct--xarray.txt"
+0x88 mutex @"struct--mutex.txt"
+0xa8 iommu_data * "void"
+0xb0 iommu_data_release * func (NULL) (
+(NULL) * "void"
+)
+"void"
+0xb8 name * "char"
+0xc0 id "int"
+0xc8 default_domain * @"struct--iommu_domain.txt"
+0xd0 blocking_domain * @"struct--iommu_domain.txt"
+0xd8 domain * @"struct--iommu_domain.txt"
+0xe0 entry @"struct--list_head.txt"
+0xf0 owner_cnt "unsigned int"
+0xf8 owner * "void"
+}

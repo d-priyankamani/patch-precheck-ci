@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:1007
+Symbol:
+func dma_fence_init (
+fence * @"struct--dma_fence.txt"
+ops * const @"struct--dma_fence_ops.txt"
+lock * @"typedef--spinlock_t.txt"
+context @"typedef--u64.txt"
+seqno @"typedef--u64.txt"
+)
+"void"

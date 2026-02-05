@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem_framebuffer_helper.c:122
+Symbol:
+func drm_gem_fb_create_handle (
+fb * @"struct--drm_framebuffer.txt"
+file * @"struct--drm_file.txt"
+handle * "unsigned int"
+)
+"int"

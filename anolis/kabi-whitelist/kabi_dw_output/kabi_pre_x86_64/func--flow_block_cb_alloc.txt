@@ -1,0 +1,13 @@
+Version: 1.0
+File: net/core/flow_offload.c:261
+Symbol:
+func flow_block_cb_alloc (
+cb * @"typedef--flow_setup_cb_t.txt"
+cb_ident * "void"
+cb_priv * "void"
+release * func (NULL) (
+(NULL) * "void"
+)
+"void"
+)
+* @"struct--flow_block_cb.txt"

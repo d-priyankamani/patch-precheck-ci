@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/drm/drm_connector.h:137
+Symbol:
+Byte size 4
+enum subpixel_order {
+SubPixelUnknown = 0x0
+SubPixelHorizontalRGB = 0x1
+SubPixelHorizontalBGR = 0x2
+SubPixelVerticalRGB = 0x3
+SubPixelVerticalBGR = 0x4
+SubPixelNone = 0x5
+}

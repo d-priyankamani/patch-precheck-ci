@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/mm.h:1562
+Symbol:
+Byte size 8
+typedef release_pages_arg
+union (NULL) {
+}

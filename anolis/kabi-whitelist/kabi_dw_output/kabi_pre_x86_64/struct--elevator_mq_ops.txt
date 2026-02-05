@@ -1,0 +1,117 @@
+Version: 1.0
+File: block/elevator.h:26
+Symbol:
+Byte size 208
+struct elevator_mq_ops {
+0x0 init_sched * func (NULL) (
+(NULL) * @"struct--request_queue.txt"
+(NULL) * @"struct--elevator_type.txt"
+)
+"int"
+0x8 exit_sched * func (NULL) (
+(NULL) * @"struct--elevator_queue.txt"
+)
+"void"
+0x10 init_hctx * func (NULL) (
+(NULL) * @"struct--blk_mq_hw_ctx.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x18 exit_hctx * func (NULL) (
+(NULL) * @"struct--blk_mq_hw_ctx.txt"
+(NULL) "unsigned int"
+)
+"void"
+0x20 depth_updated * func (NULL) (
+(NULL) * @"struct--blk_mq_hw_ctx.txt"
+)
+"void"
+0x28 allow_merge * func (NULL) (
+(NULL) * @"struct--request_queue.txt"
+(NULL) * @"struct--request.txt"
+(NULL) * @"struct--bio.txt"
+)
+@"typedef--bool.txt"
+0x30 bio_merge * func (NULL) (
+(NULL) * @"struct--request_queue.txt"
+(NULL) * @"struct--bio.txt"
+(NULL) "unsigned int"
+)
+@"typedef--bool.txt"
+0x38 request_merge * func (NULL) (
+(NULL) * @"struct--request_queue.txt"
+(NULL) * * @"struct--request.txt"
+(NULL) * @"struct--bio.txt"
+)
+"int"
+0x40 request_merged * func (NULL) (
+(NULL) * @"struct--request_queue.txt"
+(NULL) * @"struct--request.txt"
+(NULL) @"enum--elv_merge.txt"
+)
+"void"
+0x48 requests_merged * func (NULL) (
+(NULL) * @"struct--request_queue.txt"
+(NULL) * @"struct--request.txt"
+(NULL) * @"struct--request.txt"
+)
+"void"
+0x50 limit_depth * func (NULL) (
+(NULL) @"typedef--blk_opf_t.txt"
+(NULL) * @"struct--blk_mq_alloc_data.txt"
+)
+"void"
+0x58 prepare_request * func (NULL) (
+(NULL) * @"struct--request.txt"
+)
+"void"
+0x60 finish_request * func (NULL) (
+(NULL) * @"struct--request.txt"
+)
+"void"
+0x68 insert_requests * func (NULL) (
+(NULL) * @"struct--blk_mq_hw_ctx.txt"
+(NULL) * @"struct--list_head.txt"
+(NULL) @"typedef--blk_insert_t.txt"
+)
+"void"
+0x70 dispatch_request * func (NULL) (
+(NULL) * @"struct--blk_mq_hw_ctx.txt"
+)
+* @"struct--request.txt"
+0x78 has_work * func (NULL) (
+(NULL) * @"struct--blk_mq_hw_ctx.txt"
+)
+@"typedef--bool.txt"
+0x80 completed_request * func (NULL) (
+(NULL) * @"struct--request.txt"
+(NULL) @"typedef--u64.txt"
+)
+"void"
+0x88 requeue_request * func (NULL) (
+(NULL) * @"struct--request.txt"
+)
+"void"
+0x90 former_request * func (NULL) (
+(NULL) * @"struct--request_queue.txt"
+(NULL) * @"struct--request.txt"
+)
+* @"struct--request.txt"
+0x98 next_request * func (NULL) (
+(NULL) * @"struct--request_queue.txt"
+(NULL) * @"struct--request.txt"
+)
+* @"struct--request.txt"
+0xa0 init_icq * func (NULL) (
+(NULL) * @"struct--io_cq.txt"
+)
+"void"
+0xa8 exit_icq * func (NULL) (
+(NULL) * @"struct--io_cq.txt"
+)
+"void"
+0xb0 ck_reserved1 "long unsigned int"
+0xb8 ck_reserved2 "long unsigned int"
+0xc0 ck_reserved3 "long unsigned int"
+0xc8 ck_reserved4 "long unsigned int"
+}

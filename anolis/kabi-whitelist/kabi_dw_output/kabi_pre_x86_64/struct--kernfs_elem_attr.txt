@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/kernfs.h:177
+Symbol:
+Byte size 32
+struct kernfs_elem_attr {
+0x0 ops * const @"struct--kernfs_ops.txt"
+0x8 open * @"<declarations>/struct--kernfs_open_node.txt"
+0x10 size @"typedef--loff_t.txt"
+0x18 notify_next * @"struct--kernfs_node.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci-driver.c:1480
+Symbol:
+func pci_unregister_driver (
+drv * @"struct--pci_driver.txt"
+)
+"void"

@@ -1,0 +1,66 @@
+Version: 1.0
+File: include/linux/msi.h:452
+Symbol:
+Byte size 80
+struct msi_domain_ops {
+0x0 get_hwirq * func (NULL) (
+(NULL) * @"struct--msi_domain_info.txt"
+(NULL) * @"typedef--msi_alloc_info_t.txt"
+)
+@"typedef--irq_hw_number_t.txt"
+0x8 msi_init * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--msi_domain_info.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--irq_hw_number_t.txt"
+(NULL) * @"typedef--msi_alloc_info_t.txt"
+)
+"int"
+0x10 msi_free * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--msi_domain_info.txt"
+(NULL) "unsigned int"
+)
+"void"
+0x18 msi_prepare * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--device.txt"
+(NULL) "int"
+(NULL) * @"typedef--msi_alloc_info_t.txt"
+)
+"int"
+0x20 prepare_desc * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"typedef--msi_alloc_info_t.txt"
+(NULL) * @"struct--msi_desc.txt"
+)
+"void"
+0x28 set_desc * func (NULL) (
+(NULL) * @"typedef--msi_alloc_info_t.txt"
+(NULL) * @"struct--msi_desc.txt"
+)
+"void"
+0x30 domain_alloc_irqs * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--device.txt"
+(NULL) "int"
+)
+"int"
+0x38 domain_free_irqs * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x40 msi_post_free * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--device.txt"
+)
+"void"
+0x48 msi_translate * func (NULL) (
+(NULL) * @"struct--irq_domain.txt"
+(NULL) * @"struct--irq_fwspec.txt"
+(NULL) * @"typedef--irq_hw_number_t.txt"
+(NULL) * "unsigned int"
+)
+"int"
+}

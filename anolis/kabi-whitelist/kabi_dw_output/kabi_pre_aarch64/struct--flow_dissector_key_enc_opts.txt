@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/flow_dissector.h:96
+Symbol:
+Byte size 258
+struct flow_dissector_key_enc_opts {
+0x0 data [255]@"typedef--u8.txt"
+0xff len @"typedef--u8.txt"
+0x100 dst_opt_type @"typedef--__be16.txt"
+}

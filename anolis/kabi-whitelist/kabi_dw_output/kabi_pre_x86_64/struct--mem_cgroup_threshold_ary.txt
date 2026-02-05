@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/memcontrol.h:196
+Symbol:
+Byte size 8
+struct mem_cgroup_threshold_ary {
+0x0 current_threshold "int"
+0x4 size "unsigned int"
+0x8 entries [0]@"struct--mem_cgroup_threshold.txt"
+}

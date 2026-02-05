@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/devlink/port.c:1348
+Symbol:
+func devlink_port_attrs_pci_vf_set (
+devlink_port * @"struct--devlink_port.txt"
+controller @"typedef--u32.txt"
+pf @"typedef--u16.txt"
+vf @"typedef--u16.txt"
+external @"typedef--bool.txt"
+)
+"void"

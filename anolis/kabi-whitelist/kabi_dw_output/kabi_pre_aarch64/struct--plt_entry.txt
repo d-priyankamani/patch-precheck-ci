@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/arm64/include/asm/module.h:38
+Symbol:
+Byte size 12
+struct plt_entry {
+0x0 adrp @"typedef--__le32.txt"
+0x4 add @"typedef--__le32.txt"
+0x8 br @"typedef--__le32.txt"
+}

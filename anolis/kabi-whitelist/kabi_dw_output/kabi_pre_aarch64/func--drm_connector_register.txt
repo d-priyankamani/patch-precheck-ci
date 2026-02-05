@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:612
+Symbol:
+func drm_connector_register (
+connector * @"struct--drm_connector.txt"
+)
+"int"

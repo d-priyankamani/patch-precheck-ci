@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/perf_event.h:1457
+Symbol:
+Byte size 8
+union perf_sample_weight {
+full @"typedef--__u64.txt"
+(NULL) struct (NULL) {
+0x0 var1_dw @"typedef--__u32.txt"
+0x4 var2_w @"typedef--__u16.txt"
+0x6 var3_w @"typedef--__u16.txt"
+}
+}

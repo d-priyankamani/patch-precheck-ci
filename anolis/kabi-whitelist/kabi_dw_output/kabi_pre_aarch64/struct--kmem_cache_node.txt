@@ -1,0 +1,12 @@
+Version: 1.0
+File: mm/slab.h:829
+Symbol:
+Byte size 64
+struct kmem_cache_node {
+0x0 list_lock @"typedef--spinlock_t.txt"
+0x8 nr_partial "long unsigned int"
+0x10 partial @"struct--list_head.txt"
+0x20 nr_slabs @"typedef--atomic_long_t.txt"
+0x28 total_objects @"typedef--atomic_long_t.txt"
+0x30 full @"struct--list_head.txt"
+}

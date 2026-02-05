@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/bpf_local_storage.h:64
+Symbol:
+Byte size 8
+Alignment 8
+struct bpf_local_storage_data {
+0x0 smap * @"struct--bpf_local_storage_map.txt"
+0x8 8 data [0]@"typedef--u8.txt"
+}

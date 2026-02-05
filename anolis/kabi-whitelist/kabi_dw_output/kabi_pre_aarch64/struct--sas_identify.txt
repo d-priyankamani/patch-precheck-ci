@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/scsi/scsi_transport_sas.h:52
+Symbol:
+Byte size 32
+struct sas_identify {
+0x0 device_type @"enum--sas_device_type.txt"
+0x4 initiator_port_protocols @"enum--sas_protocol.txt"
+0x8 target_port_protocols @"enum--sas_protocol.txt"
+0x10 sas_address @"typedef--u64.txt"
+0x18 phy_identifier @"typedef--u8.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/scatterlist.c:243
+Symbol:
+func sg_free_append_table (
+table * @"struct--sg_append_table.txt"
+)
+"void"

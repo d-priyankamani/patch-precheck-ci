@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/iommu/iommu.c:2127
+Symbol:
+func iommu_domain_free (
+domain * @"struct--iommu_domain.txt"
+)
+"void"

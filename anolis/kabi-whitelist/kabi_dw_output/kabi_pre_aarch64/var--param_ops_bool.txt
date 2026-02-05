@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/params.c:325
+Symbol:
+var param_ops_bool "void"

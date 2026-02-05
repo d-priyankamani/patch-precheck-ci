@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/xdp.c:783
+Symbol:
+func xdp_features_set_redirect_target (
+dev * @"struct--net_device.txt"
+support_sg @"typedef--bool.txt"
+)
+"void"

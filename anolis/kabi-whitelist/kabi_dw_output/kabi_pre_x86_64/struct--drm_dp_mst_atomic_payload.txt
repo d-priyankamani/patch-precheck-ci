@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/drm/display/drm_dp_mst_helper.h:528
+Symbol:
+Byte size 40
+struct drm_dp_mst_atomic_payload {
+0x0 port * @"struct--drm_dp_mst_port.txt"
+0x8 vc_start_slot @"typedef--s8.txt"
+0x9 vcpi @"typedef--u8.txt"
+0xc time_slots "int"
+0x10 pbn "int"
+0x14:0-1 delete @"typedef--bool.txt"
+0x14:1-2 dsc_enabled @"typedef--bool.txt"
+0x18 next @"struct--list_head.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/kstrtox.c:307
+Symbol:
+func kstrtou8 (
+s * const "char"
+base "unsigned int"
+res * @"typedef--u8.txt"
+)
+"int"

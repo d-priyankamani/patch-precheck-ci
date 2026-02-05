@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/trace/trace_events.c:622
+Symbol:
+func trace_event_ignore_this_pid (
+trace_file * @"struct--trace_event_file.txt"
+)
+@"typedef--bool.txt"

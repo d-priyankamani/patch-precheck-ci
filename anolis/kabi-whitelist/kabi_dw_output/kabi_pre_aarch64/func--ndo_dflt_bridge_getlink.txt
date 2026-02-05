@@ -1,0 +1,21 @@
+Version: 1.0
+File: net/core/rtnetlink.c:4896
+Symbol:
+func ndo_dflt_bridge_getlink (
+skb * @"struct--sk_buff.txt"
+pid @"typedef--u32.txt"
+seq @"typedef--u32.txt"
+dev * @"struct--net_device.txt"
+mode @"typedef--u16.txt"
+flags @"typedef--u32.txt"
+mask @"typedef--u32.txt"
+nlflags "int"
+filter_mask @"typedef--u32.txt"
+vlan_fill * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+)
+"int"

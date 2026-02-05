@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_range_manager.c:178
+Symbol:
+func ttm_range_man_init_nocheck (
+bdev * @"struct--ttm_device.txt"
+type "unsigned int"
+use_tt @"typedef--bool.txt"
+p_size "long unsigned int"
+)
+"int"

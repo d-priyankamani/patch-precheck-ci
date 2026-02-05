@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/scatterlist.h:11
+Symbol:
+Byte size 32
+struct scatterlist {
+0x0 page_link "long unsigned int"
+0x8 offset "unsigned int"
+0xc length "unsigned int"
+0x10 dma_address @"typedef--dma_addr_t.txt"
+0x18 dma_length "unsigned int"
+0x1c dma_flags "unsigned int"
+}

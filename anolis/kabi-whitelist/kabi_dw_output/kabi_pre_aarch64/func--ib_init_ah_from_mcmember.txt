@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/infiniband/core/multicast.c:735
+Symbol:
+func ib_init_ah_from_mcmember (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+rec * @"struct--ib_sa_mcmember_rec.txt"
+ndev * @"struct--net_device.txt"
+gid_type @"enum--ib_gid_type.txt"
+ah_attr * @"struct--rdma_ah_attr.txt"
+)
+"int"

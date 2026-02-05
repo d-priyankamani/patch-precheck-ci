@@ -1,0 +1,9 @@
+Version: 1.0
+File: block/blk-mq-tag.c:437
+Symbol:
+func blk_mq_tagset_busy_iter (
+tagset * @"struct--blk_mq_tag_set.txt"
+fn * @"typedef--busy_tag_iter_fn.txt"
+priv * "void"
+)
+"void"

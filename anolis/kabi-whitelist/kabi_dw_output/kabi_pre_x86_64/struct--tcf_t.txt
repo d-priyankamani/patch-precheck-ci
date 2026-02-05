@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/pkt_cls.h:167
+Symbol:
+Byte size 32
+struct tcf_t {
+0x0 install @"typedef--__u64.txt"
+0x8 lastuse @"typedef--__u64.txt"
+0x10 expires @"typedef--__u64.txt"
+0x18 firstuse @"typedef--__u64.txt"
+}

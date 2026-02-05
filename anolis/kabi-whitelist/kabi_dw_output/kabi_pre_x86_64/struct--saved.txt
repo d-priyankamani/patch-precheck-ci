@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/namei.c:579
+Symbol:
+Byte size 48
+struct saved {
+0x0 link @"struct--path.txt"
+0x10 done @"struct--delayed_call.txt"
+0x20 name * const "char"
+0x28 seq "unsigned int"
+}

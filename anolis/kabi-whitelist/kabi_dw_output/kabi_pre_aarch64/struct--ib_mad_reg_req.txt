@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:645
+Symbol:
+Byte size 24
+struct ib_mad_reg_req {
+0x0 mgmt_class @"typedef--u8.txt"
+0x1 mgmt_class_version @"typedef--u8.txt"
+0x2 oui [3]@"typedef--u8.txt"
+0x8 method_mask [2]"long unsigned int"
+}

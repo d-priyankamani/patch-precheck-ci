@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:162
+Symbol:
+Byte size 8
+typedef acpi_op_remove
+* func (NULL) (
+(NULL) * @"struct--acpi_device.txt"
+)
+"void"

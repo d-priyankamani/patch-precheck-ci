@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/netns/ipv4.h:21
+Symbol:
+Byte size 20
+struct local_ports {
+0x0 lock @"typedef--seqlock_t.txt"
+0x8 range [2]"int"
+0x10 warned @"typedef--bool.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_helper.c:3400
+Symbol:
+func drm_atomic_helper_shutdown (
+dev * @"struct--drm_device.txt"
+)
+"void"

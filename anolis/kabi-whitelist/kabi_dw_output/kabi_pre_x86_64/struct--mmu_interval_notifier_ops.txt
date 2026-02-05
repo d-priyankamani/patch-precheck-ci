@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/mmu_notifier.h:251
+Symbol:
+Byte size 8
+struct mmu_interval_notifier_ops {
+0x0 invalidate * func (NULL) (
+(NULL) * @"struct--mmu_interval_notifier.txt"
+(NULL) * const @"struct--mmu_notifier_range.txt"
+(NULL) "long unsigned int"
+)
+@"typedef--bool.txt"
+}

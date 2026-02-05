@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cm.c:1246
+Symbol:
+func ib_cm_insert_listen (
+device * @"struct--ib_device.txt"
+cm_handler @"typedef--ib_cm_handler.txt"
+service_id @"typedef--__be64.txt"
+)
+* @"struct--ib_cm_id.txt"

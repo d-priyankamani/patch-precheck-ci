@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/igmp.h:59
+Symbol:
+Byte size 32
+struct ip_sf_list {
+0x0 sf_next * @"struct--ip_sf_list.txt"
+0x8 sf_count [2]"long unsigned int"
+0x18 sf_inaddr @"typedef--__be32.txt"
+0x1c sf_gsresp "unsigned char"
+0x1d sf_oldin "unsigned char"
+0x1e sf_crcount "unsigned char"
+}

@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/linux/crypto.h:255
+Symbol:
+Byte size 16
+struct compress_alg {
+0x0 coa_compress * func (NULL) (
+(NULL) * @"struct--crypto_tfm.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) "unsigned int"
+(NULL) * @"typedef--u8.txt"
+(NULL) * "unsigned int"
+)
+"int"
+0x8 coa_decompress * func (NULL) (
+(NULL) * @"struct--crypto_tfm.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) "unsigned int"
+(NULL) * @"typedef--u8.txt"
+(NULL) * "unsigned int"
+)
+"int"
+}

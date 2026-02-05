@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/platform_device.h:119
+Symbol:
+Byte size 88
+struct platform_device_info {
+0x0 parent * @"struct--device.txt"
+0x8 fwnode * @"struct--fwnode_handle.txt"
+0x10 of_node_reused @"typedef--bool.txt"
+0x18 name * const "char"
+0x20 id "int"
+0x28 res * const @"struct--resource.txt"
+0x30 num_res "unsigned int"
+0x38 data * const "void"
+0x40 size_data @"typedef--size_t.txt"
+0x48 dma_mask @"typedef--u64.txt"
+0x50 properties * const @"struct--property_entry.txt"
+}

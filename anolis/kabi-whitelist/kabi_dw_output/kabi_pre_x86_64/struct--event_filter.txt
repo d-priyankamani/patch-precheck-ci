@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/trace/trace.h:1335
+Symbol:
+Byte size 16
+struct event_filter {
+0x0 prog * @"<declarations>/struct--prog_entry.txt"
+0x8 filter_string * "char"
+}

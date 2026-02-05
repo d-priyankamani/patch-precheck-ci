@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/netlink/af_netlink.c:1339
+Symbol:
+func netlink_unicast (
+ssk * @"struct--sock.txt"
+skb * @"struct--sk_buff.txt"
+portid @"typedef--u32.txt"
+nonblock "int"
+)
+"int"

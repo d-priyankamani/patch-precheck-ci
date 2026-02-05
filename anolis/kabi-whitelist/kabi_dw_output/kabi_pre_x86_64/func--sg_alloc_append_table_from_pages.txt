@@ -1,0 +1,14 @@
+Version: 1.0
+File: lib/scatterlist.c:454
+Symbol:
+func sg_alloc_append_table_from_pages (
+sgt_append * @"struct--sg_append_table.txt"
+pages * * @"struct--page.txt"
+n_pages "unsigned int"
+offset "unsigned int"
+size "long unsigned int"
+max_segment "unsigned int"
+left_pages "unsigned int"
+gfp_mask @"typedef--gfp_t.txt"
+)
+"int"

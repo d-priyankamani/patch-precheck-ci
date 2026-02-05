@@ -1,0 +1,14 @@
+Version: 1.0
+File: arch/x86/include/asm/fpu/types.h:448
+Symbol:
+Byte size 4224
+Alignment 64
+struct fpu {
+0x0 last_cpu "unsigned int"
+0x8 avx512_timestamp "long unsigned int"
+0x10 fpstate * @"struct--fpstate.txt"
+0x18 __task_fpstate * @"struct--fpstate.txt"
+0x20 perm @"struct--fpu_state_perm.txt"
+0x30 guest_perm @"struct--fpu_state_perm.txt"
+0x40 64 __fpstate @"struct--fpstate.txt"
+}

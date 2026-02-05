@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/dev.c:4245
+Symbol:
+func netdev_pick_tx (
+dev * @"struct--net_device.txt"
+skb * @"struct--sk_buff.txt"
+sb_dev * @"struct--net_device.txt"
+)
+@"typedef--u16.txt"

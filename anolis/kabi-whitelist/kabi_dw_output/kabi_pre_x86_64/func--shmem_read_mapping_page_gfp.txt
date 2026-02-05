@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/shmem.c:5731
+Symbol:
+func shmem_read_mapping_page_gfp (
+mapping * @"struct--address_space.txt"
+index "long unsigned int"
+gfp @"typedef--gfp_t.txt"
+)
+* @"struct--page.txt"

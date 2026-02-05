@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/drm/drm.h:188
+Symbol:
+Byte size 4
+enum drm_map_type {
+_DRM_FRAME_BUFFER = 0x0
+_DRM_REGISTERS = 0x1
+_DRM_SHM = 0x2
+_DRM_AGP = 0x3
+_DRM_SCATTER_GATHER = 0x4
+_DRM_CONSISTENT = 0x5
+}

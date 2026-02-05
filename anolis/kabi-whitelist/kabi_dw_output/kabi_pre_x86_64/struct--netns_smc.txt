@@ -1,0 +1,71 @@
+Version: 1.0
+File: include/net/netns/smc.h:12
+Symbol:
+Byte size 504
+struct netns_smc {
+0x0 smc_stats * @"<declarations>/struct--smc_stats.txt"
+0x8 mutex_fback_rsn @"struct--mutex.txt"
+0x28 fback_rsn * @"<declarations>/struct--smc_stats_rsn.txt"
+0x30 limit_smc_hs @"typedef--bool.txt"
+0x38 smc_hdr * @"struct--ctl_table_header.txt"
+0x40 hs_ctrl * @"<declarations>/struct--smc_hs_ctrl.txt"
+0x48 sysctl_autocorking_size "unsigned int"
+0x4c sysctl_smcr_buf_type "unsigned int"
+0x50 sysctl_vendor_exp_options "unsigned int"
+0x54 sysctl_smcr_testlink_time "int"
+0x58 sysctl_wmem "int"
+0x5c sysctl_rmem "int"
+0x60 sysctl_max_links_per_lgr "int"
+0x64 sysctl_max_conns_per_lgr "int"
+0x68 iwarp_cnt @"typedef--atomic_t.txt"
+0x70 rsvd_sock [16]* @"struct--socket.txt"
+0xf0 dump_ctx * @"<declarations>/struct--smc_dump_ctx.txt"
+0xf8 ck_reserved1 "long unsigned int"
+0x100 (NULL) union (NULL) {
+sysctl_mem [3]"long int"
+ck_kabi_hidden_40 struct (NULL) {
+0x0 (NULL) struct (NULL) {
+0x0 ck_reserved2 "long unsigned int"
+0x8 ck_reserved3 "long unsigned int"
+0x10 ck_reserved4 "long unsigned int"
+}
+}
+(NULL) union (NULL) {
+}
+}
+0x118 (NULL) union (NULL) {
+memory_allocated @"typedef--atomic_long_t.txt"
+ck_kabi_hidden_42 struct (NULL) {
+0x0 ck_reserved5 "long unsigned int"
+}
+(NULL) union (NULL) {
+}
+}
+0x120 ck_reserved6 "long unsigned int"
+0x128 ck_reserved7 "long unsigned int"
+0x130 ck_reserved8 "long unsigned int"
+0x138 ck_reserved9 "long unsigned int"
+0x140 ck_reserved10 "long unsigned int"
+0x148 ck_reserved11 "long unsigned int"
+0x150 ck_reserved12 "long unsigned int"
+0x158 ck_reserved13 "long unsigned int"
+0x160 ck_reserved14 "long unsigned int"
+0x168 ck_reserved15 "long unsigned int"
+0x170 ck_reserved16 "long unsigned int"
+0x178 ck_reserved17 "long unsigned int"
+0x180 ck_reserved18 "long unsigned int"
+0x188 ck_reserved19 "long unsigned int"
+0x190 ck_reserved20 "long unsigned int"
+0x198 ck_reserved21 "long unsigned int"
+0x1a0 ck_reserved22 "long unsigned int"
+0x1a8 ck_reserved23 "long unsigned int"
+0x1b0 ck_reserved24 "long unsigned int"
+0x1b8 ck_reserved25 "long unsigned int"
+0x1c0 ck_reserved26 "long unsigned int"
+0x1c8 ck_reserved27 "long unsigned int"
+0x1d0 ck_reserved28 "long unsigned int"
+0x1d8 ck_reserved29 "long unsigned int"
+0x1e0 ck_reserved30 "long unsigned int"
+0x1e8 ck_reserved31 "long unsigned int"
+0x1f0 ck_reserved32 "long unsigned int"
+}

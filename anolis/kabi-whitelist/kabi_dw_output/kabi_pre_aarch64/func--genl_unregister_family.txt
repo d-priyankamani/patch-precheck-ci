@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/netlink/genetlink.c:714
+Symbol:
+func genl_unregister_family (
+family * const @"struct--genl_family.txt"
+)
+"int"

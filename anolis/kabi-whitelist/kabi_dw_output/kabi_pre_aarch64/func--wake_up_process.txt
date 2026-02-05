@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/sched/core.c:4439
+Symbol:
+func wake_up_process (
+p * @"struct--task_struct.txt"
+)
+"int"

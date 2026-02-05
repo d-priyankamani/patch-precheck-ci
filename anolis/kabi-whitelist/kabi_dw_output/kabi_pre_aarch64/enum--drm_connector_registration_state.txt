@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/drm_connector.h:98
+Symbol:
+Byte size 4
+enum drm_connector_registration_state {
+DRM_CONNECTOR_INITIALIZING = 0x0
+DRM_CONNECTOR_REGISTERED = 0x1
+DRM_CONNECTOR_UNREGISTERED = 0x2
+}

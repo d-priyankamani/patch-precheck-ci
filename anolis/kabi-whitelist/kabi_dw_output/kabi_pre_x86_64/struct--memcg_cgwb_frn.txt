@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/memcontrol.h:265
+Symbol:
+Byte size 40
+struct memcg_cgwb_frn {
+0x0 bdi_id @"typedef--u64.txt"
+0x8 memcg_id "int"
+0x10 at @"typedef--u64.txt"
+0x18 done @"struct--wb_completion.txt"
+}

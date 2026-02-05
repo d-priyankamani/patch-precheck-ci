@@ -1,0 +1,26 @@
+Version: 1.0
+File: include/net/page_pool/types.h:126
+Symbol:
+Byte size 1664
+Alignment 64
+struct page_pool {
+0x0 p @"struct--page_pool_params.txt"
+0x50 frag_users "long int"
+0x58 frag_page * @"struct--page.txt"
+0x60 frag_offset "unsigned int"
+0x64 pages_state_hold_cnt @"typedef--u32.txt"
+0x68 release_dw @"struct--delayed_work.txt"
+0x120 disconnect * func (NULL) (
+(NULL) * "void"
+)
+"void"
+0x128 defer_start "long unsigned int"
+0x130 defer_warn "long unsigned int"
+0x138 xdp_mem_id @"typedef--u32.txt"
+0x140 64 alloc @"struct--pp_alloc_cache.txt"
+0x580 64 ring @"struct--ptr_ring.txt"
+0x640 pages_state_release_cnt @"typedef--atomic_t.txt"
+0x644 user_cnt @"typedef--refcount_t.txt"
+0x648 destroy_cnt @"typedef--u64.txt"
+0x650 ck_reserved1 "long unsigned int"
+}

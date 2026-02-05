@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/libfs.c:706
+Symbol:
+func init_pseudo (
+fc * @"struct--fs_context.txt"
+magic "long unsigned int"
+)
+* @"struct--pseudo_fs_context.txt"

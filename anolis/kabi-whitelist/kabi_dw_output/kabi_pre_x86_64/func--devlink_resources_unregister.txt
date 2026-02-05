@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/resource.c:460
+Symbol:
+func devlink_resources_unregister (
+devlink * @"struct--devlink.txt"
+)
+"void"

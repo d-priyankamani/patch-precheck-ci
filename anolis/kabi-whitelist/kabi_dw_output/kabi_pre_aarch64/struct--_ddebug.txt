@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/dynamic_debug.h:16
+Symbol:
+Byte size 56
+Alignment 8
+struct _ddebug {
+0x0 modname * const "char"
+0x8 function * const "char"
+0x10 filename * const "char"
+0x18 format * const "char"
+0x20:0-18 lineno "unsigned int"
+0x22:2-8 class_id "unsigned int"
+0x23:0-8 flags "unsigned int"
+0x28 key union (NULL) {
+dd_key_true @"struct--static_key_true.txt"
+dd_key_false @"struct--static_key_false.txt"
+}
+}

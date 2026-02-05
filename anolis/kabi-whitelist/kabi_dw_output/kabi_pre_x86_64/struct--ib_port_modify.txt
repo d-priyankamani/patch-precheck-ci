@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:723
+Symbol:
+Byte size 12
+struct ib_port_modify {
+0x0 set_port_cap_mask @"typedef--u32.txt"
+0x4 clr_port_cap_mask @"typedef--u32.txt"
+0x8 init_type @"typedef--u8.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/class.c:178
+Symbol:
+func class_register (
+cls * const @"struct--class.txt"
+)
+"int"

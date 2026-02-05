@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/devres.c:423
+Symbol:
+func pcim_iomap_regions (
+pdev * @"struct--pci_dev.txt"
+mask "int"
+name * const "char"
+)
+"int"

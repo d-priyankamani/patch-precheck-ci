@@ -1,0 +1,216 @@
+Version: 1.0
+File: include/net/sock.h:1261
+Symbol:
+Byte size 528
+struct proto {
+0x0 close * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "long int"
+)
+"void"
+0x8 pre_connect * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sockaddr.txt"
+(NULL) "int"
+)
+"int"
+0x10 connect * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sockaddr.txt"
+(NULL) "int"
+)
+"int"
+0x18 disconnect * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "int"
+)
+"int"
+0x20 accept * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "int"
+(NULL) * "int"
+(NULL) @"typedef--bool.txt"
+)
+* @"struct--sock.txt"
+0x28 ioctl * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "int"
+(NULL) * "int"
+)
+"int"
+0x30 init * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"int"
+0x38 destroy * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0x40 shutdown * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "int"
+)
+"void"
+0x48 setsockopt * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) @"typedef--sockptr_t.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x50 getsockopt * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) * "char"
+(NULL) * "int"
+)
+"int"
+0x58 keepalive * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "int"
+)
+"void"
+0x60 compat_ioctl * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x68 sendmsg * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--msghdr.txt"
+(NULL) @"typedef--size_t.txt"
+)
+"int"
+0x70 recvmsg * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--msghdr.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) "int"
+(NULL) * "int"
+)
+"int"
+0x78 splice_eof * func (NULL) (
+(NULL) * @"struct--socket.txt"
+)
+"void"
+0x80 bind * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sockaddr.txt"
+(NULL) "int"
+)
+"int"
+0x88 bind_add * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sockaddr.txt"
+(NULL) "int"
+)
+"int"
+0x90 backlog_rcv * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x98 bpf_bypass_getsockopt * func (NULL) (
+(NULL) "int"
+(NULL) "int"
+)
+@"typedef--bool.txt"
+0xa0 release_cb * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0xa8 hash * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"int"
+0xb0 unhash * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0xb8 rehash * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0xc0 get_port * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "short unsigned int"
+)
+"int"
+0xc8 put_port * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0xd0 psock_update_sk_prot * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sk_psock.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0xd8 inuse_idx "unsigned int"
+0xe0 forward_alloc_get * func (NULL) (
+(NULL) * const @"struct--sock.txt"
+)
+"int"
+0xe8 stream_memory_free * func (NULL) (
+(NULL) * const @"struct--sock.txt"
+(NULL) "int"
+)
+@"typedef--bool.txt"
+0xf0 sock_is_readable * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+@"typedef--bool.txt"
+0xf8 enter_memory_pressure * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0x100 leave_memory_pressure * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0x108 memory_allocated * @"typedef--atomic_long_t.txt"
+0x110 per_cpu_fw_alloc * "int"
+0x118 sockets_allocated * @"struct--percpu_counter.txt"
+0x120 memory_pressure * "long unsigned int"
+0x128 sysctl_mem * "long int"
+0x130 sysctl_wmem * "int"
+0x138 sysctl_rmem * "int"
+0x140 sysctl_wmem_offset @"typedef--u32.txt"
+0x144 sysctl_rmem_offset @"typedef--u32.txt"
+0x148 max_header "int"
+0x14c no_autobind @"typedef--bool.txt"
+0x150 slab * @"<declarations>/struct--kmem_cache.txt"
+0x158 obj_size "unsigned int"
+0x15c ipv6_pinfo_offset "unsigned int"
+0x160 slab_flags @"typedef--slab_flags_t.txt"
+0x164 useroffset "unsigned int"
+0x168 usersize "unsigned int"
+0x170 orphan_count * "unsigned int"
+0x178 rsk_prot * @"struct--request_sock_ops.txt"
+0x180 twsk_prot * @"struct--timewait_sock_ops.txt"
+0x188 h union (NULL) {
+hashinfo * @"struct--inet_hashinfo.txt"
+udp_table * @"struct--udp_table.txt"
+raw_hash * @"struct--raw_hashinfo.txt"
+smc_hash * @"<declarations>/struct--smc_hashinfo.txt"
+}
+0x190 owner * @"struct--module.txt"
+0x198 name [32]"char"
+0x1b8 node @"struct--list_head.txt"
+0x1c8 diag_destroy * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "int"
+)
+"int"
+0x1d0 ck_reserved1 "long unsigned int"
+0x1d8 ck_reserved2 "long unsigned int"
+0x1e0 ck_reserved3 "long unsigned int"
+0x1e8 ck_reserved4 "long unsigned int"
+0x1f0 ck_reserved5 "long unsigned int"
+0x1f8 ck_reserved6 "long unsigned int"
+0x200 ck_reserved7 "long unsigned int"
+0x208 ck_reserved8 "long unsigned int"
+}

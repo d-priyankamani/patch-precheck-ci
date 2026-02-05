@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/linux/fs.h:1006
+Symbol:
+Byte size 232
+Alignment 8
+struct file {
+0x0 8 (NULL) union (NULL) {
+f_llist @"struct--llist_node.txt"
+f_rcuhead @"struct--callback_head.txt"
+f_iocb_flags "unsigned int"
+}
+0x10 f_lock @"typedef--spinlock_t.txt"
+0x14 f_mode @"typedef--fmode_t.txt"
+0x18 f_count @"typedef--atomic_long_t.txt"
+0x20 f_pos_lock @"struct--mutex.txt"
+0x40 f_pos @"typedef--loff_t.txt"
+0x48 f_flags "unsigned int"
+0x50 f_owner @"struct--fown_struct.txt"
+0x70 f_cred * const @"struct--cred.txt"
+0x78 f_ra @"struct--file_ra_state.txt"
+0x98 f_path @"struct--path.txt"
+0xa8 f_inode * @"struct--inode.txt"
+0xb0 f_op * const @"struct--file_operations.txt"
+0xb8 f_version @"typedef--u64.txt"
+0xc0 f_security * "void"
+0xc8 private_data * "void"
+0xd0 f_ep * @"struct--hlist_head.txt"
+0xd8 f_mapping * @"struct--address_space.txt"
+0xe0 f_wb_err @"typedef--errseq_t.txt"
+0xe4 f_sb_err @"typedef--errseq_t.txt"
+}

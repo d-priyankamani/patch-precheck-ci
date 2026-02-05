@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/ttm/ttm_pool.h:69
+Symbol:
+Byte size 1864
+struct ttm_pool {
+0x0 dev * @"struct--device.txt"
+0x8 nid "int"
+0xc use_dma_alloc @"typedef--bool.txt"
+0xd use_dma32 @"typedef--bool.txt"
+0x10 caching [3]struct (NULL) {
+0x0 orders [11]@"struct--ttm_pool_type.txt"
+}
+}

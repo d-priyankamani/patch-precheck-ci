@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/dcb/dcbnl.c:2209
+Symbol:
+func dcb_ieee_delapp (
+dev * @"struct--net_device.txt"
+del * @"struct--dcb_app.txt"
+)
+"int"

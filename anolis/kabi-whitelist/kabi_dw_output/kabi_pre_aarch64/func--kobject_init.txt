@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/kobject.c:333
+Symbol:
+func kobject_init (
+kobj * @"struct--kobject.txt"
+ktype * const @"struct--kobj_type.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/msi/api.c:313
+Symbol:
+func pci_irq_vector (
+dev * @"struct--pci_dev.txt"
+nr "unsigned int"
+)
+"int"

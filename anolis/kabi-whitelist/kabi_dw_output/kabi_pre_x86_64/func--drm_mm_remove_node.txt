@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mm.c:627
+Symbol:
+func drm_mm_remove_node (
+node * @"struct--drm_mm_node.txt"
+)
+"void"

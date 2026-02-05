@@ -1,0 +1,35 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:516
+Symbol:
+Byte size 792
+struct kvm_pmu {
+0x0 version @"typedef--u8.txt"
+0x4 nr_arch_gp_counters "unsigned int"
+0x8 nr_arch_fixed_counters "unsigned int"
+0xc available_event_types "unsigned int"
+0x10 fixed_ctr_ctrl @"typedef--u64.txt"
+0x18 fixed_ctr_ctrl_mask @"typedef--u64.txt"
+0x20 global_ctrl @"typedef--u64.txt"
+0x28 global_status @"typedef--u64.txt"
+0x30 counter_bitmask [2]@"typedef--u64.txt"
+0x40 global_ctrl_mask @"typedef--u64.txt"
+0x48 global_status_mask @"typedef--u64.txt"
+0x50 reserved_bits @"typedef--u64.txt"
+0x58 raw_event_mask @"typedef--u64.txt"
+0x60 gp_counters [8]@"struct--kvm_pmc.txt"
+0x220 fixed_counters [3]@"struct--kvm_pmc.txt"
+0x2c8 (NULL) union (NULL) {
+reprogram_pmi [1]"long unsigned int"
+__reprogram_pmi @"typedef--atomic64_t.txt"
+}
+0x2d0 all_valid_pmc_idx [1]"long unsigned int"
+0x2d8 pmc_in_use [1]"long unsigned int"
+0x2e0 ds_area @"typedef--u64.txt"
+0x2e8 pebs_enable @"typedef--u64.txt"
+0x2f0 pebs_enable_mask @"typedef--u64.txt"
+0x2f8 pebs_data_cfg @"typedef--u64.txt"
+0x300 pebs_data_cfg_mask @"typedef--u64.txt"
+0x308 host_cross_mapped_mask @"typedef--u64.txt"
+0x310 need_cleanup @"typedef--bool.txt"
+0x311 event_count @"typedef--u8.txt"
+}

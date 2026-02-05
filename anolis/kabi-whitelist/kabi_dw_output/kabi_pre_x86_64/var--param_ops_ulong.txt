@@ -1,0 +1,4 @@
+Version: 1.0
+File: kernel/params.c:243
+Symbol:
+var param_ops_ulong "void"

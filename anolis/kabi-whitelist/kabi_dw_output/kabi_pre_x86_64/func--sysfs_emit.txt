@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/sysfs/file.c:731
+Symbol:
+func sysfs_emit (
+buf * "char"
+fmt * const "char"
+(NULL) ...
+)
+"int"

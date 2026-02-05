@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/drm_exec.h:17
+Symbol:
+Byte size 64
+struct drm_exec {
+0x0 flags @"typedef--uint32_t.txt"
+0x8 ticket @"struct--ww_acquire_ctx.txt"
+0x20 num_objects "unsigned int"
+0x24 max_objects "unsigned int"
+0x28 objects * * @"struct--drm_gem_object.txt"
+0x30 contended * @"struct--drm_gem_object.txt"
+0x38 prelocked * @"struct--drm_gem_object.txt"
+}

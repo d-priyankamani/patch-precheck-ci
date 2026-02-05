@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/bitmap.c:1412
+Symbol:
+func bitmap_free (
+bitmap * const "long unsigned int"
+)
+"void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic.c:305
+Symbol:
+func __drm_atomic_state_free (
+ref * @"struct--kref.txt"
+)
+"void"

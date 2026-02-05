@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vblank.c:608
+Symbol:
+func drm_calc_timestamping_constants (
+crtc * @"struct--drm_crtc.txt"
+mode * const @"struct--drm_display_mode.txt"
+)
+"void"

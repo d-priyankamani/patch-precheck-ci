@@ -1,0 +1,12 @@
+Version: 1.0
+File: mm/util.c:583
+Symbol:
+func vm_mmap (
+file * @"struct--file.txt"
+addr "long unsigned int"
+len "long unsigned int"
+prot "long unsigned int"
+flag "long unsigned int"
+offset "long unsigned int"
+)
+"long unsigned int"

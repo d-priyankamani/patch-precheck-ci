@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/asm-generic/siginfo.h:8
+Symbol:
+Byte size 8
+union sigval {
+sival_int "int"
+sival_ptr * "void"
+}

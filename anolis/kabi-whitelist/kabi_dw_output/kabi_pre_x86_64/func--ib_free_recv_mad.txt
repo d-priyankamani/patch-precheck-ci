@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/mad.c:1159
+Symbol:
+func ib_free_recv_mad (
+mad_recv_wc * @"struct--ib_mad_recv_wc.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:1580
+Symbol:
+Byte size 16
+struct drm_edid {
+0x0 size @"typedef--size_t.txt"
+0x8 edid * const @"struct--edid.txt"
+}

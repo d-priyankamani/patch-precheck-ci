@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/smp.h:33
+Symbol:
+Alignment 32
+typedef call_single_data_t
+@"struct--__call_single_data.txt"

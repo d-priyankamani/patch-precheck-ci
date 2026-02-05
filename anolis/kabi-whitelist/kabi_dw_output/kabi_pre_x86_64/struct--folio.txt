@@ -1,0 +1,57 @@
+Version: 1.0
+File: include/linux/mm_types.h:320
+Symbol:
+Byte size 192
+Alignment 16
+struct folio {
+0x0 16 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 flags "long unsigned int"
+0x8 (NULL) union (NULL) {
+lru @"struct--list_head.txt"
+(NULL) struct (NULL) {
+0x0 __filler * "void"
+0x8 mlock_count "unsigned int"
+}
+}
+0x18 mapping * @"struct--address_space.txt"
+0x20 index "long unsigned int"
+0x28 (NULL) union (NULL) {
+private * "void"
+swap @"typedef--swp_entry_t.txt"
+}
+0x30 _mapcount @"typedef--atomic_t.txt"
+0x34 _refcount @"typedef--atomic_t.txt"
+0x38 memcg_data "long unsigned int"
+}
+page @"struct--page.txt"
+}
+0x40 16 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 _flags_1 "long unsigned int"
+0x8 _head_1 "long unsigned int"
+0x10 _folio_avail "long unsigned int"
+0x18 _entire_mapcount @"typedef--atomic_t.txt"
+0x1c _nr_pages_mapped @"typedef--atomic_t.txt"
+0x20 _pincount @"typedef--atomic_t.txt"
+0x24 _folio_nr_pages "unsigned int"
+}
+__page_1 @"struct--page.txt"
+}
+0x80 16 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 _flags_2 "long unsigned int"
+0x8 _head_2 "long unsigned int"
+0x10 _hugetlb_subpool * "void"
+0x18 _hugetlb_cgroup * "void"
+0x20 _hugetlb_cgroup_rsvd * "void"
+0x28 _hugetlb_hwpoison * "void"
+}
+(NULL) struct (NULL) {
+0x0 _flags_2a "long unsigned int"
+0x8 _head_2a "long unsigned int"
+0x10 _deferred_list @"struct--list_head.txt"
+}
+__page_2 @"struct--page.txt"
+}
+}

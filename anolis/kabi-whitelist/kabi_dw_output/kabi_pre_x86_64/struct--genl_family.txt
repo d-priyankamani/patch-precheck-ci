@@ -1,0 +1,38 @@
+Version: 1.0
+File: include/net/genetlink.h:64
+Symbol:
+Byte size 120
+struct genl_family {
+0x0 hdrsize "unsigned int"
+0x4 name [16]"char"
+0x14 version "unsigned int"
+0x18 maxattr "unsigned int"
+0x1c:0-1 netnsok @"typedef--u8.txt"
+0x1c:1-2 parallel_ops @"typedef--u8.txt"
+0x1d n_ops @"typedef--u8.txt"
+0x1e n_small_ops @"typedef--u8.txt"
+0x1f n_split_ops @"typedef--u8.txt"
+0x20 n_mcgrps @"typedef--u8.txt"
+0x21 resv_start_op @"typedef--u8.txt"
+0x28 policy * const @"struct--nla_policy.txt"
+0x30 pre_doit * func (NULL) (
+(NULL) * const @"struct--genl_split_ops.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--genl_info.txt"
+)
+"int"
+0x38 post_doit * func (NULL) (
+(NULL) * const @"struct--genl_split_ops.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--genl_info.txt"
+)
+"void"
+0x40 ops * const @"struct--genl_ops.txt"
+0x48 small_ops * const @"struct--genl_small_ops.txt"
+0x50 split_ops * const @"struct--genl_split_ops.txt"
+0x58 mcgrps * const @"struct--genl_multicast_group.txt"
+0x60 module * @"struct--module.txt"
+0x68 id "int"
+0x6c mcgrp_offset "unsigned int"
+0x70 ck_reserved1 "long unsigned int"
+}

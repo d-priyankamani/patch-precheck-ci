@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/device.h:596
+Symbol:
+Byte size 16
+struct device_physical_location {
+0x0 panel @"enum--device_physical_location_panel.txt"
+0x4 vertical_position @"enum--device_physical_location_vertical_position.txt"
+0x8 horizontal_position @"enum--device_physical_location_horizontal_position.txt"
+0xc dock @"typedef--bool.txt"
+0xd lid @"typedef--bool.txt"
+}

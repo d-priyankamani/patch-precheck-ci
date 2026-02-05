@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/iomap.c:424
+Symbol:
+func pci_iounmap (
+dev * @"struct--pci_dev.txt"
+addr * "void"
+)
+"void"

@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/xdp.h:452
+Symbol:
+Byte size 16
+struct xdp_metadata_ops {
+0x0 xmo_rx_timestamp * func (NULL) (
+(NULL) * const @"struct--xdp_md.txt"
+(NULL) * @"typedef--u64.txt"
+)
+"int"
+0x8 xmo_rx_hash * func (NULL) (
+(NULL) * const @"struct--xdp_md.txt"
+(NULL) * @"typedef--u32.txt"
+(NULL) * @"enum--xdp_rss_hash_type.txt"
+)
+"int"
+}

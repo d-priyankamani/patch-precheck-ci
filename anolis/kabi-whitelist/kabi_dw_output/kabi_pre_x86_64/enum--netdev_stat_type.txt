@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/netdevice.h:1820
+Symbol:
+Byte size 4
+enum netdev_stat_type {
+NETDEV_PCPU_STAT_NONE = 0x0
+NETDEV_PCPU_STAT_LSTATS = 0x1
+NETDEV_PCPU_STAT_TSTATS = 0x2
+NETDEV_PCPU_STAT_DSTATS = 0x3
+}

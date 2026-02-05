@@ -1,0 +1,62 @@
+Version: 1.0
+File: include/linux/skmsg.h:79
+Symbol:
+Byte size 952
+Alignment 8
+struct sk_psock {
+0x0 sk * @"struct--sock.txt"
+0x8 sk_redir * @"struct--sock.txt"
+0x10 apply_bytes @"typedef--u32.txt"
+0x14 cork_bytes @"typedef--u32.txt"
+0x18 eval @"typedef--u32.txt"
+0x1c redir_ingress @"typedef--bool.txt"
+0x20 cork * @"struct--sk_msg.txt"
+0x28 progs @"struct--sk_psock_progs.txt"
+0x48 strp @"struct--strparser.txt"
+0x1c8 copied_seq @"typedef--u32.txt"
+0x1cc ingress_bytes @"typedef--u32.txt"
+0x1d0 ingress_skb @"struct--sk_buff_head.txt"
+0x1e8 ingress_msg @"struct--list_head.txt"
+0x1f8 ingress_lock @"typedef--spinlock_t.txt"
+0x200 state "long unsigned int"
+0x208 link @"struct--list_head.txt"
+0x218 link_lock @"typedef--spinlock_t.txt"
+0x21c refcnt @"typedef--refcount_t.txt"
+0x220 saved_unhash * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0x228 saved_destroy * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0x230 saved_close * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "long int"
+)
+"void"
+0x238 saved_write_space * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0x240 saved_data_ready * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0x248 psock_update_sk_prot * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sk_psock.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x250 sk_proto * @"struct--proto.txt"
+0x258 work_mutex @"struct--mutex.txt"
+0x278 work_state @"struct--sk_psock_work_state.txt"
+0x280 work @"struct--delayed_work.txt"
+0x338 sk_pair * @"struct--sock.txt"
+0x340 8 rwork @"struct--rcu_work.txt"
+0x398 ck_reserved1 "long unsigned int"
+0x3a0 ck_reserved2 "long unsigned int"
+0x3a8 ck_reserved3 "long unsigned int"
+0x3b0 ck_reserved4 "long unsigned int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/pnp/resource.c:483
+Symbol:
+func pnp_get_resource (
+dev * @"struct--pnp_dev.txt"
+type "long unsigned int"
+num "unsigned int"
+)
+* @"struct--resource.txt"

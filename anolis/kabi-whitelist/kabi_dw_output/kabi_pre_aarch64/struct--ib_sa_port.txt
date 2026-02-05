@@ -1,0 +1,14 @@
+Version: 1.0
+File: drivers/infiniband/core/sa_query.c:90
+Symbol:
+Byte size 376
+struct ib_sa_port {
+0x0 agent * @"struct--ib_mad_agent.txt"
+0x8 sm_ah * @"struct--ib_sa_sm_ah.txt"
+0x10 update_task @"struct--work_struct.txt"
+0x50 classport_info @"struct--ib_sa_classport_cache.txt"
+0xb0 ib_cpi_work @"struct--delayed_work.txt"
+0x168 classport_lock @"typedef--spinlock_t.txt"
+0x16c ah_lock @"typedef--spinlock_t.txt"
+0x170 port_num @"typedef--u32.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/dcb/dcbnl.c:2293
+Symbol:
+func dcb_ieee_getapp_prio_dscp_mask_map (
+dev * const @"struct--net_device.txt"
+p_map * @"struct--dcb_ieee_app_prio_map.txt"
+)
+"void"

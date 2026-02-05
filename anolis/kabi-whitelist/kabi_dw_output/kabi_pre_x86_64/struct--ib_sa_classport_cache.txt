@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/sa_query.c:84
+Symbol:
+Byte size 92
+struct ib_sa_classport_cache {
+0x0 valid @"typedef--bool.txt"
+0x4 retry_cnt "int"
+0x8 data @"struct--rdma_class_port_info.txt"
+}

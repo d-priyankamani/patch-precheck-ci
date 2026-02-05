@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/mad.c:2457
+Symbol:
+func ib_modify_mad (
+send_buf * @"struct--ib_mad_send_buf.txt"
+timeout_ms @"typedef--u32.txt"
+)
+"int"

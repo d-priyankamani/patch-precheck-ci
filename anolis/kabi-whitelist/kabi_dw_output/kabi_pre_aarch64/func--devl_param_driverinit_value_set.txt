@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/devlink/param.c:806
+Symbol:
+func devl_param_driverinit_value_set (
+devlink * @"struct--devlink.txt"
+param_id @"typedef--u32.txt"
+init_val @"union--devlink_param_value.txt"
+)
+"void"

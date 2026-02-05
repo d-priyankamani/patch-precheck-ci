@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/backlight.h:120
+Symbol:
+Byte size 32
+struct backlight_ops {
+0x0 options "unsigned int"
+0x8 update_status * func (NULL) (
+(NULL) * @"struct--backlight_device.txt"
+)
+"int"
+0x10 get_brightness * func (NULL) (
+(NULL) * @"struct--backlight_device.txt"
+)
+"int"
+0x18 check_fb * func (NULL) (
+(NULL) * @"struct--backlight_device.txt"
+(NULL) * @"struct--fb_info.txt"
+)
+"int"
+}

@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:848
+Symbol:
+func dma_fence_wait_any_timeout (
+fences * * @"struct--dma_fence.txt"
+count @"typedef--uint32_t.txt"
+intr @"typedef--bool.txt"
+timeout "long int"
+idx * @"typedef--uint32_t.txt"
+)
+"long int"

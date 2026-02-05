@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/sched.h:332
+Symbol:
+Byte size 24
+struct prev_cputime {
+0x0 utime @"typedef--u64.txt"
+0x8 stime @"typedef--u64.txt"
+0x10 lock @"typedef--raw_spinlock_t.txt"
+}

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/tls.h:140
+Symbol:
+Byte size 304
+struct tls_record_info {
+0x0 list @"struct--list_head.txt"
+0x10 end_seq @"typedef--u32.txt"
+0x14 len "int"
+0x18 num_frags "int"
+0x20 frags [17]@"typedef--skb_frag_t.txt"
+}

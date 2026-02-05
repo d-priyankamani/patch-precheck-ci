@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/coco/core.c:139
+Symbol:
+func cc_mkdec (
+val @"typedef--u64.txt"
+)
+@"typedef--u64.txt"

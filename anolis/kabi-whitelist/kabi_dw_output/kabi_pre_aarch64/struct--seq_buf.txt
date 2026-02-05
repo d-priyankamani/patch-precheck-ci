@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/seq_buf.h:18
+Symbol:
+Byte size 24
+struct seq_buf {
+0x0 buffer * "char"
+0x8 size @"typedef--size_t.txt"
+0x10 len @"typedef--size_t.txt"
+}

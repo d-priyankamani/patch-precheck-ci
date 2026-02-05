@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/asm-generic/signal-defs.h:82
+Symbol:
+typedef __signalfn_t
+func (NULL) (
+(NULL) "int"
+)
+"void"

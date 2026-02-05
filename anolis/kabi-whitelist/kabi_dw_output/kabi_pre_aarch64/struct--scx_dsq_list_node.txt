@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/sched/ext.h:129
+Symbol:
+Byte size 24
+struct scx_dsq_list_node {
+0x0 node @"struct--list_head.txt"
+0x10 flags @"typedef--u32.txt"
+0x14 priv @"typedef--u32.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/dev.c:8274
+Symbol:
+func netdev_get_xmit_slave (
+dev * @"struct--net_device.txt"
+skb * @"struct--sk_buff.txt"
+all_slaves @"typedef--bool.txt"
+)
+* @"struct--net_device.txt"

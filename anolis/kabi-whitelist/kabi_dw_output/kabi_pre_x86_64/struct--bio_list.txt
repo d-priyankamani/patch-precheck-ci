@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/bio.h:579
+Symbol:
+Byte size 16
+struct bio_list {
+0x0 head * @"struct--bio.txt"
+0x8 tail * @"struct--bio.txt"
+}

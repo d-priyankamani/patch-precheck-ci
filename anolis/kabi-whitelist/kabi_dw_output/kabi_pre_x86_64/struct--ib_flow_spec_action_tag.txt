@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2054
+Symbol:
+Byte size 12
+struct ib_flow_spec_action_tag {
+0x0 type @"enum--ib_flow_spec_type.txt"
+0x4 size @"typedef--u16.txt"
+0x8 tag_id @"typedef--u32.txt"
+}

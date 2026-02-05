@@ -1,0 +1,45 @@
+Version: 1.0
+File: include/linux/quota.h:313
+Symbol:
+Byte size 80
+struct quota_format_ops {
+0x0 check_quota_file * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "int"
+)
+"int"
+0x8 read_file_info * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "int"
+)
+"int"
+0x10 write_file_info * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "int"
+)
+"int"
+0x18 free_file_info * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "int"
+)
+"int"
+0x20 read_dqblk * func (NULL) (
+(NULL) * @"struct--dquot.txt"
+)
+"int"
+0x28 commit_dqblk * func (NULL) (
+(NULL) * @"struct--dquot.txt"
+)
+"int"
+0x30 release_dqblk * func (NULL) (
+(NULL) * @"struct--dquot.txt"
+)
+"int"
+0x38 get_next_id * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) * @"struct--kqid.txt"
+)
+"int"
+0x40 ck_reserved1 "long unsigned int"
+0x48 ck_reserved2 "long unsigned int"
+}

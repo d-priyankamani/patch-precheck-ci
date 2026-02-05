@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:191
+Symbol:
+Byte size 4
+enum devlink_eswitch_encap_mode {
+DEVLINK_ESWITCH_ENCAP_MODE_NONE = 0x0
+DEVLINK_ESWITCH_ENCAP_MODE_BASIC = 0x1
+}

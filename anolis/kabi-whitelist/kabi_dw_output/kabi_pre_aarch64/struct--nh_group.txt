@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/net/nexthop.h:123
+Symbol:
+Byte size 32
+struct nh_group {
+0x0 spare * @"struct--nh_group.txt"
+0x8 num_nh @"typedef--u16.txt"
+0xa is_multipath @"typedef--bool.txt"
+0xb hash_threshold @"typedef--bool.txt"
+0xc resilient @"typedef--bool.txt"
+0xd fdb_nh @"typedef--bool.txt"
+0xe has_v4 @"typedef--bool.txt"
+0x10 res_table * @"struct--nh_res_table.txt"
+0x18 ck_reserved1 "long unsigned int"
+0x20 nh_entries [0]@"struct--nh_grp_entry.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cgroup.c:46
+Symbol:
+func ib_rdmacg_uncharge (
+cg_obj * @"struct--ib_rdmacg_object.txt"
+device * @"struct--ib_device.txt"
+resource_index @"enum--rdmacg_resource_type.txt"
+)
+"void"

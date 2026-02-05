@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/sched.h:424
+Symbol:
+Byte size 48
+struct load_weight {
+0x0 weight "long unsigned int"
+0x8 inv_weight @"typedef--u32.txt"
+0x10 ck_reserved1 "long unsigned int"
+0x18 ck_reserved2 "long unsigned int"
+0x20 ck_reserved3 "long unsigned int"
+0x28 ck_reserved4 "long unsigned int"
+}

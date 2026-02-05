@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:2460
+Symbol:
+func drm_connector_attach_hdr_output_metadata_property (
+connector * @"struct--drm_connector.txt"
+)
+"int"

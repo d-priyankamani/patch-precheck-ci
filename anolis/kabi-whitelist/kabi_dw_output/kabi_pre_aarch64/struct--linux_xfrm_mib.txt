@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/snmp.h:112
+Symbol:
+Byte size 232
+struct linux_xfrm_mib {
+0x0 mibs [29]"long unsigned int"
+}

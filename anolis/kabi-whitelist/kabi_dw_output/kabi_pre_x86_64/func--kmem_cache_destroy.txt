@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/slab_common.c:480
+Symbol:
+func kmem_cache_destroy (
+s * @"struct--kmem_cache.txt"
+)
+"void"

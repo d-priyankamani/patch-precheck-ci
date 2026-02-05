@@ -1,0 +1,8 @@
+Version: 1.0
+File: block/blk-settings.c:22
+Symbol:
+func blk_queue_rq_timeout (
+q * @"struct--request_queue.txt"
+timeout "unsigned int"
+)
+"void"

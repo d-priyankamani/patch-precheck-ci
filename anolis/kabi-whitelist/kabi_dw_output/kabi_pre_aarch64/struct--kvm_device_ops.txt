@@ -1,0 +1,50 @@
+Version: 1.0
+File: include/linux/kvm_host.h:2233
+Symbol:
+Byte size 80
+struct kvm_device_ops {
+0x0 name * const "char"
+0x8 create * func (NULL) (
+(NULL) * @"struct--kvm_device.txt"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0x10 init * func (NULL) (
+(NULL) * @"struct--kvm_device.txt"
+)
+"void"
+0x18 destroy * func (NULL) (
+(NULL) * @"struct--kvm_device.txt"
+)
+"void"
+0x20 release * func (NULL) (
+(NULL) * @"struct--kvm_device.txt"
+)
+"void"
+0x28 set_attr * func (NULL) (
+(NULL) * @"struct--kvm_device.txt"
+(NULL) * @"struct--kvm_device_attr.txt"
+)
+"int"
+0x30 get_attr * func (NULL) (
+(NULL) * @"struct--kvm_device.txt"
+(NULL) * @"struct--kvm_device_attr.txt"
+)
+"int"
+0x38 has_attr * func (NULL) (
+(NULL) * @"struct--kvm_device.txt"
+(NULL) * @"struct--kvm_device_attr.txt"
+)
+"int"
+0x40 ioctl * func (NULL) (
+(NULL) * @"struct--kvm_device.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"long int"
+0x48 mmap * func (NULL) (
+(NULL) * @"struct--kvm_device.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:867
+Symbol:
+func dev_get_by_index (
+net * @"struct--net.txt"
+ifindex "int"
+)
+* @"struct--net_device.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/char/random.c:414
+Symbol:
+func get_random_bytes (
+buf * "void"
+len @"typedef--size_t.txt"
+)
+"void"

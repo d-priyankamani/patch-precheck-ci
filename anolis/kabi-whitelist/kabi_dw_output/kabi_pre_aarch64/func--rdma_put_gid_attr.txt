@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:1308
+Symbol:
+func rdma_put_gid_attr (
+attr * const @"struct--ib_gid_attr.txt"
+)
+"void"

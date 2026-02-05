@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/rdma/uverbs_ioctl.h:631
+Symbol:
+Byte size 96
+struct uverbs_attr_bundle {
+0x0 driver_udata @"struct--ib_udata.txt"
+0x20 ucore @"struct--ib_udata.txt"
+0x40 ufile * @"struct--ib_uverbs_file.txt"
+0x48 context * @"struct--ib_ucontext.txt"
+0x50 uobject * @"struct--ib_uobject.txt"
+0x58 attr_present [1]"long unsigned int"
+0x60 attrs [0]@"struct--uverbs_attr.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/kvm_host.h:2225
+Symbol:
+Byte size 40
+struct kvm_device {
+0x0 ops * const @"struct--kvm_device_ops.txt"
+0x8 kvm * @"struct--kvm.txt"
+0x10 private * "void"
+0x18 vm_node @"struct--list_head.txt"
+}

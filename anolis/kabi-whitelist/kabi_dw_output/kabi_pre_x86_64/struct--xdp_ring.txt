@@ -1,0 +1,13 @@
+Version: 1.0
+File: net/xdp/xsk_queue.h:16
+Symbol:
+Byte size 320
+Alignment 64
+struct xdp_ring {
+0x0 64 producer @"typedef--u32.txt"
+0x40 64 pad1 @"typedef--u32.txt"
+0x80 64 consumer @"typedef--u32.txt"
+0xc0 64 pad2 @"typedef--u32.txt"
+0xc4 flags @"typedef--u32.txt"
+0x100 64 pad3 @"typedef--u32.txt"
+}

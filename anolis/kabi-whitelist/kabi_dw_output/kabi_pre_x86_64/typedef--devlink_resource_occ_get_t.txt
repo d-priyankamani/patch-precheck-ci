@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/devlink.h:413
+Symbol:
+typedef devlink_resource_occ_get_t
+func (NULL) (
+(NULL) * "void"
+)
+@"typedef--u64.txt"

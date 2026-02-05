@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_helper.c:476
+Symbol:
+func drm_dp_bw_code_to_link_rate (
+link_bw @"typedef--u8.txt"
+)
+"int"

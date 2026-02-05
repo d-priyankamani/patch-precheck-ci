@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/time/timecounter.c:8
+Symbol:
+func timecounter_init (
+tc * @"struct--timecounter.txt"
+cc * const @"struct--cyclecounter.txt"
+start_tstamp @"typedef--u64.txt"
+)
+"void"

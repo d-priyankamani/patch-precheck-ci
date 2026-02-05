@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:117
+Symbol:
+func ib_wc_status_msg (
+status @"enum--ib_wc_status.txt"
+)
+* const "char"

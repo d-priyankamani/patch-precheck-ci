@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:1302
+Symbol:
+func ib_qp_usecnt_inc (
+qp * @"struct--ib_qp.txt"
+)
+"void"

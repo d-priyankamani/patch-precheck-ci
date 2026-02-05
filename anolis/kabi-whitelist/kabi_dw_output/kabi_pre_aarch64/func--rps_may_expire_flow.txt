@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/core/dev.c:4711
+Symbol:
+func rps_may_expire_flow (
+dev * @"struct--net_device.txt"
+rxq_index @"typedef--u16.txt"
+flow_id @"typedef--u32.txt"
+filter_id @"typedef--u16.txt"
+)
+@"typedef--bool.txt"

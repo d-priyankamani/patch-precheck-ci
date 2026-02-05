@@ -1,0 +1,46 @@
+Version: 1.0
+File: include/linux/blk-mq.h:289
+Symbol:
+Byte size 704
+Alignment 64
+struct blk_mq_hw_ctx {
+0x0 64 (NULL) struct (NULL) {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 dispatch @"struct--list_head.txt"
+0x18 state "long unsigned int"
+}
+0x40 run_work @"struct--delayed_work.txt"
+0xf8 cpumask @"typedef--cpumask_var_t.txt"
+0x100 next_cpu "int"
+0x104 next_cpu_batch "int"
+0x108 flags "long unsigned int"
+0x110 sched_data * "void"
+0x118 queue * @"struct--request_queue.txt"
+0x120 fq * @"struct--blk_flush_queue.txt"
+0x128 driver_data * "void"
+0x130 ctx_map @"struct--sbitmap.txt"
+0x158 dispatch_from * @"struct--blk_mq_ctx.txt"
+0x160 dispatch_busy "unsigned int"
+0x164 type "short unsigned int"
+0x166 nr_ctx "short unsigned int"
+0x168 ctxs * * @"struct--blk_mq_ctx.txt"
+0x170 dispatch_wait_lock @"typedef--spinlock_t.txt"
+0x178 dispatch_wait @"typedef--wait_queue_entry_t.txt"
+0x1a0 wait_index @"typedef--atomic_t.txt"
+0x1a8 tags * @"struct--blk_mq_tags.txt"
+0x1b0 sched_tags * @"struct--blk_mq_tags.txt"
+0x1b8 run "long unsigned int"
+0x1c0 numa_node "unsigned int"
+0x1c4 queue_num "unsigned int"
+0x1c8 nr_active @"typedef--atomic_t.txt"
+0x1d0 cpuhp_online @"struct--hlist_node.txt"
+0x1e0 cpuhp_dead @"struct--hlist_node.txt"
+0x1f0 kobj @"struct--kobject.txt"
+0x250 debugfs_dir * @"struct--dentry.txt"
+0x258 sched_debugfs_dir * @"struct--dentry.txt"
+0x260 hctx_list @"struct--list_head.txt"
+0x270 ck_reserved1 "long unsigned int"
+0x278 ck_reserved2 "long unsigned int"
+0x280 ck_reserved3 "long unsigned int"
+0x288 ck_reserved4 "long unsigned int"
+}

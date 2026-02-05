@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/resource.c:1260
+Symbol:
+func __request_region (
+parent * @"struct--resource.txt"
+start @"typedef--resource_size_t.txt"
+n @"typedef--resource_size_t.txt"
+name * const "char"
+flags "int"
+)
+* @"struct--resource.txt"

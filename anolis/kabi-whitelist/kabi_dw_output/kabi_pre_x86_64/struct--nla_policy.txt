@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/net/netlink.h:327
+Symbol:
+Byte size 48
+struct nla_policy {
+0x0 type @"typedef--u8.txt"
+0x1 validation_type @"typedef--u8.txt"
+0x2 len @"typedef--u16.txt"
+0x8 (NULL) union (NULL) {
+strict_start_type @"typedef--u16.txt"
+bitfield32_valid const @"typedef--u32.txt"
+mask const @"typedef--u32.txt"
+reject_message * const "char"
+nested_policy * const @"struct--nla_policy.txt"
+range * @"struct--netlink_range_validation.txt"
+range_signed * @"struct--netlink_range_validation_signed.txt"
+(NULL) struct (NULL) {
+0x0 min @"typedef--s16.txt"
+0x2 max @"typedef--s16.txt"
+}
+validate * func (NULL) (
+(NULL) * const @"struct--nlattr.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+}
+0x10 ck_reserved1 "long unsigned int"
+0x18 ck_reserved2 "long unsigned int"
+0x20 ck_reserved3 "long unsigned int"
+0x28 ck_reserved4 "long unsigned int"
+}

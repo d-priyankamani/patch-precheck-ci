@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/netlink.c:262
+Symbol:
+func rdma_nl_unicast (
+net * @"struct--net.txt"
+skb * @"struct--sk_buff.txt"
+pid @"typedef--u32.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/drm/drm_edid.h:150
+Symbol:
+Byte size 3
+struct cvt_timing {
+0x0 code [3]@"typedef--u8.txt"
+}

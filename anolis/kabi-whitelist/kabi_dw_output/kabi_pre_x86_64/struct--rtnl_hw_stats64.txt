@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/uapi/linux/if_link.h:256
+Symbol:
+Byte size 72
+struct rtnl_hw_stats64 {
+0x0 rx_packets @"typedef--__u64.txt"
+0x8 tx_packets @"typedef--__u64.txt"
+0x10 rx_bytes @"typedef--__u64.txt"
+0x18 tx_bytes @"typedef--__u64.txt"
+0x20 rx_errors @"typedef--__u64.txt"
+0x28 tx_errors @"typedef--__u64.txt"
+0x30 rx_dropped @"typedef--__u64.txt"
+0x38 tx_dropped @"typedef--__u64.txt"
+0x40 multicast @"typedef--__u64.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/netlink/af_netlink.c:2085
+Symbol:
+func netlink_kernel_release (
+sk * @"struct--sock.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:4715
+Symbol:
+func rdma_notify (
+id * @"struct--rdma_cm_id.txt"
+event @"enum--ib_event_type.txt"
+)
+"int"

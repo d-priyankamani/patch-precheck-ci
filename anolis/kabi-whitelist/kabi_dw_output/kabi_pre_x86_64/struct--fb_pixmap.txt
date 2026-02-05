@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/linux/fb.h:187
+Symbol:
+Byte size 56
+struct fb_pixmap {
+0x0 addr * @"typedef--u8.txt"
+0x8 size @"typedef--u32.txt"
+0xc offset @"typedef--u32.txt"
+0x10 buf_align @"typedef--u32.txt"
+0x14 scan_align @"typedef--u32.txt"
+0x18 access_align @"typedef--u32.txt"
+0x1c flags @"typedef--u32.txt"
+0x20 blit_x @"typedef--u32.txt"
+0x24 blit_y @"typedef--u32.txt"
+0x28 writeio * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * "void"
+(NULL) * "void"
+(NULL) "unsigned int"
+)
+"void"
+0x30 readio * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * "void"
+(NULL) * "void"
+(NULL) "unsigned int"
+)
+"void"
+}

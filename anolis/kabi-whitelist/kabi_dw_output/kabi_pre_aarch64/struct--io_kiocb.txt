@@ -1,0 +1,41 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:528
+Symbol:
+Byte size 240
+struct io_kiocb {
+0x0 (NULL) union (NULL) {
+file * @"struct--file.txt"
+cmd @"struct--io_cmd_data.txt"
+}
+0x40 opcode @"typedef--u8.txt"
+0x41 iopoll_completed @"typedef--u8.txt"
+0x42 buf_index @"typedef--u16.txt"
+0x44 flags "unsigned int"
+0x48 cqe @"struct--io_cqe.txt"
+0x58 ctx * @"struct--io_ring_ctx.txt"
+0x60 task * @"struct--task_struct.txt"
+0x68 rsrc_node * @"<declarations>/struct--io_rsrc_node.txt"
+0x70 (NULL) union (NULL) {
+imu * @"<declarations>/struct--io_mapped_ubuf.txt"
+kbuf * @"<declarations>/struct--io_buffer.txt"
+buf_list * @"<declarations>/struct--io_buffer_list.txt"
+}
+0x78 (NULL) union (NULL) {
+comp_list @"struct--io_wq_work_node.txt"
+apoll_events @"typedef--__poll_t.txt"
+}
+0x80 refs @"typedef--atomic_t.txt"
+0x84 poll_refs @"typedef--atomic_t.txt"
+0x88 io_task_work @"struct--io_task_work.txt"
+0x98 nr_tw "unsigned int"
+0xa0 hash_node @"struct--hlist_node.txt"
+0xb0 apoll * @"<declarations>/struct--async_poll.txt"
+0xb8 async_data * "void"
+0xc0 link * @"struct--io_kiocb.txt"
+0xc8 creds * const @"struct--cred.txt"
+0xd0 work @"struct--io_wq_work.txt"
+0xe0 big_cqe struct (NULL) {
+0x0 extra1 @"typedef--u64.txt"
+0x8 extra2 @"typedef--u64.txt"
+}
+}

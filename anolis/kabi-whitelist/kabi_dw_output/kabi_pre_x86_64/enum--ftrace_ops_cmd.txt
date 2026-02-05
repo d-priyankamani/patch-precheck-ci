@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/ftrace.h:281
+Symbol:
+Byte size 4
+enum ftrace_ops_cmd {
+FTRACE_OPS_CMD_ENABLE_SHARE_IPMODIFY_SELF = 0x0
+FTRACE_OPS_CMD_ENABLE_SHARE_IPMODIFY_PEER = 0x1
+FTRACE_OPS_CMD_DISABLE_SHARE_IPMODIFY_PEER = 0x2
+}

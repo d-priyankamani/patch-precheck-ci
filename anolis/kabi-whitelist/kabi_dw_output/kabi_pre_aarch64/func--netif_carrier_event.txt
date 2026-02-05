@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/sched/sch_generic.c:623
+Symbol:
+func netif_carrier_event (
+dev * @"struct--net_device.txt"
+)
+"void"

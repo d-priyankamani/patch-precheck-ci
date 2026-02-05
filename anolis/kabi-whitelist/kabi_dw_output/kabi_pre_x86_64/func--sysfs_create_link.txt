@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/sysfs/symlink.c:89
+Symbol:
+func sysfs_create_link (
+kobj * @"struct--kobject.txt"
+target * @"struct--kobject.txt"
+name * const "char"
+)
+"int"

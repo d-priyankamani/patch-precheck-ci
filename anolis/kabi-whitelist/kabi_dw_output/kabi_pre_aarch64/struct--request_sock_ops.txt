@@ -1,0 +1,34 @@
+Version: 1.0
+File: include/net/request_sock.h:27
+Symbol:
+Byte size 64
+struct request_sock_ops {
+0x0 family "int"
+0x4 obj_size "unsigned int"
+0x8 slab * @"<declarations>/struct--kmem_cache.txt"
+0x10 slab_name * "char"
+0x18 rtx_syn_ack * func (NULL) (
+(NULL) * const @"struct--sock.txt"
+(NULL) * @"struct--request_sock.txt"
+)
+"int"
+0x20 send_ack * func (NULL) (
+(NULL) * const @"struct--sock.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--request_sock.txt"
+)
+"void"
+0x28 send_reset * func (NULL) (
+(NULL) * const @"struct--sock.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"void"
+0x30 destructor * func (NULL) (
+(NULL) * @"struct--request_sock.txt"
+)
+"void"
+0x38 syn_ack_timeout * func (NULL) (
+(NULL) * const @"struct--request_sock.txt"
+)
+"void"
+}

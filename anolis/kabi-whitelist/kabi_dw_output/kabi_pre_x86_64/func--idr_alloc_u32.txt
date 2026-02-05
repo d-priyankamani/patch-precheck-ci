@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/idr.c:33
+Symbol:
+func idr_alloc_u32 (
+idr * @"struct--idr.txt"
+ptr * "void"
+nextid * @"typedef--u32.txt"
+max "long unsigned int"
+gfp @"typedef--gfp_t.txt"
+)
+"int"

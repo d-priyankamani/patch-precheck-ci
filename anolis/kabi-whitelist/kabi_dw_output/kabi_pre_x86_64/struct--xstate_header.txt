@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/include/asm/fpu/types.h:312
+Symbol:
+Byte size 64
+struct xstate_header {
+0x0 xfeatures @"typedef--u64.txt"
+0x8 xcomp_bv @"typedef--u64.txt"
+0x10 reserved [6]@"typedef--u64.txt"
+}

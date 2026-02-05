@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/iov_iter.c:741
+Symbol:
+func iov_iter_bvec (
+i * @"struct--iov_iter.txt"
+direction "unsigned int"
+bvec * const @"struct--bio_vec.txt"
+nr_segs "long unsigned int"
+count @"typedef--size_t.txt"
+)
+"void"

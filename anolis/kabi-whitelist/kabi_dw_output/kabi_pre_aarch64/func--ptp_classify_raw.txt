@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/ptp_classifier.c:104
+Symbol:
+func ptp_classify_raw (
+skb * const @"struct--sk_buff.txt"
+)
+"unsigned int"

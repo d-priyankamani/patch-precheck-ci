@@ -1,0 +1,41 @@
+Version: 1.0
+File: include/net/xsk_buff_pool.h:47
+Symbol:
+Byte size 320
+Alignment 64
+struct xsk_buff_pool {
+0x0 dev * @"struct--device.txt"
+0x8 netdev * @"struct--net_device.txt"
+0x10 xsk_tx_list @"struct--list_head.txt"
+0x20 xsk_tx_list_lock @"typedef--spinlock_t.txt"
+0x24 users @"typedef--refcount_t.txt"
+0x28 umem * @"struct--xdp_umem.txt"
+0x30 work @"struct--work_struct.txt"
+0x70 free_list @"struct--list_head.txt"
+0x80 xskb_list @"struct--list_head.txt"
+0x90 heads_cnt @"typedef--u32.txt"
+0x94 queue_id @"typedef--u16.txt"
+0xc0 64 fq * @"struct--xsk_queue.txt"
+0xc8 cq * @"struct--xsk_queue.txt"
+0xd0 dma_pages * @"typedef--dma_addr_t.txt"
+0xd8 heads * @"struct--xdp_buff_xsk.txt"
+0xe0 tx_descs * @"struct--xdp_desc.txt"
+0xe8 chunk_mask @"typedef--u64.txt"
+0xf0 addrs_cnt @"typedef--u64.txt"
+0xf8 free_list_cnt @"typedef--u32.txt"
+0xfc dma_pages_cnt @"typedef--u32.txt"
+0x100 free_heads_cnt @"typedef--u32.txt"
+0x104 headroom @"typedef--u32.txt"
+0x108 chunk_size @"typedef--u32.txt"
+0x10c chunk_shift @"typedef--u32.txt"
+0x110 frame_len @"typedef--u32.txt"
+0x114 cached_need_wakeup @"typedef--u8.txt"
+0x115 uses_need_wakeup @"typedef--bool.txt"
+0x116 dma_need_sync @"typedef--bool.txt"
+0x117 unaligned @"typedef--bool.txt"
+0x118 addrs * "void"
+0x120 cq_lock @"typedef--spinlock_t.txt"
+0x128 ck_reserved1 "long unsigned int"
+0x130 ck_reserved2 "long unsigned int"
+0x138 free_heads [0]* @"struct--xdp_buff_xsk.txt"
+}

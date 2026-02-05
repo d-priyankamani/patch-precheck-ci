@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/linux/bio.h:707
+Symbol:
+Byte size 552
+struct bio_set {
+0x0 bio_slab * @"struct--kmem_cache.txt"
+0x8 front_pad "unsigned int"
+0x10 cache * @"<declarations>/struct--bio_alloc_cache.txt"
+0x18 bio_pool @"typedef--mempool_t.txt"
+0x78 bvec_pool @"typedef--mempool_t.txt"
+0xd8 bio_integrity_pool @"typedef--mempool_t.txt"
+0x138 bvec_integrity_pool @"typedef--mempool_t.txt"
+0x198 back_pad "unsigned int"
+0x19c rescue_lock @"typedef--spinlock_t.txt"
+0x1a0 rescue_list @"struct--bio_list.txt"
+0x1b0 rescue_work @"struct--work_struct.txt"
+0x1f0 rescue_workqueue * @"struct--workqueue_struct.txt"
+0x1f8 cpuhp_dead @"struct--hlist_node.txt"
+0x208 ck_reserved1 "long unsigned int"
+0x210 ck_reserved2 "long unsigned int"
+0x218 ck_reserved3 "long unsigned int"
+0x220 ck_reserved4 "long unsigned int"
+}

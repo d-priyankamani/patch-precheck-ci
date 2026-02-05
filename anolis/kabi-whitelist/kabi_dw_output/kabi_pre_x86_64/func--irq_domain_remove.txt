@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/irq/irqdomain.c:277
+Symbol:
+func irq_domain_remove (
+domain * @"struct--irq_domain.txt"
+)
+"void"

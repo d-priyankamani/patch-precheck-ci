@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/sched/wait.c:157
+Symbol:
+func __wake_up (
+wq_head * @"struct--wait_queue_head.txt"
+mode "unsigned int"
+nr_exclusive "int"
+key * "void"
+)
+"int"

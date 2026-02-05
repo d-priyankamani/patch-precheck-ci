@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/netdevice.h:218
+Symbol:
+Byte size 32
+Alignment 32
+struct net_device_core_stats {
+0x0 rx_dropped "long unsigned int"
+0x8 tx_dropped "long unsigned int"
+0x10 rx_nohandler "long unsigned int"
+0x18 rx_otherhost_dropped "long unsigned int"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/scsi/hosts.c:393
+Symbol:
+func scsi_host_alloc (
+sht * const @"struct--scsi_host_template.txt"
+privsize "int"
+)
+* @"struct--Scsi_Host.txt"

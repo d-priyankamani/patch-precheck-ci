@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_state_helper.c:435
+Symbol:
+func __drm_atomic_helper_connector_reset (
+connector * @"struct--drm_connector.txt"
+conn_state * @"struct--drm_connector_state.txt"
+)
+"void"

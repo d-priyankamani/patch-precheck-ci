@@ -1,0 +1,98 @@
+Version: 1.0
+File: include/uapi/linux/bpf.h:6501
+Symbol:
+Byte size 64
+Alignment 8
+struct bpf_link_info {
+0x0 type @"typedef--__u32.txt"
+0x4 id @"typedef--__u32.txt"
+0x8 prog_id @"typedef--__u32.txt"
+0x10 8 (NULL) union (NULL) {
+raw_tracepoint struct (NULL) {
+0x0 8 tp_name @"typedef--__u64.txt"
+0x8 tp_name_len @"typedef--__u32.txt"
+}
+tracing struct (NULL) {
+0x0 attach_type @"typedef--__u32.txt"
+0x4 target_obj_id @"typedef--__u32.txt"
+0x8 target_btf_id @"typedef--__u32.txt"
+}
+cgroup struct (NULL) {
+0x0 cgroup_id @"typedef--__u64.txt"
+0x8 attach_type @"typedef--__u32.txt"
+}
+iter struct (NULL) {
+0x0 8 target_name @"typedef--__u64.txt"
+0x8 target_name_len @"typedef--__u32.txt"
+0xc (NULL) union (NULL) {
+map struct (NULL) {
+0x0 map_id @"typedef--__u32.txt"
+}
+}
+0x10 (NULL) union (NULL) {
+cgroup struct (NULL) {
+0x0 cgroup_id @"typedef--__u64.txt"
+0x8 order @"typedef--__u32.txt"
+}
+task struct (NULL) {
+0x0 tid @"typedef--__u32.txt"
+0x4 pid @"typedef--__u32.txt"
+}
+}
+}
+netns struct (NULL) {
+0x0 netns_ino @"typedef--__u32.txt"
+0x4 attach_type @"typedef--__u32.txt"
+}
+xdp struct (NULL) {
+0x0 ifindex @"typedef--__u32.txt"
+}
+struct_ops struct (NULL) {
+0x0 map_id @"typedef--__u32.txt"
+}
+netfilter struct (NULL) {
+0x0 pf @"typedef--__u32.txt"
+0x4 hooknum @"typedef--__u32.txt"
+0x8 priority @"typedef--__s32.txt"
+0xc flags @"typedef--__u32.txt"
+}
+kprobe_multi struct (NULL) {
+0x0 8 addrs @"typedef--__u64.txt"
+0x8 count @"typedef--__u32.txt"
+0xc flags @"typedef--__u32.txt"
+}
+perf_event struct (NULL) {
+0x0 type @"typedef--__u32.txt"
+0x8 8 (NULL) union (NULL) {
+uprobe struct (NULL) {
+0x0 8 file_name @"typedef--__u64.txt"
+0x8 name_len @"typedef--__u32.txt"
+0xc offset @"typedef--__u32.txt"
+0x10 cookie @"typedef--__u64.txt"
+}
+kprobe struct (NULL) {
+0x0 8 func_name @"typedef--__u64.txt"
+0x8 name_len @"typedef--__u32.txt"
+0xc offset @"typedef--__u32.txt"
+0x10 addr @"typedef--__u64.txt"
+0x18 missed @"typedef--__u64.txt"
+0x20 cookie @"typedef--__u64.txt"
+}
+tracepoint struct (NULL) {
+0x0 8 tp_name @"typedef--__u64.txt"
+0x8 name_len @"typedef--__u32.txt"
+0x10 cookie @"typedef--__u64.txt"
+}
+event struct (NULL) {
+0x0 config @"typedef--__u64.txt"
+0x8 type @"typedef--__u32.txt"
+0x10 cookie @"typedef--__u64.txt"
+}
+}
+}
+tcx struct (NULL) {
+0x0 ifindex @"typedef--__u32.txt"
+0x4 attach_type @"typedef--__u32.txt"
+}
+}
+}

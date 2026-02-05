@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/linux/tty_port.h:41
+Symbol:
+Byte size 32
+struct tty_port_client_operations {
+0x0 receive_buf * func (NULL) (
+(NULL) * @"struct--tty_port.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--size_t.txt"
+0x8 lookahead_buf * func (NULL) (
+(NULL) * @"struct--tty_port.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) @"typedef--size_t.txt"
+)
+"void"
+0x10 write_wakeup * func (NULL) (
+(NULL) * @"struct--tty_port.txt"
+)
+"void"
+0x18 ck_reserved1 "long unsigned int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/resource.c:1959
+Symbol:
+func devm_request_free_mem_region (
+dev * @"struct--device.txt"
+base * @"struct--resource.txt"
+size "long unsigned int"
+)
+* @"struct--resource.txt"

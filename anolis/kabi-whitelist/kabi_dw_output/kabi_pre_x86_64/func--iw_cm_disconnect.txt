@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/iwcm.c:306
+Symbol:
+func iw_cm_disconnect (
+cm_id * @"struct--iw_cm_id.txt"
+abrupt "int"
+)
+"int"

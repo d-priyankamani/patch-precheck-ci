@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem.c:1062
+Symbol:
+func drm_gem_vm_close (
+vma * @"struct--vm_area_struct.txt"
+)
+"void"

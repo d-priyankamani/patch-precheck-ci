@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo.c:675
+Symbol:
+func ttm_bo_unpin (
+bo * @"struct--ttm_buffer_object.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem.c:326
+Symbol:
+func drm_gem_handle_delete (
+filp * @"struct--drm_file.txt"
+handle @"typedef--u32.txt"
+)
+"int"

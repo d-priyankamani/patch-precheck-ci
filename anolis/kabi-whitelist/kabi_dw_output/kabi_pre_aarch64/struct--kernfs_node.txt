@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/linux/kernfs.h:193
+Symbol:
+Byte size 152
+Alignment 8
+struct kernfs_node {
+0x0 count @"typedef--atomic_t.txt"
+0x4 active @"typedef--atomic_t.txt"
+0x8 parent * @"struct--kernfs_node.txt"
+0x10 name * const "char"
+0x18 8 rb @"struct--rb_node.txt"
+0x30 ns * const "void"
+0x38 hash "unsigned int"
+0x40 (NULL) union (NULL) {
+dir @"struct--kernfs_elem_dir.txt"
+symlink @"struct--kernfs_elem_symlink.txt"
+attr @"struct--kernfs_elem_attr.txt"
+}
+0x68 priv * "void"
+0x70 id @"typedef--u64.txt"
+0x78 flags "short unsigned int"
+0x7a mode @"typedef--umode_t.txt"
+0x80 iattr * @"<declarations>/struct--kernfs_iattrs.txt"
+0x88 8 rcu @"struct--callback_head.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo.c:487
+Symbol:
+func ttm_bo_eviction_valuable (
+bo * @"struct--ttm_buffer_object.txt"
+place * const @"struct--ttm_place.txt"
+)
+@"typedef--bool.txt"

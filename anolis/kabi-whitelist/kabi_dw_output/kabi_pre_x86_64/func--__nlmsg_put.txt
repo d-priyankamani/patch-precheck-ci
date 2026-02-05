@@ -1,0 +1,12 @@
+Version: 1.0
+File: net/netlink/af_netlink.c:2151
+Symbol:
+func __nlmsg_put (
+skb * @"struct--sk_buff.txt"
+portid @"typedef--u32.txt"
+seq @"typedef--u32.txt"
+type "int"
+len "int"
+flags "int"
+)
+* @"struct--nlmsghdr.txt"

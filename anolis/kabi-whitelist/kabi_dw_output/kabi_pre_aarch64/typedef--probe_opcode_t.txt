@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/arm64/include/asm/probes.h:13
+Symbol:
+typedef probe_opcode_t
+@"typedef--u32.txt"

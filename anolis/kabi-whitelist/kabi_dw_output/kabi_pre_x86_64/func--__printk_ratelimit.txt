@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/printk/printk.c:4011
+Symbol:
+func __printk_ratelimit (
+func * const "char"
+)
+"int"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/netfilter.h:72
+Symbol:
+Byte size 16
+union nf_inet_addr {
+all [4]@"typedef--__u32.txt"
+ip @"typedef--__be32.txt"
+ip6 [4]@"typedef--__be32.txt"
+in @"struct--in_addr.txt"
+in6 @"struct--in6_addr.txt"
+}

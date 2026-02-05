@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/netns/xfrm.h:14
+Symbol:
+Byte size 16
+struct xfrm_policy_hash {
+0x0 table * @"struct--hlist_head.txt"
+0x8 hmask "unsigned int"
+0xc dbits4 @"typedef--u8.txt"
+0xd sbits4 @"typedef--u8.txt"
+0xe dbits6 @"typedef--u8.txt"
+0xf sbits6 @"typedef--u8.txt"
+}

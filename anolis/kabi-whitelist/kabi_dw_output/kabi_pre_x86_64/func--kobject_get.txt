@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/kobject.c:636
+Symbol:
+func kobject_get (
+kobj * @"struct--kobject.txt"
+)
+* @"struct--kobject.txt"

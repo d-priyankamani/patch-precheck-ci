@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/dma-buf/dma-buf.c:1098
+Symbol:
+Namespace DMA_BUF
+func dma_buf_map_attachment (
+attach * @"struct--dma_buf_attachment.txt"
+direction @"enum--dma_data_direction.txt"
+)
+* @"struct--sg_table.txt"

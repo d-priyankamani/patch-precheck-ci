@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/netdevice.h:471
+Symbol:
+Byte size 4
+enum rx_handler_result {
+RX_HANDLER_CONSUMED = 0x0
+RX_HANDLER_ANOTHER = 0x1
+RX_HANDLER_EXACT = 0x2
+RX_HANDLER_PASS = 0x3
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/xdp/xsk.c:418
+Symbol:
+func xsk_tx_peek_desc (
+pool * @"struct--xsk_buff_pool.txt"
+desc * @"struct--xdp_desc.txt"
+)
+@"typedef--bool.txt"

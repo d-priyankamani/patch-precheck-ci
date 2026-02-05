@@ -1,0 +1,10 @@
+Version: 1.0
+File: block/elevator.h:16
+Symbol:
+Byte size 4
+enum elv_merge {
+ELEVATOR_NO_MERGE = 0x0
+ELEVATOR_FRONT_MERGE = 0x1
+ELEVATOR_BACK_MERGE = 0x2
+ELEVATOR_DISCARD_MERGE = 0x3
+}

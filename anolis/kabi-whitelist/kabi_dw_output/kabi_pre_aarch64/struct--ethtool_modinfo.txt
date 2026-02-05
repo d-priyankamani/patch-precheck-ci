@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:393
+Symbol:
+Byte size 44
+struct ethtool_modinfo {
+0x0 cmd @"typedef--__u32.txt"
+0x4 type @"typedef--__u32.txt"
+0x8 eeprom_len @"typedef--__u32.txt"
+0xc reserved [8]@"typedef--__u32.txt"
+}

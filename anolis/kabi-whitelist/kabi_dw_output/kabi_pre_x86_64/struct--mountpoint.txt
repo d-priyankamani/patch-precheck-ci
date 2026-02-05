@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/mount.h:33
+Symbol:
+Byte size 40
+struct mountpoint {
+0x0 m_hash @"struct--hlist_node.txt"
+0x10 m_dentry * @"struct--dentry.txt"
+0x18 m_list @"struct--hlist_head.txt"
+0x20 m_count "int"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/mmu_notifier.c:887
+Symbol:
+func mmu_notifier_put (
+subscription * @"struct--mmu_notifier.txt"
+)
+"void"

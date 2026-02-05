@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/fdtable.h:48
+Symbol:
+Byte size 704
+Alignment 64
+struct files_struct {
+0x0 count @"typedef--atomic_t.txt"
+0x4 resize_in_progress @"typedef--bool.txt"
+0x8 resize_wait @"typedef--wait_queue_head_t.txt"
+0x20 fdt * @"struct--fdtable.txt"
+0x28 8 fdtab @"struct--fdtable.txt"
+0x80 64 file_lock @"typedef--spinlock_t.txt"
+0x84 next_fd "unsigned int"
+0x88 close_on_exec_init [1]"long unsigned int"
+0x90 open_fds_init [1]"long unsigned int"
+0x98 full_fds_bits_init [1]"long unsigned int"
+0xa0 fd_array [64]* @"struct--file.txt"
+}

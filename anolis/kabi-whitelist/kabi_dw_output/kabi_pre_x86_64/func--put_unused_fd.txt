@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/file.c:572
+Symbol:
+func put_unused_fd (
+fd "unsigned int"
+)
+"void"

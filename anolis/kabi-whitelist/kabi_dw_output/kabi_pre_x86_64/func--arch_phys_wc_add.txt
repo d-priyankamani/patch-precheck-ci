@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/x86/kernel/cpu/mtrr/mtrr.c:490
+Symbol:
+func arch_phys_wc_add (
+base "long unsigned int"
+size "long unsigned int"
+)
+"int"

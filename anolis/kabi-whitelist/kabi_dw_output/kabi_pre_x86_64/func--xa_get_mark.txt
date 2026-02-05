@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/xarray.c:1957
+Symbol:
+func xa_get_mark (
+xa * @"struct--xarray.txt"
+index "long unsigned int"
+mark @"typedef--xa_mark_t.txt"
+)
+@"typedef--bool.txt"

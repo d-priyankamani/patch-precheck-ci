@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/drm/drm_edid.h:179
+Symbol:
+Byte size 18
+struct detailed_timing {
+0x0 pixel_clock @"typedef--__le16.txt"
+0x2 data union (NULL) {
+pixel_data @"struct--detailed_pixel_timing.txt"
+other_data @"struct--detailed_non_pixel.txt"
+}
+}

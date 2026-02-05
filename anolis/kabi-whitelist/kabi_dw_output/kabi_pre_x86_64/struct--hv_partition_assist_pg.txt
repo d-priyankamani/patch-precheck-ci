@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/include/asm/hyperv-tlfs.h:676
+Symbol:
+Byte size 4
+struct hv_partition_assist_pg {
+0x0 tlb_lock_count @"typedef--u32.txt"
+}

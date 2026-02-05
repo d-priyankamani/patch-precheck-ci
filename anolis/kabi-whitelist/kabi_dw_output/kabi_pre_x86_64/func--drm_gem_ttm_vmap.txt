@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem_ttm_helper.c:65
+Symbol:
+func drm_gem_ttm_vmap (
+gem * @"struct--drm_gem_object.txt"
+map * @"struct--iosys_map.txt"
+)
+"int"

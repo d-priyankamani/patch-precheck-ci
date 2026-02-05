@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/cpu_rmap.c:237
+Symbol:
+func free_irq_cpu_rmap (
+rmap * @"struct--cpu_rmap.txt"
+)
+"void"

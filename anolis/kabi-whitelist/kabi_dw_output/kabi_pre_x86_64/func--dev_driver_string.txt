@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/core.c:2356
+Symbol:
+func dev_driver_string (
+dev * const @"struct--device.txt"
+)
+* const "char"

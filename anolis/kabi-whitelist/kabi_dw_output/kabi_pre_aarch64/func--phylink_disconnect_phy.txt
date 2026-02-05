@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/net/phy/phylink.c:1995
+Symbol:
+func phylink_disconnect_phy (
+pl * @"struct--phylink.txt"
+)
+"void"

@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:2233
+Symbol:
+Byte size 48
+struct ethtool_link_settings {
+0x0 cmd @"typedef--__u32.txt"
+0x4 speed @"typedef--__u32.txt"
+0x8 duplex @"typedef--__u8.txt"
+0x9 port @"typedef--__u8.txt"
+0xa phy_address @"typedef--__u8.txt"
+0xb autoneg @"typedef--__u8.txt"
+0xc mdio_support @"typedef--__u8.txt"
+0xd eth_tp_mdix @"typedef--__u8.txt"
+0xe eth_tp_mdix_ctrl @"typedef--__u8.txt"
+0xf link_mode_masks_nwords @"typedef--__s8.txt"
+0x10 transceiver @"typedef--__u8.txt"
+0x11 master_slave_cfg @"typedef--__u8.txt"
+0x12 master_slave_state @"typedef--__u8.txt"
+0x13 rate_matching @"typedef--__u8.txt"
+0x14 reserved [7]@"typedef--__u32.txt"
+0x30 link_mode_masks [0]@"typedef--__u32.txt"
+}

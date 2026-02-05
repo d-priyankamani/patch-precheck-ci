@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/sched/wait.c:8
+Symbol:
+func __init_waitqueue_head (
+wq_head * @"struct--wait_queue_head.txt"
+name * const "char"
+key * @"struct--lock_class_key.txt"
+)
+"void"

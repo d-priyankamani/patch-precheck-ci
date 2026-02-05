@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/sched.h:340
+Symbol:
+Byte size 4
+enum vtime_state {
+VTIME_INACTIVE = 0x0
+VTIME_IDLE = 0x1
+VTIME_SYS = 0x2
+VTIME_USER = 0x3
+VTIME_GUEST = 0x4
+}

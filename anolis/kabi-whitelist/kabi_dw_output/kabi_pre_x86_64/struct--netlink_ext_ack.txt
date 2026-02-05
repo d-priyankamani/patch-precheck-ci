@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/netlink.h:82
+Symbol:
+Byte size 136
+struct netlink_ext_ack {
+0x0 _msg * const "char"
+0x8 bad_attr * const @"struct--nlattr.txt"
+0x10 policy * const @"struct--nla_policy.txt"
+0x18 miss_nest * const @"struct--nlattr.txt"
+0x20 miss_type @"typedef--u16.txt"
+0x22 cookie [20]@"typedef--u8.txt"
+0x36 cookie_len @"typedef--u8.txt"
+0x37 _msg_buf [80]"char"
+}

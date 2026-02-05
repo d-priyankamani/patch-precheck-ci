@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/user_namespace.h:112
+Symbol:
+Byte size 160
+struct ucounts {
+0x0 node @"struct--hlist_node.txt"
+0x10 ns * @"struct--user_namespace.txt"
+0x18 uid @"typedef--kuid_t.txt"
+0x1c count @"typedef--atomic_t.txt"
+0x20 ucount [12]@"typedef--atomic_long_t.txt"
+0x80 rlimit [4]@"typedef--atomic_long_t.txt"
+}

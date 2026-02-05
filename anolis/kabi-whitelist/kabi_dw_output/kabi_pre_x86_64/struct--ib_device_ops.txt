@@ -1,0 +1,667 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2358
+Symbol:
+Byte size 1024
+struct ib_device_ops {
+0x0 owner * @"struct--module.txt"
+0x8 driver_id @"enum--rdma_driver_id.txt"
+0xc uverbs_abi_ver @"typedef--u32.txt"
+0x10:0-1 uverbs_no_driver_id_binding "unsigned int"
+0x18 device_group * const @"struct--attribute_group.txt"
+0x20 port_groups * * const @"struct--attribute_group.txt"
+0x28 post_send * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+(NULL) * const @"struct--ib_send_wr.txt"
+(NULL) * * const @"struct--ib_send_wr.txt"
+)
+"int"
+0x30 post_recv * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+(NULL) * const @"struct--ib_recv_wr.txt"
+(NULL) * * const @"struct--ib_recv_wr.txt"
+)
+"int"
+0x38 drain_rq * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+)
+"void"
+0x40 drain_sq * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+)
+"void"
+0x48 poll_cq * func (NULL) (
+(NULL) * @"struct--ib_cq.txt"
+(NULL) "int"
+(NULL) * @"struct--ib_wc.txt"
+)
+"int"
+0x50 peek_cq * func (NULL) (
+(NULL) * @"struct--ib_cq.txt"
+(NULL) "int"
+)
+"int"
+0x58 req_notify_cq * func (NULL) (
+(NULL) * @"struct--ib_cq.txt"
+(NULL) @"enum--ib_cq_notify_flags.txt"
+)
+"int"
+0x60 post_srq_recv * func (NULL) (
+(NULL) * @"struct--ib_srq.txt"
+(NULL) * const @"struct--ib_recv_wr.txt"
+(NULL) * * const @"struct--ib_recv_wr.txt"
+)
+"int"
+0x68 process_mad * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) "int"
+(NULL) @"typedef--u32.txt"
+(NULL) * const @"struct--ib_wc.txt"
+(NULL) * const @"struct--ib_grh.txt"
+(NULL) * const @"struct--ib_mad.txt"
+(NULL) * @"struct--ib_mad.txt"
+(NULL) * @"typedef--size_t.txt"
+(NULL) * @"typedef--u16.txt"
+)
+"int"
+0x70 query_device * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) * @"struct--ib_device_attr.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x78 modify_device * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) "int"
+(NULL) * @"struct--ib_device_modify.txt"
+)
+"int"
+0x80 get_dev_fw_str * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) * "char"
+)
+"void"
+0x88 get_vector_affinity * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) "int"
+)
+* const @"struct--cpumask.txt"
+0x90 query_port * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--ib_port_attr.txt"
+)
+"int"
+0x98 modify_port * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+(NULL) * @"struct--ib_port_modify.txt"
+)
+"int"
+0xa0 get_port_immutable * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--ib_port_immutable.txt"
+)
+"int"
+0xa8 get_link_layer * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+)
+@"enum--rdma_link_layer.txt"
+0xb0 get_netdev * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+)
+* @"struct--net_device.txt"
+0xb8 alloc_rdma_netdev * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"enum--rdma_netdev_t.txt"
+(NULL) * const "char"
+(NULL) "unsigned char"
+(NULL) * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"void"
+)
+* @"struct--net_device.txt"
+0xc0 rdma_netdev_get_params * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"enum--rdma_netdev_t.txt"
+(NULL) * @"struct--rdma_netdev_alloc_params.txt"
+)
+"int"
+0xc8 query_gid * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+(NULL) * @"union--ib_gid.txt"
+)
+"int"
+0xd0 add_gid * func (NULL) (
+(NULL) * const @"struct--ib_gid_attr.txt"
+(NULL) * * "void"
+)
+"int"
+0xd8 del_gid * func (NULL) (
+(NULL) * const @"struct--ib_gid_attr.txt"
+(NULL) * * "void"
+)
+"int"
+0xe0 query_pkey * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"typedef--u16.txt"
+)
+"int"
+0xe8 alloc_ucontext * func (NULL) (
+(NULL) * @"struct--ib_ucontext.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0xf0 dealloc_ucontext * func (NULL) (
+(NULL) * @"struct--ib_ucontext.txt"
+)
+"void"
+0xf8 mmap * func (NULL) (
+(NULL) * @"struct--ib_ucontext.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+0x100 mmap_free * func (NULL) (
+(NULL) * @"struct--rdma_user_mmap_entry.txt"
+)
+"void"
+0x108 disassociate_ucontext * func (NULL) (
+(NULL) * @"struct--ib_ucontext.txt"
+)
+"void"
+0x110 alloc_pd * func (NULL) (
+(NULL) * @"struct--ib_pd.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x118 dealloc_pd * func (NULL) (
+(NULL) * @"struct--ib_pd.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x120 create_ah * func (NULL) (
+(NULL) * @"struct--ib_ah.txt"
+(NULL) * @"struct--rdma_ah_init_attr.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x128 create_user_ah * func (NULL) (
+(NULL) * @"struct--ib_ah.txt"
+(NULL) * @"struct--rdma_ah_init_attr.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x130 modify_ah * func (NULL) (
+(NULL) * @"struct--ib_ah.txt"
+(NULL) * @"struct--rdma_ah_attr.txt"
+)
+"int"
+0x138 query_ah * func (NULL) (
+(NULL) * @"struct--ib_ah.txt"
+(NULL) * @"struct--rdma_ah_attr.txt"
+)
+"int"
+0x140 destroy_ah * func (NULL) (
+(NULL) * @"struct--ib_ah.txt"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0x148 create_srq * func (NULL) (
+(NULL) * @"struct--ib_srq.txt"
+(NULL) * @"struct--ib_srq_init_attr.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x150 modify_srq * func (NULL) (
+(NULL) * @"struct--ib_srq.txt"
+(NULL) * @"struct--ib_srq_attr.txt"
+(NULL) @"enum--ib_srq_attr_mask.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x158 query_srq * func (NULL) (
+(NULL) * @"struct--ib_srq.txt"
+(NULL) * @"struct--ib_srq_attr.txt"
+)
+"int"
+0x160 destroy_srq * func (NULL) (
+(NULL) * @"struct--ib_srq.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x168 create_qp * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+(NULL) * @"struct--ib_qp_init_attr.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x170 modify_qp * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+(NULL) * @"struct--ib_qp_attr.txt"
+(NULL) "int"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x178 query_qp * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+(NULL) * @"struct--ib_qp_attr.txt"
+(NULL) "int"
+(NULL) * @"struct--ib_qp_init_attr.txt"
+)
+"int"
+0x180 destroy_qp * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x188 create_cq * func (NULL) (
+(NULL) * @"struct--ib_cq.txt"
+(NULL) * const @"struct--ib_cq_init_attr.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x190 modify_cq * func (NULL) (
+(NULL) * @"struct--ib_cq.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0x198 destroy_cq * func (NULL) (
+(NULL) * @"struct--ib_cq.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x1a0 resize_cq * func (NULL) (
+(NULL) * @"struct--ib_cq.txt"
+(NULL) "int"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x1a8 get_dma_mr * func (NULL) (
+(NULL) * @"struct--ib_pd.txt"
+(NULL) "int"
+)
+* @"struct--ib_mr.txt"
+0x1b0 reg_user_mr * func (NULL) (
+(NULL) * @"struct--ib_pd.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) "int"
+(NULL) * @"struct--ib_udata.txt"
+)
+* @"struct--ib_mr.txt"
+0x1b8 reg_user_mr_dmabuf * func (NULL) (
+(NULL) * @"struct--ib_pd.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) * @"struct--ib_udata.txt"
+)
+* @"struct--ib_mr.txt"
+0x1c0 rereg_user_mr * func (NULL) (
+(NULL) * @"struct--ib_mr.txt"
+(NULL) "int"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) "int"
+(NULL) * @"struct--ib_pd.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+* @"struct--ib_mr.txt"
+0x1c8 dereg_mr * func (NULL) (
+(NULL) * @"struct--ib_mr.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x1d0 alloc_mr * func (NULL) (
+(NULL) * @"struct--ib_pd.txt"
+(NULL) @"enum--ib_mr_type.txt"
+(NULL) @"typedef--u32.txt"
+)
+* @"struct--ib_mr.txt"
+0x1d8 alloc_mr_integrity * func (NULL) (
+(NULL) * @"struct--ib_pd.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u32.txt"
+)
+* @"struct--ib_mr.txt"
+0x1e0 advise_mr * func (NULL) (
+(NULL) * @"struct--ib_pd.txt"
+(NULL) @"enum--ib_uverbs_advise_mr_advice.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--ib_sge.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+"int"
+0x1e8 map_mr_sg * func (NULL) (
+(NULL) * @"struct--ib_mr.txt"
+(NULL) * @"struct--scatterlist.txt"
+(NULL) "int"
+(NULL) * "unsigned int"
+)
+"int"
+0x1f0 check_mr_status * func (NULL) (
+(NULL) * @"struct--ib_mr.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--ib_mr_status.txt"
+)
+"int"
+0x1f8 alloc_mw * func (NULL) (
+(NULL) * @"struct--ib_mw.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x200 dealloc_mw * func (NULL) (
+(NULL) * @"struct--ib_mw.txt"
+)
+"int"
+0x208 attach_mcast * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+(NULL) * @"union--ib_gid.txt"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0x210 detach_mcast * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+(NULL) * @"union--ib_gid.txt"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0x218 alloc_xrcd * func (NULL) (
+(NULL) * @"struct--ib_xrcd.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x220 dealloc_xrcd * func (NULL) (
+(NULL) * @"struct--ib_xrcd.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x228 create_flow * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+(NULL) * @"struct--ib_flow_attr.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+* @"struct--ib_flow.txt"
+0x230 destroy_flow * func (NULL) (
+(NULL) * @"struct--ib_flow.txt"
+)
+"int"
+0x238 destroy_flow_action * func (NULL) (
+(NULL) * @"struct--ib_flow_action.txt"
+)
+"int"
+0x240 set_vf_link_state * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) "int"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+)
+"int"
+0x248 get_vf_config * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) "int"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--ifla_vf_info.txt"
+)
+"int"
+0x250 get_vf_stats * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) "int"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--ifla_vf_stats.txt"
+)
+"int"
+0x258 get_vf_guid * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) "int"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--ifla_vf_guid.txt"
+(NULL) * @"struct--ifla_vf_guid.txt"
+)
+"int"
+0x260 set_vf_guid * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) "int"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) "int"
+)
+"int"
+0x268 create_wq * func (NULL) (
+(NULL) * @"struct--ib_pd.txt"
+(NULL) * @"struct--ib_wq_init_attr.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+* @"struct--ib_wq.txt"
+0x270 destroy_wq * func (NULL) (
+(NULL) * @"struct--ib_wq.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x278 modify_wq * func (NULL) (
+(NULL) * @"struct--ib_wq.txt"
+(NULL) * @"struct--ib_wq_attr.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x280 create_rwq_ind_table * func (NULL) (
+(NULL) * @"struct--ib_rwq_ind_table.txt"
+(NULL) * @"struct--ib_rwq_ind_table_init_attr.txt"
+(NULL) * @"struct--ib_udata.txt"
+)
+"int"
+0x288 destroy_rwq_ind_table * func (NULL) (
+(NULL) * @"struct--ib_rwq_ind_table.txt"
+)
+"int"
+0x290 alloc_dm * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) * @"struct--ib_ucontext.txt"
+(NULL) * @"struct--ib_dm_alloc_attr.txt"
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+* @"struct--ib_dm.txt"
+0x298 dealloc_dm * func (NULL) (
+(NULL) * @"struct--ib_dm.txt"
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+"int"
+0x2a0 reg_dm_mr * func (NULL) (
+(NULL) * @"struct--ib_pd.txt"
+(NULL) * @"struct--ib_dm.txt"
+(NULL) * @"struct--ib_dm_mr_attr.txt"
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+* @"struct--ib_mr.txt"
+0x2a8 create_counters * func (NULL) (
+(NULL) * @"struct--ib_counters.txt"
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+"int"
+0x2b0 destroy_counters * func (NULL) (
+(NULL) * @"struct--ib_counters.txt"
+)
+"int"
+0x2b8 read_counters * func (NULL) (
+(NULL) * @"struct--ib_counters.txt"
+(NULL) * @"struct--ib_counters_read_attr.txt"
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+"int"
+0x2c0 map_mr_sg_pi * func (NULL) (
+(NULL) * @"struct--ib_mr.txt"
+(NULL) * @"struct--scatterlist.txt"
+(NULL) "int"
+(NULL) * "unsigned int"
+(NULL) * @"struct--scatterlist.txt"
+(NULL) "int"
+(NULL) * "unsigned int"
+)
+"int"
+0x2c8 alloc_hw_device_stats * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+)
+* @"struct--rdma_hw_stats.txt"
+0x2d0 alloc_hw_port_stats * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+)
+* @"struct--rdma_hw_stats.txt"
+0x2d8 get_hw_stats * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) * @"struct--rdma_hw_stats.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+)
+"int"
+0x2e0 modify_hw_stat * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x2e8 fill_res_mr_entry * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--ib_mr.txt"
+)
+"int"
+0x2f0 fill_res_mr_entry_raw * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--ib_mr.txt"
+)
+"int"
+0x2f8 fill_res_cq_entry * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--ib_cq.txt"
+)
+"int"
+0x300 fill_res_cq_entry_raw * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--ib_cq.txt"
+)
+"int"
+0x308 fill_res_qp_entry * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--ib_qp.txt"
+)
+"int"
+0x310 fill_res_qp_entry_raw * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--ib_qp.txt"
+)
+"int"
+0x318 fill_res_cm_id_entry * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--rdma_cm_id.txt"
+)
+"int"
+0x320 enable_driver * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+)
+"int"
+0x328 dealloc_driver * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+)
+"void"
+0x330 iw_add_ref * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+)
+"void"
+0x338 iw_rem_ref * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+)
+"void"
+0x340 iw_get_qp * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) "int"
+)
+* @"struct--ib_qp.txt"
+0x348 iw_connect * func (NULL) (
+(NULL) * @"struct--iw_cm_id.txt"
+(NULL) * @"struct--iw_cm_conn_param.txt"
+)
+"int"
+0x350 iw_accept * func (NULL) (
+(NULL) * @"struct--iw_cm_id.txt"
+(NULL) * @"struct--iw_cm_conn_param.txt"
+)
+"int"
+0x358 iw_reject * func (NULL) (
+(NULL) * @"struct--iw_cm_id.txt"
+(NULL) * const "void"
+(NULL) @"typedef--u8.txt"
+)
+"int"
+0x360 iw_create_listen * func (NULL) (
+(NULL) * @"struct--iw_cm_id.txt"
+(NULL) "int"
+)
+"int"
+0x368 iw_destroy_listen * func (NULL) (
+(NULL) * @"struct--iw_cm_id.txt"
+)
+"int"
+0x370 counter_bind_qp * func (NULL) (
+(NULL) * @"struct--rdma_counter.txt"
+(NULL) * @"struct--ib_qp.txt"
+)
+"int"
+0x378 counter_unbind_qp * func (NULL) (
+(NULL) * @"struct--ib_qp.txt"
+)
+"int"
+0x380 counter_dealloc * func (NULL) (
+(NULL) * @"struct--rdma_counter.txt"
+)
+"int"
+0x388 counter_alloc_stats * func (NULL) (
+(NULL) * @"struct--rdma_counter.txt"
+)
+* @"struct--rdma_hw_stats.txt"
+0x390 counter_update_stats * func (NULL) (
+(NULL) * @"struct--rdma_counter.txt"
+)
+"int"
+0x398 fill_stat_mr_entry * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--ib_mr.txt"
+)
+"int"
+0x3a0 query_ucontext * func (NULL) (
+(NULL) * @"struct--ib_ucontext.txt"
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+"int"
+0x3a8 get_numa_node * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+)
+"int"
+0x3b0 size_ib_ah @"typedef--size_t.txt"
+0x3b8 size_ib_counters @"typedef--size_t.txt"
+0x3c0 size_ib_cq @"typedef--size_t.txt"
+0x3c8 size_ib_mw @"typedef--size_t.txt"
+0x3d0 size_ib_pd @"typedef--size_t.txt"
+0x3d8 size_ib_qp @"typedef--size_t.txt"
+0x3e0 size_ib_rwq_ind_table @"typedef--size_t.txt"
+0x3e8 size_ib_srq @"typedef--size_t.txt"
+0x3f0 size_ib_ucontext @"typedef--size_t.txt"
+0x3f8 size_ib_xrcd @"typedef--size_t.txt"
+}

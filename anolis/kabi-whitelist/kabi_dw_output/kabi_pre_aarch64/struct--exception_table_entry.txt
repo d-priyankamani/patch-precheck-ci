@@ -1,0 +1,10 @@
+Version: 1.0
+File: arch/arm64/include/asm/extable.h:18
+Symbol:
+Byte size 12
+struct exception_table_entry {
+0x0 insn "int"
+0x4 fixup "int"
+0x8 type "short int"
+0xa data "short int"
+}

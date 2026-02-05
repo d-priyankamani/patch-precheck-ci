@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/uverbs_types.h:15
+Symbol:
+Byte size 4
+enum rdma_lookup_mode {
+UVERBS_LOOKUP_READ = 0x0
+UVERBS_LOOKUP_WRITE = 0x1
+UVERBS_LOOKUP_DESTROY = 0x2
+}

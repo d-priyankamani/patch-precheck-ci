@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/platform.c:862
+Symbol:
+func __platform_driver_register (
+drv * @"struct--platform_driver.txt"
+owner * @"struct--module.txt"
+)
+"int"

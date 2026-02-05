@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_property.c:600
+Symbol:
+func drm_property_blob_put (
+blob * @"struct--drm_property_blob.txt"
+)
+"void"

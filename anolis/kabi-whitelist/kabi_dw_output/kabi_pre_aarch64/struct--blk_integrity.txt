@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/blkdev.h:107
+Symbol:
+Byte size 32
+struct blk_integrity {
+0x0 profile * const @"struct--blk_integrity_profile.txt"
+0x8 flags "unsigned char"
+0x9 tuple_size "unsigned char"
+0xa interval_exp "unsigned char"
+0xb tag_size "unsigned char"
+0x10 ck_reserved1 "long unsigned int"
+0x18 ck_reserved2 "long unsigned int"
+}

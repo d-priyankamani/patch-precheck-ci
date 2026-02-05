@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/workqueue.c:4951
+Symbol:
+func current_work (
+)
+* @"struct--work_struct.txt"

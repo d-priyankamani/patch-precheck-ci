@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence-array.c:191
+Symbol:
+func dma_fence_array_create (
+num_fences "int"
+fences * * @"struct--dma_fence.txt"
+context @"typedef--u64.txt"
+seqno "unsigned int"
+signal_on_any @"typedef--bool.txt"
+)
+* @"struct--dma_fence_array.txt"

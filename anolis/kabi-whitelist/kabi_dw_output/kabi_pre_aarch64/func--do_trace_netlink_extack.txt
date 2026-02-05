@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/netlink/af_netlink.c:154
+Symbol:
+func do_trace_netlink_extack (
+msg * const "char"
+)
+"void"

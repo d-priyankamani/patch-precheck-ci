@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/dmi.h:82
+Symbol:
+Byte size 40
+struct dmi_device {
+0x0 list @"struct--list_head.txt"
+0x10 type "int"
+0x18 name * const "char"
+0x20 device_data * "void"
+}

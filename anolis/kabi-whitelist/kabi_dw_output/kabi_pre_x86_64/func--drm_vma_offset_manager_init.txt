@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vma_manager.c:85
+Symbol:
+func drm_vma_offset_manager_init (
+mgr * @"struct--drm_vma_offset_manager.txt"
+page_offset "long unsigned int"
+size "long unsigned int"
+)
+"void"

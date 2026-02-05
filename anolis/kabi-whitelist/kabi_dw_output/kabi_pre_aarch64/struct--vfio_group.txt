@@ -1,0 +1,25 @@
+Version: 1.0
+File: drivers/vfio/vfio.h:70
+Symbol:
+Byte size 1352
+Alignment 8
+struct vfio_group {
+0x0 8 dev @"struct--device.txt"
+0x3e0 cdev @"struct--cdev.txt"
+0x468 drivers @"typedef--refcount_t.txt"
+0x46c container_users "unsigned int"
+0x470 iommu_group * @"<declarations>/struct--iommu_group.txt"
+0x478 container * @"<declarations>/struct--vfio_container.txt"
+0x480 device_list @"struct--list_head.txt"
+0x490 device_lock @"struct--mutex.txt"
+0x4b0 vfio_next @"struct--list_head.txt"
+0x4c0 container_next @"struct--list_head.txt"
+0x4d0 type @"enum--vfio_group_type.txt"
+0x4d8 group_lock @"struct--mutex.txt"
+0x4f8 kvm * @"struct--kvm.txt"
+0x500 opened_file * @"struct--file.txt"
+0x508 notifier @"struct--blocking_notifier_head.txt"
+0x538 iommufd * @"<declarations>/struct--iommufd_ctx.txt"
+0x540 kvm_ref_lock @"typedef--spinlock_t.txt"
+0x544 cdev_device_open_cnt "unsigned int"
+}

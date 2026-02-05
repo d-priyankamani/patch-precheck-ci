@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/acpi/actypes.h:421
+Symbol:
+typedef acpi_status
+@"typedef--u32.txt"

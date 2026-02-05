@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/kvm/arm_pmu.h:26
+Symbol:
+Byte size 600
+struct kvm_pmu {
+0x0 overflow_work @"struct--irq_work.txt"
+0x40 events @"struct--kvm_pmu_events.txt"
+0x50 pmc [32]@"struct--kvm_pmc.txt"
+0x250 irq_num "int"
+0x254 created @"typedef--bool.txt"
+0x255 irq_level @"typedef--bool.txt"
+}

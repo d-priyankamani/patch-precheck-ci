@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/eventfd.c:91
+Symbol:
+func eventfd_signal (
+ctx * @"struct--eventfd_ctx.txt"
+n @"typedef--__u64.txt"
+)
+@"typedef--__u64.txt"

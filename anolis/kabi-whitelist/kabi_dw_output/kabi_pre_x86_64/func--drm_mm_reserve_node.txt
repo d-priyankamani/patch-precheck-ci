@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mm.c:450
+Symbol:
+func drm_mm_reserve_node (
+mm * @"struct--drm_mm.txt"
+node * @"struct--drm_mm_node.txt"
+)
+"int"

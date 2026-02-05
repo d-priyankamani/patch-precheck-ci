@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/vpd.c:343
+Symbol:
+func pci_vpd_alloc (
+dev * @"struct--pci_dev.txt"
+size * "unsigned int"
+)
+* "void"

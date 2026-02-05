@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/scsi/sas.h:76
+Symbol:
+Byte size 4
+enum sas_device_type {
+SAS_PHY_UNUSED = 0x0
+SAS_END_DEVICE = 0x1
+SAS_EDGE_EXPANDER_DEVICE = 0x2
+SAS_FANOUT_EXPANDER_DEVICE = 0x3
+SAS_HA = 0x4
+SAS_SATA_DEV = 0x5
+SAS_SATA_PM = 0x7
+SAS_SATA_PM_PORT = 0x8
+SAS_SATA_PENDING = 0x9
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/perf_event.h:1094
+Symbol:
+Byte size 312
+Alignment 8
+struct perf_cgroup {
+0x0 8 css @"struct--cgroup_subsys_state.txt"
+0x130 info * @"struct--perf_cgroup_info.txt"
+}

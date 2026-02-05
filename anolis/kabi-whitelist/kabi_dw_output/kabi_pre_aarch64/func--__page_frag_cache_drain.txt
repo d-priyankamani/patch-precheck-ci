@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/page_alloc.c:5101
+Symbol:
+func __page_frag_cache_drain (
+page * @"struct--page.txt"
+count "unsigned int"
+)
+"void"

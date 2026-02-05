@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/blkdev.h:1417
+Symbol:
+Byte size 4
+enum blk_unique_id {
+BLK_UID_T10 = 0x1
+BLK_UID_EUI64 = 0x2
+BLK_UID_NAA = 0x3
+}

@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/phylink.h:214
+Symbol:
+Byte size 40
+struct phylink_config {
+0x0 dev * @"struct--device.txt"
+0x8 type @"enum--phylink_op_type.txt"
+0xc poll_fixed_state @"typedef--bool.txt"
+0xd mac_managed_pm @"typedef--bool.txt"
+0xe ovr_an_inband @"typedef--bool.txt"
+0x10 get_fixed_state * func (NULL) (
+(NULL) * @"struct--phylink_config.txt"
+(NULL) * @"struct--phylink_link_state.txt"
+)
+"void"
+0x18 supported_interfaces [1]"long unsigned int"
+0x20 mac_capabilities "long unsigned int"
+}

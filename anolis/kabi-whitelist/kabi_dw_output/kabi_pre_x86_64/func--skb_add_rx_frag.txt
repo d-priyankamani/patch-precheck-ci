@@ -1,0 +1,12 @@
+Version: 1.0
+File: net/core/skbuff.c:847
+Symbol:
+func skb_add_rx_frag (
+skb * @"struct--sk_buff.txt"
+i "int"
+page * @"struct--page.txt"
+off "int"
+size "int"
+truesize "unsigned int"
+)
+"void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/umem.c:278
+Symbol:
+func ib_umem_release (
+umem * @"struct--ib_umem.txt"
+)
+"void"

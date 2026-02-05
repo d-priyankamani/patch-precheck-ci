@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modes.c:1438
+Symbol:
+func drm_mode_init (
+dst * @"struct--drm_display_mode.txt"
+src * const @"struct--drm_display_mode.txt"
+)
+"void"

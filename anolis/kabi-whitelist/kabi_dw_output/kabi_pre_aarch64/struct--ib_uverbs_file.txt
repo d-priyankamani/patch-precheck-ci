@@ -1,0 +1,19 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs.h:136
+Symbol:
+Byte size 216
+struct ib_uverbs_file {
+0x0 ref @"struct--kref.txt"
+0x8 device * @"struct--ib_uverbs_device.txt"
+0x10 ucontext_lock @"struct--mutex.txt"
+0x30 ucontext * @"struct--ib_ucontext.txt"
+0x38 default_async_file * @"struct--ib_uverbs_async_event_file.txt"
+0x40 list @"struct--list_head.txt"
+0x50 hw_destroy_rwsem @"struct--rw_semaphore.txt"
+0x78 uobjects_lock @"typedef--spinlock_t.txt"
+0x80 uobjects @"struct--list_head.txt"
+0x90 umap_lock @"struct--mutex.txt"
+0xb0 umaps @"struct--list_head.txt"
+0xc0 disassociate_page * @"struct--page.txt"
+0xc8 idr @"struct--xarray.txt"
+}

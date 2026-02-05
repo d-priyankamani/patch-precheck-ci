@@ -1,0 +1,26 @@
+Version: 1.0
+File: drivers/infiniband/core/sa_query.c:107
+Symbol:
+Byte size 96
+struct ib_sa_query {
+0x0 callback * func (NULL) (
+(NULL) * @"struct--ib_sa_query.txt"
+(NULL) "int"
+(NULL) * @"struct--ib_sa_mad.txt"
+)
+"void"
+0x8 release * func (NULL) (
+(NULL) * @"struct--ib_sa_query.txt"
+)
+"void"
+0x10 client * @"struct--ib_sa_client.txt"
+0x18 port * @"struct--ib_sa_port.txt"
+0x20 mad_buf * @"struct--ib_mad_send_buf.txt"
+0x28 sm_ah * @"struct--ib_sa_sm_ah.txt"
+0x30 id "int"
+0x34 flags @"typedef--u32.txt"
+0x38 list @"struct--list_head.txt"
+0x48 seq @"typedef--u32.txt"
+0x50 timeout "long unsigned int"
+0x58 path_use @"typedef--u8.txt"
+}

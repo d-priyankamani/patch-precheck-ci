@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/linux/cgroup-defs.h:251
+Symbol:
+Byte size 600
+Alignment 8
+struct css_set {
+0x0 subsys [13]* @"struct--cgroup_subsys_state.txt"
+0x68 refcount @"typedef--refcount_t.txt"
+0x70 dom_cset * @"struct--css_set.txt"
+0x78 dfl_cgrp * @"struct--cgroup.txt"
+0x80 nr_tasks "int"
+0x88 tasks @"struct--list_head.txt"
+0x98 mg_tasks @"struct--list_head.txt"
+0xa8 dying_tasks @"struct--list_head.txt"
+0xb8 task_iters @"struct--list_head.txt"
+0xc8 e_cset_node [13]@"struct--list_head.txt"
+0x198 threaded_csets @"struct--list_head.txt"
+0x1a8 threaded_csets_node @"struct--list_head.txt"
+0x1b8 hlist @"struct--hlist_node.txt"
+0x1c8 cgrp_links @"struct--list_head.txt"
+0x1d8 mg_src_preload_node @"struct--list_head.txt"
+0x1e8 mg_dst_preload_node @"struct--list_head.txt"
+0x1f8 mg_node @"struct--list_head.txt"
+0x208 mg_src_cgrp * @"struct--cgroup.txt"
+0x210 mg_dst_cgrp * @"struct--cgroup.txt"
+0x218 mg_dst_cset * @"struct--css_set.txt"
+0x220 dead @"typedef--bool.txt"
+0x228 8 callback_head @"struct--callback_head.txt"
+0x238 ck_reserved1 "long unsigned int"
+0x240 ck_reserved2 "long unsigned int"
+0x248 ck_reserved3 "long unsigned int"
+0x250 ck_reserved4 "long unsigned int"
+}

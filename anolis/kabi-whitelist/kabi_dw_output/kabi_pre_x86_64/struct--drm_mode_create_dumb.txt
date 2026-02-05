@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/uapi/drm/drm_mode.h:1036
+Symbol:
+Byte size 32
+struct drm_mode_create_dumb {
+0x0 height @"typedef--__u32.txt"
+0x4 width @"typedef--__u32.txt"
+0x8 bpp @"typedef--__u32.txt"
+0xc flags @"typedef--__u32.txt"
+0x10 handle @"typedef--__u32.txt"
+0x14 pitch @"typedef--__u32.txt"
+0x18 size @"typedef--__u64.txt"
+}

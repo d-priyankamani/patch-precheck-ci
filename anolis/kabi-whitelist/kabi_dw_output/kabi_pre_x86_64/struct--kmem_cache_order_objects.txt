@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/slub_def.h:91
+Symbol:
+Byte size 4
+struct kmem_cache_order_objects {
+0x0 x "unsigned int"
+}

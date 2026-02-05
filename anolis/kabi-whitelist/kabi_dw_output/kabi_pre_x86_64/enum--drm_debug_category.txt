@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/drm/drm_print.h:330
+Symbol:
+Byte size 4
+enum drm_debug_category {
+DRM_UT_CORE = 0x0
+DRM_UT_DRIVER = 0x1
+DRM_UT_KMS = 0x2
+DRM_UT_PRIME = 0x3
+DRM_UT_ATOMIC = 0x4
+DRM_UT_VBL = 0x5
+DRM_UT_STATE = 0x6
+DRM_UT_LEASE = 0x7
+DRM_UT_DP = 0x8
+DRM_UT_DRMRES = 0x9
+}

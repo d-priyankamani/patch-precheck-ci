@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_probe_helper.c:556
+Symbol:
+func drm_helper_probe_single_connector_modes (
+connector * @"struct--drm_connector.txt"
+maxX @"typedef--uint32_t.txt"
+maxY @"typedef--uint32_t.txt"
+)
+"int"

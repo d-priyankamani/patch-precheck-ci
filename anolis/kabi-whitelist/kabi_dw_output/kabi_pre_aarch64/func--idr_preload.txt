@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/radix-tree.c:1469
+Symbol:
+func idr_preload (
+gfp_mask @"typedef--gfp_t.txt"
+)
+"void"

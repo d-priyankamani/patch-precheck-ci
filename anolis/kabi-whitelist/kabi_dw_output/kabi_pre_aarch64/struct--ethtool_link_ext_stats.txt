@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/ethtool.h:134
+Symbol:
+Byte size 8
+struct ethtool_link_ext_stats {
+0x0 link_down_events @"typedef--u64.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/skbuff.c:3818
+Symbol:
+func skb_queue_tail (
+list * @"struct--sk_buff_head.txt"
+newsk * @"struct--sk_buff.txt"
+)
+"void"

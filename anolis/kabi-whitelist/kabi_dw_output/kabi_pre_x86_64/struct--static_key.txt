@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/jump_label.h:85
+Symbol:
+Byte size 16
+struct static_key {
+0x0 enabled @"typedef--atomic_t.txt"
+0x8 (NULL) union (NULL) {
+type "long unsigned int"
+entries * @"struct--jump_entry.txt"
+next * @"struct--static_key_mod.txt"
+}
+}

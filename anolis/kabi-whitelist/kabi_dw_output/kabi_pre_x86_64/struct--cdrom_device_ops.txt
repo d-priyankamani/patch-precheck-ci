@@ -1,0 +1,75 @@
+Version: 1.0
+File: include/linux/cdrom.h:71
+Symbol:
+Byte size 112
+struct cdrom_device_ops {
+0x0 open * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+(NULL) "int"
+)
+"int"
+0x8 release * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+)
+"void"
+0x10 drive_status * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+(NULL) "int"
+)
+"int"
+0x18 check_events * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+(NULL) "unsigned int"
+(NULL) "int"
+)
+"unsigned int"
+0x20 tray_move * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+(NULL) "int"
+)
+"int"
+0x28 lock_door * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+(NULL) "int"
+)
+"int"
+0x30 select_speed * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x38 get_last_session * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+(NULL) * @"struct--cdrom_multisession.txt"
+)
+"int"
+0x40 get_mcn * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+(NULL) * @"struct--cdrom_mcn.txt"
+)
+"int"
+0x48 reset * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+)
+"int"
+0x50 audio_ioctl * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+(NULL) "unsigned int"
+(NULL) * "void"
+)
+"int"
+0x58 generic_packet * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+(NULL) * @"struct--packet_command.txt"
+)
+"int"
+0x60 read_cdda_bpc * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+(NULL) * "void"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"typedef--u8.txt"
+)
+"int"
+0x68 capability const "int"
+}

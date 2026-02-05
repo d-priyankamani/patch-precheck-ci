@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:1769
+Symbol:
+func pci_save_state (
+dev * @"struct--pci_dev.txt"
+)
+"int"

@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/dim.h:80
+Symbol:
+Byte size 40
+struct dim_irq_moder {
+0x0 profile_flags @"typedef--u8.txt"
+0x1 coal_flags @"typedef--u8.txt"
+0x2 dim_rx_mode @"typedef--u8.txt"
+0x3 dim_tx_mode @"typedef--u8.txt"
+0x8 rx_profile * @"struct--dim_cq_moder.txt"
+0x10 tx_profile * @"struct--dim_cq_moder.txt"
+0x18 rx_dim_work * func (NULL) (
+(NULL) * @"struct--work_struct.txt"
+)
+"void"
+0x20 tx_dim_work * func (NULL) (
+(NULL) * @"struct--work_struct.txt"
+)
+"void"
+}

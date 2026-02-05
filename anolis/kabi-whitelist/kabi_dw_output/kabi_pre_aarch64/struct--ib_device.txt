@@ -1,0 +1,52 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2725
+Symbol:
+Byte size 3064
+Alignment 8
+struct ib_device {
+0x0 dma_device * @"struct--device.txt"
+0x8 ops @"struct--ib_device_ops.txt"
+0x408 name [64]"char"
+0x448 8 callback_head @"struct--callback_head.txt"
+0x458 event_handler_list @"struct--list_head.txt"
+0x468 event_handler_rwsem @"struct--rw_semaphore.txt"
+0x490 qp_open_list_lock @"typedef--spinlock_t.txt"
+0x498 client_data_rwsem @"struct--rw_semaphore.txt"
+0x4c0 client_data @"struct--xarray.txt"
+0x4d0 unregistration_lock @"struct--mutex.txt"
+0x4f0 cache_lock @"typedef--rwlock_t.txt"
+0x4f8 port_data * @"struct--ib_port_data.txt"
+0x500 num_comp_vectors "int"
+0x508 8 (NULL) union (NULL) {
+dev @"struct--device.txt"
+coredev @"struct--ib_core_device.txt"
+}
+0x910 groups [4]* const @"struct--attribute_group.txt"
+0x930 hw_stats_attr_index @"typedef--u8.txt"
+0x938 uverbs_cmd_mask @"typedef--u64.txt"
+0x940 node_desc [64]"char"
+0x980 node_guid @"typedef--__be64.txt"
+0x988 local_dma_lkey @"typedef--u32.txt"
+0x98c:0-1 is_switch @"typedef--u16.txt"
+0x98c:1-2 kverbs_provider @"typedef--u16.txt"
+0x98c:2-3 use_cq_dim @"typedef--u16.txt"
+0x98d node_type @"typedef--u8.txt"
+0x990 phys_port_cnt @"typedef--u32.txt"
+0x998 attrs @"struct--ib_device_attr.txt"
+0xac8 hw_stats_data * @"struct--hw_stats_device_data.txt"
+0xad0 cg_device @"struct--rdmacg_device.txt"
+0xaf8 index @"typedef--u32.txt"
+0xafc cq_pools_lock @"typedef--spinlock_t.txt"
+0xb00 cq_pools [3]@"struct--list_head.txt"
+0xb30 res * @"struct--rdma_restrack_root.txt"
+0xb38 driver_def * const @"struct--uapi_definition.txt"
+0xb40 refcount @"typedef--refcount_t.txt"
+0xb48 unreg_completion @"struct--completion.txt"
+0xb68 unregistration_work @"struct--work_struct.txt"
+0xba8 link_ops * const @"struct--rdma_link_ops.txt"
+0xbb0 compat_devs_mutex @"struct--mutex.txt"
+0xbd0 compat_devs @"struct--xarray.txt"
+0xbe0 iw_ifname [16]"char"
+0xbf0 iw_driver_flags @"typedef--u32.txt"
+0xbf4 lag_flags @"typedef--u32.txt"
+}

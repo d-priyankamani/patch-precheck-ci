@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/proc/generic.c:799
+Symbol:
+func proc_remove (
+de * @"struct--proc_dir_entry.txt"
+)
+"void"

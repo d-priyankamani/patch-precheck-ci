@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:368
+Symbol:
+Byte size 48
+struct acpi_device_data {
+0x0 pointer * const @"union--acpi_object.txt"
+0x8 properties @"struct--list_head.txt"
+0x18 of_compatible * const @"union--acpi_object.txt"
+0x20 subnodes @"struct--list_head.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/dev.c:11524
+Symbol:
+func netdev_notice (
+dev * const @"struct--net_device.txt"
+fmt * const "char"
+(NULL) ...
+)
+"void"

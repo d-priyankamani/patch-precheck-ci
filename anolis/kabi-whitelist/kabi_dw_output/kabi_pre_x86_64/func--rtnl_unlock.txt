@@ -1,0 +1,6 @@
+Version: 1.0
+File: net/core/rtnetlink.c:148
+Symbol:
+func rtnl_unlock (
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:5692
+Symbol:
+func drm_edid_to_speaker_allocation (
+edid * const @"struct--edid.txt"
+sadb * * @"typedef--u8.txt"
+)
+"int"

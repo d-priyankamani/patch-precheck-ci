@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/trace/trace.h:1340
+Symbol:
+Byte size 40
+struct event_subsystem {
+0x0 list @"struct--list_head.txt"
+0x10 name * const "char"
+0x18 filter * @"struct--event_filter.txt"
+0x20 ref_count "int"
+}

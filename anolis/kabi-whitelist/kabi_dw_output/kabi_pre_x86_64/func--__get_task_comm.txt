@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/exec.c:1215
+Symbol:
+func __get_task_comm (
+buf * "char"
+buf_size @"typedef--size_t.txt"
+tsk * @"struct--task_struct.txt"
+)
+* "char"

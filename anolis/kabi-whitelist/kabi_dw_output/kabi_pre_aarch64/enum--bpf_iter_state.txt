@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:67
+Symbol:
+Byte size 4
+enum bpf_iter_state {
+BPF_ITER_STATE_INVALID = 0x0
+BPF_ITER_STATE_ACTIVE = 0x1
+BPF_ITER_STATE_DRAINED = 0x2
+}

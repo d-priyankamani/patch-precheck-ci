@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:165
+Symbol:
+Byte size 4
+enum rdma_transport_type {
+RDMA_TRANSPORT_IB = 0x0
+RDMA_TRANSPORT_IWARP = 0x1
+RDMA_TRANSPORT_USNIC = 0x2
+RDMA_TRANSPORT_USNIC_UDP = 0x3
+RDMA_TRANSPORT_UNSPECIFIED = 0x4
+}

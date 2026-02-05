@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/net/ip_tunnels.h:39
+Symbol:
+Byte size 64
+struct ip_tunnel_key {
+0x0 tun_id @"typedef--__be64.txt"
+0x8 u union (NULL) {
+ipv4 struct (NULL) {
+0x0 src @"typedef--__be32.txt"
+0x4 dst @"typedef--__be32.txt"
+}
+ipv6 struct (NULL) {
+0x0 src @"struct--in6_addr.txt"
+0x10 dst @"struct--in6_addr.txt"
+}
+}
+0x28 tun_flags @"typedef--__be16.txt"
+0x2a tos @"typedef--u8.txt"
+0x2b ttl @"typedef--u8.txt"
+0x2c label @"typedef--__be32.txt"
+0x30 nhid @"typedef--u32.txt"
+0x34 tp_src @"typedef--__be16.txt"
+0x36 tp_dst @"typedef--__be16.txt"
+0x38 flow_flags @"typedef--__u8.txt"
+}

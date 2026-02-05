@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/time.c:771
+Symbol:
+func jiffies64_to_msecs (
+j const @"typedef--u64.txt"
+)
+@"typedef--u64.txt"

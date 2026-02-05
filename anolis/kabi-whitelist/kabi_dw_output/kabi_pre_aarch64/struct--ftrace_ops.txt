@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/ftrace.h:325
+Symbol:
+Byte size 200
+struct ftrace_ops {
+0x0 func @"typedef--ftrace_func_t.txt"
+0x8 next * @"struct--ftrace_ops.txt"
+0x10 flags "long unsigned int"
+0x18 private * "void"
+0x20 saved_func @"typedef--ftrace_func_t.txt"
+0x28 local_hash @"struct--ftrace_ops_hash.txt"
+0x58 func_hash * @"struct--ftrace_ops_hash.txt"
+0x60 old_hash @"struct--ftrace_ops_hash.txt"
+0x90 trampoline "long unsigned int"
+0x98 trampoline_size "long unsigned int"
+0xa0 list @"struct--list_head.txt"
+0xb0 ops_func @"typedef--ftrace_ops_func_t.txt"
+0xb8 direct_call "long unsigned int"
+0xc0 ck_reserved1 "long unsigned int"
+}

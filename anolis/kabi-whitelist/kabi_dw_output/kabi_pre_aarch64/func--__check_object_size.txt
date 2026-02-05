@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/usercopy.c:213
+Symbol:
+func __check_object_size (
+ptr * const "void"
+n "long unsigned int"
+to_user @"typedef--bool.txt"
+)
+"void"

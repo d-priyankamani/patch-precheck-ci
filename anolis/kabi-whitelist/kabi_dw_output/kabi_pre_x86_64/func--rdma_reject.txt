@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:4736
+Symbol:
+func rdma_reject (
+id * @"struct--rdma_cm_id.txt"
+private_data * const "void"
+private_data_len @"typedef--u8.txt"
+reason @"typedef--u8.txt"
+)
+"int"

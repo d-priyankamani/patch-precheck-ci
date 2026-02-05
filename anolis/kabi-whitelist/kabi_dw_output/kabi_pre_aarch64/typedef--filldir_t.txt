@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/fs.h:1883
+Symbol:
+Byte size 8
+typedef filldir_t
+* func (NULL) (
+(NULL) * @"struct--dir_context.txt"
+(NULL) * const "char"
+(NULL) "int"
+(NULL) @"typedef--loff_t.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) "unsigned int"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/kthread.h:123
+Symbol:
+Byte size 56
+struct kthread_worker {
+0x0 flags "unsigned int"
+0x4 lock @"typedef--raw_spinlock_t.txt"
+0x8 work_list @"struct--list_head.txt"
+0x18 delayed_work_list @"struct--list_head.txt"
+0x28 task * @"struct--task_struct.txt"
+0x30 current_work * @"struct--kthread_work.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/xarray.c:775
+Symbol:
+func xas_store (
+xas * @"struct--xa_state.txt"
+entry * "void"
+)
+* "void"

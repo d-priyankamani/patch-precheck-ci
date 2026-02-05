@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/irq.h:1123
+Symbol:
+Byte size 24
+struct irq_domain_chip_generic {
+0x0 irqs_per_chip "unsigned int"
+0x4 num_chips "unsigned int"
+0x8 irq_flags_to_clear "unsigned int"
+0xc irq_flags_to_set "unsigned int"
+0x10 gc_flags @"enum--irq_gc_flags.txt"
+0x18 gc [0]* @"struct--irq_chip_generic.txt"
+}

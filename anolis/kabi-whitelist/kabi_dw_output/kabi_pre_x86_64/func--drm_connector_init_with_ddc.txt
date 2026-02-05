@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:392
+Symbol:
+func drm_connector_init_with_ddc (
+dev * @"struct--drm_device.txt"
+connector * @"struct--drm_connector.txt"
+funcs * const @"struct--drm_connector_funcs.txt"
+connector_type "int"
+ddc * @"<declarations>/struct--i2c_adapter.txt"
+)
+"int"

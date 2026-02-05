@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/devres.c:348
+Symbol:
+func pcim_iomap_table (
+pdev * @"struct--pci_dev.txt"
+)
+* const * "void"

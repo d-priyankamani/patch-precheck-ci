@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/power/runtime.c:163
+Symbol:
+func pm_runtime_autosuspend_expiration (
+dev * @"struct--device.txt"
+)
+@"typedef--u64.txt"

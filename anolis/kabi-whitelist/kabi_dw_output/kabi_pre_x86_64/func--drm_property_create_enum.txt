@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_property.c:161
+Symbol:
+func drm_property_create_enum (
+dev * @"struct--drm_device.txt"
+flags @"typedef--u32.txt"
+name * const "char"
+props * const @"struct--drm_prop_enum_list.txt"
+num_values "int"
+)
+* @"struct--drm_property.txt"

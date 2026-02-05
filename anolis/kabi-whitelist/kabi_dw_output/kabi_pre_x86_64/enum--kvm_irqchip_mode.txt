@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:1143
+Symbol:
+Byte size 4
+enum kvm_irqchip_mode {
+KVM_IRQCHIP_NONE = 0x0
+KVM_IRQCHIP_KERNEL = 0x1
+KVM_IRQCHIP_SPLIT = 0x2
+}

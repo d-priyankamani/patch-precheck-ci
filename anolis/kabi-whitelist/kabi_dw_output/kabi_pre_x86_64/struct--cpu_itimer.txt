@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/sched/signal.h:38
+Symbol:
+Byte size 16
+struct cpu_itimer {
+0x0 expires @"typedef--u64.txt"
+0x8 incr @"typedef--u64.txt"
+}

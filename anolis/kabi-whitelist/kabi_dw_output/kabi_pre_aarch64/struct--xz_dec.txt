@@ -1,0 +1,55 @@
+Version: 1.0
+File: lib/xz/xz_dec_stream.c:20
+Symbol:
+Byte size 1232
+struct xz_dec {
+0x0 sequence enum (NULL) {
+SEQ_STREAM_HEADER = 0x0
+SEQ_BLOCK_START = 0x1
+SEQ_BLOCK_HEADER = 0x2
+SEQ_BLOCK_UNCOMPRESS = 0x3
+SEQ_BLOCK_PADDING = 0x4
+SEQ_BLOCK_CHECK = 0x5
+SEQ_INDEX = 0x6
+SEQ_INDEX_PADDING = 0x7
+SEQ_INDEX_CRC32 = 0x8
+SEQ_STREAM_FOOTER = 0x9
+}
+0x4 pos @"typedef--uint32_t.txt"
+0x8 vli @"typedef--vli_type.txt"
+0x10 in_start @"typedef--size_t.txt"
+0x18 out_start @"typedef--size_t.txt"
+0x20 crc32 @"typedef--uint32_t.txt"
+0x24 check_type @"enum--xz_check.txt"
+0x28 mode @"enum--xz_mode.txt"
+0x2c allow_buf_error @"typedef--bool.txt"
+0x30 block_header struct (NULL) {
+0x0 compressed @"typedef--vli_type.txt"
+0x8 uncompressed @"typedef--vli_type.txt"
+0x10 size @"typedef--uint32_t.txt"
+}
+0x48 block struct (NULL) {
+0x0 compressed @"typedef--vli_type.txt"
+0x8 uncompressed @"typedef--vli_type.txt"
+0x10 count @"typedef--vli_type.txt"
+0x18 hash @"struct--xz_dec_hash.txt"
+}
+0x78 index struct (NULL) {
+0x0 sequence enum (NULL) {
+SEQ_INDEX_COUNT = 0x0
+SEQ_INDEX_UNPADDED = 0x1
+SEQ_INDEX_UNCOMPRESSED = 0x2
+}
+0x8 size @"typedef--vli_type.txt"
+0x10 count @"typedef--vli_type.txt"
+0x18 hash @"struct--xz_dec_hash.txt"
+}
+0xa8 temp struct (NULL) {
+0x0 pos @"typedef--size_t.txt"
+0x8 size @"typedef--size_t.txt"
+0x10 buf [1024]@"typedef--uint8_t.txt"
+}
+0x4b8 lzma2 * @"<declarations>/struct--xz_dec_lzma2.txt"
+0x4c0 bcj * @"<declarations>/struct--xz_dec_bcj.txt"
+0x4c8 bcj_active @"typedef--bool.txt"
+}

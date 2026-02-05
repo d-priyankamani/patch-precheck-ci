@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/netfilter/nf_conntrack_tuple.h:78
+Symbol:
+Byte size 20
+struct nf_conntrack_tuple_mask {
+0x0 src struct (NULL) {
+0x0 u3 @"union--nf_inet_addr.txt"
+0x10 u @"union--nf_conntrack_man_proto.txt"
+}
+}

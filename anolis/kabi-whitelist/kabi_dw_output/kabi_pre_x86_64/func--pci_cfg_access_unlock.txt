@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/access.c:316
+Symbol:
+func pci_cfg_access_unlock (
+dev * @"struct--pci_dev.txt"
+)
+"void"

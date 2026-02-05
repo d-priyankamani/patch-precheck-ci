@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/blk-mq.h:69
+Symbol:
+Byte size 4
+enum mq_rq_state {
+MQ_RQ_IDLE = 0x0
+MQ_RQ_IN_FLIGHT = 0x1
+MQ_RQ_COMPLETE = 0x2
+}

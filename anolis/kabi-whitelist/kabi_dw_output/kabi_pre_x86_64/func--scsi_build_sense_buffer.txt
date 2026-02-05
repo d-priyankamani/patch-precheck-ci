@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/scsi/scsi_common.c:283
+Symbol:
+func scsi_build_sense_buffer (
+desc "int"
+buf * @"typedef--u8.txt"
+key @"typedef--u8.txt"
+asc @"typedef--u8.txt"
+ascq @"typedef--u8.txt"
+)
+"void"

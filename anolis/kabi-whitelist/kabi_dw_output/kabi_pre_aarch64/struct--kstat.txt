@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/linux/stat.h:22
+Symbol:
+Byte size 176
+struct kstat {
+0x0 result_mask @"typedef--u32.txt"
+0x4 mode @"typedef--umode_t.txt"
+0x8 nlink "unsigned int"
+0xc blksize @"typedef--uint32_t.txt"
+0x10 attributes @"typedef--u64.txt"
+0x18 attributes_mask @"typedef--u64.txt"
+0x20 ino @"typedef--u64.txt"
+0x28 dev @"typedef--dev_t.txt"
+0x2c rdev @"typedef--dev_t.txt"
+0x30 uid @"typedef--kuid_t.txt"
+0x34 gid @"typedef--kgid_t.txt"
+0x38 size @"typedef--loff_t.txt"
+0x40 atime @"struct--timespec64.txt"
+0x50 mtime @"struct--timespec64.txt"
+0x60 ctime @"struct--timespec64.txt"
+0x70 btime @"struct--timespec64.txt"
+0x80 blocks @"typedef--u64.txt"
+0x88 mnt_id @"typedef--u64.txt"
+0x90 dio_mem_align @"typedef--u32.txt"
+0x94 dio_offset_align @"typedef--u32.txt"
+0x98 change_cookie @"typedef--u64.txt"
+0xa0 ck_reserved1 "long unsigned int"
+0xa8 ck_reserved2 "long unsigned int"
+}

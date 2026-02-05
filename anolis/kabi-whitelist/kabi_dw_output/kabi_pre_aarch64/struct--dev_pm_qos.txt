@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/pm_qos.h:120
+Symbol:
+Byte size 320
+struct dev_pm_qos {
+0x0 resume_latency @"struct--pm_qos_constraints.txt"
+0x28 latency_tolerance @"struct--pm_qos_constraints.txt"
+0x50 freq @"struct--freq_constraints.txt"
+0x100 flags @"struct--pm_qos_flags.txt"
+0x118 resume_latency_req * @"struct--dev_pm_qos_request.txt"
+0x120 latency_tolerance_req * @"struct--dev_pm_qos_request.txt"
+0x128 flags_req * @"struct--dev_pm_qos_request.txt"
+0x130 ck_reserved1 "long unsigned int"
+0x138 ck_reserved2 "long unsigned int"
+}

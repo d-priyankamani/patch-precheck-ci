@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/ethtool.h:491
+Symbol:
+Byte size 24
+struct ethtool_module_eeprom {
+0x0 offset @"typedef--u32.txt"
+0x4 length @"typedef--u32.txt"
+0x8 page @"typedef--u8.txt"
+0x9 bank @"typedef--u8.txt"
+0xa i2c_address @"typedef--u8.txt"
+0x10 data * @"typedef--u8.txt"
+}

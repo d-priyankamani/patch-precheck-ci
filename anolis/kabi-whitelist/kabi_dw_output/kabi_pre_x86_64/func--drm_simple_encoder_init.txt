@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_simple_kms_helper.c:67
+Symbol:
+func drm_simple_encoder_init (
+dev * @"struct--drm_device.txt"
+encoder * @"struct--drm_encoder.txt"
+encoder_type "int"
+)
+"int"

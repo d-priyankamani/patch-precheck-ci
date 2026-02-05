@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem.c:152
+Symbol:
+func drm_gem_private_object_init (
+dev * @"struct--drm_device.txt"
+obj * @"struct--drm_gem_object.txt"
+size @"typedef--size_t.txt"
+)
+"void"

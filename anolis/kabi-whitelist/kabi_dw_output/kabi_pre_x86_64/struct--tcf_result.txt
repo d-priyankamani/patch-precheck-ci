@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/sch_generic.h:343
+Symbol:
+Byte size 16
+struct tcf_result {
+0x0 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 class "long unsigned int"
+0x8 classid @"typedef--u32.txt"
+}
+goto_tp * const @"struct--tcf_proto.txt"
+}
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/irq/chip.c:155
+Symbol:
+func irq_get_irq_data (
+irq "unsigned int"
+)
+* @"struct--irq_data.txt"

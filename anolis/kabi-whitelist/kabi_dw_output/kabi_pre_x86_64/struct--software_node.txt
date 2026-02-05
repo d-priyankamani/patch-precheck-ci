@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/property.h:519
+Symbol:
+Byte size 24
+struct software_node {
+0x0 name * const "char"
+0x8 parent * const @"struct--software_node.txt"
+0x10 properties * const @"struct--property_entry.txt"
+}

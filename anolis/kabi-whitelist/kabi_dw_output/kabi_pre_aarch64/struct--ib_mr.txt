@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1832
+Symbol:
+Byte size 160
+struct ib_mr {
+0x0 device * @"struct--ib_device.txt"
+0x8 pd * @"struct--ib_pd.txt"
+0x10 lkey @"typedef--u32.txt"
+0x14 rkey @"typedef--u32.txt"
+0x18 iova @"typedef--u64.txt"
+0x20 length @"typedef--u64.txt"
+0x28 page_size "unsigned int"
+0x2c type @"enum--ib_mr_type.txt"
+0x30 need_inval @"typedef--bool.txt"
+0x38 (NULL) union (NULL) {
+uobject * @"struct--ib_uobject.txt"
+qp_entry @"struct--list_head.txt"
+}
+0x48 dm * @"struct--ib_dm.txt"
+0x50 sig_attrs * @"struct--ib_sig_attrs.txt"
+0x58 res @"struct--rdma_restrack_entry.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/fb.h:205
+Symbol:
+Byte size 32
+struct fb_deferred_io_pageref {
+0x0 page * @"struct--page.txt"
+0x8 offset "long unsigned int"
+0x10 list @"struct--list_head.txt"
+}

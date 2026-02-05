@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/sched/signal.h:20
+Symbol:
+Byte size 2080
+struct sighand_struct {
+0x0 siglock @"typedef--spinlock_t.txt"
+0x4 count @"typedef--refcount_t.txt"
+0x8 signalfd_wqh @"typedef--wait_queue_head_t.txt"
+0x20 action [64]@"struct--k_sigaction.txt"
+}

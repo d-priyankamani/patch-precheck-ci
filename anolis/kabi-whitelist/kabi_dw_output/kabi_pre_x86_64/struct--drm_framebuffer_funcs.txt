@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/drm/drm_framebuffer.h:43
+Symbol:
+Byte size 24
+struct drm_framebuffer_funcs {
+0x0 destroy * func (NULL) (
+(NULL) * @"struct--drm_framebuffer.txt"
+)
+"void"
+0x8 create_handle * func (NULL) (
+(NULL) * @"struct--drm_framebuffer.txt"
+(NULL) * @"struct--drm_file.txt"
+(NULL) * "unsigned int"
+)
+"int"
+0x10 dirty * func (NULL) (
+(NULL) * @"struct--drm_framebuffer.txt"
+(NULL) * @"struct--drm_file.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) * @"struct--drm_clip_rect.txt"
+(NULL) "unsigned int"
+)
+"int"
+}

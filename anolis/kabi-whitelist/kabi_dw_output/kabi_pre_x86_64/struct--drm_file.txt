@@ -1,0 +1,38 @@
+Version: 1.0
+File: include/drm/drm_file.h:166
+Symbol:
+Byte size 376
+struct drm_file {
+0x0 authenticated @"typedef--bool.txt"
+0x1 stereo_allowed @"typedef--bool.txt"
+0x2 universal_planes @"typedef--bool.txt"
+0x3 atomic @"typedef--bool.txt"
+0x4 aspect_ratio_allowed @"typedef--bool.txt"
+0x5 writeback_connectors @"typedef--bool.txt"
+0x6 was_master @"typedef--bool.txt"
+0x7 is_master @"typedef--bool.txt"
+0x8 supports_virtualized_cursor_plane @"typedef--bool.txt"
+0x10 master * @"struct--drm_master.txt"
+0x18 master_lookup_lock @"typedef--spinlock_t.txt"
+0x20 pid * @"struct--pid.txt"
+0x28 client_id @"typedef--u64.txt"
+0x30 magic @"typedef--drm_magic_t.txt"
+0x38 lhead @"struct--list_head.txt"
+0x48 minor * @"struct--drm_minor.txt"
+0x50 object_idr @"struct--idr.txt"
+0x68 table_lock @"typedef--spinlock_t.txt"
+0x70 syncobj_idr @"struct--idr.txt"
+0x88 syncobj_table_lock @"typedef--spinlock_t.txt"
+0x90 filp * @"struct--file.txt"
+0x98 driver_priv * "void"
+0xa0 fbs @"struct--list_head.txt"
+0xb0 fbs_lock @"struct--mutex.txt"
+0xd0 blobs @"struct--list_head.txt"
+0xe0 event_wait @"typedef--wait_queue_head_t.txt"
+0xf8 pending_event_list @"struct--list_head.txt"
+0x108 event_list @"struct--list_head.txt"
+0x118 event_space "int"
+0x120 event_read_lock @"struct--mutex.txt"
+0x140 prime @"struct--drm_prime_file_private.txt"
+0x170 lock_count "long unsigned int"
+}

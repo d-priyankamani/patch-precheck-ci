@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/percpu-rwsem.h:12
+Symbol:
+Byte size 96
+Alignment 8
+struct percpu_rw_semaphore {
+0x0 8 rss @"struct--rcu_sync.txt"
+0x30 read_count * "unsigned int"
+0x38 writer @"struct--rcuwait.txt"
+0x40 waiters @"typedef--wait_queue_head_t.txt"
+0x58 block @"typedef--atomic_t.txt"
+}

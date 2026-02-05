@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_plane.c:1467
+Symbol:
+func drm_plane_enable_fb_damage_clips (
+plane * @"struct--drm_plane.txt"
+)
+"void"

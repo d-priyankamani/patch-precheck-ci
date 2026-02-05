@@ -1,0 +1,42 @@
+Version: 1.0
+File: include/scsi/scsi_dh.h:48
+Symbol:
+Byte size 88
+struct scsi_device_handler {
+0x0 list @"struct--list_head.txt"
+0x10 module * @"struct--module.txt"
+0x18 name * const "char"
+0x20 check_sense * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+(NULL) * @"struct--scsi_sense_hdr.txt"
+)
+@"enum--scsi_disposition.txt"
+0x28 attach * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+)
+"int"
+0x30 detach * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+)
+"void"
+0x38 activate * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+(NULL) @"typedef--activate_complete.txt"
+(NULL) * "void"
+)
+"int"
+0x40 prep_fn * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+(NULL) * @"struct--request.txt"
+)
+@"typedef--blk_status_t.txt"
+0x48 set_params * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+(NULL) * const "char"
+)
+"int"
+0x50 rescan * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+)
+"void"
+}

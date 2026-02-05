@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_entity.c:152
+Symbol:
+func drm_sched_entity_error (
+entity * @"struct--drm_sched_entity.txt"
+)
+"int"

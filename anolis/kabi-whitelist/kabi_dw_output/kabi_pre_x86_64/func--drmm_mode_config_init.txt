@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mode_config.c:402
+Symbol:
+func drmm_mode_config_init (
+dev * @"struct--drm_device.txt"
+)
+"int"

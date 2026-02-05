@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/net/flow_dissector.h:174
+Symbol:
+Byte size 4
+struct flow_dissector_key_ports {
+0x0 (NULL) union (NULL) {
+ports @"typedef--__be32.txt"
+(NULL) struct (NULL) {
+0x0 src @"typedef--__be16.txt"
+0x2 dst @"typedef--__be16.txt"
+}
+}
+}

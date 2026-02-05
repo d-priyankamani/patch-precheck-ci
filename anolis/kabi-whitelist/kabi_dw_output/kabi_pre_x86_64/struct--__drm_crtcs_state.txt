@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/drm_atomic.h:165
+Symbol:
+Byte size 56
+struct __drm_crtcs_state {
+0x0 ptr * @"struct--drm_crtc.txt"
+0x8 state * @"struct--drm_crtc_state.txt"
+0x10 old_state * @"struct--drm_crtc_state.txt"
+0x18 new_state * @"struct--drm_crtc_state.txt"
+0x20 commit * @"struct--drm_crtc_commit.txt"
+0x28 out_fence_ptr * @"typedef--s32.txt"
+0x30 last_vblank_count @"typedef--u64.txt"
+}

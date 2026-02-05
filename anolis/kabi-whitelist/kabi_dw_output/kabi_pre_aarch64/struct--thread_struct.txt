@@ -1,0 +1,26 @@
+Version: 1.0
+File: arch/arm64/include/asm/processor.h:147
+Symbol:
+Byte size 1024
+struct thread_struct {
+0x0 cpu_context @"struct--cpu_context.txt"
+0x70 uw struct (NULL) {
+0x0 tp_value "long unsigned int"
+0x8 tp2_value "long unsigned int"
+0x10 fpsimd_state @"struct--user_fpsimd_state.txt"
+}
+0x290 fp_type @"enum--fp_type.txt"
+0x294 fpsimd_cpu "unsigned int"
+0x298 sve_state * "void"
+0x2a0 sme_state * "void"
+0x2a8 vl [2]"unsigned int"
+0x2b0 vl_onexec [2]"unsigned int"
+0x2b8 fault_address "long unsigned int"
+0x2c0 fault_code "long unsigned int"
+0x2c8 debug @"struct--debug_info.txt"
+0x3d8 mte_ctrl @"typedef--u64.txt"
+0x3e0 sctlr_user @"typedef--u64.txt"
+0x3e8 svcr @"typedef--u64.txt"
+0x3f0 tpidr2_el0 @"typedef--u64.txt"
+0x3f8 por_el0 @"typedef--u64.txt"
+}

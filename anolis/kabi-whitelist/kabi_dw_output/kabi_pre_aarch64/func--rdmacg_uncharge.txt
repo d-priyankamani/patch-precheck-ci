@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/cgroup/rdma.c:229
+Symbol:
+func rdmacg_uncharge (
+cg * @"struct--rdma_cgroup.txt"
+device * @"struct--rdmacg_device.txt"
+index @"enum--rdmacg_resource_type.txt"
+)
+"void"

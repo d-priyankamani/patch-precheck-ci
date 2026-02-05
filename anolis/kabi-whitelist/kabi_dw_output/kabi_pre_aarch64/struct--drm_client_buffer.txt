@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/drm/drm_client.h:131
+Symbol:
+Byte size 56
+struct drm_client_buffer {
+0x0 client * @"struct--drm_client_dev.txt"
+0x8 pitch @"typedef--u32.txt"
+0x10 gem * @"<declarations>/struct--drm_gem_object.txt"
+0x18 map @"struct--iosys_map.txt"
+0x28 fb * @"struct--drm_framebuffer.txt"
+0x30 ck_reserved1 "long unsigned int"
+}

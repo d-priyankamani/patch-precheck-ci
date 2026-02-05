@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/netfilter.h:99
+Symbol:
+Byte size 16
+struct nf_hook_entry {
+0x0 hook * @"typedef--nf_hookfn.txt"
+0x8 priv * "void"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/i2c/i2c-core-base.c:956
+Symbol:
+func i2c_new_client_device (
+adap * @"struct--i2c_adapter.txt"
+info * const @"struct--i2c_board_info.txt"
+)
+* @"struct--i2c_client.txt"

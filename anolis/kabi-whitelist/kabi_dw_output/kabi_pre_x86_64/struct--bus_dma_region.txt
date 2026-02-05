@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/dma-direct.h:20
+Symbol:
+Byte size 32
+struct bus_dma_region {
+0x0 cpu_start @"typedef--phys_addr_t.txt"
+0x8 dma_start @"typedef--dma_addr_t.txt"
+0x10 size @"typedef--u64.txt"
+0x18 offset @"typedef--u64.txt"
+}

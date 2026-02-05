@@ -1,0 +1,19 @@
+Version: 1.0
+File: net/switchdev/switchdev.c:885
+Symbol:
+func switchdev_handle_port_attr_set (
+dev * @"struct--net_device.txt"
+port_attr_info * @"struct--switchdev_notifier_port_attr_info.txt"
+check_cb * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+)
+@"typedef--bool.txt"
+set_cb * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const "void"
+(NULL) * const @"struct--switchdev_attr.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+)
+"int"

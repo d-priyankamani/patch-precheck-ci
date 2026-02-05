@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/mad.c:204
+Symbol:
+func ib_response_mad (
+hdr * const @"struct--ib_mad_hdr.txt"
+)
+"int"

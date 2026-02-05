@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_transport_sas.c:1537
+Symbol:
+func sas_rphy_add (
+rphy * @"struct--sas_rphy.txt"
+)
+"int"

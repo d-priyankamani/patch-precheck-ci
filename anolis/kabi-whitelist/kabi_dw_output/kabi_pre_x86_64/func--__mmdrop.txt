@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/fork.c:965
+Symbol:
+func __mmdrop (
+mm * @"struct--mm_struct.txt"
+)
+"void"

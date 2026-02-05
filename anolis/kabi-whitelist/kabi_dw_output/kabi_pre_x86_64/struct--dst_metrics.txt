@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/dst.h:106
+Symbol:
+Byte size 72
+Alignment 4
+struct dst_metrics {
+0x0 metrics [17]@"typedef--u32.txt"
+0x44 refcnt @"typedef--refcount_t.txt"
+}

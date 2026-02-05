@@ -1,0 +1,9 @@
+Version: 1.0
+File: block/blk-rq-qos.h:16
+Symbol:
+Byte size 4
+enum rq_qos_id {
+RQ_QOS_WBT = 0x0
+RQ_QOS_LATENCY = 0x1
+RQ_QOS_COST = 0x2
+}

@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/net/macsec.h:159
+Symbol:
+Byte size 88
+Alignment 8
+struct macsec_rx_sc {
+0x0 next * @"struct--macsec_rx_sc.txt"
+0x8 sci @"typedef--sci_t.txt"
+0x10 active @"typedef--bool.txt"
+0x18 sa [4]* @"struct--macsec_rx_sa.txt"
+0x38 stats * @"struct--pcpu_rx_sc_stats.txt"
+0x40 refcnt @"typedef--refcount_t.txt"
+0x48 8 callback_head @"struct--callback_head.txt"
+}

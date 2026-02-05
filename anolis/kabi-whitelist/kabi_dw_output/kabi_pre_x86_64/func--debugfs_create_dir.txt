@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/debugfs/inode.c:589
+Symbol:
+func debugfs_create_dir (
+name * const "char"
+parent * @"struct--dentry.txt"
+)
+* @"struct--dentry.txt"

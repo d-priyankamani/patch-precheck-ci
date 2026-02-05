@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/multicast.c:662
+Symbol:
+func ib_sa_free_multicast (
+multicast * @"struct--ib_sa_multicast.txt"
+)
+"void"

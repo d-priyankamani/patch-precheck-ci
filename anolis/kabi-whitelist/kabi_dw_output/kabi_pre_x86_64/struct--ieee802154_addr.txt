@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/cfg802154.h:279
+Symbol:
+Byte size 16
+struct ieee802154_addr {
+0x0 mode @"typedef--u8.txt"
+0x2 pan_id @"typedef--__le16.txt"
+0x8 (NULL) union (NULL) {
+short_addr @"typedef--__le16.txt"
+extended_addr @"typedef--__le64.txt"
+}
+}

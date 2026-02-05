@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/skbuff.c:1277
+Symbol:
+func consume_skb (
+skb * @"struct--sk_buff.txt"
+)
+"void"

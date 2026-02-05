@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/phy.h:845
+Symbol:
+Byte size 1
+struct phy_plca_status {
+0x0 pst @"typedef--bool.txt"
+}

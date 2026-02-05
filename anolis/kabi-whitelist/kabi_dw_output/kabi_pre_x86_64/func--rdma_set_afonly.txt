@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:3599
+Symbol:
+func rdma_set_afonly (
+id * @"struct--rdma_cm_id.txt"
+afonly "int"
+)
+"int"

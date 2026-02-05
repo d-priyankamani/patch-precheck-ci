@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/elf.h:17
+Symbol:
+typedef Elf64_Half
+@"typedef--__u16.txt"

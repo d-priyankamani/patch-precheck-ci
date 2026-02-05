@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/char_dev.c:601
+Symbol:
+func cdev_del (
+p * @"struct--cdev.txt"
+)
+"void"

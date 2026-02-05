@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/act_api.h:104
+Symbol:
+Byte size 8
+typedef tc_action_priv_destructor
+* func (NULL) (
+(NULL) * "void"
+)
+"void"

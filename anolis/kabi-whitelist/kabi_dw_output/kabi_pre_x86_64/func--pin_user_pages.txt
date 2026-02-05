@@ -1,0 +1,10 @@
+Version: 1.0
+File: mm/gup.c:3554
+Symbol:
+func pin_user_pages (
+start "long unsigned int"
+nr_pages "long unsigned int"
+gup_flags "unsigned int"
+pages * * @"struct--page.txt"
+)
+"long int"

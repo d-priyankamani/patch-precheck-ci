@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/irq/irqdesc.c:731
+Symbol:
+func generic_handle_domain_irq (
+domain * @"struct--irq_domain.txt"
+hwirq "unsigned int"
+)
+"int"

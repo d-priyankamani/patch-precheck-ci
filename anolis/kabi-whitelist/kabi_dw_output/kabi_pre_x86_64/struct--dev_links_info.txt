@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/device.h:516
+Symbol:
+Byte size 56
+struct dev_links_info {
+0x0 suppliers @"struct--list_head.txt"
+0x10 consumers @"struct--list_head.txt"
+0x20 defer_sync @"struct--list_head.txt"
+0x30 status @"enum--dl_dev_state.txt"
+}

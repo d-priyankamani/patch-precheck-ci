@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/uapi/linux/kvm.h:706
+Symbol:
+Byte size 4
+struct kvm_mp_state {
+0x0 mp_state @"typedef--__u32.txt"
+}

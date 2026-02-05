@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/cgroup-defs.h:427
+Symbol:
+Byte size 16
+struct cgroup_freezer_state {
+0x0 freeze @"typedef--bool.txt"
+0x4 e_freeze "int"
+0x8 nr_frozen_descendants "int"
+0xc nr_frozen_tasks "int"
+}

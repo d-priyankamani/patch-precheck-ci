@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/net/macsec.h:107
+Symbol:
+Byte size 64
+struct macsec_dev_stats {
+0x0 OutPktsUntagged @"typedef--__u64.txt"
+0x8 InPktsUntagged @"typedef--__u64.txt"
+0x10 OutPktsTooLong @"typedef--__u64.txt"
+0x18 InPktsNoTag @"typedef--__u64.txt"
+0x20 InPktsBadTag @"typedef--__u64.txt"
+0x28 InPktsUnknownSCI @"typedef--__u64.txt"
+0x30 InPktsNoSCI @"typedef--__u64.txt"
+0x38 InPktsOverrun @"typedef--__u64.txt"
+}

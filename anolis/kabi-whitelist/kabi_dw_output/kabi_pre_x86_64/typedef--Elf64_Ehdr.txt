@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/elf.h:241
+Symbol:
+typedef Elf64_Ehdr
+@"struct--elf64_hdr.txt"

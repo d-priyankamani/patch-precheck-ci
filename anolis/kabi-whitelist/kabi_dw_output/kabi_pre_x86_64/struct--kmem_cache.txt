@@ -1,0 +1,38 @@
+Version: 1.0
+File: include/linux/slub_def.h:98
+Symbol:
+Byte size 784
+struct kmem_cache {
+0x0 cpu_slab * @"struct--kmem_cache_cpu.txt"
+0x8 flags @"typedef--slab_flags_t.txt"
+0x10 min_partial "long unsigned int"
+0x18 size "unsigned int"
+0x1c object_size "unsigned int"
+0x20 reciprocal_size @"struct--reciprocal_value.txt"
+0x28 offset "unsigned int"
+0x2c cpu_partial "unsigned int"
+0x30 cpu_partial_slabs "unsigned int"
+0x34 oo @"struct--kmem_cache_order_objects.txt"
+0x38 min @"struct--kmem_cache_order_objects.txt"
+0x3c allocflags @"typedef--gfp_t.txt"
+0x40 refcount "int"
+0x48 ctor * func (NULL) (
+(NULL) * "void"
+)
+"void"
+0x50 inuse "unsigned int"
+0x54 align "unsigned int"
+0x58 red_left_pad "unsigned int"
+0x60 name * const "char"
+0x68 list @"struct--list_head.txt"
+0x78 kobj @"struct--kobject.txt"
+0xd8 remote_node_defrag_ratio "unsigned int"
+0xe0 random_seq * "unsigned int"
+0xe8 useroffset "unsigned int"
+0xec usersize "unsigned int"
+0xf0 oot_page_list @"struct--list_head.txt"
+0x100 oot_lock @"typedef--spinlock_t.txt"
+0x104 oot_page_num "unsigned int"
+0x108 is_oot @"typedef--bool.txt"
+0x110 node [64]* @"struct--kmem_cache_node.txt"
+}

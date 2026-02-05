@@ -1,0 +1,171 @@
+Version: 1.0
+File: include/uapi/linux/kvm.h:298
+Symbol:
+Byte size 2352
+struct kvm_run {
+0x0 request_interrupt_window @"typedef--__u8.txt"
+0x1 immediate_exit @"typedef--__u8.txt"
+0x2 padding1 [6]@"typedef--__u8.txt"
+0x8 exit_reason @"typedef--__u32.txt"
+0xc ready_for_interrupt_injection @"typedef--__u8.txt"
+0xd if_flag @"typedef--__u8.txt"
+0xe flags @"typedef--__u16.txt"
+0x10 cr8 @"typedef--__u64.txt"
+0x18 apic_base @"typedef--__u64.txt"
+0x20 (NULL) union (NULL) {
+hw struct (NULL) {
+0x0 hardware_exit_reason @"typedef--__u64.txt"
+}
+fail_entry struct (NULL) {
+0x0 hardware_entry_failure_reason @"typedef--__u64.txt"
+0x8 cpu @"typedef--__u32.txt"
+}
+ex struct (NULL) {
+0x0 exception @"typedef--__u32.txt"
+0x4 error_code @"typedef--__u32.txt"
+}
+io struct (NULL) {
+0x0 direction @"typedef--__u8.txt"
+0x1 size @"typedef--__u8.txt"
+0x2 port @"typedef--__u16.txt"
+0x4 count @"typedef--__u32.txt"
+0x8 data_offset @"typedef--__u64.txt"
+}
+debug struct (NULL) {
+0x0 arch @"struct--kvm_debug_exit_arch.txt"
+}
+mmio struct (NULL) {
+0x0 phys_addr @"typedef--__u64.txt"
+0x8 data [8]@"typedef--__u8.txt"
+0x10 len @"typedef--__u32.txt"
+0x14 is_write @"typedef--__u8.txt"
+}
+iocsr_io struct (NULL) {
+0x0 phys_addr @"typedef--__u64.txt"
+0x8 data [8]@"typedef--__u8.txt"
+0x10 len @"typedef--__u32.txt"
+0x14 is_write @"typedef--__u8.txt"
+}
+hypercall struct (NULL) {
+0x0 nr @"typedef--__u64.txt"
+0x8 args [6]@"typedef--__u64.txt"
+0x38 ret @"typedef--__u64.txt"
+0x40 (NULL) union (NULL) {
+flags @"typedef--__u64.txt"
+}
+}
+tpr_access struct (NULL) {
+0x0 rip @"typedef--__u64.txt"
+0x8 is_write @"typedef--__u32.txt"
+0xc pad @"typedef--__u32.txt"
+}
+s390_sieic struct (NULL) {
+0x0 icptcode @"typedef--__u8.txt"
+0x2 ipa @"typedef--__u16.txt"
+0x4 ipb @"typedef--__u32.txt"
+}
+s390_reset_flags @"typedef--__u64.txt"
+s390_ucontrol struct (NULL) {
+0x0 trans_exc_code @"typedef--__u64.txt"
+0x8 pgm_code @"typedef--__u32.txt"
+}
+dcr struct (NULL) {
+0x0 dcrn @"typedef--__u32.txt"
+0x4 data @"typedef--__u32.txt"
+0x8 is_write @"typedef--__u8.txt"
+}
+internal struct (NULL) {
+0x0 suberror @"typedef--__u32.txt"
+0x4 ndata @"typedef--__u32.txt"
+0x8 data [16]@"typedef--__u64.txt"
+}
+emulation_failure struct (NULL) {
+0x0 suberror @"typedef--__u32.txt"
+0x4 ndata @"typedef--__u32.txt"
+0x8 flags @"typedef--__u64.txt"
+0x10 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 insn_size @"typedef--__u8.txt"
+0x1 insn_bytes [15]@"typedef--__u8.txt"
+}
+}
+}
+osi struct (NULL) {
+0x0 gprs [32]@"typedef--__u64.txt"
+}
+papr_hcall struct (NULL) {
+0x0 nr @"typedef--__u64.txt"
+0x8 ret @"typedef--__u64.txt"
+0x10 args [9]@"typedef--__u64.txt"
+}
+s390_tsch struct (NULL) {
+0x0 subchannel_id @"typedef--__u16.txt"
+0x2 subchannel_nr @"typedef--__u16.txt"
+0x4 io_int_parm @"typedef--__u32.txt"
+0x8 io_int_word @"typedef--__u32.txt"
+0xc ipb @"typedef--__u32.txt"
+0x10 dequeued @"typedef--__u8.txt"
+}
+epr struct (NULL) {
+0x0 epr @"typedef--__u32.txt"
+}
+system_event struct (NULL) {
+0x0 type @"typedef--__u32.txt"
+0x4 ndata @"typedef--__u32.txt"
+0x8 (NULL) union (NULL) {
+data [16]@"typedef--__u64.txt"
+}
+}
+s390_stsi struct (NULL) {
+0x0 addr @"typedef--__u64.txt"
+0x8 ar @"typedef--__u8.txt"
+0x9 reserved @"typedef--__u8.txt"
+0xa fc @"typedef--__u8.txt"
+0xb sel1 @"typedef--__u8.txt"
+0xc sel2 @"typedef--__u16.txt"
+}
+eoi struct (NULL) {
+0x0 vector @"typedef--__u8.txt"
+}
+hyperv @"struct--kvm_hyperv_exit.txt"
+arm_nisv struct (NULL) {
+0x0 esr_iss @"typedef--__u64.txt"
+0x8 fault_ipa @"typedef--__u64.txt"
+}
+msr struct (NULL) {
+0x0 error @"typedef--__u8.txt"
+0x1 pad [7]@"typedef--__u8.txt"
+0x8 reason @"typedef--__u32.txt"
+0xc index @"typedef--__u32.txt"
+0x10 data @"typedef--__u64.txt"
+}
+xen @"struct--kvm_xen_exit.txt"
+riscv_sbi struct (NULL) {
+0x0 extension_id "long unsigned int"
+0x8 function_id "long unsigned int"
+0x10 args [6]"long unsigned int"
+0x40 ret [2]"long unsigned int"
+}
+riscv_csr struct (NULL) {
+0x0 csr_num "long unsigned int"
+0x8 new_value "long unsigned int"
+0x10 write_mask "long unsigned int"
+0x18 ret_value "long unsigned int"
+}
+notify struct (NULL) {
+0x0 flags @"typedef--__u32.txt"
+}
+memory_fault struct (NULL) {
+0x0 flags @"typedef--__u64.txt"
+0x8 gpa @"typedef--__u64.txt"
+0x10 size @"typedef--__u64.txt"
+}
+padding [256]"char"
+}
+0x120 kvm_valid_regs @"typedef--__u64.txt"
+0x128 kvm_dirty_regs @"typedef--__u64.txt"
+0x130 s union (NULL) {
+regs @"struct--kvm_sync_regs.txt"
+padding [2048]"char"
+}
+}

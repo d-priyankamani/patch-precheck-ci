@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/xdp/xsk_buff_pool.c:656
+Symbol:
+func xp_free (
+xskb * @"struct--xdp_buff_xsk.txt"
+)
+"void"

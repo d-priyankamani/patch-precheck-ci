@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/power/runtime.c:1488
+Symbol:
+func pm_runtime_enable (
+dev * @"struct--device.txt"
+)
+"void"

@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/drm/drm_legacy.h:121
+Symbol:
+Byte size 968
+struct drm_device_dma {
+0x0 bufs [23]@"struct--drm_buf_entry.txt"
+0x398 buf_count "int"
+0x3a0 buflist * * @"struct--drm_buf.txt"
+0x3a8 seg_count "int"
+0x3ac page_count "int"
+0x3b0 pagelist * "long unsigned int"
+0x3b8 byte_count "long unsigned int"
+0x3c0 flags enum (NULL) {
+_DRM_DMA_USE_AGP = 0x1
+_DRM_DMA_USE_SG = 0x2
+_DRM_DMA_USE_FB = 0x4
+_DRM_DMA_USE_PCI_RO = 0x8
+}
+}

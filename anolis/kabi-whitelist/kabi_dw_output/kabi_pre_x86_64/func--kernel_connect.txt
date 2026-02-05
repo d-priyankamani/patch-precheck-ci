@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/socket.c:3625
+Symbol:
+func kernel_connect (
+sock * @"struct--socket.txt"
+addr * @"struct--sockaddr.txt"
+addrlen "int"
+flags "int"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dst.c:309
+Symbol:
+func metadata_dst_free (
+md_dst * @"struct--metadata_dst.txt"
+)
+"void"

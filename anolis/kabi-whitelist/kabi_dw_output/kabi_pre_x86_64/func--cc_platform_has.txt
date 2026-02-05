@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/coco/core.c:104
+Symbol:
+func cc_platform_has (
+attr @"enum--cc_attr.txt"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:186
+Symbol:
+func ib_rate_to_mbps (
+rate @"enum--ib_rate.txt"
+)
+"int"

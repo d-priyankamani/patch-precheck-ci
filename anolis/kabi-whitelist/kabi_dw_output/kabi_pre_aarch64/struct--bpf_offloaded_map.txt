@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/bpf.h:552
+Symbol:
+Byte size 448
+Alignment 64
+struct bpf_offloaded_map {
+0x0 64 map @"struct--bpf_map.txt"
+0x180 netdev * @"struct--net_device.txt"
+0x188 dev_ops * const @"struct--bpf_map_dev_ops.txt"
+0x190 dev_priv * "void"
+0x198 offloads @"struct--list_head.txt"
+}

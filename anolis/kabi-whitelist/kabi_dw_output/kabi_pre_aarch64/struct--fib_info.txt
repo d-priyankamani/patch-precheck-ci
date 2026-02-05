@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/net/ip_fib.h:134
+Symbol:
+Byte size 128
+Alignment 8
+struct fib_info {
+0x0 fib_hash @"struct--hlist_node.txt"
+0x10 fib_lhash @"struct--hlist_node.txt"
+0x20 nh_list @"struct--list_head.txt"
+0x30 fib_net * @"struct--net.txt"
+0x38 fib_treeref @"typedef--refcount_t.txt"
+0x3c fib_clntref @"typedef--refcount_t.txt"
+0x40 fib_flags "unsigned int"
+0x44 fib_dead "unsigned char"
+0x45 fib_protocol "unsigned char"
+0x46 fib_scope "unsigned char"
+0x47 fib_type "unsigned char"
+0x48 fib_prefsrc @"typedef--__be32.txt"
+0x4c fib_tb_id @"typedef--u32.txt"
+0x50 fib_priority @"typedef--u32.txt"
+0x58 fib_metrics * @"struct--dst_metrics.txt"
+0x60 fib_nhs "int"
+0x64 fib_nh_is_v6 @"typedef--bool.txt"
+0x65 nh_updated @"typedef--bool.txt"
+0x66 pfsrc_removed @"typedef--bool.txt"
+0x68 nh * @"struct--nexthop.txt"
+0x70 8 rcu @"struct--callback_head.txt"
+0x80 fib_nh [0]@"struct--fib_nh.txt"
+}

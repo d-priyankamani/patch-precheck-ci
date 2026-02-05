@@ -1,0 +1,123 @@
+Version: 1.0
+File: include/linux/fb.h:240
+Symbol:
+Byte size 184
+struct fb_ops {
+0x0 owner * @"struct--module.txt"
+0x8 fb_open * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) "int"
+)
+"int"
+0x10 fb_release * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) "int"
+)
+"int"
+0x18 fb_read * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x20 fb_write * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x28 fb_check_var * func (NULL) (
+(NULL) * @"struct--fb_var_screeninfo.txt"
+(NULL) * @"struct--fb_info.txt"
+)
+"int"
+0x30 fb_set_par * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+)
+"int"
+0x38 fb_setcolreg * func (NULL) (
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) * @"struct--fb_info.txt"
+)
+"int"
+0x40 fb_setcmap * func (NULL) (
+(NULL) * @"struct--fb_cmap.txt"
+(NULL) * @"struct--fb_info.txt"
+)
+"int"
+0x48 fb_blank * func (NULL) (
+(NULL) "int"
+(NULL) * @"struct--fb_info.txt"
+)
+"int"
+0x50 fb_pan_display * func (NULL) (
+(NULL) * @"struct--fb_var_screeninfo.txt"
+(NULL) * @"struct--fb_info.txt"
+)
+"int"
+0x58 fb_fillrect * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * const @"struct--fb_fillrect.txt"
+)
+"void"
+0x60 fb_copyarea * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * const @"struct--fb_copyarea.txt"
+)
+"void"
+0x68 fb_imageblit * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * const @"struct--fb_image.txt"
+)
+"void"
+0x70 fb_cursor * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * @"struct--fb_cursor.txt"
+)
+"int"
+0x78 fb_sync * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+)
+"int"
+0x80 fb_ioctl * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x88 fb_compat_ioctl * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x90 fb_mmap * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+0x98 fb_get_caps * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+(NULL) * @"struct--fb_blit_caps.txt"
+(NULL) * @"struct--fb_var_screeninfo.txt"
+)
+"void"
+0xa0 fb_destroy * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+)
+"void"
+0xa8 fb_debug_enter * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+)
+"int"
+0xb0 fb_debug_leave * func (NULL) (
+(NULL) * @"struct--fb_info.txt"
+)
+"int"
+}

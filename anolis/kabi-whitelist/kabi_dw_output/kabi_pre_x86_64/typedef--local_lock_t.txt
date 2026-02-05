@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/local_lock_internal.h:16
+Symbol:
+typedef local_lock_t
+struct (NULL) {
+}

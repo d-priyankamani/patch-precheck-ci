@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/netns/conntrack.h:54
+Symbol:
+Byte size 44
+struct nf_dccp_net {
+0x0 dccp_loose @"typedef--u8.txt"
+0x4 dccp_timeout [10]"unsigned int"
+}

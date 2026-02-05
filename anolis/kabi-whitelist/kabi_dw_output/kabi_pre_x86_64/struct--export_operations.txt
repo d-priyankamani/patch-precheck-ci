@@ -1,0 +1,67 @@
+Version: 1.0
+File: include/linux/exportfs.h:202
+Symbol:
+Byte size 96
+struct export_operations {
+0x0 encode_fh * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"typedef--__u32.txt"
+(NULL) * "int"
+(NULL) * @"struct--inode.txt"
+)
+"int"
+0x8 fh_to_dentry * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) * @"struct--fid.txt"
+(NULL) "int"
+(NULL) "int"
+)
+* @"struct--dentry.txt"
+0x10 fh_to_parent * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) * @"struct--fid.txt"
+(NULL) "int"
+(NULL) "int"
+)
+* @"struct--dentry.txt"
+0x18 get_name * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) * "char"
+(NULL) * @"struct--dentry.txt"
+)
+"int"
+0x20 get_parent * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+)
+* @"struct--dentry.txt"
+0x28 commit_metadata * func (NULL) (
+(NULL) * @"struct--inode.txt"
+)
+"int"
+0x30 get_uuid * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) * @"typedef--u8.txt"
+(NULL) * @"typedef--u32.txt"
+(NULL) * @"typedef--u64.txt"
+)
+"int"
+0x38 map_blocks * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) * @"<declarations>/struct--iomap.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * @"typedef--u32.txt"
+)
+"int"
+0x40 commit_blocks * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"<declarations>/struct--iomap.txt"
+(NULL) "int"
+(NULL) * @"struct--iattr.txt"
+)
+"int"
+0x48 flags "long unsigned int"
+0x50 ck_reserved1 "long unsigned int"
+0x58 ck_reserved2 "long unsigned int"
+}

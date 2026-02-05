@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/bio.h:360
+Symbol:
+Byte size 144
+Alignment 8
+struct bio_integrity_payload {
+0x0 bip_bio * @"struct--bio.txt"
+0x8 4 bip_iter @"struct--bvec_iter.txt"
+0x1c bip_vcnt "short unsigned int"
+0x1e bip_max_vcnt "short unsigned int"
+0x20 bip_flags "short unsigned int"
+0x24 4 bio_iter @"struct--bvec_iter.txt"
+0x38 bip_work @"struct--work_struct.txt"
+0x78 bip_vec * @"struct--bio_vec.txt"
+0x80 ck_reserved1 "long unsigned int"
+0x88 ck_reserved2 "long unsigned int"
+0x90 bip_inline_vecs [0]@"struct--bio_vec.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/msi.h:30
+Symbol:
+Byte size 4
+struct arch_msi_msg_addr_lo {
+0x0 address_lo @"typedef--u32.txt"
+}

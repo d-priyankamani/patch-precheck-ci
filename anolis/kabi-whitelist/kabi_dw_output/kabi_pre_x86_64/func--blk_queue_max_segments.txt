@@ -1,0 +1,8 @@
+Version: 1.0
+File: block/blk-settings.c:260
+Symbol:
+func blk_queue_max_segments (
+q * @"struct--request_queue.txt"
+max_segments "short unsigned int"
+)
+"void"

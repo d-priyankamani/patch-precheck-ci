@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/list_sort.c:185
+Symbol:
+func list_sort (
+priv * "void"
+head * @"struct--list_head.txt"
+cmp @"typedef--list_cmp_func_t.txt"
+)
+"void"

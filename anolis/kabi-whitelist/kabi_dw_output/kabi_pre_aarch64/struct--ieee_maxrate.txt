@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/uapi/linux/dcbnl.h:78
+Symbol:
+Byte size 64
+struct ieee_maxrate {
+0x0 tc_maxrate [8]@"typedef--__u64.txt"
+}

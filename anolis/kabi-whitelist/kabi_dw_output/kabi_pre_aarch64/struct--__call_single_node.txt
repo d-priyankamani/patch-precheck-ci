@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/smp_types.h:58
+Symbol:
+Byte size 16
+struct __call_single_node {
+0x0 llist @"struct--llist_node.txt"
+0x8 (NULL) union (NULL) {
+u_flags "unsigned int"
+a_flags @"typedef--atomic_t.txt"
+}
+0xc src @"typedef--u16.txt"
+0xe dst @"typedef--u16.txt"
+}

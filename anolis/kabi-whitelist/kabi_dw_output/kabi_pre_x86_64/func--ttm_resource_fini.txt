@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_resource.c:214
+Symbol:
+func ttm_resource_fini (
+man * @"struct--ttm_resource_manager.txt"
+res * @"struct--ttm_resource.txt"
+)
+"void"

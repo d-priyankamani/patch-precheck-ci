@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/dcache.h:50
+Symbol:
+Byte size 16
+struct qstr {
+0x0 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 hash @"typedef--u32.txt"
+0x4 len @"typedef--u32.txt"
+}
+hash_len @"typedef--u64.txt"
+}
+0x8 name * const "unsigned char"
+}

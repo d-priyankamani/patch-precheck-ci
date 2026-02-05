@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/mm_types.h:620
+Symbol:
+Byte size 40
+struct vma_lock {
+0x0 lock @"struct--rw_semaphore.txt"
+}

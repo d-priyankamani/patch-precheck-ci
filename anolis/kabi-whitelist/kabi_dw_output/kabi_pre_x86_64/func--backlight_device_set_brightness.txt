@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/video/backlight/backlight.c:230
+Symbol:
+func backlight_device_set_brightness (
+bd * @"struct--backlight_device.txt"
+brightness "long unsigned int"
+)
+"int"

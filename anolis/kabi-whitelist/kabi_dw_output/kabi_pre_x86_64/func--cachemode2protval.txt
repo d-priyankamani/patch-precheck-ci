@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/mm/init.c:62
+Symbol:
+func cachemode2protval (
+pcm @"enum--page_cache_mode.txt"
+)
+"long unsigned int"

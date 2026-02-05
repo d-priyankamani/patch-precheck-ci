@@ -1,0 +1,13 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_buddy.c:671
+Symbol:
+func drm_buddy_alloc_blocks (
+mm * @"struct--drm_buddy.txt"
+start @"typedef--u64.txt"
+end @"typedef--u64.txt"
+size @"typedef--u64.txt"
+min_page_size @"typedef--u64.txt"
+blocks * @"struct--list_head.txt"
+flags "long unsigned int"
+)
+"int"

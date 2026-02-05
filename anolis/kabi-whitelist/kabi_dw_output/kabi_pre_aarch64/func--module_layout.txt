@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/module/version.c:94
+Symbol:
+func module_layout (
+mod * @"struct--module.txt"
+ver * @"struct--modversion_info.txt"
+kp * @"struct--kernel_param.txt"
+ks * @"struct--kernel_symbol.txt"
+tp * const * @"struct--tracepoint.txt"
+)
+"void"

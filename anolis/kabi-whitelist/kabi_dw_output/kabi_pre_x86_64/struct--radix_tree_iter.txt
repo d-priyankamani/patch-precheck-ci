@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/radix-tree.h:106
+Symbol:
+Byte size 32
+struct radix_tree_iter {
+0x0 index "long unsigned int"
+0x8 next_index "long unsigned int"
+0x10 tags "long unsigned int"
+0x18 node * @"struct--xa_node.txt"
+}

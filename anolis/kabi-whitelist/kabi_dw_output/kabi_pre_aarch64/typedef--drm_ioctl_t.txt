@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/drm/drm_ioctl.h:54
+Symbol:
+Byte size 4
+typedef drm_ioctl_t
+func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * "void"
+(NULL) * @"struct--drm_file.txt"
+)
+"int"

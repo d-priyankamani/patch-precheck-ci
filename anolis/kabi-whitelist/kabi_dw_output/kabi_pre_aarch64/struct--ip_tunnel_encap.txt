@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/ip_tunnels.h:61
+Symbol:
+Byte size 8
+struct ip_tunnel_encap {
+0x0 type @"typedef--u16.txt"
+0x2 flags @"typedef--u16.txt"
+0x4 sport @"typedef--__be16.txt"
+0x6 dport @"typedef--__be16.txt"
+}

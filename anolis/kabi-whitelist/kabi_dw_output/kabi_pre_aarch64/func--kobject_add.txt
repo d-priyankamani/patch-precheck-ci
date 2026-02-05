@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/kobject.c:410
+Symbol:
+func kobject_add (
+kobj * @"struct--kobject.txt"
+parent * @"struct--kobject.txt"
+fmt * const "char"
+(NULL) ...
+)
+"int"

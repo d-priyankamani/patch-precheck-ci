@@ -1,0 +1,6 @@
+Version: 1.0
+File: drivers/char/random.c:532
+Symbol:
+func get_random_u32 (
+)
+@"typedef--u32.txt"

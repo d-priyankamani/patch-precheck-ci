@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/xdp/xsk.c:49
+Symbol:
+func xsk_set_tx_need_wakeup (
+pool * @"struct--xsk_buff_pool.txt"
+)
+"void"

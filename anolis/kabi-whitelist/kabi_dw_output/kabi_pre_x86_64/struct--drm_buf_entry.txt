@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/drm/drm_legacy.h:106
+Symbol:
+Byte size 40
+struct drm_buf_entry {
+0x0 buf_size "int"
+0x4 buf_count "int"
+0x8 buflist * @"struct--drm_buf.txt"
+0x10 seg_count "int"
+0x14 page_order "int"
+0x18 seglist * * @"struct--drm_dma_handle.txt"
+0x20 low_mark "int"
+0x24 high_mark "int"
+}

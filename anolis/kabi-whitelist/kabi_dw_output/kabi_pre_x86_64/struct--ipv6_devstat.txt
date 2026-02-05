@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/if_inet6.h:160
+Symbol:
+Byte size 32
+struct ipv6_devstat {
+0x0 proc_dir_entry * @"<declarations>/struct--proc_dir_entry.txt"
+0x8 ipv6 * @"struct--ipstats_mib.txt"
+0x10 icmpv6dev * @"struct--icmpv6_mib_device.txt"
+0x18 icmpv6msgdev * @"struct--icmpv6msg_mib_device.txt"
+}

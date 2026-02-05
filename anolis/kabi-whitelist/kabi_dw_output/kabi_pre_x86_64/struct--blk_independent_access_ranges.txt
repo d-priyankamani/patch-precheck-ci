@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/blkdev.h:397
+Symbol:
+Byte size 104
+struct blk_independent_access_ranges {
+0x0 kobj @"struct--kobject.txt"
+0x60 sysfs_registered @"typedef--bool.txt"
+0x64 nr_ia_ranges "unsigned int"
+0x68 ia_range [0]@"struct--blk_independent_access_range.txt"
+}

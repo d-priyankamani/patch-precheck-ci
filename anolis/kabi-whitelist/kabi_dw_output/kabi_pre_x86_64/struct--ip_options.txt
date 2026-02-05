@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/net/inet_sock.h:39
+Symbol:
+Byte size 16
+struct ip_options {
+0x0 faddr @"typedef--__be32.txt"
+0x4 nexthop @"typedef--__be32.txt"
+0x8 optlen "unsigned char"
+0x9 srr "unsigned char"
+0xa rr "unsigned char"
+0xb ts "unsigned char"
+0xc:0-1 is_strictroute "unsigned char"
+0xc:1-2 srr_is_hit "unsigned char"
+0xc:2-3 is_changed "unsigned char"
+0xc:3-4 rr_needaddr "unsigned char"
+0xc:4-5 ts_needtime "unsigned char"
+0xc:5-6 ts_needaddr "unsigned char"
+0xd router_alert "unsigned char"
+0xe cipso "unsigned char"
+0xf __pad2 "unsigned char"
+0x10 __data [0]"unsigned char"
+}

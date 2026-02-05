@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/time64.h:13
+Symbol:
+Byte size 16
+struct timespec64 {
+0x0 tv_sec @"typedef--time64_t.txt"
+0x8 tv_nsec "long int"
+}

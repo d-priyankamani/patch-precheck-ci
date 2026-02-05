@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/notifier.h:70
+Symbol:
+Byte size 8
+struct raw_notifier_head {
+0x0 head * @"struct--notifier_block.txt"
+}

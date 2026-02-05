@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:71
+Symbol:
+Byte size 8
+struct io_uring {
+0x0 head @"typedef--u32.txt"
+0x4 tail @"typedef--u32.txt"
+}

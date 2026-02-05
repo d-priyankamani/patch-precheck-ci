@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/tls.h:149
+Symbol:
+Byte size 56
+struct tls12_crypto_info_chacha20_poly1305 {
+0x0 info @"struct--tls_crypto_info.txt"
+0x4 iv [12]"unsigned char"
+0x10 key [32]"unsigned char"
+0x30 salt [0]"unsigned char"
+0x30 rec_seq [8]"unsigned char"
+}

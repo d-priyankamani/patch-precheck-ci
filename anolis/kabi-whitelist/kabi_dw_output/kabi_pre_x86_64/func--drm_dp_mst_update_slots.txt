@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_mst_topology.c:4692
+Symbol:
+func drm_dp_mst_update_slots (
+mst_state * @"struct--drm_dp_mst_topology_state.txt"
+link_encoding_cap @"typedef--uint8_t.txt"
+)
+"void"

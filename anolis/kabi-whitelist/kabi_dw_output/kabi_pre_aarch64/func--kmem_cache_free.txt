@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/slub.c:3872
+Symbol:
+func kmem_cache_free (
+s * @"struct--kmem_cache.txt"
+x * "void"
+)
+"void"

@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/fs.h:1073
+Symbol:
+Byte size 8
+typedef fl_owner_t
+* "void"

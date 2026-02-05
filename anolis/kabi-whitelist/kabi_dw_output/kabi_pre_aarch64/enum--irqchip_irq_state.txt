@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/interrupt.h:499
+Symbol:
+Byte size 4
+enum irqchip_irq_state {
+IRQCHIP_STATE_PENDING = 0x0
+IRQCHIP_STATE_ACTIVE = 0x1
+IRQCHIP_STATE_MASKED = 0x2
+IRQCHIP_STATE_LINE_LEVEL = 0x3
+}

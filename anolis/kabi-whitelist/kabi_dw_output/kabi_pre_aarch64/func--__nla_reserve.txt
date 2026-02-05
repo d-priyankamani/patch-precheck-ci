@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/nlattr.c:894
+Symbol:
+func __nla_reserve (
+skb * @"struct--sk_buff.txt"
+attrtype "int"
+attrlen "int"
+)
+* @"struct--nlattr.txt"

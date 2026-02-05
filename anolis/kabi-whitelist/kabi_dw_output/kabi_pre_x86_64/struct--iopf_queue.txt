@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/iommu.h:151
+Symbol:
+Byte size 56
+struct iopf_queue {
+0x0 wq * @"<declarations>/struct--workqueue_struct.txt"
+0x8 devices @"struct--list_head.txt"
+0x18 lock @"struct--mutex.txt"
+}

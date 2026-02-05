@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:582
+Symbol:
+Byte size 16
+struct bpf_subprog_info {
+0x0 start @"typedef--u32.txt"
+0x4 linfo_idx @"typedef--u32.txt"
+0x8 stack_depth @"typedef--u16.txt"
+0xa has_tail_call @"typedef--bool.txt"
+0xb tail_call_reachable @"typedef--bool.txt"
+0xc has_ld_abs @"typedef--bool.txt"
+0xd is_async_cb @"typedef--bool.txt"
+0xe changes_pkt_data @"typedef--bool.txt"
+}

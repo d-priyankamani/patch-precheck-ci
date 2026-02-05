@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/power/runtime.c:1246
+Symbol:
+func __pm_runtime_set_status (
+dev * @"struct--device.txt"
+status "unsigned int"
+)
+"int"

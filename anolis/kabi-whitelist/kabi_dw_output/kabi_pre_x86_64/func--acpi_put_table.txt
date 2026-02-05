@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/acpi/acpica/tbxface.c:359
+Symbol:
+func acpi_put_table (
+table * @"struct--acpi_table_header.txt"
+)
+"void"

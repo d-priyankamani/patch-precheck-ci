@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/ethernet/eth.c:155
+Symbol:
+func eth_type_trans (
+skb * @"struct--sk_buff.txt"
+dev * @"struct--net_device.txt"
+)
+@"typedef--__be16.txt"

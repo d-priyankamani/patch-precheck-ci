@@ -1,0 +1,20 @@
+Version: 1.0
+File: drivers/pci/pcie/aspm.c:188
+Symbol:
+Byte size 56
+struct pcie_link_state {
+0x0 pdev * @"struct--pci_dev.txt"
+0x8 downstream * @"struct--pci_dev.txt"
+0x10 root * @"struct--pcie_link_state.txt"
+0x18 parent * @"struct--pcie_link_state.txt"
+0x20 sibling @"struct--list_head.txt"
+0x30:0-7 aspm_support @"typedef--u32.txt"
+0x30:7-14 aspm_enabled @"typedef--u32.txt"
+0x31:6-13 aspm_capable @"typedef--u32.txt"
+0x32:5-12 aspm_default @"typedef--u32.txt"
+0x34:0-7 aspm_disable @"typedef--u32.txt"
+0x34:7-8 clkpm_capable @"typedef--u32.txt"
+0x35:0-1 clkpm_enabled @"typedef--u32.txt"
+0x35:1-2 clkpm_default @"typedef--u32.txt"
+0x35:2-3 clkpm_disable @"typedef--u32.txt"
+}

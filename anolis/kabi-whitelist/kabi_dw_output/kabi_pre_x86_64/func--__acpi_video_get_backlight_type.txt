@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/acpi/video_detect.c:866
+Symbol:
+func __acpi_video_get_backlight_type (
+native @"typedef--bool.txt"
+auto_detect * @"typedef--bool.txt"
+)
+@"enum--acpi_backlight_type.txt"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/list_lru.h:44
+Symbol:
+Byte size 64
+Alignment 64
+struct list_lru_node {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 lru @"struct--list_lru_one.txt"
+0x20 nr_items "long int"
+}

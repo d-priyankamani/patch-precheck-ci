@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/jump_label.c:580
+Symbol:
+Byte size 24
+struct static_key_mod {
+0x0 next * @"struct--static_key_mod.txt"
+0x8 entries * @"struct--jump_entry.txt"
+0x10 mod * @"struct--module.txt"
+}

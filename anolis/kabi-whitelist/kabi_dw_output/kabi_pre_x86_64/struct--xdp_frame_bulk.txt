@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/xdp.h:198
+Symbol:
+Byte size 144
+struct xdp_frame_bulk {
+0x0 count "int"
+0x8 xa * "void"
+0x10 q [16]* "void"
+}

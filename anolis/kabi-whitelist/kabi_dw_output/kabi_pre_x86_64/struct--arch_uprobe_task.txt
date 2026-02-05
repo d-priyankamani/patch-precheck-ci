@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/include/asm/uprobes.h:50
+Symbol:
+Byte size 16
+struct arch_uprobe_task {
+0x0 saved_scratch_register "long unsigned int"
+0x8 saved_trap_nr "unsigned int"
+0xc saved_tf "unsigned int"
+}

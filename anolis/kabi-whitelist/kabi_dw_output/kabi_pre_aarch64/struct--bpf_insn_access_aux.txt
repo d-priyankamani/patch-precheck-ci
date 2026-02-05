@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/bpf.h:922
+Symbol:
+Byte size 48
+struct bpf_insn_access_aux {
+0x0 reg_type @"enum--bpf_reg_type.txt"
+0x8 (NULL) union (NULL) {
+ctx_field_size "int"
+(NULL) struct (NULL) {
+0x0 btf * @"<declarations>/struct--btf.txt"
+0x8 btf_id @"typedef--u32.txt"
+}
+}
+0x18 log * @"struct--bpf_verifier_log.txt"
+0x20 ck_reserved1 "long unsigned int"
+0x28 ck_reserved2 "long unsigned int"
+}

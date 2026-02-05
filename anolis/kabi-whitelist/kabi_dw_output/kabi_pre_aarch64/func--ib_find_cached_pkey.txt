@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:1085
+Symbol:
+func ib_find_cached_pkey (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+pkey @"typedef--u16.txt"
+index * @"typedef--u16.txt"
+)
+"int"

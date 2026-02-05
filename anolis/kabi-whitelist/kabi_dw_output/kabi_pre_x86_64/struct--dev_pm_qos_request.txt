@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/pm_qos.h:107
+Symbol:
+Byte size 88
+struct dev_pm_qos_request {
+0x0 type @"enum--dev_pm_qos_req_type.txt"
+0x8 data union (NULL) {
+pnode @"struct--plist_node.txt"
+flr @"struct--pm_qos_flags_request.txt"
+freq @"struct--freq_qos_request.txt"
+}
+0x40 dev * @"struct--device.txt"
+0x48 ck_reserved1 "long unsigned int"
+0x50 ck_reserved2 "long unsigned int"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_transport_sas.c:1461
+Symbol:
+func sas_end_device_alloc (
+parent * @"struct--sas_port.txt"
+)
+* @"struct--sas_rphy.txt"

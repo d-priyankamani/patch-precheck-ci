@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_state_helper.c:665
+Symbol:
+func __drm_atomic_helper_connector_destroy_state (
+state * @"struct--drm_connector_state.txt"
+)
+"void"

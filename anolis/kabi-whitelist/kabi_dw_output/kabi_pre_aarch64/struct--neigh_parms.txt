@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/net/neighbour.h:71
+Symbol:
+Byte size 160
+Alignment 8
+struct neigh_parms {
+0x0 net @"typedef--possible_net_t.txt"
+0x8 dev * @"struct--net_device.txt"
+0x10 dev_tracker @"typedef--netdevice_tracker.txt"
+0x10 list @"struct--list_head.txt"
+0x20 neigh_setup * func (NULL) (
+(NULL) * @"struct--neighbour.txt"
+)
+"int"
+0x28 tbl * @"struct--neigh_table.txt"
+0x30 sysctl_table * "void"
+0x38 dead "int"
+0x3c refcnt @"typedef--refcount_t.txt"
+0x40 8 callback_head @"struct--callback_head.txt"
+0x50 reachable_time "int"
+0x54 qlen @"typedef--u32.txt"
+0x58 data [14]"int"
+0x90 data_state [1]"long unsigned int"
+0x98 ck_reserved1 "long unsigned int"
+}

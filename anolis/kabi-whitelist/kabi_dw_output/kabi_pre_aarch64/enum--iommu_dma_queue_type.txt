@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/iommu/dma-iommu.c:45
+Symbol:
+Byte size 4
+enum iommu_dma_queue_type {
+IOMMU_DMA_OPTS_PER_CPU_QUEUE = 0x0
+IOMMU_DMA_OPTS_SINGLE_QUEUE = 0x1
+}

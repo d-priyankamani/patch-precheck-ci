@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/seg6.h:36
+Symbol:
+Byte size 40
+struct seg6_pernet_data {
+0x0 lock @"struct--mutex.txt"
+0x20 tun_src * @"struct--in6_addr.txt"
+}

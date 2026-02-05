@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/gpio/consumer.h:582
+Symbol:
+Byte size 12
+struct acpi_gpio_params {
+0x0 crs_entry_index "unsigned int"
+0x4 line_index "unsigned int"
+0x8 active_low @"typedef--bool.txt"
+}

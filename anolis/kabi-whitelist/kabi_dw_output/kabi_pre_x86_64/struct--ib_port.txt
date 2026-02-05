@@ -1,0 +1,14 @@
+Version: 1.0
+File: drivers/infiniband/core/sysfs.c:64
+Symbol:
+Byte size 288
+struct ib_port {
+0x0 kobj @"struct--kobject.txt"
+0x60 ibdev * @"struct--ib_device.txt"
+0x68 gid_attr_group * @"struct--gid_attr_group.txt"
+0x70 hw_stats_data * @"struct--hw_stats_port_data.txt"
+0x78 groups [3]@"struct--attribute_group.txt"
+0xf0 groups_list [5]* const @"struct--attribute_group.txt"
+0x118 port_num @"typedef--u32.txt"
+0x120 attrs_list [0]@"struct--port_table_attribute.txt"
+}

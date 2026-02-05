@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_helper.c:373
+Symbol:
+func drm_dp_link_train_clock_recovery_delay (
+aux * const @"struct--drm_dp_aux.txt"
+dpcd * const @"typedef--u8.txt"
+)
+"void"

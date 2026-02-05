@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/ttm/ttm_resource.h:192
+Symbol:
+Byte size 24
+struct ttm_bus_placement {
+0x0 addr * "void"
+0x8 offset @"typedef--phys_addr_t.txt"
+0x10 is_iomem @"typedef--bool.txt"
+0x14 caching @"enum--ttm_caching.txt"
+}

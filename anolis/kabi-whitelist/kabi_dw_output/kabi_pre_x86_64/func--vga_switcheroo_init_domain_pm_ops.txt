@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/vga/vga_switcheroo.c:1057
+Symbol:
+func vga_switcheroo_init_domain_pm_ops (
+dev * @"struct--device.txt"
+domain * @"struct--dev_pm_domain.txt"
+)
+"int"

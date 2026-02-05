@@ -1,0 +1,12 @@
+Version: 1.0
+File: arch/arm64/include/asm/ftrace.h:77
+Symbol:
+Byte size 112
+struct ftrace_regs {
+0x0 regs [9]"long unsigned int"
+0x48 direct_tramp "long unsigned int"
+0x50 fp "long unsigned int"
+0x58 lr "long unsigned int"
+0x60 sp "long unsigned int"
+0x68 pc "long unsigned int"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/ib_core_uverbs.c:230
+Symbol:
+func rdma_user_mmap_entry_remove (
+entry * @"struct--rdma_user_mmap_entry.txt"
+)
+"void"

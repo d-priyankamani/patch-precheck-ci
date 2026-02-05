@@ -1,0 +1,19 @@
+Version: 1.0
+File: arch/arm64/include/asm/processor.h:131
+Symbol:
+Byte size 104
+struct cpu_context {
+0x0 x19 "long unsigned int"
+0x8 x20 "long unsigned int"
+0x10 x21 "long unsigned int"
+0x18 x22 "long unsigned int"
+0x20 x23 "long unsigned int"
+0x28 x24 "long unsigned int"
+0x30 x25 "long unsigned int"
+0x38 x26 "long unsigned int"
+0x40 x27 "long unsigned int"
+0x48 x28 "long unsigned int"
+0x50 fp "long unsigned int"
+0x58 sp "long unsigned int"
+0x60 pc "long unsigned int"
+}

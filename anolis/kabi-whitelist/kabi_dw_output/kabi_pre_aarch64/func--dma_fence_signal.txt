@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:461
+Symbol:
+func dma_fence_signal (
+fence * @"struct--dma_fence.txt"
+)
+"int"

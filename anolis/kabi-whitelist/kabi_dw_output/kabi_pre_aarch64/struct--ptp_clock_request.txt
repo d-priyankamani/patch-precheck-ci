@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/ptp_clock_kernel.h:32
+Symbol:
+Byte size 64
+struct ptp_clock_request {
+0x0 type enum (NULL) {
+PTP_CLK_REQ_EXTTS = 0x0
+PTP_CLK_REQ_PEROUT = 0x1
+PTP_CLK_REQ_PPS = 0x2
+}
+0x8 (NULL) union (NULL) {
+extts @"struct--ptp_extts_request.txt"
+perout @"struct--ptp_perout_request.txt"
+}
+}

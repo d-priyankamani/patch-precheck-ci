@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/net/ip6_fib.h:73
+Symbol:
+Byte size 80
+Alignment 8
+struct fib6_node {
+0x0 parent * @"struct--fib6_node.txt"
+0x8 left * @"struct--fib6_node.txt"
+0x10 right * @"struct--fib6_node.txt"
+0x18 subtree * @"struct--fib6_node.txt"
+0x20 leaf * @"struct--fib6_info.txt"
+0x28 fn_bit @"typedef--__u16.txt"
+0x2a fn_flags @"typedef--__u16.txt"
+0x2c fn_sernum "int"
+0x30 rr_ptr * @"struct--fib6_info.txt"
+0x38 8 rcu @"struct--callback_head.txt"
+0x48 ck_reserved1 "long unsigned int"
+}

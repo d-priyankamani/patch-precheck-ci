@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/pci.c:2011
+Symbol:
+func pci_load_and_free_saved_state (
+dev * @"struct--pci_dev.txt"
+state * * @"struct--pci_saved_state.txt"
+)
+"int"

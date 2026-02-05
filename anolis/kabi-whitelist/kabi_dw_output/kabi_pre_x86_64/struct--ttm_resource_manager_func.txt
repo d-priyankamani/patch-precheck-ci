@@ -1,0 +1,37 @@
+Version: 1.0
+File: include/drm/ttm/ttm_resource.h:52
+Symbol:
+Byte size 40
+struct ttm_resource_manager_func {
+0x0 alloc * func (NULL) (
+(NULL) * @"struct--ttm_resource_manager.txt"
+(NULL) * @"struct--ttm_buffer_object.txt"
+(NULL) * const @"struct--ttm_place.txt"
+(NULL) * * @"struct--ttm_resource.txt"
+)
+"int"
+0x8 free * func (NULL) (
+(NULL) * @"struct--ttm_resource_manager.txt"
+(NULL) * @"struct--ttm_resource.txt"
+)
+"void"
+0x10 intersects * func (NULL) (
+(NULL) * @"struct--ttm_resource_manager.txt"
+(NULL) * @"struct--ttm_resource.txt"
+(NULL) * const @"struct--ttm_place.txt"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--bool.txt"
+0x18 compatible * func (NULL) (
+(NULL) * @"struct--ttm_resource_manager.txt"
+(NULL) * @"struct--ttm_resource.txt"
+(NULL) * const @"struct--ttm_place.txt"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--bool.txt"
+0x20 debug * func (NULL) (
+(NULL) * @"struct--ttm_resource_manager.txt"
+(NULL) * @"struct--drm_printer.txt"
+)
+"void"
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/fs.h:960
+Symbol:
+Byte size 32
+struct fown_struct {
+0x0 lock @"typedef--rwlock_t.txt"
+0x8 pid * @"struct--pid.txt"
+0x10 pid_type @"enum--pid_type.txt"
+0x14 uid @"typedef--kuid_t.txt"
+0x18 euid @"typedef--kuid_t.txt"
+0x1c signum "int"
+}

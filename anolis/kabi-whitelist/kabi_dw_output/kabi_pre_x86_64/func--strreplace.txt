@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/string_helpers.c:1005
+Symbol:
+func strreplace (
+str * "char"
+old "char"
+new "char"
+)
+* "char"

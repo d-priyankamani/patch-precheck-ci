@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/bitmap.c:267
+Symbol:
+func __bitmap_xor (
+dst * "long unsigned int"
+bitmap1 * const "long unsigned int"
+bitmap2 * const "long unsigned int"
+bits "unsigned int"
+)
+"void"

@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/net/xdp.h:85
+Symbol:
+Byte size 56
+struct xdp_buff {
+0x0 data * "void"
+0x8 data_end * "void"
+0x10 data_meta * "void"
+0x18 data_hard_start * "void"
+0x20 rxq * @"struct--xdp_rxq_info.txt"
+0x28 txq * @"struct--xdp_txq_info.txt"
+0x30 frame_sz @"typedef--u32.txt"
+0x34 flags @"typedef--u32.txt"
+}

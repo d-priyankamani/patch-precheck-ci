@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/pci.h:196
+Symbol:
+Byte size 4
+typedef pci_channel_state_t
+"unsigned int"

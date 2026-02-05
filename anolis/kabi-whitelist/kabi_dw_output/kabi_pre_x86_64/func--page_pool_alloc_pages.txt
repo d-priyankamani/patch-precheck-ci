@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/page_pool.c:475
+Symbol:
+func page_pool_alloc_pages (
+pool * @"struct--page_pool.txt"
+gfp @"typedef--gfp_t.txt"
+)
+* @"struct--page.txt"

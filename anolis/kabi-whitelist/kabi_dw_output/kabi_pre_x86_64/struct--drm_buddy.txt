@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/drm_buddy.h:64
+Symbol:
+Byte size 48
+struct drm_buddy {
+0x0 free_list * @"struct--list_head.txt"
+0x8 roots * * @"struct--drm_buddy_block.txt"
+0x10 n_roots "unsigned int"
+0x14 max_order "unsigned int"
+0x18 chunk_size @"typedef--u64.txt"
+0x20 size @"typedef--u64.txt"
+0x28 avail @"typedef--u64.txt"
+}

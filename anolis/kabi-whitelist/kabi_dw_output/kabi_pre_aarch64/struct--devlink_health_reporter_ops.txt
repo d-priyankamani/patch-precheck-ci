@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/net/devlink.h:730
+Symbol:
+Byte size 40
+struct devlink_health_reporter_ops {
+0x0 name * "char"
+0x8 recover * func (NULL) (
+(NULL) * @"struct--devlink_health_reporter.txt"
+(NULL) * "void"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x10 dump * func (NULL) (
+(NULL) * @"struct--devlink_health_reporter.txt"
+(NULL) * @"struct--devlink_fmsg.txt"
+(NULL) * "void"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x18 diagnose * func (NULL) (
+(NULL) * @"struct--devlink_health_reporter.txt"
+(NULL) * @"struct--devlink_fmsg.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x20 test * func (NULL) (
+(NULL) * @"struct--devlink_health_reporter.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/netns/ipv4.h:27
+Symbol:
+Byte size 16
+struct ping_group_range {
+0x0 lock @"typedef--seqlock_t.txt"
+0x8 range [2]@"typedef--kgid_t.txt"
+}

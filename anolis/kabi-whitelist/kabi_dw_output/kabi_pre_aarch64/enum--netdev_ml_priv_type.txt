@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/netdevice.h:1815
+Symbol:
+Byte size 4
+enum netdev_ml_priv_type {
+ML_PRIV_NONE = 0x0
+ML_PRIV_CAN = 0x1
+}

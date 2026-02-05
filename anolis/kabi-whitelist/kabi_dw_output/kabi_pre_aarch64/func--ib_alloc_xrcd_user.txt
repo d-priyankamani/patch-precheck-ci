@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2463
+Symbol:
+func ib_alloc_xrcd_user (
+device * @"struct--ib_device.txt"
+inode * @"struct--inode.txt"
+udata * @"struct--ib_udata.txt"
+)
+* @"struct--ib_xrcd.txt"

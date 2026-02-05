@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:386
+Symbol:
+Byte size 24
+struct ib_dm_mr_attr {
+0x0 length @"typedef--u64.txt"
+0x8 offset @"typedef--u64.txt"
+0x10 access_flags @"typedef--u32.txt"
+}

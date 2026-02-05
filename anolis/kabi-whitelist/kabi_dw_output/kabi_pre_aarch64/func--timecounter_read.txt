@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/timecounter.c:52
+Symbol:
+func timecounter_read (
+tc * @"struct--timecounter.txt"
+)
+@"typedef--u64.txt"

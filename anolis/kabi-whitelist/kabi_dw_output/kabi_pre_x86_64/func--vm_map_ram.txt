@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/vmalloc.c:2439
+Symbol:
+func vm_map_ram (
+pages * * @"struct--page.txt"
+count "unsigned int"
+node "int"
+)
+* "void"

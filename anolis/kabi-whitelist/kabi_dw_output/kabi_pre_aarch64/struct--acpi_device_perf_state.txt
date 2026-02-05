@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:313
+Symbol:
+Byte size 8
+struct acpi_device_perf_state {
+0x0 flags struct (NULL) {
+0x0:0-1 valid @"typedef--u8.txt"
+0x0:1-8 reserved @"typedef--u8.txt"
+}
+0x1 power @"typedef--u8.txt"
+0x2 performance @"typedef--u8.txt"
+0x4 latency "int"
+}

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/xdp.h:41
+Symbol:
+Byte size 4
+enum xdp_mem_type {
+MEM_TYPE_PAGE_SHARED = 0x0
+MEM_TYPE_PAGE_ORDER0 = 0x1
+MEM_TYPE_PAGE_POOL = 0x2
+MEM_TYPE_XSK_BUFF_POOL = 0x3
+MEM_TYPE_MAX = 0x4
+}

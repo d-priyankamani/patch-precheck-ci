@@ -1,0 +1,74 @@
+Version: 1.0
+File: include/linux/dcache.h:133
+Symbol:
+Byte size 192
+Alignment 64
+struct dentry_operations {
+0x0 d_revalidate * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x8 d_weak_revalidate * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x10 d_hash * func (NULL) (
+(NULL) * const @"struct--dentry.txt"
+(NULL) * @"struct--qstr.txt"
+)
+"int"
+0x18 d_compare * func (NULL) (
+(NULL) * const @"struct--dentry.txt"
+(NULL) "unsigned int"
+(NULL) * const "char"
+(NULL) * const @"struct--qstr.txt"
+)
+"int"
+0x20 d_delete * func (NULL) (
+(NULL) * const @"struct--dentry.txt"
+)
+"int"
+0x28 d_init * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+)
+"int"
+0x30 d_release * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+)
+"void"
+0x38 d_prune * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+)
+"void"
+0x40 d_iput * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--inode.txt"
+)
+"void"
+0x48 d_dname * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) * "char"
+(NULL) "int"
+)
+* "char"
+0x50 d_automount * func (NULL) (
+(NULL) * @"struct--path.txt"
+)
+* @"struct--vfsmount.txt"
+0x58 d_manage * func (NULL) (
+(NULL) * const @"struct--path.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x60 d_real * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) * const @"struct--inode.txt"
+)
+* @"struct--dentry.txt"
+0x68 ck_reserved1 "long unsigned int"
+0x70 ck_reserved2 "long unsigned int"
+0x78 ck_reserved3 "long unsigned int"
+0x80 ck_reserved4 "long unsigned int"
+}

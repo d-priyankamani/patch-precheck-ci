@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/printk.h:79
+Symbol:
+Byte size 16
+struct va_format {
+0x0 fmt * const "char"
+0x8 va * @"typedef--va_list.txt"
+}

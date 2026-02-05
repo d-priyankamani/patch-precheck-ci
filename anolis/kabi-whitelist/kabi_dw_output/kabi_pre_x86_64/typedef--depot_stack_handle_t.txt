@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/stackdepot.h:27
+Symbol:
+typedef depot_stack_handle_t
+@"typedef--u32.txt"

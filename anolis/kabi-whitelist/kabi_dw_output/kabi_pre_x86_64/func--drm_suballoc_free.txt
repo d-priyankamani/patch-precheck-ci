@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_suballoc.c:398
+Symbol:
+func drm_suballoc_free (
+suballoc * @"struct--drm_suballoc.txt"
+fence * @"struct--dma_fence.txt"
+)
+"void"

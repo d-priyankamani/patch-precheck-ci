@@ -1,0 +1,35 @@
+Version: 1.0
+File: mm/internal.h:755
+Symbol:
+Byte size 304
+struct compact_control {
+0x0 freepages [11]@"struct--list_head.txt"
+0xb0 migratepages @"struct--list_head.txt"
+0xc0 nr_freepages "unsigned int"
+0xc4 nr_migratepages "unsigned int"
+0xc8 free_pfn "long unsigned int"
+0xd0 migrate_pfn "long unsigned int"
+0xd8 fast_start_pfn "long unsigned int"
+0xe0 zone * @"struct--zone.txt"
+0xe8 total_migrate_scanned "long unsigned int"
+0xf0 total_free_scanned "long unsigned int"
+0xf8 fast_search_fail "short unsigned int"
+0xfa search_order "short int"
+0xfc gfp_mask const @"typedef--gfp_t.txt"
+0x100 order "int"
+0x104 migratetype "int"
+0x108 alloc_flags const "unsigned int"
+0x10c highest_zoneidx const "int"
+0x110 mode @"enum--migrate_mode.txt"
+0x114 ignore_skip_hint @"typedef--bool.txt"
+0x115 no_set_skip_hint @"typedef--bool.txt"
+0x116 ignore_block_suitable @"typedef--bool.txt"
+0x117 direct_compaction @"typedef--bool.txt"
+0x118 proactive_compaction @"typedef--bool.txt"
+0x119 whole_zone @"typedef--bool.txt"
+0x11a contended @"typedef--bool.txt"
+0x11b finish_pageblock @"typedef--bool.txt"
+0x11c alloc_contig @"typedef--bool.txt"
+0x120 ck_reserved1 "long unsigned int"
+0x128 ck_reserved2 "long unsigned int"
+}

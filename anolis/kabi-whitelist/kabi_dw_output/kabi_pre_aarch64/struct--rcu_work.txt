@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/workqueue.h:131
+Symbol:
+Byte size 88
+Alignment 8
+struct rcu_work {
+0x0 work @"struct--work_struct.txt"
+0x40 8 rcu @"struct--callback_head.txt"
+0x50 wq * @"struct--workqueue_struct.txt"
+}

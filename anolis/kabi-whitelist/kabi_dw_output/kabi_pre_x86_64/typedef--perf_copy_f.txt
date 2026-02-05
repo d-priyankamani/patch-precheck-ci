@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/perf_event.h:80
+Symbol:
+Byte size 8
+typedef perf_copy_f
+* func (NULL) (
+(NULL) * "void"
+(NULL) * const "void"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+)
+"long unsigned int"

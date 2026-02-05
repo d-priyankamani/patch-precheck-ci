@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/gup.c:356
+Symbol:
+func unpin_user_page_range_dirty_lock (
+page * @"struct--page.txt"
+npages "long unsigned int"
+make_dirty @"typedef--bool.txt"
+)
+"void"

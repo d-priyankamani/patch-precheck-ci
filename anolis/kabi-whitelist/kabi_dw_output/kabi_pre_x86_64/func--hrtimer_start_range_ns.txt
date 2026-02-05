@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/time/hrtimer.c:1336
+Symbol:
+func hrtimer_start_range_ns (
+timer * @"struct--hrtimer.txt"
+tim @"typedef--ktime_t.txt"
+delta_ns @"typedef--u64.txt"
+mode const @"enum--hrtimer_mode.txt"
+)
+"void"

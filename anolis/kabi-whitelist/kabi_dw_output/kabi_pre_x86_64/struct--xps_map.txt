@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/netdevice.h:819
+Symbol:
+Byte size 24
+Alignment 8
+struct xps_map {
+0x0 len "unsigned int"
+0x4 alloc_len "unsigned int"
+0x8 8 rcu @"struct--callback_head.txt"
+0x18 queues [0]@"typedef--u16.txt"
+}

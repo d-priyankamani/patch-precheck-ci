@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/rcuwait.h:16
+Symbol:
+Byte size 8
+struct rcuwait {
+0x0 task * @"struct--task_struct.txt"
+}

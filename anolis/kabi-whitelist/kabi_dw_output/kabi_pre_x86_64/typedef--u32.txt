@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/asm-generic/int-ll64.h:21
+Symbol:
+typedef u32
+@"typedef--__u32.txt"

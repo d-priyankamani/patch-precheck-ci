@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/dcbnl.h:141
+Symbol:
+Byte size 96
+struct ieee_qcn_stats {
+0x0 rppp_rp_centiseconds [8]@"typedef--__u64.txt"
+0x40 rppp_created_rps [8]@"typedef--__u32.txt"
+}

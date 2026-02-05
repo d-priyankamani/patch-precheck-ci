@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_main.c:672
+Symbol:
+func drm_sched_job_arm (
+job * @"struct--drm_sched_job.txt"
+)
+"void"

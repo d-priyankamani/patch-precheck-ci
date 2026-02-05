@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/devlink/port.c:1048
+Symbol:
+func devlink_port_register_with_ops (
+devlink * @"struct--devlink.txt"
+devlink_port * @"struct--devlink_port.txt"
+port_index "unsigned int"
+ops * const @"struct--devlink_port_ops.txt"
+)
+"int"

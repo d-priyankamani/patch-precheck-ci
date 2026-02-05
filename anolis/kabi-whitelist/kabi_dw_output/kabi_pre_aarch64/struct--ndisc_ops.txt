@@ -1,0 +1,54 @@
+Version: 1.0
+File: include/net/ndisc.h:202
+Symbol:
+Byte size 48
+struct ndisc_ops {
+0x0 is_useropt * func (NULL) (
+(NULL) @"typedef--u8.txt"
+)
+"int"
+0x8 parse_options * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+(NULL) * @"struct--nd_opt_hdr.txt"
+(NULL) * @"struct--ndisc_options.txt"
+)
+"int"
+0x10 update * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+(NULL) * @"struct--neighbour.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u8.txt"
+(NULL) * const @"struct--ndisc_options.txt"
+)
+"void"
+0x18 opt_addr_space * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+(NULL) @"typedef--u8.txt"
+(NULL) * @"struct--neighbour.txt"
+(NULL) * @"typedef--u8.txt"
+(NULL) * * @"typedef--u8.txt"
+)
+"int"
+0x20 fill_addr_option * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) @"typedef--u8.txt"
+(NULL) * const @"typedef--u8.txt"
+)
+"void"
+0x28 prefix_rcv_add_addr * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"struct--prefix_info.txt"
+(NULL) * @"struct--inet6_dev.txt"
+(NULL) * @"struct--in6_addr.txt"
+(NULL) "int"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) @"typedef--__u32.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+}

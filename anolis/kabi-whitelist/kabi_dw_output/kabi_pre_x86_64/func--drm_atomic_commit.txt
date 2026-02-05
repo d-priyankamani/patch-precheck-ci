@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic.c:1498
+Symbol:
+func drm_atomic_commit (
+state * @"struct--drm_atomic_state.txt"
+)
+"int"

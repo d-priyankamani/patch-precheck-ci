@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/drm_prime.h:45
+Symbol:
+Byte size 48
+struct drm_prime_file_private {
+0x0 lock @"struct--mutex.txt"
+0x20 dmabufs @"struct--rb_root.txt"
+0x28 handles @"struct--rb_root.txt"
+}

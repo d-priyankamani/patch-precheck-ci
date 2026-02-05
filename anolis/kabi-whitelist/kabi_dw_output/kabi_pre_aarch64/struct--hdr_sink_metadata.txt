@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/hdmi.h:383
+Symbol:
+Byte size 12
+struct hdr_sink_metadata {
+0x0 metadata_type @"typedef--__u32.txt"
+0x4 (NULL) union (NULL) {
+hdmi_type1 @"struct--hdr_static_metadata.txt"
+}
+}

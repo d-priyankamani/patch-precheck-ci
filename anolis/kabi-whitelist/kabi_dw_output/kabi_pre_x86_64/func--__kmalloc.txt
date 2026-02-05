@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/slab_common.c:1242
+Symbol:
+func __kmalloc (
+size @"typedef--size_t.txt"
+flags @"typedef--gfp_t.txt"
+)
+* "void"

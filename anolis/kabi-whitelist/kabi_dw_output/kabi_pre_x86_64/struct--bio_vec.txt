@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/bvec.h:31
+Symbol:
+Byte size 16
+struct bio_vec {
+0x0 bv_page * @"struct--page.txt"
+0x8 bv_len "unsigned int"
+0xc bv_offset "unsigned int"
+}

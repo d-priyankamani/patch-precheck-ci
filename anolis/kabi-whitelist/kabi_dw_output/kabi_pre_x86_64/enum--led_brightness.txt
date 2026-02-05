@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/leds.h:33
+Symbol:
+Byte size 4
+enum led_brightness {
+LED_OFF = 0x0
+LED_ON = 0x1
+LED_HALF = 0x7f
+LED_FULL = 0xff
+}

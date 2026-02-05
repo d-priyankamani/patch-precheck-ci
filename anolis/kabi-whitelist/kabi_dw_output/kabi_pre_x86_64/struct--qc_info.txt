@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/quota.h:424
+Symbol:
+Byte size 32
+struct qc_info {
+0x0 i_fieldmask "int"
+0x4 i_flags "unsigned int"
+0x8 i_spc_timelimit "unsigned int"
+0xc i_ino_timelimit "unsigned int"
+0x10 i_rt_spc_timelimit "unsigned int"
+0x14 i_spc_warnlimit "unsigned int"
+0x18 i_ino_warnlimit "unsigned int"
+0x1c i_rt_spc_warnlimit "unsigned int"
+}

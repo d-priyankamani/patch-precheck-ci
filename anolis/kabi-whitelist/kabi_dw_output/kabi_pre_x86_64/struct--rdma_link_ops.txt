@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/rdma/rdma_netlink.h:113
+Symbol:
+Byte size 32
+struct rdma_link_ops {
+0x0 list @"struct--list_head.txt"
+0x10 type * const "char"
+0x18 newlink * func (NULL) (
+(NULL) * const "char"
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+}

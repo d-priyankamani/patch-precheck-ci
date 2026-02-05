@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/migrate_device.c:517
+Symbol:
+func migrate_vma_setup (
+args * @"struct--migrate_vma.txt"
+)
+"int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/vfio/vfio_main.c:1473
+Symbol:
+func vfio_set_irqs_validate_and_prepare (
+hdr * @"struct--vfio_irq_set.txt"
+num_irqs "int"
+max_irq_type "int"
+data_size * @"typedef--size_t.txt"
+)
+"int"

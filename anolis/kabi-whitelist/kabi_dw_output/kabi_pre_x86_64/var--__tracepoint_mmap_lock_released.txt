@@ -1,0 +1,4 @@
+Version: 1.0
+File: include/trace/events/mmap_lock.h:50
+Symbol:
+var __tracepoint_mmap_lock_released "void"

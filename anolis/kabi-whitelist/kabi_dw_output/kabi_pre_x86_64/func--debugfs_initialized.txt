@@ -1,0 +1,6 @@
+Version: 1.0
+File: fs/debugfs/inode.c:879
+Symbol:
+func debugfs_initialized (
+)
+@"typedef--bool.txt"

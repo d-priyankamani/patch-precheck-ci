@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2586
+Symbol:
+func ib_set_vf_link_state (
+device * @"struct--ib_device.txt"
+vf "int"
+port @"typedef--u32.txt"
+state "int"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev_addr_lists.c:924
+Symbol:
+func dev_mc_del (
+dev * @"struct--net_device.txt"
+addr * const "unsigned char"
+)
+"int"

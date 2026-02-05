@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/skbuff.h:4740
+Symbol:
+Byte size 16
+Alignment 8
+struct skb_ext {
+0x0 refcnt @"typedef--refcount_t.txt"
+0x4 offset [4]@"typedef--u8.txt"
+0x8 chunks @"typedef--u8.txt"
+0x10 8 data [0]"char"
+}

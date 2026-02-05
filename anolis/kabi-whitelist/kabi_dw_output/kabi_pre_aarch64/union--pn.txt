@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/macsec.h:47
+Symbol:
+Byte size 8
+union pn {
+(NULL) struct (NULL) {
+0x0 lower @"typedef--u32.txt"
+0x4 upper @"typedef--u32.txt"
+}
+full64 @"typedef--u64.txt"
+}

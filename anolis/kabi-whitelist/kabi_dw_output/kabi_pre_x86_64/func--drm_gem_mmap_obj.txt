@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem.c:1094
+Symbol:
+func drm_gem_mmap_obj (
+obj * @"struct--drm_gem_object.txt"
+obj_size "long unsigned int"
+vma * @"struct--vm_area_struct.txt"
+)
+"int"

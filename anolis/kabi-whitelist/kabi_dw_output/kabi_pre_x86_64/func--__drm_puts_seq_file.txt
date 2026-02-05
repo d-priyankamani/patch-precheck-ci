@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_print.c:170
+Symbol:
+func __drm_puts_seq_file (
+p * @"struct--drm_printer.txt"
+str * const "char"
+)
+"void"

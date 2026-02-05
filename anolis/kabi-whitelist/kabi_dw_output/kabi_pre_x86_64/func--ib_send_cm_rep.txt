@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cm.c:2275
+Symbol:
+func ib_send_cm_rep (
+cm_id * @"struct--ib_cm_id.txt"
+param * @"struct--ib_cm_rep_param.txt"
+)
+"int"

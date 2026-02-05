@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/mod_devicetable.h:15
+Symbol:
+Byte size 8
+typedef kernel_ulong_t
+"long unsigned int"

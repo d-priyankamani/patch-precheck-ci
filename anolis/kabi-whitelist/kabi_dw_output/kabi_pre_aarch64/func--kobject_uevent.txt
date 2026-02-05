@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/kobject_uevent.c:655
+Symbol:
+func kobject_uevent (
+kobj * @"struct--kobject.txt"
+action @"enum--kobject_action.txt"
+)
+"int"

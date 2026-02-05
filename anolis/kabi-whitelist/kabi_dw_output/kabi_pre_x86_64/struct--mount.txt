@@ -1,0 +1,41 @@
+Version: 1.0
+File: fs/mount.h:40
+Symbol:
+Byte size 336
+Alignment 8
+struct mount {
+0x0 mnt_hash @"struct--hlist_node.txt"
+0x10 mnt_parent * @"struct--mount.txt"
+0x18 mnt_mountpoint * @"struct--dentry.txt"
+0x20 mnt @"struct--vfsmount.txt"
+0x48 8 (NULL) union (NULL) {
+mnt_rcu @"struct--callback_head.txt"
+mnt_llist @"struct--llist_node.txt"
+}
+0x58 mnt_pcp * @"struct--mnt_pcp.txt"
+0x60 mnt_mounts @"struct--list_head.txt"
+0x70 mnt_child @"struct--list_head.txt"
+0x80 mnt_instance @"struct--list_head.txt"
+0x90 mnt_devname * const "char"
+0x98 mnt_list @"struct--list_head.txt"
+0xa8 mnt_expire @"struct--list_head.txt"
+0xb8 mnt_share @"struct--list_head.txt"
+0xc8 mnt_slave_list @"struct--list_head.txt"
+0xd8 mnt_slave @"struct--list_head.txt"
+0xe8 mnt_master * @"struct--mount.txt"
+0xf0 mnt_ns * @"struct--mnt_namespace.txt"
+0xf8 mnt_mp * @"struct--mountpoint.txt"
+0x100 (NULL) union (NULL) {
+mnt_mp_list @"struct--hlist_node.txt"
+mnt_umount @"struct--hlist_node.txt"
+}
+0x110 mnt_umounting @"struct--list_head.txt"
+0x120 mnt_fsnotify_marks * @"struct--fsnotify_mark_connector.txt"
+0x128 mnt_fsnotify_mask @"typedef--__u32.txt"
+0x12c mnt_id "int"
+0x130 mnt_group_id "int"
+0x134 mnt_expiry_mark "int"
+0x138 mnt_pins @"struct--hlist_head.txt"
+0x140 mnt_stuck_children @"struct--hlist_head.txt"
+0x148 ck_reserved1 "long unsigned int"
+}

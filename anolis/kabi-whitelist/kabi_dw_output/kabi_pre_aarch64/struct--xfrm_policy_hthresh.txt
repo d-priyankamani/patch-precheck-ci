@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/netns/xfrm.h:23
+Symbol:
+Byte size 80
+struct xfrm_policy_hthresh {
+0x0 work @"struct--work_struct.txt"
+0x40 lock @"typedef--seqlock_t.txt"
+0x48 lbits4 @"typedef--u8.txt"
+0x49 rbits4 @"typedef--u8.txt"
+0x4a lbits6 @"typedef--u8.txt"
+0x4b rbits6 @"typedef--u8.txt"
+}

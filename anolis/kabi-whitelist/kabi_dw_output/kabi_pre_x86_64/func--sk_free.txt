@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/sock.c:2251
+Symbol:
+func sk_free (
+sk * @"struct--sock.txt"
+)
+"void"

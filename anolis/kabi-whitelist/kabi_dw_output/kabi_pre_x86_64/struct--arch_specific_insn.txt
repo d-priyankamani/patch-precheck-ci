@@ -1,0 +1,31 @@
+Version: 1.0
+File: arch/x86/include/asm/kprobes.h:54
+Symbol:
+Byte size 48
+struct arch_specific_insn {
+0x0 insn * @"typedef--kprobe_opcode_t.txt"
+0x8:0-1 boostable "unsigned int"
+0x9 size "unsigned char"
+0xa (NULL) union (NULL) {
+opcode "unsigned char"
+jcc struct (NULL) {
+0x0 type "unsigned char"
+}
+loop struct (NULL) {
+0x0 type "unsigned char"
+0x1 asize "unsigned char"
+}
+indirect struct (NULL) {
+0x0 reg "unsigned char"
+}
+}
+0xc rel32 @"typedef--s32.txt"
+0x10 emulate_op * func (NULL) (
+(NULL) * @"struct--kprobe.txt"
+(NULL) * @"struct--pt_regs.txt"
+)
+"void"
+0x18 tp_len "int"
+0x20 ck_reserved1 "long unsigned int"
+0x28 ck_reserved2 "long unsigned int"
+}

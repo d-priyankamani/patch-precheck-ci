@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/tls.h:120
+Symbol:
+Byte size 4
+struct tls_crypto_info {
+0x0 version @"typedef--__u16.txt"
+0x2 cipher_type @"typedef--__u16.txt"
+}

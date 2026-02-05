@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/kobject.c:789
+Symbol:
+func kobject_create_and_add (
+name * const "char"
+parent * @"struct--kobject.txt"
+)
+* @"struct--kobject.txt"

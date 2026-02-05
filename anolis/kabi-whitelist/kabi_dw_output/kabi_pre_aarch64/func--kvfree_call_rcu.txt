@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/rcu/tree.c:3426
+Symbol:
+func kvfree_call_rcu (
+head * @"struct--callback_head.txt"
+ptr * "void"
+)
+"void"

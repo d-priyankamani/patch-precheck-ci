@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/netlink.h:229
+Symbol:
+Byte size 4
+struct nlattr {
+0x0 nla_len @"typedef--__u16.txt"
+0x2 nla_type @"typedef--__u16.txt"
+}

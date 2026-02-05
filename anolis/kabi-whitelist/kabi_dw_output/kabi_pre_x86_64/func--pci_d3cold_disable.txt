@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:3269
+Symbol:
+func pci_d3cold_disable (
+dev * @"struct--pci_dev.txt"
+)
+"void"

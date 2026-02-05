@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1047
+Symbol:
+Byte size 4
+enum ib_srq_type {
+IB_SRQT_BASIC = 0x0
+IB_SRQT_XRC = 0x1
+IB_SRQT_TM = 0x2
+}

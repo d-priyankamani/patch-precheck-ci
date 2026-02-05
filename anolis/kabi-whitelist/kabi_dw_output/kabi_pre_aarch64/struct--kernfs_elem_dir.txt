@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/kernfs.h:154
+Symbol:
+Byte size 40
+struct kernfs_elem_dir {
+0x0 subdirs "long unsigned int"
+0x8 children @"struct--rb_root.txt"
+0x10 root * @"<declarations>/struct--kernfs_root.txt"
+0x18 rev "long unsigned int"
+0x20 ck_reserved1 "long unsigned int"
+}

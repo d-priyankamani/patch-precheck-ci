@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/scsi/scsi_device.h:20
+Symbol:
+typedef blist_flags_t
+@"typedef--__u64.txt"

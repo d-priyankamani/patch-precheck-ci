@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_helper.c:969
+Symbol:
+func drm_dp_read_dpcd_caps (
+aux * @"struct--drm_dp_aux.txt"
+dpcd * @"typedef--u8.txt"
+)
+"int"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/nlattr.c:737
+Symbol:
+func nla_find (
+head * const @"struct--nlattr.txt"
+len "int"
+attrtype "int"
+)
+* @"struct--nlattr.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/mmap_lock.c:99
+Symbol:
+func __mmap_lock_do_trace_acquire_returned (
+mm * @"struct--mm_struct.txt"
+write @"typedef--bool.txt"
+success @"typedef--bool.txt"
+)
+"void"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/scatterlist.c:800
+Symbol:
+func sg_miter_start (
+miter * @"struct--sg_mapping_iter.txt"
+sgl * @"struct--scatterlist.txt"
+nents "unsigned int"
+flags "unsigned int"
+)
+"void"

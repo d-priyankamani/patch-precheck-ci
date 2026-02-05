@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/uapi/linux/xfrm.h:92
+Symbol:
+Byte size 24
+struct xfrm_replay_state_esn {
+0x0 bmp_len "unsigned int"
+0x4 oseq @"typedef--__u32.txt"
+0x8 seq @"typedef--__u32.txt"
+0xc oseq_hi @"typedef--__u32.txt"
+0x10 seq_hi @"typedef--__u32.txt"
+0x14 replay_window @"typedef--__u32.txt"
+0x18 bmp [0]@"typedef--__u32.txt"
+}

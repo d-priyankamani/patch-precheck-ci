@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:711
+Symbol:
+Byte size 72
+struct ib_device_modify {
+0x0 sys_image_guid @"typedef--u64.txt"
+0x8 node_desc [64]"char"
+}

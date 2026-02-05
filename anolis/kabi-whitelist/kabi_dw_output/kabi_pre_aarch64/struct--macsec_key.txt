@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/macsec.h:68
+Symbol:
+Byte size 40
+struct macsec_key {
+0x0 id [16]@"typedef--u8.txt"
+0x10 tfm * @"struct--crypto_aead.txt"
+0x18 salt @"typedef--salt_t.txt"
+}

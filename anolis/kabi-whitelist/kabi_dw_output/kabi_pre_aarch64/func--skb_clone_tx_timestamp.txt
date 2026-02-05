@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/timestamping.c:22
+Symbol:
+func skb_clone_tx_timestamp (
+skb * @"struct--sk_buff.txt"
+)
+"void"

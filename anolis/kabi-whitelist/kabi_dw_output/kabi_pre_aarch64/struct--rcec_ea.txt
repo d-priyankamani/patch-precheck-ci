@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/pci/pci.h:425
+Symbol:
+Byte size 8
+struct rcec_ea {
+0x0 nextbusn @"typedef--u8.txt"
+0x1 lastbusn @"typedef--u8.txt"
+0x4 bitmap @"typedef--u32.txt"
+}

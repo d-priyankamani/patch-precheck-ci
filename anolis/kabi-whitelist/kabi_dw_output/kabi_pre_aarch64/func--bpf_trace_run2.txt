@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/trace/bpf_trace.c:2359
+Symbol:
+func bpf_trace_run2 (
+prog * @"struct--bpf_prog.txt"
+arg0 @"typedef--u64.txt"
+arg1 @"typedef--u64.txt"
+)
+"void"

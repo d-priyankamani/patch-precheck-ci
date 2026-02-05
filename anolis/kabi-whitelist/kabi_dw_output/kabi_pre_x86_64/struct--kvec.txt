@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/uio.h:17
+Symbol:
+Byte size 16
+struct kvec {
+0x0 iov_base * "void"
+0x8 iov_len @"typedef--size_t.txt"
+}

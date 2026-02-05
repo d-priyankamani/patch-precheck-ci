@@ -1,0 +1,13 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:144
+Symbol:
+Byte size 80
+struct kvm_s2_mmu {
+0x0 vmid @"struct--kvm_vmid.txt"
+0x8 pgd_phys @"typedef--phys_addr_t.txt"
+0x10 pgt * @"<declarations>/struct--kvm_pgtable.txt"
+0x18 last_vcpu_ran * "int"
+0x20 split_page_cache @"struct--kvm_mmu_memory_cache.txt"
+0x40 split_page_chunk_size @"typedef--uint64_t.txt"
+0x48 arch * @"struct--kvm_arch.txt"
+}

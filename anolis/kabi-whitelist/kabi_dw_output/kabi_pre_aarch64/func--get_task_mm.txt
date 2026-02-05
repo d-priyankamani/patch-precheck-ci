@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/fork.c:1591
+Symbol:
+func get_task_mm (
+task * @"struct--task_struct.txt"
+)
+* @"struct--mm_struct.txt"

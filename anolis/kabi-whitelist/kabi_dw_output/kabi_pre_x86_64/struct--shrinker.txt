@@ -1,0 +1,42 @@
+Version: 1.0
+File: include/linux/shrinker.h:87
+Symbol:
+Byte size 184
+Alignment 8
+struct shrinker {
+0x0 count_objects * func (NULL) (
+(NULL) * @"struct--shrinker.txt"
+(NULL) * @"struct--shrink_control.txt"
+)
+"long unsigned int"
+0x8 scan_objects * func (NULL) (
+(NULL) * @"struct--shrinker.txt"
+(NULL) * @"struct--shrink_control.txt"
+)
+"long unsigned int"
+0x10 reap_objects * func (NULL) (
+(NULL) * @"struct--shrinker.txt"
+(NULL) * @"struct--shrink_control.txt"
+)
+"long unsigned int"
+0x18 cold_objects * func (NULL) (
+(NULL) * @"struct--shrinker.txt"
+(NULL) * @"struct--shrink_control.txt"
+)
+"long unsigned int"
+0x20 batch "long int"
+0x28 seeks "int"
+0x2c flags "unsigned int"
+0x30 refcount @"typedef--refcount_t.txt"
+0x38 done @"struct--completion.txt"
+0x58 8 rcu @"struct--callback_head.txt"
+0x68 private_data * "void"
+0x70 list @"struct--list_head.txt"
+0x80 id "int"
+0x88 nr_deferred * @"typedef--atomic_long_t.txt"
+0x90 ck_reserved1 "long unsigned int"
+0x98 ck_reserved2 "long unsigned int"
+0xa0 ck_reserved3 "long unsigned int"
+0xa8 ck_reserved4 "long unsigned int"
+0xb0 ck_reserved5 "long unsigned int"
+}

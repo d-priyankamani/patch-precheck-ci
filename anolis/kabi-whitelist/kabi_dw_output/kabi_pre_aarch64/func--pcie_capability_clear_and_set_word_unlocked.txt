@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/pci/access.c:500
+Symbol:
+func pcie_capability_clear_and_set_word_unlocked (
+dev * @"struct--pci_dev.txt"
+pos "int"
+clear @"typedef--u16.txt"
+set @"typedef--u16.txt"
+)
+"int"

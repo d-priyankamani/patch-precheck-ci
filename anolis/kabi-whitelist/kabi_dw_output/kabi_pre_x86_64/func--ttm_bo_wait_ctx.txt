@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo.c:1106
+Symbol:
+func ttm_bo_wait_ctx (
+bo * @"struct--ttm_buffer_object.txt"
+ctx * @"struct--ttm_operation_ctx.txt"
+)
+"int"

@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/interrupt.h:644
+Symbol:
+Byte size 40
+struct tasklet_struct {
+0x0 next * @"struct--tasklet_struct.txt"
+0x8 state "long unsigned int"
+0x10 count @"typedef--atomic_t.txt"
+0x14 use_callback @"typedef--bool.txt"
+0x18 (NULL) union (NULL) {
+func * func (NULL) (
+(NULL) "long unsigned int"
+)
+"void"
+callback * func (NULL) (
+(NULL) * @"struct--tasklet_struct.txt"
+)
+"void"
+}
+0x20 data "long unsigned int"
+}

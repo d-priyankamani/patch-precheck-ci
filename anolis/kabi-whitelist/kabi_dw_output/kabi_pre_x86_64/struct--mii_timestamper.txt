@@ -1,0 +1,34 @@
+Version: 1.0
+File: include/linux/mii_timestamper.h:46
+Symbol:
+Byte size 48
+struct mii_timestamper {
+0x0 rxtstamp * func (NULL) (
+(NULL) * @"struct--mii_timestamper.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) "int"
+)
+@"typedef--bool.txt"
+0x8 txtstamp * func (NULL) (
+(NULL) * @"struct--mii_timestamper.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) "int"
+)
+"void"
+0x10 hwtstamp * func (NULL) (
+(NULL) * @"struct--mii_timestamper.txt"
+(NULL) * @"struct--ifreq.txt"
+)
+"int"
+0x18 link_state * func (NULL) (
+(NULL) * @"struct--mii_timestamper.txt"
+(NULL) * @"struct--phy_device.txt"
+)
+"void"
+0x20 ts_info * func (NULL) (
+(NULL) * @"struct--mii_timestamper.txt"
+(NULL) * @"struct--ethtool_ts_info.txt"
+)
+"int"
+0x28 device * @"struct--device.txt"
+}

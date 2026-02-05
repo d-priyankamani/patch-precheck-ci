@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/idr.h:19
+Symbol:
+Byte size 24
+struct idr {
+0x0 idr_rt @"struct--xarray.txt"
+0x10 idr_base "unsigned int"
+0x14 idr_next "unsigned int"
+}

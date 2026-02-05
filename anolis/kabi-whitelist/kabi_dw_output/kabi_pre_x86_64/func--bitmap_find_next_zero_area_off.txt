@@ -1,0 +1,12 @@
+Version: 1.0
+File: lib/bitmap.c:417
+Symbol:
+func bitmap_find_next_zero_area_off (
+map * "long unsigned int"
+size "long unsigned int"
+start "long unsigned int"
+nr "unsigned int"
+align_mask "long unsigned int"
+align_offset "long unsigned int"
+)
+"long unsigned int"

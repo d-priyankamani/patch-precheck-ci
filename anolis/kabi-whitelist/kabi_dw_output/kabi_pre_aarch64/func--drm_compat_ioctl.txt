@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_ioc32.c:971
+Symbol:
+func drm_compat_ioctl (
+filp * @"struct--file.txt"
+cmd "unsigned int"
+arg "long unsigned int"
+)
+"long int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/ip6_fib.h:155
+Symbol:
+Byte size 96
+struct fib6_nh {
+0x0 nh_common @"struct--fib_nh_common.txt"
+0x48 last_probe "long unsigned int"
+0x50 rt6i_pcpu * * @"struct--rt6_info.txt"
+0x58 rt6i_exception_bucket * @"struct--rt6_exception_bucket.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/locking/mutex.c:770
+Symbol:
+func ww_mutex_trylock (
+ww * @"struct--ww_mutex.txt"
+ww_ctx * @"struct--ww_acquire_ctx.txt"
+)
+"int"

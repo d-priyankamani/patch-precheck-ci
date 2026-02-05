@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_cmd.c:2604
+Symbol:
+func ib_uverbs_flow_resources_free (
+uflow_res * @"struct--ib_uflow_resources.txt"
+)
+"void"

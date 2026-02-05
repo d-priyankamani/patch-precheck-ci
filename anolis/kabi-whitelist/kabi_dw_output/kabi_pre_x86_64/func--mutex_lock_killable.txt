@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/mutex.c:1001
+Symbol:
+func mutex_lock_killable (
+lock * @"struct--mutex.txt"
+)
+"int"

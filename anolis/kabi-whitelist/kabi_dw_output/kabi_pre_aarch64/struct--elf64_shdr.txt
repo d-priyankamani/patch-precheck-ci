@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/uapi/linux/elf.h:321
+Symbol:
+Byte size 64
+struct elf64_shdr {
+0x0 sh_name @"typedef--Elf64_Word.txt"
+0x4 sh_type @"typedef--Elf64_Word.txt"
+0x8 sh_flags @"typedef--Elf64_Xword.txt"
+0x10 sh_addr @"typedef--Elf64_Addr.txt"
+0x18 sh_offset @"typedef--Elf64_Off.txt"
+0x20 sh_size @"typedef--Elf64_Xword.txt"
+0x28 sh_link @"typedef--Elf64_Word.txt"
+0x2c sh_info @"typedef--Elf64_Word.txt"
+0x30 sh_addralign @"typedef--Elf64_Xword.txt"
+0x38 sh_entsize @"typedef--Elf64_Xword.txt"
+}

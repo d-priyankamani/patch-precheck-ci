@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/workqueue.c:4715
+Symbol:
+func alloc_workqueue (
+fmt * const "char"
+flags "unsigned int"
+max_active "int"
+(NULL) ...
+)
+* @"struct--workqueue_struct.txt"

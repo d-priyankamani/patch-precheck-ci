@@ -1,0 +1,83 @@
+Version: 1.0
+File: include/net/macsec.h:281
+Symbol:
+Byte size 160
+struct macsec_ops {
+0x0 mdo_dev_open * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x8 mdo_dev_stop * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x10 mdo_add_secy * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x18 mdo_upd_secy * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x20 mdo_del_secy * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x28 mdo_add_rxsc * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x30 mdo_upd_rxsc * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x38 mdo_del_rxsc * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x40 mdo_add_rxsa * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x48 mdo_upd_rxsa * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x50 mdo_del_rxsa * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x58 mdo_add_txsa * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x60 mdo_upd_txsa * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x68 mdo_del_txsa * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x70 mdo_get_dev_stats * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x78 mdo_get_tx_sc_stats * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x80 mdo_get_tx_sa_stats * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x88 mdo_get_rx_sc_stats * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x90 mdo_get_rx_sa_stats * func (NULL) (
+(NULL) * @"struct--macsec_context.txt"
+)
+"int"
+0x98 rx_uses_md_dst @"typedef--bool.txt"
+}

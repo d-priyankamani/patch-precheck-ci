@@ -1,0 +1,47 @@
+Version: 1.0
+File: include/net/tls.h:225
+Symbol:
+Byte size 424
+Alignment 8
+struct tls_context {
+0x0 prot_info @"struct--tls_prot_info.txt"
+0x14:0-3 tx_conf @"typedef--u8.txt"
+0x14:3-6 rx_conf @"typedef--u8.txt"
+0x14:6-7 zerocopy_sendfile @"typedef--u8.txt"
+0x14:7-8 rx_no_pad @"typedef--u8.txt"
+0x18 push_pending_record * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) "int"
+)
+"int"
+0x20 sk_write_space * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0x28 priv_ctx_tx * "void"
+0x30 priv_ctx_rx * "void"
+0x38 netdev * @"struct--net_device.txt"
+0x40 tx @"struct--cipher_context.txt"
+0x70 rx @"struct--cipher_context.txt"
+0xa0 partially_sent_record * @"struct--scatterlist.txt"
+0xa8 partially_sent_offset @"typedef--u16.txt"
+0xaa splicing_pages @"typedef--bool.txt"
+0xab pending_open_record_frags @"typedef--bool.txt"
+0xb0 tx_lock @"struct--mutex.txt"
+0xd0 flags "long unsigned int"
+0xd8 sk_proto * @"struct--proto.txt"
+0xe0 sk * @"struct--sock.txt"
+0xe8 sk_destruct * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0xf0 crypto_send @"union--tls_crypto_context.txt"
+0x128 crypto_recv @"union--tls_crypto_context.txt"
+0x160 list @"struct--list_head.txt"
+0x170 refcount @"typedef--refcount_t.txt"
+0x178 8 rcu @"struct--callback_head.txt"
+0x188 ck_reserved1 "long unsigned int"
+0x190 ck_reserved2 "long unsigned int"
+0x198 ck_reserved3 "long unsigned int"
+0x1a0 ck_reserved4 "long unsigned int"
+}

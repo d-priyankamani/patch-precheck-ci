@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/uapi/linux/sysinfo.h:8
+Symbol:
+Byte size 112
+struct sysinfo {
+0x0 uptime @"typedef--__kernel_long_t.txt"
+0x8 loads [3]@"typedef--__kernel_ulong_t.txt"
+0x20 totalram @"typedef--__kernel_ulong_t.txt"
+0x28 freeram @"typedef--__kernel_ulong_t.txt"
+0x30 sharedram @"typedef--__kernel_ulong_t.txt"
+0x38 bufferram @"typedef--__kernel_ulong_t.txt"
+0x40 totalswap @"typedef--__kernel_ulong_t.txt"
+0x48 freeswap @"typedef--__kernel_ulong_t.txt"
+0x50 procs @"typedef--__u16.txt"
+0x52 pad @"typedef--__u16.txt"
+0x58 totalhigh @"typedef--__kernel_ulong_t.txt"
+0x60 freehigh @"typedef--__kernel_ulong_t.txt"
+0x68 mem_unit @"typedef--__u32.txt"
+0x6c _f [0]"char"
+}

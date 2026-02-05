@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/lib/delay.c:248
+Symbol:
+func __udelay (
+usecs "long unsigned int"
+)
+"void"

@@ -1,0 +1,4 @@
+Version: 1.0
+File: arch/x86/kernel/cpu/common.c:2066
+Symbol:
+var pcpu_hot "void"

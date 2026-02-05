@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/sched/sched.h:840
+Symbol:
+Byte size 16
+struct balance_callback {
+0x0 next * @"struct--balance_callback.txt"
+0x8 func * func (NULL) (
+(NULL) * @"struct--rq.txt"
+)
+"void"
+}

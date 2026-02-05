@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/kvm/arm_arch_timer.h:53
+Symbol:
+Byte size 128
+Alignment 8
+struct arch_timer_context {
+0x0 vcpu * @"struct--kvm_vcpu.txt"
+0x8 8 hrtimer @"struct--hrtimer.txt"
+0x60 ns_frac @"typedef--u64.txt"
+0x68 offset @"struct--arch_timer_offset.txt"
+0x78 loaded @"typedef--bool.txt"
+0x79 irq struct (NULL) {
+0x0 level @"typedef--bool.txt"
+}
+0x7c host_timer_irq @"typedef--u32.txt"
+}

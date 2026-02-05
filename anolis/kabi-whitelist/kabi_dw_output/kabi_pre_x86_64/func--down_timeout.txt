@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/locking/semaphore.c:160
+Symbol:
+func down_timeout (
+sem * @"struct--semaphore.txt"
+timeout "long int"
+)
+"int"

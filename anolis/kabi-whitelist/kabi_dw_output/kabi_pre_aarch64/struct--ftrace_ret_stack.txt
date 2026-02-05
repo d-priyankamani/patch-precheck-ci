@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/ftrace.h:1052
+Symbol:
+Byte size 40
+struct ftrace_ret_stack {
+0x0 ret "long unsigned int"
+0x8 func "long unsigned int"
+0x10 calltime "long long unsigned int"
+0x18 fp "long unsigned int"
+0x20 retp * "long unsigned int"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/fork.c:1424
+Symbol:
+func mmput (
+mm * @"struct--mm_struct.txt"
+)
+"void"

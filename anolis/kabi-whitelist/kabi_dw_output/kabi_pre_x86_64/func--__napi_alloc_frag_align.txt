@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/skbuff.c:293
+Symbol:
+func __napi_alloc_frag_align (
+fragsz "unsigned int"
+align_mask "unsigned int"
+)
+* "void"

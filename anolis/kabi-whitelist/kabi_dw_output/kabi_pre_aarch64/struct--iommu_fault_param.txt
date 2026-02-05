@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/iommu.h:834
+Symbol:
+Byte size 120
+Alignment 8
+struct iommu_fault_param {
+0x0 lock @"struct--mutex.txt"
+0x20 users @"typedef--refcount_t.txt"
+0x28 8 rcu @"struct--callback_head.txt"
+0x38 dev * @"struct--device.txt"
+0x40 queue * @"struct--iopf_queue.txt"
+0x48 queue_list @"struct--list_head.txt"
+0x58 partial @"struct--list_head.txt"
+0x68 faults @"struct--list_head.txt"
+}

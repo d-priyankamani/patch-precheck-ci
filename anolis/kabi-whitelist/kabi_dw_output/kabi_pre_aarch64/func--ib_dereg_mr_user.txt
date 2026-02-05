@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2249
+Symbol:
+func ib_dereg_mr_user (
+mr * @"struct--ib_mr.txt"
+udata * @"struct--ib_udata.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/xdp.c:540
+Symbol:
+func xdp_convert_zc_to_xdp_frame (
+xdp * @"struct--xdp_buff.txt"
+)
+* @"struct--xdp_frame.txt"

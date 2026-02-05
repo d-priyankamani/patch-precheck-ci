@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/sched/sched.h:2723
+Symbol:
+Byte size 24
+struct affinity_context {
+0x0 new_mask * const @"struct--cpumask.txt"
+0x8 user_mask * @"struct--cpumask.txt"
+0x10 flags "unsigned int"
+}

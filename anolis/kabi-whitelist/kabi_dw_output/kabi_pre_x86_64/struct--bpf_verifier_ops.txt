@@ -1,0 +1,45 @@
+Version: 1.0
+File: include/linux/bpf.h:959
+Symbol:
+Byte size 48
+struct bpf_verifier_ops {
+0x0 get_func_proto * func (NULL) (
+(NULL) @"enum--bpf_func_id.txt"
+(NULL) * const @"struct--bpf_prog.txt"
+)
+* const @"struct--bpf_func_proto.txt"
+0x8 is_valid_access * func (NULL) (
+(NULL) "int"
+(NULL) "int"
+(NULL) @"enum--bpf_access_type.txt"
+(NULL) * const @"struct--bpf_prog.txt"
+(NULL) * @"struct--bpf_insn_access_aux.txt"
+)
+@"typedef--bool.txt"
+0x10 gen_prologue * func (NULL) (
+(NULL) * @"struct--bpf_insn.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * const @"struct--bpf_prog.txt"
+)
+"int"
+0x18 gen_ld_abs * func (NULL) (
+(NULL) * const @"struct--bpf_insn.txt"
+(NULL) * @"struct--bpf_insn.txt"
+)
+"int"
+0x20 convert_ctx_access * func (NULL) (
+(NULL) @"enum--bpf_access_type.txt"
+(NULL) * const @"struct--bpf_insn.txt"
+(NULL) * @"struct--bpf_insn.txt"
+(NULL) * @"struct--bpf_prog.txt"
+(NULL) * @"typedef--u32.txt"
+)
+@"typedef--u32.txt"
+0x28 btf_struct_access * func (NULL) (
+(NULL) * @"struct--bpf_verifier_log.txt"
+(NULL) * const @"struct--bpf_reg_state.txt"
+(NULL) "int"
+(NULL) "int"
+)
+"int"
+}

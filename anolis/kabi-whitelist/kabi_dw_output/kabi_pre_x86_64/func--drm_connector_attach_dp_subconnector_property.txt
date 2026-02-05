@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:1588
+Symbol:
+func drm_connector_attach_dp_subconnector_property (
+connector * @"struct--drm_connector.txt"
+)
+"void"

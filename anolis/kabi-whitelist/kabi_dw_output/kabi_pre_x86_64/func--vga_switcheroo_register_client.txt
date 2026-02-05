@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/vga/vga_switcheroo.c:339
+Symbol:
+func vga_switcheroo_register_client (
+pdev * @"struct--pci_dev.txt"
+ops * const @"struct--vga_switcheroo_client_ops.txt"
+driver_power_control @"typedef--bool.txt"
+)
+"int"

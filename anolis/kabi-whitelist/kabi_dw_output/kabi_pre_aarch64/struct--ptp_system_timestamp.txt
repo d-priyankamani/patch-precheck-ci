@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/ptp_clock_kernel.h:51
+Symbol:
+Byte size 32
+struct ptp_system_timestamp {
+0x0 pre_ts @"struct--timespec64.txt"
+0x10 post_ts @"struct--timespec64.txt"
+}

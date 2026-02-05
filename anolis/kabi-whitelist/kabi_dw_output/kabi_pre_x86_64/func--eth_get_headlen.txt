@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/ethernet/eth.c:125
+Symbol:
+func eth_get_headlen (
+dev * const @"struct--net_device.txt"
+data * const "void"
+len @"typedef--u32.txt"
+)
+@"typedef--u32.txt"

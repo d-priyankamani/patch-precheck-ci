@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:6508
+Symbol:
+func napi_disable (
+n * @"struct--napi_struct.txt"
+)
+"void"

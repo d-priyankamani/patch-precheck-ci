@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/trace/trace_events.c:641
+Symbol:
+func trace_event_buffer_reserve (
+fbuffer * @"struct--trace_event_buffer.txt"
+trace_file * @"struct--trace_event_file.txt"
+len "long unsigned int"
+)
+* "void"

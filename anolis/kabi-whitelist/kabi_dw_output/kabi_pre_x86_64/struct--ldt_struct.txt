@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/include/asm/mmu_context.h:30
+Symbol:
+Byte size 16
+struct ldt_struct {
+0x0 entries * @"struct--desc_struct.txt"
+0x8 nr_entries "unsigned int"
+0xc slot "int"
+}

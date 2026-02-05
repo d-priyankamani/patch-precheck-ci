@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_hdcp_helper.c:407
+Symbol:
+func drm_hdcp_update_content_protection (
+connector * @"struct--drm_connector.txt"
+val @"typedef--u64.txt"
+)
+"void"

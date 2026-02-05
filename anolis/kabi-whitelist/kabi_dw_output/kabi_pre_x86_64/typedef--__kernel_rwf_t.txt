@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/uapi/linux/fs.h:312
+Symbol:
+Byte size 4
+typedef __kernel_rwf_t
+"int"

@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/uapi/linux/fib_rules.h:19
+Symbol:
+Byte size 12
+struct fib_rule_hdr {
+0x0 family @"typedef--__u8.txt"
+0x1 dst_len @"typedef--__u8.txt"
+0x2 src_len @"typedef--__u8.txt"
+0x3 tos @"typedef--__u8.txt"
+0x4 table @"typedef--__u8.txt"
+0x5 res1 @"typedef--__u8.txt"
+0x6 res2 @"typedef--__u8.txt"
+0x7 action @"typedef--__u8.txt"
+0x8 flags @"typedef--__u32.txt"
+}

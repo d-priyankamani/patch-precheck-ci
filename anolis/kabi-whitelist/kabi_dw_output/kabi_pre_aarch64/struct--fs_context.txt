@@ -1,0 +1,28 @@
+Version: 1.0
+File: include/linux/fs_context.h:90
+Symbol:
+Byte size 152
+struct fs_context {
+0x0 ops * const @"struct--fs_context_operations.txt"
+0x8 uapi_mutex @"struct--mutex.txt"
+0x28 fs_type * @"struct--file_system_type.txt"
+0x30 fs_private * "void"
+0x38 sget_key * "void"
+0x40 root * @"struct--dentry.txt"
+0x48 user_ns * @"struct--user_namespace.txt"
+0x50 net_ns * @"struct--net.txt"
+0x58 cred * const @"struct--cred.txt"
+0x60 log @"struct--p_log.txt"
+0x70 source * const "char"
+0x78 security * "void"
+0x80 s_fs_info * "void"
+0x88 sb_flags "unsigned int"
+0x8c sb_flags_mask "unsigned int"
+0x90 s_iflags "unsigned int"
+0x94:0-8 purpose @"enum--fs_context_purpose.txt"
+0x95:0-8 phase @"enum--fs_context_phase.txt"
+0x96:0-1 need_free @"typedef--bool.txt"
+0x96:1-2 global @"typedef--bool.txt"
+0x96:2-3 oldapi @"typedef--bool.txt"
+0x96:3-4 exclusive @"typedef--bool.txt"
+}

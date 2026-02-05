@@ -1,0 +1,35 @@
+Version: 1.0
+File: include/linux/iommu.h:223
+Symbol:
+Byte size 136
+struct iommu_domain {
+0x0 type "unsigned int"
+0x4 cookie_type @"enum--iommu_domain_cookie_type.txt"
+0x8 ops * const @"struct--iommu_domain_ops.txt"
+0x10 dirty_ops * const @"struct--iommu_dirty_ops.txt"
+0x18 owner * const @"struct--iommu_ops.txt"
+0x20 pgsize_bitmap "long unsigned int"
+0x28 geometry @"struct--iommu_domain_geometry.txt"
+0x40 iopf_handler * func (NULL) (
+(NULL) * @"struct--iopf_group.txt"
+)
+"int"
+0x48 (NULL) union (NULL) {
+iova_cookie * @"struct--iommu_dma_cookie.txt"
+msi_cookie * @"struct--iommu_dma_msi_cookie.txt"
+iommufd_hwpt * @"<declarations>/struct--iommufd_hw_pagetable.txt"
+(NULL) struct (NULL) {
+0x0 handler @"typedef--iommu_fault_handler_t.txt"
+0x8 handler_token * "void"
+}
+(NULL) struct (NULL) {
+0x0 mm * @"struct--mm_struct.txt"
+0x8 users "int"
+0x10 next @"struct--list_head.txt"
+}
+}
+0x68 ck_reserved1 "long unsigned int"
+0x70 ck_reserved2 "long unsigned int"
+0x78 ck_reserved3 "long unsigned int"
+0x80 ck_reserved4 "long unsigned int"
+}

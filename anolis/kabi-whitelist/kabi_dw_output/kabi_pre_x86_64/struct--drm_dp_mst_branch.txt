@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/drm/display/drm_dp_mst_helper.h:190
+Symbol:
+Byte size 96
+struct drm_dp_mst_branch {
+0x0 topology_kref @"struct--kref.txt"
+0x4 malloc_kref @"struct--kref.txt"
+0x8 destroy_next @"struct--list_head.txt"
+0x18 rad [8]@"typedef--u8.txt"
+0x20 lct @"typedef--u8.txt"
+0x24 num_ports "int"
+0x28 ports @"struct--list_head.txt"
+0x38 port_parent * @"struct--drm_dp_mst_port.txt"
+0x40 mgr * @"struct--drm_dp_mst_topology_mgr.txt"
+0x48 link_address_sent @"typedef--bool.txt"
+0x49 guid [16]@"typedef--u8.txt"
+}

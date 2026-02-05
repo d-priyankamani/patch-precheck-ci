@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/cred.h:25
+Symbol:
+Byte size 8
+struct group_info {
+0x0 usage @"typedef--atomic_t.txt"
+0x4 ngroups "int"
+0x8 gid [0]@"typedef--kgid_t.txt"
+}

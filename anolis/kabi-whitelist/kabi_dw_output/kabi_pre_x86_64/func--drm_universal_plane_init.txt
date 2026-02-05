@@ -1,0 +1,16 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_plane.c:385
+Symbol:
+func drm_universal_plane_init (
+dev * @"struct--drm_device.txt"
+plane * @"struct--drm_plane.txt"
+possible_crtcs @"typedef--uint32_t.txt"
+funcs * const @"struct--drm_plane_funcs.txt"
+formats * const @"typedef--uint32_t.txt"
+format_count "unsigned int"
+format_modifiers * const @"typedef--uint64_t.txt"
+type @"enum--drm_plane_type.txt"
+name * const "char"
+(NULL) ...
+)
+"int"

@@ -1,0 +1,6 @@
+Version: 1.0
+File: drivers/char/random.c:132
+Symbol:
+func wait_for_random_bytes (
+)
+"int"

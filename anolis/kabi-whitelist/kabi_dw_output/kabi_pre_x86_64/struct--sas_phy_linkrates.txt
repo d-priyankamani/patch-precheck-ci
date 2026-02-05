@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/scsi/scsi_transport_sas.h:168
+Symbol:
+Byte size 8
+struct sas_phy_linkrates {
+0x0 maximum_linkrate @"enum--sas_linkrate.txt"
+0x4 minimum_linkrate @"enum--sas_linkrate.txt"
+}

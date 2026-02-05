@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/rhashtable.c:1172
+Symbol:
+func rhashtable_destroy (
+ht * @"struct--rhashtable.txt"
+)
+"void"

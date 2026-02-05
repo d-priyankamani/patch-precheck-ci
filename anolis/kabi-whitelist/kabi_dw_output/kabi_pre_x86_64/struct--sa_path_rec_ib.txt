@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_sa.h:133
+Symbol:
+Byte size 6
+struct sa_path_rec_ib {
+0x0 dlid @"typedef--__be16.txt"
+0x2 slid @"typedef--__be16.txt"
+0x4 raw_traffic @"typedef--u8.txt"
+}

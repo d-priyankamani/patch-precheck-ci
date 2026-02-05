@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/dst.c:294
+Symbol:
+func metadata_dst_alloc (
+optslen @"typedef--u8.txt"
+type @"enum--metadata_type.txt"
+flags @"typedef--gfp_t.txt"
+)
+* @"struct--metadata_dst.txt"

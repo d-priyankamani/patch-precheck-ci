@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/workqueue.h:22
+Symbol:
+Byte size 8
+typedef work_func_t
+* func (NULL) (
+(NULL) * @"struct--work_struct.txt"
+)
+"void"

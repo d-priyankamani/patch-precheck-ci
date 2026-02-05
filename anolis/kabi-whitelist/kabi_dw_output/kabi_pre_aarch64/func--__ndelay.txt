@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/arm64/lib/delay.c:65
+Symbol:
+func __ndelay (
+nsecs "long unsigned int"
+)
+"void"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1725
+Symbol:
+Byte size 40
+struct ib_rwq_ind_table {
+0x0 device * @"struct--ib_device.txt"
+0x8 uobject * @"struct--ib_uobject.txt"
+0x10 usecnt @"typedef--atomic_t.txt"
+0x14 ind_tbl_num @"typedef--u32.txt"
+0x18 log_ind_tbl_size @"typedef--u32.txt"
+0x20 ind_tbl * * @"struct--ib_wq.txt"
+}

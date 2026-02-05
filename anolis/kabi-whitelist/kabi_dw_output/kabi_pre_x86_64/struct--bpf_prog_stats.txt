@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/filter.h:568
+Symbol:
+Byte size 48
+Alignment 16
+struct bpf_prog_stats {
+0x0 cnt @"typedef--u64_stats_t.txt"
+0x8 nsecs @"typedef--u64_stats_t.txt"
+0x10 misses @"typedef--u64_stats_t.txt"
+0x18 syncp @"struct--u64_stats_sync.txt"
+0x18 ck_reserved1 "long unsigned int"
+0x20 ck_reserved2 "long unsigned int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/fs_context.h:29
+Symbol:
+Byte size 4
+enum fs_context_purpose {
+FS_CONTEXT_FOR_MOUNT = 0x0
+FS_CONTEXT_FOR_SUBMOUNT = 0x1
+FS_CONTEXT_FOR_RECONFIGURE = 0x2
+}

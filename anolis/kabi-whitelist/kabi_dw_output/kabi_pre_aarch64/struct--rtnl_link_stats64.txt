@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/uapi/linux/if_link.h:218
+Symbol:
+Byte size 200
+struct rtnl_link_stats64 {
+0x0 rx_packets @"typedef--__u64.txt"
+0x8 tx_packets @"typedef--__u64.txt"
+0x10 rx_bytes @"typedef--__u64.txt"
+0x18 tx_bytes @"typedef--__u64.txt"
+0x20 rx_errors @"typedef--__u64.txt"
+0x28 tx_errors @"typedef--__u64.txt"
+0x30 rx_dropped @"typedef--__u64.txt"
+0x38 tx_dropped @"typedef--__u64.txt"
+0x40 multicast @"typedef--__u64.txt"
+0x48 collisions @"typedef--__u64.txt"
+0x50 rx_length_errors @"typedef--__u64.txt"
+0x58 rx_over_errors @"typedef--__u64.txt"
+0x60 rx_crc_errors @"typedef--__u64.txt"
+0x68 rx_frame_errors @"typedef--__u64.txt"
+0x70 rx_fifo_errors @"typedef--__u64.txt"
+0x78 rx_missed_errors @"typedef--__u64.txt"
+0x80 tx_aborted_errors @"typedef--__u64.txt"
+0x88 tx_carrier_errors @"typedef--__u64.txt"
+0x90 tx_fifo_errors @"typedef--__u64.txt"
+0x98 tx_heartbeat_errors @"typedef--__u64.txt"
+0xa0 tx_window_errors @"typedef--__u64.txt"
+0xa8 rx_compressed @"typedef--__u64.txt"
+0xb0 tx_compressed @"typedef--__u64.txt"
+0xb8 rx_nohandler @"typedef--__u64.txt"
+0xc0 rx_otherhost_dropped @"typedef--__u64.txt"
+}

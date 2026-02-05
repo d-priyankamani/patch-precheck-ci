@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/mmzone.h:1234
+Symbol:
+Byte size 16
+struct zoneref {
+0x0 zone * @"struct--zone.txt"
+0x8 zone_idx "int"
+}

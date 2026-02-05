@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/core_priv.h:111
+Symbol:
+Byte size 32
+struct ib_client_nl_info {
+0x0 nl_msg * @"struct--sk_buff.txt"
+0x8 cdev * @"struct--device.txt"
+0x10 port @"typedef--u32.txt"
+0x18 abi @"typedef--u64.txt"
+}

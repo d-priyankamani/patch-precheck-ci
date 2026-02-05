@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modeset_lock.c:274
+Symbol:
+func drm_modeset_drop_locks (
+ctx * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"void"

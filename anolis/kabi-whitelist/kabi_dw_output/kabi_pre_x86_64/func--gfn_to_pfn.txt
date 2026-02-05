@@ -1,0 +1,8 @@
+Version: 1.0
+File: virt/kvm/kvm_main.c:3104
+Symbol:
+func gfn_to_pfn (
+kvm * @"struct--kvm.txt"
+gfn @"typedef--gfn_t.txt"
+)
+@"typedef--kvm_pfn_t.txt"

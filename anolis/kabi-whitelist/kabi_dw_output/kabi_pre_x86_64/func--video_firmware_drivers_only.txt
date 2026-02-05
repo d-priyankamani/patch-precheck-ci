@@ -1,0 +1,6 @@
+Version: 1.0
+File: drivers/video/nomodeset.c:10
+Symbol:
+func video_firmware_drivers_only (
+)
+@"typedef--bool.txt"

@@ -1,0 +1,75 @@
+Version: 1.0
+File: include/linux/gpio/driver.h:48
+Symbol:
+Byte size 280
+struct gpio_irq_chip {
+0x0 chip * @"struct--irq_chip.txt"
+0x8 domain * @"struct--irq_domain.txt"
+0x10 fwnode * @"struct--fwnode_handle.txt"
+0x18 parent_domain * @"struct--irq_domain.txt"
+0x20 child_to_parent_hwirq * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) * "unsigned int"
+(NULL) * "unsigned int"
+)
+"int"
+0x28 populate_parent_alloc_arg * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) * @"union--gpio_irq_fwspec.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+)
+"int"
+0x30 child_offset_to_irq * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) "unsigned int"
+)
+"unsigned int"
+0x38 child_irq_domain_ops @"struct--irq_domain_ops.txt"
+0x88 handler @"typedef--irq_flow_handler_t.txt"
+0x90 default_type "unsigned int"
+0x98 lock_key * @"struct--lock_class_key.txt"
+0xa0 request_key * @"struct--lock_class_key.txt"
+0xa8 parent_handler @"typedef--irq_flow_handler_t.txt"
+0xb0 (NULL) union (NULL) {
+parent_handler_data * "void"
+parent_handler_data_array * * "void"
+}
+0xb8 num_parents "unsigned int"
+0xc0 parents * "unsigned int"
+0xc8 map * "unsigned int"
+0xd0 threaded @"typedef--bool.txt"
+0xd1 per_parent_data @"typedef--bool.txt"
+0xd2 initialized @"typedef--bool.txt"
+0xd3 domain_is_allocated_externally @"typedef--bool.txt"
+0xd8 init_hw * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+)
+"int"
+0xe0 init_valid_mask * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) * "long unsigned int"
+(NULL) "unsigned int"
+)
+"void"
+0xe8 valid_mask * "long unsigned int"
+0xf0 first "unsigned int"
+0xf8 irq_enable * func (NULL) (
+(NULL) * @"struct--irq_data.txt"
+)
+"void"
+0x100 irq_disable * func (NULL) (
+(NULL) * @"struct--irq_data.txt"
+)
+"void"
+0x108 irq_unmask * func (NULL) (
+(NULL) * @"struct--irq_data.txt"
+)
+"void"
+0x110 irq_mask * func (NULL) (
+(NULL) * @"struct--irq_data.txt"
+)
+"void"
+}

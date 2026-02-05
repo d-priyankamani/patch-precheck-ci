@@ -1,0 +1,12 @@
+Version: 1.0
+File: net/netlink/genetlink.c:749
+Symbol:
+func genlmsg_put (
+skb * @"struct--sk_buff.txt"
+portid @"typedef--u32.txt"
+seq @"typedef--u32.txt"
+family * const @"struct--genl_family.txt"
+flags "int"
+cmd @"typedef--u8.txt"
+)
+* "void"

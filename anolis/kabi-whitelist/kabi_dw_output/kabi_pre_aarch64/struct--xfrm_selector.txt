@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/uapi/linux/xfrm.h:49
+Symbol:
+Byte size 56
+struct xfrm_selector {
+0x0 daddr @"typedef--xfrm_address_t.txt"
+0x10 saddr @"typedef--xfrm_address_t.txt"
+0x20 dport @"typedef--__be16.txt"
+0x22 dport_mask @"typedef--__be16.txt"
+0x24 sport @"typedef--__be16.txt"
+0x26 sport_mask @"typedef--__be16.txt"
+0x28 family @"typedef--__u16.txt"
+0x2a prefixlen_d @"typedef--__u8.txt"
+0x2b prefixlen_s @"typedef--__u8.txt"
+0x2c proto @"typedef--__u8.txt"
+0x30 ifindex "int"
+0x34 user @"typedef--__kernel_uid32_t.txt"
+}

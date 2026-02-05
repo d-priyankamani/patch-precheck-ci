@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/net/macsec.c:4268
+Symbol:
+func macsec_get_real_dev (
+dev * const @"struct--net_device.txt"
+)
+* @"struct--net_device.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_main.c:438
+Symbol:
+func drm_sched_stop (
+sched * @"struct--drm_gpu_scheduler.txt"
+bad * @"struct--drm_sched_job.txt"
+)
+"void"

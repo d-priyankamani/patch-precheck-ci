@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/blkdev.h:1600
+Symbol:
+Byte size 24
+struct io_comp_batch {
+0x0 req_list * @"struct--request.txt"
+0x8 need_ts @"typedef--bool.txt"
+0x10 complete * func (NULL) (
+(NULL) * @"struct--io_comp_batch.txt"
+)
+"void"
+}

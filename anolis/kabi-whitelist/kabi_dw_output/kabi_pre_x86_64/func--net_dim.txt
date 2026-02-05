@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/dim/net_dim.c:350
+Symbol:
+func net_dim (
+dim * @"struct--dim.txt"
+end_sample @"struct--dim_sample.txt"
+)
+"void"

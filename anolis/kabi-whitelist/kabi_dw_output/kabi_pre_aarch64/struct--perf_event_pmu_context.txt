@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/perf_event.h:911
+Symbol:
+Byte size 112
+Alignment 8
+struct perf_event_pmu_context {
+0x0 pmu * @"struct--pmu.txt"
+0x8 ctx * @"struct--perf_event_context.txt"
+0x10 pmu_ctx_entry @"struct--list_head.txt"
+0x20 pinned_active @"struct--list_head.txt"
+0x30 flexible_active @"struct--list_head.txt"
+0x40:0-1 embedded "unsigned int"
+0x44 nr_events "unsigned int"
+0x48 nr_cgroups "unsigned int"
+0x4c refcount @"typedef--atomic_t.txt"
+0x50 8 callback_head @"struct--callback_head.txt"
+0x60 task_ctx_data * "void"
+0x68 rotate_necessary "int"
+}

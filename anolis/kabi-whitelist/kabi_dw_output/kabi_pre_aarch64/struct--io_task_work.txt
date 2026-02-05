@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:493
+Symbol:
+Byte size 16
+struct io_task_work {
+0x0 node @"struct--llist_node.txt"
+0x8 func @"typedef--io_req_tw_func_t.txt"
+}

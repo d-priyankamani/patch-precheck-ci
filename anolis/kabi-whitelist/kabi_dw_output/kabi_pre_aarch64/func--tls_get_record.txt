@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/tls/tls_device.c:616
+Symbol:
+func tls_get_record (
+context * @"struct--tls_offload_context_tx.txt"
+seq @"typedef--u32.txt"
+p_record_sn * @"typedef--u64.txt"
+)
+* @"struct--tls_record_info.txt"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/pnp.h:226
+Symbol:
+Byte size 32
+struct pnp_card_link {
+0x0 card * @"struct--pnp_card.txt"
+0x8 driver * @"struct--pnp_card_driver.txt"
+0x10 driver_data * "void"
+0x18 pm_state @"typedef--pm_message_t.txt"
+}

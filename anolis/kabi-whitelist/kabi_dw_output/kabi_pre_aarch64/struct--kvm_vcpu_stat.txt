@@ -1,0 +1,14 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:933
+Symbol:
+Byte size 888
+struct kvm_vcpu_stat {
+0x0 generic @"struct--kvm_vcpu_stat_generic.txt"
+0x340 hvc_exit_stat @"typedef--u64.txt"
+0x348 wfe_exit_stat @"typedef--u64.txt"
+0x350 wfi_exit_stat @"typedef--u64.txt"
+0x358 mmio_exit_user @"typedef--u64.txt"
+0x360 mmio_exit_kernel @"typedef--u64.txt"
+0x368 signal_exits @"typedef--u64.txt"
+0x370 exits @"typedef--u64.txt"
+}

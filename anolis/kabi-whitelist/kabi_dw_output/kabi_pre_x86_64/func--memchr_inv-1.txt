@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/fortify-string.h:758
+Symbol:
+func memchr_inv (
+p const * const "void"
+c "int"
+size @"typedef--size_t.txt"
+)
+* "void"

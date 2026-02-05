@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/elf.h:197
+Symbol:
+Byte size 24
+struct elf64_sym {
+0x0 st_name @"typedef--Elf64_Word.txt"
+0x4 st_info "unsigned char"
+0x5 st_other "unsigned char"
+0x6 st_shndx @"typedef--Elf64_Half.txt"
+0x8 st_value @"typedef--Elf64_Addr.txt"
+0x10 st_size @"typedef--Elf64_Xword.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cm.c:2348
+Symbol:
+func ib_send_cm_rtu (
+cm_id * @"struct--ib_cm_id.txt"
+private_data * const "void"
+private_data_len @"typedef--u8.txt"
+)
+"int"

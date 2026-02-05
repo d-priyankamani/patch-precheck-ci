@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/preempt.h:337
+Symbol:
+Byte size 16
+struct preempt_ops {
+0x0 sched_in * func (NULL) (
+(NULL) * @"struct--preempt_notifier.txt"
+(NULL) "int"
+)
+"void"
+0x8 sched_out * func (NULL) (
+(NULL) * @"struct--preempt_notifier.txt"
+(NULL) * @"struct--task_struct.txt"
+)
+"void"
+}

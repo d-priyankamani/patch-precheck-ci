@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_resource.c:411
+Symbol:
+func ttm_resource_manager_evict_all (
+bdev * @"struct--ttm_device.txt"
+man * @"struct--ttm_resource_manager.txt"
+)
+"int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/ptp_clock.h:228
+Symbol:
+Byte size 32
+struct ptp_extts_event {
+0x0 t @"struct--ptp_clock_time.txt"
+0x10 index "unsigned int"
+0x14 flags "unsigned int"
+0x18 rsv [2]"unsigned int"
+}

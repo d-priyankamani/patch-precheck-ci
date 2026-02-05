@@ -1,0 +1,88 @@
+Version: 1.0
+File: kernel/trace/trace.h:557
+Symbol:
+Byte size 152
+struct tracer {
+0x0 name * const "char"
+0x8 init * func (NULL) (
+(NULL) * @"struct--trace_array.txt"
+)
+"int"
+0x10 reset * func (NULL) (
+(NULL) * @"struct--trace_array.txt"
+)
+"void"
+0x18 start * func (NULL) (
+(NULL) * @"struct--trace_array.txt"
+)
+"void"
+0x20 stop * func (NULL) (
+(NULL) * @"struct--trace_array.txt"
+)
+"void"
+0x28 update_thresh * func (NULL) (
+(NULL) * @"struct--trace_array.txt"
+)
+"int"
+0x30 open * func (NULL) (
+(NULL) * @"struct--trace_iterator.txt"
+)
+"void"
+0x38 pipe_open * func (NULL) (
+(NULL) * @"struct--trace_iterator.txt"
+)
+"void"
+0x40 close * func (NULL) (
+(NULL) * @"struct--trace_iterator.txt"
+)
+"void"
+0x48 pipe_close * func (NULL) (
+(NULL) * @"struct--trace_iterator.txt"
+)
+"void"
+0x50 read * func (NULL) (
+(NULL) * @"struct--trace_iterator.txt"
+(NULL) * @"struct--file.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x58 splice_read * func (NULL) (
+(NULL) * @"struct--trace_iterator.txt"
+(NULL) * @"struct--file.txt"
+(NULL) * @"typedef--loff_t.txt"
+(NULL) * @"struct--pipe_inode_info.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) "unsigned int"
+)
+@"typedef--ssize_t.txt"
+0x60 print_header * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+)
+"void"
+0x68 print_line * func (NULL) (
+(NULL) * @"struct--trace_iterator.txt"
+)
+@"enum--print_line_t.txt"
+0x70 set_flag * func (NULL) (
+(NULL) * @"struct--trace_array.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+)
+"int"
+0x78 flag_changed * func (NULL) (
+(NULL) * @"struct--trace_array.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+)
+"int"
+0x80 next * @"struct--tracer.txt"
+0x88 flags * @"struct--tracer_flags.txt"
+0x90 enabled "int"
+0x94 print_max @"typedef--bool.txt"
+0x95 allow_instances @"typedef--bool.txt"
+0x96 use_max_tr @"typedef--bool.txt"
+0x97 noboot @"typedef--bool.txt"
+}

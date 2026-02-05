@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/drm_writeback.h:105
+Symbol:
+Byte size 120
+struct drm_writeback_job {
+0x0 connector * @"struct--drm_writeback_connector.txt"
+0x8 prepared @"typedef--bool.txt"
+0x10 cleanup_work @"struct--work_struct.txt"
+0x50 list_entry @"struct--list_head.txt"
+0x60 fb * @"struct--drm_framebuffer.txt"
+0x68 out_fence * @"struct--dma_fence.txt"
+0x70 priv * "void"
+}

@@ -1,0 +1,42 @@
+Version: 1.0
+File: include/linux/tty_port.h:103
+Symbol:
+Byte size 432
+Alignment 8
+struct tty_port {
+0x0 8 buf @"struct--tty_bufhead.txt"
+0xa8 tty * @"struct--tty_struct.txt"
+0xb0 itty * @"struct--tty_struct.txt"
+0xb8 ops * const @"struct--tty_port_operations.txt"
+0xc0 client_ops * const @"struct--tty_port_client_operations.txt"
+0xc8 lock @"typedef--spinlock_t.txt"
+0xcc blocked_open "int"
+0xd0 count "int"
+0xd8 open_wait @"typedef--wait_queue_head_t.txt"
+0xf0 delta_msr_wait @"typedef--wait_queue_head_t.txt"
+0x108 flags "long unsigned int"
+0x110 iflags "long unsigned int"
+0x118:0-1 console "unsigned char"
+0x120 mutex @"struct--mutex.txt"
+0x140 buf_mutex @"struct--mutex.txt"
+0x160 xmit_buf * "unsigned char"
+0x168 xmit_fifo struct (NULL) {
+0x0 (NULL) union (NULL) {
+kfifo @"struct--__kfifo.txt"
+type * "unsigned char"
+const_type * const "unsigned char"
+rectype * [0]"char"
+ptr * "unsigned char"
+ptr_const * const "unsigned char"
+}
+0x18 buf [0]"unsigned char"
+}
+0x180 close_delay "unsigned int"
+0x184 closing_wait "unsigned int"
+0x188 drain_delay "int"
+0x18c kref @"struct--kref.txt"
+0x190 client_data * "void"
+0x198 ck_reserved1 "long unsigned int"
+0x1a0 ck_reserved2 "long unsigned int"
+0x1a8 ck_reserved3 "long unsigned int"
+}

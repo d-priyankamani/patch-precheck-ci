@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/memcontrol.h:190
+Symbol:
+Byte size 16
+struct mem_cgroup_threshold {
+0x0 eventfd * @"<declarations>/struct--eventfd_ctx.txt"
+0x8 threshold "long unsigned int"
+}

@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/vmpressure.h:13
+Symbol:
+Byte size 152
+struct vmpressure {
+0x0 scanned "long unsigned int"
+0x8 reclaimed "long unsigned int"
+0x10 tree_scanned "long unsigned int"
+0x18 tree_reclaimed "long unsigned int"
+0x20 sr_lock @"typedef--spinlock_t.txt"
+0x28 events @"struct--list_head.txt"
+0x38 events_lock @"struct--mutex.txt"
+0x58 work @"struct--work_struct.txt"
+}

@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/video/backlight/backlight.c:405
+Symbol:
+func backlight_device_register (
+name * const "char"
+parent * @"struct--device.txt"
+devdata * "void"
+ops * const @"struct--backlight_ops.txt"
+props * const @"struct--backlight_properties.txt"
+)
+* @"struct--backlight_device.txt"

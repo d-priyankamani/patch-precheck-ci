@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/netpoll.h:25
+Symbol:
+Byte size 80
+struct netpoll {
+0x0 dev * @"struct--net_device.txt"
+0x8 dev_tracker @"typedef--netdevice_tracker.txt"
+0x8 dev_name [16]"char"
+0x18 name * const "char"
+0x20 local_ip @"union--inet_addr.txt"
+0x30 remote_ip @"union--inet_addr.txt"
+0x40 ipv6 @"typedef--bool.txt"
+0x42 local_port @"typedef--u16.txt"
+0x44 remote_port @"typedef--u16.txt"
+0x46 remote_mac [6]@"typedef--u8.txt"
+}

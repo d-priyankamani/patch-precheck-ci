@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/arm64/include/asm/tlbbatch.h:5
+Symbol:
+struct arch_tlbflush_unmap_batch {
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/component.c:787
+Symbol:
+func component_add (
+dev * @"struct--device.txt"
+ops * const @"struct--component_ops.txt"
+)
+"int"

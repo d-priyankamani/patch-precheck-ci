@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:31
+Symbol:
+Byte size 24
+struct io_file_table {
+0x0 files * @"struct--io_fixed_file.txt"
+0x8 bitmap * "long unsigned int"
+0x10 alloc_hint "unsigned int"
+}

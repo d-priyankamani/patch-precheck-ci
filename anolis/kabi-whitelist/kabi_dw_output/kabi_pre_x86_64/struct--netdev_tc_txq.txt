@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/netdevice.h:861
+Symbol:
+Byte size 4
+struct netdev_tc_txq {
+0x0 count @"typedef--u16.txt"
+0x2 offset @"typedef--u16.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/kasprintf.c:53
+Symbol:
+func kasprintf (
+gfp @"typedef--gfp_t.txt"
+fmt * const "char"
+(NULL) ...
+)
+* "char"

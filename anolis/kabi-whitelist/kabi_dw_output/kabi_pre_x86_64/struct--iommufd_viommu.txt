@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/iommufd.h:99
+Symbol:
+Byte size 128
+struct iommufd_viommu {
+0x0 obj @"struct--iommufd_object.txt"
+0x10 ictx * @"<declarations>/struct--iommufd_ctx.txt"
+0x18 iommu_dev * @"struct--iommu_device.txt"
+0x20 hwpt * @"<declarations>/struct--iommufd_hwpt_paging.txt"
+0x28 ops * const @"struct--iommufd_viommu_ops.txt"
+0x30 vdevs @"struct--xarray.txt"
+0x40 veventqs @"struct--list_head.txt"
+0x50 veventqs_rwsem @"struct--rw_semaphore.txt"
+0x78 type @"enum--iommu_viommu_type.txt"
+}

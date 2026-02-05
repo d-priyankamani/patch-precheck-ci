@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/dma-fence.h:105
+Symbol:
+Byte size 8
+typedef dma_fence_func_t
+* func (NULL) (
+(NULL) * @"struct--dma_fence.txt"
+(NULL) * @"struct--dma_fence_cb.txt"
+)
+"void"

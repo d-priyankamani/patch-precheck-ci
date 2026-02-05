@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_exec.c:283
+Symbol:
+func drm_exec_prepare_obj (
+exec * @"struct--drm_exec.txt"
+obj * @"struct--drm_gem_object.txt"
+num_fences "unsigned int"
+)
+"int"

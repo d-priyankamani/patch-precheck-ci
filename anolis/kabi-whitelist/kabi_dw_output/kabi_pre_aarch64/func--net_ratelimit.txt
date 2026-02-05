@@ -1,0 +1,6 @@
+Version: 1.0
+File: net/core/utils.c:38
+Symbol:
+func net_ratelimit (
+)
+"int"

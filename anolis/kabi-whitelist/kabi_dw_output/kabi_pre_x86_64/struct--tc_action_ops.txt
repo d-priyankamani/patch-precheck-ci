@@ -1,0 +1,85 @@
+Version: 1.0
+File: include/net/act_api.h:106
+Symbol:
+Byte size 144
+struct tc_action_ops {
+0x0 head @"struct--list_head.txt"
+0x10 kind [16]"char"
+0x20 id @"enum--tca_id.txt"
+0x24 net_id "unsigned int"
+0x28 size @"typedef--size_t.txt"
+0x30 owner * @"struct--module.txt"
+0x38 act * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * const @"struct--tc_action.txt"
+(NULL) * @"struct--tcf_result.txt"
+)
+"int"
+0x40 dump * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--tc_action.txt"
+(NULL) "int"
+(NULL) "int"
+)
+"int"
+0x48 cleanup * func (NULL) (
+(NULL) * @"struct--tc_action.txt"
+)
+"void"
+0x50 lookup * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * * @"struct--tc_action.txt"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0x58 init * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * @"struct--nlattr.txt"
+(NULL) * @"struct--nlattr.txt"
+(NULL) * * @"struct--tc_action.txt"
+(NULL) * @"struct--tcf_proto.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x60 walk * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--netlink_callback.txt"
+(NULL) "int"
+(NULL) * const @"struct--tc_action_ops.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x68 stats_update * func (NULL) (
+(NULL) * @"struct--tc_action.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+0x70 get_fill_size * func (NULL) (
+(NULL) * const @"struct--tc_action.txt"
+)
+@"typedef--size_t.txt"
+0x78 get_dev * func (NULL) (
+(NULL) * const @"struct--tc_action.txt"
+(NULL) * @"typedef--tc_action_priv_destructor.txt"
+)
+* @"struct--net_device.txt"
+0x80 get_psample_group * func (NULL) (
+(NULL) * const @"struct--tc_action.txt"
+(NULL) * @"typedef--tc_action_priv_destructor.txt"
+)
+* @"<declarations>/struct--psample_group.txt"
+0x88 offload_act_setup * func (NULL) (
+(NULL) * @"struct--tc_action.txt"
+(NULL) * "void"
+(NULL) * @"typedef--u32.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+}

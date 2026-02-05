@@ -1,0 +1,13 @@
+Version: 1.0
+File: lib/rhashtable.c:1134
+Symbol:
+func rhashtable_free_and_destroy (
+ht * @"struct--rhashtable.txt"
+free_fn * func (NULL) (
+(NULL) * "void"
+(NULL) * "void"
+)
+"void"
+arg * "void"
+)
+"void"

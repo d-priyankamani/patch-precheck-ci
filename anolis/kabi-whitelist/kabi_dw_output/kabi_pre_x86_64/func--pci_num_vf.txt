@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/iov.c:1103
+Symbol:
+func pci_num_vf (
+dev * @"struct--pci_dev.txt"
+)
+"int"

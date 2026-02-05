@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:167
+Symbol:
+Byte size 120
+struct io_submit_state {
+0x0 free_list @"struct--io_wq_work_node.txt"
+0x8 compl_reqs @"struct--io_wq_work_list.txt"
+0x18 link @"struct--io_submit_link.txt"
+0x28 plug_started @"typedef--bool.txt"
+0x29 need_plug @"typedef--bool.txt"
+0x2a submit_nr "short unsigned int"
+0x2c cqes_count "unsigned int"
+0x30 plug @"struct--blk_plug.txt"
+}

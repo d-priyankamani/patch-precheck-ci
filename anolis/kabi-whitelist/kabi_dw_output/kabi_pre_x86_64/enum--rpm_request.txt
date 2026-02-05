@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/pm.h:620
+Symbol:
+Byte size 4
+enum rpm_request {
+RPM_REQ_NONE = 0x0
+RPM_REQ_IDLE = 0x1
+RPM_REQ_SUSPEND = 0x2
+RPM_REQ_AUTOSUSPEND = 0x3
+RPM_REQ_RESUME = 0x4
+}

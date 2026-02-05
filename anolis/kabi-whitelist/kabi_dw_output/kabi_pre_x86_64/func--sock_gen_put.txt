@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ipv4/inet_hashtables.c:477
+Symbol:
+func sock_gen_put (
+sk * @"struct--sock.txt"
+)
+"void"

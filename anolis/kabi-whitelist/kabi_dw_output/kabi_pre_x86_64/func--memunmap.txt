@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/iomem.c:119
+Symbol:
+func memunmap (
+addr * "void"
+)
+"void"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/genalloc.c:487
+Symbol:
+func gen_pool_free_owner (
+pool * @"struct--gen_pool.txt"
+addr "long unsigned int"
+size @"typedef--size_t.txt"
+owner * * "void"
+)
+"void"

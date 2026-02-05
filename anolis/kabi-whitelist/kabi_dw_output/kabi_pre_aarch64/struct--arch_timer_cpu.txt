@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/kvm/arm_arch_timer.h:87
+Symbol:
+Byte size 608
+Alignment 8
+struct arch_timer_cpu {
+0x0 8 timers [4]@"struct--arch_timer_context.txt"
+0x200 8 bg_timer @"struct--hrtimer.txt"
+0x258 enabled @"typedef--bool.txt"
+}

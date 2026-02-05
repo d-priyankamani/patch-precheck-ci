@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/net/dst_metadata.h:32
+Symbol:
+Byte size 304
+Alignment 8
+struct metadata_dst {
+0x0 8 dst @"struct--dst_entry.txt"
+0xc8 type @"enum--metadata_type.txt"
+0xd0 u union (NULL) {
+tun_info @"struct--ip_tunnel_info.txt"
+port_info @"struct--hw_port_info.txt"
+macsec_info @"struct--macsec_info.txt"
+xfrm_info @"struct--xfrm_md_info.txt"
+}
+}

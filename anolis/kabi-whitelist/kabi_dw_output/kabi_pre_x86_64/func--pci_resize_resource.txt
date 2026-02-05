@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/pci/setup-res.c:425
+Symbol:
+func pci_resize_resource (
+dev * @"struct--pci_dev.txt"
+resno "int"
+size "int"
+)
+"int"

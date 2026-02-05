@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/rdma/ib_umem_odp.h:12
+Symbol:
+Byte size 248
+Alignment 8
+struct ib_umem_odp {
+0x0 umem @"struct--ib_umem.txt"
+0x50 8 notifier @"struct--mmu_interval_notifier.txt"
+0xa8 tgid * @"struct--pid.txt"
+0xb0 pfn_list * "long unsigned int"
+0xb8 dma_list * @"typedef--dma_addr_t.txt"
+0xc0 umem_mutex @"struct--mutex.txt"
+0xe0 private * "void"
+0xe8 npages "int"
+0xec is_implicit_odp @"typedef--bool.txt"
+0xf0 page_shift "unsigned int"
+}

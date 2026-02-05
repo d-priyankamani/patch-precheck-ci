@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/bpf-cgroup-defs.h:51
+Symbol:
+Byte size 688
+struct cgroup_bpf {
+0x0 effective [33]* @"struct--bpf_prog_array.txt"
+0x108 progs [33]@"struct--hlist_head.txt"
+0x210 flags [33]@"typedef--u8.txt"
+0x238 storages @"struct--list_head.txt"
+0x248 inactive * @"struct--bpf_prog_array.txt"
+0x250 refcnt @"struct--percpu_ref.txt"
+0x260 release_work @"struct--work_struct.txt"
+0x2a0 ck_reserved1 "long unsigned int"
+0x2a8 ck_reserved2 "long unsigned int"
+}

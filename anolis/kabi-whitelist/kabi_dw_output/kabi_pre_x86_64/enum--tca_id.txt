@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/uapi/linux/pkt_cls.h:119
+Symbol:
+Byte size 4
+enum tca_id {
+TCA_ID_UNSPEC = 0x0
+TCA_ID_POLICE = 0x1
+TCA_ID_GACT = 0x5
+TCA_ID_IPT = 0x6
+TCA_ID_PEDIT = 0x7
+TCA_ID_MIRRED = 0x8
+TCA_ID_NAT = 0x9
+TCA_ID_XT = 0xa
+TCA_ID_SKBEDIT = 0xb
+TCA_ID_VLAN = 0xc
+TCA_ID_BPF = 0xd
+TCA_ID_CONNMARK = 0xe
+TCA_ID_SKBMOD = 0xf
+TCA_ID_CSUM = 0x10
+TCA_ID_TUNNEL_KEY = 0x11
+TCA_ID_SIMP = 0x16
+TCA_ID_IFE = 0x19
+TCA_ID_SAMPLE = 0x1a
+TCA_ID_CTINFO = 0x1b
+TCA_ID_MPLS = 0x1c
+TCA_ID_CT = 0x1d
+TCA_ID_GATE = 0x1e
+__TCA_ID_MAX = 0xff
+}

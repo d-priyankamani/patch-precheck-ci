@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_crtc_helper.c:283
+Symbol:
+func drm_crtc_helper_set_mode (
+crtc * @"struct--drm_crtc.txt"
+mode * @"struct--drm_display_mode.txt"
+x "int"
+y "int"
+old_fb * @"struct--drm_framebuffer.txt"
+)
+@"typedef--bool.txt"

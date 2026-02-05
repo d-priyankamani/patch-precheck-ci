@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/ptp/ptp_clock.c:420
+Symbol:
+func ptp_find_pin (
+ptp * @"struct--ptp_clock.txt"
+func @"enum--ptp_pin_function.txt"
+chan "unsigned int"
+)
+"int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:532
+Symbol:
+Byte size 8
+typedef ib_mad_send_handler
+* func (NULL) (
+(NULL) * @"struct--ib_mad_agent.txt"
+(NULL) * @"struct--ib_mad_send_wc.txt"
+)
+"void"

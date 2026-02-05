@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/rdma/ib_sa.h:308
+Symbol:
+Byte size 64
+struct ib_sa_mcmember_rec {
+0x0 mgid @"union--ib_gid.txt"
+0x10 port_gid @"union--ib_gid.txt"
+0x20 qkey @"typedef--__be32.txt"
+0x24 mlid @"typedef--__be16.txt"
+0x26 mtu_selector @"typedef--u8.txt"
+0x27 mtu @"typedef--u8.txt"
+0x28 traffic_class @"typedef--u8.txt"
+0x2a pkey @"typedef--__be16.txt"
+0x2c rate_selector @"typedef--u8.txt"
+0x2d rate @"typedef--u8.txt"
+0x2e packet_life_time_selector @"typedef--u8.txt"
+0x2f packet_life_time @"typedef--u8.txt"
+0x30 sl @"typedef--u8.txt"
+0x34 flow_label @"typedef--__be32.txt"
+0x38 hop_limit @"typedef--u8.txt"
+0x39 scope @"typedef--u8.txt"
+0x3a join_state @"typedef--u8.txt"
+0x3b proxy_join @"typedef--u8.txt"
+}

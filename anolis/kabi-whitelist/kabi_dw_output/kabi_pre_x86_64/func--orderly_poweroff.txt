@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/reboot.c:885
+Symbol:
+func orderly_poweroff (
+force @"typedef--bool.txt"
+)
+"void"

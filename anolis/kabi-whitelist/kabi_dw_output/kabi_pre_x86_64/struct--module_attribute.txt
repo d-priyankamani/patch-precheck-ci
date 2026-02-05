@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/linux/module.h:53
+Symbol:
+Byte size 56
+struct module_attribute {
+0x0 attr @"struct--attribute.txt"
+0x10 show * func (NULL) (
+(NULL) * @"struct--module_attribute.txt"
+(NULL) * @"struct--module_kobject.txt"
+(NULL) * "char"
+)
+@"typedef--ssize_t.txt"
+0x18 store * func (NULL) (
+(NULL) * @"struct--module_attribute.txt"
+(NULL) * @"struct--module_kobject.txt"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x20 setup * func (NULL) (
+(NULL) * @"struct--module.txt"
+(NULL) * const "char"
+)
+"void"
+0x28 test * func (NULL) (
+(NULL) * @"struct--module.txt"
+)
+"int"
+0x30 free * func (NULL) (
+(NULL) * @"struct--module.txt"
+)
+"void"
+}

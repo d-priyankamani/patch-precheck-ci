@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/platform.c:792
+Symbol:
+func platform_device_unregister (
+pdev * @"struct--platform_device.txt"
+)
+"void"

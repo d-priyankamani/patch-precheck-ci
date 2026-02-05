@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/linux/msi.h:108
+Symbol:
+Byte size 24
+struct pci_msi_desc {
+0x0 (NULL) union (NULL) {
+msi_mask @"typedef--u32.txt"
+msix_ctrl @"typedef--u32.txt"
+}
+0x4 msi_attrib struct (NULL) {
+0x0:0-1 is_msix @"typedef--u8.txt"
+0x0:1-4 multiple @"typedef--u8.txt"
+0x0:4-7 multi_cap @"typedef--u8.txt"
+0x0:7-8 can_mask @"typedef--u8.txt"
+0x1:0-1 is_64 @"typedef--u8.txt"
+0x1:1-2 is_virtual @"typedef--u8.txt"
+0x4 default_irq "unsigned int"
+}
+0x10 (NULL) union (NULL) {
+mask_pos @"typedef--u8.txt"
+mask_base * "void"
+}
+}

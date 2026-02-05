@@ -1,0 +1,4 @@
+Version: 1.0
+File: init/main.c:178
+Symbol:
+var reset_devices "void"

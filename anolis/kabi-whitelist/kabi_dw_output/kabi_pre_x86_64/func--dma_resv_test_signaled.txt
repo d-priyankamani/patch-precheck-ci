@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/dma-buf/dma-resv.c:731
+Symbol:
+func dma_resv_test_signaled (
+obj * @"struct--dma_resv.txt"
+usage @"enum--dma_resv_usage.txt"
+)
+@"typedef--bool.txt"

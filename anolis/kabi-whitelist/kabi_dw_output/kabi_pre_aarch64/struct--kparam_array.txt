@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/moduleparam.h:92
+Symbol:
+Byte size 32
+struct kparam_array {
+0x0 max "unsigned int"
+0x4 elemsize "unsigned int"
+0x8 num * "unsigned int"
+0x10 ops * const @"struct--kernel_param_ops.txt"
+0x18 elem * "void"
+}

@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/fs.h:1944
+Symbol:
+Byte size 4
+typedef fop_flags_t
+"unsigned int"

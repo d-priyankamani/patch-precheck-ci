@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_file.c:483
+Symbol:
+func drm_release (
+inode * @"struct--inode.txt"
+filp * @"struct--file.txt"
+)
+"int"

@@ -1,0 +1,41 @@
+Version: 1.0
+File: include/net/neighbour.h:139
+Symbol:
+Byte size 416
+Alignment 8
+struct neighbour {
+0x0 next * @"struct--neighbour.txt"
+0x8 tbl * @"struct--neigh_table.txt"
+0x10 parms * @"struct--neigh_parms.txt"
+0x18 confirmed "long unsigned int"
+0x20 updated "long unsigned int"
+0x28 lock @"typedef--rwlock_t.txt"
+0x30 refcnt @"typedef--refcount_t.txt"
+0x34 arp_queue_len_bytes "unsigned int"
+0x38 arp_queue @"struct--sk_buff_head.txt"
+0x50 timer @"struct--timer_list.txt"
+0x98 used "long unsigned int"
+0xa0 probes @"typedef--atomic_t.txt"
+0xa4 nud_state @"typedef--u8.txt"
+0xa5 type @"typedef--u8.txt"
+0xa6 dead @"typedef--u8.txt"
+0xa7 protocol @"typedef--u8.txt"
+0xa8 flags @"typedef--u32.txt"
+0xac ha_lock @"typedef--seqlock_t.txt"
+0xb8 8 ha [32]"unsigned char"
+0xd8 hh @"struct--hh_cache.txt"
+0x148 output * func (NULL) (
+(NULL) * @"struct--neighbour.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x150 ops * const @"struct--neigh_ops.txt"
+0x158 gc_list @"struct--list_head.txt"
+0x168 managed_list @"struct--list_head.txt"
+0x178 8 rcu @"struct--callback_head.txt"
+0x188 dev * @"struct--net_device.txt"
+0x190 dev_tracker @"typedef--netdevice_tracker.txt"
+0x190 ck_reserved1 "long unsigned int"
+0x198 ck_reserved2 "long unsigned int"
+0x1a0 primary_key [0]@"typedef--u8.txt"
+}

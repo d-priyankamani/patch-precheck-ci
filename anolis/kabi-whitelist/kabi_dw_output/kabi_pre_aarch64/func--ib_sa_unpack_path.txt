@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/sa_query.c:1381
+Symbol:
+func ib_sa_unpack_path (
+attribute * "void"
+rec * @"struct--sa_path_rec.txt"
+)
+"void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/ipv4/devinet.c:153
+Symbol:
+func __ip_dev_find (
+net * @"struct--net.txt"
+addr @"typedef--__be32.txt"
+devref @"typedef--bool.txt"
+)
+* @"struct--net_device.txt"

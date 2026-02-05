@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/irq/chip.c:538
+Symbol:
+func handle_simple_irq (
+desc * @"struct--irq_desc.txt"
+)
+"void"

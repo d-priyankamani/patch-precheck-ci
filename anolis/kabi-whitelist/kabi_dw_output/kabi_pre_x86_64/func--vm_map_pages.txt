@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/memory.c:2541
+Symbol:
+func vm_map_pages (
+vma * @"struct--vm_area_struct.txt"
+pages * * @"struct--page.txt"
+num "long unsigned int"
+)
+"int"

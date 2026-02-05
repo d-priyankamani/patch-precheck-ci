@@ -1,0 +1,4 @@
+Version: 1.0
+File: init/init_task.c:68
+Symbol:
+var init_task "void"

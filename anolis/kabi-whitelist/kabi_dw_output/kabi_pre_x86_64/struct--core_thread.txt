@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/sched/signal.h:75
+Symbol:
+Byte size 16
+struct core_thread {
+0x0 task * @"struct--task_struct.txt"
+0x8 next * @"struct--core_thread.txt"
+}

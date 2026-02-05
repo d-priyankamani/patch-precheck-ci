@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/iov.c:1071
+Symbol:
+func pci_enable_sriov (
+dev * @"struct--pci_dev.txt"
+nr_virtfn "int"
+)
+"int"

@@ -1,0 +1,4 @@
+Version: 1.0
+File: arch/x86/kernel/head64.c:65
+Symbol:
+var vmalloc_base "void"

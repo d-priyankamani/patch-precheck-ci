@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/pci/vgaarb.c:985
+Symbol:
+func vga_client_register (
+pdev * @"struct--pci_dev.txt"
+set_decode * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+(NULL) @"typedef--bool.txt"
+)
+"unsigned int"
+)
+"int"

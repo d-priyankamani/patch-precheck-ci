@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/drm_connector.h:839
+Symbol:
+Byte size 16
+struct drm_connector_tv_margins {
+0x0 bottom "unsigned int"
+0x4 left "unsigned int"
+0x8 right "unsigned int"
+0xc top "unsigned int"
+}

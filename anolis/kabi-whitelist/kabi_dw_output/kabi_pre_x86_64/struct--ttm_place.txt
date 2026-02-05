@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/ttm/ttm_placement.h:77
+Symbol:
+Byte size 16
+struct ttm_place {
+0x0 fpfn "unsigned int"
+0x4 lpfn "unsigned int"
+0x8 mem_type @"typedef--uint32_t.txt"
+0xc flags @"typedef--uint32_t.txt"
+}

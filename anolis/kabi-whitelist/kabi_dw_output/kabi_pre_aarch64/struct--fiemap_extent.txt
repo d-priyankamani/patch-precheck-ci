@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/fiemap.h:17
+Symbol:
+Byte size 56
+struct fiemap_extent {
+0x0 fe_logical @"typedef--__u64.txt"
+0x8 fe_physical @"typedef--__u64.txt"
+0x10 fe_length @"typedef--__u64.txt"
+0x18 fe_reserved64 [2]@"typedef--__u64.txt"
+0x28 fe_flags @"typedef--__u32.txt"
+0x2c fe_reserved [3]@"typedef--__u32.txt"
+}

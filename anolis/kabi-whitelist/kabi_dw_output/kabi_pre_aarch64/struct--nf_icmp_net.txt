@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/netns/conntrack.h:49
+Symbol:
+Byte size 4
+struct nf_icmp_net {
+0x0 timeout "unsigned int"
+}

@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/bpf.h:188
+Symbol:
+Byte size 4
+enum btf_field_type {
+BPF_SPIN_LOCK = 0x1
+BPF_TIMER = 0x2
+BPF_KPTR_UNREF = 0x4
+BPF_KPTR_REF = 0x8
+BPF_KPTR = 0xc
+BPF_LIST_HEAD = 0x10
+BPF_LIST_NODE = 0x20
+BPF_RB_ROOT = 0x40
+BPF_RB_NODE = 0x80
+BPF_GRAPH_NODE_OR_ROOT = 0xf0
+BPF_REFCOUNT = 0x100
+}

@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/types.h:157
+Symbol:
+Byte size 4
+typedef fmode_t
+"unsigned int"

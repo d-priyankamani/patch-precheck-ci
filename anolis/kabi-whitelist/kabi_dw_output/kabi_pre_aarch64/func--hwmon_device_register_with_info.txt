@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/hwmon/hwmon.c:910
+Symbol:
+func hwmon_device_register_with_info (
+dev * @"struct--device.txt"
+name * const "char"
+drvdata * "void"
+chip * const @"struct--hwmon_chip_info.txt"
+extra_groups * * const @"struct--attribute_group.txt"
+)
+* @"struct--device.txt"

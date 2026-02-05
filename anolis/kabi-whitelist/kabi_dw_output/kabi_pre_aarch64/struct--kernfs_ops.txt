@@ -1,0 +1,63 @@
+Version: 1.0
+File: include/linux/kernfs.h:279
+Symbol:
+Byte size 112
+struct kernfs_ops {
+0x0 open * func (NULL) (
+(NULL) * @"struct--kernfs_open_file.txt"
+)
+"int"
+0x8 release * func (NULL) (
+(NULL) * @"struct--kernfs_open_file.txt"
+)
+"void"
+0x10 seq_show * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+)
+"int"
+0x18 seq_start * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+* "void"
+0x20 seq_next * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+(NULL) * @"typedef--loff_t.txt"
+)
+* "void"
+0x28 seq_stop * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+)
+"void"
+0x30 read * func (NULL) (
+(NULL) * @"struct--kernfs_open_file.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x38 atomic_write_len @"typedef--size_t.txt"
+0x40 prealloc @"typedef--bool.txt"
+0x48 write * func (NULL) (
+(NULL) * @"struct--kernfs_open_file.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x50 poll * func (NULL) (
+(NULL) * @"struct--kernfs_open_file.txt"
+(NULL) * @"struct--poll_table_struct.txt"
+)
+@"typedef--__poll_t.txt"
+0x58 mmap * func (NULL) (
+(NULL) * @"struct--kernfs_open_file.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+0x60 ck_reserved1 "long unsigned int"
+0x68 ck_reserved2 "long unsigned int"
+}

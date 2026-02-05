@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/devlink.h:428
+Symbol:
+Byte size 32
+union devlink_param_value {
+vu8 @"typedef--u8.txt"
+vu16 @"typedef--u16.txt"
+vu32 @"typedef--u32.txt"
+vstr [32]"char"
+vbool @"typedef--bool.txt"
+}

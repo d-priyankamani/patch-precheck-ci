@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/timekeeping.h:263
+Symbol:
+Byte size 24
+struct system_device_crosststamp {
+0x0 device @"typedef--ktime_t.txt"
+0x8 sys_realtime @"typedef--ktime_t.txt"
+0x10 sys_monoraw @"typedef--ktime_t.txt"
+}

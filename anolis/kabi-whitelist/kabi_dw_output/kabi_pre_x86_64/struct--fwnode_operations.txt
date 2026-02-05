@@ -1,0 +1,118 @@
+Version: 1.0
+File: include/linux/fwnode.h:133
+Symbol:
+Byte size 208
+struct fwnode_operations {
+0x0 get * func (NULL) (
+(NULL) * @"struct--fwnode_handle.txt"
+)
+* @"struct--fwnode_handle.txt"
+0x8 put * func (NULL) (
+(NULL) * @"struct--fwnode_handle.txt"
+)
+"void"
+0x10 device_is_available * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+)
+@"typedef--bool.txt"
+0x18 device_get_match_data * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+(NULL) * const @"struct--device.txt"
+)
+* const "void"
+0x20 device_dma_supported * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+)
+@"typedef--bool.txt"
+0x28 device_get_dma_attr * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+)
+@"enum--dev_dma_attr.txt"
+0x30 property_present * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+(NULL) * const "char"
+)
+@"typedef--bool.txt"
+0x38 property_read_int_array * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+(NULL) * const "char"
+(NULL) "unsigned int"
+(NULL) * "void"
+(NULL) @"typedef--size_t.txt"
+)
+"int"
+0x40 property_read_string_array * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+(NULL) * const "char"
+(NULL) * * const "char"
+(NULL) @"typedef--size_t.txt"
+)
+"int"
+0x48 get_name * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+)
+* const "char"
+0x50 get_name_prefix * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+)
+* const "char"
+0x58 get_parent * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+)
+* @"struct--fwnode_handle.txt"
+0x60 get_next_child_node * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+(NULL) * @"struct--fwnode_handle.txt"
+)
+* @"struct--fwnode_handle.txt"
+0x68 get_named_child_node * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+(NULL) * const "char"
+)
+* @"struct--fwnode_handle.txt"
+0x70 get_reference_args * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+(NULL) * const "char"
+(NULL) * const "char"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) * @"struct--fwnode_reference_args.txt"
+)
+"int"
+0x78 graph_get_next_endpoint * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+(NULL) * @"struct--fwnode_handle.txt"
+)
+* @"struct--fwnode_handle.txt"
+0x80 graph_get_remote_endpoint * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+)
+* @"struct--fwnode_handle.txt"
+0x88 graph_get_port_parent * func (NULL) (
+(NULL) * @"struct--fwnode_handle.txt"
+)
+* @"struct--fwnode_handle.txt"
+0x90 graph_parse_endpoint * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+(NULL) * @"struct--fwnode_endpoint.txt"
+)
+"int"
+0x98 iomap * func (NULL) (
+(NULL) * @"struct--fwnode_handle.txt"
+(NULL) "int"
+)
+* "void"
+0xa0 irq_get * func (NULL) (
+(NULL) * const @"struct--fwnode_handle.txt"
+(NULL) "unsigned int"
+)
+"int"
+0xa8 add_links * func (NULL) (
+(NULL) * @"struct--fwnode_handle.txt"
+)
+"int"
+0xb0 ck_reserved1 "long unsigned int"
+0xb8 ck_reserved2 "long unsigned int"
+0xc0 ck_reserved3 "long unsigned int"
+0xc8 ck_reserved4 "long unsigned int"
+}

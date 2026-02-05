@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/capability.c:434
+Symbol:
+func capable (
+cap "int"
+)
+@"typedef--bool.txt"

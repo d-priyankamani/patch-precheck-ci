@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/pid.c:510
+Symbol:
+func task_active_pid_ns (
+tsk * @"struct--task_struct.txt"
+)
+* @"struct--pid_namespace.txt"

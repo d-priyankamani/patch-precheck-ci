@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/sysctl_net.c:163
+Symbol:
+func register_net_sysctl_sz (
+net * @"struct--net.txt"
+path * const "char"
+table * @"struct--ctl_table.txt"
+table_size @"typedef--size_t.txt"
+)
+* @"struct--ctl_table_header.txt"

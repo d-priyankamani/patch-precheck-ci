@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/socket.h:34
+Symbol:
+Byte size 16
+struct sockaddr {
+0x0 sa_family @"typedef--sa_family_t.txt"
+0x2 (NULL) union (NULL) {
+sa_data_min [14]"char"
+(NULL) struct (NULL) {
+0x0 __empty_sa_data struct (NULL) {
+}
+0x0 sa_data [0]"char"
+}
+}
+}

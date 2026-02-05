@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/netlink.c:123
+Symbol:
+func rdma_nl_unregister (
+index "unsigned int"
+)
+"void"

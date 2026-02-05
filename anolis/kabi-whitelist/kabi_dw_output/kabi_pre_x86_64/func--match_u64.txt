@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/parser.c:233
+Symbol:
+func match_u64 (
+s * @"typedef--substring_t.txt"
+result * @"typedef--u64.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/scatterlist.c:25
+Symbol:
+func sg_next (
+sg * @"struct--scatterlist.txt"
+)
+* @"struct--scatterlist.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/devlink/param.c:769
+Symbol:
+func devl_param_driverinit_value_get (
+devlink * @"struct--devlink.txt"
+param_id @"typedef--u32.txt"
+val * @"union--devlink_param_value.txt"
+)
+"int"

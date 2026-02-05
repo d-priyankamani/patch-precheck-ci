@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_transport_sas.c:1775
+Symbol:
+func sas_attach_transport (
+ft * @"struct--sas_function_template.txt"
+)
+* @"struct--scsi_transport_template.txt"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: virt/kvm/kvm_main.c:1431
+Symbol:
+func kvm_put_kvm (
+kvm * @"struct--kvm.txt"
+)
+"void"

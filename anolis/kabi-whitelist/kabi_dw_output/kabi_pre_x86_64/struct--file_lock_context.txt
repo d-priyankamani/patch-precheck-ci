@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/filelock.h:139
+Symbol:
+Byte size 56
+struct file_lock_context {
+0x0 flc_lock @"typedef--spinlock_t.txt"
+0x8 flc_flock @"struct--list_head.txt"
+0x18 flc_posix @"struct--list_head.txt"
+0x28 flc_lease @"struct--list_head.txt"
+}

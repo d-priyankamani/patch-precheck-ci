@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/compat.h:388
+Symbol:
+Byte size 4
+struct compat_robust_list {
+0x0 next @"typedef--compat_uptr_t.txt"
+}

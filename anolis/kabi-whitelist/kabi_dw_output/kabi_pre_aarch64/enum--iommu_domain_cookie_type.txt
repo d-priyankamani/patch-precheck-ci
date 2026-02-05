@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/iommu.h:170
+Symbol:
+Byte size 4
+enum iommu_domain_cookie_type {
+IOMMU_COOKIE_NONE = 0x0
+IOMMU_COOKIE_DMA_IOVA = 0x1
+IOMMU_COOKIE_DMA_MSI = 0x2
+IOMMU_COOKIE_FAULT_HANDLER = 0x3
+IOMMU_COOKIE_SVA = 0x4
+IOMMU_COOKIE_IOMMUFD = 0x5
+}

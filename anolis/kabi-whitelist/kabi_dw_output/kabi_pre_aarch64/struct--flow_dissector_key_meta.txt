@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/flow_dissector.h:249
+Symbol:
+Byte size 8
+struct flow_dissector_key_meta {
+0x0 ingress_ifindex "int"
+0x4 ingress_iftype @"typedef--u16.txt"
+0x6 l2_miss @"typedef--u8.txt"
+}

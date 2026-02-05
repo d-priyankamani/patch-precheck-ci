@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:341
+Symbol:
+Byte size 80
+struct acpi_device_wakeup {
+0x0 gpe_device @"typedef--acpi_handle.txt"
+0x8 gpe_number @"typedef--u64.txt"
+0x10 sleep_state @"typedef--u64.txt"
+0x18 resources @"struct--list_head.txt"
+0x28 flags @"struct--acpi_device_wakeup_flags.txt"
+0x30 context @"struct--acpi_device_wakeup_context.txt"
+0x40 ws * @"struct--wakeup_source.txt"
+0x48 prepare_count "int"
+0x4c enable_count "int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo_vm.c:181
+Symbol:
+func ttm_bo_vm_fault_reserved (
+vmf * @"struct--vm_fault.txt"
+prot @"typedef--pgprot_t.txt"
+num_prefault "long unsigned int"
+)
+@"typedef--vm_fault_t.txt"

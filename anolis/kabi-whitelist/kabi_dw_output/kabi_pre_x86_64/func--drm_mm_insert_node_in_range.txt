@@ -1,0 +1,14 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mm.c:514
+Symbol:
+func drm_mm_insert_node_in_range (
+mm const * @"struct--drm_mm.txt"
+node const * @"struct--drm_mm_node.txt"
+size @"typedef--u64.txt"
+alignment @"typedef--u64.txt"
+color "long unsigned int"
+range_start @"typedef--u64.txt"
+range_end @"typedef--u64.txt"
+mode @"enum--drm_mm_insert_mode.txt"
+)
+"int"

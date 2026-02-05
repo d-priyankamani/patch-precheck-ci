@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/snmp.h:100
+Symbol:
+Byte size 80
+struct udp_mib {
+0x0 mibs [10]"long unsigned int"
+}

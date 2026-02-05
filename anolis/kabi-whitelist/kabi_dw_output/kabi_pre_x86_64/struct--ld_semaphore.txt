@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/tty_ldisc.h:17
+Symbol:
+Byte size 48
+struct ld_semaphore {
+0x0 count @"typedef--atomic_long_t.txt"
+0x8 wait_lock @"typedef--raw_spinlock_t.txt"
+0xc wait_readers "unsigned int"
+0x10 read_wait @"struct--list_head.txt"
+0x20 write_wait @"struct--list_head.txt"
+}

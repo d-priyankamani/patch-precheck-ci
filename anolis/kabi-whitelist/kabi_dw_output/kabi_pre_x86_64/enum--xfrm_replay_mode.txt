@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/xfrm.h:168
+Symbol:
+Byte size 4
+enum xfrm_replay_mode {
+XFRM_REPLAY_MODE_LEGACY = 0x0
+XFRM_REPLAY_MODE_BMP = 0x1
+XFRM_REPLAY_MODE_ESN = 0x2
+}

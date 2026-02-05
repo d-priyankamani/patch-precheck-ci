@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/scsi/scsi_common.c:190
+Symbol:
+func scsi_normalize_sense (
+sense_buffer * const @"typedef--u8.txt"
+sb_len "int"
+sshdr * @"struct--scsi_sense_hdr.txt"
+)
+@"typedef--bool.txt"

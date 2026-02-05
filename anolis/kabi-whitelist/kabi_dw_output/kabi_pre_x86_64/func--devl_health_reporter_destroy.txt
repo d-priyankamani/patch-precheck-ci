@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/health.c:238
+Symbol:
+func devl_health_reporter_destroy (
+reporter * @"struct--devlink_health_reporter.txt"
+)
+"void"

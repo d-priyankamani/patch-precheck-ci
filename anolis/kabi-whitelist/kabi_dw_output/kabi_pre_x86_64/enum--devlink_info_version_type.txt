@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/devlink.h:1838
+Symbol:
+Byte size 4
+enum devlink_info_version_type {
+DEVLINK_INFO_VERSION_TYPE_NONE = 0x0
+DEVLINK_INFO_VERSION_TYPE_COMPONENT = 0x1
+}

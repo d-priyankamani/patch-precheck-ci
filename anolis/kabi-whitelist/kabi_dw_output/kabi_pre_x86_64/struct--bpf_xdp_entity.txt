@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/netdevice.h:1020
+Symbol:
+Byte size 16
+struct bpf_xdp_entity {
+0x0 prog * @"struct--bpf_prog.txt"
+0x8 link * @"struct--bpf_xdp_link.txt"
+}

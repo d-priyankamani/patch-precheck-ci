@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/macsec.h:39
+Symbol:
+Byte size 12
+union salt {
+(NULL) struct (NULL) {
+0x0 ssci @"typedef--u32.txt"
+0x4 pn @"typedef--u64.txt"
+}
+bytes [12]@"typedef--u8.txt"
+}

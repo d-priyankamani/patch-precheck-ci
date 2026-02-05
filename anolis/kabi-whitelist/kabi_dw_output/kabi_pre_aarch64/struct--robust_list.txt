@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/uapi/linux/futex.h:85
+Symbol:
+Byte size 8
+struct robust_list {
+0x0 next * @"struct--robust_list.txt"
+}

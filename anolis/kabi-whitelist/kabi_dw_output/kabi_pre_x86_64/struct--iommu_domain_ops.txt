@@ -1,0 +1,75 @@
+Version: 1.0
+File: include/linux/iommu.h:772
+Symbol:
+Byte size 96
+struct iommu_domain_ops {
+0x0 attach_dev * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) * @"struct--device.txt"
+)
+"int"
+0x8 set_dev_pasid * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) * @"struct--device.txt"
+(NULL) @"typedef--ioasid_t.txt"
+(NULL) * @"struct--iommu_domain.txt"
+)
+"int"
+0x10 map_pages * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) "long unsigned int"
+(NULL) @"typedef--phys_addr_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) "int"
+(NULL) @"typedef--gfp_t.txt"
+(NULL) * @"typedef--size_t.txt"
+)
+"int"
+0x18 unmap_pages * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) "long unsigned int"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"struct--iommu_iotlb_gather.txt"
+)
+@"typedef--size_t.txt"
+0x20 flush_iotlb_all * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+)
+"void"
+0x28 iotlb_sync_map * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) "long unsigned int"
+(NULL) @"typedef--size_t.txt"
+)
+"int"
+0x30 iotlb_sync * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) * @"struct--iommu_iotlb_gather.txt"
+)
+"void"
+0x38 cache_invalidate_user * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) * @"struct--iommu_user_data_array.txt"
+)
+"int"
+0x40 iova_to_phys * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) @"typedef--dma_addr_t.txt"
+)
+@"typedef--phys_addr_t.txt"
+0x48 enforce_cache_coherency * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+)
+@"typedef--bool.txt"
+0x50 set_pgtable_quirks * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x58 free * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+)
+"void"
+}

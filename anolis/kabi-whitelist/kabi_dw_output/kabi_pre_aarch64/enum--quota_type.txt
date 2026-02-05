@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/quota.h:55
+Symbol:
+Byte size 4
+enum quota_type {
+USRQUOTA = 0x0
+GRPQUOTA = 0x1
+PRJQUOTA = 0x2
+}

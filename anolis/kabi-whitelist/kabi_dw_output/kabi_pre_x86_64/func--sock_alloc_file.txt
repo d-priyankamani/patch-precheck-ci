@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/socket.c:462
+Symbol:
+func sock_alloc_file (
+sock * @"struct--socket.txt"
+flags "int"
+dname * const "char"
+)
+* @"struct--file.txt"

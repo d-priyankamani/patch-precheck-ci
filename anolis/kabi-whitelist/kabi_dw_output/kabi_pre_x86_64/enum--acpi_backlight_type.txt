@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/acpi/video.h:45
+Symbol:
+Byte size 4
+enum acpi_backlight_type {
+acpi_backlight_undef = 0xffffffffffffffff
+acpi_backlight_none = 0x0
+acpi_backlight_video = 0x1
+acpi_backlight_vendor = 0x2
+acpi_backlight_native = 0x3
+acpi_backlight_nvidia_wmi_ec = 0x4
+acpi_backlight_apple_gmux = 0x5
+}

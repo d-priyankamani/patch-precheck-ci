@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/skbuff.c:2431
+Symbol:
+func skb_put (
+skb * @"struct--sk_buff.txt"
+len "unsigned int"
+)
+* "void"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/perf_event.h:618
+Symbol:
+Byte size 4
+enum perf_event_state {
+PERF_EVENT_STATE_DEAD = 0xfffffffffffffffc
+PERF_EVENT_STATE_EXIT = 0xfffffffffffffffd
+PERF_EVENT_STATE_ERROR = 0xfffffffffffffffe
+PERF_EVENT_STATE_OFF = 0xffffffffffffffff
+PERF_EVENT_STATE_INACTIVE = 0x0
+PERF_EVENT_STATE_ACTIVE = 0x1
+}

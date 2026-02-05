@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mode_config.c:184
+Symbol:
+func drm_mode_config_reset (
+dev * @"struct--drm_device.txt"
+)
+"void"

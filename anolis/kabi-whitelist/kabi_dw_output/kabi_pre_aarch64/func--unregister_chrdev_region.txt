@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/char_dev.c:311
+Symbol:
+func unregister_chrdev_region (
+from @"typedef--dev_t.txt"
+count "unsigned int"
+)
+"void"

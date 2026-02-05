@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/events/core.c:11721
+Symbol:
+func perf_pmu_register (
+pmu * @"struct--pmu.txt"
+name * const "char"
+type "int"
+)
+"int"

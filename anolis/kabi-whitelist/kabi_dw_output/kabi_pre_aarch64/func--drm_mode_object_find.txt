@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mode_object.c:175
+Symbol:
+func drm_mode_object_find (
+dev * @"struct--drm_device.txt"
+file_priv * @"struct--drm_file.txt"
+id @"typedef--uint32_t.txt"
+type @"typedef--uint32_t.txt"
+)
+* @"struct--drm_mode_object.txt"

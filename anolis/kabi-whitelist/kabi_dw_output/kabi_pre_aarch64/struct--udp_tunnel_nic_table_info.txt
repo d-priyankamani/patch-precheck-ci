@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/udp_tunnel.h:267
+Symbol:
+Byte size 8
+struct udp_tunnel_nic_table_info {
+0x0 n_entries "unsigned int"
+0x4 tunnel_types "unsigned int"
+}

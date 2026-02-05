@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/rbtree.c:553
+Symbol:
+func rb_replace_node (
+victim * @"struct--rb_node.txt"
+new * @"struct--rb_node.txt"
+root * @"struct--rb_root.txt"
+)
+"void"

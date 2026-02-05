@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/dma-fence.h:116
+Symbol:
+Byte size 24
+struct dma_fence_cb {
+0x0 node @"struct--list_head.txt"
+0x10 func @"typedef--dma_fence_func_t.txt"
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/netdevice.h:904
+Symbol:
+Byte size 4
+enum net_device_path_type {
+DEV_PATH_ETHERNET = 0x0
+DEV_PATH_VLAN = 0x1
+DEV_PATH_BRIDGE = 0x2
+DEV_PATH_PPPOE = 0x3
+DEV_PATH_DSA = 0x4
+DEV_PATH_MTK_WDMA = 0x5
+}

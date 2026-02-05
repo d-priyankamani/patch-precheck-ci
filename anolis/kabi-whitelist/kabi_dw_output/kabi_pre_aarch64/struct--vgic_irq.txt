@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/kvm/arm_vgic.h:117
+Symbol:
+Byte size 112
+struct vgic_irq {
+0x0 irq_lock @"typedef--raw_spinlock_t.txt"
+0x8 lpi_list @"struct--list_head.txt"
+0x18 ap_list @"struct--list_head.txt"
+0x28 vcpu * @"struct--kvm_vcpu.txt"
+0x30 target_vcpu * @"struct--kvm_vcpu.txt"
+0x38 intid @"typedef--u32.txt"
+0x3c line_level @"typedef--bool.txt"
+0x3d pending_latch @"typedef--bool.txt"
+0x3e active @"typedef--bool.txt"
+0x3f enabled @"typedef--bool.txt"
+0x40 hw @"typedef--bool.txt"
+0x44 refcount @"struct--kref.txt"
+0x48 hwintid @"typedef--u32.txt"
+0x4c host_irq "unsigned int"
+0x50 (NULL) union (NULL) {
+targets @"typedef--u8.txt"
+mpidr @"typedef--u32.txt"
+}
+0x54 source @"typedef--u8.txt"
+0x55 active_source @"typedef--u8.txt"
+0x56 priority @"typedef--u8.txt"
+0x57 group @"typedef--u8.txt"
+0x58 config @"enum--vgic_irq_config.txt"
+0x60 ops * @"struct--irq_ops.txt"
+0x68 owner * "void"
+}

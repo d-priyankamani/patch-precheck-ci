@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/debugfs.h:24
+Symbol:
+Byte size 16
+struct debugfs_blob_wrapper {
+0x0 data * "void"
+0x8 size "long unsigned int"
+}

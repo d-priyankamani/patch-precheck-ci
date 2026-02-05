@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/drm_ioctl.h:145
+Symbol:
+Byte size 24
+struct drm_ioctl_desc {
+0x0 cmd "unsigned int"
+0x4 flags @"enum--drm_ioctl_flags.txt"
+0x8 func * @"typedef--drm_ioctl_t.txt"
+0x10 name * const "char"
+}

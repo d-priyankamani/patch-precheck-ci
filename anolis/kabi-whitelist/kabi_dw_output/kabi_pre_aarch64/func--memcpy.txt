@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/firmware/efi/libstub/intrinsics.c:18
+Symbol:
+func memcpy (
+dst * "void"
+src * const "void"
+len @"typedef--size_t.txt"
+)
+* "void"

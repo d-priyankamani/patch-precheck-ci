@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:547
+Symbol:
+Byte size 1064
+struct bpf_verifier_log {
+0x0 start_pos @"typedef--u64.txt"
+0x8 end_pos @"typedef--u64.txt"
+0x10 ubuf * "char"
+0x18 level @"typedef--u32.txt"
+0x1c len_total @"typedef--u32.txt"
+0x20 len_max @"typedef--u32.txt"
+0x24 kbuf [1024]"char"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpio/gpiolib-legacy.c:56
+Symbol:
+func gpio_request (
+gpio "unsigned int"
+label * const "char"
+)
+"int"

@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:218
+Symbol:
+Byte size 72
+struct ib_class_port_info {
+0x0 base_version @"typedef--u8.txt"
+0x1 class_version @"typedef--u8.txt"
+0x2 capability_mask @"typedef--__be16.txt"
+0x4 cap_mask2_resp_time @"typedef--__be32.txt"
+0x8 redirect_gid [16]@"typedef--u8.txt"
+0x18 redirect_tcslfl @"typedef--__be32.txt"
+0x1c redirect_lid @"typedef--__be16.txt"
+0x1e redirect_pkey @"typedef--__be16.txt"
+0x20 redirect_qp @"typedef--__be32.txt"
+0x24 redirect_qkey @"typedef--__be32.txt"
+0x28 trap_gid [16]@"typedef--u8.txt"
+0x38 trap_tcslfl @"typedef--__be32.txt"
+0x3c trap_lid @"typedef--__be16.txt"
+0x3e trap_pkey @"typedef--__be16.txt"
+0x40 trap_hlqp @"typedef--__be32.txt"
+0x44 trap_qkey @"typedef--__be32.txt"
+}

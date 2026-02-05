@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:185
+Symbol:
+Byte size 196
+struct ethtool_drvinfo {
+0x0 cmd @"typedef--__u32.txt"
+0x4 driver [32]"char"
+0x24 version [32]"char"
+0x44 fw_version [32]"char"
+0x64 bus_info [32]"char"
+0x84 erom_version [32]"char"
+0xa4 reserved2 [12]"char"
+0xb0 n_priv_flags @"typedef--__u32.txt"
+0xb4 n_stats @"typedef--__u32.txt"
+0xb8 testinfo_len @"typedef--__u32.txt"
+0xbc eedump_len @"typedef--__u32.txt"
+0xc0 regdump_len @"typedef--__u32.txt"
+}

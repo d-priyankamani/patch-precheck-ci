@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/irq_poll.c:179
+Symbol:
+func irq_poll_init (
+iop * @"struct--irq_poll.txt"
+weight "int"
+poll_fn * @"typedef--irq_poll_fn.txt"
+)
+"void"

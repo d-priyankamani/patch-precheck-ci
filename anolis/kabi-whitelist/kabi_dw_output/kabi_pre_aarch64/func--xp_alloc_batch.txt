@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/xdp/xsk_buff_pool.c:617
+Symbol:
+func xp_alloc_batch (
+pool * @"struct--xsk_buff_pool.txt"
+xdp * * @"struct--xdp_buff.txt"
+max @"typedef--u32.txt"
+)
+@"typedef--u32.txt"

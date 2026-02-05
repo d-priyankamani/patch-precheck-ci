@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/net.h:158
+Symbol:
+Byte size 8
+typedef skb_read_actor_t
+* func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"

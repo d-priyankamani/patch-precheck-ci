@@ -1,0 +1,16 @@
+Version: 1.0
+File: arch/arm64/include/asm/thread_info.h:24
+Symbol:
+Byte size 32
+struct thread_info {
+0x0 flags "long unsigned int"
+0x8 (NULL) union (NULL) {
+preempt_count @"typedef--u64.txt"
+preempt struct (NULL) {
+0x0 count @"typedef--u32.txt"
+0x4 need_resched @"typedef--u32.txt"
+}
+}
+0x10 mpam_partid_pmg @"typedef--u64.txt"
+0x18 cpu @"typedef--u32.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/fcntl.c:1004
+Symbol:
+func kill_fasync (
+fp * * @"struct--fasync_struct.txt"
+sig "int"
+band "int"
+)
+"void"

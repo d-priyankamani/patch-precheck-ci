@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dsc_helper.c:1311
+Symbol:
+func drm_dsc_compute_rc_parameters (
+vdsc_cfg * @"struct--drm_dsc_config.txt"
+)
+"int"

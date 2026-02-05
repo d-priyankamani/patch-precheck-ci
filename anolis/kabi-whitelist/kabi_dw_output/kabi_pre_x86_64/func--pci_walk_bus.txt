@@ -1,0 +1,13 @@
+Version: 1.0
+File: drivers/pci/bus.c:439
+Symbol:
+func pci_walk_bus (
+top * @"struct--pci_bus.txt"
+cb * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+(NULL) * "void"
+)
+"int"
+userdata * "void"
+)
+"void"

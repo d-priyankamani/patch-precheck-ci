@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/drm/drm_encoder.h:98
+Symbol:
+Byte size 120
+struct drm_encoder {
+0x0 dev * @"struct--drm_device.txt"
+0x8 head @"struct--list_head.txt"
+0x18 base @"struct--drm_mode_object.txt"
+0x38 name * "char"
+0x40 encoder_type "int"
+0x44 index "unsigned int"
+0x48 possible_crtcs @"typedef--uint32_t.txt"
+0x4c possible_clones @"typedef--uint32_t.txt"
+0x50 crtc * @"struct--drm_crtc.txt"
+0x58 bridge_chain @"struct--list_head.txt"
+0x68 funcs * const @"struct--drm_encoder_funcs.txt"
+0x70 helper_private * const @"struct--drm_encoder_helper_funcs.txt"
+}

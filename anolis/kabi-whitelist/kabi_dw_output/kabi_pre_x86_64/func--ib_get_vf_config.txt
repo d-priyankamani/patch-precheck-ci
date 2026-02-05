@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2596
+Symbol:
+func ib_get_vf_config (
+device * @"struct--ib_device.txt"
+vf "int"
+port @"typedef--u32.txt"
+info * @"struct--ifla_vf_info.txt"
+)
+"int"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1064
+Symbol:
+Byte size 12
+struct ib_srq_attr {
+0x0 max_wr @"typedef--u32.txt"
+0x4 max_sge @"typedef--u32.txt"
+0x8 srq_limit @"typedef--u32.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/interval_tree.c:10
+Symbol:
+func interval_tree_iter_first (
+root * @"struct--rb_root_cached.txt"
+start "long unsigned int"
+last "long unsigned int"
+)
+* @"struct--interval_tree_node.txt"

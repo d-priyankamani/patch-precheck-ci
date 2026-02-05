@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/linux/fs.h:366
+Symbol:
+Byte size 48
+struct kiocb {
+0x0 ki_filp * @"struct--file.txt"
+0x8 ki_pos @"typedef--loff_t.txt"
+0x10 ki_complete * func (NULL) (
+(NULL) * @"struct--kiocb.txt"
+(NULL) "long int"
+)
+"void"
+0x18 private * "void"
+0x20 ki_flags "int"
+0x24 ki_ioprio @"typedef--u16.txt"
+0x28 (NULL) union (NULL) {
+ki_waitq * @"struct--wait_page_queue.txt"
+dio_complete * func (NULL) (
+(NULL) * "void"
+)
+@"typedef--ssize_t.txt"
+}
+}

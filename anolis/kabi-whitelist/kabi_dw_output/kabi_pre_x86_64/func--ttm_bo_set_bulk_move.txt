@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo.c:97
+Symbol:
+func ttm_bo_set_bulk_move (
+bo * @"struct--ttm_buffer_object.txt"
+bulk * @"struct--ttm_lru_bulk_move.txt"
+)
+"void"

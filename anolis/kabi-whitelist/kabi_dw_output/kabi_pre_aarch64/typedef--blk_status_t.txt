@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/blk_types.h:104
+Symbol:
+typedef blk_status_t
+@"typedef--u8.txt"

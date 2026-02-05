@@ -1,0 +1,17 @@
+Version: 1.0
+File: fs/mount.h:9
+Symbol:
+Byte size 128
+struct mnt_namespace {
+0x0 ns @"struct--ns_common.txt"
+0x20 root * @"struct--mount.txt"
+0x28 list @"struct--list_head.txt"
+0x38 ns_lock @"typedef--spinlock_t.txt"
+0x40 user_ns * @"struct--user_namespace.txt"
+0x48 ucounts * @"struct--ucounts.txt"
+0x50 seq @"typedef--u64.txt"
+0x58 poll @"typedef--wait_queue_head_t.txt"
+0x70 event @"typedef--u64.txt"
+0x78 mounts "unsigned int"
+0x7c pending_mounts "unsigned int"
+}

@@ -1,0 +1,26 @@
+Version: 1.0
+File: arch/x86/include/asm/uprobes.h:25
+Symbol:
+Byte size 32
+struct arch_uprobe {
+0x0 (NULL) union (NULL) {
+insn [16]@"typedef--u8.txt"
+ixol [16]@"typedef--u8.txt"
+}
+0x10 ops * const @"<declarations>/struct--uprobe_xol_ops.txt"
+0x18 (NULL) union (NULL) {
+branch struct (NULL) {
+0x0 offs @"typedef--s32.txt"
+0x4 ilen @"typedef--u8.txt"
+0x5 opc1 @"typedef--u8.txt"
+}
+defparam struct (NULL) {
+0x0 fixups @"typedef--u8.txt"
+0x1 ilen @"typedef--u8.txt"
+}
+push struct (NULL) {
+0x0 reg_offset @"typedef--u8.txt"
+0x1 ilen @"typedef--u8.txt"
+}
+}
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/printk/printk.c:4299
+Symbol:
+func kmsg_dump_rewind (
+iter * @"struct--kmsg_dump_iter.txt"
+)
+"void"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_property.c:276
+Symbol:
+func drm_property_create_range (
+dev * @"struct--drm_device.txt"
+flags @"typedef--u32.txt"
+name * const "char"
+min @"typedef--uint64_t.txt"
+max @"typedef--uint64_t.txt"
+)
+* @"struct--drm_property.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/shrinker.c:1017
+Symbol:
+func register_shrinker (
+shrinker * @"struct--shrinker.txt"
+fmt * const "char"
+(NULL) ...
+)
+"int"

@@ -1,0 +1,13 @@
+Version: 1.0
+File: drivers/base/core.c:4001
+Symbol:
+func device_for_each_child (
+parent * @"struct--device.txt"
+data * "void"
+fn * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * "void"
+)
+"int"
+)
+"int"

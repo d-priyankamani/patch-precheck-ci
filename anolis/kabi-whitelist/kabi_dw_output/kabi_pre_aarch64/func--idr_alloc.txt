@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/idr.c:79
+Symbol:
+func idr_alloc (
+idr * @"struct--idr.txt"
+ptr * "void"
+start "int"
+end "int"
+gfp @"typedef--gfp_t.txt"
+)
+"int"

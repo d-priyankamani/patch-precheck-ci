@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/psample/psample.c:361
+Symbol:
+func psample_sample_packet (
+group * @"struct--psample_group.txt"
+skb * @"struct--sk_buff.txt"
+sample_rate @"typedef--u32.txt"
+md * const @"struct--psample_metadata.txt"
+)
+"void"

@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/flow_dissector.h:56
+Symbol:
+Byte size 8
+struct flow_dissector_key_vlan {
+0x0 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0:0-12 vlan_id @"typedef--u16.txt"
+0x1:4-5 vlan_dei @"typedef--u16.txt"
+0x1:5-8 vlan_priority @"typedef--u16.txt"
+}
+vlan_tci @"typedef--__be16.txt"
+}
+0x2 vlan_tpid @"typedef--__be16.txt"
+0x4 vlan_eth_type @"typedef--__be16.txt"
+0x6 padding @"typedef--u16.txt"
+}

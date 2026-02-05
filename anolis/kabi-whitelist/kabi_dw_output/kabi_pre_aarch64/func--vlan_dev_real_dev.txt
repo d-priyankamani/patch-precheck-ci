@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/8021q/vlan_core.c:102
+Symbol:
+func vlan_dev_real_dev (
+dev * const @"struct--net_device.txt"
+)
+* @"struct--net_device.txt"

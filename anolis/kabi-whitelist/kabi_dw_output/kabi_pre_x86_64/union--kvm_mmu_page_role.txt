@@ -1,0 +1,23 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:326
+Symbol:
+Byte size 4
+union kvm_mmu_page_role {
+word @"typedef--u32.txt"
+(NULL) struct (NULL) {
+0x0:0-4 level "unsigned int"
+0x0:4-5 has_4_byte_gpte "unsigned int"
+0x0:5-7 quadrant "unsigned int"
+0x0:7-8 direct "unsigned int"
+0x1:0-3 access "unsigned int"
+0x1:3-4 invalid "unsigned int"
+0x1:4-5 efer_nx "unsigned int"
+0x1:5-6 cr0_wp "unsigned int"
+0x1:6-7 smep_andnot_wp "unsigned int"
+0x1:7-8 smap_andnot_wp "unsigned int"
+0x2:0-1 ad_disabled "unsigned int"
+0x2:1-2 guest_mode "unsigned int"
+0x2:2-3 passthrough "unsigned int"
+0x3:0-8 smm "unsigned int"
+}
+}

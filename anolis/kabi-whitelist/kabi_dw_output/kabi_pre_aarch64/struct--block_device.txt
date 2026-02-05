@@ -1,0 +1,37 @@
+Version: 1.0
+File: include/linux/blk_types.h:42
+Symbol:
+Byte size 1224
+Alignment 8
+struct block_device {
+0x0 bd_start_sect @"typedef--sector_t.txt"
+0x8 bd_nr_sectors @"typedef--sector_t.txt"
+0x10 bd_disk * @"struct--gendisk.txt"
+0x18 bd_queue * @"struct--request_queue.txt"
+0x20 bd_stats * @"<declarations>/struct--disk_stats.txt"
+0x28 bd_stamp "long unsigned int"
+0x30 bd_read_only @"typedef--bool.txt"
+0x31 bd_partno @"typedef--u8.txt"
+0x32 bd_write_holder @"typedef--bool.txt"
+0x33 bd_has_submit_bio @"typedef--bool.txt"
+0x34 bd_dev @"typedef--dev_t.txt"
+0x38 bd_openers @"typedef--atomic_t.txt"
+0x3c bd_size_lock @"typedef--spinlock_t.txt"
+0x40 bd_inode * @"struct--inode.txt"
+0x48 bd_claiming * "void"
+0x50 bd_holder * "void"
+0x58 bd_holder_ops * const @"struct--blk_holder_ops.txt"
+0x60 bd_holder_lock @"struct--mutex.txt"
+0x80 bd_fsfreeze_count "int"
+0x84 bd_holders "int"
+0x88 bd_holder_dir * @"struct--kobject.txt"
+0x90 bd_fsfreeze_mutex @"struct--mutex.txt"
+0xb0 bd_fsfreeze_sb * @"struct--super_block.txt"
+0xb8 bd_meta_info * @"struct--partition_meta_info.txt"
+0xc0 bd_ro_warned @"typedef--bool.txt"
+0xc8 8 bd_device @"struct--device.txt"
+0x4a8 ck_reserved1 "long unsigned int"
+0x4b0 ck_reserved2 "long unsigned int"
+0x4b8 ck_reserved3 "long unsigned int"
+0x4c0 ck_reserved4 "long unsigned int"
+}

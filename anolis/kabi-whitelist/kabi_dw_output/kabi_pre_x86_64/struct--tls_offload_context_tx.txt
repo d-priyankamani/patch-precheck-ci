@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/net/tls.h:148
+Symbol:
+Byte size 688
+Alignment 8
+struct tls_offload_context_tx {
+0x0 aead_send * @"struct--crypto_aead.txt"
+0x8 lock @"typedef--spinlock_t.txt"
+0x10 records_list @"struct--list_head.txt"
+0x20 open_record * @"struct--tls_record_info.txt"
+0x28 retransmit_hint * @"struct--tls_record_info.txt"
+0x30 hint_record_sn @"typedef--u64.txt"
+0x38 unacked_record_sn @"typedef--u64.txt"
+0x40 sg_tx_data [17]@"struct--scatterlist.txt"
+0x260 sk_destruct * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+"void"
+0x268 destruct_work @"struct--work_struct.txt"
+0x2a8 ctx * @"struct--tls_context.txt"
+0x2b0 8 driver_state [0]@"typedef--u8.txt"
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/vfio.h:617
+Symbol:
+Byte size 20
+struct vfio_irq_set {
+0x0 argsz @"typedef--__u32.txt"
+0x4 flags @"typedef--__u32.txt"
+0x8 index @"typedef--__u32.txt"
+0xc start @"typedef--__u32.txt"
+0x10 count @"typedef--__u32.txt"
+0x14 data [0]@"typedef--__u8.txt"
+}

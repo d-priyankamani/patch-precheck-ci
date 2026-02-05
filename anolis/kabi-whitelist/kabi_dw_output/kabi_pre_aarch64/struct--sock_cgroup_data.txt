@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/cgroup-defs.h:896
+Symbol:
+Byte size 24
+struct sock_cgroup_data {
+0x0 cgroup * @"struct--cgroup.txt"
+0x8 classid @"typedef--u32.txt"
+0xc prioidx @"typedef--u16.txt"
+0x10 ck_reserved1 "long unsigned int"
+}

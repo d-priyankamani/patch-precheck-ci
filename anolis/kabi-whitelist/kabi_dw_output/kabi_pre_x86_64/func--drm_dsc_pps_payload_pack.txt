@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dsc_helper.c:97
+Symbol:
+func drm_dsc_pps_payload_pack (
+pps_payload * @"struct--drm_dsc_picture_parameter_set.txt"
+dsc_cfg * const @"struct--drm_dsc_config.txt"
+)
+"void"

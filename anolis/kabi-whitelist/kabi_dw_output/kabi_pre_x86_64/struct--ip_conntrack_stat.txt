@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/netfilter/nf_conntrack_common.h:9
+Symbol:
+Byte size 64
+struct ip_conntrack_stat {
+0x0 found "unsigned int"
+0x4 invalid "unsigned int"
+0x8 insert "unsigned int"
+0xc insert_failed "unsigned int"
+0x10 clash_resolve "unsigned int"
+0x14 drop "unsigned int"
+0x18 early_drop "unsigned int"
+0x1c error "unsigned int"
+0x20 expect_new "unsigned int"
+0x24 expect_create "unsigned int"
+0x28 expect_delete "unsigned int"
+0x2c search_restart "unsigned int"
+0x30 chaintoolong "unsigned int"
+0x38 ck_reserved1 "long unsigned int"
+}

@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/linux/sched.h:683
+Symbol:
+Byte size 304
+Alignment 8
+struct sched_dl_entity {
+0x0 8 rb_node @"struct--rb_node.txt"
+0x18 dl_runtime @"typedef--u64.txt"
+0x20 dl_deadline @"typedef--u64.txt"
+0x28 dl_period @"typedef--u64.txt"
+0x30 dl_bw @"typedef--u64.txt"
+0x38 dl_density @"typedef--u64.txt"
+0x40 runtime @"typedef--s64.txt"
+0x48 deadline @"typedef--u64.txt"
+0x50 flags "unsigned int"
+0x54:0-1 dl_throttled "unsigned int"
+0x54:1-2 dl_yielded "unsigned int"
+0x54:2-3 dl_non_contending "unsigned int"
+0x54:3-4 dl_overrun "unsigned int"
+0x58 8 dl_timer @"struct--hrtimer.txt"
+0xb0 8 inactive_timer @"struct--hrtimer.txt"
+0x108 pi_se * @"struct--sched_dl_entity.txt"
+0x110 ck_reserved1 "long unsigned int"
+0x118 ck_reserved2 "long unsigned int"
+0x120 ck_reserved3 "long unsigned int"
+0x128 ck_reserved4 "long unsigned int"
+}

@@ -1,0 +1,52 @@
+Version: 1.0
+File: include/linux/console.h:196
+Symbol:
+Byte size 128
+struct console {
+0x0 name [16]"char"
+0x10 write * func (NULL) (
+(NULL) * @"struct--console.txt"
+(NULL) * const "char"
+(NULL) "unsigned int"
+)
+"void"
+0x18 read * func (NULL) (
+(NULL) * @"struct--console.txt"
+(NULL) * "char"
+(NULL) "unsigned int"
+)
+"int"
+0x20 device * func (NULL) (
+(NULL) * @"struct--console.txt"
+(NULL) * "int"
+)
+* @"struct--tty_driver.txt"
+0x28 unblank * func (NULL) (
+)
+"void"
+0x30 setup * func (NULL) (
+(NULL) * @"struct--console.txt"
+(NULL) * "char"
+)
+"int"
+0x38 exit * func (NULL) (
+(NULL) * @"struct--console.txt"
+)
+"int"
+0x40 match * func (NULL) (
+(NULL) * @"struct--console.txt"
+(NULL) * "char"
+(NULL) "int"
+(NULL) * "char"
+)
+"int"
+0x48 flags "short int"
+0x4a index "short int"
+0x4c cflag "int"
+0x50 ispeed @"typedef--uint.txt"
+0x54 ospeed @"typedef--uint.txt"
+0x58 seq @"typedef--u64.txt"
+0x60 dropped "long unsigned int"
+0x68 data * "void"
+0x70 node @"struct--hlist_node.txt"
+}

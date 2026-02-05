@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_helper.c:108
+Symbol:
+func drm_dp_clock_recovery_ok (
+link_status * const @"typedef--u8.txt"
+lane_count "int"
+)
+@"typedef--bool.txt"

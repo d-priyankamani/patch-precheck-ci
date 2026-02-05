@@ -1,0 +1,22 @@
+Version: 1.0
+File: arch/x86/include/asm/hyperv-tlfs.h:405
+Symbol:
+Byte size 624
+struct hv_vp_assist_page {
+0x0 apic_assist @"typedef--__u32.txt"
+0x4 reserved1 @"typedef--__u32.txt"
+0x8 vtl_entry_reason @"typedef--__u32.txt"
+0xc vtl_reserved @"typedef--__u32.txt"
+0x10 vtl_ret_x64rax @"typedef--__u64.txt"
+0x18 vtl_ret_x64rcx @"typedef--__u64.txt"
+0x20 nested_control @"struct--hv_nested_enlightenments_control.txt"
+0x28 enlighten_vmentry @"typedef--__u8.txt"
+0x29 reserved2 [7]@"typedef--__u8.txt"
+0x30 current_nested_vmcs @"typedef--__u64.txt"
+0x38 synthetic_time_unhalted_timer_expired @"typedef--__u8.txt"
+0x39 reserved3 [7]@"typedef--__u8.txt"
+0x40 virtualization_fault_information [40]@"typedef--__u8.txt"
+0x68 reserved4 [8]@"typedef--__u8.txt"
+0x70 intercept_message [256]@"typedef--__u8.txt"
+0x170 vtl_ret_actions [256]@"typedef--__u8.txt"
+}

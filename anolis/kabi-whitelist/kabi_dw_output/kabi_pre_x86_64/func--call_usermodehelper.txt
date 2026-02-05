@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/umh.c:483
+Symbol:
+func call_usermodehelper (
+path * const "char"
+argv * * "char"
+envp * * "char"
+wait "int"
+)
+"int"

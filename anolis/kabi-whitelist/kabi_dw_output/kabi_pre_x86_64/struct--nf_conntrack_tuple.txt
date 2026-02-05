@@ -1,0 +1,36 @@
+Version: 1.0
+File: include/net/netfilter/nf_conntrack_tuple.h:37
+Symbol:
+Byte size 40
+struct nf_conntrack_tuple {
+0x0 src @"struct--nf_conntrack_man.txt"
+0x14 dst struct (NULL) {
+0x0 u3 @"union--nf_inet_addr.txt"
+0x10 u union (NULL) {
+all @"typedef--__be16.txt"
+tcp struct (NULL) {
+0x0 port @"typedef--__be16.txt"
+}
+udp struct (NULL) {
+0x0 port @"typedef--__be16.txt"
+}
+icmp struct (NULL) {
+0x0 type @"typedef--u_int8_t.txt"
+0x1 code @"typedef--u_int8_t.txt"
+}
+dccp struct (NULL) {
+0x0 port @"typedef--__be16.txt"
+}
+sctp struct (NULL) {
+0x0 port @"typedef--__be16.txt"
+}
+gre struct (NULL) {
+0x0 key @"typedef--__be16.txt"
+}
+}
+0x12 protonum @"typedef--u_int8_t.txt"
+0x13 __nfct_hash_offsetend struct (NULL) {
+}
+0x13 dir @"typedef--u_int8_t.txt"
+}
+}

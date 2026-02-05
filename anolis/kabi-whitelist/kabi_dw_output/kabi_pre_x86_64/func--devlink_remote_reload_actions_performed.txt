@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/devlink/dev.c:311
+Symbol:
+func devlink_remote_reload_actions_performed (
+devlink * @"struct--devlink.txt"
+limit @"enum--devlink_reload_limit.txt"
+actions_performed @"typedef--u32.txt"
+)
+"void"

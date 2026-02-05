@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/uapi/linux/in.h:97
+Symbol:
+Byte size 4
+struct in_addr {
+0x0 s_addr @"typedef--__be32.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/drm_edid.h:45
+Symbol:
+Byte size 3
+struct est_timings {
+0x0 t1 @"typedef--u8.txt"
+0x1 t2 @"typedef--u8.txt"
+0x2 mfg_rsvd @"typedef--u8.txt"
+}

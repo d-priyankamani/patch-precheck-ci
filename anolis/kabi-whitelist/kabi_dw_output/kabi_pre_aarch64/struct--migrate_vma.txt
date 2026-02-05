@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/migrate.h:185
+Symbol:
+Byte size 80
+struct migrate_vma {
+0x0 vma * @"struct--vm_area_struct.txt"
+0x8 dst * "long unsigned int"
+0x10 src * "long unsigned int"
+0x18 cpages "long unsigned int"
+0x20 npages "long unsigned int"
+0x28 start "long unsigned int"
+0x30 end "long unsigned int"
+0x38 pgmap_owner * "void"
+0x40 flags "long unsigned int"
+0x48 fault_page * @"struct--page.txt"
+}

@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/x86/kernel/pci-dma.c:23
+Symbol:
+Byte size 8
+var dma_ops * const @"struct--dma_map_ops.txt"

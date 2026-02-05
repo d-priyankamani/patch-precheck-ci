@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/drm/drm_property.h:225
+Symbol:
+Byte size 16
+struct drm_prop_enum_list {
+0x0 type "int"
+0x8 name * const "char"
+}

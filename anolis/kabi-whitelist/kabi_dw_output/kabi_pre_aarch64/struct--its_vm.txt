@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/irqchip/arm-gic-v4.h:19
+Symbol:
+Byte size 128
+struct its_vm {
+0x0 fwnode * @"struct--fwnode_handle.txt"
+0x8 domain * @"<declarations>/struct--irq_domain.txt"
+0x10 vprop_page * @"struct--page.txt"
+0x18 vpes * * @"struct--its_vpe.txt"
+0x20 nr_vpes "int"
+0x28 db_lpi_base @"typedef--irq_hw_number_t.txt"
+0x30 db_bitmap * "long unsigned int"
+0x38 nr_db_lpis "int"
+0x3c vlpi_count [16]@"typedef--u32.txt"
+}

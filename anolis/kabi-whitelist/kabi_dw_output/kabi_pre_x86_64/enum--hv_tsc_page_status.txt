@@ -1,0 +1,11 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:1077
+Symbol:
+Byte size 4
+enum hv_tsc_page_status {
+HV_TSC_PAGE_UNSET = 0x0
+HV_TSC_PAGE_GUEST_CHANGED = 0x1
+HV_TSC_PAGE_HOST_CHANGED = 0x2
+HV_TSC_PAGE_SET = 0x3
+HV_TSC_PAGE_BROKEN = 0x4
+}

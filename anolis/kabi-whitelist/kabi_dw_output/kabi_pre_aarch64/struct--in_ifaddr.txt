@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/linux/inetdevice.h:146
+Symbol:
+Byte size 120
+Alignment 8
+struct in_ifaddr {
+0x0 hash @"struct--hlist_node.txt"
+0x10 ifa_next * @"struct--in_ifaddr.txt"
+0x18 ifa_dev * @"struct--in_device.txt"
+0x20 8 callback_head @"struct--callback_head.txt"
+0x30 ifa_local @"typedef--__be32.txt"
+0x34 ifa_address @"typedef--__be32.txt"
+0x38 ifa_mask @"typedef--__be32.txt"
+0x3c ifa_rt_priority @"typedef--__u32.txt"
+0x40 ifa_broadcast @"typedef--__be32.txt"
+0x44 ifa_scope "unsigned char"
+0x45 ifa_prefixlen "unsigned char"
+0x46 ifa_proto "unsigned char"
+0x48 ifa_flags @"typedef--__u32.txt"
+0x4c ifa_label [16]"char"
+0x5c ifa_valid_lft @"typedef--__u32.txt"
+0x60 ifa_preferred_lft @"typedef--__u32.txt"
+0x68 ifa_cstamp "long unsigned int"
+0x70 ifa_tstamp "long unsigned int"
+}

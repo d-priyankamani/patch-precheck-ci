@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/addr.c:218
+Symbol:
+func rdma_addr_size_kss (
+addr * @"struct--__kernel_sockaddr_storage.txt"
+)
+"int"

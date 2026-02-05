@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/xdp.c:770
+Symbol:
+func xdp_set_features_flag (
+dev * @"struct--net_device.txt"
+val @"typedef--xdp_features_t.txt"
+)
+"void"

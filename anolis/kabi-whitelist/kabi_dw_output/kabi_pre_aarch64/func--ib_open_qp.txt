@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:1150
+Symbol:
+func ib_open_qp (
+xrcd * @"struct--ib_xrcd.txt"
+qp_open_attr * @"struct--ib_qp_open_attr.txt"
+)
+* @"struct--ib_qp.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/bpf.h:103
+Symbol:
+Byte size 16
+struct bpf_cgroup_storage_key {
+0x0 cgroup_inode_id @"typedef--__u64.txt"
+0x8 attach_type @"typedef--__u32.txt"
+}

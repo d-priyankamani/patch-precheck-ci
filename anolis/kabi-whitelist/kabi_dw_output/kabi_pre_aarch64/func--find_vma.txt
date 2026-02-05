@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/mmap.c:1954
+Symbol:
+func find_vma (
+mm * @"struct--mm_struct.txt"
+addr "long unsigned int"
+)
+* @"struct--vm_area_struct.txt"

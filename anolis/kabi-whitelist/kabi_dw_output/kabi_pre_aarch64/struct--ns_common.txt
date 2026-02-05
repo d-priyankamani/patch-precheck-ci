@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/ns_common.h:10
+Symbol:
+Byte size 32
+struct ns_common {
+0x0 stashed @"typedef--atomic_long_t.txt"
+0x8 ops * const @"struct--proc_ns_operations.txt"
+0x10 inum "unsigned int"
+0x14 count @"typedef--refcount_t.txt"
+0x18 ck_reserved1 "long unsigned int"
+}

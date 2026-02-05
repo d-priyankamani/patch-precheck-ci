@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:677
+Symbol:
+Byte size 72
+struct ib_port_attr {
+0x0 subnet_prefix @"typedef--u64.txt"
+0x8 state @"enum--ib_port_state.txt"
+0xc max_mtu @"enum--ib_mtu.txt"
+0x10 active_mtu @"enum--ib_mtu.txt"
+0x14 phys_mtu @"typedef--u32.txt"
+0x18 gid_tbl_len "int"
+0x1c:0-1 ip_gids "unsigned int"
+0x20 port_cap_flags @"typedef--u32.txt"
+0x24 max_msg_sz @"typedef--u32.txt"
+0x28 bad_pkey_cntr @"typedef--u32.txt"
+0x2c qkey_viol_cntr @"typedef--u32.txt"
+0x30 pkey_tbl_len @"typedef--u16.txt"
+0x34 sm_lid @"typedef--u32.txt"
+0x38 lid @"typedef--u32.txt"
+0x3c lmc @"typedef--u8.txt"
+0x3d max_vl_num @"typedef--u8.txt"
+0x3e sm_sl @"typedef--u8.txt"
+0x3f subnet_timeout @"typedef--u8.txt"
+0x40 init_type_reply @"typedef--u8.txt"
+0x41 active_width @"typedef--u8.txt"
+0x42 active_speed @"typedef--u16.txt"
+0x44 phys_state @"typedef--u8.txt"
+0x46 port_cap_flags2 @"typedef--u16.txt"
+}

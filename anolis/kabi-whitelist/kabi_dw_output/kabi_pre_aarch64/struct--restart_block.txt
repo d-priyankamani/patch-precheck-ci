@@ -1,0 +1,37 @@
+Version: 1.0
+File: include/linux/restart_block.h:25
+Symbol:
+Byte size 56
+struct restart_block {
+0x0 arch_data "long unsigned int"
+0x8 fn * func (NULL) (
+(NULL) * @"struct--restart_block.txt"
+)
+"long int"
+0x10 (NULL) union (NULL) {
+futex struct (NULL) {
+0x0 uaddr * @"typedef--u32.txt"
+0x8 val @"typedef--u32.txt"
+0xc flags @"typedef--u32.txt"
+0x10 bitset @"typedef--u32.txt"
+0x18 time @"typedef--u64.txt"
+0x20 uaddr2 * @"typedef--u32.txt"
+}
+nanosleep struct (NULL) {
+0x0 clockid @"typedef--clockid_t.txt"
+0x4 type @"enum--timespec_type.txt"
+0x8 (NULL) union (NULL) {
+rmtp * @"struct--__kernel_timespec.txt"
+compat_rmtp * @"struct--old_timespec32.txt"
+}
+0x10 expires @"typedef--u64.txt"
+}
+poll struct (NULL) {
+0x0 ufds * @"struct--pollfd.txt"
+0x8 nfds "int"
+0xc has_timeout "int"
+0x10 tv_sec "long unsigned int"
+0x18 tv_nsec "long unsigned int"
+}
+}
+}

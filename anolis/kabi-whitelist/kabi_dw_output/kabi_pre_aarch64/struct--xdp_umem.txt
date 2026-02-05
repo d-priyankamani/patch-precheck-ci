@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/net/xdp_sock.h:23
+Symbol:
+Byte size 144
+struct xdp_umem {
+0x0 addrs * "void"
+0x8 size @"typedef--u64.txt"
+0x10 headroom @"typedef--u32.txt"
+0x14 chunk_size @"typedef--u32.txt"
+0x18 chunks @"typedef--u32.txt"
+0x1c npgs @"typedef--u32.txt"
+0x20 user * @"struct--user_struct.txt"
+0x28 users @"typedef--refcount_t.txt"
+0x2c flags @"typedef--u8.txt"
+0x2d zc @"typedef--bool.txt"
+0x30 pgs * * @"struct--page.txt"
+0x38 id "int"
+0x40 xsk_dma_list @"struct--list_head.txt"
+0x50 work @"struct--work_struct.txt"
+}

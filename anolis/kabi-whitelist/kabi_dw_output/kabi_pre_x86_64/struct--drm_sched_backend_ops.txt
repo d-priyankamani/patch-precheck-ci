@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/drm/gpu_scheduler.h:394
+Symbol:
+Byte size 32
+struct drm_sched_backend_ops {
+0x0 prepare_job * func (NULL) (
+(NULL) * @"struct--drm_sched_job.txt"
+(NULL) * @"struct--drm_sched_entity.txt"
+)
+* @"struct--dma_fence.txt"
+0x8 run_job * func (NULL) (
+(NULL) * @"struct--drm_sched_job.txt"
+)
+* @"struct--dma_fence.txt"
+0x10 timedout_job * func (NULL) (
+(NULL) * @"struct--drm_sched_job.txt"
+)
+@"enum--drm_gpu_sched_stat.txt"
+0x18 free_job * func (NULL) (
+(NULL) * @"struct--drm_sched_job.txt"
+)
+"void"
+}

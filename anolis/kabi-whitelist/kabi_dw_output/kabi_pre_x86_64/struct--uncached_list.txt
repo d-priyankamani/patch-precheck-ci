@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/ipv6/route.c:131
+Symbol:
+Byte size 56
+struct uncached_list {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 head @"struct--list_head.txt"
+0x18 quarantine @"struct--list_head.txt"
+0x28 ck_reserved1 "long unsigned int"
+0x30 ck_reserved2 "long unsigned int"
+}

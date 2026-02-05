@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/kvm/arm_vgic.h:92
+Symbol:
+Byte size 4
+enum vgic_irq_config {
+VGIC_CONFIG_EDGE = 0x0
+VGIC_CONFIG_LEVEL = 0x1
+}

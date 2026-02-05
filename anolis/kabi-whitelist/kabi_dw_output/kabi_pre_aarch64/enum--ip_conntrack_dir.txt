@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/netfilter/nf_conntrack_tuple_common.h:11
+Symbol:
+Byte size 4
+enum ip_conntrack_dir {
+IP_CT_DIR_ORIGINAL = 0x0
+IP_CT_DIR_REPLY = 0x1
+IP_CT_DIR_MAX = 0x2
+}

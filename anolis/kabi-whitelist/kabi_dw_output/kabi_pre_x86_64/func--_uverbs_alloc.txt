@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_ioctl.c:106
+Symbol:
+func _uverbs_alloc (
+bundle * @"struct--uverbs_attr_bundle.txt"
+size @"typedef--size_t.txt"
+flags @"typedef--gfp_t.txt"
+)
+* "void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/cpumask.c:142
+Symbol:
+func cpumask_local_spread (
+i "unsigned int"
+node "int"
+)
+"unsigned int"

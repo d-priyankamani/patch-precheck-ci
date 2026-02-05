@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/time/timeconv.c:47
+Symbol:
+func time64_to_tm (
+totalsecs @"typedef--time64_t.txt"
+offset "int"
+result * @"struct--tm.txt"
+)
+"void"

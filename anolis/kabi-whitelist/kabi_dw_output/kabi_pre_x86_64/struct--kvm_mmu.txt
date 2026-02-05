@@ -1,0 +1,51 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:438
+Symbol:
+Byte size 376
+struct kvm_mmu {
+0x0 get_guest_pgd * func (NULL) (
+(NULL) * @"struct--kvm_vcpu.txt"
+)
+"long unsigned int"
+0x8 get_pdptr * func (NULL) (
+(NULL) * @"struct--kvm_vcpu.txt"
+(NULL) "int"
+)
+@"typedef--u64.txt"
+0x10 page_fault * func (NULL) (
+(NULL) * @"struct--kvm_vcpu.txt"
+(NULL) * @"<declarations>/struct--kvm_page_fault.txt"
+)
+"int"
+0x18 inject_page_fault * func (NULL) (
+(NULL) * @"struct--kvm_vcpu.txt"
+(NULL) * @"<declarations>/struct--x86_exception.txt"
+)
+"void"
+0x20 gva_to_gpa * func (NULL) (
+(NULL) * @"struct--kvm_vcpu.txt"
+(NULL) * @"struct--kvm_mmu.txt"
+(NULL) @"typedef--gpa_t.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) * @"<declarations>/struct--x86_exception.txt"
+)
+@"typedef--gpa_t.txt"
+0x28 sync_spte * func (NULL) (
+(NULL) * @"struct--kvm_vcpu.txt"
+(NULL) * @"<declarations>/struct--kvm_mmu_page.txt"
+(NULL) "int"
+)
+"int"
+0x30 root @"struct--kvm_mmu_root_info.txt"
+0x40 cpu_role @"union--kvm_cpu_role.txt"
+0x48 root_role @"union--kvm_mmu_page_role.txt"
+0x4c pkru_mask @"typedef--u32.txt"
+0x50 prev_roots [3]@"struct--kvm_mmu_root_info.txt"
+0x80 permissions [16]@"typedef--u8.txt"
+0x90 pae_root * @"typedef--u64.txt"
+0x98 pml4_root * @"typedef--u64.txt"
+0xa0 pml5_root * @"typedef--u64.txt"
+0xa8 shadow_zero_check @"struct--rsvd_bits_validate.txt"
+0x100 guest_rsvd_check @"struct--rsvd_bits_validate.txt"
+0x158 pdptrs [4]@"typedef--u64.txt"
+}

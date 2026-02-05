@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:2541
+Symbol:
+func ib_get_net_dev_by_params (
+dev * @"struct--ib_device.txt"
+port @"typedef--u32.txt"
+pkey @"typedef--u16.txt"
+gid * const @"union--ib_gid.txt"
+addr * const @"struct--sockaddr.txt"
+)
+* @"struct--net_device.txt"

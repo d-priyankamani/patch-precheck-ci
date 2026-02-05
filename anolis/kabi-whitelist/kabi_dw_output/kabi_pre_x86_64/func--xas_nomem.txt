@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/xarray.c:298
+Symbol:
+func xas_nomem (
+xas * @"struct--xa_state.txt"
+gfp @"typedef--gfp_t.txt"
+)
+@"typedef--bool.txt"

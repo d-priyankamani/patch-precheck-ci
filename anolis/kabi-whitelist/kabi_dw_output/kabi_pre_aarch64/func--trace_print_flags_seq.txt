@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/trace/trace_output.c:65
+Symbol:
+func trace_print_flags_seq (
+p * @"struct--trace_seq.txt"
+delim * const "char"
+flags "long unsigned int"
+flag_array * const @"struct--trace_print_flags.txt"
+)
+* const "char"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/path.h:8
+Symbol:
+Byte size 16
+struct path {
+0x0 mnt * @"struct--vfsmount.txt"
+0x8 dentry * @"struct--dentry.txt"
+}

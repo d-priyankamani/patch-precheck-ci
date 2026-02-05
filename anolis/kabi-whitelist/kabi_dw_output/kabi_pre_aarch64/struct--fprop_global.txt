@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/flex_proportions.h:28
+Symbol:
+Byte size 48
+struct fprop_global {
+0x0 events @"struct--percpu_counter.txt"
+0x28 period "unsigned int"
+0x2c sequence @"typedef--seqcount_t.txt"
+}

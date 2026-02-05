@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/kthread.c:1023
+Symbol:
+func kthread_queue_work (
+worker * @"struct--kthread_worker.txt"
+work * @"struct--kthread_work.txt"
+)
+@"typedef--bool.txt"

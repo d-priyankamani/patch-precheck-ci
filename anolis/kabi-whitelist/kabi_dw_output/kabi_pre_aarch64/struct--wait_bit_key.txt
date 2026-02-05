@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/wait_bit.h:10
+Symbol:
+Byte size 24
+struct wait_bit_key {
+0x0 flags * "void"
+0x8 bit_nr "int"
+0x10 timeout "long unsigned int"
+}

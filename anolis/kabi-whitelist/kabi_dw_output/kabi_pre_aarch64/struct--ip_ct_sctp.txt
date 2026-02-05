@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/netfilter/nf_conntrack_sctp.h:8
+Symbol:
+Byte size 16
+struct ip_ct_sctp {
+0x0 state @"enum--sctp_conntrack.txt"
+0x4 vtag [2]@"typedef--__be32.txt"
+0xc init [2]@"typedef--u8.txt"
+0xe last_dir @"typedef--u8.txt"
+0xf flags @"typedef--u8.txt"
+}

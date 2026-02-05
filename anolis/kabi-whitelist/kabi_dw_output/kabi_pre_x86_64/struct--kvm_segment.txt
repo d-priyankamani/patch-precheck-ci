@@ -1,0 +1,19 @@
+Version: 1.0
+File: arch/x86/include/uapi/asm/kvm.h:126
+Symbol:
+Byte size 24
+struct kvm_segment {
+0x0 base @"typedef--__u64.txt"
+0x8 limit @"typedef--__u32.txt"
+0xc selector @"typedef--__u16.txt"
+0xe type @"typedef--__u8.txt"
+0xf present @"typedef--__u8.txt"
+0x10 dpl @"typedef--__u8.txt"
+0x11 db @"typedef--__u8.txt"
+0x12 s @"typedef--__u8.txt"
+0x13 l @"typedef--__u8.txt"
+0x14 g @"typedef--__u8.txt"
+0x15 avl @"typedef--__u8.txt"
+0x16 unusable @"typedef--__u8.txt"
+0x17 padding @"typedef--__u8.txt"
+}

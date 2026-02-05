@@ -1,0 +1,11 @@
+Version: 1.0
+File: block/blk-rq-qos.h:27
+Symbol:
+Byte size 40
+struct rq_qos {
+0x0 ops * const @"struct--rq_qos_ops.txt"
+0x8 disk * @"struct--gendisk.txt"
+0x10 id @"enum--rq_qos_id.txt"
+0x18 next * @"struct--rq_qos.txt"
+0x20 debugfs_dir * @"struct--dentry.txt"
+}

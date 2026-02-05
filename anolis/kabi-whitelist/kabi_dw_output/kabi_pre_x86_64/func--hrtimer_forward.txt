@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/time/hrtimer.c:1066
+Symbol:
+func hrtimer_forward (
+timer * @"struct--hrtimer.txt"
+now @"typedef--ktime_t.txt"
+interval @"typedef--ktime_t.txt"
+)
+@"typedef--u64.txt"

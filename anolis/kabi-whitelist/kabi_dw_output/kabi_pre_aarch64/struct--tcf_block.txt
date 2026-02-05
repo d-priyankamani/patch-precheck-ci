@@ -1,0 +1,28 @@
+Version: 1.0
+File: include/net/sch_generic.h:481
+Symbol:
+Byte size 1264
+Alignment 8
+struct tcf_block {
+0x0 lock @"struct--mutex.txt"
+0x20 chain_list @"struct--list_head.txt"
+0x30 index @"typedef--u32.txt"
+0x34 classid @"typedef--u32.txt"
+0x38 refcnt @"typedef--refcount_t.txt"
+0x40 net * @"struct--net.txt"
+0x48 q * @"struct--Qdisc.txt"
+0x50 cb_lock @"struct--rw_semaphore.txt"
+0x78 flow_block @"struct--flow_block.txt"
+0x88 owner_list @"struct--list_head.txt"
+0x98 keep_dst @"typedef--bool.txt"
+0x9c offloadcnt @"typedef--atomic_t.txt"
+0xa0 nooffloaddevcnt "unsigned int"
+0xa4 lockeddevcnt "unsigned int"
+0xa8 chain0 struct (NULL) {
+0x0 chain * @"struct--tcf_chain.txt"
+0x8 filter_chain_list @"struct--list_head.txt"
+}
+0xc0 8 rcu @"struct--callback_head.txt"
+0xd0 proto_destroy_ht [128]@"struct--hlist_head.txt"
+0x4d0 proto_destroy_lock @"struct--mutex.txt"
+}

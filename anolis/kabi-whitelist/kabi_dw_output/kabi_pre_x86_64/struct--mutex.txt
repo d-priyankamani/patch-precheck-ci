@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/mutex.h:66
+Symbol:
+Byte size 32
+struct mutex {
+0x0 owner @"typedef--atomic_long_t.txt"
+0x8 wait_lock @"typedef--raw_spinlock_t.txt"
+0xc osq @"struct--optimistic_spin_queue.txt"
+0x10 wait_list @"struct--list_head.txt"
+}

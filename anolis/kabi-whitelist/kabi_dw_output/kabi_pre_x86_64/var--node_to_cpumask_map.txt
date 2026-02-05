@@ -1,0 +1,4 @@
+Version: 1.0
+File: arch/x86/mm/numa.c:67
+Symbol:
+var node_to_cpumask_map "void"

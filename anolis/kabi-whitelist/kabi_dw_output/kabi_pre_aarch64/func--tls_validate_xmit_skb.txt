@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/tls/tls_device_fallback.c:445
+Symbol:
+func tls_validate_xmit_skb (
+sk * @"struct--sock.txt"
+dev * @"struct--net_device.txt"
+skb * @"struct--sk_buff.txt"
+)
+* @"struct--sk_buff.txt"

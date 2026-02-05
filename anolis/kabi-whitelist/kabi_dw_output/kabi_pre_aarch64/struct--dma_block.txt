@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/dmapool.c:43
+Symbol:
+Byte size 16
+struct dma_block {
+0x0 next_block * @"struct--dma_block.txt"
+0x8 dma @"typedef--dma_addr_t.txt"
+}

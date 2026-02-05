@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/video/hdmi.c:201
+Symbol:
+func hdmi_avi_infoframe_pack (
+frame * @"struct--hdmi_avi_infoframe.txt"
+buffer * "void"
+size @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/trace/trace_output.c:318
+Symbol:
+func trace_event_printf (
+iter * @"struct--trace_iterator.txt"
+fmt * const "char"
+(NULL) ...
+)
+"void"

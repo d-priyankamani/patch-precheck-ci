@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem_atomic_helper.c:135
+Symbol:
+func drm_gem_plane_helper_prepare_fb (
+plane * @"struct--drm_plane.txt"
+state * @"struct--drm_plane_state.txt"
+)
+"int"

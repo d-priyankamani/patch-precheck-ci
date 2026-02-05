@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/firmware/dmi_scan.c:1118
+Symbol:
+func dmi_walk (
+decode * func (NULL) (
+(NULL) * const @"struct--dmi_header.txt"
+(NULL) * "void"
+)
+"void"
+private_data * "void"
+)
+"int"

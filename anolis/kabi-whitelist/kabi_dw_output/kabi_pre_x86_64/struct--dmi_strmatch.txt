@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/mod_devicetable.h:581
+Symbol:
+Byte size 80
+struct dmi_strmatch {
+0x0:0-7 slot "unsigned char"
+0x0:7-8 exact_match "unsigned char"
+0x1 substr [79]"char"
+}

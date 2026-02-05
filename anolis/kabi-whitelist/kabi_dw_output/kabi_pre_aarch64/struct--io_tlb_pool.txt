@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/swiotlb.h:70
+Symbol:
+Byte size 64
+struct io_tlb_pool {
+0x0 start @"typedef--phys_addr_t.txt"
+0x8 end @"typedef--phys_addr_t.txt"
+0x10 vaddr * "void"
+0x18 nslabs "long unsigned int"
+0x20 late_alloc @"typedef--bool.txt"
+0x24 nareas "unsigned int"
+0x28 area_nslabs "unsigned int"
+0x30 areas * @"<declarations>/struct--io_tlb_area.txt"
+0x38 slots * @"<declarations>/struct--io_tlb_slot.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:1399
+Symbol:
+func rdma_read_gid_l2_fields (
+attr * const @"struct--ib_gid_attr.txt"
+vlan_id * @"typedef--u16.txt"
+smac * @"typedef--u8.txt"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/tnum.h:14
+Symbol:
+Byte size 16
+struct tnum {
+0x0 value @"typedef--u64.txt"
+0x8 mask @"typedef--u64.txt"
+}

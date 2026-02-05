@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/rdma/signature.h:55
+Symbol:
+Byte size 24
+struct ib_t10_dif_domain {
+0x0 bg_type @"enum--ib_t10_dif_bg_type.txt"
+0x4 pi_interval @"typedef--u16.txt"
+0x6 bg @"typedef--u16.txt"
+0x8 app_tag @"typedef--u16.txt"
+0xc ref_tag @"typedef--u32.txt"
+0x10 ref_remap @"typedef--bool.txt"
+0x11 app_escape @"typedef--bool.txt"
+0x12 ref_escape @"typedef--bool.txt"
+0x14 apptag_check_mask @"typedef--u16.txt"
+}

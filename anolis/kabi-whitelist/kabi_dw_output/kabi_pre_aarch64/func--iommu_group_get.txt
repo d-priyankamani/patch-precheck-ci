@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/iommu/iommu.c:1397
+Symbol:
+func iommu_group_get (
+dev * @"struct--device.txt"
+)
+* @"struct--iommu_group.txt"

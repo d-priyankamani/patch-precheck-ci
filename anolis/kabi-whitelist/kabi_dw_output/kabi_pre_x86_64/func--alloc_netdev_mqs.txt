@@ -1,0 +1,15 @@
+Version: 1.0
+File: net/core/dev.c:10787
+Symbol:
+func alloc_netdev_mqs (
+sizeof_priv "int"
+name * const "char"
+name_assign_type "unsigned char"
+setup * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"void"
+txqs "unsigned int"
+rxqs "unsigned int"
+)
+* @"struct--net_device.txt"

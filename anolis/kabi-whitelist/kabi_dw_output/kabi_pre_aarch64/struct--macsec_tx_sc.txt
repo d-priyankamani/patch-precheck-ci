@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/net/macsec.h:204
+Symbol:
+Byte size 56
+struct macsec_tx_sc {
+0x0 active @"typedef--bool.txt"
+0x1 encoding_sa @"typedef--u8.txt"
+0x2 encrypt @"typedef--bool.txt"
+0x3 send_sci @"typedef--bool.txt"
+0x4 end_station @"typedef--bool.txt"
+0x5 scb @"typedef--bool.txt"
+0x8 sa [4]* @"struct--macsec_tx_sa.txt"
+0x28 stats * @"struct--pcpu_tx_sc_stats.txt"
+0x30 md_dst * @"struct--metadata_dst.txt"
+}

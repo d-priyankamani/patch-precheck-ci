@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/ip6_fib.h:132
+Symbol:
+Byte size 20
+struct rt6key {
+0x0 addr @"struct--in6_addr.txt"
+0x10 plen "int"
+}

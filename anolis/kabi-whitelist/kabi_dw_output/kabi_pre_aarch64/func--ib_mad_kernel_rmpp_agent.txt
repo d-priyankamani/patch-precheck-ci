@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/mad.c:827
+Symbol:
+func ib_mad_kernel_rmpp_agent (
+agent * const @"struct--ib_mad_agent.txt"
+)
+"int"

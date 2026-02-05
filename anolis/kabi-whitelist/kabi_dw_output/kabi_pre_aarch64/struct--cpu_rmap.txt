@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/cpu_rmap.h:23
+Symbol:
+Byte size 16
+struct cpu_rmap {
+0x0 refcount @"struct--kref.txt"
+0x4 size @"typedef--u16.txt"
+0x8 obj * * "void"
+0x10 near [0]struct (NULL) {
+0x0 index @"typedef--u16.txt"
+0x2 dist @"typedef--u16.txt"
+}
+}

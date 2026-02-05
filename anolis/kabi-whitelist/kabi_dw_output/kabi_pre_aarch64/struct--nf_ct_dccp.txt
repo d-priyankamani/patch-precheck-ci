@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/netfilter/nf_conntrack_dccp.h:30
+Symbol:
+Byte size 16
+struct nf_ct_dccp {
+0x0 role [2]@"typedef--u_int8_t.txt"
+0x2 state @"typedef--u_int8_t.txt"
+0x3 last_pkt @"typedef--u_int8_t.txt"
+0x4 last_dir @"typedef--u_int8_t.txt"
+0x8 handshake_seq @"typedef--u_int64_t.txt"
+}

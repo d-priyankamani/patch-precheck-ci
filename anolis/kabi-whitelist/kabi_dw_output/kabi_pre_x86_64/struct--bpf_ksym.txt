@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/bpf.h:1148
+Symbol:
+Byte size 608
+Alignment 8
+struct bpf_ksym {
+0x0 start "long unsigned int"
+0x8 end "long unsigned int"
+0x10 name [512]"char"
+0x210 lnode @"struct--list_head.txt"
+0x220 8 tnode @"struct--latch_tree_node.txt"
+0x250 prog @"typedef--bool.txt"
+0x258 ck_reserved1 "long unsigned int"
+}

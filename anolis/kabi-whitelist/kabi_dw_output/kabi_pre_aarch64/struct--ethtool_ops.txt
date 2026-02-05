@@ -1,0 +1,415 @@
+Version: 1.0
+File: include/linux/ethtool.h:792
+Symbol:
+Byte size 720
+struct ethtool_ops {
+0x0:0-1 cap_link_lanes_supported @"typedef--u32.txt"
+0x4 supported_coalesce_params @"typedef--u32.txt"
+0x8 supported_ring_params @"typedef--u32.txt"
+0x10 get_drvinfo * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_drvinfo.txt"
+)
+"void"
+0x18 get_regs_len * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0x20 get_regs * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_regs.txt"
+(NULL) * "void"
+)
+"void"
+0x28 get_wol * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_wolinfo.txt"
+)
+"void"
+0x30 set_wol * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_wolinfo.txt"
+)
+"int"
+0x38 get_msglevel * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+@"typedef--u32.txt"
+0x40 set_msglevel * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u32.txt"
+)
+"void"
+0x48 nway_reset * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0x50 get_link * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+@"typedef--u32.txt"
+0x58 get_link_ext_state * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_link_ext_state_info.txt"
+)
+"int"
+0x60 get_link_ext_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_link_ext_stats.txt"
+)
+"void"
+0x68 get_eeprom_len * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0x70 get_eeprom * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_eeprom.txt"
+(NULL) * @"typedef--u8.txt"
+)
+"int"
+0x78 set_eeprom * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_eeprom.txt"
+(NULL) * @"typedef--u8.txt"
+)
+"int"
+0x80 get_coalesce * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_coalesce.txt"
+(NULL) * @"struct--kernel_ethtool_coalesce.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x88 set_coalesce * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_coalesce.txt"
+(NULL) * @"struct--kernel_ethtool_coalesce.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x90 get_ringparam * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_ringparam.txt"
+(NULL) * @"struct--kernel_ethtool_ringparam.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"void"
+0x98 set_ringparam * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_ringparam.txt"
+(NULL) * @"struct--kernel_ethtool_ringparam.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0xa0 get_pause_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_pause_stats.txt"
+)
+"void"
+0xa8 get_pauseparam * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_pauseparam.txt"
+)
+"void"
+0xb0 set_pauseparam * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_pauseparam.txt"
+)
+"int"
+0xb8 self_test * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_test.txt"
+(NULL) * @"typedef--u64.txt"
+)
+"void"
+0xc0 get_strings * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"typedef--u8.txt"
+)
+"void"
+0xc8 set_phys_id * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"enum--ethtool_phys_id_state.txt"
+)
+"int"
+0xd0 get_ethtool_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_stats.txt"
+(NULL) * @"typedef--u64.txt"
+)
+"void"
+0xd8 begin * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0xe0 complete * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"void"
+0xe8 get_priv_flags * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+@"typedef--u32.txt"
+0xf0 set_priv_flags * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0xf8 get_sset_count * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+)
+"int"
+0x100 get_rxnfc * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_rxnfc.txt"
+(NULL) * @"typedef--u32.txt"
+)
+"int"
+0x108 set_rxnfc * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_rxnfc.txt"
+)
+"int"
+0x110 flash_device * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_flash.txt"
+)
+"int"
+0x118 reset * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"typedef--u32.txt"
+)
+"int"
+0x120 get_rxfh_key_size * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+@"typedef--u32.txt"
+0x128 get_rxfh_indir_size * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+@"typedef--u32.txt"
+0x130 get_rxfh * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"typedef--u32.txt"
+(NULL) * @"typedef--u8.txt"
+(NULL) * @"typedef--u8.txt"
+)
+"int"
+0x138 set_rxfh * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"typedef--u32.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) const @"typedef--u8.txt"
+)
+"int"
+0x140 get_rxfh_context * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"typedef--u32.txt"
+(NULL) * @"typedef--u8.txt"
+(NULL) * @"typedef--u8.txt"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0x148 set_rxfh_context * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"typedef--u32.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) const @"typedef--u8.txt"
+(NULL) * @"typedef--u32.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x150 get_channels * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_channels.txt"
+)
+"void"
+0x158 set_channels * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_channels.txt"
+)
+"int"
+0x160 get_dump_flag * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_dump.txt"
+)
+"int"
+0x168 get_dump_data * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_dump.txt"
+(NULL) * "void"
+)
+"int"
+0x170 set_dump * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_dump.txt"
+)
+"int"
+0x178 get_ts_info * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_ts_info.txt"
+)
+"int"
+0x180 get_module_info * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_modinfo.txt"
+)
+"int"
+0x188 get_module_eeprom * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_eeprom.txt"
+(NULL) * @"typedef--u8.txt"
+)
+"int"
+0x190 get_eee * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_eee.txt"
+)
+"int"
+0x198 set_eee * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_eee.txt"
+)
+"int"
+0x1a0 get_tunable * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"struct--ethtool_tunable.txt"
+(NULL) * "void"
+)
+"int"
+0x1a8 set_tunable * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"struct--ethtool_tunable.txt"
+(NULL) * const "void"
+)
+"int"
+0x1b0 get_per_queue_coalesce * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--ethtool_coalesce.txt"
+)
+"int"
+0x1b8 set_per_queue_coalesce * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--ethtool_coalesce.txt"
+)
+"int"
+0x1c0 get_link_ksettings * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_link_ksettings.txt"
+)
+"int"
+0x1c8 set_link_ksettings * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"struct--ethtool_link_ksettings.txt"
+)
+"int"
+0x1d0 get_fec_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_fec_stats.txt"
+)
+"void"
+0x1d8 get_fecparam * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_fecparam.txt"
+)
+"int"
+0x1e0 set_fecparam * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_fecparam.txt"
+)
+"int"
+0x1e8 get_ethtool_phy_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_stats.txt"
+(NULL) * @"typedef--u64.txt"
+)
+"void"
+0x1f0 get_phy_tunable * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"struct--ethtool_tunable.txt"
+(NULL) * "void"
+)
+"int"
+0x1f8 set_phy_tunable * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"struct--ethtool_tunable.txt"
+(NULL) * const "void"
+)
+"int"
+0x200 get_module_eeprom_by_page * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"struct--ethtool_module_eeprom.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x208 get_eth_phy_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_eth_phy_stats.txt"
+)
+"void"
+0x210 get_eth_mac_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_eth_mac_stats.txt"
+)
+"void"
+0x218 get_eth_ctrl_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_eth_ctrl_stats.txt"
+)
+"void"
+0x220 get_rmon_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_rmon_stats.txt"
+(NULL) * * const @"struct--ethtool_rmon_hist_range.txt"
+)
+"void"
+0x228 get_module_power_mode * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_module_power_mode_params.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x230 set_module_power_mode * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"struct--ethtool_module_power_mode_params.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x238 get_mm * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_mm_state.txt"
+)
+"int"
+0x240 set_mm * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_mm_cfg.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x248 get_mm_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ethtool_mm_stats.txt"
+)
+"void"
+0x250 ck_reserved1 "long unsigned int"
+0x258 ck_reserved2 "long unsigned int"
+0x260 ck_reserved3 "long unsigned int"
+0x268 ck_reserved4 "long unsigned int"
+0x270 ck_reserved5 "long unsigned int"
+0x278 ck_reserved6 "long unsigned int"
+0x280 ck_reserved7 "long unsigned int"
+0x288 ck_reserved8 "long unsigned int"
+0x290 ck_reserved9 "long unsigned int"
+0x298 ck_reserved10 "long unsigned int"
+0x2a0 ck_reserved11 "long unsigned int"
+0x2a8 ck_reserved12 "long unsigned int"
+0x2b0 ck_reserved13 "long unsigned int"
+0x2b8 ck_reserved14 "long unsigned int"
+0x2c0 ck_reserved15 "long unsigned int"
+0x2c8 ck_reserved16 "long unsigned int"
+}

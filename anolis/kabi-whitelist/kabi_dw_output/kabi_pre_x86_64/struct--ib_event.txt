@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:754
+Symbol:
+Byte size 24
+struct ib_event {
+0x0 device * @"struct--ib_device.txt"
+0x8 element union (NULL) {
+cq * @"struct--ib_cq.txt"
+qp * @"struct--ib_qp.txt"
+srq * @"struct--ib_srq.txt"
+wq * @"struct--ib_wq.txt"
+port_num @"typedef--u32.txt"
+}
+0x10 event @"enum--ib_event_type.txt"
+}

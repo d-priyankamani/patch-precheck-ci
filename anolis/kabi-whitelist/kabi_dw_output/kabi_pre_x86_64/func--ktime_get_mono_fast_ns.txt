@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/time/timekeeping.c:490
+Symbol:
+func ktime_get_mono_fast_ns (
+)
+@"typedef--u64.txt"

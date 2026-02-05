@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/ib_core_uverbs.c:262
+Symbol:
+func rdma_user_mmap_entry_insert_range (
+ucontext * @"struct--ib_ucontext.txt"
+entry * @"struct--rdma_user_mmap_entry.txt"
+length @"typedef--size_t.txt"
+min_pgoff @"typedef--u32.txt"
+max_pgoff @"typedef--u32.txt"
+)
+"int"

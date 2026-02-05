@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:281
+Symbol:
+Byte size 1408
+struct bpf_func_state {
+0x0 regs [11]@"struct--bpf_reg_state.txt"
+0x528 callsite "int"
+0x52c frameno @"typedef--u32.txt"
+0x530 subprogno @"typedef--u32.txt"
+0x534 async_entry_cnt @"typedef--u32.txt"
+0x538 in_callback_fn @"typedef--bool.txt"
+0x540 callback_ret_range @"struct--tnum.txt"
+0x550 in_async_callback_fn @"typedef--bool.txt"
+0x554 callback_depth @"typedef--u32.txt"
+0x558 acquired_refs "int"
+0x560 refs * @"struct--bpf_reference_state.txt"
+0x568 allocated_stack "int"
+0x570 stack * @"struct--bpf_stack_state.txt"
+0x578 ck_reserved1 "long unsigned int"
+}

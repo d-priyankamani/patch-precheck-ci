@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/ptp/ptp_private.h:23
+Symbol:
+Byte size 4112
+struct timestamp_event_queue {
+0x0 buf [128]@"struct--ptp_extts_event.txt"
+0x1000 head "int"
+0x1004 tail "int"
+0x1008 lock @"typedef--spinlock_t.txt"
+}

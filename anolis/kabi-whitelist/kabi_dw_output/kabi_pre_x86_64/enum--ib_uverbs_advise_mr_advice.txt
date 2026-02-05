@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/rdma/ib_user_ioctl_verbs.h:210
+Symbol:
+Byte size 4
+enum ib_uverbs_advise_mr_advice {
+IB_UVERBS_ADVISE_MR_ADVICE_PREFETCH = 0x0
+IB_UVERBS_ADVISE_MR_ADVICE_PREFETCH_WRITE = 0x1
+IB_UVERBS_ADVISE_MR_ADVICE_PREFETCH_NO_FAULT = 0x2
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/devlink/core.c:192
+Symbol:
+func devlink_alloc_ns (
+ops * const @"struct--devlink_ops.txt"
+priv_size @"typedef--size_t.txt"
+net * @"struct--net.txt"
+dev * @"struct--device.txt"
+)
+* @"struct--devlink.txt"

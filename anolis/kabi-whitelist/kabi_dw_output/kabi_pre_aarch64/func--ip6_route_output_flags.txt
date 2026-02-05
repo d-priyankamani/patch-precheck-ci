@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/ipv6/route.c:2671
+Symbol:
+func ip6_route_output_flags (
+net * @"struct--net.txt"
+sk * const @"struct--sock.txt"
+fl6 * @"struct--flowi6.txt"
+flags "int"
+)
+* @"struct--dst_entry.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/idr.c:227
+Symbol:
+func idr_get_next_ul (
+idr * @"struct--idr.txt"
+nextid * "long unsigned int"
+)
+* "void"

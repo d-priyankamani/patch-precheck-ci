@@ -1,0 +1,4 @@
+Version: 1.0
+File: fs/mnt_idmapping.c:22
+Symbol:
+var nop_mnt_idmap "void"

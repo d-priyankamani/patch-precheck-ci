@@ -1,0 +1,14 @@
+Version: 1.0
+File: fs/kernfs/kernfs-internal.h:22
+Symbol:
+Byte size 80
+struct kernfs_iattrs {
+0x0 ia_uid @"typedef--kuid_t.txt"
+0x4 ia_gid @"typedef--kgid_t.txt"
+0x8 ia_atime @"struct--timespec64.txt"
+0x18 ia_mtime @"struct--timespec64.txt"
+0x28 ia_ctime @"struct--timespec64.txt"
+0x38 xattrs @"struct--simple_xattrs.txt"
+0x48 nr_user_xattrs @"typedef--atomic_t.txt"
+0x4c user_xattr_size @"typedef--atomic_t.txt"
+}

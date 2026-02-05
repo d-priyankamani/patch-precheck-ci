@@ -1,0 +1,18 @@
+Version: 1.0
+File: mm/dmapool.c:48
+Symbol:
+Byte size 128
+struct dma_pool {
+0x0 page_list @"struct--list_head.txt"
+0x10 lock @"typedef--spinlock_t.txt"
+0x18 next_block * @"struct--dma_block.txt"
+0x20 nr_blocks @"typedef--size_t.txt"
+0x28 nr_active @"typedef--size_t.txt"
+0x30 nr_pages @"typedef--size_t.txt"
+0x38 dev * @"struct--device.txt"
+0x40 size "unsigned int"
+0x44 allocation "unsigned int"
+0x48 boundary "unsigned int"
+0x4c name [32]"char"
+0x70 pools @"struct--list_head.txt"
+}

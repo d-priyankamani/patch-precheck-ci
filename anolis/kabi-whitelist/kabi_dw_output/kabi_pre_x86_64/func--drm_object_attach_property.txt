@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mode_object.c:233
+Symbol:
+func drm_object_attach_property (
+obj * @"struct--drm_mode_object.txt"
+property * @"struct--drm_property.txt"
+init_val @"typedef--uint64_t.txt"
+)
+"void"

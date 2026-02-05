@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/xdp/xsk_buff_pool.c:673
+Symbol:
+func xp_raw_get_dma (
+pool * @"struct--xsk_buff_pool.txt"
+addr @"typedef--u64.txt"
+)
+@"typedef--dma_addr_t.txt"

@@ -1,0 +1,217 @@
+Version: 1.0
+File: include/linux/phy.h:889
+Symbol:
+Byte size 568
+struct phy_driver {
+0x0 mdiodrv @"struct--mdio_driver_common.txt"
+0xb8 phy_id @"typedef--u32.txt"
+0xc0 name * "char"
+0xc8 phy_id_mask @"typedef--u32.txt"
+0xd0 features const * const "long unsigned int"
+0xd8 flags @"typedef--u32.txt"
+0xe0 driver_data * const "void"
+0xe8 soft_reset * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0xf0 config_init * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0xf8 probe * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x100 get_features * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x108 get_rate_matching * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) @"typedef--phy_interface_t.txt"
+)
+"int"
+0x110 suspend * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x118 resume * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x120 config_aneg * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x128 aneg_done * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x130 read_status * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x138 config_intr * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x140 handle_interrupt * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+@"typedef--irqreturn_t.txt"
+0x148 remove * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"void"
+0x150 match_phy_device * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x158 set_wol * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * @"struct--ethtool_wolinfo.txt"
+)
+"int"
+0x160 get_wol * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * @"struct--ethtool_wolinfo.txt"
+)
+"void"
+0x168 link_change_notify * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"void"
+0x170 read_mmd * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) "int"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0x178 write_mmd * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) "int"
+(NULL) @"typedef--u16.txt"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0x180 read_page * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x188 write_page * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) "int"
+)
+"int"
+0x190 module_info * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * @"struct--ethtool_modinfo.txt"
+)
+"int"
+0x198 module_eeprom * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * @"struct--ethtool_eeprom.txt"
+(NULL) * @"typedef--u8.txt"
+)
+"int"
+0x1a0 cable_test_start * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x1a8 cable_test_tdr_start * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * const @"struct--phy_tdr_config.txt"
+)
+"int"
+0x1b0 cable_test_get_status * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * @"typedef--bool.txt"
+)
+"int"
+0x1b8 get_sset_count * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x1c0 get_strings * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * @"typedef--u8.txt"
+)
+"void"
+0x1c8 get_stats * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * @"struct--ethtool_stats.txt"
+(NULL) * @"typedef--u64.txt"
+)
+"void"
+0x1d0 get_tunable * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * @"struct--ethtool_tunable.txt"
+(NULL) * "void"
+)
+"int"
+0x1d8 set_tunable * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * @"struct--ethtool_tunable.txt"
+(NULL) * const "void"
+)
+"int"
+0x1e0 set_loopback * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x1e8 get_sqi * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x1f0 get_sqi_max * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+)
+"int"
+0x1f8 get_plca_cfg * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * @"struct--phy_plca_cfg.txt"
+)
+"int"
+0x200 set_plca_cfg * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * const @"struct--phy_plca_cfg.txt"
+)
+"int"
+0x208 get_plca_status * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) * @"struct--phy_plca_status.txt"
+)
+"int"
+0x210 led_brightness_set * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) @"typedef--u8.txt"
+(NULL) @"enum--led_brightness.txt"
+)
+"int"
+0x218 led_blink_set * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) @"typedef--u8.txt"
+(NULL) * "long unsigned int"
+(NULL) * "long unsigned int"
+)
+"int"
+0x220 led_hw_is_supported * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) @"typedef--u8.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x228 led_hw_control_set * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) @"typedef--u8.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x230 led_hw_control_get * func (NULL) (
+(NULL) * @"struct--phy_device.txt"
+(NULL) @"typedef--u8.txt"
+(NULL) * "long unsigned int"
+)
+"int"
+}

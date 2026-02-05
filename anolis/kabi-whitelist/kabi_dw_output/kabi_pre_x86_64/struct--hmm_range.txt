@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/hmm.h:91
+Symbol:
+Byte size 64
+struct hmm_range {
+0x0 notifier * @"struct--mmu_interval_notifier.txt"
+0x8 notifier_seq "long unsigned int"
+0x10 start "long unsigned int"
+0x18 end "long unsigned int"
+0x20 hmm_pfns * "long unsigned int"
+0x28 default_flags "long unsigned int"
+0x30 pfn_flags_mask "long unsigned int"
+0x38 dev_private_owner * "void"
+}

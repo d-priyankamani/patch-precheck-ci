@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/blk-mq.h:19
+Symbol:
+Byte size 4
+enum rq_end_io_ret {
+RQ_END_IO_NONE = 0x0
+RQ_END_IO_FREE = 0x1
+}

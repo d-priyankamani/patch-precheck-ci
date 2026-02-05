@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/fs_parser.h:53
+Symbol:
+Byte size 16
+struct fs_parse_result {
+0x0 negated @"typedef--bool.txt"
+0x8 (NULL) union (NULL) {
+boolean @"typedef--bool.txt"
+int_32 "int"
+uint_32 "unsigned int"
+uint_64 @"typedef--u64.txt"
+}
+}

@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/fb.h:814
+Symbol:
+Byte size 64
+struct fb_videomode {
+0x0 name * const "char"
+0x8 refresh @"typedef--u32.txt"
+0xc xres @"typedef--u32.txt"
+0x10 yres @"typedef--u32.txt"
+0x14 pixclock @"typedef--u32.txt"
+0x18 left_margin @"typedef--u32.txt"
+0x1c right_margin @"typedef--u32.txt"
+0x20 upper_margin @"typedef--u32.txt"
+0x24 lower_margin @"typedef--u32.txt"
+0x28 hsync_len @"typedef--u32.txt"
+0x2c vsync_len @"typedef--u32.txt"
+0x30 sync @"typedef--u32.txt"
+0x34 vmode @"typedef--u32.txt"
+0x38 flag @"typedef--u32.txt"
+}

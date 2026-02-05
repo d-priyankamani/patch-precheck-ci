@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/linux/sysctl.h:173
+Symbol:
+Byte size 80
+Alignment 8
+struct ctl_table_header {
+0x0 8 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 ctl_table * @"struct--ctl_table.txt"
+0x8 ctl_table_size "int"
+0xc used "int"
+0x10 count "int"
+0x14 nreg "int"
+}
+rcu @"struct--callback_head.txt"
+}
+0x18 unregistering * @"struct--completion.txt"
+0x20 ctl_table_arg * @"struct--ctl_table.txt"
+0x28 root * @"struct--ctl_table_root.txt"
+0x30 set * @"struct--ctl_table_set.txt"
+0x38 parent * @"struct--ctl_dir.txt"
+0x40 node * @"struct--ctl_node.txt"
+0x48 inodes @"struct--hlist_head.txt"
+}

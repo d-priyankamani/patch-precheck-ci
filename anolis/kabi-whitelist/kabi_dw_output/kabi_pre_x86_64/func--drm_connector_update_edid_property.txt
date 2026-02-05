@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:6886
+Symbol:
+func drm_connector_update_edid_property (
+connector * @"struct--drm_connector.txt"
+edid * const @"struct--edid.txt"
+)
+"int"

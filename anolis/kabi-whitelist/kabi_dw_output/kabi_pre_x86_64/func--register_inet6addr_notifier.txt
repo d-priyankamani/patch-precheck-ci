@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ipv6/addrconf_core.c:95
+Symbol:
+func register_inet6addr_notifier (
+nb * @"struct--notifier_block.txt"
+)
+"int"

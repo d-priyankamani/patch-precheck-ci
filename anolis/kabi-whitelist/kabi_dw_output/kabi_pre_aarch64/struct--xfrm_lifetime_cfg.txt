@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/uapi/linux/xfrm.h:66
+Symbol:
+Byte size 64
+struct xfrm_lifetime_cfg {
+0x0 soft_byte_limit @"typedef--__u64.txt"
+0x8 hard_byte_limit @"typedef--__u64.txt"
+0x10 soft_packet_limit @"typedef--__u64.txt"
+0x18 hard_packet_limit @"typedef--__u64.txt"
+0x20 soft_add_expires_seconds @"typedef--__u64.txt"
+0x28 hard_add_expires_seconds @"typedef--__u64.txt"
+0x30 soft_use_expires_seconds @"typedef--__u64.txt"
+0x38 hard_use_expires_seconds @"typedef--__u64.txt"
+}

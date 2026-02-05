@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:688
+Symbol:
+Byte size 4
+enum devlink_port_fn_state {
+DEVLINK_PORT_FN_STATE_INACTIVE = 0x0
+DEVLINK_PORT_FN_STATE_ACTIVE = 0x1
+}

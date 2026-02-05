@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:1084
+Symbol:
+Byte size 40
+struct ethtool_usrip6_spec {
+0x0 ip6src [4]@"typedef--__be32.txt"
+0x10 ip6dst [4]@"typedef--__be32.txt"
+0x20 l4_4_bytes @"typedef--__be32.txt"
+0x24 tclass @"typedef--__u8.txt"
+0x25 l4_proto @"typedef--__u8.txt"
+}

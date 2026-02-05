@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/pid.c:108
+Symbol:
+func put_pid (
+pid * @"struct--pid.txt"
+)
+"void"

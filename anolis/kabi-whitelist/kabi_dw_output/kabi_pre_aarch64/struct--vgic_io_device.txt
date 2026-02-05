@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/kvm/arm_vgic.h:175
+Symbol:
+Byte size 40
+struct vgic_io_device {
+0x0 base_addr @"typedef--gpa_t.txt"
+0x8 (NULL) union (NULL) {
+redist_vcpu * @"struct--kvm_vcpu.txt"
+its * @"struct--vgic_its.txt"
+}
+0x10 regions * const @"<declarations>/struct--vgic_register_region.txt"
+0x18 iodev_type @"enum--iodev_type.txt"
+0x1c nr_regions "int"
+0x20 dev @"struct--kvm_io_device.txt"
+}

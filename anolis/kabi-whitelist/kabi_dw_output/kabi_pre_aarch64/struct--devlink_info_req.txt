@@ -1,0 +1,14 @@
+Version: 1.0
+File: net/devlink/dev.c:11
+Symbol:
+Byte size 24
+struct devlink_info_req {
+0x0 msg * @"struct--sk_buff.txt"
+0x8 version_cb * func (NULL) (
+(NULL) * const "char"
+(NULL) @"enum--devlink_info_version_type.txt"
+(NULL) * "void"
+)
+"void"
+0x10 version_cb_priv * "void"
+}

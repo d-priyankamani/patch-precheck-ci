@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/i2c.h:41
+Symbol:
+Byte size 8
+typedef i2c_slave_cb_t
+* func (NULL) (
+(NULL) * @"struct--i2c_client.txt"
+(NULL) @"enum--i2c_slave_event.txt"
+(NULL) * @"typedef--u8.txt"
+)
+"int"

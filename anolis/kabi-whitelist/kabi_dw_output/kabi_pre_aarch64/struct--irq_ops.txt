@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/kvm/arm_vgic.h:103
+Symbol:
+Byte size 16
+struct irq_ops {
+0x0 flags "long unsigned int"
+0x8 get_input_level * func (NULL) (
+(NULL) "int"
+)
+@"typedef--bool.txt"
+}

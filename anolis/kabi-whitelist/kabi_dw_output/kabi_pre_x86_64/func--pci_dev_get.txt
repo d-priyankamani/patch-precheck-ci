@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci-driver.c:1551
+Symbol:
+func pci_dev_get (
+dev * @"struct--pci_dev.txt"
+)
+* @"struct--pci_dev.txt"

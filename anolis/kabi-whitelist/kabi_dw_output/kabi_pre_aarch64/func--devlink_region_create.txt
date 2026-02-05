@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/devlink/region.c:1088
+Symbol:
+func devlink_region_create (
+devlink * @"struct--devlink.txt"
+ops * const @"struct--devlink_region_ops.txt"
+region_max_snapshots @"typedef--u32.txt"
+region_size @"typedef--u64.txt"
+)
+* @"struct--devlink_region.txt"

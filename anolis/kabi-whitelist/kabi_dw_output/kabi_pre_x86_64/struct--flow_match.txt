@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/flow_offload.h:9
+Symbol:
+Byte size 24
+struct flow_match {
+0x0 dissector * @"struct--flow_dissector.txt"
+0x8 mask * "void"
+0x10 key * "void"
+}

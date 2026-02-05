@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/bpf.h:6329
+Symbol:
+Byte size 24
+struct xdp_md {
+0x0 data @"typedef--__u32.txt"
+0x4 data_end @"typedef--__u32.txt"
+0x8 data_meta @"typedef--__u32.txt"
+0xc ingress_ifindex @"typedef--__u32.txt"
+0x10 rx_queue_index @"typedef--__u32.txt"
+0x14 egress_ifindex @"typedef--__u32.txt"
+}

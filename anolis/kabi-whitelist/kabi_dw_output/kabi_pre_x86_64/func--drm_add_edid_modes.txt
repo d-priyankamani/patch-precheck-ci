@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:6908
+Symbol:
+func drm_add_edid_modes (
+connector * @"struct--drm_connector.txt"
+edid * @"struct--edid.txt"
+)
+"int"

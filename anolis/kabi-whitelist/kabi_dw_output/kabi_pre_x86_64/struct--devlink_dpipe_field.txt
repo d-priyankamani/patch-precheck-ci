@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/devlink.h:214
+Symbol:
+Byte size 24
+struct devlink_dpipe_field {
+0x0 name * const "char"
+0x8 id "unsigned int"
+0xc bitwidth "unsigned int"
+0x10 mapping_type @"enum--devlink_dpipe_field_mapping_type.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/ethernet/eth.c:381
+Symbol:
+func alloc_etherdev_mqs (
+sizeof_priv "int"
+txqs "unsigned int"
+rxqs "unsigned int"
+)
+* @"struct--net_device.txt"

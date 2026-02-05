@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/dim.h:101
+Symbol:
+Byte size 24
+struct dim_sample {
+0x0 time @"typedef--ktime_t.txt"
+0x8 pkt_ctr @"typedef--u32.txt"
+0xc byte_ctr @"typedef--u32.txt"
+0x10 event_ctr @"typedef--u16.txt"
+0x14 comp_ctr @"typedef--u32.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_fence.c:196
+Symbol:
+func to_drm_sched_fence (
+f * @"struct--dma_fence.txt"
+)
+* @"struct--drm_sched_fence.txt"

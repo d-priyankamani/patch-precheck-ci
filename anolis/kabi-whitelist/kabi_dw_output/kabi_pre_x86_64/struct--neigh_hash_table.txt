@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/neighbour.h:198
+Symbol:
+Byte size 48
+Alignment 8
+struct neigh_hash_table {
+0x0 hash_buckets * * @"struct--neighbour.txt"
+0x8 hash_shift "unsigned int"
+0xc hash_rnd [4]@"typedef--__u32.txt"
+0x20 8 rcu @"struct--callback_head.txt"
+}

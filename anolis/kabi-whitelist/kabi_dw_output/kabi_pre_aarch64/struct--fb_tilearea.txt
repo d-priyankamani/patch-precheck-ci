@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/fb.h:338
+Symbol:
+Byte size 24
+struct fb_tilearea {
+0x0 sx @"typedef--__u32.txt"
+0x4 sy @"typedef--__u32.txt"
+0x8 dx @"typedef--__u32.txt"
+0xc dy @"typedef--__u32.txt"
+0x10 width @"typedef--__u32.txt"
+0x14 height @"typedef--__u32.txt"
+}

@@ -1,0 +1,34 @@
+Version: 1.0
+File: include/linux/backing-dev-defs.h:169
+Symbol:
+Byte size 1440
+Alignment 8
+struct backing_dev_info {
+0x0 id @"typedef--u64.txt"
+0x8 8 rb_node @"struct--rb_node.txt"
+0x20 bdi_list @"struct--list_head.txt"
+0x30 ra_pages "long unsigned int"
+0x38 io_pages "long unsigned int"
+0x40 refcnt @"struct--kref.txt"
+0x44 capabilities "unsigned int"
+0x48 min_ratio "unsigned int"
+0x4c max_ratio "unsigned int"
+0x50 max_prop_frac "unsigned int"
+0x58 tot_write_bandwidth @"typedef--atomic_long_t.txt"
+0x60 last_bdp_sleep "long unsigned int"
+0x68 8 wb @"struct--bdi_writeback.txt"
+0x460 wb_list @"struct--list_head.txt"
+0x470 cgwb_tree @"struct--xarray.txt"
+0x480 cgwb_release_mutex @"struct--mutex.txt"
+0x4a0 wb_switch_rwsem @"struct--rw_semaphore.txt"
+0x4c8 wb_waitq @"typedef--wait_queue_head_t.txt"
+0x4e0 dev * @"struct--device.txt"
+0x4e8 dev_name [64]"char"
+0x528 owner * @"struct--device.txt"
+0x530 laptop_mode_wb_timer @"struct--timer_list.txt"
+0x578 debug_dir * @"struct--dentry.txt"
+0x580 ck_reserved1 "long unsigned int"
+0x588 ck_reserved2 "long unsigned int"
+0x590 ck_reserved3 "long unsigned int"
+0x598 ck_reserved4 "long unsigned int"
+}

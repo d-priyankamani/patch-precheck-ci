@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:6223
+Symbol:
+func pci_reset_bus (
+pdev * @"struct--pci_dev.txt"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/static_call_types.h:32
+Symbol:
+Byte size 8
+struct static_call_site {
+0x0 addr @"typedef--s32.txt"
+0x4 key @"typedef--s32.txt"
+}

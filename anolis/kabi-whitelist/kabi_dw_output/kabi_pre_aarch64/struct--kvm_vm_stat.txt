@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:929
+Symbol:
+Byte size 16
+struct kvm_vm_stat {
+0x0 generic @"struct--kvm_vm_stat_generic.txt"
+}

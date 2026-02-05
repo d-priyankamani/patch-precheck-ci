@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/rdma/uverbs_types.h:78
+Symbol:
+Byte size 16
+struct uverbs_obj_type {
+0x0 type_class const * const @"struct--uverbs_obj_type_class.txt"
+0x8 obj_size @"typedef--size_t.txt"
+}

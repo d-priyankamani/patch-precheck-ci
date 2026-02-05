@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/xattr.h:106
+Symbol:
+Byte size 16
+struct simple_xattrs {
+0x0 rb_root @"struct--rb_root.txt"
+0x8 lock @"typedef--rwlock_t.txt"
+}

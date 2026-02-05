@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:2887
+Symbol:
+func netdev_unbind_sb_channel (
+dev * @"struct--net_device.txt"
+sb_dev * @"struct--net_device.txt"
+)
+"void"

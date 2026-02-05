@@ -1,0 +1,18 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_helper.c:3172
+Symbol:
+func drm_atomic_helper_update_plane (
+plane * @"struct--drm_plane.txt"
+crtc * @"struct--drm_crtc.txt"
+fb * @"struct--drm_framebuffer.txt"
+crtc_x "int"
+crtc_y "int"
+crtc_w "unsigned int"
+crtc_h "unsigned int"
+src_x @"typedef--uint32_t.txt"
+src_y @"typedef--uint32_t.txt"
+src_w @"typedef--uint32_t.txt"
+src_h @"typedef--uint32_t.txt"
+ctx * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"

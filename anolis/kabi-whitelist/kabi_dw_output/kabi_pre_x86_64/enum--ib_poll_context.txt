@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1586
+Symbol:
+Byte size 4
+enum ib_poll_context {
+IB_POLL_SOFTIRQ = 0x0
+IB_POLL_WORKQUEUE = 0x1
+IB_POLL_UNBOUND_WORKQUEUE = 0x2
+IB_POLL_LAST_POOL_TYPE = 0x2
+IB_POLL_DIRECT = 0x3
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/msi_api.h:34
+Symbol:
+Byte size 8
+union msi_instance_cookie {
+value @"typedef--u64.txt"
+ptr * "void"
+}

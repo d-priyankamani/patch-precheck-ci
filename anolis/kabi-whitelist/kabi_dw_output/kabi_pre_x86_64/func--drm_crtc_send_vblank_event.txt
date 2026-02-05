@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_vblank.c:1123
+Symbol:
+func drm_crtc_send_vblank_event (
+crtc * @"struct--drm_crtc.txt"
+e * @"struct--drm_pending_vblank_event.txt"
+)
+"void"

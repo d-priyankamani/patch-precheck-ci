@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/acpi/numa/srat.c:40
+Symbol:
+func pxm_to_node (
+pxm "int"
+)
+"int"

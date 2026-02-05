@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/net/phy/phylink.c:1705
+Symbol:
+func phylink_destroy (
+pl * @"struct--phylink.txt"
+)
+"void"

@@ -1,0 +1,26 @@
+Version: 1.0
+File: include/net/netfilter/nf_conntrack_expect.h:18
+Symbol:
+Byte size 240
+Alignment 8
+struct nf_conntrack_expect {
+0x0 lnode @"struct--hlist_node.txt"
+0x10 hnode @"struct--hlist_node.txt"
+0x20 tuple @"struct--nf_conntrack_tuple.txt"
+0x48 mask @"struct--nf_conntrack_tuple_mask.txt"
+0x5c use @"typedef--refcount_t.txt"
+0x60 flags "unsigned int"
+0x64 class "unsigned int"
+0x68 expectfn * func (NULL) (
+(NULL) * @"struct--nf_conn.txt"
+(NULL) * @"struct--nf_conntrack_expect.txt"
+)
+"void"
+0x70 helper * @"<declarations>/struct--nf_conntrack_helper.txt"
+0x78 master * @"struct--nf_conn.txt"
+0x80 timeout @"struct--timer_list.txt"
+0xc8 saved_addr @"union--nf_inet_addr.txt"
+0xd8 saved_proto @"union--nf_conntrack_man_proto.txt"
+0xdc dir @"enum--ip_conntrack_dir.txt"
+0xe0 8 rcu @"struct--callback_head.txt"
+}

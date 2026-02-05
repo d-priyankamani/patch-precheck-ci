@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/quota.h:533
+Symbol:
+Byte size 312
+struct quota_info {
+0x0 flags "unsigned int"
+0x8 dqio_sem @"struct--rw_semaphore.txt"
+0x30 files [3]* @"struct--inode.txt"
+0x48 info [3]@"struct--mem_dqinfo.txt"
+0x120 ops [3]* const @"struct--quota_format_ops.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_drv.c:447
+Symbol:
+func drm_dev_enter (
+dev * @"struct--drm_device.txt"
+idx * "int"
+)
+@"typedef--bool.txt"

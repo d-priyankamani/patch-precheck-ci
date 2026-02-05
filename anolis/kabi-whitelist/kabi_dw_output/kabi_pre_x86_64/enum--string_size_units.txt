@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/string_helpers.h:22
+Symbol:
+Byte size 4
+enum string_size_units {
+STRING_UNITS_10 = 0x0
+STRING_UNITS_2 = 0x1
+}

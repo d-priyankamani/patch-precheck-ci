@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/acpi/utils.c:247
+Symbol:
+func acpi_evaluate_integer (
+handle @"typedef--acpi_handle.txt"
+pathname @"typedef--acpi_string.txt"
+arguments * @"struct--acpi_object_list.txt"
+data * "long long unsigned int"
+)
+@"typedef--acpi_status.txt"

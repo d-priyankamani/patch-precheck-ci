@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/dma-buf/sync_file.c:65
+Symbol:
+func sync_file_create (
+fence * @"struct--dma_fence.txt"
+)
+* @"struct--sync_file.txt"

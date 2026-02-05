@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/power/console.c:78
+Symbol:
+func pm_vt_switch_unregister (
+dev * @"struct--device.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/drm/drm_connector.h:2110
+Symbol:
+Byte size 16
+struct drm_connector_list_iter {
+0x0 dev * @"struct--drm_device.txt"
+0x8 conn * @"struct--drm_connector.txt"
+}

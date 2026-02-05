@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_lib.c:2051
+Symbol:
+func scsi_block_requests (
+shost * @"struct--Scsi_Host.txt"
+)
+"void"

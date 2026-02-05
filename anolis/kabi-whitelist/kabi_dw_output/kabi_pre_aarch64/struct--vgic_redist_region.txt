@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/kvm/arm_vgic.h:216
+Symbol:
+Byte size 40
+struct vgic_redist_region {
+0x0 index @"typedef--u32.txt"
+0x8 base @"typedef--gpa_t.txt"
+0x10 count @"typedef--u32.txt"
+0x14 free_index @"typedef--u32.txt"
+0x18 list @"struct--list_head.txt"
+}

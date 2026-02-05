@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/irq/chip.c:1090
+Symbol:
+func irq_set_chip_and_handler_name (
+irq "unsigned int"
+chip * const @"struct--irq_chip.txt"
+handle @"typedef--irq_flow_handler_t.txt"
+name * const "char"
+)
+"void"

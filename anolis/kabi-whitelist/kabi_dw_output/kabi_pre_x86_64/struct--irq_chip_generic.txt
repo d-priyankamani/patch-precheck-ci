@@ -1,0 +1,39 @@
+Version: 1.0
+File: include/linux/irq.h:1073
+Symbol:
+Byte size 128
+struct irq_chip_generic {
+0x0 lock @"typedef--raw_spinlock_t.txt"
+0x8 reg_base * "void"
+0x10 reg_readl * func (NULL) (
+(NULL) * "void"
+)
+@"typedef--u32.txt"
+0x18 reg_writel * func (NULL) (
+(NULL) @"typedef--u32.txt"
+(NULL) * "void"
+)
+"void"
+0x20 suspend * func (NULL) (
+(NULL) * @"struct--irq_chip_generic.txt"
+)
+"void"
+0x28 resume * func (NULL) (
+(NULL) * @"struct--irq_chip_generic.txt"
+)
+"void"
+0x30 irq_base "unsigned int"
+0x34 irq_cnt "unsigned int"
+0x38 mask_cache @"typedef--u32.txt"
+0x3c type_cache @"typedef--u32.txt"
+0x40 polarity_cache @"typedef--u32.txt"
+0x44 wake_enabled @"typedef--u32.txt"
+0x48 wake_active @"typedef--u32.txt"
+0x4c num_ct "unsigned int"
+0x50 private * "void"
+0x58 installed "long unsigned int"
+0x60 unused "long unsigned int"
+0x68 domain * @"struct--irq_domain.txt"
+0x70 list @"struct--list_head.txt"
+0x80 chip_types [0]@"struct--irq_chip_type.txt"
+}

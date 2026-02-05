@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:5171
+Symbol:
+func netif_rx (
+skb * @"struct--sk_buff.txt"
+)
+"int"

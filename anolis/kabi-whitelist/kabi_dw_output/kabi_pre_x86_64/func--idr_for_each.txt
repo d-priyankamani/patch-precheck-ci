@@ -1,0 +1,14 @@
+Version: 1.0
+File: lib/idr.c:195
+Symbol:
+func idr_for_each (
+idr * const @"struct--idr.txt"
+fn * func (NULL) (
+(NULL) "int"
+(NULL) * "void"
+(NULL) * "void"
+)
+"int"
+data * "void"
+)
+"int"

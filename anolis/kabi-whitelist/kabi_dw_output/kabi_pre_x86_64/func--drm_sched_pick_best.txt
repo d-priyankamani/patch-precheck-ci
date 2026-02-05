@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_main.c:962
+Symbol:
+func drm_sched_pick_best (
+sched_list * * @"struct--drm_gpu_scheduler.txt"
+num_sched_list "unsigned int"
+)
+* @"struct--drm_gpu_scheduler.txt"

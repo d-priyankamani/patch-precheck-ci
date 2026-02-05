@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/module.h:380
+Symbol:
+Byte size 32
+struct mod_kallsyms {
+0x0 symtab * @"typedef--Elf64_Sym.txt"
+0x8 num_symtab "unsigned int"
+0x10 strtab * "char"
+0x18 typetab * "char"
+}

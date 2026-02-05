@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/cgroup_rdma.h:11
+Symbol:
+Byte size 4
+enum rdmacg_resource_type {
+RDMACG_RESOURCE_HCA_HANDLE = 0x0
+RDMACG_RESOURCE_HCA_OBJECT = 0x1
+RDMACG_RESOURCE_MAX = 0x2
+}

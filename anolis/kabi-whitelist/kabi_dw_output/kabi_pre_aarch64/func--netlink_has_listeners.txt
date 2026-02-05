@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/netlink/af_netlink.c:1375
+Symbol:
+func netlink_has_listeners (
+sk * @"struct--sock.txt"
+group "unsigned int"
+)
+"int"

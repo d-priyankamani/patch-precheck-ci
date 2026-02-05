@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:653
+Symbol:
+Byte size 4
+enum ethtool_link_ext_substate_module {
+ETHTOOL_LINK_EXT_SUBSTATE_MODULE_CMIS_NOT_READY = 0x1
+}

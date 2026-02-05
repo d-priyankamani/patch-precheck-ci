@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/acpi/utils.c:546
+Symbol:
+func __acpi_handle_debug (
+descriptor * @"struct--_ddebug.txt"
+handle @"typedef--acpi_handle.txt"
+fmt * const "char"
+(NULL) ...
+)
+"void"

@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/net/strparser.h:91
+Symbol:
+Byte size 384
+struct strparser {
+0x0 sk * @"struct--sock.txt"
+0x8:0-1 stopped @"typedef--u32.txt"
+0x8:1-2 paused @"typedef--u32.txt"
+0x8:2-3 aborted @"typedef--u32.txt"
+0x8:3-4 interrupted @"typedef--u32.txt"
+0x8:4-5 unrecov_intr @"typedef--u32.txt"
+0x10 skb_nextp * * @"struct--sk_buff.txt"
+0x18 skb_head * @"struct--sk_buff.txt"
+0x20 need_bytes "unsigned int"
+0x28 msg_timer_work @"struct--delayed_work.txt"
+0xe0 work @"struct--work_struct.txt"
+0x120 stats @"struct--strp_stats.txt"
+0x148 cb @"struct--strp_callbacks.txt"
+}

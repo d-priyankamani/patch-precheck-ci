@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/blk-mq.h:538
+Symbol:
+Byte size 24
+struct blk_mq_queue_data {
+0x0 rq * @"struct--request.txt"
+0x8 last @"typedef--bool.txt"
+0x10 ck_reserved1 "long unsigned int"
+}

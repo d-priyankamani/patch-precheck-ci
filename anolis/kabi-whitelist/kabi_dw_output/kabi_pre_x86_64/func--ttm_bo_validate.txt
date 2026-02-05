@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo.c:890
+Symbol:
+func ttm_bo_validate (
+bo * @"struct--ttm_buffer_object.txt"
+placement * @"struct--ttm_placement.txt"
+ctx * @"struct--ttm_operation_ctx.txt"
+)
+"int"

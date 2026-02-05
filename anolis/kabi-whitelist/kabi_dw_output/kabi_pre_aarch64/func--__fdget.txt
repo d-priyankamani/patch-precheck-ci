@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/file.c:1014
+Symbol:
+func __fdget (
+fd "unsigned int"
+)
+"long unsigned int"

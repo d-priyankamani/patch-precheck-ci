@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/base/class.c:129
+Symbol:
+func class_create_file_ns (
+cls * const @"struct--class.txt"
+attr * const @"struct--class_attribute.txt"
+ns * const "void"
+)
+"int"

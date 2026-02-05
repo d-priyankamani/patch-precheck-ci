@@ -1,0 +1,13 @@
+Version: 1.0
+File: net/8021q/vlan.h:29
+Symbol:
+Byte size 200
+Alignment 8
+struct vlan_info {
+0x0 real_dev * @"struct--net_device.txt"
+0x8 grp @"struct--vlan_group.txt"
+0xa0 vid_list @"struct--list_head.txt"
+0xb0 nr_vids "unsigned int"
+0xb4 auto_vid0 @"typedef--bool.txt"
+0xb8 8 rcu @"struct--callback_head.txt"
+}

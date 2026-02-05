@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/util.c:612
+Symbol:
+func kvmalloc_node (
+size @"typedef--size_t.txt"
+flags @"typedef--gfp_t.txt"
+node "int"
+)
+* "void"

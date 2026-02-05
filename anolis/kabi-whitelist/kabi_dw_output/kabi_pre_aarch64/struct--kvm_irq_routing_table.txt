@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/kvm_host.h:678
+Symbol:
+Byte size 3960
+struct kvm_irq_routing_table {
+0x0 chip [1][988]"int"
+0xf70 nr_rt_entries @"typedef--u32.txt"
+0xf78 map [0]@"struct--hlist_head.txt"
+}

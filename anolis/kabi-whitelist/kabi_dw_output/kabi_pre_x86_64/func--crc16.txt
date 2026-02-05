@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/crc16.c:55
+Symbol:
+func crc16 (
+crc @"typedef--u16.txt"
+buffer * const @"typedef--u8.txt"
+len @"typedef--size_t.txt"
+)
+@"typedef--u16.txt"

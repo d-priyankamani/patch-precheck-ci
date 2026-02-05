@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:3366
+Symbol:
+func rdma_resolve_route (
+id * @"struct--rdma_cm_id.txt"
+timeout_ms "long unsigned int"
+)
+"int"

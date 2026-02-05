@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/flow_offload.h:518
+Symbol:
+Byte size 4
+typedef flow_setup_cb_t
+func (NULL) (
+(NULL) @"enum--tc_setup_type.txt"
+(NULL) * "void"
+(NULL) * "void"
+)
+"int"

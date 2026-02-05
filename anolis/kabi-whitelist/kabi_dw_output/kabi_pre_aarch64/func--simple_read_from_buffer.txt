@@ -1,0 +1,11 @@
+Version: 1.0
+File: fs/libfs.c:1114
+Symbol:
+func simple_read_from_buffer (
+to * "void"
+count @"typedef--size_t.txt"
+ppos * @"typedef--loff_t.txt"
+from * const "void"
+available @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1372
+Symbol:
+Byte size 16
+struct ib_sge {
+0x0 addr @"typedef--u64.txt"
+0x8 length @"typedef--u32.txt"
+0xc lkey @"typedef--u32.txt"
+}

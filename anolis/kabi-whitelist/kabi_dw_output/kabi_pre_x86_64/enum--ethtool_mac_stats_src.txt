@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:726
+Symbol:
+Byte size 4
+enum ethtool_mac_stats_src {
+ETHTOOL_MAC_STATS_SRC_AGGREGATE = 0x0
+ETHTOOL_MAC_STATS_SRC_EMAC = 0x1
+ETHTOOL_MAC_STATS_SRC_PMAC = 0x2
+}

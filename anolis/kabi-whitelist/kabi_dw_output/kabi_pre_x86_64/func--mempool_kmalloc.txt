@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/mempool.c:533
+Symbol:
+func mempool_kmalloc (
+gfp_mask @"typedef--gfp_t.txt"
+pool_data * "void"
+)
+* "void"

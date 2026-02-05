@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_helper.c:853
+Symbol:
+func drm_dp_send_real_edid_checksum (
+aux * @"struct--drm_dp_aux.txt"
+real_edid_checksum @"typedef--u8.txt"
+)
+@"typedef--bool.txt"

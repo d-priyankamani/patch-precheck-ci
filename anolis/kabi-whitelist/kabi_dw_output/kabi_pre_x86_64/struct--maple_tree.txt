@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/maple_tree.h:218
+Symbol:
+Byte size 16
+struct maple_tree {
+0x0 (NULL) union (NULL) {
+ma_lock @"typedef--spinlock_t.txt"
+ma_external_lock @"typedef--lockdep_map_p.txt"
+}
+0x4 ma_flags "unsigned int"
+0x8 ma_root * "void"
+}

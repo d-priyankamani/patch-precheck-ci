@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/dma-buf/dma-resv.c:138
+Symbol:
+func dma_resv_init (
+obj * @"struct--dma_resv.txt"
+)
+"void"

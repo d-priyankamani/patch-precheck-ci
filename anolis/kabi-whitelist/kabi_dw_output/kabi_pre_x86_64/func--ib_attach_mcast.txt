@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2421
+Symbol:
+func ib_attach_mcast (
+qp * @"struct--ib_qp.txt"
+gid * @"union--ib_gid.txt"
+lid @"typedef--u16.txt"
+)
+"int"

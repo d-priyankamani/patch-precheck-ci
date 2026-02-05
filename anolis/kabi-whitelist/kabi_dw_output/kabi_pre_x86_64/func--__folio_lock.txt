@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/filemap.c:1758
+Symbol:
+func __folio_lock (
+folio * @"struct--folio.txt"
+)
+"void"

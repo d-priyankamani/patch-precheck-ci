@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/rdma/rdma_netlink.h:591
+Symbol:
+Byte size 4
+enum rdma_nl_counter_mask {
+RDMA_COUNTER_MASK_QP_TYPE = 0x1
+RDMA_COUNTER_MASK_PID = 0x2
+}

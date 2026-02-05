@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:8831
+Symbol:
+func dev_set_mtu (
+dev * @"struct--net_device.txt"
+new_mtu "int"
+)
+"int"

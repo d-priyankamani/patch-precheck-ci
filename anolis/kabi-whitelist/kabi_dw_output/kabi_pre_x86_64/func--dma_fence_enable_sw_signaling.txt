@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:611
+Symbol:
+func dma_fence_enable_sw_signaling (
+fence * @"struct--dma_fence.txt"
+)
+"void"

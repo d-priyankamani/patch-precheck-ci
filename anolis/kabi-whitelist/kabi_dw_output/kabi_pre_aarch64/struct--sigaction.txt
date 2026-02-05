@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/signal_types.h:37
+Symbol:
+Byte size 32
+struct sigaction {
+0x0 sa_handler @"typedef--__sighandler_t.txt"
+0x8 sa_flags "long unsigned int"
+0x10 sa_restorer @"typedef--__sigrestore_t.txt"
+0x18 sa_mask @"typedef--sigset_t.txt"
+}

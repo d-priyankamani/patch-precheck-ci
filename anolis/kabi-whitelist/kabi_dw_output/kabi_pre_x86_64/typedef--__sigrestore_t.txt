@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/uapi/asm-generic/signal-defs.h:86
+Symbol:
+Byte size 8
+typedef __sigrestore_t
+* @"typedef--__restorefn_t.txt"

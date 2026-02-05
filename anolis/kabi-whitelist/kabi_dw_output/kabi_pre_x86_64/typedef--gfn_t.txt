@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/kvm_types.h:41
+Symbol:
+typedef gfn_t
+@"typedef--u64.txt"

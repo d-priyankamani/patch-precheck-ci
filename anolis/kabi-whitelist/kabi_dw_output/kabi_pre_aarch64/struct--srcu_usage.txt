@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/linux/srcutree.h:72
+Symbol:
+Byte size 472
+struct srcu_usage {
+0x0 node * @"struct--srcu_node.txt"
+0x8 level [3]* @"struct--srcu_node.txt"
+0x20 srcu_size_state "int"
+0x28 srcu_cb_mutex @"struct--mutex.txt"
+0x48 lock @"typedef--spinlock_t.txt"
+0x50 srcu_gp_mutex @"struct--mutex.txt"
+0x70 srcu_gp_seq "long unsigned int"
+0x78 srcu_gp_seq_needed "long unsigned int"
+0x80 srcu_gp_seq_needed_exp "long unsigned int"
+0x88 srcu_gp_start "long unsigned int"
+0x90 srcu_last_gp_end "long unsigned int"
+0x98 srcu_size_jiffies "long unsigned int"
+0xa0 srcu_n_lock_retries "long unsigned int"
+0xa8 srcu_n_exp_nodelay "long unsigned int"
+0xb0 sda_is_static @"typedef--bool.txt"
+0xb8 srcu_barrier_seq "long unsigned int"
+0xc0 srcu_barrier_mutex @"struct--mutex.txt"
+0xe0 srcu_barrier_completion @"struct--completion.txt"
+0x100 srcu_barrier_cpu_cnt @"typedef--atomic_t.txt"
+0x108 reschedule_jiffies "long unsigned int"
+0x110 reschedule_count "long unsigned int"
+0x118 work @"struct--delayed_work.txt"
+0x1d0 srcu_ssp * @"struct--srcu_struct.txt"
+}

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/drm_file.h:77
+Symbol:
+Byte size 80
+struct drm_minor {
+0x0 index "int"
+0x4 type "int"
+0x8 kdev * @"struct--device.txt"
+0x10 dev * @"struct--drm_device.txt"
+0x18 debugfs_root * @"struct--dentry.txt"
+0x20 debugfs_list @"struct--list_head.txt"
+0x30 debugfs_lock @"struct--mutex.txt"
+}

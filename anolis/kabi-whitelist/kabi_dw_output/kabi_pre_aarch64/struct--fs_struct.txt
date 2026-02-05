@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/fs_struct.h:9
+Symbol:
+Byte size 56
+struct fs_struct {
+0x0 users "int"
+0x4 lock @"typedef--spinlock_t.txt"
+0x8 seq @"typedef--seqcount_spinlock_t.txt"
+0xc umask "int"
+0x10 in_exec "int"
+0x18 root @"struct--path.txt"
+0x28 pwd @"struct--path.txt"
+}

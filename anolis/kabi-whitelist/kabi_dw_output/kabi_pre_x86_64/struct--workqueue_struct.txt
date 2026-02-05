@@ -1,0 +1,29 @@
+Version: 1.0
+File: kernel/workqueue.c:288
+Symbol:
+Byte size 320
+Alignment 64
+struct workqueue_struct {
+0x0 pwqs @"struct--list_head.txt"
+0x10 list @"struct--list_head.txt"
+0x20 mutex @"struct--mutex.txt"
+0x40 work_color "int"
+0x44 flush_color "int"
+0x48 nr_pwqs_to_flush @"typedef--atomic_t.txt"
+0x50 first_flusher * @"struct--wq_flusher.txt"
+0x58 flusher_queue @"struct--list_head.txt"
+0x68 flusher_overflow @"struct--list_head.txt"
+0x78 maydays @"struct--list_head.txt"
+0x88 rescuer * @"struct--worker.txt"
+0x90 nr_drainers "int"
+0x94 saved_max_active "int"
+0x98 unbound_attrs * @"struct--workqueue_attrs.txt"
+0xa0 dfl_pwq * @"struct--pool_workqueue.txt"
+0xa8 wq_dev * @"struct--wq_device.txt"
+0xb0 name [24]"char"
+0xc8 8 rcu @"struct--callback_head.txt"
+0x100 64 flags "unsigned int"
+0x108 cpu_pwq * * @"struct--pool_workqueue.txt"
+0x110 ck_reserved1 "long unsigned int"
+0x118 ck_reserved2 "long unsigned int"
+}

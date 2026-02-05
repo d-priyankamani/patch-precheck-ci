@@ -1,0 +1,34 @@
+Version: 1.0
+File: include/net/tls.h:281
+Symbol:
+Byte size 72
+struct tlsdev_ops {
+0x0 tls_dev_add * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--sock.txt"
+(NULL) @"enum--tls_offload_ctx_dir.txt"
+(NULL) * @"struct--tls_crypto_info.txt"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0x8 tls_dev_del * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--tls_context.txt"
+(NULL) @"enum--tls_offload_ctx_dir.txt"
+)
+"void"
+0x10 tls_dev_resync * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--sock.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"typedef--u8.txt"
+(NULL) @"enum--tls_offload_ctx_dir.txt"
+)
+"int"
+0x18 ck_reserved1 "long unsigned int"
+0x20 ck_reserved2 "long unsigned int"
+0x28 ck_reserved3 "long unsigned int"
+0x30 ck_reserved4 "long unsigned int"
+0x38 ck_reserved5 "long unsigned int"
+0x40 ck_reserved6 "long unsigned int"
+}

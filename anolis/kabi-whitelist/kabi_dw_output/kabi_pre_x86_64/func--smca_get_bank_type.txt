@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/x86/kernel/cpu/mce/amd.c:145
+Symbol:
+func smca_get_bank_type (
+cpu "unsigned int"
+bank "unsigned int"
+)
+@"enum--smca_bank_types.txt"

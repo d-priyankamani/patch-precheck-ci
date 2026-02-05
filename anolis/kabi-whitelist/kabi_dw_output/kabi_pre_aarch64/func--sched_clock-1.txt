@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/time/sched_clock.c:101
+Symbol:
+func sched_clock (
+)
+"long long unsigned int"

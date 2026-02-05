@@ -1,0 +1,35 @@
+Version: 1.0
+File: include/net/xfrm.h:527
+Symbol:
+Byte size 896
+Alignment 8
+struct xfrm_policy {
+0x0 xp_net @"typedef--possible_net_t.txt"
+0x8 bydst @"struct--hlist_node.txt"
+0x18 byidx @"struct--hlist_node.txt"
+0x28 lock @"typedef--rwlock_t.txt"
+0x30 refcnt @"typedef--refcount_t.txt"
+0x34 pos @"typedef--u32.txt"
+0x38 timer @"struct--timer_list.txt"
+0x80 genid @"typedef--atomic_t.txt"
+0x84 priority @"typedef--u32.txt"
+0x88 index @"typedef--u32.txt"
+0x8c if_id @"typedef--u32.txt"
+0x90 mark @"struct--xfrm_mark.txt"
+0x98 selector @"struct--xfrm_selector.txt"
+0xd0 lft @"struct--xfrm_lifetime_cfg.txt"
+0x110 curlft @"struct--xfrm_lifetime_cur.txt"
+0x130 walk @"struct--xfrm_policy_walk_entry.txt"
+0x148 polq @"struct--xfrm_policy_queue.txt"
+0x1b0 bydst_reinsert @"typedef--bool.txt"
+0x1b1 type @"typedef--u8.txt"
+0x1b2 action @"typedef--u8.txt"
+0x1b3 flags @"typedef--u8.txt"
+0x1b4 xfrm_nr @"typedef--u8.txt"
+0x1b6 family @"typedef--u16.txt"
+0x1b8 security * @"struct--xfrm_sec_ctx.txt"
+0x1c0 xfrm_vec [6]@"struct--xfrm_tmpl.txt"
+0x340 bydst_inexact_list @"struct--hlist_node.txt"
+0x350 8 rcu @"struct--callback_head.txt"
+0x360 xdo @"struct--xfrm_dev_offload.txt"
+}

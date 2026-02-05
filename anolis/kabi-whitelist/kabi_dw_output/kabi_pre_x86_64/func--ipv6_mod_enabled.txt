@@ -1,0 +1,6 @@
+Version: 1.0
+File: net/ipv6/af_inet6.c:99
+Symbol:
+func ipv6_mod_enabled (
+)
+@"typedef--bool.txt"

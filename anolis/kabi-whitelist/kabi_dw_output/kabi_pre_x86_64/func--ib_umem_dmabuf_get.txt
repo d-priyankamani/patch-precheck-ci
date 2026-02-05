@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/infiniband/core/umem_dmabuf.c:113
+Symbol:
+func ib_umem_dmabuf_get (
+device * @"struct--ib_device.txt"
+offset "long unsigned int"
+size @"typedef--size_t.txt"
+fd "int"
+access "int"
+ops * const @"struct--dma_buf_attach_ops.txt"
+)
+* @"struct--ib_umem_dmabuf.txt"

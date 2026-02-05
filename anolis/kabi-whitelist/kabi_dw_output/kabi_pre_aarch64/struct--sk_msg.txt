@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/skmsg.h:43
+Symbol:
+Byte size 712
+struct sk_msg {
+0x0 sg @"struct--sk_msg_sg.txt"
+0x280 data * "void"
+0x288 data_end * "void"
+0x290 apply_bytes @"typedef--u32.txt"
+0x294 cork_bytes @"typedef--u32.txt"
+0x298 flags @"typedef--u32.txt"
+0x2a0 skb * @"struct--sk_buff.txt"
+0x2a8 sk_redir * @"struct--sock.txt"
+0x2b0 sk * @"struct--sock.txt"
+0x2b8 list @"struct--list_head.txt"
+}

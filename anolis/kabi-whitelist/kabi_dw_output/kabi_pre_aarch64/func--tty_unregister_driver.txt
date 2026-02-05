@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/tty/tty_io.c:3481
+Symbol:
+func tty_unregister_driver (
+driver * @"struct--tty_driver.txt"
+)
+"void"

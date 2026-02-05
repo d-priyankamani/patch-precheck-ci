@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/kernel/cpu/mtrr/mtrr.c:516
+Symbol:
+func arch_phys_wc_del (
+handle "int"
+)
+"void"

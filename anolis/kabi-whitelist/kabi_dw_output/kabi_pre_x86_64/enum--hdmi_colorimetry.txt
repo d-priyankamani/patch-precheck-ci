@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/hdmi.h:89
+Symbol:
+Byte size 4
+enum hdmi_colorimetry {
+HDMI_COLORIMETRY_NONE = 0x0
+HDMI_COLORIMETRY_ITU_601 = 0x1
+HDMI_COLORIMETRY_ITU_709 = 0x2
+HDMI_COLORIMETRY_EXTENDED = 0x3
+}

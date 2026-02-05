@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/switchdev/switchdev.c:418
+Symbol:
+func call_switchdev_notifiers (
+val "long unsigned int"
+dev * @"struct--net_device.txt"
+info * @"struct--switchdev_notifier_info.txt"
+extack * @"struct--netlink_ext_ack.txt"
+)
+"int"

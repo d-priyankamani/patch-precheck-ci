@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/kvm_host.h:583
+Symbol:
+Byte size 272
+Alignment 8
+struct kvm_memory_slot {
+0x0 id_node [2]@"struct--hlist_node.txt"
+0x20 8 hva_node [2]@"struct--interval_tree_node.txt"
+0x80 8 gfn_node [2]@"struct--rb_node.txt"
+0xb0 base_gfn @"typedef--gfn_t.txt"
+0xb8 npages "long unsigned int"
+0xc0 dirty_bitmap * "long unsigned int"
+0xc8 arch @"struct--kvm_arch_memory_slot.txt"
+0xf8 userspace_addr "long unsigned int"
+0x100 flags @"typedef--u32.txt"
+0x104 id "short int"
+0x106 as_id @"typedef--u16.txt"
+0x108 ck_reserved1 "long unsigned int"
+}

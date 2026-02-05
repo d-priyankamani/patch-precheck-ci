@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/math/div64.c:179
+Symbol:
+func iter_div_u64_rem (
+dividend @"typedef--u64.txt"
+divisor @"typedef--u32.txt"
+remainder * @"typedef--u64.txt"
+)
+@"typedef--u32.txt"

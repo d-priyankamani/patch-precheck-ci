@@ -1,0 +1,14 @@
+Version: 1.0
+File: net/xdp/xsk_queue.h:40
+Symbol:
+Byte size 48
+struct xsk_queue {
+0x0 ring_mask @"typedef--u32.txt"
+0x4 nentries @"typedef--u32.txt"
+0x8 cached_prod @"typedef--u32.txt"
+0xc cached_cons @"typedef--u32.txt"
+0x10 ring * @"struct--xdp_ring.txt"
+0x18 invalid_descs @"typedef--u64.txt"
+0x20 queue_empty_descs @"typedef--u64.txt"
+0x28 ring_vmalloc_size @"typedef--size_t.txt"
+}

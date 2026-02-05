@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/uapi/linux/ptp_clock.h:108
+Symbol:
+Byte size 56
+struct ptp_perout_request {
+0x0 (NULL) union (NULL) {
+start @"struct--ptp_clock_time.txt"
+phase @"struct--ptp_clock_time.txt"
+}
+0x10 period @"struct--ptp_clock_time.txt"
+0x20 index "unsigned int"
+0x24 flags "unsigned int"
+0x28 (NULL) union (NULL) {
+on @"struct--ptp_clock_time.txt"
+rsv [4]"unsigned int"
+}
+}

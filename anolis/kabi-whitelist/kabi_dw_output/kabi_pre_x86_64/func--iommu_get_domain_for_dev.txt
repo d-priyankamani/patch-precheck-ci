@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/iommu/iommu.c:2244
+Symbol:
+func iommu_get_domain_for_dev (
+dev * @"struct--device.txt"
+)
+* @"struct--iommu_domain.txt"

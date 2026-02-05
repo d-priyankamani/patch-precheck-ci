@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/rhashtable.c:718
+Symbol:
+func rhashtable_walk_start_check (
+iter * @"struct--rhashtable_iter.txt"
+)
+"int"

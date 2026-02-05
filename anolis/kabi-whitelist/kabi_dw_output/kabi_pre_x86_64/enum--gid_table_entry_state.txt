@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:68
+Symbol:
+Byte size 4
+enum gid_table_entry_state {
+GID_TABLE_ENTRY_INVALID = 0x1
+GID_TABLE_ENTRY_VALID = 0x2
+GID_TABLE_ENTRY_PENDING_DEL = 0x3
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/i2c.h:73
+Symbol:
+Byte size 16
+struct i2c_msg {
+0x0 addr @"typedef--__u16.txt"
+0x2 flags @"typedef--__u16.txt"
+0x4 len @"typedef--__u16.txt"
+0x8 buf * @"typedef--__u8.txt"
+}

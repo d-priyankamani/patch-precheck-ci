@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/seq_file.c:672
+Symbol:
+func seq_puts (
+m * @"struct--seq_file.txt"
+s * const "char"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/blkdev.h:303
+Symbol:
+Byte size 4
+enum blk_bounce {
+BLK_BOUNCE_NONE = 0x0
+BLK_BOUNCE_HIGH = 0x1
+}

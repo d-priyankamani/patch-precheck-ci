@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/blk-mq.h:545
+Symbol:
+typedef busy_tag_iter_fn
+func (NULL) (
+(NULL) * @"struct--request.txt"
+(NULL) * "void"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/netns/flow_table.h:11
+Symbol:
+Byte size 8
+struct netns_ft {
+0x0 stat * @"struct--nf_flow_table_stat.txt"
+}

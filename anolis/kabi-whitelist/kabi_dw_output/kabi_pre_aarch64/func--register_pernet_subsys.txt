@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/net_namespace.c:1330
+Symbol:
+func register_pernet_subsys (
+ops * @"struct--pernet_operations.txt"
+)
+"int"

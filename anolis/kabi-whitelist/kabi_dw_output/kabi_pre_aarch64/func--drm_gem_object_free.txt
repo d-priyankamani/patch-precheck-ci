@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem.c:1028
+Symbol:
+func drm_gem_object_free (
+kref * @"struct--kref.txt"
+)
+"void"

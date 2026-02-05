@@ -1,0 +1,80 @@
+Version: 1.0
+File: include/drm/ttm/ttm_device.h:61
+Symbol:
+Byte size 112
+struct ttm_device_funcs {
+0x0 ttm_tt_create * func (NULL) (
+(NULL) * @"struct--ttm_buffer_object.txt"
+(NULL) @"typedef--uint32_t.txt"
+)
+* @"struct--ttm_tt.txt"
+0x8 ttm_tt_populate * func (NULL) (
+(NULL) * @"struct--ttm_device.txt"
+(NULL) * @"struct--ttm_tt.txt"
+(NULL) * @"struct--ttm_operation_ctx.txt"
+)
+"int"
+0x10 ttm_tt_unpopulate * func (NULL) (
+(NULL) * @"struct--ttm_device.txt"
+(NULL) * @"struct--ttm_tt.txt"
+)
+"void"
+0x18 ttm_tt_destroy * func (NULL) (
+(NULL) * @"struct--ttm_device.txt"
+(NULL) * @"struct--ttm_tt.txt"
+)
+"void"
+0x20 eviction_valuable * func (NULL) (
+(NULL) * @"struct--ttm_buffer_object.txt"
+(NULL) * const @"struct--ttm_place.txt"
+)
+@"typedef--bool.txt"
+0x28 evict_flags * func (NULL) (
+(NULL) * @"struct--ttm_buffer_object.txt"
+(NULL) * @"struct--ttm_placement.txt"
+)
+"void"
+0x30 move * func (NULL) (
+(NULL) * @"struct--ttm_buffer_object.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * @"struct--ttm_operation_ctx.txt"
+(NULL) * @"struct--ttm_resource.txt"
+(NULL) * @"struct--ttm_place.txt"
+)
+"int"
+0x38 delete_mem_notify * func (NULL) (
+(NULL) * @"struct--ttm_buffer_object.txt"
+)
+"void"
+0x40 swap_notify * func (NULL) (
+(NULL) * @"struct--ttm_buffer_object.txt"
+)
+"void"
+0x48 io_mem_reserve * func (NULL) (
+(NULL) * @"struct--ttm_device.txt"
+(NULL) * @"struct--ttm_resource.txt"
+)
+"int"
+0x50 io_mem_free * func (NULL) (
+(NULL) * @"struct--ttm_device.txt"
+(NULL) * @"struct--ttm_resource.txt"
+)
+"void"
+0x58 io_mem_pfn * func (NULL) (
+(NULL) * @"struct--ttm_buffer_object.txt"
+(NULL) "long unsigned int"
+)
+"long unsigned int"
+0x60 access_memory * func (NULL) (
+(NULL) * @"struct--ttm_buffer_object.txt"
+(NULL) "long unsigned int"
+(NULL) * "void"
+(NULL) "int"
+(NULL) "int"
+)
+"int"
+0x68 release_notify * func (NULL) (
+(NULL) * @"struct--ttm_buffer_object.txt"
+)
+"void"
+}

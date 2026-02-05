@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/bpf.h:62
+Symbol:
+Byte size 8
+typedef bpf_callback_t
+* func (NULL) (
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+(NULL) @"typedef--u64.txt"
+)
+@"typedef--u64.txt"

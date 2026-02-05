@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/panic.c:896
+Symbol:
+func __warn_printk (
+fmt * const "char"
+(NULL) ...
+)
+"void"

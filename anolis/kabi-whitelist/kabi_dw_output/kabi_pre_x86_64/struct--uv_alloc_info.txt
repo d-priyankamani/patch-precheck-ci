@@ -1,0 +1,10 @@
+Version: 1.0
+File: arch/x86/include/asm/hw_irq.h:52
+Symbol:
+Byte size 24
+struct uv_alloc_info {
+0x0 limit "int"
+0x4 blade "int"
+0x8 offset "long unsigned int"
+0x10 name * "char"
+}

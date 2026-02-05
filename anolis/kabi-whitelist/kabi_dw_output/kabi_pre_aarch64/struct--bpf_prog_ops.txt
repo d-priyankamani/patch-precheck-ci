@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/bpf.h:953
+Symbol:
+Byte size 8
+struct bpf_prog_ops {
+0x0 test_run * func (NULL) (
+(NULL) * @"struct--bpf_prog.txt"
+(NULL) * const @"union--bpf_attr.txt"
+(NULL) * @"union--bpf_attr.txt"
+)
+"int"
+}

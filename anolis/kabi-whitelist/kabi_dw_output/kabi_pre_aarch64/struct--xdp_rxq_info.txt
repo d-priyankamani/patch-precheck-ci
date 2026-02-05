@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/xdp.h:60
+Symbol:
+Byte size 64
+Alignment 64
+struct xdp_rxq_info {
+0x0 dev * @"struct--net_device.txt"
+0x8 queue_index @"typedef--u32.txt"
+0xc reg_state @"typedef--u32.txt"
+0x10 mem @"struct--xdp_mem_info.txt"
+0x18 napi_id "unsigned int"
+0x1c frag_size @"typedef--u32.txt"
+0x20 ck_reserved1 "long unsigned int"
+0x28 ck_reserved2 "long unsigned int"
+0x30 ck_reserved3 "long unsigned int"
+0x38 ck_reserved4 "long unsigned int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/ptp_clock.h:102
+Symbol:
+Byte size 16
+struct ptp_extts_request {
+0x0 index "unsigned int"
+0x4 flags "unsigned int"
+0x8 rsv [2]"unsigned int"
+}

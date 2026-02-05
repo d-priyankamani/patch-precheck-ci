@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/idr.c:290
+Symbol:
+func idr_replace (
+idr * @"struct--idr.txt"
+ptr * "void"
+id "long unsigned int"
+)
+* "void"

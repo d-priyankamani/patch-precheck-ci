@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/skmsg.h:26
+Symbol:
+Byte size 640
+struct sk_msg_sg {
+0x0 start @"typedef--u32.txt"
+0x4 curr @"typedef--u32.txt"
+0x8 end @"typedef--u32.txt"
+0xc size @"typedef--u32.txt"
+0x10 copybreak @"typedef--u32.txt"
+0x18 copy [1]"long unsigned int"
+0x20 data [19]@"struct--scatterlist.txt"
+}

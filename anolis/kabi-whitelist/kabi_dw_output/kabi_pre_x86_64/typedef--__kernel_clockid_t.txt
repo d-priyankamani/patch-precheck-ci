@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/uapi/asm-generic/posix_types.h:96
+Symbol:
+Byte size 4
+typedef __kernel_clockid_t
+"int"

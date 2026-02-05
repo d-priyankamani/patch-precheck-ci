@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modes.c:1574
+Symbol:
+func drm_mode_equal (
+mode1 * const @"struct--drm_display_mode.txt"
+mode2 * const @"struct--drm_display_mode.txt"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: arch/x86/lib/csum-wrappers_64.c:76
+Symbol:
+func csum_ipv6_magic (
+saddr * const @"<declarations>/struct--in6_addr.txt"
+daddr * const @"<declarations>/struct--in6_addr.txt"
+len @"typedef--__u32.txt"
+proto @"typedef--__u8.txt"
+sum @"typedef--__wsum.txt"
+)
+@"typedef--__sum16.txt"

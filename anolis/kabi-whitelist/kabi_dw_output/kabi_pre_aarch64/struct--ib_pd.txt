@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1552
+Symbol:
+Byte size 112
+struct ib_pd {
+0x0 local_dma_lkey @"typedef--u32.txt"
+0x4 flags @"typedef--u32.txt"
+0x8 device * @"struct--ib_device.txt"
+0x10 uobject * @"struct--ib_uobject.txt"
+0x18 usecnt @"typedef--atomic_t.txt"
+0x1c unsafe_global_rkey @"typedef--u32.txt"
+0x20 __internal_mr * @"struct--ib_mr.txt"
+0x28 res @"struct--rdma_restrack_entry.txt"
+}

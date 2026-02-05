@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:110
+Symbol:
+typedef uint32_t
+@"typedef--u32.txt"

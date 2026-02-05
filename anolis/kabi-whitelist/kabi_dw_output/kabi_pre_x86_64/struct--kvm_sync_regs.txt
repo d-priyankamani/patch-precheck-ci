@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/include/uapi/asm/kvm.h:423
+Symbol:
+Byte size 520
+struct kvm_sync_regs {
+0x0 regs @"struct--kvm_regs.txt"
+0x90 sregs @"struct--kvm_sregs.txt"
+0x1c8 events @"struct--kvm_vcpu_events.txt"
+}

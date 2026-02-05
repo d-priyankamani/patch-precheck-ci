@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/configfs/item.c:146
+Symbol:
+func config_item_put (
+item * @"struct--config_item.txt"
+)
+"void"

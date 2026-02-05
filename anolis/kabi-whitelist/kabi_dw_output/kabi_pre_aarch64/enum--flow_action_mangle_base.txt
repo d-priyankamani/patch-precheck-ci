@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/flow_offload.h:194
+Symbol:
+Byte size 4
+enum flow_action_mangle_base {
+FLOW_ACT_MANGLE_UNSPEC = 0x0
+FLOW_ACT_MANGLE_HDR_TYPE_ETH = 0x1
+FLOW_ACT_MANGLE_HDR_TYPE_IP4 = 0x2
+FLOW_ACT_MANGLE_HDR_TYPE_IP6 = 0x3
+FLOW_ACT_MANGLE_HDR_TYPE_TCP = 0x4
+FLOW_ACT_MANGLE_HDR_TYPE_UDP = 0x5
+}

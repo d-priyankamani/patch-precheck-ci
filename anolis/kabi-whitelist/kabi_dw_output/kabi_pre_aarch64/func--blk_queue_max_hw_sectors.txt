@@ -1,0 +1,8 @@
+Version: 1.0
+File: block/blk-settings.c:136
+Symbol:
+func blk_queue_max_hw_sectors (
+q * @"struct--request_queue.txt"
+max_hw_sectors "unsigned int"
+)
+"void"

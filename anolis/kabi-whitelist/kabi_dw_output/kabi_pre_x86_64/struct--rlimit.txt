@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/resource.h:43
+Symbol:
+Byte size 16
+struct rlimit {
+0x0 rlim_cur @"typedef--__kernel_ulong_t.txt"
+0x8 rlim_max @"typedef--__kernel_ulong_t.txt"
+}

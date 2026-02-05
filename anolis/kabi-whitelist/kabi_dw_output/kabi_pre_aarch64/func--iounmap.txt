@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/ioremap.c:69
+Symbol:
+func iounmap (
+addr * volatile "void"
+)
+"void"

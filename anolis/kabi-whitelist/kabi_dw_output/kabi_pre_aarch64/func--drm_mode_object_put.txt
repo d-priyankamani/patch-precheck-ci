@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_mode_object.c:194
+Symbol:
+func drm_mode_object_put (
+obj * @"struct--drm_mode_object.txt"
+)
+"void"

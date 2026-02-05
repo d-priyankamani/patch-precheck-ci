@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modeset_helper.c:235
+Symbol:
+func drm_mode_config_helper_resume (
+dev * @"struct--drm_device.txt"
+)
+"int"

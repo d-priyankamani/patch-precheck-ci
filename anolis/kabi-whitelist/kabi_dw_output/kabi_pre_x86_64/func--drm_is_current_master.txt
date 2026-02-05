@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_auth.c:82
+Symbol:
+func drm_is_current_master (
+fpriv * @"struct--drm_file.txt"
+)
+@"typedef--bool.txt"

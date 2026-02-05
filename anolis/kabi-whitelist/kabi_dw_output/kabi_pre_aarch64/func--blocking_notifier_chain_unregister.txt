@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/notifier.c:321
+Symbol:
+func blocking_notifier_chain_unregister (
+nh * @"struct--blocking_notifier_head.txt"
+n * @"struct--notifier_block.txt"
+)
+"int"

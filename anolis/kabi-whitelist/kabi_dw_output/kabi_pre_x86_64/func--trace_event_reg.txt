@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/trace/trace_events.c:673
+Symbol:
+func trace_event_reg (
+call * @"struct--trace_event_call.txt"
+type @"enum--trace_reg.txt"
+data * "void"
+)
+"int"

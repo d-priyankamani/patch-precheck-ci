@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/tracepoint-defs.h:53
+Symbol:
+Byte size 32
+Alignment 32
+struct bpf_raw_event_map {
+0x0 tp * @"struct--tracepoint.txt"
+0x8 bpf_func * "void"
+0x10 num_args @"typedef--u32.txt"
+0x14 writable_size @"typedef--u32.txt"
+}

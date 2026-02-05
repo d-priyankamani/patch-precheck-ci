@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/types.h:24
+Symbol:
+Byte size 2
+typedef umode_t
+"short unsigned int"

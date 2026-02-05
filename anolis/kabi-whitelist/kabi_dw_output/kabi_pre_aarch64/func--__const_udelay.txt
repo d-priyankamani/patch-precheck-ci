@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/arm64/lib/delay.c:53
+Symbol:
+func __const_udelay (
+xloops "long unsigned int"
+)
+"void"

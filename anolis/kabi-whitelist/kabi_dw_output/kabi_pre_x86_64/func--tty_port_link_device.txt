@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/tty/tty_port.c:117
+Symbol:
+func tty_port_link_device (
+port * @"struct--tty_port.txt"
+driver * @"struct--tty_driver.txt"
+index "unsigned int"
+)
+"void"

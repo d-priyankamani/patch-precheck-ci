@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/rdma/uverbs_ioctl.h:295
+Symbol:
+Byte size 24
+struct uverbs_attr_def {
+0x0 id @"typedef--u16.txt"
+0x8 attr @"struct--uverbs_attr_spec.txt"
+}

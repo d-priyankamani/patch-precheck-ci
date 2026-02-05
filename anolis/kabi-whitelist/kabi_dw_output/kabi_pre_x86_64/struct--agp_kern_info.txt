@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/agp_backend.h:45
+Symbol:
+Byte size 80
+struct agp_kern_info {
+0x0 version @"struct--agp_version.txt"
+0x8 device * @"struct--pci_dev.txt"
+0x10 chipset @"enum--chipset_type.txt"
+0x18 mode "long unsigned int"
+0x20 aper_base "long unsigned int"
+0x28 aper_size @"typedef--size_t.txt"
+0x30 max_memory "int"
+0x34 current_memory "int"
+0x38 cant_use_aperture @"typedef--bool.txt"
+0x40 page_mask "long unsigned int"
+0x48 vm_ops * const @"struct--vm_operations_struct.txt"
+}

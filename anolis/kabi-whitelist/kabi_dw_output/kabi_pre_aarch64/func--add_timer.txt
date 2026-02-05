@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/timer.c:1240
+Symbol:
+func add_timer (
+timer * @"struct--timer_list.txt"
+)
+"void"

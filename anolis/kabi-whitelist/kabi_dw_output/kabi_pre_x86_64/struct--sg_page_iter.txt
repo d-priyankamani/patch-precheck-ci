@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/scatterlist.h:550
+Symbol:
+Byte size 24
+struct sg_page_iter {
+0x0 sg * @"struct--scatterlist.txt"
+0x8 sg_pgoffset "unsigned int"
+0xc __nents "unsigned int"
+0x10 __pg_advance "int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/flow_dissector.h:382
+Symbol:
+Byte size 88
+struct flow_dissector {
+0x0 used_keys "long long unsigned int"
+0x8 offset [33]"short unsigned int"
+0x50 ck_reserved1 "long unsigned int"
+}

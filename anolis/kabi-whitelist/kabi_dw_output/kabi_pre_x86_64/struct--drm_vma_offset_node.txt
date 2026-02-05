@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/drm/drm_vma_manager.h:52
+Symbol:
+Byte size 192
+Alignment 8
+struct drm_vma_offset_node {
+0x0 vm_lock @"typedef--rwlock_t.txt"
+0x8 8 vm_node @"struct--drm_mm_node.txt"
+0xb0 vm_files @"struct--rb_root.txt"
+0xb8 driver_private * "void"
+}

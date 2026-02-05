@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/acpi/bus.c:644
+Symbol:
+func acpi_get_first_physical_node (
+adev * @"struct--acpi_device.txt"
+)
+* @"struct--device.txt"

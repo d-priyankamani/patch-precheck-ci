@@ -1,0 +1,21 @@
+Version: 1.0
+File: net/devlink/health.c:54
+Symbol:
+Byte size 112
+struct devlink_health_reporter {
+0x0 list @"struct--list_head.txt"
+0x10 priv * "void"
+0x18 ops * const @"struct--devlink_health_reporter_ops.txt"
+0x20 devlink * @"struct--devlink.txt"
+0x28 devlink_port * @"struct--devlink_port.txt"
+0x30 dump_fmsg * @"struct--devlink_fmsg.txt"
+0x38 graceful_period @"typedef--u64.txt"
+0x40 auto_recover @"typedef--bool.txt"
+0x41 auto_dump @"typedef--bool.txt"
+0x42 health_state @"typedef--u8.txt"
+0x48 dump_ts @"typedef--u64.txt"
+0x50 dump_real_ts @"typedef--u64.txt"
+0x58 error_count @"typedef--u64.txt"
+0x60 recovery_count @"typedef--u64.txt"
+0x68 last_recovery_ts @"typedef--u64.txt"
+}

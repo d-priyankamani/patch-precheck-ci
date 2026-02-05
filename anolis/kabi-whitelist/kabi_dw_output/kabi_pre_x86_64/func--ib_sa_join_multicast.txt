@@ -1,0 +1,18 @@
+Version: 1.0
+File: drivers/infiniband/core/multicast.c:607
+Symbol:
+func ib_sa_join_multicast (
+client * @"struct--ib_sa_client.txt"
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+rec * @"struct--ib_sa_mcmember_rec.txt"
+comp_mask @"typedef--ib_sa_comp_mask.txt"
+gfp_mask @"typedef--gfp_t.txt"
+callback * func (NULL) (
+(NULL) "int"
+(NULL) * @"struct--ib_sa_multicast.txt"
+)
+"int"
+context * "void"
+)
+* @"struct--ib_sa_multicast.txt"

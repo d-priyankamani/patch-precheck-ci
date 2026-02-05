@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/kobject_ns.h:26
+Symbol:
+Byte size 4
+enum kobj_ns_type {
+KOBJ_NS_TYPE_NONE = 0x0
+KOBJ_NS_TYPE_NET = 0x1
+KOBJ_NS_TYPES = 0x2
+}

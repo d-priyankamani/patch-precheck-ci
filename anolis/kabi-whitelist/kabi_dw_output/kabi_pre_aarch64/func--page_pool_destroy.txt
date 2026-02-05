@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/page_pool.c:913
+Symbol:
+func page_pool_destroy (
+pool * @"struct--page_pool.txt"
+)
+"void"

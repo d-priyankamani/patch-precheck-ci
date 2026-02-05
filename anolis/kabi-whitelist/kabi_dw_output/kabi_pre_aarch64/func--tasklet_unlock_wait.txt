@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/softirq.c:915
+Symbol:
+func tasklet_unlock_wait (
+t * @"struct--tasklet_struct.txt"
+)
+"void"

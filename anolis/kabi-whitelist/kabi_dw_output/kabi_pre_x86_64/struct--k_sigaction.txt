@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/signal_types.h:51
+Symbol:
+Byte size 32
+struct k_sigaction {
+0x0 sa @"struct--sigaction.txt"
+}

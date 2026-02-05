@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1382
+Symbol:
+Byte size 40
+struct ib_send_wr {
+0x0 next * @"struct--ib_send_wr.txt"
+0x8 (NULL) union (NULL) {
+wr_id @"typedef--u64.txt"
+wr_cqe * @"struct--ib_cqe.txt"
+}
+0x10 sg_list * @"struct--ib_sge.txt"
+0x18 num_sge "int"
+0x1c opcode @"enum--ib_wr_opcode.txt"
+0x20 send_flags "int"
+0x24 ex union (NULL) {
+imm_data @"typedef--__be32.txt"
+invalidate_rkey @"typedef--u32.txt"
+}
+}

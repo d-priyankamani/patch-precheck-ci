@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/iommu.h:363
+Symbol:
+Byte size 64
+struct iommu_iotlb_gather {
+0x0 start "long unsigned int"
+0x8 end "long unsigned int"
+0x10 pgsize @"typedef--size_t.txt"
+0x18 freelist @"struct--iommu_pages_list.txt"
+0x28 queued @"typedef--bool.txt"
+0x30 ck_reserved1 "long unsigned int"
+0x38 ck_reserved2 "long unsigned int"
+}

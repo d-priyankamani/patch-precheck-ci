@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/blkdev.h:355
+Symbol:
+Byte size 8
+typedef report_zones_cb
+* func (NULL) (
+(NULL) * @"struct--blk_zone.txt"
+(NULL) "unsigned int"
+(NULL) * "void"
+)
+"int"

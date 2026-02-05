@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/firmware/dmi_scan.c:1144
+Symbol:
+func dmi_match (
+f @"enum--dmi_field.txt"
+str * const "char"
+)
+@"typedef--bool.txt"

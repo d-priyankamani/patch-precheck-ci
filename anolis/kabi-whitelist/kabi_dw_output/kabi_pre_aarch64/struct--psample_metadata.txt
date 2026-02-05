@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/net/psample.h:17
+Symbol:
+Byte size 40
+struct psample_metadata {
+0x0 trunc_size @"typedef--u32.txt"
+0x4 in_ifindex "int"
+0x8 out_ifindex "int"
+0xc out_tc @"typedef--u16.txt"
+0x10 out_tc_occ @"typedef--u64.txt"
+0x18 latency @"typedef--u64.txt"
+0x20:0-1 out_tc_valid @"typedef--u8.txt"
+0x20:1-2 out_tc_occ_valid @"typedef--u8.txt"
+0x20:2-3 latency_valid @"typedef--u8.txt"
+0x20:3-8 unused @"typedef--u8.txt"
+}

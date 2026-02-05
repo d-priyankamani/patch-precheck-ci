@@ -1,0 +1,11 @@
+Version: 1.0
+File: arch/arm64/include/asm/hw_breakpoint.h:13
+Symbol:
+Byte size 4
+struct arch_hw_breakpoint_ctrl {
+0x0:0-19 __reserved @"typedef--u32.txt"
+0x2:3-11 len @"typedef--u32.txt"
+0x3:3-5 type @"typedef--u32.txt"
+0x3:5-7 privilege @"typedef--u32.txt"
+0x3:7-8 enabled @"typedef--u32.txt"
+}

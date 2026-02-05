@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/skbuff.c:1339
+Symbol:
+func napi_consume_skb (
+skb * @"struct--sk_buff.txt"
+budget "int"
+)
+"void"

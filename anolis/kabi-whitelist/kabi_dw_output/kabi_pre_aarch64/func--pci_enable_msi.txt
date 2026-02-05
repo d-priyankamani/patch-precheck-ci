@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/msi/api.c:30
+Symbol:
+func pci_enable_msi (
+dev * @"struct--pci_dev.txt"
+)
+"int"

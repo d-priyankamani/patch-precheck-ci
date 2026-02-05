@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:624
+Symbol:
+Byte size 72
+struct ib_mad_recv_wc {
+0x0 wc * @"struct--ib_wc.txt"
+0x8 recv_buf @"struct--ib_mad_recv_buf.txt"
+0x28 rmpp_list @"struct--list_head.txt"
+0x38 mad_len "int"
+0x40 mad_seg_size @"typedef--size_t.txt"
+}

@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/configfs.h:151
+Symbol:
+Byte size 72
+struct configfs_bin_attribute {
+0x0 cb_attr @"struct--configfs_attribute.txt"
+0x28 cb_private * "void"
+0x30 cb_max_size @"typedef--size_t.txt"
+0x38 read * func (NULL) (
+(NULL) * @"struct--config_item.txt"
+(NULL) * "void"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x40 write * func (NULL) (
+(NULL) * @"struct--config_item.txt"
+(NULL) * const "void"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+}

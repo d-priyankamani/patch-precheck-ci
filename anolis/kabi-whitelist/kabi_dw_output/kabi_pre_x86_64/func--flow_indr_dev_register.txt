@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/flow_offload.c:432
+Symbol:
+func flow_indr_dev_register (
+cb * @"typedef--flow_indr_block_bind_cb_t.txt"
+cb_priv * "void"
+)
+"int"

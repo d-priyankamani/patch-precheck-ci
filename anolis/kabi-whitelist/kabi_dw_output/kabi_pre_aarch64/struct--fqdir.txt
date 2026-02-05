@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/net/inet_frag.h:13
+Symbol:
+Byte size 384
+Alignment 64
+struct fqdir {
+0x0 high_thresh "long int"
+0x8 low_thresh "long int"
+0x10 timeout "int"
+0x14 max_dist "int"
+0x18 f * @"struct--inet_frags.txt"
+0x20 net * @"struct--net.txt"
+0x28 dead @"typedef--bool.txt"
+0x40 64 rhashtable @"struct--rhashtable.txt"
+0x100 64 mem @"typedef--atomic_long_t.txt"
+0x108 destroy_work @"struct--work_struct.txt"
+0x148 free_list @"struct--llist_node.txt"
+}

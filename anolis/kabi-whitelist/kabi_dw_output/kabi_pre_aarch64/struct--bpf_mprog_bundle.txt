@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/bpf_mprog.h:144
+Symbol:
+Byte size 1576
+struct bpf_mprog_bundle {
+0x0 a @"struct--bpf_mprog_entry.txt"
+0x208 b @"struct--bpf_mprog_entry.txt"
+0x410 cp_items [64]@"struct--bpf_mprog_cp.txt"
+0x610 ref * @"struct--bpf_prog.txt"
+0x618 revision @"typedef--atomic64_t.txt"
+0x620 count @"typedef--u32.txt"
+}

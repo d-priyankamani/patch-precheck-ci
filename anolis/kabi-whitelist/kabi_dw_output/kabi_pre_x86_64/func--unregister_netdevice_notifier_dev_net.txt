@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/dev.c:1979
+Symbol:
+func unregister_netdevice_notifier_dev_net (
+dev * @"struct--net_device.txt"
+nb * @"struct--notifier_block.txt"
+nn * @"struct--netdev_net_notifier.txt"
+)
+"int"

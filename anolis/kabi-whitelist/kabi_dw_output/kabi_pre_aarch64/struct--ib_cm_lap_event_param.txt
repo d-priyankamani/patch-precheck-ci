@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:182
+Symbol:
+Byte size 8
+struct ib_cm_lap_event_param {
+0x0 alternate_path * @"struct--sa_path_rec.txt"
+}

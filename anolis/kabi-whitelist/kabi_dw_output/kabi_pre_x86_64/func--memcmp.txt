@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/fortify-string.h:729
+Symbol:
+func memcmp (
+p const * const "void"
+q const * const "void"
+size @"typedef--__kernel_size_t.txt"
+)
+"int"

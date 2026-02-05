@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/memcontrol.h:115
+Symbol:
+Byte size 16
+struct mem_cgroup_id {
+0x0 id "int"
+0x4 ref @"typedef--refcount_t.txt"
+0x8 ck_reserved1 "long unsigned int"
+}

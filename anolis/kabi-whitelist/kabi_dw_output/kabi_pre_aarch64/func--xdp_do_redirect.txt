@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/filter.c:4454
+Symbol:
+func xdp_do_redirect (
+dev * @"struct--net_device.txt"
+xdp * @"struct--xdp_buff.txt"
+xdp_prog * @"struct--bpf_prog.txt"
+)
+"int"

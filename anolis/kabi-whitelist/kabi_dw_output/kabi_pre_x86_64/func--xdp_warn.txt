@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/xdp.c:580
+Symbol:
+func xdp_warn (
+msg * const "char"
+func * const "char"
+line const "int"
+)
+"void"

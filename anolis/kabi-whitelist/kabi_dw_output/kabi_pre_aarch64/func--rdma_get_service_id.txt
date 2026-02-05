@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:2463
+Symbol:
+func rdma_get_service_id (
+id * @"struct--rdma_cm_id.txt"
+addr * @"struct--sockaddr.txt"
+)
+@"typedef--__be64.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:47
+Symbol:
+Byte size 4
+struct ib_pkey_cache {
+0x0 table_len "int"
+0x4 table [0]@"typedef--u16.txt"
+}

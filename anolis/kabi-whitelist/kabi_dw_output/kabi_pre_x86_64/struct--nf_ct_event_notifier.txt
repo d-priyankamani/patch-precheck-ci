@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/netfilter/nf_conntrack_ecache.h:63
+Symbol:
+Byte size 24
+struct nf_ct_event_notifier {
+0x0 ct_event * func (NULL) (
+(NULL) "unsigned int"
+(NULL) * const @"struct--nf_ct_event.txt"
+)
+"int"
+0x8 exp_event * func (NULL) (
+(NULL) "unsigned int"
+(NULL) * const @"struct--nf_exp_event.txt"
+)
+"int"
+0x10 ck_reserved1 "long unsigned int"
+}

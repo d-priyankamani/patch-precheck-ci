@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/blk-integrity.h:30
+Symbol:
+Byte size 56
+struct blk_integrity_profile {
+0x0 generate_fn * @"typedef--integrity_processing_fn.txt"
+0x8 verify_fn * @"typedef--integrity_processing_fn.txt"
+0x10 prepare_fn * @"typedef--integrity_prepare_fn.txt"
+0x18 complete_fn * @"typedef--integrity_complete_fn.txt"
+0x20 name * const "char"
+0x28 ck_reserved1 "long unsigned int"
+0x30 ck_reserved2 "long unsigned int"
+}

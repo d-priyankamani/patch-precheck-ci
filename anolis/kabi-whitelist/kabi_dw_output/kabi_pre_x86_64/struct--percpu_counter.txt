@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/percpu_counter.h:22
+Symbol:
+Byte size 40
+struct percpu_counter {
+0x0 lock @"typedef--raw_spinlock_t.txt"
+0x8 (NULL) union (NULL) {
+count @"typedef--s64.txt"
+count_atomic @"typedef--atomic64_t.txt"
+}
+0x10 list @"struct--list_head.txt"
+0x20 counters * @"typedef--s32.txt"
+}

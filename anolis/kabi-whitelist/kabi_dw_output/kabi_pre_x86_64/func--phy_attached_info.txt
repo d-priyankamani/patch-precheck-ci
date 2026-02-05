@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/net/phy/phy_device.c:1266
+Symbol:
+func phy_attached_info (
+phydev * @"struct--phy_device.txt"
+)
+"void"

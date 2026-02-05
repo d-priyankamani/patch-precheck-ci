@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/btf.h:31
+Symbol:
+Byte size 12
+struct btf_type {
+0x0 name_off @"typedef--__u32.txt"
+0x4 info @"typedef--__u32.txt"
+0x8 (NULL) union (NULL) {
+size @"typedef--__u32.txt"
+type @"typedef--__u32.txt"
+}
+}

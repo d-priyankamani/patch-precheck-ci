@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/ip_fib.h:169
+Symbol:
+Byte size 48
+struct fib_result {
+0x0 prefix @"typedef--__be32.txt"
+0x4 prefixlen "unsigned char"
+0x5 nh_sel "unsigned char"
+0x6 type "unsigned char"
+0x7 scope "unsigned char"
+0x8 tclassid @"typedef--u32.txt"
+0xc dscp @"typedef--dscp_t.txt"
+0x10 nhc * @"struct--fib_nh_common.txt"
+0x18 fi * @"struct--fib_info.txt"
+0x20 table * @"struct--fib_table.txt"
+0x28 fa_head * @"struct--hlist_head.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/8021q/vlan_core.c:113
+Symbol:
+func vlan_dev_vlan_id (
+dev * const @"struct--net_device.txt"
+)
+@"typedef--u16.txt"

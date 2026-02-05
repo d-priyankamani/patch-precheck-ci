@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/ipv6/exthdrs_core.c:188
+Symbol:
+func ipv6_find_hdr (
+skb * const @"struct--sk_buff.txt"
+offset * "unsigned int"
+target "int"
+fragoff * "short unsigned int"
+flags * "int"
+)
+"int"

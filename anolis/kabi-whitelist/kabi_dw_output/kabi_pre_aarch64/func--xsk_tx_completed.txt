@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/xdp/xsk.c:398
+Symbol:
+func xsk_tx_completed (
+pool * @"struct--xsk_buff_pool.txt"
+nb_entries @"typedef--u32.txt"
+)
+"void"

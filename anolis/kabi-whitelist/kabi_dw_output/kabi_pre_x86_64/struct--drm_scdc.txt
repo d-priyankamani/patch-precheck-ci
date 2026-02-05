@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/drm_connector.h:231
+Symbol:
+Byte size 4
+struct drm_scdc {
+0x0 supported @"typedef--bool.txt"
+0x1 read_request @"typedef--bool.txt"
+0x2 scrambling @"struct--drm_scrambling.txt"
+}

@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/netdev_features.h:12
+Symbol:
+typedef netdev_features_t
+@"typedef--u64.txt"

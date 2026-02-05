@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_cmd.c:2623
+Symbol:
+func flow_resources_add (
+uflow_res * @"struct--ib_uflow_resources.txt"
+type @"enum--ib_flow_spec_type.txt"
+ibobj * "void"
+)
+"void"

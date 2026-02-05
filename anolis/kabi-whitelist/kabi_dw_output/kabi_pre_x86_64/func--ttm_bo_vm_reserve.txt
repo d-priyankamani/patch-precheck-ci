@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo_vm.c:116
+Symbol:
+func ttm_bo_vm_reserve (
+bo * @"struct--ttm_buffer_object.txt"
+vmf * @"struct--vm_fault.txt"
+)
+@"typedef--vm_fault_t.txt"

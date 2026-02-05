@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/genalloc.c:242
+Symbol:
+func gen_pool_destroy (
+pool * @"struct--gen_pool.txt"
+)
+"void"

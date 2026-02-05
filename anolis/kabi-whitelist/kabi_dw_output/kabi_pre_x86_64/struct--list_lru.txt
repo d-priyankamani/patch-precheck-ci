@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/list_lru.h:52
+Symbol:
+Byte size 64
+struct list_lru {
+0x0 node * @"struct--list_lru_node.txt"
+0x8 list @"struct--list_head.txt"
+0x18 shrinker_id "int"
+0x1c memcg_aware @"typedef--bool.txt"
+0x20 xa @"struct--xarray.txt"
+0x30 ck_reserved1 "long unsigned int"
+0x38 ck_reserved2 "long unsigned int"
+}

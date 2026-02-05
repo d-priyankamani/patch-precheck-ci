@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/dev.c:2819
+Symbol:
+func netif_set_xps_queue (
+dev * @"struct--net_device.txt"
+mask * const @"struct--cpumask.txt"
+index @"typedef--u16.txt"
+)
+"int"

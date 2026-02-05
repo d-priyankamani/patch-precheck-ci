@@ -1,0 +1,31 @@
+Version: 1.0
+File: include/linux/netlink.h:278
+Symbol:
+Byte size 128
+struct netlink_callback {
+0x0 skb * @"struct--sk_buff.txt"
+0x8 nlh * const @"struct--nlmsghdr.txt"
+0x10 dump * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--netlink_callback.txt"
+)
+"int"
+0x18 done * func (NULL) (
+(NULL) * @"struct--netlink_callback.txt"
+)
+"int"
+0x20 data * "void"
+0x28 module * @"struct--module.txt"
+0x30 extack * @"struct--netlink_ext_ack.txt"
+0x38 family @"typedef--u16.txt"
+0x3a answer_flags @"typedef--u16.txt"
+0x3c min_dump_alloc @"typedef--u32.txt"
+0x40 prev_seq "unsigned int"
+0x44 seq "unsigned int"
+0x48 flags "int"
+0x4c strict_check @"typedef--bool.txt"
+0x50 (NULL) union (NULL) {
+ctx [48]@"typedef--u8.txt"
+args [6]"long int"
+}
+}

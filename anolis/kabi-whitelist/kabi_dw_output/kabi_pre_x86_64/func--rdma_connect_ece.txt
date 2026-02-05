@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:4516
+Symbol:
+func rdma_connect_ece (
+id * @"struct--rdma_cm_id.txt"
+conn_param * @"struct--rdma_conn_param.txt"
+ece * @"struct--rdma_ucm_ece.txt"
+)
+"int"

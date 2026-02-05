@@ -1,0 +1,94 @@
+Version: 1.0
+File: include/linux/tty_ldisc.h:231
+Symbol:
+Byte size 144
+struct tty_ldisc_ops {
+0x0 name * "char"
+0x8 num "int"
+0x10 open * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"int"
+0x18 close * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x20 flush_buffer * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x28 read * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * @"struct--file.txt"
+(NULL) * @"typedef--u8.txt"
+(NULL) @"typedef--size_t.txt"
+(NULL) * * "void"
+(NULL) "long unsigned int"
+)
+@"typedef--ssize_t.txt"
+0x30 write * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * @"struct--file.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x38 ioctl * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x40 compat_ioctl * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x48 set_termios * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * const @"struct--ktermios.txt"
+)
+"void"
+0x50 poll * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * @"struct--file.txt"
+(NULL) * @"struct--poll_table_struct.txt"
+)
+@"typedef--__poll_t.txt"
+0x58 hangup * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x60 receive_buf * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) @"typedef--size_t.txt"
+)
+"void"
+0x68 write_wakeup * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+)
+"void"
+0x70 dcd_change * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+0x78 receive_buf2 * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--size_t.txt"
+0x80 lookahead_buf * func (NULL) (
+(NULL) * @"struct--tty_struct.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) @"typedef--size_t.txt"
+)
+"void"
+0x88 owner * @"struct--module.txt"
+}

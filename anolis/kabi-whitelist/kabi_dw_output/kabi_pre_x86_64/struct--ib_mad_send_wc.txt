@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/rdma/ib_mad.h:590
+Symbol:
+Byte size 16
+struct ib_mad_send_wc {
+0x0 send_buf * @"struct--ib_mad_send_buf.txt"
+0x8 status @"enum--ib_wc_status.txt"
+0xc vendor_err @"typedef--u32.txt"
+}

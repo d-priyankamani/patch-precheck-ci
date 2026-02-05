@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/genalloc.c:277
+Symbol:
+func gen_pool_alloc_algo_owner (
+pool * @"struct--gen_pool.txt"
+size @"typedef--size_t.txt"
+algo @"typedef--genpool_algo_t.txt"
+data * "void"
+owner * * "void"
+)
+"long unsigned int"

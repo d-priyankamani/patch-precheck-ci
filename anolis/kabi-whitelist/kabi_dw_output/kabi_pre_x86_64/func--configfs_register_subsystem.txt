@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/configfs/dir.c:1844
+Symbol:
+func configfs_register_subsystem (
+subsys * @"struct--configfs_subsystem.txt"
+)
+"int"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_syncobj.c:587
+Symbol:
+func drm_syncobj_get_handle (
+file_private * @"struct--drm_file.txt"
+syncobj * @"struct--drm_syncobj.txt"
+handle * @"typedef--u32.txt"
+)
+"int"

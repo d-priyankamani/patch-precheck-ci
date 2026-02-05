@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/elf.h:19
+Symbol:
+typedef Elf64_Off
+@"typedef--__u64.txt"

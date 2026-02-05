@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/pci_hotplug.h:67
+Symbol:
+Byte size 112
+struct hotplug_slot {
+0x0 ops * const @"struct--hotplug_slot_ops.txt"
+0x8 slot_list @"struct--list_head.txt"
+0x18 pci_slot * @"struct--pci_slot.txt"
+0x20 owner * @"struct--module.txt"
+0x28 mod_name * const "char"
+0x30 ck_reserved1 "long unsigned int"
+0x38 ck_reserved2 "long unsigned int"
+0x40 ck_reserved3 "long unsigned int"
+0x48 ck_reserved4 "long unsigned int"
+0x50 ck_reserved5 "long unsigned int"
+0x58 ck_reserved6 "long unsigned int"
+0x60 ck_reserved7 "long unsigned int"
+0x68 ck_reserved8 "long unsigned int"
+}

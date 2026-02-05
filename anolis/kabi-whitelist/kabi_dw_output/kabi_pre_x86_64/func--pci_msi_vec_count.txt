@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/msi/msi.c:509
+Symbol:
+func pci_msi_vec_count (
+dev * @"struct--pci_dev.txt"
+)
+"int"

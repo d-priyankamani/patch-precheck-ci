@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/phy.h:340
+Symbol:
+Byte size 32
+struct phy_package_shared {
+0x0 addr "int"
+0x4 refcnt @"typedef--refcount_t.txt"
+0x8 flags "long unsigned int"
+0x10 priv_size @"typedef--size_t.txt"
+0x18 priv * "void"
+}

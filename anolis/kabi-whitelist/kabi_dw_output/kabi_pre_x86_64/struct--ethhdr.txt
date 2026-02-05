@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/if_ether.h:173
+Symbol:
+Byte size 14
+struct ethhdr {
+0x0 h_dest [6]"unsigned char"
+0x6 h_source [6]"unsigned char"
+0xc h_proto @"typedef--__be16.txt"
+}

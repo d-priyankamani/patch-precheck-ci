@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/vga/vga_switcheroo.c:1074
+Symbol:
+func vga_switcheroo_fini_domain_pm_ops (
+dev * @"struct--device.txt"
+)
+"void"

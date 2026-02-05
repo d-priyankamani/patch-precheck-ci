@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:788
+Symbol:
+Byte size 40
+struct ib_grh {
+0x0 version_tclass_flow @"typedef--__be32.txt"
+0x4 paylen @"typedef--__be16.txt"
+0x6 next_hdr @"typedef--u8.txt"
+0x7 hop_limit @"typedef--u8.txt"
+0x8 sgid @"union--ib_gid.txt"
+0x18 dgid @"union--ib_gid.txt"
+}

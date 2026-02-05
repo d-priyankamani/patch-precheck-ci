@@ -1,0 +1,48 @@
+Version: 1.0
+File: include/scsi/scsi_transport_sas.h:174
+Symbol:
+Byte size 72
+struct sas_function_template {
+0x0 get_linkerrors * func (NULL) (
+(NULL) * @"struct--sas_phy.txt"
+)
+"int"
+0x8 get_enclosure_identifier * func (NULL) (
+(NULL) * @"struct--sas_rphy.txt"
+(NULL) * @"typedef--u64.txt"
+)
+"int"
+0x10 get_bay_identifier * func (NULL) (
+(NULL) * @"struct--sas_rphy.txt"
+)
+"int"
+0x18 phy_reset * func (NULL) (
+(NULL) * @"struct--sas_phy.txt"
+(NULL) "int"
+)
+"int"
+0x20 phy_enable * func (NULL) (
+(NULL) * @"struct--sas_phy.txt"
+(NULL) "int"
+)
+"int"
+0x28 phy_setup * func (NULL) (
+(NULL) * @"struct--sas_phy.txt"
+)
+"int"
+0x30 phy_release * func (NULL) (
+(NULL) * @"struct--sas_phy.txt"
+)
+"void"
+0x38 set_phy_speed * func (NULL) (
+(NULL) * @"struct--sas_phy.txt"
+(NULL) * @"struct--sas_phy_linkrates.txt"
+)
+"int"
+0x40 smp_handler * func (NULL) (
+(NULL) * @"struct--bsg_job.txt"
+(NULL) * @"struct--Scsi_Host.txt"
+(NULL) * @"struct--sas_rphy.txt"
+)
+"void"
+}

@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/msi.h:495
+Symbol:
+Byte size 72
+struct msi_domain_info {
+0x0 flags @"typedef--u32.txt"
+0x4 bus_token @"enum--irq_domain_bus_token.txt"
+0x8 hwsize "unsigned int"
+0x10 ops * @"struct--msi_domain_ops.txt"
+0x18 chip * @"struct--irq_chip.txt"
+0x20 chip_data * "void"
+0x28 handler @"typedef--irq_flow_handler_t.txt"
+0x30 handler_data * "void"
+0x38 handler_name * const "char"
+0x40 data * "void"
+}

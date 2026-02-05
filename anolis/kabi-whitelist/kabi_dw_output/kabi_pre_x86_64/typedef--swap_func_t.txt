@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/types.h:243
+Symbol:
+Byte size 8
+typedef swap_func_t
+* func (NULL) (
+(NULL) * "void"
+(NULL) * "void"
+(NULL) "int"
+)
+"void"

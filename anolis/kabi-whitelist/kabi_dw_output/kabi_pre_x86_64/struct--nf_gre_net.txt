@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/netns/conntrack.h:73
+Symbol:
+Byte size 24
+struct nf_gre_net {
+0x0 keymap_list @"struct--list_head.txt"
+0x10 timeouts [2]"unsigned int"
+}

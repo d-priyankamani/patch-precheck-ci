@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/iommu.h:812
+Symbol:
+Byte size 56
+struct iommu_device {
+0x0 list @"struct--list_head.txt"
+0x10 ops * const @"struct--iommu_ops.txt"
+0x18 fwnode * @"struct--fwnode_handle.txt"
+0x20 dev * @"struct--device.txt"
+0x28 singleton_group * @"struct--iommu_group.txt"
+0x30 max_pasids @"typedef--u32.txt"
+0x34 ready @"typedef--bool.txt"
+}

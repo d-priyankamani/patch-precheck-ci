@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/percpu-refcount.c:63
+Symbol:
+func percpu_ref_init (
+ref * @"struct--percpu_ref.txt"
+release * @"typedef--percpu_ref_func_t.txt"
+flags "unsigned int"
+gfp @"typedef--gfp_t.txt"
+)
+"int"

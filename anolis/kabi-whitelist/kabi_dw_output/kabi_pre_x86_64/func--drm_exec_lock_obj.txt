@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_exec.c:201
+Symbol:
+func drm_exec_lock_obj (
+exec * @"struct--drm_exec.txt"
+obj * @"struct--drm_gem_object.txt"
+)
+"int"

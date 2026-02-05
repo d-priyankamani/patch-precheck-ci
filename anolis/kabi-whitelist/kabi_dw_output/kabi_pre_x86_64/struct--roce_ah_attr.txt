@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:931
+Symbol:
+Byte size 6
+struct roce_ah_attr {
+0x0 dmac [6]@"typedef--u8.txt"
+}

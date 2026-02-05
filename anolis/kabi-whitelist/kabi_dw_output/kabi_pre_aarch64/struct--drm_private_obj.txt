@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/drm_atomic.h:288
+Symbol:
+Byte size 88
+struct drm_private_obj {
+0x0 head @"struct--list_head.txt"
+0x10 lock @"struct--drm_modeset_lock.txt"
+0x48 state * @"struct--drm_private_state.txt"
+0x50 funcs * const @"struct--drm_private_state_funcs.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/shrinker.h:22
+Symbol:
+Byte size 24
+Alignment 8
+struct shrinker_info {
+0x0 8 rcu @"struct--callback_head.txt"
+0x10 map_nr_max "int"
+0x18 unit [0]* @"struct--shrinker_info_unit.txt"
+}

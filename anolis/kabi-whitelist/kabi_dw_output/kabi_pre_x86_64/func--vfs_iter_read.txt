@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/read_write.c:832
+Symbol:
+func vfs_iter_read (
+file * @"struct--file.txt"
+iter * @"struct--iov_iter.txt"
+ppos * @"typedef--loff_t.txt"
+flags @"typedef--rwf_t.txt"
+)
+@"typedef--ssize_t.txt"

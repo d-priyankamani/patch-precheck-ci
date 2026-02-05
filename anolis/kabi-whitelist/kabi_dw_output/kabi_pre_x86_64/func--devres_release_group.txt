@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/devres.c:669
+Symbol:
+func devres_release_group (
+dev * @"struct--device.txt"
+id * "void"
+)
+"int"

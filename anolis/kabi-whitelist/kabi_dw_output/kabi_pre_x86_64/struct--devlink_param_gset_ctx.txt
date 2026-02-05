@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/devlink.h:436
+Symbol:
+Byte size 36
+struct devlink_param_gset_ctx {
+0x0 val @"union--devlink_param_value.txt"
+0x20 cmode @"enum--devlink_param_cmode.txt"
+}

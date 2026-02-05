@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/rhashtable-types.h:33
+Symbol:
+Byte size 16
+struct rhashtable_compare_arg {
+0x0 ht * @"struct--rhashtable.txt"
+0x8 key * const "void"
+}

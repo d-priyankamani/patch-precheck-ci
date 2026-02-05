@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/auxiliary.c:274
+Symbol:
+func auxiliary_device_init (
+auxdev * @"struct--auxiliary_device.txt"
+)
+"int"

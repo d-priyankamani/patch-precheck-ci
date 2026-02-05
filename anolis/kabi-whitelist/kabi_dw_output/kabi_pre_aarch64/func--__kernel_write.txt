@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/read_write.c:529
+Symbol:
+func __kernel_write (
+file * @"struct--file.txt"
+buf * const "void"
+count @"typedef--size_t.txt"
+pos * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"

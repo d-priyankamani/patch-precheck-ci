@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/page_alloc.c:5009
+Symbol:
+func __get_free_pages (
+gfp_mask @"typedef--gfp_t.txt"
+order "unsigned int"
+)
+"long unsigned int"

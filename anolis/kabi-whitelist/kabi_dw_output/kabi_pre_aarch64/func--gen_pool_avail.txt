@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/genalloc.c:580
+Symbol:
+func gen_pool_avail (
+pool * @"struct--gen_pool.txt"
+)
+@"typedef--size_t.txt"

@@ -1,0 +1,30 @@
+Version: 1.0
+File: include/net/act_api.h:24
+Symbol:
+Byte size 208
+Alignment 16
+struct tc_action {
+0x0 ops * const @"struct--tc_action_ops.txt"
+0x8 type @"typedef--__u32.txt"
+0x10 idrinfo * @"struct--tcf_idrinfo.txt"
+0x18 tcfa_index @"typedef--u32.txt"
+0x1c tcfa_refcnt @"typedef--refcount_t.txt"
+0x20 tcfa_bindcnt @"typedef--atomic_t.txt"
+0x24 tcfa_action "int"
+0x28 tcfa_tm @"struct--tcf_t.txt"
+0x50 16 tcfa_bstats @"struct--gnet_stats_basic_sync.txt"
+0x60 16 tcfa_bstats_hw @"struct--gnet_stats_basic_sync.txt"
+0x70 tcfa_qstats @"struct--gnet_stats_queue.txt"
+0x88 tcfa_rate_est * @"<declarations>/struct--net_rate_estimator.txt"
+0x90 tcfa_lock @"typedef--spinlock_t.txt"
+0x98 cpu_bstats * @"struct--gnet_stats_basic_sync.txt"
+0xa0 cpu_bstats_hw * @"struct--gnet_stats_basic_sync.txt"
+0xa8 cpu_qstats * @"struct--gnet_stats_queue.txt"
+0xb0 user_cookie * @"struct--tc_cookie.txt"
+0xb8 goto_chain * @"struct--tcf_chain.txt"
+0xc0 tcfa_flags @"typedef--u32.txt"
+0xc4 hw_stats @"typedef--u8.txt"
+0xc5 used_hw_stats @"typedef--u8.txt"
+0xc6 used_hw_stats_valid @"typedef--bool.txt"
+0xc8 in_hw_count @"typedef--u32.txt"
+}

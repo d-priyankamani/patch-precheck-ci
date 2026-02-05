@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_buddy.c:778
+Symbol:
+func drm_buddy_print (
+mm * @"struct--drm_buddy.txt"
+p * @"struct--drm_printer.txt"
+)
+"void"

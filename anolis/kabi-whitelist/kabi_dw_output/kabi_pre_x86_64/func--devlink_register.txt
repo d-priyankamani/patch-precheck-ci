@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/core.c:150
+Symbol:
+func devlink_register (
+devlink * @"struct--devlink.txt"
+)
+"void"

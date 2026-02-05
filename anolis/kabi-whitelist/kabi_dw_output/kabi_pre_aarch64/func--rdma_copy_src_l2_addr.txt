@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/addr.c:235
+Symbol:
+func rdma_copy_src_l2_addr (
+dev_addr * @"struct--rdma_dev_addr.txt"
+dev * const @"struct--net_device.txt"
+)
+"void"

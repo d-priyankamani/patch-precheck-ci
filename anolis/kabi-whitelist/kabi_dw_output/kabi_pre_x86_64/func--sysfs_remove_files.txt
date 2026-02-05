@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/sysfs/file.c:521
+Symbol:
+func sysfs_remove_files (
+kobj * @"struct--kobject.txt"
+ptr * const * const @"struct--attribute.txt"
+)
+"void"

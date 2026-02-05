@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/core/dev.c:11485
+Symbol:
+func netdev_printk (
+level * const "char"
+dev * const @"struct--net_device.txt"
+format * const "char"
+(NULL) ...
+)
+"void"

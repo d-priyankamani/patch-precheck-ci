@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/core/page_pool.c:638
+Symbol:
+func page_pool_put_defragged_page (
+pool * @"struct--page_pool.txt"
+page * @"struct--page.txt"
+dma_sync_size "unsigned int"
+allow_direct @"typedef--bool.txt"
+)
+"void"

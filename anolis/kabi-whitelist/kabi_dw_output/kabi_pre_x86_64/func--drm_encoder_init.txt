@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_encoder.c:159
+Symbol:
+func drm_encoder_init (
+dev * @"struct--drm_device.txt"
+encoder * @"struct--drm_encoder.txt"
+funcs * const @"struct--drm_encoder_funcs.txt"
+encoder_type "int"
+name * const "char"
+(NULL) ...
+)
+"int"

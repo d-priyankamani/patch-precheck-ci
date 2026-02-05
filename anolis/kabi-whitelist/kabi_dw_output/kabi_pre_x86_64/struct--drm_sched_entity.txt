@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/drm/gpu_scheduler.h:88
+Symbol:
+Byte size 216
+Alignment 8
+struct drm_sched_entity {
+0x0 list @"struct--list_head.txt"
+0x10 rq * @"struct--drm_sched_rq.txt"
+0x18 sched_list * * @"struct--drm_gpu_scheduler.txt"
+0x20 num_sched_list "unsigned int"
+0x24 priority @"enum--drm_sched_priority.txt"
+0x28 rq_lock @"typedef--spinlock_t.txt"
+0x30 job_queue @"struct--spsc_queue.txt"
+0x48 fence_seq @"typedef--atomic_t.txt"
+0x50 fence_context @"typedef--uint64_t.txt"
+0x58 dependency * @"struct--dma_fence.txt"
+0x60 cb @"struct--dma_fence_cb.txt"
+0x78 guilty * @"typedef--atomic_t.txt"
+0x80 last_scheduled * @"struct--dma_fence.txt"
+0x88 last_user * @"struct--task_struct.txt"
+0x90 stopped @"typedef--bool.txt"
+0x98 entity_idle @"struct--completion.txt"
+0xb8 oldest_job_waiting @"typedef--ktime_t.txt"
+0xc0 8 rb_tree_node @"struct--rb_node.txt"
+}

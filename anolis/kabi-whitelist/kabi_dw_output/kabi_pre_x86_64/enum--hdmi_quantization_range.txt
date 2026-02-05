@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/hdmi.h:131
+Symbol:
+Byte size 4
+enum hdmi_quantization_range {
+HDMI_QUANTIZATION_RANGE_DEFAULT = 0x0
+HDMI_QUANTIZATION_RANGE_LIMITED = 0x1
+HDMI_QUANTIZATION_RANGE_FULL = 0x2
+HDMI_QUANTIZATION_RANGE_RESERVED = 0x3
+}

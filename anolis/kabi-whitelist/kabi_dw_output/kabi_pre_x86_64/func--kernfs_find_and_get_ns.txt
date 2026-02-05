@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/kernfs/dir.c:912
+Symbol:
+func kernfs_find_and_get_ns (
+parent * @"struct--kernfs_node.txt"
+name * const "char"
+ns * const "void"
+)
+* @"struct--kernfs_node.txt"

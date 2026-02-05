@@ -1,0 +1,136 @@
+Version: 1.0
+File: include/linux/fs.h:2110
+Symbol:
+Byte size 240
+struct super_operations {
+0x0 alloc_inode * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+)
+* @"struct--inode.txt"
+0x8 destroy_inode * func (NULL) (
+(NULL) * @"struct--inode.txt"
+)
+"void"
+0x10 free_inode * func (NULL) (
+(NULL) * @"struct--inode.txt"
+)
+"void"
+0x18 dirty_inode * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) "int"
+)
+"void"
+0x20 write_inode * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--writeback_control.txt"
+)
+"int"
+0x28 drop_inode * func (NULL) (
+(NULL) * @"struct--inode.txt"
+)
+"int"
+0x30 evict_inode * func (NULL) (
+(NULL) * @"struct--inode.txt"
+)
+"void"
+0x38 put_super * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+)
+"void"
+0x40 sync_fs * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "int"
+)
+"int"
+0x48 freeze_super * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) @"enum--freeze_holder.txt"
+)
+"int"
+0x50 freeze_fs * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+)
+"int"
+0x58 thaw_super * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) @"enum--freeze_holder.txt"
+)
+"int"
+0x60 unfreeze_fs * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+)
+"int"
+0x68 statfs * func (NULL) (
+(NULL) * @"struct--dentry.txt"
+(NULL) * @"struct--kstatfs.txt"
+)
+"int"
+0x70 remount_fs * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) * "int"
+(NULL) * "char"
+)
+"int"
+0x78 umount_begin * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+)
+"void"
+0x80 show_options * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"struct--dentry.txt"
+)
+"int"
+0x88 show_devname * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"struct--dentry.txt"
+)
+"int"
+0x90 show_path * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"struct--dentry.txt"
+)
+"int"
+0x98 show_stats * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"struct--dentry.txt"
+)
+"int"
+0xa0 quota_read * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "int"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0xa8 quota_write * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) "int"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0xb0 get_dquots * func (NULL) (
+(NULL) * @"struct--inode.txt"
+)
+* * @"struct--dquot.txt"
+0xb8 nr_cached_objects * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) * @"struct--shrink_control.txt"
+)
+"long int"
+0xc0 free_cached_objects * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+(NULL) * @"struct--shrink_control.txt"
+)
+"long int"
+0xc8 shutdown * func (NULL) (
+(NULL) * @"struct--super_block.txt"
+)
+"void"
+0xd0 ck_reserved1 "long unsigned int"
+0xd8 ck_reserved2 "long unsigned int"
+0xe0 ck_reserved3 "long unsigned int"
+0xe8 ck_reserved4 "long unsigned int"
+}

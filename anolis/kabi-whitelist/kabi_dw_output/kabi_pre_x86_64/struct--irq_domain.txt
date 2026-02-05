@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/linux/irqdomain.h:150
+Symbol:
+Byte size 208
+struct irq_domain {
+0x0 link @"struct--list_head.txt"
+0x10 name * const "char"
+0x18 ops * const @"struct--irq_domain_ops.txt"
+0x20 host_data * "void"
+0x28 flags "unsigned int"
+0x2c mapcount "unsigned int"
+0x30 mutex @"struct--mutex.txt"
+0x50 root * @"struct--irq_domain.txt"
+0x58 fwnode * @"struct--fwnode_handle.txt"
+0x60 bus_token @"enum--irq_domain_bus_token.txt"
+0x68 gc * @"struct--irq_domain_chip_generic.txt"
+0x70 dev * @"struct--device.txt"
+0x78 pm_dev * @"struct--device.txt"
+0x80 parent * @"struct--irq_domain.txt"
+0x88 msi_parent_ops * const @"struct--msi_parent_ops.txt"
+0x90 hwirq_max @"typedef--irq_hw_number_t.txt"
+0x98 revmap_size "unsigned int"
+0xa0 revmap_tree @"struct--xarray.txt"
+0xb0 ck_reserved1 "long unsigned int"
+0xb8 ck_reserved2 "long unsigned int"
+0xc0 ck_reserved3 "long unsigned int"
+0xc8 ck_reserved4 "long unsigned int"
+0xd0 revmap [0]* @"struct--irq_data.txt"
+}

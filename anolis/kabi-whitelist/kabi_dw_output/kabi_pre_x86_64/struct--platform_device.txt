@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/platform_device.h:23
+Symbol:
+Byte size 1064
+Alignment 8
+struct platform_device {
+0x0 name * const "char"
+0x8 id "int"
+0xc id_auto @"typedef--bool.txt"
+0x10 8 dev @"struct--device.txt"
+0x3e8 platform_dma_mask @"typedef--u64.txt"
+0x3f0 dma_parms @"struct--device_dma_parameters.txt"
+0x400 num_resources @"typedef--u32.txt"
+0x408 resource * @"struct--resource.txt"
+0x410 id_entry * const @"struct--platform_device_id.txt"
+0x418 driver_override * const "char"
+0x420 mfd_cell * @"<declarations>/struct--mfd_cell.txt"
+0x428 archdata @"struct--pdev_archdata.txt"
+}

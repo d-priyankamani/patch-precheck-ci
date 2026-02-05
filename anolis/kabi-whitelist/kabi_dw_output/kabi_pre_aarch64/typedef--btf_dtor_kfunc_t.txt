@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/bpf.h:203
+Symbol:
+Byte size 8
+typedef btf_dtor_kfunc_t
+* func (NULL) (
+(NULL) * "void"
+)
+"void"

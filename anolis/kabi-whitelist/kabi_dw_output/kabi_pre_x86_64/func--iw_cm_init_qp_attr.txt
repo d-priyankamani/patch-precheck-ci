@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/iwcm.c:1161
+Symbol:
+func iw_cm_init_qp_attr (
+cm_id * @"struct--iw_cm_id.txt"
+qp_attr * @"struct--ib_qp_attr.txt"
+qp_attr_mask * "int"
+)
+"int"

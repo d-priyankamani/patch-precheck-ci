@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:9089
+Symbol:
+func netdev_port_same_parent_id (
+a * @"struct--net_device.txt"
+b * @"struct--net_device.txt"
+)
+@"typedef--bool.txt"

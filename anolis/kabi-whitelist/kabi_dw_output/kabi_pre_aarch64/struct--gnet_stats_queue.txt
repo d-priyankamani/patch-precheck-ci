@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/gen_stats.h:59
+Symbol:
+Byte size 20
+struct gnet_stats_queue {
+0x0 qlen @"typedef--__u32.txt"
+0x4 backlog @"typedef--__u32.txt"
+0x8 drops @"typedef--__u32.txt"
+0xc requeues @"typedef--__u32.txt"
+0x10 overlimits @"typedef--__u32.txt"
+}

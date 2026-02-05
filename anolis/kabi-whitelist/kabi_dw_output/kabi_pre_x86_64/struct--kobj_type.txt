@@ -1,0 +1,30 @@
+Version: 1.0
+File: include/linux/kobject.h:121
+Symbol:
+Byte size 80
+struct kobj_type {
+0x0 release * func (NULL) (
+(NULL) * @"struct--kobject.txt"
+)
+"void"
+0x8 sysfs_ops * const @"struct--sysfs_ops.txt"
+0x10 default_groups * * const @"struct--attribute_group.txt"
+0x18 child_ns_type * func (NULL) (
+(NULL) * const @"struct--kobject.txt"
+)
+* const @"struct--kobj_ns_type_operations.txt"
+0x20 namespace * func (NULL) (
+(NULL) * const @"struct--kobject.txt"
+)
+* const "void"
+0x28 get_ownership * func (NULL) (
+(NULL) * const @"struct--kobject.txt"
+(NULL) * @"typedef--kuid_t.txt"
+(NULL) * @"typedef--kgid_t.txt"
+)
+"void"
+0x30 ck_reserved1 "long unsigned int"
+0x38 ck_reserved2 "long unsigned int"
+0x40 ck_reserved3 "long unsigned int"
+0x48 ck_reserved4 "long unsigned int"
+}

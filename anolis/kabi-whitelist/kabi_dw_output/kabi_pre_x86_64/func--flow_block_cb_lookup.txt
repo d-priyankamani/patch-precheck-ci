@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/flow_offload.c:289
+Symbol:
+func flow_block_cb_lookup (
+block * @"struct--flow_block.txt"
+cb * @"typedef--flow_setup_cb_t.txt"
+cb_ident * "void"
+)
+* @"struct--flow_block_cb.txt"

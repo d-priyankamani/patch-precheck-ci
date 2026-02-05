@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/dcbnl.h:168
+Symbol:
+Byte size 44
+struct dcbnl_buffer {
+0x0 prio2buffer [8]@"typedef--__u8.txt"
+0x8 buffer_size [8]@"typedef--__u32.txt"
+0x28 total_size @"typedef--__u32.txt"
+}

@@ -1,0 +1,164 @@
+Version: 1.0
+File: include/drm/drm_drv.h:178
+Symbol:
+Byte size 312
+struct drm_driver {
+0x0 load * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x8 open * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * @"struct--drm_file.txt"
+)
+"int"
+0x10 postclose * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * @"struct--drm_file.txt"
+)
+"void"
+0x18 lastclose * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+)
+"void"
+0x20 unload * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+)
+"void"
+0x28 release * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+)
+"void"
+0x30 master_set * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * @"struct--drm_file.txt"
+(NULL) @"typedef--bool.txt"
+)
+"void"
+0x38 master_drop * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * @"struct--drm_file.txt"
+)
+"void"
+0x40 debugfs_init * func (NULL) (
+(NULL) * @"struct--drm_minor.txt"
+)
+"void"
+0x48 gem_create_object * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) @"typedef--size_t.txt"
+)
+* @"struct--drm_gem_object.txt"
+0x50 prime_handle_to_fd * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * @"struct--drm_file.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) * "int"
+)
+"int"
+0x58 prime_fd_to_handle * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * @"struct--drm_file.txt"
+(NULL) "int"
+(NULL) * @"typedef--uint32_t.txt"
+)
+"int"
+0x60 gem_prime_import * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * @"struct--dma_buf.txt"
+)
+* @"struct--drm_gem_object.txt"
+0x68 gem_prime_import_sg_table * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * @"struct--dma_buf_attachment.txt"
+(NULL) * @"struct--sg_table.txt"
+)
+* @"struct--drm_gem_object.txt"
+0x70 dumb_create * func (NULL) (
+(NULL) * @"struct--drm_file.txt"
+(NULL) * @"struct--drm_device.txt"
+(NULL) * @"struct--drm_mode_create_dumb.txt"
+)
+"int"
+0x78 dumb_map_offset * func (NULL) (
+(NULL) * @"struct--drm_file.txt"
+(NULL) * @"struct--drm_device.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) * @"typedef--uint64_t.txt"
+)
+"int"
+0x80 show_fdinfo * func (NULL) (
+(NULL) * @"struct--drm_printer.txt"
+(NULL) * @"struct--drm_file.txt"
+)
+"void"
+0x88 major "int"
+0x8c minor "int"
+0x90 patchlevel "int"
+0x98 name * "char"
+0xa0 desc * "char"
+0xa8 date * "char"
+0xb0 driver_features @"typedef--u32.txt"
+0xb8 ioctls * const @"struct--drm_ioctl_desc.txt"
+0xc0 num_ioctls "int"
+0xc8 fops * const @"struct--file_operations.txt"
+0xd0 firstopen * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+)
+"int"
+0xd8 preclose * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * @"struct--drm_file.txt"
+)
+"void"
+0xe0 dma_ioctl * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) * "void"
+(NULL) * @"struct--drm_file.txt"
+)
+"int"
+0xe8 dma_quiescent * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+)
+"int"
+0xf0 context_dtor * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) "int"
+)
+"int"
+0xf8 irq_handler * func (NULL) (
+(NULL) "int"
+(NULL) * "void"
+)
+@"typedef--irqreturn_t.txt"
+0x100 irq_preinstall * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+)
+"void"
+0x108 irq_postinstall * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+)
+"int"
+0x110 irq_uninstall * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+)
+"void"
+0x118 get_vblank_counter * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) "unsigned int"
+)
+@"typedef--u32.txt"
+0x120 enable_vblank * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x128 disable_vblank * func (NULL) (
+(NULL) * @"struct--drm_device.txt"
+(NULL) "unsigned int"
+)
+"void"
+0x130 dev_priv_size "int"
+}

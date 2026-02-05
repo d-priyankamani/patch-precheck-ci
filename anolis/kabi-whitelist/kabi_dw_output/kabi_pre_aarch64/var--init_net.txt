@@ -1,0 +1,4 @@
+Version: 1.0
+File: net/core/net_namespace.c:48
+Symbol:
+var init_net "void"

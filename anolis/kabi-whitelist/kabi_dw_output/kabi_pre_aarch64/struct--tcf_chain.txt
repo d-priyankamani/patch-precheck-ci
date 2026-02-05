@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/net/sch_generic.h:465
+Symbol:
+Byte size 112
+Alignment 8
+struct tcf_chain {
+0x0 filter_chain_lock @"struct--mutex.txt"
+0x20 filter_chain * @"struct--tcf_proto.txt"
+0x28 list @"struct--list_head.txt"
+0x38 block * @"struct--tcf_block.txt"
+0x40 index @"typedef--u32.txt"
+0x44 refcnt "unsigned int"
+0x48 action_refcnt "unsigned int"
+0x4c explicitly_created @"typedef--bool.txt"
+0x4d flushing @"typedef--bool.txt"
+0x50 tmplt_ops * const @"struct--tcf_proto_ops.txt"
+0x58 tmplt_priv * "void"
+0x60 8 rcu @"struct--callback_head.txt"
+}

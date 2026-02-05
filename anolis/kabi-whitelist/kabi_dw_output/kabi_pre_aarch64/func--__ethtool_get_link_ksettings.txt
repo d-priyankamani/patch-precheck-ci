@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/ethtool/ioctl.c:433
+Symbol:
+func __ethtool_get_link_ksettings (
+dev * @"struct--net_device.txt"
+link_ksettings * @"struct--ethtool_link_ksettings.txt"
+)
+"int"

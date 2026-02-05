@@ -1,0 +1,13 @@
+Version: 1.0
+File: drivers/scsi/scsi.c:842
+Symbol:
+func starget_for_each_device (
+starget * @"struct--scsi_target.txt"
+data * "void"
+fn * func (NULL) (
+(NULL) * @"struct--scsi_device.txt"
+(NULL) * "void"
+)
+"void"
+)
+"void"

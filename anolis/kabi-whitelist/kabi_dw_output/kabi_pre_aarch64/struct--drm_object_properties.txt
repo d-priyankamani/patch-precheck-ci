@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/drm_mode_object.h:67
+Symbol:
+Byte size 392
+struct drm_object_properties {
+0x0 count "int"
+0x8 properties [24]* @"struct--drm_property.txt"
+0xc8 values [24]@"typedef--uint64_t.txt"
+}

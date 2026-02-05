@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/attr.c:379
+Symbol:
+func notify_change (
+idmap * @"<declarations>/struct--mnt_idmap.txt"
+dentry * @"struct--dentry.txt"
+attr * @"struct--iattr.txt"
+delegated_inode * * @"struct--inode.txt"
+)
+"int"

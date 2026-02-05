@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/fs.h:1196
+Symbol:
+Byte size 296
+Alignment 8
+struct sb_writers {
+0x0 frozen "short unsigned int"
+0x2 freeze_holders "short unsigned int"
+0x8 8 rw_sem [3]@"struct--percpu_rw_semaphore.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/drm_device.h:30
+Symbol:
+Byte size 4
+enum switch_power_state {
+DRM_SWITCH_POWER_ON = 0x0
+DRM_SWITCH_POWER_OFF = 0x1
+DRM_SWITCH_POWER_CHANGING = 0x2
+DRM_SWITCH_POWER_DYNAMIC_OFF = 0x3
+}

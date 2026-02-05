@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/irq/devres.c:139
+Symbol:
+func devm_free_irq (
+dev * @"struct--device.txt"
+irq "unsigned int"
+dev_id * "void"
+)
+"void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:1332
+Symbol:
+func ib_create_qp_kernel (
+pd * @"struct--ib_pd.txt"
+qp_init_attr * @"struct--ib_qp_init_attr.txt"
+caller * const "char"
+)
+* @"struct--ib_qp.txt"

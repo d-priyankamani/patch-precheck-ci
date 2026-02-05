@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/inet_frag.h:48
+Symbol:
+Byte size 20
+struct frag_v4_compare_key {
+0x0 saddr @"typedef--__be32.txt"
+0x4 daddr @"typedef--__be32.txt"
+0x8 user @"typedef--u32.txt"
+0xc vif @"typedef--u32.txt"
+0x10 id @"typedef--__be16.txt"
+0x12 protocol @"typedef--u16.txt"
+}

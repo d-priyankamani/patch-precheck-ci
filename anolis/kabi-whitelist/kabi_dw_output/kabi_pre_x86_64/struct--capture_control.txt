@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/internal.h:802
+Symbol:
+Byte size 16
+struct capture_control {
+0x0 cc * @"struct--compact_control.txt"
+0x8 page * @"struct--page.txt"
+}

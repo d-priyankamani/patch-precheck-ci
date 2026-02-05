@@ -1,0 +1,67 @@
+Version: 1.0
+File: include/drm/drm_gem.h:70
+Symbol:
+Byte size 112
+struct drm_gem_object_funcs {
+0x0 free * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+)
+"void"
+0x8 open * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+(NULL) * @"struct--drm_file.txt"
+)
+"int"
+0x10 close * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+(NULL) * @"struct--drm_file.txt"
+)
+"void"
+0x18 print_info * func (NULL) (
+(NULL) * @"struct--drm_printer.txt"
+(NULL) "unsigned int"
+(NULL) * const @"struct--drm_gem_object.txt"
+)
+"void"
+0x20 export * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+(NULL) "int"
+)
+* @"struct--dma_buf.txt"
+0x28 pin * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+)
+"int"
+0x30 unpin * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+)
+"void"
+0x38 get_sg_table * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+)
+* @"struct--sg_table.txt"
+0x40 vmap * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+(NULL) * @"struct--iosys_map.txt"
+)
+"int"
+0x48 vunmap * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+(NULL) * @"struct--iosys_map.txt"
+)
+"void"
+0x50 mmap * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+0x58 evict * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+)
+"int"
+0x60 status * func (NULL) (
+(NULL) * @"struct--drm_gem_object.txt"
+)
+@"enum--drm_gem_object_status.txt"
+0x68 vm_ops * const @"struct--vm_operations_struct.txt"
+}

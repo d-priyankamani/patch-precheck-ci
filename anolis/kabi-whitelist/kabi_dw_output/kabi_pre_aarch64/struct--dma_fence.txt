@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/dma-fence.h:65
+Symbol:
+Byte size 64
+Alignment 8
+struct dma_fence {
+0x0 lock * @"typedef--spinlock_t.txt"
+0x8 ops * const @"struct--dma_fence_ops.txt"
+0x10 8 (NULL) union (NULL) {
+cb_list @"struct--list_head.txt"
+timestamp @"typedef--ktime_t.txt"
+rcu @"struct--callback_head.txt"
+}
+0x20 context @"typedef--u64.txt"
+0x28 seqno @"typedef--u64.txt"
+0x30 flags "long unsigned int"
+0x38 refcount @"struct--kref.txt"
+0x3c error "int"
+}

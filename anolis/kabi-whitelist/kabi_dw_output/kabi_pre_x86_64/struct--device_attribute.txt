@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/device.h:105
+Symbol:
+Byte size 32
+struct device_attribute {
+0x0 attr @"struct--attribute.txt"
+0x10 show * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--device_attribute.txt"
+(NULL) * "char"
+)
+@"typedef--ssize_t.txt"
+0x18 store * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--device_attribute.txt"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+}

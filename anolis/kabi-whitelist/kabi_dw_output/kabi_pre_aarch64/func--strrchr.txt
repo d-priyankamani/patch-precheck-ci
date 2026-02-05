@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/firmware/efi/libstub/string.c:173
+Symbol:
+func strrchr (
+s * const "char"
+c "int"
+)
+* "char"

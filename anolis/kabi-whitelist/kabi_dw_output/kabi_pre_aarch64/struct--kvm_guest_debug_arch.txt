@@ -1,0 +1,10 @@
+Version: 1.0
+File: arch/arm64/include/uapi/asm/kvm.h:139
+Symbol:
+Byte size 512
+struct kvm_guest_debug_arch {
+0x0 dbg_bcr [16]@"typedef--__u64.txt"
+0x80 dbg_bvr [16]@"typedef--__u64.txt"
+0x100 dbg_wcr [16]@"typedef--__u64.txt"
+0x180 dbg_wvr [16]@"typedef--__u64.txt"
+}

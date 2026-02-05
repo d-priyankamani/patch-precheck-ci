@@ -1,0 +1,23 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:1091
+Symbol:
+Byte size 256
+struct kvm_hv {
+0x0 hv_lock @"struct--mutex.txt"
+0x20 hv_guest_os_id @"typedef--u64.txt"
+0x28 hv_hypercall @"typedef--u64.txt"
+0x30 hv_tsc_page @"typedef--u64.txt"
+0x38 hv_tsc_page_status @"enum--hv_tsc_page_status.txt"
+0x40 hv_crash_param [5]@"typedef--u64.txt"
+0x68 hv_crash_ctl @"typedef--u64.txt"
+0x70 tsc_ref @"struct--ms_hyperv_tsc_page.txt"
+0x88 conn_to_evt @"struct--idr.txt"
+0xa0 hv_reenlightenment_control @"typedef--u64.txt"
+0xa8 hv_tsc_emulation_control @"typedef--u64.txt"
+0xb0 hv_tsc_emulation_status @"typedef--u64.txt"
+0xb8 hv_invtsc_control @"typedef--u64.txt"
+0xc0 num_mismatched_vp_indexes @"typedef--atomic_t.txt"
+0xc4 synic_auto_eoi_used "unsigned int"
+0xc8 hv_pa_pg * @"struct--hv_partition_assist_pg.txt"
+0xd0 hv_syndbg @"struct--kvm_hv_syndbg.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/signal_types.h:32
+Symbol:
+Byte size 24
+struct sigpending {
+0x0 list @"struct--list_head.txt"
+0x10 signal @"typedef--sigset_t.txt"
+}

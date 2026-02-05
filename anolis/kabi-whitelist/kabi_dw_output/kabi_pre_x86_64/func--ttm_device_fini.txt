@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_device.c:230
+Symbol:
+func ttm_device_fini (
+bdev * @"struct--ttm_device.txt"
+)
+"void"

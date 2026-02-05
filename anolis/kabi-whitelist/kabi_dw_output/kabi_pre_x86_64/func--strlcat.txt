@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/fortify-string.h:388
+Symbol:
+func strlcat (
+p const * "char"
+q const * const "char"
+avail @"typedef--size_t.txt"
+)
+@"typedef--size_t.txt"

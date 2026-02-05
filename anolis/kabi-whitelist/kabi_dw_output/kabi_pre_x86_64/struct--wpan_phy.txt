@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/net/cfg802154.h:193
+Symbol:
+Byte size 1312
+Alignment 32
+struct wpan_phy {
+0x0 privid * const "void"
+0x8 flags "long unsigned int"
+0x10 current_channel @"typedef--u8.txt"
+0x11 current_page @"typedef--u8.txt"
+0x18 supported @"struct--wpan_phy_supported.txt"
+0xd0 transmit_power @"typedef--s32.txt"
+0xd4 cca @"struct--wpan_phy_cca.txt"
+0xe0 perm_extended_addr @"typedef--__le64.txt"
+0xe8 cca_ed_level @"typedef--s32.txt"
+0xec symbol_duration @"typedef--u32.txt"
+0xf0 lifs_period @"typedef--u16.txt"
+0xf2 sifs_period @"typedef--u16.txt"
+0xf8 8 dev @"struct--device.txt"
+0x4d0 _net @"typedef--possible_net_t.txt"
+0x4d8 queue_lock @"typedef--spinlock_t.txt"
+0x4dc ongoing_txs @"typedef--atomic_t.txt"
+0x4e0 hold_txs @"typedef--atomic_t.txt"
+0x4e8 sync_txq @"typedef--wait_queue_head_t.txt"
+0x500 filtering @"enum--ieee802154_filtering_level.txt"
+0x520 32 priv [0]"char"
+}

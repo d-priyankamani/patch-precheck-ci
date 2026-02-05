@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/writeback.h:126
+Symbol:
+Byte size 152
+struct wb_domain {
+0x0 lock @"typedef--spinlock_t.txt"
+0x8 completions @"struct--fprop_global.txt"
+0x38 period_timer @"struct--timer_list.txt"
+0x80 period_time "long unsigned int"
+0x88 dirty_limit_tstamp "long unsigned int"
+0x90 dirty_limit "long unsigned int"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/devlink/dev.c:676
+Symbol:
+func devlink_info_serial_number_put (
+req * @"struct--devlink_info_req.txt"
+sn * const "char"
+)
+"int"

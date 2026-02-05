@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/string.c:810
+Symbol:
+func memchr (
+s * const "void"
+c "int"
+n @"typedef--size_t.txt"
+)
+* "void"

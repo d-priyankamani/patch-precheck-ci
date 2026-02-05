@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:380
+Symbol:
+Byte size 1
+struct io_tw_state {
+0x0 locked @"typedef--bool.txt"
+}

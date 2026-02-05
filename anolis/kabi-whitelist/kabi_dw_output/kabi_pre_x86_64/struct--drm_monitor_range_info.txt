@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/drm/drm_connector.h:386
+Symbol:
+Byte size 16
+struct drm_monitor_range_info {
+0x0 min_vfreq @"typedef--u16.txt"
+0x2 max_vfreq @"typedef--u16.txt"
+0x8 ck_reserved1 "long unsigned int"
+}

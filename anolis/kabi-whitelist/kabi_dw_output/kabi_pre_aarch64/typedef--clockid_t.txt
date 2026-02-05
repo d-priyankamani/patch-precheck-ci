@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:32
+Symbol:
+typedef clockid_t
+@"typedef--__kernel_clockid_t.txt"

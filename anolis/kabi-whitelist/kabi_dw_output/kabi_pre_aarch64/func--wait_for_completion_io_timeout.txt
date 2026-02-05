@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/sched/completion.c:199
+Symbol:
+func wait_for_completion_io_timeout (
+x * @"struct--completion.txt"
+timeout "long unsigned int"
+)
+"long unsigned int"

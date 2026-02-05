@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/sched/wait_bit.c:111
+Symbol:
+func out_of_line_wait_on_bit_lock (
+word * "void"
+bit "int"
+action * @"typedef--wait_bit_action_f.txt"
+mode "unsigned int"
+)
+"int"

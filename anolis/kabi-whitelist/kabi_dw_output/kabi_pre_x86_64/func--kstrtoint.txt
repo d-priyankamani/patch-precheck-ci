@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/kstrtox.c:259
+Symbol:
+func kstrtoint (
+s * const "char"
+base "unsigned int"
+res * "int"
+)
+"int"

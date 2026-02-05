@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/workqueue.h:139
+Symbol:
+Byte size 4
+enum wq_affn_scope {
+WQ_AFFN_DFL = 0x0
+WQ_AFFN_CPU = 0x1
+WQ_AFFN_SMT = 0x2
+WQ_AFFN_CACHE = 0x3
+WQ_AFFN_NUMA = 0x4
+WQ_AFFN_SYSTEM = 0x5
+WQ_AFFN_NR_TYPES = 0x6
+}

@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/net/tls.h:201
+Symbol:
+Byte size 56
+union tls_crypto_context {
+info @"struct--tls_crypto_info.txt"
+(NULL) union (NULL) {
+aes_gcm_128 @"struct--tls12_crypto_info_aes_gcm_128.txt"
+aes_gcm_256 @"struct--tls12_crypto_info_aes_gcm_256.txt"
+chacha20_poly1305 @"struct--tls12_crypto_info_chacha20_poly1305.txt"
+sm4_gcm @"struct--tls12_crypto_info_sm4_gcm.txt"
+sm4_ccm @"struct--tls12_crypto_info_sm4_ccm.txt"
+}
+}

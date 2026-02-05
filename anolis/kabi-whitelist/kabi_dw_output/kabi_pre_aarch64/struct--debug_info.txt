@@ -1,0 +1,11 @@
+Version: 1.0
+File: arch/arm64/include/asm/processor.h:106
+Symbol:
+Byte size 272
+struct debug_info {
+0x0 suspended_step "int"
+0x4 bps_disabled "int"
+0x8 wps_disabled "int"
+0x10 hbp_break [16]* @"struct--perf_event.txt"
+0x90 hbp_watch [16]* @"struct--perf_event.txt"
+}

@@ -1,0 +1,44 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2824
+Symbol:
+Byte size 104
+struct ib_client {
+0x0 name * const "char"
+0x8 add * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+)
+"int"
+0x10 remove * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) * "void"
+)
+"void"
+0x18 rename * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) * "void"
+)
+"void"
+0x20 get_nl_info * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) * "void"
+(NULL) * @"struct--ib_client_nl_info.txt"
+)
+"int"
+0x28 get_global_nl_info * func (NULL) (
+(NULL) * @"struct--ib_client_nl_info.txt"
+)
+"int"
+0x30 get_net_dev_by_params * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) * const @"union--ib_gid.txt"
+(NULL) * const @"struct--sockaddr.txt"
+(NULL) * "void"
+)
+* @"struct--net_device.txt"
+0x38 uses @"typedef--refcount_t.txt"
+0x40 uses_zero @"struct--completion.txt"
+0x60 client_id @"typedef--u32.txt"
+0x64:0-1 no_kverbs_req @"typedef--u8.txt"
+}

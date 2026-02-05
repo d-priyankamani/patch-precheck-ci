@@ -1,0 +1,34 @@
+Version: 1.0
+File: include/rdma/uverbs_ioctl.h:331
+Symbol:
+Byte size 16
+struct uapi_definition {
+0x0 kind @"typedef--u8.txt"
+0x1 scope @"typedef--u8.txt"
+0x2 (NULL) union (NULL) {
+object_start struct (NULL) {
+0x0 object_id @"typedef--u16.txt"
+}
+write struct (NULL) {
+0x0 command_num @"typedef--u16.txt"
+0x2:0-1 is_ex @"typedef--u8.txt"
+0x2:1-2 has_udata @"typedef--u8.txt"
+0x2:2-3 has_resp @"typedef--u8.txt"
+0x3 req_size @"typedef--u8.txt"
+0x4 resp_size @"typedef--u8.txt"
+}
+}
+0x8 (NULL) union (NULL) {
+func_is_supported * func (NULL) (
+(NULL) * @"struct--ib_device.txt"
+)
+@"typedef--bool.txt"
+func_write * func (NULL) (
+(NULL) * @"struct--uverbs_attr_bundle.txt"
+)
+"int"
+chain * const @"struct--uapi_definition.txt"
+chain_obj_tree * const @"struct--uverbs_object_def.txt"
+needs_fn_offset @"typedef--size_t.txt"
+}
+}

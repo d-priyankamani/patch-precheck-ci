@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:99
+Symbol:
+Byte size 64
+struct ib_gid_table {
+0x0 sz "int"
+0x8 lock @"struct--mutex.txt"
+0x28 rwlock @"typedef--rwlock_t.txt"
+0x30 data_vec * * @"struct--ib_gid_table_entry.txt"
+0x38 default_gid_indices @"typedef--u32.txt"
+}

@@ -1,0 +1,15 @@
+Version: 1.0
+File: kernel/time/timekeeping.c:1207
+Symbol:
+func get_device_system_crosststamp (
+get_time_fn * func (NULL) (
+(NULL) * @"typedef--ktime_t.txt"
+(NULL) * @"struct--system_counterval_t.txt"
+(NULL) * "void"
+)
+"int"
+ctx * "void"
+history_begin * @"struct--system_time_snapshot.txt"
+xtstamp * @"struct--system_device_crosststamp.txt"
+)
+"int"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/netdevice.h:421
+Symbol:
+Byte size 4
+enum gro_result {
+GRO_MERGED = 0x0
+GRO_MERGED_FREE = 0x1
+GRO_HELD = 0x2
+GRO_NORMAL = 0x3
+GRO_CONSUMED = 0x4
+}

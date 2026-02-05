@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:350
+Symbol:
+Byte size 4
+enum devlink_reload_action {
+DEVLINK_RELOAD_ACTION_UNSPEC = 0x0
+DEVLINK_RELOAD_ACTION_DRIVER_REINIT = 0x1
+DEVLINK_RELOAD_ACTION_FW_ACTIVATE = 0x2
+__DEVLINK_RELOAD_ACTION_MAX = 0x3
+DEVLINK_RELOAD_ACTION_MAX = 0x2
+}

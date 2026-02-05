@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:162
+Symbol:
+Byte size 16
+struct io_submit_link {
+0x0 head * @"struct--io_kiocb.txt"
+0x8 last * @"struct--io_kiocb.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_blend.c:219
+Symbol:
+func drm_plane_create_alpha_property (
+plane * @"struct--drm_plane.txt"
+)
+"int"

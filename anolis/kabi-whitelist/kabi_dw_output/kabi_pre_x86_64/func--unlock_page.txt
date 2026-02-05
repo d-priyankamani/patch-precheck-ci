@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/folio-compat.c:19
+Symbol:
+func unlock_page (
+page * @"struct--page.txt"
+)
+"void"

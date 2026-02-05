@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/hwmon/hwmon.c:884
+Symbol:
+func hwmon_device_register_with_groups (
+dev * @"struct--device.txt"
+name * const "char"
+drvdata * "void"
+groups * * const @"struct--attribute_group.txt"
+)
+* @"struct--device.txt"

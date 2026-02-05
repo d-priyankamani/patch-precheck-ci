@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:7071
+Symbol:
+func drm_hdmi_avi_infoframe_from_display_mode (
+frame * @"struct--hdmi_avi_infoframe.txt"
+connector * const @"struct--drm_connector.txt"
+mode * const @"struct--drm_display_mode.txt"
+)
+"int"

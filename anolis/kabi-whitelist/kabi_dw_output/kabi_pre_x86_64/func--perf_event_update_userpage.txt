@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/events/core.c:6184
+Symbol:
+func perf_event_update_userpage (
+event * @"struct--perf_event.txt"
+)
+"void"

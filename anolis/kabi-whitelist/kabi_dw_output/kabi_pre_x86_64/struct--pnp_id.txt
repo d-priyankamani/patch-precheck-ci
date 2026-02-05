@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/pnp.h:369
+Symbol:
+Byte size 16
+struct pnp_id {
+0x0 id [8]"char"
+0x8 next * @"struct--pnp_id.txt"
+}

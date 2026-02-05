@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/drm/display/drm_dp_helper.h:266
+Symbol:
+Byte size 24
+struct drm_dp_aux_msg {
+0x0 address "unsigned int"
+0x4 request @"typedef--u8.txt"
+0x5 reply @"typedef--u8.txt"
+0x8 buffer * "void"
+0x10 size @"typedef--size_t.txt"
+}

@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/drm/drm_connector.h:156
+Symbol:
+Byte size 4
+enum drm_connector_tv_mode {
+DRM_MODE_TV_MODE_NTSC = 0x0
+DRM_MODE_TV_MODE_NTSC_443 = 0x1
+DRM_MODE_TV_MODE_NTSC_J = 0x2
+DRM_MODE_TV_MODE_PAL = 0x3
+DRM_MODE_TV_MODE_PAL_M = 0x4
+DRM_MODE_TV_MODE_PAL_N = 0x5
+DRM_MODE_TV_MODE_SECAM = 0x6
+DRM_MODE_TV_MODE_MAX = 0x7
+}

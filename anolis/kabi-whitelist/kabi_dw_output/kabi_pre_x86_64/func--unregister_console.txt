@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/printk/printk.c:3664
+Symbol:
+func unregister_console (
+console * @"struct--console.txt"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/page_pool.c:936
+Symbol:
+func page_pool_update_nid (
+pool * @"struct--page_pool.txt"
+new_nid "int"
+)
+"void"

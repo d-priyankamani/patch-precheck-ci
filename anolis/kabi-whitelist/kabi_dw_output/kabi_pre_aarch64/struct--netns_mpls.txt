@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/netns/mpls.h:14
+Symbol:
+Byte size 32
+struct netns_mpls {
+0x0 ip_ttl_propagate "int"
+0x4 default_ttl "int"
+0x8 platform_labels @"typedef--size_t.txt"
+0x10 platform_label * * @"<declarations>/struct--mpls_route.txt"
+0x18 ctl * @"struct--ctl_table_header.txt"
+}

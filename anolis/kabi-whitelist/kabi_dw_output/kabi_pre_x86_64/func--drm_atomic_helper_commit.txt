@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_helper.c:2031
+Symbol:
+func drm_atomic_helper_commit (
+dev * @"struct--drm_device.txt"
+state * @"struct--drm_atomic_state.txt"
+nonblock @"typedef--bool.txt"
+)
+"int"

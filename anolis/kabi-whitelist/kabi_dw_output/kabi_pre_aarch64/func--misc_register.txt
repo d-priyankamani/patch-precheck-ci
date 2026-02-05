@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/char/misc.c:225
+Symbol:
+func misc_register (
+misc * @"struct--miscdevice.txt"
+)
+"int"

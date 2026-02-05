@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/slab_common.c:1716
+Symbol:
+func ksize (
+objp * const "void"
+)
+@"typedef--size_t.txt"

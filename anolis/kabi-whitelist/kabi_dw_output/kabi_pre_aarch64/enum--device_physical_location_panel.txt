@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/device.h:546
+Symbol:
+Byte size 4
+enum device_physical_location_panel {
+DEVICE_PANEL_TOP = 0x0
+DEVICE_PANEL_BOTTOM = 0x1
+DEVICE_PANEL_LEFT = 0x2
+DEVICE_PANEL_RIGHT = 0x3
+DEVICE_PANEL_FRONT = 0x4
+DEVICE_PANEL_BACK = 0x5
+DEVICE_PANEL_UNKNOWN = 0x6
+}

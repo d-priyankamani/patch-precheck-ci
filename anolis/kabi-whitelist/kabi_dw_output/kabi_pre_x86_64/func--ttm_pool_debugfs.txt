@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_pool.c:730
+Symbol:
+func ttm_pool_debugfs (
+pool * @"struct--ttm_pool.txt"
+m * @"struct--seq_file.txt"
+)
+"int"

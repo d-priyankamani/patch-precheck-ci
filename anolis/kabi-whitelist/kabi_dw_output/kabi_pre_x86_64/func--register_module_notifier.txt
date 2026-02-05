@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/module/main.c:161
+Symbol:
+func register_module_notifier (
+nb * @"struct--notifier_block.txt"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/dst_metadata.h:22
+Symbol:
+Byte size 8
+struct macsec_info {
+0x0 sci @"typedef--sci_t.txt"
+}

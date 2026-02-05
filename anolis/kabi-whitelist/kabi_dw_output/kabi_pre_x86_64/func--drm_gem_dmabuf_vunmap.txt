@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_prime.c:704
+Symbol:
+func drm_gem_dmabuf_vunmap (
+dma_buf * @"struct--dma_buf.txt"
+map * @"struct--iosys_map.txt"
+)
+"void"

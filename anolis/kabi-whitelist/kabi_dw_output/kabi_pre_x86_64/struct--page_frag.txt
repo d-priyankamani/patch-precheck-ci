@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/mm_types_task.h:39
+Symbol:
+Byte size 16
+struct page_frag {
+0x0 page * @"struct--page.txt"
+0x8 offset @"typedef--__u32.txt"
+0xc size @"typedef--__u32.txt"
+}

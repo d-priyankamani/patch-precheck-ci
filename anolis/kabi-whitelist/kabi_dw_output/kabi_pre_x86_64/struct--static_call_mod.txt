@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/static_call.h:169
+Symbol:
+Byte size 24
+struct static_call_mod {
+0x0 next * @"struct--static_call_mod.txt"
+0x8 mod * @"struct--module.txt"
+0x10 sites * @"struct--static_call_site.txt"
+}

@@ -1,0 +1,4 @@
+Version: 1.0
+File: mm/memremap.c:42
+Symbol:
+var devmap_managed_key "void"

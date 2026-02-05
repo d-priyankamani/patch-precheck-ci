@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/percpu-refcount.h:105
+Symbol:
+Byte size 16
+struct percpu_ref {
+0x0 percpu_count_ptr "long unsigned int"
+0x8 data * @"struct--percpu_ref_data.txt"
+}

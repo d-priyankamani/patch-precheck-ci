@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/net/cfg802154.h:437
+Symbol:
+Byte size 8
+struct wpan_dev_header_ops {
+0x0 create * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"struct--ieee802154_addr.txt"
+(NULL) * const @"struct--ieee802154_addr.txt"
+(NULL) "unsigned int"
+)
+"int"
+}

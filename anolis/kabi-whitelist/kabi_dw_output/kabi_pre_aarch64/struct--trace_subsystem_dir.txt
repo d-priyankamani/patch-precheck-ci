@@ -1,0 +1,12 @@
+Version: 1.0
+File: kernel/trace/trace.h:1347
+Symbol:
+Byte size 48
+struct trace_subsystem_dir {
+0x0 list @"struct--list_head.txt"
+0x10 subsystem * @"struct--event_subsystem.txt"
+0x18 tr * @"struct--trace_array.txt"
+0x20 ei * @"<declarations>/struct--eventfs_inode.txt"
+0x28 ref_count "int"
+0x2c nr_events "int"
+}

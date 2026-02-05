@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/firmware/dmi_scan.c:933
+Symbol:
+func dmi_first_match (
+list * const @"struct--dmi_system_id.txt"
+)
+* const @"struct--dmi_system_id.txt"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/trace/trace.h:210
+Symbol:
+Byte size 40
+struct array_buffer {
+0x0 tr * @"struct--trace_array.txt"
+0x8 buffer * @"<declarations>/struct--trace_buffer.txt"
+0x10 data * @"struct--trace_array_cpu.txt"
+0x18 time_start @"typedef--u64.txt"
+0x20 cpu "int"
+}

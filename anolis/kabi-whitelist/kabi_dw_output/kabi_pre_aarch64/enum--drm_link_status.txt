@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/drm/drm_connector.h:340
+Symbol:
+Byte size 4
+enum drm_link_status {
+DRM_LINK_STATUS_GOOD = 0x0
+DRM_LINK_STATUS_BAD = 0x1
+}

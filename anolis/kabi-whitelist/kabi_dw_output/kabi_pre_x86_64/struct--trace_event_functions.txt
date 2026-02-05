@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/trace_events.h:143
+Symbol:
+Byte size 32
+struct trace_event_functions {
+0x0 trace @"typedef--trace_print_func.txt"
+0x8 raw @"typedef--trace_print_func.txt"
+0x10 hex @"typedef--trace_print_func.txt"
+0x18 binary @"typedef--trace_print_func.txt"
+}

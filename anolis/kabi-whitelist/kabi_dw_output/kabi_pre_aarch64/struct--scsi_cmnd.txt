@@ -1,0 +1,39 @@
+Version: 1.0
+File: include/scsi/scsi_cmnd.h:74
+Symbol:
+Byte size 424
+Alignment 8
+struct scsi_cmnd {
+0x0 device * @"struct--scsi_device.txt"
+0x8 eh_entry @"struct--list_head.txt"
+0x18 abort_work @"struct--delayed_work.txt"
+0xd0 8 rcu @"struct--callback_head.txt"
+0xe0 eh_eflags "int"
+0xe4 budget_token "int"
+0xe8 jiffies_at_alloc "long unsigned int"
+0xf0 retries "int"
+0xf4 allowed "int"
+0xf8 prot_op "unsigned char"
+0xf9 prot_type "unsigned char"
+0xfa prot_flags "unsigned char"
+0xfb submitter @"enum--scsi_cmnd_submitter.txt"
+0xfc cmd_len "short unsigned int"
+0x100 sc_data_direction @"enum--dma_data_direction.txt"
+0x104 cmnd [32]"unsigned char"
+0x128 sdb @"struct--scsi_data_buffer.txt"
+0x140 prot_sdb * @"struct--scsi_data_buffer.txt"
+0x148 underflow "unsigned int"
+0x14c transfersize "unsigned int"
+0x150 resid_len "unsigned int"
+0x154 sense_len "unsigned int"
+0x158 sense_buffer * "unsigned char"
+0x160 flags "int"
+0x168 state "long unsigned int"
+0x170 extra_len "unsigned int"
+0x178 host_scribble * "unsigned char"
+0x180 result "int"
+0x188 ck_reserved1 "long unsigned int"
+0x190 ck_reserved2 "long unsigned int"
+0x198 ck_reserved3 "long unsigned int"
+0x1a0 ck_reserved4 "long unsigned int"
+}

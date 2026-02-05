@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/irqhandler.h:12
+Symbol:
+Byte size 8
+typedef irq_flow_handler_t
+* func (NULL) (
+(NULL) * @"struct--irq_desc.txt"
+)
+"void"

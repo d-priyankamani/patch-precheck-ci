@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_ioctl.c:675
+Symbol:
+func uverbs_get_flags32 (
+to * @"typedef--u32.txt"
+attrs_bundle * const @"struct--uverbs_attr_bundle.txt"
+idx @"typedef--size_t.txt"
+allowed_bits @"typedef--u64.txt"
+)
+"int"

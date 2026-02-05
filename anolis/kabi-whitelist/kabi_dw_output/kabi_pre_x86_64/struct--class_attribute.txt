@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/device/class.h:176
+Symbol:
+Byte size 32
+struct class_attribute {
+0x0 attr @"struct--attribute.txt"
+0x10 show * func (NULL) (
+(NULL) * const @"struct--class.txt"
+(NULL) * const @"struct--class_attribute.txt"
+(NULL) * "char"
+)
+@"typedef--ssize_t.txt"
+0x18 store * func (NULL) (
+(NULL) * const @"struct--class.txt"
+(NULL) * const @"struct--class_attribute.txt"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"
+}

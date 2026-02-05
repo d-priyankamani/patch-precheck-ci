@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/linux/cdrom.h:41
+Symbol:
+Byte size 128
+struct cdrom_device_info {
+0x0 ops * const @"struct--cdrom_device_ops.txt"
+0x8 list @"struct--list_head.txt"
+0x18 disk * @"struct--gendisk.txt"
+0x20 handle * "void"
+0x28 mask "int"
+0x2c speed "int"
+0x30 capacity "int"
+0x34:0-30 options "unsigned int"
+0x37:6-8 mc_flags "unsigned int"
+0x38 vfs_events "unsigned int"
+0x3c ioctl_events "unsigned int"
+0x40 use_count "int"
+0x44 name [20]"char"
+0x58:0-2 sanyo_slot @"typedef--__u8.txt"
+0x58:2-3 keeplocked @"typedef--__u8.txt"
+0x58:3-8 reserved @"typedef--__u8.txt"
+0x5c cdda_method "int"
+0x60 last_sense @"typedef--__u8.txt"
+0x61 media_written @"typedef--__u8.txt"
+0x62 mmc3_profile "short unsigned int"
+0x68 exit * func (NULL) (
+(NULL) * @"struct--cdrom_device_info.txt"
+)
+"int"
+0x70 mrw_mode_page "int"
+0x74 opened_for_data @"typedef--bool.txt"
+0x78 last_media_change_ms @"typedef--__s64.txt"
+}

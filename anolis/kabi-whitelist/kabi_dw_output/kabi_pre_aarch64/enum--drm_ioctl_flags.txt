@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/drm/drm_ioctl.h:80
+Symbol:
+Byte size 4
+enum drm_ioctl_flags {
+DRM_AUTH = 0x1
+DRM_MASTER = 0x2
+DRM_ROOT_ONLY = 0x4
+DRM_UNLOCKED = 0x10
+DRM_RENDER_ALLOW = 0x20
+}

@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/hrtimer.h:164
+Symbol:
+Byte size 128
+Alignment 64
+struct hrtimer_clock_base {
+0x0 cpu_base * @"struct--hrtimer_cpu_base.txt"
+0x8 index "unsigned int"
+0xc clockid @"typedef--clockid_t.txt"
+0x10 seq @"typedef--seqcount_raw_spinlock_t.txt"
+0x18 running * @"struct--hrtimer.txt"
+0x20 active @"struct--timerqueue_head.txt"
+0x30 get_time * func (NULL) (
+)
+@"typedef--ktime_t.txt"
+0x38 offset @"typedef--ktime_t.txt"
+0x40 ck_reserved1 "long unsigned int"
+0x48 ck_reserved2 "long unsigned int"
+}

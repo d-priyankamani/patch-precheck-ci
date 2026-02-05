@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:454
+Symbol:
+Byte size 168
+struct bpf_verifier_state_list {
+0x0 state @"struct--bpf_verifier_state.txt"
+0x98 next * @"struct--bpf_verifier_state_list.txt"
+0xa0 miss_cnt "int"
+0xa4 hit_cnt "int"
+}

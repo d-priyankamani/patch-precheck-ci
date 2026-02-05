@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/acpi/actypes.h:1061
+Symbol:
+Byte size 8
+typedef acpi_notify_handler
+* func (NULL) (
+(NULL) @"typedef--acpi_handle.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * "void"
+)
+"void"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/devlink/dev.c:763
+Symbol:
+func devlink_info_version_running_put (
+req * @"struct--devlink_info_req.txt"
+version_name * const "char"
+version_value * const "char"
+)
+"int"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/drm/drm_suballoc.h:24
+Symbol:
+Byte size 576
+struct drm_suballoc_manager {
+0x0 wq @"typedef--wait_queue_head_t.txt"
+0x18 hole * @"struct--list_head.txt"
+0x20 olist @"struct--list_head.txt"
+0x30 flist [32]@"struct--list_head.txt"
+0x230 size @"typedef--size_t.txt"
+0x238 align @"typedef--size_t.txt"
+}

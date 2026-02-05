@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_helper.c:696
+Symbol:
+func drm_dp_dpcd_write (
+aux * @"struct--drm_dp_aux.txt"
+offset "unsigned int"
+buffer * "void"
+size @"typedef--size_t.txt"
+)
+@"typedef--ssize_t.txt"

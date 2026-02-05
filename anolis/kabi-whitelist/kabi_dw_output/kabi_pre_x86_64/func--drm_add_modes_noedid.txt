@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:6938
+Symbol:
+func drm_add_modes_noedid (
+connector * @"struct--drm_connector.txt"
+hdisplay "int"
+vdisplay "int"
+)
+"int"

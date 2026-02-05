@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/namei.c:4355
+Symbol:
+func vfs_unlink (
+idmap * @"<declarations>/struct--mnt_idmap.txt"
+dir * @"struct--inode.txt"
+dentry * @"struct--dentry.txt"
+delegated_inode * * @"struct--inode.txt"
+)
+"int"

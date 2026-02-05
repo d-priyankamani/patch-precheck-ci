@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:820
+Symbol:
+func drm_connector_list_iter_next (
+iter * @"struct--drm_connector_list_iter.txt"
+)
+* @"struct--drm_connector.txt"

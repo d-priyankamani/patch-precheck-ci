@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/netdevice.h:285
+Symbol:
+Byte size 112
+struct hh_cache {
+0x0 hh_len "unsigned int"
+0x4 hh_lock @"typedef--seqlock_t.txt"
+0x10 hh_data [12]"long unsigned int"
+}

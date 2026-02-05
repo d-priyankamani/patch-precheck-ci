@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/bitmap.c:84
+Symbol:
+func __bitmap_complement (
+dst * "long unsigned int"
+src * const "long unsigned int"
+bits "unsigned int"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/iommu.h:1171
+Symbol:
+Byte size 24
+struct iommu_mm_data {
+0x0 pasid @"typedef--u32.txt"
+0x8 sva_domains @"struct--list_head.txt"
+}

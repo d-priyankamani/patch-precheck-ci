@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/sched/syscalls.c:995
+Symbol:
+func sched_set_fifo_low (
+p * @"struct--task_struct.txt"
+)
+"void"

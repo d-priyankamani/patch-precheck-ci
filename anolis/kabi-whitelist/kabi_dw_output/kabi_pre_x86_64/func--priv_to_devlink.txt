@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/core.c:25
+Symbol:
+func priv_to_devlink (
+priv * "void"
+)
+* @"struct--devlink.txt"

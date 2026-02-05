@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/kthread.h:132
+Symbol:
+Byte size 40
+struct kthread_work {
+0x0 node @"struct--list_head.txt"
+0x10 func @"typedef--kthread_work_func_t.txt"
+0x18 worker * @"struct--kthread_worker.txt"
+0x20 canceling "int"
+}

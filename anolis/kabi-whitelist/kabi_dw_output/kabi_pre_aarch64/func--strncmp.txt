@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/firmware/efi/libstub/string.c:95
+Symbol:
+func strncmp (
+cs * const "char"
+ct * const "char"
+count @"typedef--size_t.txt"
+)
+"int"

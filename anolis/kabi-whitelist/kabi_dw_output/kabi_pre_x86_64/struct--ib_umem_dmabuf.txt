@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/rdma/ib_umem.h:31
+Symbol:
+Byte size 144
+struct ib_umem_dmabuf {
+0x0 umem @"struct--ib_umem.txt"
+0x50 attach * @"struct--dma_buf_attachment.txt"
+0x58 sgt * @"struct--sg_table.txt"
+0x60 first_sg * @"struct--scatterlist.txt"
+0x68 last_sg * @"struct--scatterlist.txt"
+0x70 first_sg_offset "long unsigned int"
+0x78 last_sg_trim "long unsigned int"
+0x80 private * "void"
+0x88:0-1 pinned @"typedef--u8.txt"
+}

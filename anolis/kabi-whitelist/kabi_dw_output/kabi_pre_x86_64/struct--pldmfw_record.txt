@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/pldmfw.h:19
+Symbol:
+Byte size 72
+struct pldmfw_record {
+0x0 entry @"struct--list_head.txt"
+0x10 descs @"struct--list_head.txt"
+0x20 version_string * const @"typedef--u8.txt"
+0x28 version_type @"typedef--u8.txt"
+0x29 version_len @"typedef--u8.txt"
+0x2a package_data_len @"typedef--u16.txt"
+0x2c device_update_flags @"typedef--u32.txt"
+0x30 package_data * const @"typedef--u8.txt"
+0x38 component_bitmap * "long unsigned int"
+0x40 component_bitmap_len @"typedef--u16.txt"
+}

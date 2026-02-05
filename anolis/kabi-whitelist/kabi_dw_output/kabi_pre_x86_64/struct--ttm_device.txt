@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/drm/ttm/ttm_device.h:215
+Symbol:
+Byte size 2136
+struct ttm_device {
+0x0 device_list @"struct--list_head.txt"
+0x10 funcs * const @"struct--ttm_device_funcs.txt"
+0x18 sysman @"struct--ttm_resource_manager.txt"
+0xa0 man_drv [8]* @"struct--ttm_resource_manager.txt"
+0xe0 vma_manager * @"struct--drm_vma_offset_manager.txt"
+0xe8 pool @"struct--ttm_pool.txt"
+0x830 lru_lock @"typedef--spinlock_t.txt"
+0x838 pinned @"struct--list_head.txt"
+0x848 dev_mapping * @"struct--address_space.txt"
+0x850 wq * @"<declarations>/struct--workqueue_struct.txt"
+}

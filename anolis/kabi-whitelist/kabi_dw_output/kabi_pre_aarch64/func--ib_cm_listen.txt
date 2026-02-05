@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cm.c:1198
+Symbol:
+func ib_cm_listen (
+cm_id * @"struct--ib_cm_id.txt"
+service_id @"typedef--__be64.txt"
+)
+"int"

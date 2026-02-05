@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/irq_poll.h:8
+Symbol:
+Byte size 40
+struct irq_poll {
+0x0 list @"struct--list_head.txt"
+0x10 state "long unsigned int"
+0x18 weight "int"
+0x20 poll * @"typedef--irq_poll_fn.txt"
+}

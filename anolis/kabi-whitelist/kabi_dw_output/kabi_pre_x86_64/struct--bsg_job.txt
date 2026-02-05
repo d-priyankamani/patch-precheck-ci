@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/bsg-lib.h:29
+Symbol:
+Byte size 104
+struct bsg_job {
+0x0 dev * @"struct--device.txt"
+0x8 kref @"struct--kref.txt"
+0xc timeout "unsigned int"
+0x10 request * "void"
+0x18 reply * "void"
+0x20 request_len "unsigned int"
+0x24 reply_len "unsigned int"
+0x28 request_payload @"struct--bsg_buffer.txt"
+0x38 reply_payload @"struct--bsg_buffer.txt"
+0x48 result "int"
+0x4c reply_payload_rcv_len "unsigned int"
+0x50 bidi_rq * @"struct--request.txt"
+0x58 bidi_bio * @"struct--bio.txt"
+0x60 dd_data * "void"
+}

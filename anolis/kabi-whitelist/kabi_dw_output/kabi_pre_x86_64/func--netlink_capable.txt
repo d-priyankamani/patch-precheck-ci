@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/netlink/af_netlink.c:897
+Symbol:
+func netlink_capable (
+skb * const @"struct--sk_buff.txt"
+cap "int"
+)
+@"typedef--bool.txt"

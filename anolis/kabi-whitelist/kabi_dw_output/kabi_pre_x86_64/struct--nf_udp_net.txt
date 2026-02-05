@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/netns/conntrack.h:42
+Symbol:
+Byte size 12
+struct nf_udp_net {
+0x0 timeouts [2]"unsigned int"
+0x8 offload_timeout "unsigned int"
+}

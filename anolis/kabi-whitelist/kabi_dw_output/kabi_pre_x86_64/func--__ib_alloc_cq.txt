@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/infiniband/core/cq.c:212
+Symbol:
+func __ib_alloc_cq (
+dev * @"struct--ib_device.txt"
+private * "void"
+nr_cqe "int"
+comp_vector "int"
+poll_ctx @"enum--ib_poll_context.txt"
+caller * const "char"
+)
+* @"struct--ib_cq.txt"

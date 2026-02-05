@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_file.c:876
+Symbol:
+func drm_send_event_locked (
+dev * @"struct--drm_device.txt"
+e * @"struct--drm_pending_event.txt"
+)
+"void"

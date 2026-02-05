@@ -1,0 +1,86 @@
+Version: 1.0
+File: include/net/sch_generic.h:259
+Symbol:
+Byte size 120
+struct Qdisc_class_ops {
+0x0 flags "unsigned int"
+0x8 select_queue * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) * @"struct--tcmsg.txt"
+)
+* @"struct--netdev_queue.txt"
+0x10 graft * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "long unsigned int"
+(NULL) * @"struct--Qdisc.txt"
+(NULL) * * @"struct--Qdisc.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x18 leaf * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "long unsigned int"
+)
+* @"struct--Qdisc.txt"
+0x20 qlen_notify * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "long unsigned int"
+)
+"void"
+0x28 find * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) @"typedef--u32.txt"
+)
+"long unsigned int"
+0x30 change * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * "long unsigned int"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x38 delete * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "long unsigned int"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x40 walk * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) * @"struct--qdisc_walker.txt"
+)
+"void"
+0x48 tcf_block * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "long unsigned int"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+* @"struct--tcf_block.txt"
+0x50 bind_tcf * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "long unsigned int"
+(NULL) @"typedef--u32.txt"
+)
+"long unsigned int"
+0x58 unbind_tcf * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "long unsigned int"
+)
+"void"
+0x60 dump * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "long unsigned int"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--tcmsg.txt"
+)
+"int"
+0x68 dump_stats * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "long unsigned int"
+(NULL) * @"struct--gnet_dump.txt"
+)
+"int"
+0x70 ck_reserved1 "long unsigned int"
+}

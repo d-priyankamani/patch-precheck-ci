@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/pagemap.h:1140
+Symbol:
+Byte size 56
+struct wait_page_queue {
+0x0 folio * @"struct--folio.txt"
+0x8 bit_nr "int"
+0x10 wait @"typedef--wait_queue_entry_t.txt"
+}

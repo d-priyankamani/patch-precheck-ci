@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_mst_topology.c:3312
+Symbol:
+func drm_dp_add_payload_part1 (
+mgr * @"struct--drm_dp_mst_topology_mgr.txt"
+mst_state * @"struct--drm_dp_mst_topology_state.txt"
+payload * @"struct--drm_dp_mst_atomic_payload.txt"
+)
+"int"

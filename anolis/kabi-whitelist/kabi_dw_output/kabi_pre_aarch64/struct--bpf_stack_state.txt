@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:251
+Symbol:
+Byte size 128
+struct bpf_stack_state {
+0x0 spilled_ptr @"struct--bpf_reg_state.txt"
+0x78 slot_type [8]@"typedef--u8.txt"
+}

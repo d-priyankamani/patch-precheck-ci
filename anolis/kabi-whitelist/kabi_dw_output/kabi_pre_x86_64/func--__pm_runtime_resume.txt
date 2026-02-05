@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/power/runtime.c:1158
+Symbol:
+func __pm_runtime_resume (
+dev * @"struct--device.txt"
+rpmflags "int"
+)
+"int"

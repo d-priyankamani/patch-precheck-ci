@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/bpf.h:108
+Symbol:
+Byte size 4
+enum bpf_cgroup_iter_order {
+BPF_CGROUP_ITER_ORDER_UNSPEC = 0x0
+BPF_CGROUP_ITER_SELF_ONLY = 0x1
+BPF_CGROUP_ITER_DESCENDANTS_PRE = 0x2
+BPF_CGROUP_ITER_DESCENDANTS_POST = 0x3
+BPF_CGROUP_ITER_ANCESTORS_UP = 0x4
+}

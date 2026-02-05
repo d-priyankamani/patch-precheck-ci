@@ -1,0 +1,3 @@
+Version: 1.0
+Symbol:
+assembly wait_for_completion_interruptible_timeout

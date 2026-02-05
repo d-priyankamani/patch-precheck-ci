@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/net/pkt_sched.h:16
+Symbol:
+Byte size 24
+struct qdisc_walker {
+0x0 stop "int"
+0x4 skip "int"
+0x8 count "int"
+0x10 fn * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+(NULL) "long unsigned int"
+(NULL) * @"struct--qdisc_walker.txt"
+)
+"int"
+}

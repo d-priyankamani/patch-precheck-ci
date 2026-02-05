@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/sched/wait_bit.c:147
+Symbol:
+func wake_up_bit (
+word * "void"
+bit "int"
+)
+"void"

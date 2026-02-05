@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/fb.h:342
+Symbol:
+Byte size 24
+struct fb_copyarea {
+0x0 dx @"typedef--__u32.txt"
+0x4 dy @"typedef--__u32.txt"
+0x8 width @"typedef--__u32.txt"
+0xc height @"typedef--__u32.txt"
+0x10 sx @"typedef--__u32.txt"
+0x14 sy @"typedef--__u32.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:80
+Symbol:
+Byte size 24
+Alignment 8
+struct roce_gid_ndev_storage {
+0x0 8 callback_head @"struct--callback_head.txt"
+0x10 ndev * @"struct--net_device.txt"
+}

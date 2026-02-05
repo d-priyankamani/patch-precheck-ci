@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/pci.h:841
+Symbol:
+Byte size 16
+struct pci_bus_region {
+0x0 start @"typedef--pci_bus_addr_t.txt"
+0x8 end @"typedef--pci_bus_addr_t.txt"
+}

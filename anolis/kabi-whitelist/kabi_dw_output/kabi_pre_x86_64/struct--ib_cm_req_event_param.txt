@@ -1,0 +1,26 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:85
+Symbol:
+Byte size 80
+struct ib_cm_req_event_param {
+0x0 listen_id * @"struct--ib_cm_id.txt"
+0x8 bth_pkey @"typedef--u16.txt"
+0xa port @"typedef--u8.txt"
+0x10 primary_path * @"struct--sa_path_rec.txt"
+0x18 alternate_path * @"struct--sa_path_rec.txt"
+0x20 ppath_sgid_attr * const @"struct--ib_gid_attr.txt"
+0x28 remote_ca_guid @"typedef--__be64.txt"
+0x30 remote_qkey @"typedef--u32.txt"
+0x34 remote_qpn @"typedef--u32.txt"
+0x38 qp_type @"enum--ib_qp_type.txt"
+0x3c starting_psn @"typedef--u32.txt"
+0x40 responder_resources @"typedef--u8.txt"
+0x41 initiator_depth @"typedef--u8.txt"
+0x42:0-5 local_cm_response_timeout "unsigned int"
+0x42:5-6 flow_control "unsigned int"
+0x42:6-11 remote_cm_response_timeout "unsigned int"
+0x43:3-6 retry_count "unsigned int"
+0x44:0-3 rnr_retry_count "unsigned int"
+0x44:3-4 srq "unsigned int"
+0x48 ece @"struct--rdma_ucm_ece.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/cpufreq/cpufreq.c:1940
+Symbol:
+func cpufreq_get (
+cpu "unsigned int"
+)
+"unsigned int"

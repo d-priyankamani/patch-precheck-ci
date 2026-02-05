@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/irq.h:1006
+Symbol:
+Byte size 56
+struct irq_chip_regs {
+0x0 enable "long unsigned int"
+0x8 disable "long unsigned int"
+0x10 mask "long unsigned int"
+0x18 ack "long unsigned int"
+0x20 eoi "long unsigned int"
+0x28 type "long unsigned int"
+0x30 polarity "long unsigned int"
+}

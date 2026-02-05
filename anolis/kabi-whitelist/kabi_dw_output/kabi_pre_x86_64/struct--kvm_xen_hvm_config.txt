@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/uapi/linux/kvm.h:1335
+Symbol:
+Byte size 56
+struct kvm_xen_hvm_config {
+0x0 flags @"typedef--__u32.txt"
+0x4 msr @"typedef--__u32.txt"
+0x8 blob_addr_32 @"typedef--__u64.txt"
+0x10 blob_addr_64 @"typedef--__u64.txt"
+0x18 blob_size_32 @"typedef--__u8.txt"
+0x19 blob_size_64 @"typedef--__u8.txt"
+0x1a pad2 [30]@"typedef--__u8.txt"
+}

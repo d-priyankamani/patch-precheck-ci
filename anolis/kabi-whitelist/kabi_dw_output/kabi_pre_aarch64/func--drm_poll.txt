@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_file.c:684
+Symbol:
+func drm_poll (
+filp * @"struct--file.txt"
+wait * @"struct--poll_table_struct.txt"
+)
+@"typedef--__poll_t.txt"

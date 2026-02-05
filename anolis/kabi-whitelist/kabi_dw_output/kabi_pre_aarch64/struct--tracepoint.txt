@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/tracepoint-defs.h:33
+Symbol:
+Byte size 88
+struct tracepoint {
+0x0 name * const "char"
+0x8 key @"struct--static_key.txt"
+0x18 static_call_key * @"struct--static_call_key.txt"
+0x20 static_call_tramp * "void"
+0x28 iterator * "void"
+0x30 probestub * "void"
+0x38 regfunc * func (NULL) (
+)
+"int"
+0x40 unregfunc * func (NULL) (
+)
+"void"
+0x48 funcs * @"struct--tracepoint_func.txt"
+0x50 ck_reserved1 "long unsigned int"
+}

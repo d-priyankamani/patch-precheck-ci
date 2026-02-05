@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/rcu/tree.c:4071
+Symbol:
+func rcu_barrier (
+)
+"void"

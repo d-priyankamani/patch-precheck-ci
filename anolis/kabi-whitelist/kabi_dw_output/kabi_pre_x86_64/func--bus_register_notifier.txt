@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/bus.c:964
+Symbol:
+func bus_register_notifier (
+bus * const @"struct--bus_type.txt"
+nb * @"struct--notifier_block.txt"
+)
+"int"

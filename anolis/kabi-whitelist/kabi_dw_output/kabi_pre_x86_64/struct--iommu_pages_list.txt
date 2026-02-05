@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/iommu.h:338
+Symbol:
+Byte size 16
+struct iommu_pages_list {
+0x0 pages @"struct--list_head.txt"
+}

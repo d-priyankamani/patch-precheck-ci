@@ -1,0 +1,14 @@
+Version: 1.0
+File: net/core/dev.c:6470
+Symbol:
+func netif_napi_add_weight (
+dev * @"struct--net_device.txt"
+napi * @"struct--napi_struct.txt"
+poll * func (NULL) (
+(NULL) * @"struct--napi_struct.txt"
+(NULL) "int"
+)
+"int"
+weight "int"
+)
+"void"

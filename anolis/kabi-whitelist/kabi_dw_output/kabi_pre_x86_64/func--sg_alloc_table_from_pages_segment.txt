@@ -1,0 +1,13 @@
+Version: 1.0
+File: lib/scatterlist.c:578
+Symbol:
+func sg_alloc_table_from_pages_segment (
+sgt * @"struct--sg_table.txt"
+pages * * @"struct--page.txt"
+n_pages "unsigned int"
+offset "unsigned int"
+size "long unsigned int"
+max_segment "unsigned int"
+gfp_mask @"typedef--gfp_t.txt"
+)
+"int"

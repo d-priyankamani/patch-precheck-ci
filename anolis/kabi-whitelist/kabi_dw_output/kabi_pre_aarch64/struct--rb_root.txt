@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/rbtree_types.h:12
+Symbol:
+Byte size 8
+struct rb_root {
+0x0 rb_node * @"struct--rb_node.txt"
+}

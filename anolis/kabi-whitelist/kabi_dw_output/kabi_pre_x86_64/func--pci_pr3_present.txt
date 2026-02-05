@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/pci.c:6701
+Symbol:
+func pci_pr3_present (
+pdev * @"struct--pci_dev.txt"
+)
+@"typedef--bool.txt"

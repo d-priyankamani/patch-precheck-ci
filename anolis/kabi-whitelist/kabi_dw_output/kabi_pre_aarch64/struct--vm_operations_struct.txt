@@ -1,0 +1,89 @@
+Version: 1.0
+File: include/linux/mm.h:589
+Symbol:
+Byte size 160
+struct vm_operations_struct {
+0x0 open * func (NULL) (
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"void"
+0x8 close * func (NULL) (
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"void"
+0x10 may_split * func (NULL) (
+(NULL) * @"struct--vm_area_struct.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x18 mremap * func (NULL) (
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+0x20 mprotect * func (NULL) (
+(NULL) * @"struct--vm_area_struct.txt"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x28 fault * func (NULL) (
+(NULL) * @"struct--vm_fault.txt"
+)
+@"typedef--vm_fault_t.txt"
+0x30 huge_fault * func (NULL) (
+(NULL) * @"struct--vm_fault.txt"
+(NULL) "unsigned int"
+)
+@"typedef--vm_fault_t.txt"
+0x38 map_pages * func (NULL) (
+(NULL) * @"struct--vm_fault.txt"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+)
+@"typedef--vm_fault_t.txt"
+0x40 pagesize * func (NULL) (
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"long unsigned int"
+0x48 page_mkwrite * func (NULL) (
+(NULL) * @"struct--vm_fault.txt"
+)
+@"typedef--vm_fault_t.txt"
+0x50 pfn_mkwrite * func (NULL) (
+(NULL) * @"struct--vm_fault.txt"
+)
+@"typedef--vm_fault_t.txt"
+0x58 access * func (NULL) (
+(NULL) * @"struct--vm_area_struct.txt"
+(NULL) "long unsigned int"
+(NULL) * "void"
+(NULL) "int"
+(NULL) "int"
+)
+"int"
+0x60 name * func (NULL) (
+(NULL) * @"struct--vm_area_struct.txt"
+)
+* const "char"
+0x68 set_policy * func (NULL) (
+(NULL) * @"struct--vm_area_struct.txt"
+(NULL) * @"struct--mempolicy.txt"
+)
+"int"
+0x70 get_policy * func (NULL) (
+(NULL) * @"struct--vm_area_struct.txt"
+(NULL) "long unsigned int"
+(NULL) * "long unsigned int"
+)
+* @"struct--mempolicy.txt"
+0x78 find_special_page * func (NULL) (
+(NULL) * @"struct--vm_area_struct.txt"
+(NULL) "long unsigned int"
+)
+* @"struct--page.txt"
+0x80 ck_reserved1 "long unsigned int"
+0x88 ck_reserved2 "long unsigned int"
+0x90 ck_reserved3 "long unsigned int"
+0x98 ck_reserved4 "long unsigned int"
+}

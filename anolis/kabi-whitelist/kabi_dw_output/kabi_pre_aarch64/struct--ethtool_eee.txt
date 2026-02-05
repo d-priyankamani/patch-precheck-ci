@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:370
+Symbol:
+Byte size 40
+struct ethtool_eee {
+0x0 cmd @"typedef--__u32.txt"
+0x4 supported @"typedef--__u32.txt"
+0x8 advertised @"typedef--__u32.txt"
+0xc lp_advertised @"typedef--__u32.txt"
+0x10 eee_active @"typedef--__u32.txt"
+0x14 eee_enabled @"typedef--__u32.txt"
+0x18 tx_lpi_enabled @"typedef--__u32.txt"
+0x1c tx_lpi_timer @"typedef--__u32.txt"
+0x20 reserved [2]@"typedef--__u32.txt"
+}

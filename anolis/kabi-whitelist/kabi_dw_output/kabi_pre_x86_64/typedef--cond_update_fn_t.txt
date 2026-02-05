@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/trace/trace.h:258
+Symbol:
+Byte size 8
+typedef cond_update_fn_t
+* func (NULL) (
+(NULL) * @"struct--trace_array.txt"
+(NULL) * "void"
+)
+@"typedef--bool.txt"

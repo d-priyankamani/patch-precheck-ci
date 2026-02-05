@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/dim/net_dim.c:60
+Symbol:
+func net_dim_get_rx_moderation (
+cq_period_mode @"typedef--u8.txt"
+ix "int"
+)
+@"struct--dim_cq_moder.txt"

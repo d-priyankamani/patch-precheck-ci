@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2074
+Symbol:
+func ib_destroy_qp_user (
+qp * @"struct--ib_qp.txt"
+udata * @"struct--ib_udata.txt"
+)
+"int"

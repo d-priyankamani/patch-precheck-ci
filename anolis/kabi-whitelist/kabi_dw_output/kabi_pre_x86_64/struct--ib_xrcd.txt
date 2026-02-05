@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1568
+Symbol:
+Byte size 80
+struct ib_xrcd {
+0x0 device * @"struct--ib_device.txt"
+0x8 usecnt @"typedef--atomic_t.txt"
+0x10 inode * @"struct--inode.txt"
+0x18 tgt_qps_rwsem @"struct--rw_semaphore.txt"
+0x40 tgt_qps @"struct--xarray.txt"
+}

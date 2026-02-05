@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/rbtree.c:466
+Symbol:
+func rb_first (
+root * const @"struct--rb_root.txt"
+)
+* @"struct--rb_node.txt"

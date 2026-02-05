@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/socket.c:3569
+Symbol:
+func kernel_listen (
+sock * @"struct--socket.txt"
+backlog "int"
+)
+"int"

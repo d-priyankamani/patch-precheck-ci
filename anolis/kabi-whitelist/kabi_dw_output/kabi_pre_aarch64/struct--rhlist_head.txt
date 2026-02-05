@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/rhashtable-types.h:21
+Symbol:
+Byte size 16
+struct rhlist_head {
+0x0 rhead @"struct--rhash_head.txt"
+0x8 next * @"struct--rhlist_head.txt"
+}

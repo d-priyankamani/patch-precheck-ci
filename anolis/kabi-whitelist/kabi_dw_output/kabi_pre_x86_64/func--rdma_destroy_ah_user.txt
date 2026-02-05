@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:970
+Symbol:
+func rdma_destroy_ah_user (
+ah * @"struct--ib_ah.txt"
+flags @"typedef--u32.txt"
+udata * @"struct--ib_udata.txt"
+)
+"int"

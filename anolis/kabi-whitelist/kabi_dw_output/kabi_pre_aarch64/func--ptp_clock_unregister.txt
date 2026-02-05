@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/ptp/ptp_clock.c:363
+Symbol:
+func ptp_clock_unregister (
+ptp * @"struct--ptp_clock.txt"
+)
+"int"

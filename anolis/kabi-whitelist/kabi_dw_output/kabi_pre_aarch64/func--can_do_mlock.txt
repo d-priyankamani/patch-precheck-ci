@@ -1,0 +1,6 @@
+Version: 1.0
+File: mm/mlock.c:40
+Symbol:
+func can_do_mlock (
+)
+@"typedef--bool.txt"

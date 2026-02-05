@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/net/nexthop.h:80
+Symbol:
+Byte size 240
+struct nh_res_table {
+0x0 net * @"struct--net.txt"
+0x8 nhg_id @"typedef--u32.txt"
+0x10 upkeep_dw @"struct--delayed_work.txt"
+0xc8 uw_nh_entries @"struct--list_head.txt"
+0xd8 unbalanced_since "long unsigned int"
+0xe0 idle_timer @"typedef--u32.txt"
+0xe4 unbalanced_timer @"typedef--u32.txt"
+0xe8 num_nh_buckets @"typedef--u16.txt"
+0xf0 nh_buckets [0]@"struct--nh_res_bucket.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/list_lru.h:32
+Symbol:
+Byte size 24
+struct list_lru_one {
+0x0 list @"struct--list_head.txt"
+0x10 nr_items "long int"
+}

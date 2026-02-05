@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/pci/vpd.c:493
+Symbol:
+func pci_vpd_find_ro_info_keyword (
+buf * const "void"
+len "unsigned int"
+kw * const "char"
+size * "unsigned int"
+)
+"int"

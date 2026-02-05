@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/kvm/arm_vgic.h:187
+Symbol:
+Byte size 200
+struct vgic_its {
+0x0 vgic_its_base @"typedef--gpa_t.txt"
+0x8 enabled @"typedef--bool.txt"
+0x10 iodev @"struct--vgic_io_device.txt"
+0x38 dev * @"struct--kvm_device.txt"
+0x40 baser_device_table @"typedef--u64.txt"
+0x48 baser_coll_table @"typedef--u64.txt"
+0x50 cmd_lock @"struct--mutex.txt"
+0x70 cbaser @"typedef--u64.txt"
+0x78 creadr @"typedef--u32.txt"
+0x7c cwriter @"typedef--u32.txt"
+0x80 abi_rev @"typedef--u32.txt"
+0x88 its_lock @"struct--mutex.txt"
+0xa8 device_list @"struct--list_head.txt"
+0xb8 collection_list @"struct--list_head.txt"
+}

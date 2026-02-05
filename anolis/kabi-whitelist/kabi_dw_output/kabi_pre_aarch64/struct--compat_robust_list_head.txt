@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/compat.h:392
+Symbol:
+Byte size 12
+struct compat_robust_list_head {
+0x0 list @"struct--compat_robust_list.txt"
+0x4 futex_offset @"typedef--compat_long_t.txt"
+0x8 list_op_pending @"typedef--compat_uptr_t.txt"
+}

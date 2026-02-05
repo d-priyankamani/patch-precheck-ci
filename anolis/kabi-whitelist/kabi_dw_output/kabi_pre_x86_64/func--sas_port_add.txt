@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_transport_sas.c:973
+Symbol:
+func sas_port_add (
+port * @"struct--sas_port.txt"
+)
+"int"

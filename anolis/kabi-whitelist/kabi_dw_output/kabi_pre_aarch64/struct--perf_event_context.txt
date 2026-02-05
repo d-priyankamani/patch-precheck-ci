@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/linux/perf_event.h:950
+Symbol:
+Byte size 232
+Alignment 8
+struct perf_event_context {
+0x0 lock @"typedef--raw_spinlock_t.txt"
+0x8 mutex @"struct--mutex.txt"
+0x28 pmu_ctx_list @"struct--list_head.txt"
+0x38 pinned_groups @"struct--perf_event_groups.txt"
+0x48 flexible_groups @"struct--perf_event_groups.txt"
+0x58 event_list @"struct--list_head.txt"
+0x68 nr_events "int"
+0x6c nr_user "int"
+0x70 is_active "int"
+0x74 nr_task_data "int"
+0x78 nr_stat "int"
+0x7c nr_freq "int"
+0x80 rotate_disable "int"
+0x84 refcount @"typedef--refcount_t.txt"
+0x88 task * @"struct--task_struct.txt"
+0x90 time @"typedef--u64.txt"
+0x98 timestamp @"typedef--u64.txt"
+0xa0 timeoffset @"typedef--u64.txt"
+0xa8 parent_ctx * @"struct--perf_event_context.txt"
+0xb0 parent_gen @"typedef--u64.txt"
+0xb8 generation @"typedef--u64.txt"
+0xc0 pin_count "int"
+0xc4 nr_cgroups "int"
+0xc8 8 callback_head @"struct--callback_head.txt"
+0xd8 nr_pending @"typedef--local_t.txt"
+0xe0 ck_reserved1 "long unsigned int"
+}

@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/mmzone.h:1468
+Symbol:
+Alignment 64
+typedef pg_data_t
+@"struct--pglist_data.txt"

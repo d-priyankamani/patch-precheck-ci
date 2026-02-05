@@ -1,0 +1,5 @@
+Version: 1.0
+File: <built-in>:0
+Symbol:
+typedef __builtin_va_list
+[1]@"struct--__va_list_tag.txt"

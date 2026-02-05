@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/uapi/linux/dcbnl.h:58
+Symbol:
+Byte size 59
+struct ieee_ets {
+0x0 willing @"typedef--__u8.txt"
+0x1 ets_cap @"typedef--__u8.txt"
+0x2 cbs @"typedef--__u8.txt"
+0x3 tc_tx_bw [8]@"typedef--__u8.txt"
+0xb tc_rx_bw [8]@"typedef--__u8.txt"
+0x13 tc_tsa [8]@"typedef--__u8.txt"
+0x1b prio_tc [8]@"typedef--__u8.txt"
+0x23 tc_reco_bw [8]@"typedef--__u8.txt"
+0x2b tc_reco_tsa [8]@"typedef--__u8.txt"
+0x33 reco_prio_tc [8]@"typedef--__u8.txt"
+}

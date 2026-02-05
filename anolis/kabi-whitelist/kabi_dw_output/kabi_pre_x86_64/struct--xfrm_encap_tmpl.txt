@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/xfrm.h:254
+Symbol:
+Byte size 24
+struct xfrm_encap_tmpl {
+0x0 encap_type @"typedef--__u16.txt"
+0x2 encap_sport @"typedef--__be16.txt"
+0x4 encap_dport @"typedef--__be16.txt"
+0x8 encap_oa @"typedef--xfrm_address_t.txt"
+}

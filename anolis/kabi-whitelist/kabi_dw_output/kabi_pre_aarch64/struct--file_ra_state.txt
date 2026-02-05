@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/fs.h:982
+Symbol:
+Byte size 32
+struct file_ra_state {
+0x0 start "long unsigned int"
+0x8 size "unsigned int"
+0xc async_size "unsigned int"
+0x10 ra_pages "unsigned int"
+0x14 mmap_miss "unsigned int"
+0x18 prev_pos @"typedef--loff_t.txt"
+}

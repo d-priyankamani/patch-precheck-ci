@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/xarray.h:296
+Symbol:
+Byte size 16
+struct xarray {
+0x0 xa_lock @"typedef--spinlock_t.txt"
+0x4 xa_flags @"typedef--gfp_t.txt"
+0x8 xa_head * "void"
+}

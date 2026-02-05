@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/devlink/devl_internal.h:25
+Symbol:
+Byte size 48
+struct devlink_dev_stats {
+0x0 reload_stats [6]@"typedef--u32.txt"
+0x18 remote_reload_stats [6]@"typedef--u32.txt"
+}

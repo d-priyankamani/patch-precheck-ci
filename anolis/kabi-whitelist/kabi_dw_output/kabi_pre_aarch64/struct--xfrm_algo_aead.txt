@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/xfrm.h:115
+Symbol:
+Byte size 72
+struct xfrm_algo_aead {
+0x0 alg_name [64]"char"
+0x40 alg_key_len "unsigned int"
+0x44 alg_icv_len "unsigned int"
+0x48 alg_key [0]"char"
+}

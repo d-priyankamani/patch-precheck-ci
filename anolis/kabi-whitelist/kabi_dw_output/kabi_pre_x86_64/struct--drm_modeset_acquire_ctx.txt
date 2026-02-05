@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/drm_modeset_lock.h:46
+Symbol:
+Byte size 72
+struct drm_modeset_acquire_ctx {
+0x0 ww_ctx @"struct--ww_acquire_ctx.txt"
+0x18 contended * @"struct--drm_modeset_lock.txt"
+0x20 stack_depot @"typedef--depot_stack_handle_t.txt"
+0x28 locked @"struct--list_head.txt"
+0x38 trylock_only @"typedef--bool.txt"
+0x39 interruptible @"typedef--bool.txt"
+0x40 ck_reserved1 "long unsigned int"
+}

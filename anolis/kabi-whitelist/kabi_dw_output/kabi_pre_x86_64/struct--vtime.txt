@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/sched.h:353
+Symbol:
+Byte size 48
+struct vtime {
+0x0 seqcount @"typedef--seqcount_t.txt"
+0x8 starttime "long long unsigned int"
+0x10 state @"enum--vtime_state.txt"
+0x14 cpu "unsigned int"
+0x18 utime @"typedef--u64.txt"
+0x20 stime @"typedef--u64.txt"
+0x28 gtime @"typedef--u64.txt"
+}

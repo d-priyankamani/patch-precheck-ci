@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/d_path.c:414
+Symbol:
+func dentry_path_raw (
+dentry * const @"struct--dentry.txt"
+buf * "char"
+buflen "int"
+)
+* "char"

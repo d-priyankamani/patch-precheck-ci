@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/kvm_types.h:49
+Symbol:
+typedef kvm_pfn_t
+@"typedef--hfn_t.txt"

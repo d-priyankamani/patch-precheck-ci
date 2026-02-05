@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpio/gpiolib.c:126
+Symbol:
+func gpio_to_desc (
+gpio "unsigned int"
+)
+* @"struct--gpio_desc.txt"

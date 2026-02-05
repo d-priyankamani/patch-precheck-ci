@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/macsec.h:100
+Symbol:
+Byte size 32
+struct macsec_tx_sc_stats {
+0x0 OutPktsProtected @"typedef--__u64.txt"
+0x8 OutPktsEncrypted @"typedef--__u64.txt"
+0x10 OutOctetsProtected @"typedef--__u64.txt"
+0x18 OutOctetsEncrypted @"typedef--__u64.txt"
+}

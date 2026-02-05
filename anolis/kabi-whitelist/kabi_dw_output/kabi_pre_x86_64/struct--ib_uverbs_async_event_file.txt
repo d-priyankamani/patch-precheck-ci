@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs.h:125
+Symbol:
+Byte size 184
+Alignment 8
+struct ib_uverbs_async_event_file {
+0x0 8 uobj @"struct--ib_uobject.txt"
+0x60 ev_queue @"struct--ib_uverbs_event_queue.txt"
+0x98 event_handler @"struct--ib_event_handler.txt"
+}

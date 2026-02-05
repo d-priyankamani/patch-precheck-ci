@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/drm/drm_auth.h:65
+Symbol:
+Byte size 224
+struct drm_master {
+0x0 refcount @"struct--kref.txt"
+0x8 dev * @"struct--drm_device.txt"
+0x10 unique * "char"
+0x18 unique_len "int"
+0x20 magic_map @"struct--idr.txt"
+0x38 driver_priv * "void"
+0x40 lessor * @"struct--drm_master.txt"
+0x48 lessee_id "int"
+0x50 lessee_list @"struct--list_head.txt"
+0x60 lessees @"struct--list_head.txt"
+0x70 leases @"struct--idr.txt"
+0x88 lessee_idr @"struct--idr.txt"
+0xa0 lock @"struct--drm_lock_data.txt"
+}

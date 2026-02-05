@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/trace/trace.h:530
+Symbol:
+Byte size 32
+struct trace_option_dentry {
+0x0 opt * @"struct--tracer_opt.txt"
+0x8 flags * @"struct--tracer_flags.txt"
+0x10 tr * @"struct--trace_array.txt"
+0x18 entry * @"struct--dentry.txt"
+}

@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/errseq.h:8
+Symbol:
+typedef errseq_t
+@"typedef--u32.txt"

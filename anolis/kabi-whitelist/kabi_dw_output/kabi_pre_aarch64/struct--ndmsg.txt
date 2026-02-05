@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/uapi/linux/neighbour.h:8
+Symbol:
+Byte size 12
+struct ndmsg {
+0x0 ndm_family @"typedef--__u8.txt"
+0x1 ndm_pad1 @"typedef--__u8.txt"
+0x2 ndm_pad2 @"typedef--__u16.txt"
+0x4 ndm_ifindex @"typedef--__s32.txt"
+0x8 ndm_state @"typedef--__u16.txt"
+0xa ndm_flags @"typedef--__u8.txt"
+0xb ndm_type @"typedef--__u8.txt"
+}

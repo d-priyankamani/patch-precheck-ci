@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/drm_connector.h:426
+Symbol:
+Byte size 4
+enum drm_privacy_screen_status {
+PRIVACY_SCREEN_DISABLED = 0x0
+PRIVACY_SCREEN_ENABLED = 0x1
+PRIVACY_SCREEN_DISABLED_LOCKED = 0x2
+PRIVACY_SCREEN_ENABLED_LOCKED = 0x3
+}

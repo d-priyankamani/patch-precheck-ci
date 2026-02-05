@@ -1,0 +1,251 @@
+Version: 1.0
+File: include/uapi/linux/bpf.h:1378
+Symbol:
+Byte size 144
+Alignment 8
+union bpf_attr {
+(NULL) struct (NULL) {
+0x0 map_type @"typedef--__u32.txt"
+0x4 key_size @"typedef--__u32.txt"
+0x8 value_size @"typedef--__u32.txt"
+0xc max_entries @"typedef--__u32.txt"
+0x10 map_flags @"typedef--__u32.txt"
+0x14 inner_map_fd @"typedef--__u32.txt"
+0x18 numa_node @"typedef--__u32.txt"
+0x1c map_name [16]"char"
+0x2c map_ifindex @"typedef--__u32.txt"
+0x30 btf_fd @"typedef--__u32.txt"
+0x34 btf_key_type_id @"typedef--__u32.txt"
+0x38 btf_value_type_id @"typedef--__u32.txt"
+0x3c btf_vmlinux_value_type_id @"typedef--__u32.txt"
+0x40 map_extra @"typedef--__u64.txt"
+0x48 value_type_btf_obj_fd @"typedef--__s32.txt"
+}
+(NULL) struct (NULL) {
+0x0 map_fd @"typedef--__u32.txt"
+0x8 8 key @"typedef--__u64.txt"
+0x10 8 (NULL) union (NULL) {
+value @"typedef--__u64.txt"
+next_key @"typedef--__u64.txt"
+}
+0x18 flags @"typedef--__u64.txt"
+}
+batch struct (NULL) {
+0x0 8 in_batch @"typedef--__u64.txt"
+0x8 8 out_batch @"typedef--__u64.txt"
+0x10 8 keys @"typedef--__u64.txt"
+0x18 8 values @"typedef--__u64.txt"
+0x20 count @"typedef--__u32.txt"
+0x24 map_fd @"typedef--__u32.txt"
+0x28 elem_flags @"typedef--__u64.txt"
+0x30 flags @"typedef--__u64.txt"
+}
+(NULL) struct (NULL) {
+0x0 prog_type @"typedef--__u32.txt"
+0x4 insn_cnt @"typedef--__u32.txt"
+0x8 8 insns @"typedef--__u64.txt"
+0x10 8 license @"typedef--__u64.txt"
+0x18 log_level @"typedef--__u32.txt"
+0x1c log_size @"typedef--__u32.txt"
+0x20 8 log_buf @"typedef--__u64.txt"
+0x28 kern_version @"typedef--__u32.txt"
+0x2c prog_flags @"typedef--__u32.txt"
+0x30 prog_name [16]"char"
+0x40 prog_ifindex @"typedef--__u32.txt"
+0x44 expected_attach_type @"typedef--__u32.txt"
+0x48 prog_btf_fd @"typedef--__u32.txt"
+0x4c func_info_rec_size @"typedef--__u32.txt"
+0x50 8 func_info @"typedef--__u64.txt"
+0x58 func_info_cnt @"typedef--__u32.txt"
+0x5c line_info_rec_size @"typedef--__u32.txt"
+0x60 8 line_info @"typedef--__u64.txt"
+0x68 line_info_cnt @"typedef--__u32.txt"
+0x6c attach_btf_id @"typedef--__u32.txt"
+0x70 (NULL) union (NULL) {
+attach_prog_fd @"typedef--__u32.txt"
+attach_btf_obj_fd @"typedef--__u32.txt"
+}
+0x74 core_relo_cnt @"typedef--__u32.txt"
+0x78 8 fd_array @"typedef--__u64.txt"
+0x80 8 core_relos @"typedef--__u64.txt"
+0x88 core_relo_rec_size @"typedef--__u32.txt"
+0x8c log_true_size @"typedef--__u32.txt"
+}
+(NULL) struct (NULL) {
+0x0 8 pathname @"typedef--__u64.txt"
+0x8 bpf_fd @"typedef--__u32.txt"
+0xc file_flags @"typedef--__u32.txt"
+0x10 path_fd @"typedef--__s32.txt"
+}
+(NULL) struct (NULL) {
+0x0 (NULL) union (NULL) {
+target_fd @"typedef--__u32.txt"
+target_ifindex @"typedef--__u32.txt"
+}
+0x4 attach_bpf_fd @"typedef--__u32.txt"
+0x8 attach_type @"typedef--__u32.txt"
+0xc attach_flags @"typedef--__u32.txt"
+0x10 replace_bpf_fd @"typedef--__u32.txt"
+0x14 (NULL) union (NULL) {
+relative_fd @"typedef--__u32.txt"
+relative_id @"typedef--__u32.txt"
+}
+0x18 expected_revision @"typedef--__u64.txt"
+}
+test struct (NULL) {
+0x0 prog_fd @"typedef--__u32.txt"
+0x4 retval @"typedef--__u32.txt"
+0x8 data_size_in @"typedef--__u32.txt"
+0xc data_size_out @"typedef--__u32.txt"
+0x10 8 data_in @"typedef--__u64.txt"
+0x18 8 data_out @"typedef--__u64.txt"
+0x20 repeat @"typedef--__u32.txt"
+0x24 duration @"typedef--__u32.txt"
+0x28 ctx_size_in @"typedef--__u32.txt"
+0x2c ctx_size_out @"typedef--__u32.txt"
+0x30 8 ctx_in @"typedef--__u64.txt"
+0x38 8 ctx_out @"typedef--__u64.txt"
+0x40 flags @"typedef--__u32.txt"
+0x44 cpu @"typedef--__u32.txt"
+0x48 batch_size @"typedef--__u32.txt"
+}
+(NULL) struct (NULL) {
+0x0 (NULL) union (NULL) {
+start_id @"typedef--__u32.txt"
+prog_id @"typedef--__u32.txt"
+map_id @"typedef--__u32.txt"
+btf_id @"typedef--__u32.txt"
+link_id @"typedef--__u32.txt"
+}
+0x4 next_id @"typedef--__u32.txt"
+0x8 open_flags @"typedef--__u32.txt"
+}
+info struct (NULL) {
+0x0 bpf_fd @"typedef--__u32.txt"
+0x4 info_len @"typedef--__u32.txt"
+0x8 8 info @"typedef--__u64.txt"
+}
+query struct (NULL) {
+0x0 (NULL) union (NULL) {
+target_fd @"typedef--__u32.txt"
+target_ifindex @"typedef--__u32.txt"
+}
+0x4 attach_type @"typedef--__u32.txt"
+0x8 query_flags @"typedef--__u32.txt"
+0xc attach_flags @"typedef--__u32.txt"
+0x10 8 prog_ids @"typedef--__u64.txt"
+0x18 (NULL) union (NULL) {
+prog_cnt @"typedef--__u32.txt"
+count @"typedef--__u32.txt"
+}
+0x20 8 prog_attach_flags @"typedef--__u64.txt"
+0x28 8 link_ids @"typedef--__u64.txt"
+0x30 8 link_attach_flags @"typedef--__u64.txt"
+0x38 revision @"typedef--__u64.txt"
+}
+raw_tracepoint struct (NULL) {
+0x0 name @"typedef--__u64.txt"
+0x8 prog_fd @"typedef--__u32.txt"
+}
+(NULL) struct (NULL) {
+0x0 8 btf @"typedef--__u64.txt"
+0x8 8 btf_log_buf @"typedef--__u64.txt"
+0x10 btf_size @"typedef--__u32.txt"
+0x14 btf_log_size @"typedef--__u32.txt"
+0x18 btf_log_level @"typedef--__u32.txt"
+0x1c btf_log_true_size @"typedef--__u32.txt"
+}
+task_fd_query struct (NULL) {
+0x0 pid @"typedef--__u32.txt"
+0x4 fd @"typedef--__u32.txt"
+0x8 flags @"typedef--__u32.txt"
+0xc buf_len @"typedef--__u32.txt"
+0x10 8 buf @"typedef--__u64.txt"
+0x18 prog_id @"typedef--__u32.txt"
+0x1c fd_type @"typedef--__u32.txt"
+0x20 probe_offset @"typedef--__u64.txt"
+0x28 probe_addr @"typedef--__u64.txt"
+}
+link_create struct (NULL) {
+0x0 (NULL) union (NULL) {
+prog_fd @"typedef--__u32.txt"
+map_fd @"typedef--__u32.txt"
+}
+0x4 (NULL) union (NULL) {
+target_fd @"typedef--__u32.txt"
+target_ifindex @"typedef--__u32.txt"
+}
+0x8 attach_type @"typedef--__u32.txt"
+0xc flags @"typedef--__u32.txt"
+0x10 8 (NULL) union (NULL) {
+target_btf_id @"typedef--__u32.txt"
+(NULL) struct (NULL) {
+0x0 8 iter_info @"typedef--__u64.txt"
+0x8 iter_info_len @"typedef--__u32.txt"
+}
+perf_event struct (NULL) {
+0x0 bpf_cookie @"typedef--__u64.txt"
+}
+kprobe_multi struct (NULL) {
+0x0 flags @"typedef--__u32.txt"
+0x4 cnt @"typedef--__u32.txt"
+0x8 8 syms @"typedef--__u64.txt"
+0x10 8 addrs @"typedef--__u64.txt"
+0x18 8 cookies @"typedef--__u64.txt"
+}
+tracing struct (NULL) {
+0x0 target_btf_id @"typedef--__u32.txt"
+0x8 cookie @"typedef--__u64.txt"
+}
+netfilter struct (NULL) {
+0x0 pf @"typedef--__u32.txt"
+0x4 hooknum @"typedef--__u32.txt"
+0x8 priority @"typedef--__s32.txt"
+0xc flags @"typedef--__u32.txt"
+}
+tcx struct (NULL) {
+0x0 (NULL) union (NULL) {
+relative_fd @"typedef--__u32.txt"
+relative_id @"typedef--__u32.txt"
+}
+0x8 expected_revision @"typedef--__u64.txt"
+}
+uprobe_multi struct (NULL) {
+0x0 8 path @"typedef--__u64.txt"
+0x8 8 offsets @"typedef--__u64.txt"
+0x10 8 ref_ctr_offsets @"typedef--__u64.txt"
+0x18 8 cookies @"typedef--__u64.txt"
+0x20 cnt @"typedef--__u32.txt"
+0x24 flags @"typedef--__u32.txt"
+0x28 pid @"typedef--__u32.txt"
+}
+}
+}
+link_update struct (NULL) {
+0x0 link_fd @"typedef--__u32.txt"
+0x4 (NULL) union (NULL) {
+new_prog_fd @"typedef--__u32.txt"
+new_map_fd @"typedef--__u32.txt"
+}
+0x8 flags @"typedef--__u32.txt"
+0xc (NULL) union (NULL) {
+old_prog_fd @"typedef--__u32.txt"
+old_map_fd @"typedef--__u32.txt"
+}
+}
+link_detach struct (NULL) {
+0x0 link_fd @"typedef--__u32.txt"
+}
+enable_stats struct (NULL) {
+0x0 type @"typedef--__u32.txt"
+}
+iter_create struct (NULL) {
+0x0 link_fd @"typedef--__u32.txt"
+0x4 flags @"typedef--__u32.txt"
+}
+prog_bind_map struct (NULL) {
+0x0 prog_fd @"typedef--__u32.txt"
+0x4 map_fd @"typedef--__u32.txt"
+0x8 flags @"typedef--__u32.txt"
+}
+}

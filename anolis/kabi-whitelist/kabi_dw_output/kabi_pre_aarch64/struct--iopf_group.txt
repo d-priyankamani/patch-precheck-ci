@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/iommu.h:130
+Symbol:
+Byte size 208
+struct iopf_group {
+0x0 last_fault @"struct--iopf_fault.txt"
+0x40 faults @"struct--list_head.txt"
+0x50 fault_count @"typedef--size_t.txt"
+0x58 pending_node @"struct--list_head.txt"
+0x68 work @"struct--work_struct.txt"
+0xa8 attach_handle * @"struct--iommu_attach_handle.txt"
+0xb0 fault_param * @"struct--iommu_fault_param.txt"
+0xb8 node @"struct--list_head.txt"
+0xc8 cookie @"typedef--u32.txt"
+}

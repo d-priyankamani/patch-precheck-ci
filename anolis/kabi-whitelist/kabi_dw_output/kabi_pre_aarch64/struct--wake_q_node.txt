@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/sched.h:813
+Symbol:
+Byte size 8
+struct wake_q_node {
+0x0 next * @"struct--wake_q_node.txt"
+}

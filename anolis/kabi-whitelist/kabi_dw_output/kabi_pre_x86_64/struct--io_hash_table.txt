@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:42
+Symbol:
+Byte size 16
+struct io_hash_table {
+0x0 hbs * @"struct--io_hash_bucket.txt"
+0x8 hash_bits "unsigned int"
+}

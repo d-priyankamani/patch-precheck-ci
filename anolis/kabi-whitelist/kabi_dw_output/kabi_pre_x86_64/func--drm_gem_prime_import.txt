@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_prime.c:980
+Symbol:
+func drm_gem_prime_import (
+dev * @"struct--drm_device.txt"
+dma_buf * @"struct--dma_buf.txt"
+)
+* @"struct--drm_gem_object.txt"

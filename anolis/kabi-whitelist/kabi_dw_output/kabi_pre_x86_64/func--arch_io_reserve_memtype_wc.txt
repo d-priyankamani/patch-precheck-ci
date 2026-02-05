@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/x86/mm/pat/memtype.c:770
+Symbol:
+func arch_io_reserve_memtype_wc (
+start @"typedef--resource_size_t.txt"
+size @"typedef--resource_size_t.txt"
+)
+"int"

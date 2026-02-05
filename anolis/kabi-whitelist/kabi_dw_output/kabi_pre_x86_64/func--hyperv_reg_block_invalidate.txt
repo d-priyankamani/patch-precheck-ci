@@ -1,0 +1,13 @@
+Version: 1.0
+File: drivers/pci/controller/pci-hyperv-intf.c:42
+Symbol:
+func hyperv_reg_block_invalidate (
+dev * @"<declarations>/struct--pci_dev.txt"
+context * "void"
+block_invalidate * func (NULL) (
+(NULL) * "void"
+(NULL) @"typedef--u64.txt"
+)
+"void"
+)
+"int"

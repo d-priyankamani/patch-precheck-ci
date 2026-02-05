@@ -1,0 +1,14 @@
+Version: 1.0
+File: mm/slab_common.c:392
+Symbol:
+func kmem_cache_create (
+name * const "char"
+size "unsigned int"
+align "unsigned int"
+flags @"typedef--slab_flags_t.txt"
+ctor * func (NULL) (
+(NULL) * "void"
+)
+"void"
+)
+* @"struct--kmem_cache.txt"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/dma-buf.h:456
+Symbol:
+Byte size 16
+struct dma_buf_attach_ops {
+0x0 allow_peer2peer @"typedef--bool.txt"
+0x8 move_notify * func (NULL) (
+(NULL) * @"struct--dma_buf_attachment.txt"
+)
+"void"
+}

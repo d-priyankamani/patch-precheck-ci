@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/debugfs/inode.c:791
+Symbol:
+func debugfs_lookup_and_remove (
+name * const "char"
+parent * @"struct--dentry.txt"
+)
+"void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/umem_dmabuf.c:15
+Symbol:
+func ib_umem_dmabuf_map_pages (
+umem_dmabuf * @"struct--ib_umem_dmabuf.txt"
+)
+"int"

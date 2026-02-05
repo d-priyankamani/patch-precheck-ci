@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/iommu.h:392
+Symbol:
+Byte size 16
+struct iommu_dirty_ops {
+0x0 set_dirty_tracking * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x8 read_and_clear_dirty * func (NULL) (
+(NULL) * @"struct--iommu_domain.txt"
+(NULL) "long unsigned int"
+(NULL) @"typedef--size_t.txt"
+(NULL) "long unsigned int"
+(NULL) * @"struct--iommu_dirty_bitmap.txt"
+)
+"int"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/time/timer.c:1188
+Symbol:
+func mod_timer (
+timer * @"struct--timer_list.txt"
+expires "long unsigned int"
+)
+"int"

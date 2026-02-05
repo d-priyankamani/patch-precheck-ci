@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/dma-buf.h:508
+Symbol:
+Byte size 72
+struct dma_buf_attachment {
+0x0 dmabuf * @"struct--dma_buf.txt"
+0x8 dev * @"struct--device.txt"
+0x10 node @"struct--list_head.txt"
+0x20 sgt * @"struct--sg_table.txt"
+0x28 dir @"enum--dma_data_direction.txt"
+0x2c peer2peer @"typedef--bool.txt"
+0x30 importer_ops * const @"struct--dma_buf_attach_ops.txt"
+0x38 importer_priv * "void"
+0x40 priv * "void"
+}

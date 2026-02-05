@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/xdp.c:454
+Symbol:
+func xdp_flush_frame_bulk (
+bq * @"struct--xdp_frame_bulk.txt"
+)
+"void"

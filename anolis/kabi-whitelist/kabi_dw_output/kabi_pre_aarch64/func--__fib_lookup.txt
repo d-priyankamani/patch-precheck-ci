@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/ipv4/fib_rules.c:81
+Symbol:
+func __fib_lookup (
+net * @"struct--net.txt"
+flp * @"struct--flowi4.txt"
+res * @"struct--fib_result.txt"
+flags "unsigned int"
+)
+"int"

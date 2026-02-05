@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/spinlock_types_raw.h:23
+Symbol:
+typedef raw_spinlock_t
+@"struct--raw_spinlock.txt"

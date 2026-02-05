@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/kernfs.h:259
+Symbol:
+Byte size 152
+struct kernfs_open_file {
+0x0 kn * @"struct--kernfs_node.txt"
+0x8 file * @"struct--file.txt"
+0x10 seq_file * @"struct--seq_file.txt"
+0x18 priv * "void"
+0x20 mutex @"struct--mutex.txt"
+0x40 prealloc_mutex @"struct--mutex.txt"
+0x60 event "int"
+0x68 list @"struct--list_head.txt"
+0x78 prealloc_buf * "char"
+0x80 atomic_write_len @"typedef--size_t.txt"
+0x88:0-1 mmapped @"typedef--bool.txt"
+0x88:1-2 released @"typedef--bool.txt"
+0x90 vm_ops * const @"struct--vm_operations_struct.txt"
+}

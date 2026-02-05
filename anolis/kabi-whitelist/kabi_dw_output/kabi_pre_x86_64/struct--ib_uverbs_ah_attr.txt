@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/uapi/rdma/ib_user_verbs.h:537
+Symbol:
+Byte size 32
+struct ib_uverbs_ah_attr {
+0x0 grh @"struct--ib_uverbs_global_route.txt"
+0x18 dlid @"typedef--__u16.txt"
+0x1a sl @"typedef--__u8.txt"
+0x1b src_path_bits @"typedef--__u8.txt"
+0x1c static_rate @"typedef--__u8.txt"
+0x1d is_global @"typedef--__u8.txt"
+0x1e port_num @"typedef--__u8.txt"
+0x1f reserved @"typedef--__u8.txt"
+}

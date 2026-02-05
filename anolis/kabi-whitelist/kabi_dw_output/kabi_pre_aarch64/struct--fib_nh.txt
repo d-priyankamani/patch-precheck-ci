@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/net/ip_fib.h:105
+Symbol:
+Byte size 112
+struct fib_nh {
+0x0 nh_common @"struct--fib_nh_common.txt"
+0x48 nh_hash @"struct--hlist_node.txt"
+0x58 nh_parent * @"struct--fib_info.txt"
+0x60 nh_tclassid @"typedef--__u32.txt"
+0x64 nh_saddr @"typedef--__be32.txt"
+0x68 nh_saddr_genid "int"
+}

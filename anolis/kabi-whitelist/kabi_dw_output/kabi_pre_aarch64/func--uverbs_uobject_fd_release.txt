@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/rdma_core.c:808
+Symbol:
+func uverbs_uobject_fd_release (
+inode * @"struct--inode.txt"
+filp * @"struct--file.txt"
+)
+"int"

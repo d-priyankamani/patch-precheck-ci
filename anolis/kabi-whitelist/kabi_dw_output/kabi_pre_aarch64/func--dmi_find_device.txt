@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/firmware/dmi_scan.c:999
+Symbol:
+func dmi_find_device (
+type "int"
+name * const "char"
+from * const @"struct--dmi_device.txt"
+)
+* const @"struct--dmi_device.txt"

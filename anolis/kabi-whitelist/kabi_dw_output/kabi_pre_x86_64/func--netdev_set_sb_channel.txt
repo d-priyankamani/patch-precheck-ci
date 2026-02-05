@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:2931
+Symbol:
+func netdev_set_sb_channel (
+dev * @"struct--net_device.txt"
+channel @"typedef--u16.txt"
+)
+"int"

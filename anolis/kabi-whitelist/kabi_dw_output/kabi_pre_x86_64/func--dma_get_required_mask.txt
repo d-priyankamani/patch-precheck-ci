@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/dma/mapping.c:552
+Symbol:
+func dma_get_required_mask (
+dev * @"struct--device.txt"
+)
+@"typedef--u64.txt"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/time.c:523
+Symbol:
+func ns_to_timespec64 (
+nsec @"typedef--s64.txt"
+)
+@"struct--timespec64.txt"

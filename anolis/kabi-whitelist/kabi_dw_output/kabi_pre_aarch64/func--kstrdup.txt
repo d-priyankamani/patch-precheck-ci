@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/util.c:53
+Symbol:
+func kstrdup (
+s * const "char"
+gfp @"typedef--gfp_t.txt"
+)
+* "char"

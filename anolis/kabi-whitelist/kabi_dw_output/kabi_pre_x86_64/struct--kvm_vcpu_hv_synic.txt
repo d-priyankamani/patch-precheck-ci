@@ -1,0 +1,16 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:606
+Symbol:
+Byte size 296
+struct kvm_vcpu_hv_synic {
+0x0 version @"typedef--u64.txt"
+0x8 control @"typedef--u64.txt"
+0x10 msg_page @"typedef--u64.txt"
+0x18 evt_page @"typedef--u64.txt"
+0x20 sint [16]@"typedef--atomic64_t.txt"
+0xa0 sint_to_gsi [16]@"typedef--atomic_t.txt"
+0xe0 auto_eoi_bitmap [4]"long unsigned int"
+0x100 vec_bitmap [4]"long unsigned int"
+0x120 active @"typedef--bool.txt"
+0x121 dont_zero_synic_pages @"typedef--bool.txt"
+}

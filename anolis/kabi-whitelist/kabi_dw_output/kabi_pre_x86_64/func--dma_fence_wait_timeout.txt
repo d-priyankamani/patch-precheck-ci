@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:501
+Symbol:
+func dma_fence_wait_timeout (
+fence * @"struct--dma_fence.txt"
+intr @"typedef--bool.txt"
+timeout "long int"
+)
+"long int"

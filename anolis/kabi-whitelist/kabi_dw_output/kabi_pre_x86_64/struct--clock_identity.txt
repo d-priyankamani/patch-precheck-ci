@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/ptp_classify.h:59
+Symbol:
+Byte size 8
+struct clock_identity {
+0x0 id [8]@"typedef--u8.txt"
+}

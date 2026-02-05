@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/module.h:314
+Symbol:
+Byte size 4
+enum module_state {
+MODULE_STATE_LIVE = 0x0
+MODULE_STATE_COMING = 0x1
+MODULE_STATE_GOING = 0x2
+MODULE_STATE_UNFORMED = 0x3
+}

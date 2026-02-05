@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/dynamic_debug.h:85
+Symbol:
+Byte size 56
+struct ddebug_class_map {
+0x0 link @"struct--list_head.txt"
+0x10 mod * @"struct--module.txt"
+0x18 mod_name * const "char"
+0x20 class_names * * const "char"
+0x28 length const "int"
+0x2c base const "int"
+0x30 map_type @"enum--class_map_type.txt"
+}

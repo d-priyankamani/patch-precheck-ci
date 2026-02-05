@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/signal.c:1663
+Symbol:
+func send_sig (
+sig "int"
+p * @"struct--task_struct.txt"
+priv "int"
+)
+"int"

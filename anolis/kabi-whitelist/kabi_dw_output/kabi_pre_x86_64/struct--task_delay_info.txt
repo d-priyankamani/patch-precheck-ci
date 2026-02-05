@@ -1,0 +1,33 @@
+Version: 1.0
+File: include/linux/delayacct.h:13
+Symbol:
+Byte size 192
+struct task_delay_info {
+0x0 lock @"typedef--raw_spinlock_t.txt"
+0x8 blkio_start @"typedef--u64.txt"
+0x10 blkio_delay @"typedef--u64.txt"
+0x18 swapin_start @"typedef--u64.txt"
+0x20 swapin_delay @"typedef--u64.txt"
+0x28 blkio_count @"typedef--u32.txt"
+0x2c swapin_count @"typedef--u32.txt"
+0x30 freepages_start @"typedef--u64.txt"
+0x38 freepages_delay @"typedef--u64.txt"
+0x40 thrashing_start @"typedef--u64.txt"
+0x48 thrashing_delay @"typedef--u64.txt"
+0x50 compact_start @"typedef--u64.txt"
+0x58 compact_delay @"typedef--u64.txt"
+0x60 wpcopy_start @"typedef--u64.txt"
+0x68 wpcopy_delay @"typedef--u64.txt"
+0x70 irq_delay @"typedef--u64.txt"
+0x78 freepages_count @"typedef--u32.txt"
+0x7c thrashing_count @"typedef--u32.txt"
+0x80 compact_count @"typedef--u32.txt"
+0x84 wpcopy_count @"typedef--u32.txt"
+0x88 irq_count @"typedef--u32.txt"
+0x90 ck_reserved1 "long unsigned int"
+0x98 ck_reserved2 "long unsigned int"
+0xa0 ck_reserved3 "long unsigned int"
+0xa8 ck_reserved4 "long unsigned int"
+0xb0 ck_reserved5 "long unsigned int"
+0xb8 ck_reserved6 "long unsigned int"
+}

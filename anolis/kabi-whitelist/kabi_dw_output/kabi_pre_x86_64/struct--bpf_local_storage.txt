@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/bpf_local_storage.h:88
+Symbol:
+Byte size 184
+Alignment 8
+struct bpf_local_storage {
+0x0 cache [16]* @"struct--bpf_local_storage_data.txt"
+0x80 smap * @"struct--bpf_local_storage_map.txt"
+0x88 list @"struct--hlist_head.txt"
+0x90 owner * "void"
+0x98 8 rcu @"struct--callback_head.txt"
+0xa8 lock @"typedef--raw_spinlock_t.txt"
+0xb0 ck_reserved1 "long unsigned int"
+}

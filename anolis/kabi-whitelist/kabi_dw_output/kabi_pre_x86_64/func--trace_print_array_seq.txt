@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/trace/trace_output.c:236
+Symbol:
+func trace_print_array_seq (
+p * @"struct--trace_seq.txt"
+buf * const "void"
+count "int"
+el_size @"typedef--size_t.txt"
+)
+* const "char"

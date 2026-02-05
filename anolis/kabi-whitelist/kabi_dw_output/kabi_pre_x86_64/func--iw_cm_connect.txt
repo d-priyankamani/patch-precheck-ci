@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/iwcm.c:699
+Symbol:
+func iw_cm_connect (
+cm_id * @"struct--iw_cm_id.txt"
+iw_param * @"struct--iw_cm_conn_param.txt"
+)
+"int"

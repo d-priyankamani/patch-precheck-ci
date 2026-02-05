@@ -1,0 +1,56 @@
+Version: 1.0
+File: include/drm/drm_modeset_helper_vtables.h:1189
+Symbol:
+Byte size 80
+struct drm_plane_helper_funcs {
+0x0 prepare_fb * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_plane_state.txt"
+)
+"int"
+0x8 cleanup_fb * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_plane_state.txt"
+)
+"void"
+0x10 begin_fb_access * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_plane_state.txt"
+)
+"int"
+0x18 end_fb_access * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_plane_state.txt"
+)
+"void"
+0x20 atomic_check * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"int"
+0x28 atomic_update * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"void"
+0x30 atomic_enable * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"void"
+0x38 atomic_disable * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"void"
+0x40 atomic_async_check * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"int"
+0x48 atomic_async_update * func (NULL) (
+(NULL) * @"struct--drm_plane.txt"
+(NULL) * @"struct--drm_atomic_state.txt"
+)
+"void"
+}

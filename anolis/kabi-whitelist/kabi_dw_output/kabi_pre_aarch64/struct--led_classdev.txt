@@ -1,0 +1,87 @@
+Version: 1.0
+File: include/linux/leds.h:99
+Symbol:
+Byte size 472
+struct led_classdev {
+0x0 name * const "char"
+0x8 brightness "unsigned int"
+0xc max_brightness "unsigned int"
+0x10 color "unsigned int"
+0x14 flags "int"
+0x18 work_flags "long unsigned int"
+0x20 brightness_set * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+(NULL) @"enum--led_brightness.txt"
+)
+"void"
+0x28 brightness_set_blocking * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+(NULL) @"enum--led_brightness.txt"
+)
+"int"
+0x30 brightness_get * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+)
+@"enum--led_brightness.txt"
+0x38 blink_set * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+(NULL) * "long unsigned int"
+(NULL) * "long unsigned int"
+)
+"int"
+0x40 pattern_set * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+(NULL) * @"struct--led_pattern.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+)
+"int"
+0x48 pattern_clear * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+)
+"int"
+0x50 dev * @"struct--device.txt"
+0x58 groups * * const @"struct--attribute_group.txt"
+0x60 node @"struct--list_head.txt"
+0x70 default_trigger * const "char"
+0x78 blink_delay_on "long unsigned int"
+0x80 blink_delay_off "long unsigned int"
+0x88 blink_timer @"struct--timer_list.txt"
+0xd0 blink_brightness "int"
+0xd4 new_blink_brightness "int"
+0xd8 flash_resume * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+)
+"void"
+0xe0 set_brightness_work @"struct--work_struct.txt"
+0x120 delayed_set_value "int"
+0x128 delayed_delay_on "long unsigned int"
+0x130 delayed_delay_off "long unsigned int"
+0x138 trigger_lock @"struct--rw_semaphore.txt"
+0x160 trigger * @"struct--led_trigger.txt"
+0x168 trig_list @"struct--list_head.txt"
+0x178 trigger_data * "void"
+0x180 activated @"typedef--bool.txt"
+0x188 trigger_type * @"struct--led_hw_trigger_type.txt"
+0x190 hw_control_trigger * const "char"
+0x198 hw_control_is_supported * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x1a0 hw_control_set * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0x1a8 hw_control_get * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+(NULL) * "long unsigned int"
+)
+"int"
+0x1b0 hw_control_get_device * func (NULL) (
+(NULL) * @"struct--led_classdev.txt"
+)
+* @"struct--device.txt"
+0x1b8 led_access @"struct--mutex.txt"
+}

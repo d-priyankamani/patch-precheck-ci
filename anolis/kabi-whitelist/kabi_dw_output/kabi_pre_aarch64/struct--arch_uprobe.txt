@@ -1,0 +1,12 @@
+Version: 1.0
+File: arch/arm64/include/asm/uprobes.h:22
+Symbol:
+Byte size 48
+struct arch_uprobe {
+0x0 (NULL) union (NULL) {
+insn @"typedef--__le32.txt"
+ixol @"typedef--__le32.txt"
+}
+0x8 api @"struct--arch_probe_insn.txt"
+0x28 simulate @"typedef--bool.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/core_priv.h:364
+Symbol:
+Byte size 32
+struct rdma_umap_priv {
+0x0 vma * @"struct--vm_area_struct.txt"
+0x8 list @"struct--list_head.txt"
+0x18 entry * @"struct--rdma_user_mmap_entry.txt"
+}

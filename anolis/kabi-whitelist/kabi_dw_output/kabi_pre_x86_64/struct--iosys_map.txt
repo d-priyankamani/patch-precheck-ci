@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/iosys-map.h:109
+Symbol:
+Byte size 16
+struct iosys_map {
+0x0 (NULL) union (NULL) {
+vaddr_iomem * "void"
+vaddr * "void"
+}
+0x8 is_iomem @"typedef--bool.txt"
+}

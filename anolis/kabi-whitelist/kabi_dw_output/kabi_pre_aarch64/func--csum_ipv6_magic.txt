@@ -1,0 +1,11 @@
+Version: 1.0
+File: arch/arm64/lib/csum.c:132
+Symbol:
+func csum_ipv6_magic (
+saddr * const @"struct--in6_addr.txt"
+daddr * const @"struct--in6_addr.txt"
+len @"typedef--__u32.txt"
+proto @"typedef--__u8.txt"
+csum @"typedef--__wsum.txt"
+)
+@"typedef--__sum16.txt"

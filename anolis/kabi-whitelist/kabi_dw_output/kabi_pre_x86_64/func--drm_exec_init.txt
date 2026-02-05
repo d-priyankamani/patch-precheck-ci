@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_exec.c:75
+Symbol:
+func drm_exec_init (
+exec * @"struct--drm_exec.txt"
+flags @"typedef--uint32_t.txt"
+)
+"void"

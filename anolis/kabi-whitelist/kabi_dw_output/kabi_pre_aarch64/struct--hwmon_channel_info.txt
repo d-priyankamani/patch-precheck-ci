@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/hwmon.h:423
+Symbol:
+Byte size 16
+struct hwmon_channel_info {
+0x0 type @"enum--hwmon_sensor_types.txt"
+0x8 config * const @"typedef--u32.txt"
+}

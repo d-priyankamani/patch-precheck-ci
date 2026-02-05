@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/util.c:99
+Symbol:
+func kstrndup (
+s * const "char"
+max @"typedef--size_t.txt"
+gfp @"typedef--gfp_t.txt"
+)
+* "char"

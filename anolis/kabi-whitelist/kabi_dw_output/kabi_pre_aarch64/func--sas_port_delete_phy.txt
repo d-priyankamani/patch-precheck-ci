@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/scsi/scsi_transport_sas.c:1130
+Symbol:
+func sas_port_delete_phy (
+port * @"struct--sas_port.txt"
+phy * @"struct--sas_phy.txt"
+)
+"void"

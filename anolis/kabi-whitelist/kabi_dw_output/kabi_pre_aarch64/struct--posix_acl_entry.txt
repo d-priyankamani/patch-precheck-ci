@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/posix_acl.h:20
+Symbol:
+Byte size 8
+struct posix_acl_entry {
+0x0 e_tag "short int"
+0x2 e_perm "short unsigned int"
+0x4 (NULL) union (NULL) {
+e_uid @"typedef--kuid_t.txt"
+e_gid @"typedef--kgid_t.txt"
+}
+}

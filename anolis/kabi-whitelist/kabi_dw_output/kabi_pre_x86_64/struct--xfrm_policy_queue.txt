@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/xfrm.h:521
+Symbol:
+Byte size 104
+struct xfrm_policy_queue {
+0x0 hold_queue @"struct--sk_buff_head.txt"
+0x18 hold_timer @"struct--timer_list.txt"
+0x60 timeout "long unsigned int"
+}

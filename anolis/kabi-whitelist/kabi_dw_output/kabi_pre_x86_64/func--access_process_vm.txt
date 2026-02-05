@@ -1,0 +1,11 @@
+Version: 1.0
+File: mm/memory.c:7096
+Symbol:
+func access_process_vm (
+tsk * @"struct--task_struct.txt"
+addr "long unsigned int"
+buf * "void"
+len "int"
+gup_flags "unsigned int"
+)
+"int"

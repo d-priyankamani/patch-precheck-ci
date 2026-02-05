@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:982
+Symbol:
+func dma_fence_describe (
+fence * @"struct--dma_fence.txt"
+seq * @"struct--seq_file.txt"
+)
+"void"

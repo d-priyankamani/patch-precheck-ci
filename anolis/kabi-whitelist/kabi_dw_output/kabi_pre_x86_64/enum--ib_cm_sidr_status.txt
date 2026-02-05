@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_cm.h:224
+Symbol:
+Byte size 4
+enum ib_cm_sidr_status {
+IB_SIDR_SUCCESS = 0x0
+IB_SIDR_UNSUPPORTED = 0x1
+IB_SIDR_REJECT = 0x2
+IB_SIDR_NO_QP = 0x3
+IB_SIDR_REDIRECT = 0x4
+IB_SIDR_UNSUPPORTED_VERSION = 0x5
+}

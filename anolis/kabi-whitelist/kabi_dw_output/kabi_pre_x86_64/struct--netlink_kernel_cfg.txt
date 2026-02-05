@@ -1,0 +1,28 @@
+Version: 1.0
+File: include/linux/netlink.h:46
+Symbol:
+Byte size 48
+struct netlink_kernel_cfg {
+0x0 groups "unsigned int"
+0x4 flags "unsigned int"
+0x8 input * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+)
+"void"
+0x10 cb_mutex * @"struct--mutex.txt"
+0x18 bind * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) "int"
+)
+"int"
+0x20 unbind * func (NULL) (
+(NULL) * @"struct--net.txt"
+(NULL) "int"
+)
+"void"
+0x28 release * func (NULL) (
+(NULL) * @"struct--sock.txt"
+(NULL) * "long unsigned int"
+)
+"void"
+}

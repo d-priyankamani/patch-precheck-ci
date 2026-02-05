@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/pm_qos.h:80
+Symbol:
+Byte size 4
+enum freq_qos_req_type {
+FREQ_QOS_MIN = 0x1
+FREQ_QOS_MAX = 0x2
+}

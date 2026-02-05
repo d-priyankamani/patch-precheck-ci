@@ -1,0 +1,20 @@
+Version: 1.0
+File: drivers/vfio/virqfd.c:111
+Symbol:
+func vfio_virqfd_enable (
+opaque * "void"
+handler * func (NULL) (
+(NULL) * "void"
+(NULL) * "void"
+)
+"int"
+thread * func (NULL) (
+(NULL) * "void"
+(NULL) * "void"
+)
+"void"
+data * "void"
+pvirqfd * * @"struct--virqfd.txt"
+fd "int"
+)
+"int"

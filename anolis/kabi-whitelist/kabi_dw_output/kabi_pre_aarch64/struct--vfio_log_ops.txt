@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/linux/vfio.h:219
+Symbol:
+Byte size 24
+struct vfio_log_ops {
+0x0 log_start * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) * @"struct--rb_root_cached.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"typedef--u64.txt"
+)
+"int"
+0x8 log_stop * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+)
+"int"
+0x10 log_read_and_clear * func (NULL) (
+(NULL) * @"struct--vfio_device.txt"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+(NULL) * @"<declarations>/struct--iova_bitmap.txt"
+)
+"int"
+}

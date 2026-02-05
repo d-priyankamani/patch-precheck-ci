@@ -1,0 +1,4 @@
+Version: 1.0
+File: arch/x86/mm/init_64.c:109
+Symbol:
+var __default_kernel_pte_mask "void"

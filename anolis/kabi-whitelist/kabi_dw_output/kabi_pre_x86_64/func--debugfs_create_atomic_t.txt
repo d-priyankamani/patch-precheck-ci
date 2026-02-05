@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/debugfs/file.c:783
+Symbol:
+func debugfs_create_atomic_t (
+name * const "char"
+mode @"typedef--umode_t.txt"
+parent * @"struct--dentry.txt"
+value * @"typedef--atomic_t.txt"
+)
+"void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:668
+Symbol:
+func drm_connector_unregister (
+connector * @"struct--drm_connector.txt"
+)
+"void"

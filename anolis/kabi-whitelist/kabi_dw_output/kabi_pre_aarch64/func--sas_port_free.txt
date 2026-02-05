@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/scsi_transport_sas.c:1002
+Symbol:
+func sas_port_free (
+port * @"struct--sas_port.txt"
+)
+"void"

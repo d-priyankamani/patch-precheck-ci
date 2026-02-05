@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/8021q/vlan.h:22
+Symbol:
+Byte size 152
+struct vlan_group {
+0x0 nr_vlan_devs "unsigned int"
+0x8 hlist @"struct--hlist_node.txt"
+0x18 vlan_devices_arrays [2][8]* * @"struct--net_device.txt"
+}

@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/xarray.h:250
+Symbol:
+Byte size 4
+typedef xa_mark_t
+"unsigned int"

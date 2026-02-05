@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/filelock.h:31
+Symbol:
+Byte size 32
+struct file_lock_operations {
+0x0 fl_copy_lock * func (NULL) (
+(NULL) * @"struct--file_lock.txt"
+(NULL) * @"struct--file_lock.txt"
+)
+"void"
+0x8 fl_release_private * func (NULL) (
+(NULL) * @"struct--file_lock.txt"
+)
+"void"
+0x10 ck_reserved1 "long unsigned int"
+0x18 ck_reserved2 "long unsigned int"
+}

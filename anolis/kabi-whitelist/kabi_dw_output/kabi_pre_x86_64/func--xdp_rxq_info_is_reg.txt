@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/xdp.c:202
+Symbol:
+func xdp_rxq_info_is_reg (
+xdp_rxq * @"struct--xdp_rxq_info.txt"
+)
+@"typedef--bool.txt"

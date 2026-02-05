@@ -1,0 +1,537 @@
+Version: 1.0
+File: include/linux/netdevice.h:1436
+Symbol:
+Byte size 848
+struct net_device_ops {
+0x0 ndo_init * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0x8 ndo_uninit * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"void"
+0x10 ndo_open * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0x18 ndo_stop * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0x20 ndo_start_xmit * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--net_device.txt"
+)
+@"typedef--netdev_tx_t.txt"
+0x28 ndo_features_check * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--netdev_features_t.txt"
+)
+@"typedef--netdev_features_t.txt"
+0x30 ndo_select_queue * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--net_device.txt"
+)
+@"typedef--u16.txt"
+0x38 ndo_change_rx_flags * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+)
+"void"
+0x40 ndo_set_rx_mode * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"void"
+0x48 ndo_set_mac_address * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * "void"
+)
+"int"
+0x50 ndo_validate_addr * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0x58 ndo_do_ioctl * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ifreq.txt"
+(NULL) "int"
+)
+"int"
+0x60 ndo_eth_ioctl * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ifreq.txt"
+(NULL) "int"
+)
+"int"
+0x68 ndo_siocbond * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ifreq.txt"
+(NULL) "int"
+)
+"int"
+0x70 ndo_siocwandev * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--if_settings.txt"
+)
+"int"
+0x78 ndo_siocdevprivate * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ifreq.txt"
+(NULL) * "void"
+(NULL) "int"
+)
+"int"
+0x80 ndo_set_config * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ifmap.txt"
+)
+"int"
+0x88 ndo_change_mtu * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+)
+"int"
+0x90 ndo_neigh_setup * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--neigh_parms.txt"
+)
+"int"
+0x98 ndo_tx_timeout * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "unsigned int"
+)
+"void"
+0xa0 ndo_get_stats64 * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--rtnl_link_stats64.txt"
+)
+"void"
+0xa8 ndo_has_offload_stats * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+(NULL) "int"
+)
+@"typedef--bool.txt"
+0xb0 ndo_get_offload_stats * func (NULL) (
+(NULL) "int"
+(NULL) * const @"struct--net_device.txt"
+(NULL) * "void"
+)
+"int"
+0xb8 ndo_get_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+* @"struct--net_device_stats.txt"
+0xc0 ndo_vlan_rx_add_vid * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--__be16.txt"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0xc8 ndo_vlan_rx_kill_vid * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--__be16.txt"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0xd0 ndo_poll_controller * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"void"
+0xd8 ndo_netpoll_setup * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--netpoll_info.txt"
+)
+"int"
+0xe0 ndo_netpoll_cleanup * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"void"
+0xe8 ndo_set_vf_mac * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) * @"typedef--u8.txt"
+)
+"int"
+0xf0 ndo_set_vf_vlan * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) @"typedef--u16.txt"
+(NULL) @"typedef--u8.txt"
+(NULL) @"typedef--__be16.txt"
+)
+"int"
+0xf8 ndo_set_vf_rate * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) "int"
+(NULL) "int"
+)
+"int"
+0x100 ndo_set_vf_spoofchk * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x108 ndo_set_vf_trust * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x110 ndo_get_vf_config * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) * @"struct--ifla_vf_info.txt"
+)
+"int"
+0x118 ndo_set_vf_link_state * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) "int"
+)
+"int"
+0x120 ndo_get_vf_stats * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) * @"struct--ifla_vf_stats.txt"
+)
+"int"
+0x128 ndo_set_vf_port * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) * * @"struct--nlattr.txt"
+)
+"int"
+0x130 ndo_get_vf_port * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x138 ndo_get_vf_guid * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) * @"struct--ifla_vf_guid.txt"
+(NULL) * @"struct--ifla_vf_guid.txt"
+)
+"int"
+0x140 ndo_set_vf_guid * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) @"typedef--u64.txt"
+(NULL) "int"
+)
+"int"
+0x148 ndo_set_vf_rss_query_en * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x150 ndo_setup_tc * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"enum--tc_setup_type.txt"
+(NULL) * "void"
+)
+"int"
+0x158 ndo_fcoe_enable * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0x160 ndo_fcoe_disable * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0x168 ndo_fcoe_ddp_setup * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"struct--scatterlist.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x170 ndo_fcoe_ddp_done * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0x178 ndo_fcoe_ddp_target * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"struct--scatterlist.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x180 ndo_fcoe_get_hbainfo * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--netdev_fcoe_hbainfo.txt"
+)
+"int"
+0x188 ndo_fcoe_get_wwn * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"typedef--u64.txt"
+(NULL) "int"
+)
+"int"
+0x190 ndo_rx_flow_steer * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"struct--sk_buff.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0x198 ndo_add_slave * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x1a0 ndo_del_slave * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--net_device.txt"
+)
+"int"
+0x1a8 ndo_get_xmit_slave * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) @"typedef--bool.txt"
+)
+* @"struct--net_device.txt"
+0x1b0 ndo_sk_get_lower_dev * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--sock.txt"
+)
+* @"struct--net_device.txt"
+0x1b8 ndo_fix_features * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--netdev_features_t.txt"
+)
+@"typedef--netdev_features_t.txt"
+0x1c0 ndo_set_features * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--netdev_features_t.txt"
+)
+"int"
+0x1c8 ndo_neigh_construct * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--neighbour.txt"
+)
+"int"
+0x1d0 ndo_neigh_destroy * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--neighbour.txt"
+)
+"void"
+0x1d8 ndo_fdb_add * func (NULL) (
+(NULL) * @"struct--ndmsg.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * const "unsigned char"
+(NULL) @"typedef--u16.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x1e0 ndo_fdb_del * func (NULL) (
+(NULL) * @"struct--ndmsg.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * const "unsigned char"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x1e8 ndo_fdb_del_bulk * func (NULL) (
+(NULL) * @"struct--ndmsg.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x1f0 ndo_fdb_dump * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--netlink_callback.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * "int"
+)
+"int"
+0x1f8 ndo_fdb_get * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) * const "unsigned char"
+(NULL) @"typedef--u16.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x200 ndo_mdb_add * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x208 ndo_mdb_del * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * * @"struct--nlattr.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x210 ndo_mdb_dump * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--netlink_callback.txt"
+)
+"int"
+0x218 ndo_bridge_setlink * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--nlmsghdr.txt"
+(NULL) @"typedef--u16.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x220 ndo_bridge_getlink * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "int"
+)
+"int"
+0x228 ndo_bridge_dellink * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--nlmsghdr.txt"
+(NULL) @"typedef--u16.txt"
+)
+"int"
+0x230 ndo_change_carrier * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x238 ndo_get_phys_port_id * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--netdev_phys_item_id.txt"
+)
+"int"
+0x240 ndo_get_port_parent_id * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--netdev_phys_item_id.txt"
+)
+"int"
+0x248 ndo_get_phys_port_name * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+)
+"int"
+0x250 ndo_dfwd_add_station * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--net_device.txt"
+)
+* "void"
+0x258 ndo_dfwd_del_station * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * "void"
+)
+"void"
+0x260 ndo_set_tx_maxrate * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0x268 ndo_get_iflink * func (NULL) (
+(NULL) * const @"struct--net_device.txt"
+)
+"int"
+0x270 ndo_fill_metadata_dst * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x278 ndo_set_rx_headroom * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+)
+"void"
+0x280 ndo_bpf * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--netdev_bpf.txt"
+)
+"int"
+0x288 ndo_xdp_xmit * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) * * @"struct--xdp_frame.txt"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0x290 ndo_xdp_get_xmit_slave * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--xdp_buff.txt"
+)
+* @"struct--net_device.txt"
+0x298 ndo_xsk_wakeup * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) @"typedef--u32.txt"
+)
+"int"
+0x2a0 ndo_tunnel_ctl * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--ip_tunnel_parm.txt"
+(NULL) "int"
+)
+"int"
+0x2a8 ndo_get_peer_dev * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+* @"struct--net_device.txt"
+0x2b0 ndo_fill_forward_path * func (NULL) (
+(NULL) * @"struct--net_device_path_ctx.txt"
+(NULL) * @"struct--net_device_path.txt"
+)
+"int"
+0x2b8 ndo_get_tstamp * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * const @"struct--skb_shared_hwtstamps.txt"
+(NULL) @"typedef--bool.txt"
+)
+@"typedef--ktime_t.txt"
+0x2c0 ndo_hwtstamp_get * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--kernel_hwtstamp_config.txt"
+)
+"int"
+0x2c8 ndo_hwtstamp_set * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) * @"struct--kernel_hwtstamp_config.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x2d0 ck_reserved1 "long unsigned int"
+0x2d8 ck_reserved2 "long unsigned int"
+0x2e0 ck_reserved3 "long unsigned int"
+0x2e8 ck_reserved4 "long unsigned int"
+0x2f0 ck_reserved5 "long unsigned int"
+0x2f8 ck_reserved6 "long unsigned int"
+0x300 ck_reserved7 "long unsigned int"
+0x308 ck_reserved8 "long unsigned int"
+0x310 ck_reserved9 "long unsigned int"
+0x318 ck_reserved10 "long unsigned int"
+0x320 ck_reserved11 "long unsigned int"
+0x328 ck_reserved12 "long unsigned int"
+0x330 ck_reserved13 "long unsigned int"
+0x338 ck_reserved14 "long unsigned int"
+0x340 ck_reserved15 "long unsigned int"
+0x348 ck_reserved16 "long unsigned int"
+}

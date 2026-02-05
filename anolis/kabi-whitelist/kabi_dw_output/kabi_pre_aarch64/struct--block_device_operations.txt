@@ -1,0 +1,97 @@
+Version: 1.0
+File: include/linux/blkdev.h:1424
+Symbol:
+Byte size 176
+struct block_device_operations {
+0x0 submit_bio * func (NULL) (
+(NULL) * @"struct--bio.txt"
+)
+"void"
+0x8 poll_bio * func (NULL) (
+(NULL) * @"struct--bio.txt"
+(NULL) * @"struct--io_comp_batch.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x10 open * func (NULL) (
+(NULL) * @"struct--gendisk.txt"
+(NULL) @"typedef--blk_mode_t.txt"
+)
+"int"
+0x18 release * func (NULL) (
+(NULL) * @"struct--gendisk.txt"
+)
+"void"
+0x20 ioctl * func (NULL) (
+(NULL) * @"struct--block_device.txt"
+(NULL) @"typedef--blk_mode_t.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x28 compat_ioctl * func (NULL) (
+(NULL) * @"struct--block_device.txt"
+(NULL) @"typedef--blk_mode_t.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x30 check_events * func (NULL) (
+(NULL) * @"struct--gendisk.txt"
+(NULL) "unsigned int"
+)
+"unsigned int"
+0x38 unlock_native_capacity * func (NULL) (
+(NULL) * @"struct--gendisk.txt"
+)
+"void"
+0x40 getgeo * func (NULL) (
+(NULL) * @"struct--block_device.txt"
+(NULL) * @"<declarations>/struct--hd_geometry.txt"
+)
+"int"
+0x48 set_read_only * func (NULL) (
+(NULL) * @"struct--block_device.txt"
+(NULL) @"typedef--bool.txt"
+)
+"int"
+0x50 free_disk * func (NULL) (
+(NULL) * @"struct--gendisk.txt"
+)
+"void"
+0x58 swap_slot_free_notify * func (NULL) (
+(NULL) * @"struct--block_device.txt"
+(NULL) "long unsigned int"
+)
+"void"
+0x60 report_zones * func (NULL) (
+(NULL) * @"struct--gendisk.txt"
+(NULL) @"typedef--sector_t.txt"
+(NULL) "unsigned int"
+(NULL) @"typedef--report_zones_cb.txt"
+(NULL) * "void"
+)
+"int"
+0x68 devnode * func (NULL) (
+(NULL) * @"struct--gendisk.txt"
+(NULL) * @"typedef--umode_t.txt"
+)
+* "char"
+0x70 get_unique_id * func (NULL) (
+(NULL) * @"struct--gendisk.txt"
+(NULL) * @"typedef--u8.txt"
+(NULL) @"enum--blk_unique_id.txt"
+)
+"int"
+0x78 owner * @"struct--module.txt"
+0x80 pr_ops * const @"<declarations>/struct--pr_ops.txt"
+0x88 alternative_gpt_sector * func (NULL) (
+(NULL) * @"struct--gendisk.txt"
+(NULL) * @"typedef--sector_t.txt"
+)
+"int"
+0x90 ck_reserved1 "long unsigned int"
+0x98 ck_reserved2 "long unsigned int"
+0xa0 ck_reserved3 "long unsigned int"
+0xa8 ck_reserved4 "long unsigned int"
+}

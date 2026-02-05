@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/vmalloc.c:3558
+Symbol:
+func vmalloc_node (
+size "long unsigned int"
+node "int"
+)
+* "void"

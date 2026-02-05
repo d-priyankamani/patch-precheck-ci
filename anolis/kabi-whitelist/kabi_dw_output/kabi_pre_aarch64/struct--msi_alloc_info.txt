@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/asm-generic/msi.h:24
+Symbol:
+Byte size 40
+struct msi_alloc_info {
+0x0 desc * @"struct--msi_desc.txt"
+0x8 hwirq @"typedef--irq_hw_number_t.txt"
+0x10 flags "long unsigned int"
+0x18 scratchpad [2]union (NULL) {
+ul "long unsigned int"
+ptr * "void"
+}
+}

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/uapi/linux/hdlc/ioctl.h:89
+Symbol:
+Byte size 24
+typedef x25_hdlc_proto
+struct (NULL) {
+0x0 dce "short unsigned int"
+0x4 modulo "unsigned int"
+0x8 window "unsigned int"
+0xc t1 "unsigned int"
+0x10 t2 "unsigned int"
+0x14 n2 "unsigned int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:1181
+Symbol:
+func ib_get_cached_port_state (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+port_state * @"enum--ib_port_state.txt"
+)
+"int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo.c:771
+Symbol:
+func ttm_bo_mem_space (
+bo * @"struct--ttm_buffer_object.txt"
+placement * @"struct--ttm_placement.txt"
+mem * * @"struct--ttm_resource.txt"
+ctx * @"struct--ttm_operation_ctx.txt"
+)
+"int"

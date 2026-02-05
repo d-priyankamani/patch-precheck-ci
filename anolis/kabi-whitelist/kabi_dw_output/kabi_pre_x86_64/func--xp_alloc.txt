@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/xdp/xsk_buff_pool.c:526
+Symbol:
+func xp_alloc (
+pool * @"struct--xsk_buff_pool.txt"
+)
+* @"struct--xdp_buff.txt"

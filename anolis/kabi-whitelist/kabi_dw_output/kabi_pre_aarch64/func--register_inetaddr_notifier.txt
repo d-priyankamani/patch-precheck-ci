@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ipv4/devinet.c:1489
+Symbol:
+func register_inetaddr_notifier (
+nb * @"struct--notifier_block.txt"
+)
+"int"

@@ -1,0 +1,22 @@
+Version: 1.0
+File: include/linux/pps_kernel.h:43
+Symbol:
+Byte size 1232
+Alignment 8
+struct pps_device {
+0x0 info @"struct--pps_source_info.txt"
+0x60 params @"struct--pps_kparams.txt"
+0x88 assert_sequence @"typedef--__u32.txt"
+0x8c clear_sequence @"typedef--__u32.txt"
+0x90 assert_tu @"struct--pps_ktime.txt"
+0xa0 clear_tu @"struct--pps_ktime.txt"
+0xb0 current_mode "int"
+0xb4 last_ev "unsigned int"
+0xb8 last_fetched_ev "unsigned int"
+0xc0 queue @"typedef--wait_queue_head_t.txt"
+0xd8 id "unsigned int"
+0xe0 lookup_cookie * const "void"
+0xe8 8 dev @"struct--device.txt"
+0x4c0 async_queue * @"struct--fasync_struct.txt"
+0x4c8 lock @"typedef--spinlock_t.txt"
+}

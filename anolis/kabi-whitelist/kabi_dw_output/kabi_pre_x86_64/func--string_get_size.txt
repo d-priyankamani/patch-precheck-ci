@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/string_helpers.c:35
+Symbol:
+func string_get_size (
+size @"typedef--u64.txt"
+blk_size @"typedef--u64.txt"
+units const @"enum--string_size_units.txt"
+buf * "char"
+len "int"
+)
+"void"

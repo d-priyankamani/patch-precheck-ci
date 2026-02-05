@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/kstrtox.c:291
+Symbol:
+func kstrtos16 (
+s * const "char"
+base "unsigned int"
+res * @"typedef--s16.txt"
+)
+"int"

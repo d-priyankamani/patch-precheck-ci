@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/tty/tty_io.c:3404
+Symbol:
+func tty_driver_kref_put (
+driver * @"struct--tty_driver.txt"
+)
+"void"

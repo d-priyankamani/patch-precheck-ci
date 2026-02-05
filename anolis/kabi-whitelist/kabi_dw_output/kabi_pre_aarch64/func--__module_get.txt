@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/module/main.c:897
+Symbol:
+func __module_get (
+module * @"struct--module.txt"
+)
+"void"

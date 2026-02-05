@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/linux/memremap.h:80
+Symbol:
+Byte size 40
+struct dev_pagemap_ops {
+0x0 page_free * func (NULL) (
+(NULL) * @"struct--page.txt"
+)
+"void"
+0x8 migrate_to_ram * func (NULL) (
+(NULL) * @"struct--vm_fault.txt"
+)
+@"typedef--vm_fault_t.txt"
+0x10 memory_failure * func (NULL) (
+(NULL) * @"struct--dev_pagemap.txt"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+(NULL) "int"
+)
+"int"
+0x18 ck_reserved1 "long unsigned int"
+0x20 ck_reserved2 "long unsigned int"
+}

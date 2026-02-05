@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/scsi/scsi_common.c:157
+Symbol:
+func int_to_scsilun (
+lun @"typedef--u64.txt"
+scsilun * @"struct--scsi_lun.txt"
+)
+"void"

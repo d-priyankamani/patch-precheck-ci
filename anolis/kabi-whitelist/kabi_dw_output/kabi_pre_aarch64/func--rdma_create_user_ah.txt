@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:597
+Symbol:
+func rdma_create_user_ah (
+pd * @"struct--ib_pd.txt"
+ah_attr * @"struct--rdma_ah_attr.txt"
+udata * @"struct--ib_udata.txt"
+)
+* @"struct--ib_ah.txt"

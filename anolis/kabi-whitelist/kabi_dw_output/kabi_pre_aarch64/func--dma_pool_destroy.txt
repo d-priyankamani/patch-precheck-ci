@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/dmapool.c:360
+Symbol:
+func dma_pool_destroy (
+pool * @"struct--dma_pool.txt"
+)
+"void"

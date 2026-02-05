@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/open.c:1382
+Symbol:
+func filp_open (
+filename * const "char"
+flags "int"
+mode @"typedef--umode_t.txt"
+)
+* @"struct--file.txt"

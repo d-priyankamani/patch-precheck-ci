@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/rdma/signature.h:37
+Symbol:
+Byte size 4
+enum ib_t10_dif_bg_type {
+IB_T10DIF_CRC = 0x0
+IB_T10DIF_CSUM = 0x1
+}

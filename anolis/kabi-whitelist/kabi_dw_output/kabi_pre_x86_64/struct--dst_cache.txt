@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/dst_cache.h:11
+Symbol:
+Byte size 16
+struct dst_cache {
+0x0 cache * @"<declarations>/struct--dst_cache_pcpu.txt"
+0x8 reset_ts "long unsigned int"
+}

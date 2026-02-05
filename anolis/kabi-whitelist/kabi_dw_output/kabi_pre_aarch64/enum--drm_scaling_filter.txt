@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/drm/drm_plane.h:38
+Symbol:
+Byte size 4
+enum drm_scaling_filter {
+DRM_SCALING_FILTER_DEFAULT = 0x0
+DRM_SCALING_FILTER_NEAREST_NEIGHBOR = 0x1
+}

@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/mmzone.h:631
+Symbol:
+Byte size 1568
+struct lruvec {
+0x0 lists [5]@"struct--list_head.txt"
+0x50 lru_lock @"typedef--spinlock_t.txt"
+0x58 anon_cost "long unsigned int"
+0x60 file_cost "long unsigned int"
+0x68 nonresident_age @"typedef--atomic_long_t.txt"
+0x70 refaults [2]"long unsigned int"
+0x80 flags "long unsigned int"
+0x88 lrugen @"struct--lru_gen_folio.txt"
+0x5c8 mm_state @"struct--lru_gen_mm_state.txt"
+0x610 pgdat * @"struct--pglist_data.txt"
+0x618 ck_reserved1 "long unsigned int"
+}

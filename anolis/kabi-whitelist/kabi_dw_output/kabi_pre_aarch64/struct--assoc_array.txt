@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/assoc_array.h:22
+Symbol:
+Byte size 16
+struct assoc_array {
+0x0 root * @"<declarations>/struct--assoc_array_ptr.txt"
+0x8 nr_leaves_on_tree "long unsigned int"
+}

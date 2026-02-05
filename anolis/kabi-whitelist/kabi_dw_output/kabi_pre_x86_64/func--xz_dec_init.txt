@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/xz/xz_dec_stream.c:786
+Symbol:
+func xz_dec_init (
+mode @"enum--xz_mode.txt"
+dict_max @"typedef--uint32_t.txt"
+)
+* @"struct--xz_dec.txt"

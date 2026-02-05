@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/bpf.h:2356
+Symbol:
+Byte size 56
+struct bpf_iter_aux_info {
+0x0 map * @"struct--bpf_map.txt"
+0x8 cgroup struct (NULL) {
+0x0 start * @"struct--cgroup.txt"
+0x8 order @"enum--bpf_cgroup_iter_order.txt"
+}
+0x18 task struct (NULL) {
+0x0 type @"enum--bpf_iter_task_type.txt"
+0x4 pid @"typedef--u32.txt"
+}
+0x20 ck_reserved1 "long unsigned int"
+0x28 ck_reserved2 "long unsigned int"
+0x30 ck_reserved3 "long unsigned int"
+}

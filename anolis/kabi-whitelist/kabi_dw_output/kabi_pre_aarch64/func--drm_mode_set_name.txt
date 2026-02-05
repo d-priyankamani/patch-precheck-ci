@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modes.c:1268
+Symbol:
+func drm_mode_set_name (
+mode * @"struct--drm_display_mode.txt"
+)
+"void"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/sysctl.c:772
+Symbol:
+func proc_dointvec (
+table * @"struct--ctl_table.txt"
+write "int"
+buffer * "void"
+lenp * @"typedef--size_t.txt"
+ppos * @"typedef--loff_t.txt"
+)
+"int"

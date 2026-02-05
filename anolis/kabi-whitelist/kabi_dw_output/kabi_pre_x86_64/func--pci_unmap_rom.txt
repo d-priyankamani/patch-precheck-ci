@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/pci/rom.c:237
+Symbol:
+func pci_unmap_rom (
+pdev * @"struct--pci_dev.txt"
+rom * "void"
+)
+"void"

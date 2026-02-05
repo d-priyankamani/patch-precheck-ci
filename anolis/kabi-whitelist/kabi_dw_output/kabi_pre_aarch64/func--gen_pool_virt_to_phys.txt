@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/genalloc.c:217
+Symbol:
+func gen_pool_virt_to_phys (
+pool * @"struct--gen_pool.txt"
+addr "long unsigned int"
+)
+@"typedef--phys_addr_t.txt"

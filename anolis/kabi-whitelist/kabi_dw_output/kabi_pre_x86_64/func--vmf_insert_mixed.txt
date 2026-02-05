@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/memory.c:2770
+Symbol:
+func vmf_insert_mixed (
+vma * @"struct--vm_area_struct.txt"
+addr "long unsigned int"
+pfn @"typedef--pfn_t.txt"
+)
+@"typedef--vm_fault_t.txt"

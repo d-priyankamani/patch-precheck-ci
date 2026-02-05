@@ -1,0 +1,7 @@
+Version: 1.0
+File: virt/kvm/kvm_main.c:1415
+Symbol:
+func kvm_get_kvm (
+kvm * @"struct--kvm.txt"
+)
+"void"

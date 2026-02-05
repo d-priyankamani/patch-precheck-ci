@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/acpi/actypes.h:127
+Symbol:
+typedef acpi_size
+@"typedef--u64.txt"

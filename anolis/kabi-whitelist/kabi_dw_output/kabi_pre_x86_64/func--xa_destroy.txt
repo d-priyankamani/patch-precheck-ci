@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/xarray.c:2224
+Symbol:
+func xa_destroy (
+xa * @"struct--xarray.txt"
+)
+"void"

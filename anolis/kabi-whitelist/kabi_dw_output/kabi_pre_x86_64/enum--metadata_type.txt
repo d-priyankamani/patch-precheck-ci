@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/dst_metadata.h:10
+Symbol:
+Byte size 4
+enum metadata_type {
+METADATA_IP_TUNNEL = 0x0
+METADATA_HW_PORT_MUX = 0x1
+METADATA_MACSEC = 0x2
+METADATA_XFRM = 0x3
+}

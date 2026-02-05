@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:10161
+Symbol:
+func register_netdevice (
+dev * @"struct--net_device.txt"
+)
+"int"

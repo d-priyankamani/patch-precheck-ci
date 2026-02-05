@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/skmsg.h:74
+Symbol:
+Byte size 8
+struct sk_psock_work_state {
+0x0 len @"typedef--u32.txt"
+0x4 off @"typedef--u32.txt"
+}

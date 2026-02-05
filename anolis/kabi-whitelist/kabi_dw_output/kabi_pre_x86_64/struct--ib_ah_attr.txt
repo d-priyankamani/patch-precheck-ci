@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:926
+Symbol:
+Byte size 4
+struct ib_ah_attr {
+0x0 dlid @"typedef--u16.txt"
+0x2 src_path_bits @"typedef--u8.txt"
+}

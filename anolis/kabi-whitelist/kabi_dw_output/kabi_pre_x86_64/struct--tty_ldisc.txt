@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/tty_ldisc.h:269
+Symbol:
+Byte size 16
+struct tty_ldisc {
+0x0 ops * @"struct--tty_ldisc_ops.txt"
+0x8 tty * @"struct--tty_struct.txt"
+}

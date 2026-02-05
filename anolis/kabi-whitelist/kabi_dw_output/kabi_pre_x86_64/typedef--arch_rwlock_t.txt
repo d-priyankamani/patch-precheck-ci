@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/asm-generic/qrwlock_types.h:27
+Symbol:
+typedef arch_rwlock_t
+@"struct--qrwlock.txt"

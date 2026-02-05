@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:455
+Symbol:
+Byte size 4
+enum ib_mtu {
+IB_MTU_256 = 0x1
+IB_MTU_512 = 0x2
+IB_MTU_1024 = 0x3
+IB_MTU_2048 = 0x4
+IB_MTU_4096 = 0x5
+}

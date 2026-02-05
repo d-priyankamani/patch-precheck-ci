@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/xarray.c:1826
+Symbol:
+func __xa_alloc (
+xa * @"struct--xarray.txt"
+id * @"typedef--u32.txt"
+entry * "void"
+limit @"struct--xa_limit.txt"
+gfp @"typedef--gfp_t.txt"
+)
+"int"

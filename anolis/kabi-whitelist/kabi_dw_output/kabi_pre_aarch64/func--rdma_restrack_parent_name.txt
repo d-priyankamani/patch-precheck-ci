@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/restrack.c:145
+Symbol:
+func rdma_restrack_parent_name (
+dst * @"struct--rdma_restrack_entry.txt"
+parent * const @"struct--rdma_restrack_entry.txt"
+)
+"void"

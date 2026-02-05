@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/show_mem.c:78
+Symbol:
+func si_meminfo (
+val * @"struct--sysinfo.txt"
+)
+"void"

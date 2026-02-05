@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/arm64/include/asm/kvm_host.h:199
+Symbol:
+Byte size 24
+struct kvm_protected_vm {
+0x0 handle @"typedef--pkvm_handle_t.txt"
+0x8 teardown_mc @"struct--kvm_hyp_memcache.txt"
+}

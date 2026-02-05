@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/base/firmware_loader/main.c:1110
+Symbol:
+func request_firmware_into_buf (
+firmware_p * * const @"struct--firmware.txt"
+name * const "char"
+device * @"struct--device.txt"
+buf * "void"
+size @"typedef--size_t.txt"
+)
+"int"

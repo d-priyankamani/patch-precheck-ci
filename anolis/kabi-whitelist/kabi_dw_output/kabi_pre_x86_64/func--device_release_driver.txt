@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/dd.c:1311
+Symbol:
+func device_release_driver (
+dev * @"struct--device.txt"
+)
+"void"

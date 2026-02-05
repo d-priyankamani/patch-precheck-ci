@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/flow_offload.h:444
+Symbol:
+Byte size 32
+struct flow_rule {
+0x0 match @"struct--flow_match.txt"
+0x18 action @"struct--flow_action.txt"
+}

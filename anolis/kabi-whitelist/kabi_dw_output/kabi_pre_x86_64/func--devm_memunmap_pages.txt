@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/memremap.c:419
+Symbol:
+func devm_memunmap_pages (
+dev * @"struct--device.txt"
+pgmap * @"struct--dev_pagemap.txt"
+)
+"void"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/kthread.c:1366
+Symbol:
+func kthread_cancel_work_sync (
+work * @"struct--kthread_work.txt"
+)
+@"typedef--bool.txt"

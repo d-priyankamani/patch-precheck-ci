@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/drm/drm_vblank.h:42
+Symbol:
+Byte size 120
+struct drm_pending_vblank_event {
+0x0 base @"struct--drm_pending_event.txt"
+0x48 pipe "unsigned int"
+0x50 sequence @"typedef--u64.txt"
+0x58 event union (NULL) {
+base @"struct--drm_event.txt"
+vbl @"struct--drm_event_vblank.txt"
+seq @"struct--drm_event_crtc_sequence.txt"
+}
+}

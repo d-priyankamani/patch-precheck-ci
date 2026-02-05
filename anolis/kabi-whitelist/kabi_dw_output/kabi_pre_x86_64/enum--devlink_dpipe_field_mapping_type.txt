@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:624
+Symbol:
+Byte size 4
+enum devlink_dpipe_field_mapping_type {
+DEVLINK_DPIPE_FIELD_MAPPING_TYPE_NONE = 0x0
+DEVLINK_DPIPE_FIELD_MAPPING_TYPE_IFINDEX = 0x1
+}

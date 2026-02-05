@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/vmalloc.h:49
+Symbol:
+Byte size 64
+struct vm_struct {
+0x0 next * @"struct--vm_struct.txt"
+0x8 addr * "void"
+0x10 size "long unsigned int"
+0x18 flags "long unsigned int"
+0x20 pages * * @"struct--page.txt"
+0x28 page_order "unsigned int"
+0x2c nr_pages "unsigned int"
+0x30 phys_addr @"typedef--phys_addr_t.txt"
+0x38 caller * const "void"
+}

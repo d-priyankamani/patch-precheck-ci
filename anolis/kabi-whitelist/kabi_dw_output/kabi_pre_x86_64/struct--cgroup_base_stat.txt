@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/cgroup-defs.h:346
+Symbol:
+Byte size 56
+struct cgroup_base_stat {
+0x0 cputime @"struct--task_cputime.txt"
+0x18 forceidle_sum @"typedef--u64.txt"
+0x20 forceidle_task_sum @"typedef--u64.txt"
+0x28 sibidle_sum @"typedef--u64.txt"
+0x30 sibidle_task_sum @"typedef--u64.txt"
+}

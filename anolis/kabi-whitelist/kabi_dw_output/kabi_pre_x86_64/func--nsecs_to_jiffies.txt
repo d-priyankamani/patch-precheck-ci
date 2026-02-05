@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/time.c:829
+Symbol:
+func nsecs_to_jiffies (
+n @"typedef--u64.txt"
+)
+"long unsigned int"

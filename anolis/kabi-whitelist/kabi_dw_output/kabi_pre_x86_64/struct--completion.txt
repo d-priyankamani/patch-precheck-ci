@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/completion.h:26
+Symbol:
+Byte size 32
+struct completion {
+0x0 done "unsigned int"
+0x8 wait @"struct--swait_queue_head.txt"
+}

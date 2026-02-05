@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/netdevice.h:4844
+Symbol:
+Byte size 16
+struct netdev_nested_priv {
+0x0 flags "unsigned char"
+0x8 data * "void"
+}

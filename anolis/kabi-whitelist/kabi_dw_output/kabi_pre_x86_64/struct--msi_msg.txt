@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/msi.h:61
+Symbol:
+Byte size 12
+struct msi_msg {
+0x0 (NULL) union (NULL) {
+address_lo @"typedef--u32.txt"
+arch_addr_lo @"typedef--arch_msi_msg_addr_lo_t.txt"
+}
+0x4 (NULL) union (NULL) {
+address_hi @"typedef--u32.txt"
+arch_addr_hi @"typedef--arch_msi_msg_addr_hi_t.txt"
+}
+0x8 (NULL) union (NULL) {
+data @"typedef--u32.txt"
+arch_data @"typedef--arch_msi_msg_data_t.txt"
+}
+}

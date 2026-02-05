@@ -1,0 +1,7 @@
+Version: 1.0
+File: fs/file.c:911
+Symbol:
+func fget (
+fd "unsigned int"
+)
+* @"struct--file.txt"

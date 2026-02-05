@@ -1,0 +1,10 @@
+Version: 1.0
+File: arch/x86/include/asm/io_bitmap.h:8
+Symbol:
+Byte size 8208
+struct io_bitmap {
+0x0 sequence @"typedef--u64.txt"
+0x8 refcnt @"typedef--refcount_t.txt"
+0xc max "unsigned int"
+0x10 bitmap [1024]"long unsigned int"
+}

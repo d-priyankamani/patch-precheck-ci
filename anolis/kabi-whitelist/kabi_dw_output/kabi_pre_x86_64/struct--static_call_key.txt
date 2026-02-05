@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/static_call_types.h:61
+Symbol:
+Byte size 16
+struct static_call_key {
+0x0 func * "void"
+0x8 (NULL) union (NULL) {
+type "long unsigned int"
+mods * @"struct--static_call_mod.txt"
+sites * @"struct--static_call_site.txt"
+}
+}

@@ -1,0 +1,30 @@
+Version: 1.0
+File: include/linux/bpf.h:542
+Symbol:
+Byte size 32
+struct bpf_map_dev_ops {
+0x0 map_get_next_key * func (NULL) (
+(NULL) * @"struct--bpf_offloaded_map.txt"
+(NULL) * "void"
+(NULL) * "void"
+)
+"int"
+0x8 map_lookup_elem * func (NULL) (
+(NULL) * @"struct--bpf_offloaded_map.txt"
+(NULL) * "void"
+(NULL) * "void"
+)
+"int"
+0x10 map_update_elem * func (NULL) (
+(NULL) * @"struct--bpf_offloaded_map.txt"
+(NULL) * "void"
+(NULL) * "void"
+(NULL) @"typedef--u64.txt"
+)
+"int"
+0x18 map_delete_elem * func (NULL) (
+(NULL) * @"struct--bpf_offloaded_map.txt"
+(NULL) * "void"
+)
+"int"
+}

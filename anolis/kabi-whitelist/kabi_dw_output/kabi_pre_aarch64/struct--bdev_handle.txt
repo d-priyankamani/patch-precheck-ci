@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/blkdev.h:1536
+Symbol:
+Byte size 16
+struct bdev_handle {
+0x0 bdev * @"struct--block_device.txt"
+0x8 holder * "void"
+}

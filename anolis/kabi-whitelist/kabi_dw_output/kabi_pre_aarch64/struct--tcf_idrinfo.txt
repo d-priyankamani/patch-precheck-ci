@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/act_api.h:16
+Symbol:
+Byte size 64
+struct tcf_idrinfo {
+0x0 lock @"struct--mutex.txt"
+0x20 action_idr @"struct--idr.txt"
+0x38 net * @"struct--net.txt"
+}

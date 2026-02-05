@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/pldmfw/pldmfw.c:628
+Symbol:
+func pldmfw_op_pci_match_record (
+context * @"struct--pldmfw.txt"
+record * @"struct--pldmfw_record.txt"
+)
+@"typedef--bool.txt"

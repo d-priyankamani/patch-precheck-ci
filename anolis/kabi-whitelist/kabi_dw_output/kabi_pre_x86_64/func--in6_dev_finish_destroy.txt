@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ipv6/addrconf_core.c:262
+Symbol:
+func in6_dev_finish_destroy (
+idev * @"struct--inet6_dev.txt"
+)
+"void"

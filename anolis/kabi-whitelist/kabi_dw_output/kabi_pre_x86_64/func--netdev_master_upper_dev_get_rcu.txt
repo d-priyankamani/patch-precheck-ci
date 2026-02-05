@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:7537
+Symbol:
+func netdev_master_upper_dev_get_rcu (
+dev * @"struct--net_device.txt"
+)
+* @"struct--net_device.txt"

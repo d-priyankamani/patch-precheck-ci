@@ -1,0 +1,95 @@
+Version: 1.0
+File: include/linux/blk-mq.h:551
+Symbol:
+Byte size 176
+struct blk_mq_ops {
+0x0 queue_rq * func (NULL) (
+(NULL) * @"struct--blk_mq_hw_ctx.txt"
+(NULL) * const @"struct--blk_mq_queue_data.txt"
+)
+@"typedef--blk_status_t.txt"
+0x8 commit_rqs * func (NULL) (
+(NULL) * @"struct--blk_mq_hw_ctx.txt"
+)
+"void"
+0x10 queue_rqs * func (NULL) (
+(NULL) * * @"struct--request.txt"
+)
+"void"
+0x18 get_budget * func (NULL) (
+(NULL) * @"struct--request_queue.txt"
+)
+"int"
+0x20 put_budget * func (NULL) (
+(NULL) * @"struct--request_queue.txt"
+(NULL) "int"
+)
+"void"
+0x28 set_rq_budget_token * func (NULL) (
+(NULL) * @"struct--request.txt"
+(NULL) "int"
+)
+"void"
+0x30 get_rq_budget_token * func (NULL) (
+(NULL) * @"struct--request.txt"
+)
+"int"
+0x38 timeout * func (NULL) (
+(NULL) * @"struct--request.txt"
+)
+@"enum--blk_eh_timer_return.txt"
+0x40 poll * func (NULL) (
+(NULL) * @"struct--blk_mq_hw_ctx.txt"
+(NULL) * @"struct--io_comp_batch.txt"
+)
+"int"
+0x48 complete * func (NULL) (
+(NULL) * @"struct--request.txt"
+)
+"void"
+0x50 init_hctx * func (NULL) (
+(NULL) * @"struct--blk_mq_hw_ctx.txt"
+(NULL) * "void"
+(NULL) "unsigned int"
+)
+"int"
+0x58 exit_hctx * func (NULL) (
+(NULL) * @"struct--blk_mq_hw_ctx.txt"
+(NULL) "unsigned int"
+)
+"void"
+0x60 init_request * func (NULL) (
+(NULL) * @"struct--blk_mq_tag_set.txt"
+(NULL) * @"struct--request.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+)
+"int"
+0x68 exit_request * func (NULL) (
+(NULL) * @"struct--blk_mq_tag_set.txt"
+(NULL) * @"struct--request.txt"
+(NULL) "unsigned int"
+)
+"void"
+0x70 cleanup_rq * func (NULL) (
+(NULL) * @"struct--request.txt"
+)
+"void"
+0x78 busy * func (NULL) (
+(NULL) * @"struct--request_queue.txt"
+)
+@"typedef--bool.txt"
+0x80 map_queues * func (NULL) (
+(NULL) * @"struct--blk_mq_tag_set.txt"
+)
+"void"
+0x88 show_rq * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"struct--request.txt"
+)
+"void"
+0x90 ck_reserved1 "long unsigned int"
+0x98 ck_reserved2 "long unsigned int"
+0xa0 ck_reserved3 "long unsigned int"
+0xa8 ck_reserved4 "long unsigned int"
+}

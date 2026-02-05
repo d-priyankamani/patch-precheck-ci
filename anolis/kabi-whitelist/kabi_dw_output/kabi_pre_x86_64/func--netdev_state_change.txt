@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:1401
+Symbol:
+func netdev_state_change (
+dev * @"struct--net_device.txt"
+)
+"void"

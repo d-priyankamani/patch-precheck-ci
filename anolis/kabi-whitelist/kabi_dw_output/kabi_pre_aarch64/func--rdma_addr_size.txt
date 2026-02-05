@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/addr.c:195
+Symbol:
+func rdma_addr_size (
+addr * const @"struct--sockaddr.txt"
+)
+"int"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: net/devlink/dev.c:967
+Symbol:
+func devlink_flash_update_status_notify (
+devlink * @"struct--devlink.txt"
+status_msg * const "char"
+component * const "char"
+done "long unsigned int"
+total "long unsigned int"
+)
+"void"

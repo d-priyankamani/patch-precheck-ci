@@ -1,0 +1,11 @@
+Version: 1.0
+File: arch/x86/include/asm/fpu/types.h:518
+Symbol:
+Byte size 40
+struct fpu_guest {
+0x0 xfeatures @"typedef--u64.txt"
+0x8 perm @"typedef--u64.txt"
+0x10 xfd_err @"typedef--u64.txt"
+0x18 uabi_size "unsigned int"
+0x20 fpstate * @"struct--fpstate.txt"
+}

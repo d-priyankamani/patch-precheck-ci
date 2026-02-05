@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/cm.c:76
+Symbol:
+func ibcm_reject_msg (
+reason "int"
+)
+* const "char"

@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/linux/bpf.h:1035
+Symbol:
+Byte size 48
+struct btf_func_model {
+0x0 ret_size @"typedef--u8.txt"
+0x1 ret_flags @"typedef--u8.txt"
+0x2 nr_args @"typedef--u8.txt"
+0x3 arg_size [12]@"typedef--u8.txt"
+0xf arg_flags [12]@"typedef--u8.txt"
+0x20 ck_reserved1 "long unsigned int"
+0x28 ck_reserved2 "long unsigned int"
+}

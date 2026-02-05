@@ -1,0 +1,146 @@
+Version: 1.0
+File: include/drm/drm_crtc.h:404
+Symbol:
+Byte size 192
+struct drm_crtc_funcs {
+0x0 reset * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+"void"
+0x8 cursor_set * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_file.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--uint32_t.txt"
+)
+"int"
+0x10 cursor_set2 * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_file.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--int32_t.txt"
+(NULL) @"typedef--int32_t.txt"
+)
+"int"
+0x18 cursor_move * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) "int"
+(NULL) "int"
+)
+"int"
+0x20 gamma_set * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"typedef--u16.txt"
+(NULL) * @"typedef--u16.txt"
+(NULL) * @"typedef--u16.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"
+0x28 destroy * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+"void"
+0x30 set_config * func (NULL) (
+(NULL) * @"struct--drm_mode_set.txt"
+(NULL) * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"
+0x38 page_flip * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_framebuffer.txt"
+(NULL) * @"struct--drm_pending_vblank_event.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"
+0x40 page_flip_target * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_framebuffer.txt"
+(NULL) * @"struct--drm_pending_vblank_event.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) @"typedef--uint32_t.txt"
+(NULL) * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"
+0x48 set_property * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_property.txt"
+(NULL) @"typedef--uint64_t.txt"
+)
+"int"
+0x50 atomic_duplicate_state * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+* @"struct--drm_crtc_state.txt"
+0x58 atomic_destroy_state * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_crtc_state.txt"
+)
+"void"
+0x60 atomic_set_property * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"struct--drm_crtc_state.txt"
+(NULL) * @"struct--drm_property.txt"
+(NULL) @"typedef--uint64_t.txt"
+)
+"int"
+0x68 atomic_get_property * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * const @"struct--drm_crtc_state.txt"
+(NULL) * @"struct--drm_property.txt"
+(NULL) * @"typedef--uint64_t.txt"
+)
+"int"
+0x70 late_register * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+"int"
+0x78 early_unregister * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+"void"
+0x80 set_crc_source * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * const "char"
+)
+"int"
+0x88 verify_crc_source * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * const "char"
+(NULL) * @"typedef--size_t.txt"
+)
+"int"
+0x90 get_crc_sources * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * @"typedef--size_t.txt"
+)
+* const * const "char"
+0x98 atomic_print_state * func (NULL) (
+(NULL) * @"struct--drm_printer.txt"
+(NULL) * const @"struct--drm_crtc_state.txt"
+)
+"void"
+0xa0 get_vblank_counter * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+@"typedef--u32.txt"
+0xa8 enable_vblank * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+"int"
+0xb0 disable_vblank * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+)
+"void"
+0xb8 get_vblank_timestamp * func (NULL) (
+(NULL) * @"struct--drm_crtc.txt"
+(NULL) * "int"
+(NULL) * @"typedef--ktime_t.txt"
+(NULL) @"typedef--bool.txt"
+)
+@"typedef--bool.txt"
+}

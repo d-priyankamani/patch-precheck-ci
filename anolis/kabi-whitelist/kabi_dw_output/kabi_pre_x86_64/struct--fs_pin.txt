@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/fs_pin.h:4
+Symbol:
+Byte size 72
+struct fs_pin {
+0x0 wait @"typedef--wait_queue_head_t.txt"
+0x18 done "int"
+0x20 s_list @"struct--hlist_node.txt"
+0x30 m_list @"struct--hlist_node.txt"
+0x40 kill * func (NULL) (
+(NULL) * @"struct--fs_pin.txt"
+)
+"void"
+}

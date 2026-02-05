@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_prime.c:812
+Symbol:
+func drm_prime_pages_to_sg (
+dev * @"struct--drm_device.txt"
+pages * * @"struct--page.txt"
+nr_pages "unsigned int"
+)
+* @"struct--sg_table.txt"

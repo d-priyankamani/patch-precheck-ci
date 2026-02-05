@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/addr.c:770
+Symbol:
+func rdma_addr_cancel (
+addr * @"struct--rdma_dev_addr.txt"
+)
+"void"

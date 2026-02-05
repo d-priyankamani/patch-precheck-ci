@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/wait.h:14
+Symbol:
+typedef wait_queue_entry_t
+@"struct--wait_queue_entry.txt"

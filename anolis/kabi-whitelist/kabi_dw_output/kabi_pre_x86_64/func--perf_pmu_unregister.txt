@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/events/core.c:11835
+Symbol:
+func perf_pmu_unregister (
+pmu * @"struct--pmu.txt"
+)
+"void"

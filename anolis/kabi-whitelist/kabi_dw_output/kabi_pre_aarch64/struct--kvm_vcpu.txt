@@ -1,0 +1,43 @@
+Version: 1.0
+File: include/linux/kvm_host.h:324
+Symbol:
+Byte size 9872
+Alignment 16
+struct kvm_vcpu {
+0x0 kvm * @"struct--kvm.txt"
+0x8 preempt_notifier @"struct--preempt_notifier.txt"
+0x20 cpu "int"
+0x24 vcpu_id "int"
+0x28 vcpu_idx "int"
+0x2c ____srcu_idx "int"
+0x30 mode "int"
+0x38 requests @"typedef--u64.txt"
+0x40 guest_debug "long unsigned int"
+0x48 mutex @"struct--mutex.txt"
+0x68 run * @"struct--kvm_run.txt"
+0x70 wait @"struct--rcuwait.txt"
+0x78 pid * @"struct--pid.txt"
+0x80 sigset_active "int"
+0x88 sigset @"typedef--sigset_t.txt"
+0x90 halt_poll_ns "unsigned int"
+0x94 valid_wakeup @"typedef--bool.txt"
+0x98 mmio_needed "int"
+0x9c mmio_read_completed "int"
+0xa0 mmio_is_write "int"
+0xa4 mmio_cur_fragment "int"
+0xa8 mmio_nr_fragments "int"
+0xb0 mmio_fragments [2]@"struct--kvm_mmio_fragment.txt"
+0xe0 spin_loop struct (NULL) {
+0x0 in_spin_loop @"typedef--bool.txt"
+0x1 dy_eligible @"typedef--bool.txt"
+}
+0xe2 preempted @"typedef--bool.txt"
+0xe3 ready @"typedef--bool.txt"
+0xf0 16 arch @"struct--kvm_vcpu_arch.txt"
+0x22b0 stat @"struct--kvm_vcpu_stat.txt"
+0x2628 stats_id [48]"char"
+0x2658 dirty_ring @"struct--kvm_dirty_ring.txt"
+0x2678 last_used_slot * @"struct--kvm_memory_slot.txt"
+0x2680 last_used_slot_gen @"typedef--u64.txt"
+0x2688 ck_reserved1 "long unsigned int"
+}

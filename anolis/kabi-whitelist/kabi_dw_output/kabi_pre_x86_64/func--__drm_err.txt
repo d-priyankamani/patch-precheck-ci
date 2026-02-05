@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_print.c:329
+Symbol:
+func __drm_err (
+format * const "char"
+(NULL) ...
+)
+"void"

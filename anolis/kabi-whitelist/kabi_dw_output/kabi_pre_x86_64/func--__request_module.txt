@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/module/kmod.c:132
+Symbol:
+func __request_module (
+wait @"typedef--bool.txt"
+fmt * const "char"
+(NULL) ...
+)
+"int"

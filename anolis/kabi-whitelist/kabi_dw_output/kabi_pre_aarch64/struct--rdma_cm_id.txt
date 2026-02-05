@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/rdma/rdma_cm.h:112
+Symbol:
+Byte size 536
+struct rdma_cm_id {
+0x0 device * @"struct--ib_device.txt"
+0x8 context * "void"
+0x10 qp * @"struct--ib_qp.txt"
+0x18 event_handler @"typedef--rdma_cm_event_handler.txt"
+0x20 route @"struct--rdma_route.txt"
+0x1c8 ps @"enum--rdma_ucm_port_space.txt"
+0x1cc qp_type @"enum--ib_qp_type.txt"
+0x1d0 port_num @"typedef--u32.txt"
+0x1d8 net_work @"struct--work_struct.txt"
+}

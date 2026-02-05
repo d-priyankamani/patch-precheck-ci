@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/uapi/linux/perf_event.h:1289
+Symbol:
+Byte size 8
+union perf_mem_data_src {
+val @"typedef--__u64.txt"
+(NULL) struct (NULL) {
+0x0:0-5 mem_op @"typedef--__u64.txt"
+0x0:5-19 mem_lvl @"typedef--__u64.txt"
+0x2:3-8 mem_snoop @"typedef--__u64.txt"
+0x3:0-2 mem_lock @"typedef--__u64.txt"
+0x3:2-9 mem_dtlb @"typedef--__u64.txt"
+0x4:1-5 mem_lvl_num @"typedef--__u64.txt"
+0x4:5-6 mem_remote @"typedef--__u64.txt"
+0x4:6-8 mem_snoopx @"typedef--__u64.txt"
+0x5:0-3 mem_blk @"typedef--__u64.txt"
+0x5:3-6 mem_hops @"typedef--__u64.txt"
+0x5:6-24 mem_rsvd @"typedef--__u64.txt"
+}
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/flow_dissector.h:104
+Symbol:
+Byte size 4
+struct flow_dissector_key_keyid {
+0x0 keyid @"typedef--__be32.txt"
+}

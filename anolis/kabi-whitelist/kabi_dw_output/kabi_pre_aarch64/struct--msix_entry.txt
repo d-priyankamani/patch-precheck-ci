@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/pci.h:1684
+Symbol:
+Byte size 8
+struct msix_entry {
+0x0 vector @"typedef--u32.txt"
+0x4 entry @"typedef--u16.txt"
+}

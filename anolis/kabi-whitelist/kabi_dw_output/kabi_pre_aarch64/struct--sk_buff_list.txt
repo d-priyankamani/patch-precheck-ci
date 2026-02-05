@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/skbuff.h:338
+Symbol:
+Byte size 16
+struct sk_buff_list {
+0x0 next * @"struct--sk_buff.txt"
+0x8 prev * @"struct--sk_buff.txt"
+}

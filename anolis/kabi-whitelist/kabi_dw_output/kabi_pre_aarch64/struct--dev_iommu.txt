@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/iommu.h:863
+Symbol:
+Byte size 72
+struct dev_iommu {
+0x0 lock @"struct--mutex.txt"
+0x20 fault_param * @"struct--iommu_fault_param.txt"
+0x28 fwspec * @"struct--iommu_fwspec.txt"
+0x30 iommu_dev * @"struct--iommu_device.txt"
+0x38 priv * "void"
+0x40 max_pasids @"typedef--u32.txt"
+0x44:0-1 attach_deferred @"typedef--u32.txt"
+0x44:1-2 pci_32bit_workaround @"typedef--u32.txt"
+0x44:2-3 require_direct @"typedef--u32.txt"
+0x44:3-4 shadow_on_flush @"typedef--u32.txt"
+}

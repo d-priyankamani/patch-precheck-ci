@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/vga_switcheroo.h:86
+Symbol:
+Byte size 4
+enum vga_switcheroo_client_id {
+VGA_SWITCHEROO_UNKNOWN_ID = 0x1000
+VGA_SWITCHEROO_IGD = 0x0
+VGA_SWITCHEROO_DIS = 0x1
+VGA_SWITCHEROO_MAX_CLIENTS = 0x2
+}

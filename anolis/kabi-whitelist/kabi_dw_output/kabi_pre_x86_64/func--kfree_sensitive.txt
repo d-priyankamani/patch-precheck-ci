@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/slab_common.c:1702
+Symbol:
+func kfree_sensitive (
+p * const "void"
+)
+"void"

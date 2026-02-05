@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:2503
+Symbol:
+func drm_connector_atomic_hdr_metadata_equal (
+old_state * @"struct--drm_connector_state.txt"
+new_state * @"struct--drm_connector_state.txt"
+)
+@"typedef--bool.txt"

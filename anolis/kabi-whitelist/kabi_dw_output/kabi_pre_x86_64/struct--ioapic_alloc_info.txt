@@ -1,0 +1,11 @@
+Version: 1.0
+File: arch/x86/include/asm/hw_irq.h:44
+Symbol:
+Byte size 12
+struct ioapic_alloc_info {
+0x0 pin "int"
+0x4 node "int"
+0x8:0-1 is_level @"typedef--u32.txt"
+0x8:1-2 active_low @"typedef--u32.txt"
+0x8:2-3 valid @"typedef--u32.txt"
+}

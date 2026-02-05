@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_auth.c:409
+Symbol:
+func drm_file_get_master (
+file_priv * @"struct--drm_file.txt"
+)
+* @"struct--drm_master.txt"

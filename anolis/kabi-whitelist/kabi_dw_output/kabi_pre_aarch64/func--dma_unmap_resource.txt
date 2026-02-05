@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/dma/mapping.c:335
+Symbol:
+func dma_unmap_resource (
+dev * @"struct--device.txt"
+addr @"typedef--dma_addr_t.txt"
+size @"typedef--size_t.txt"
+dir @"enum--dma_data_direction.txt"
+attrs "long unsigned int"
+)
+"void"

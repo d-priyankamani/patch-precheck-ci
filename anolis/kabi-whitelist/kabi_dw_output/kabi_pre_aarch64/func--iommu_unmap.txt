@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/iommu/iommu.c:2695
+Symbol:
+func iommu_unmap (
+domain * @"struct--iommu_domain.txt"
+iova "long unsigned int"
+size @"typedef--size_t.txt"
+)
+@"typedef--size_t.txt"

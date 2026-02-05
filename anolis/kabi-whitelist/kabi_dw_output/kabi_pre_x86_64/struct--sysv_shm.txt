@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/shm.h:13
+Symbol:
+Byte size 16
+struct sysv_shm {
+0x0 shm_clist @"struct--list_head.txt"
+}

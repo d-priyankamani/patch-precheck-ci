@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/net/switchdev.h:51
+Symbol:
+Byte size 48
+struct switchdev_attr {
+0x0 orig_dev * @"struct--net_device.txt"
+0x8 id @"enum--switchdev_attr_id.txt"
+0xc flags @"typedef--u32.txt"
+0x10 complete_priv * "void"
+0x18 complete * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) * "void"
+)
+"void"
+0x20 u union (NULL) {
+stp_state @"typedef--u8.txt"
+mst_state @"struct--switchdev_mst_state.txt"
+brport_flags @"struct--switchdev_brport_flags.txt"
+mrouter @"typedef--bool.txt"
+ageing_time @"typedef--clock_t.txt"
+vlan_filtering @"typedef--bool.txt"
+vlan_protocol @"typedef--u16.txt"
+mst @"typedef--bool.txt"
+mc_disabled @"typedef--bool.txt"
+mrp_port_role @"typedef--u8.txt"
+vlan_msti @"struct--switchdev_vlan_msti.txt"
+}
+}

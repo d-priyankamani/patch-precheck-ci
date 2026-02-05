@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/fs.h:3309
+Symbol:
+Byte size 24
+struct offset_ctx {
+0x0 xa @"struct--xarray.txt"
+0x10 next_offset @"typedef--u32.txt"
+}

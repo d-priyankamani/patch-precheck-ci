@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/core.c:138
+Symbol:
+func devl_register (
+devlink * @"struct--devlink.txt"
+)
+"int"

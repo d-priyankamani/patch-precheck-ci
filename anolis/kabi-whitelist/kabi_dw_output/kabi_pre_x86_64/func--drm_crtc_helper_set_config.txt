@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_crtc_helper.c:554
+Symbol:
+func drm_crtc_helper_set_config (
+set * @"struct--drm_mode_set.txt"
+ctx * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"

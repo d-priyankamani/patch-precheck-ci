@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/lib/csum-partial_64.c:44
+Symbol:
+func csum_partial (
+buff * const "void"
+len "int"
+sum @"typedef--__wsum.txt"
+)
+@"typedef--__wsum.txt"

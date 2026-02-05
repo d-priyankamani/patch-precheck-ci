@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/net/inet_frag.h:107
+Symbol:
+Byte size 128
+struct inet_frags {
+0x0 qsize "unsigned int"
+0x8 constructor * func (NULL) (
+(NULL) * @"struct--inet_frag_queue.txt"
+(NULL) * const "void"
+)
+"void"
+0x10 destructor * func (NULL) (
+(NULL) * @"struct--inet_frag_queue.txt"
+)
+"void"
+0x18 frag_expire * func (NULL) (
+(NULL) * @"struct--timer_list.txt"
+)
+"void"
+0x20 frags_cachep * @"<declarations>/struct--kmem_cache.txt"
+0x28 frags_cache_name * const "char"
+0x30 rhash_params @"struct--rhashtable_params.txt"
+0x58 refcnt @"typedef--refcount_t.txt"
+0x60 completion @"struct--completion.txt"
+}

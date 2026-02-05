@@ -1,0 +1,14 @@
+Version: 1.0
+File: drivers/infiniband/core/mad.c:833
+Symbol:
+func ib_create_send_mad (
+mad_agent * @"struct--ib_mad_agent.txt"
+remote_qpn @"typedef--u32.txt"
+pkey_index @"typedef--u16.txt"
+rmpp_active "int"
+hdr_len "int"
+data_len "int"
+gfp_mask @"typedef--gfp_t.txt"
+base_version @"typedef--u8.txt"
+)
+* @"struct--ib_mad_send_buf.txt"

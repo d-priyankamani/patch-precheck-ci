@@ -1,0 +1,35 @@
+Version: 1.0
+File: include/rdma/uverbs_ioctl.h:41
+Symbol:
+Byte size 16
+struct uverbs_attr_spec {
+0x0 type @"typedef--u8.txt"
+0x1:0-1 zero_trailing @"typedef--u8.txt"
+0x1:1-2 alloc_and_copy @"typedef--u8.txt"
+0x1:2-3 mandatory @"typedef--u8.txt"
+0x1:3-4 is_udata @"typedef--u8.txt"
+0x2 u union (NULL) {
+ptr struct (NULL) {
+0x0 len @"typedef--u16.txt"
+0x2 min_len @"typedef--u16.txt"
+}
+obj struct (NULL) {
+0x0 obj_type @"typedef--u16.txt"
+0x2 access @"typedef--u8.txt"
+}
+enum_def struct (NULL) {
+0x0 num_elems @"typedef--u8.txt"
+}
+}
+0x8 u2 union (NULL) {
+enum_def struct (NULL) {
+0x0 ids * const @"struct--uverbs_attr_spec.txt"
+}
+objs_arr struct (NULL) {
+0x0 obj_type @"typedef--u16.txt"
+0x2 min_len @"typedef--u16.txt"
+0x4 max_len @"typedef--u16.txt"
+0x6 access @"typedef--u8.txt"
+}
+}
+}

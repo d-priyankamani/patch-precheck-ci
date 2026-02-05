@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/xfrm.h:77
+Symbol:
+Byte size 32
+struct xfrm_lifetime_cur {
+0x0 bytes @"typedef--__u64.txt"
+0x8 packets @"typedef--__u64.txt"
+0x10 add_time @"typedef--__u64.txt"
+0x18 use_time @"typedef--__u64.txt"
+}

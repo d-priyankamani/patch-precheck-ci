@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_fourcc.c:336
+Symbol:
+func drm_format_info (
+format @"typedef--u32.txt"
+)
+* const @"struct--drm_format_info.txt"

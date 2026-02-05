@@ -1,0 +1,36 @@
+Version: 1.0
+File: include/drm/drm_connector.h:656
+Symbol:
+Byte size 240
+struct drm_display_info {
+0x0 width_mm "unsigned int"
+0x4 height_mm "unsigned int"
+0x8 bpc "unsigned int"
+0xc subpixel_order @"enum--subpixel_order.txt"
+0x10 panel_orientation "int"
+0x14 color_formats @"typedef--u32.txt"
+0x18 bus_formats * const @"typedef--u32.txt"
+0x20 num_bus_formats "unsigned int"
+0x24 bus_flags @"typedef--u32.txt"
+0x28 max_tmds_clock "int"
+0x2c dvi_dual @"typedef--bool.txt"
+0x2d is_hdmi @"typedef--bool.txt"
+0x2e has_audio @"typedef--bool.txt"
+0x2f has_hdmi_infoframe @"typedef--bool.txt"
+0x30 rgb_quant_range_selectable @"typedef--bool.txt"
+0x31 edid_hdmi_rgb444_dc_modes @"typedef--u8.txt"
+0x32 edid_hdmi_ycbcr444_dc_modes @"typedef--u8.txt"
+0x33 cea_rev @"typedef--u8.txt"
+0x38 hdmi @"struct--drm_hdmi_info.txt"
+0xa8 non_desktop @"typedef--bool.txt"
+0xb0 monitor_range @"struct--drm_monitor_range_info.txt"
+0xc0 luminance_range @"struct--drm_luminance_range_info.txt"
+0xc8 mso_stream_count @"typedef--u8.txt"
+0xc9 mso_pixel_overlap @"typedef--u8.txt"
+0xcc max_dsc_bpp @"typedef--u32.txt"
+0xd0 vics * @"typedef--u8.txt"
+0xd8 vics_len "int"
+0xdc quirks @"typedef--u32.txt"
+0xe0 ck_reserved1 "long unsigned int"
+0xe8 ck_reserved2 "long unsigned int"
+}

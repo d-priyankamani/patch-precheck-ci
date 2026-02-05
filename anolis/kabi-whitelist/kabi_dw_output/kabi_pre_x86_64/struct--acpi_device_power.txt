@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/acpi/acpi_bus.h:289
+Symbol:
+Byte size 184
+struct acpi_device_power {
+0x0 state "int"
+0x4 flags @"struct--acpi_device_power_flags.txt"
+0x8 states [5]@"struct--acpi_device_power_state.txt"
+0xa8 state_for_enumeration @"typedef--u8.txt"
+0xb0 ck_reserved1 "long unsigned int"
+}

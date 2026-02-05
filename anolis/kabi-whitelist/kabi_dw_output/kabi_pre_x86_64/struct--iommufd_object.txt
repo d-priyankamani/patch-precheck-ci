@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/iommufd.h:48
+Symbol:
+Byte size 16
+struct iommufd_object {
+0x0 wait_cnt @"typedef--refcount_t.txt"
+0x4 users @"typedef--refcount_t.txt"
+0x8 type @"enum--iommufd_object_type.txt"
+0xc id "unsigned int"
+}

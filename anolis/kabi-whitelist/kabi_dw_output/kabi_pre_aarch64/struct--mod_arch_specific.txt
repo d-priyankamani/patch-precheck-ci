@@ -1,0 +1,12 @@
+Version: 1.0
+File: arch/arm64/include/asm/module.h:17
+Symbol:
+Byte size 56
+struct mod_arch_specific {
+0x0 core @"struct--mod_plt_sec.txt"
+0xc init @"struct--mod_plt_sec.txt"
+0x18 ftrace_trampolines * @"struct--plt_entry.txt"
+0x20 num_orcs "unsigned int"
+0x28 orc_unwind_ip * "int"
+0x30 orc_unwind * @"struct--orc_entry.txt"
+}

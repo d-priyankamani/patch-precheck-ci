@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:2481
+Symbol:
+func drm_connector_attach_colorspace_property (
+connector * @"struct--drm_connector.txt"
+)
+"int"

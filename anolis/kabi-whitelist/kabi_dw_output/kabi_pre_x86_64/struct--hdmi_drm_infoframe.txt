@@ -1,0 +1,23 @@
+Version: 1.0
+File: include/linux/hdmi.h:193
+Symbol:
+Byte size 40
+struct hdmi_drm_infoframe {
+0x0 type @"enum--hdmi_infoframe_type.txt"
+0x4 version "unsigned char"
+0x5 length "unsigned char"
+0x8 eotf @"enum--hdmi_eotf.txt"
+0xc metadata_type @"enum--hdmi_metadata_type.txt"
+0x10 display_primaries [3]struct (NULL) {
+0x0 x @"typedef--u16.txt"
+0x2 y @"typedef--u16.txt"
+}
+0x1c white_point struct (NULL) {
+0x0 x @"typedef--u16.txt"
+0x2 y @"typedef--u16.txt"
+}
+0x20 max_display_mastering_luminance @"typedef--u16.txt"
+0x22 min_display_mastering_luminance @"typedef--u16.txt"
+0x24 max_cll @"typedef--u16.txt"
+0x26 max_fall @"typedef--u16.txt"
+}

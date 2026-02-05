@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/netfilter/nf_conntrack_common.h:30
+Symbol:
+Byte size 4
+struct nf_conntrack {
+0x0 use @"typedef--refcount_t.txt"
+}

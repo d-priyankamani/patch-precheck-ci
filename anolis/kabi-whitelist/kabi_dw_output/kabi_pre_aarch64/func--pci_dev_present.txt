@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/search.c:408
+Symbol:
+func pci_dev_present (
+ids * const @"struct--pci_device_id.txt"
+)
+"int"

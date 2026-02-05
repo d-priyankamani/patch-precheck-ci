@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/tty/tty_buffer.c:529
+Symbol:
+func tty_flip_buffer_push (
+port * @"struct--tty_port.txt"
+)
+"void"

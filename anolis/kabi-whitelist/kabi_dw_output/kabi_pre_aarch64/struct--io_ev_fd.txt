@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:181
+Symbol:
+Byte size 40
+Alignment 8
+struct io_ev_fd {
+0x0 cq_ev_fd * @"<declarations>/struct--eventfd_ctx.txt"
+0x8:0-1 eventfd_async "unsigned int"
+0x10 8 rcu @"struct--callback_head.txt"
+0x20 refs @"typedef--atomic_t.txt"
+0x24 ops @"typedef--atomic_t.txt"
+}

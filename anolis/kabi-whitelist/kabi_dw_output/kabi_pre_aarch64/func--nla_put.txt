@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/nlattr.c:1086
+Symbol:
+func nla_put (
+skb * @"struct--sk_buff.txt"
+attrtype "int"
+attrlen "int"
+data * const "void"
+)
+"int"

@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/cgroup/rdma.c:336
+Symbol:
+func rdmacg_unregister_device (
+device * @"struct--rdmacg_device.txt"
+)
+"void"

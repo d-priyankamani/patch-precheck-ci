@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_entity.c:315
+Symbol:
+func drm_sched_entity_fini (
+entity * @"struct--drm_sched_entity.txt"
+)
+"void"

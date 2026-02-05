@@ -1,0 +1,27 @@
+Version: 1.0
+File: include/net/neighbour.h:174
+Symbol:
+Byte size 40
+struct neigh_ops {
+0x0 family "int"
+0x8 solicit * func (NULL) (
+(NULL) * @"struct--neighbour.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"void"
+0x10 error_report * func (NULL) (
+(NULL) * @"struct--neighbour.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"void"
+0x18 output * func (NULL) (
+(NULL) * @"struct--neighbour.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+0x20 connected_output * func (NULL) (
+(NULL) * @"struct--neighbour.txt"
+(NULL) * @"struct--sk_buff.txt"
+)
+"int"
+}

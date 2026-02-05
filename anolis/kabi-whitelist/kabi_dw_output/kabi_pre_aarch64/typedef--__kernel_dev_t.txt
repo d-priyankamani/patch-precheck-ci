@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:18
+Symbol:
+typedef __kernel_dev_t
+@"typedef--u32.txt"

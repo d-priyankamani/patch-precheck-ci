@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/health.c:73
+Symbol:
+func devlink_health_reporter_priv (
+reporter * @"struct--devlink_health_reporter.txt"
+)
+* "void"

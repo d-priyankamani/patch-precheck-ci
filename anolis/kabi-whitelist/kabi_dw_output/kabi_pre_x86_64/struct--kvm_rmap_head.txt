@@ -1,0 +1,7 @@
+Version: 1.0
+File: arch/x86/include/asm/kvm_host.h:395
+Symbol:
+Byte size 8
+struct kvm_rmap_head {
+0x0 val "long unsigned int"
+}

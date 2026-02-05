@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/core/skbuff.c:2793
+Symbol:
+func skb_copy_bits (
+skb * const @"struct--sk_buff.txt"
+offset "int"
+to * "void"
+len "int"
+)
+"int"

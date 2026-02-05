@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/net/dst_metadata.h:26
+Symbol:
+Byte size 16
+struct xfrm_md_info {
+0x0 if_id @"typedef--u32.txt"
+0x4 link "int"
+0x8 dst_orig * @"struct--dst_entry.txt"
+}

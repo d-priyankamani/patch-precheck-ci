@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/idr.c:264
+Symbol:
+func idr_get_next (
+idr * @"struct--idr.txt"
+nextid * "int"
+)
+* "void"

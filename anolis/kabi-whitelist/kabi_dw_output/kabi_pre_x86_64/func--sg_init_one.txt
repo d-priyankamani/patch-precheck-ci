@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/scatterlist.c:140
+Symbol:
+func sg_init_one (
+sg * @"struct--scatterlist.txt"
+buf * const "void"
+buflen "unsigned int"
+)
+"void"

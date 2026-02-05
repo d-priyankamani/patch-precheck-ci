@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/quota.h:457
+Symbol:
+Byte size 32
+struct quota_format_type {
+0x0 qf_fmt_id "int"
+0x8 qf_ops * const @"struct--quota_format_ops.txt"
+0x10 qf_owner * @"struct--module.txt"
+0x18 qf_next * @"struct--quota_format_type.txt"
+}

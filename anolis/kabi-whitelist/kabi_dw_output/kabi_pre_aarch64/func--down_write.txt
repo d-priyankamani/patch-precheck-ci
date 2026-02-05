@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/rwsem.c:1570
+Symbol:
+func down_write (
+sem * @"struct--rw_semaphore.txt"
+)
+"void"

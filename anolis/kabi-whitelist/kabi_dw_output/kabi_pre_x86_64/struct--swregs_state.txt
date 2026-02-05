@@ -1,0 +1,22 @@
+Version: 1.0
+File: arch/x86/include/asm/fpu/types.h:79
+Symbol:
+Byte size 136
+struct swregs_state {
+0x0 cwd @"typedef--u32.txt"
+0x4 swd @"typedef--u32.txt"
+0x8 twd @"typedef--u32.txt"
+0xc fip @"typedef--u32.txt"
+0x10 fcs @"typedef--u32.txt"
+0x14 foo @"typedef--u32.txt"
+0x18 fos @"typedef--u32.txt"
+0x1c st_space [20]@"typedef--u32.txt"
+0x6c ftop @"typedef--u8.txt"
+0x6d changed @"typedef--u8.txt"
+0x6e lookahead @"typedef--u8.txt"
+0x6f no_update @"typedef--u8.txt"
+0x70 rm @"typedef--u8.txt"
+0x71 alimit @"typedef--u8.txt"
+0x78 info * @"struct--math_emu_info.txt"
+0x80 entry_eip @"typedef--u32.txt"
+}

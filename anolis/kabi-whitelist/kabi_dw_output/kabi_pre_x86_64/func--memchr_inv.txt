@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/string.c:843
+Symbol:
+func memchr_inv (
+start * const "void"
+c "int"
+bytes @"typedef--size_t.txt"
+)
+* "void"

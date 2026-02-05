@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/genalloc.c:153
+Symbol:
+func gen_pool_create (
+min_alloc_order "int"
+nid "int"
+)
+* @"struct--gen_pool.txt"

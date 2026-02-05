@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/locks.c:2037
+Symbol:
+func locks_lock_inode_wait (
+inode * @"struct--inode.txt"
+fl * @"struct--file_lock.txt"
+)
+"int"

@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/linux/types.h:43
+Symbol:
+typedef __sum16
+@"typedef--__u16.txt"

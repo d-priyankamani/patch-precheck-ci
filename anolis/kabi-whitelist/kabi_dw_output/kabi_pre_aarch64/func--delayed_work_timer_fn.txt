@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/workqueue.c:1930
+Symbol:
+func delayed_work_timer_fn (
+t * @"struct--timer_list.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:1079
+Symbol:
+func ib_destroy_srq_user (
+srq * @"struct--ib_srq.txt"
+udata * @"struct--ib_udata.txt"
+)
+"int"

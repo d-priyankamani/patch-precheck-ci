@@ -1,0 +1,12 @@
+Version: 1.0
+File: mm/gup.c:2398
+Symbol:
+func get_user_pages_remote (
+mm * @"struct--mm_struct.txt"
+start "long unsigned int"
+nr_pages "long unsigned int"
+gup_flags "unsigned int"
+pages * * @"struct--page.txt"
+locked * "int"
+)
+"long int"

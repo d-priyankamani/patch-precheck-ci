@@ -1,0 +1,8 @@
+Version: 1.0
+File: mm/swap.c:1034
+Symbol:
+func release_pages (
+arg @"typedef--release_pages_arg.txt"
+nr "int"
+)
+"void"

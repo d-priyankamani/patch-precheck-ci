@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/dynamic_queue_limits.h:43
+Symbol:
+Byte size 128
+Alignment 64
+struct dql {
+0x0 num_queued "unsigned int"
+0x4 adj_limit "unsigned int"
+0x8 last_obj_cnt "unsigned int"
+0x40 64 limit "unsigned int"
+0x44 num_completed "unsigned int"
+0x48 prev_ovlimit "unsigned int"
+0x4c prev_num_queued "unsigned int"
+0x50 prev_last_obj_cnt "unsigned int"
+0x54 lowest_slack "unsigned int"
+0x58 slack_start_time "long unsigned int"
+0x60 max_limit "unsigned int"
+0x64 min_limit "unsigned int"
+0x68 slack_hold_time "unsigned int"
+}

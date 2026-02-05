@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/net/netns/conntrack.h:21
+Symbol:
+Byte size 4
+struct nf_generic_net {
+0x0 timeout "unsigned int"
+}

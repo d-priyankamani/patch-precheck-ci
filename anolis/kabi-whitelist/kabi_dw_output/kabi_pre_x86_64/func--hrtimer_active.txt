@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/hrtimer.c:1674
+Symbol:
+func hrtimer_active (
+timer * const @"struct--hrtimer.txt"
+)
+@"typedef--bool.txt"

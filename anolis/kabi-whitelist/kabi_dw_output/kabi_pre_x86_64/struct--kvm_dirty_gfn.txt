@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/uapi/linux/kvm.h:2197
+Symbol:
+Byte size 16
+struct kvm_dirty_gfn {
+0x0 flags @"typedef--__u32.txt"
+0x4 slot @"typedef--__u32.txt"
+0x8 offset @"typedef--__u64.txt"
+}

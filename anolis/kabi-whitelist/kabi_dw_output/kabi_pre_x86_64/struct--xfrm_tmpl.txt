@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/xfrm.h:473
+Symbol:
+Byte size 64
+struct xfrm_tmpl {
+0x0 id @"struct--xfrm_id.txt"
+0x18 saddr @"typedef--xfrm_address_t.txt"
+0x28 encap_family "short unsigned int"
+0x2c reqid @"typedef--u32.txt"
+0x30 mode @"typedef--u8.txt"
+0x31 share @"typedef--u8.txt"
+0x32 optional @"typedef--u8.txt"
+0x33 allalgs @"typedef--u8.txt"
+0x34 aalgos @"typedef--u32.txt"
+0x38 ealgos @"typedef--u32.txt"
+0x3c calgos @"typedef--u32.txt"
+}

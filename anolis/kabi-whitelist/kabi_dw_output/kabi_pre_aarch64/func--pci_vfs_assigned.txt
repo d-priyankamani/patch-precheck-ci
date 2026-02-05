@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/iov.c:1119
+Symbol:
+func pci_vfs_assigned (
+dev * @"struct--pci_dev.txt"
+)
+"int"

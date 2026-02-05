@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/softirq.c:842
+Symbol:
+func tasklet_setup (
+t * @"struct--tasklet_struct.txt"
+callback * func (NULL) (
+(NULL) * @"struct--tasklet_struct.txt"
+)
+"void"
+)
+"void"

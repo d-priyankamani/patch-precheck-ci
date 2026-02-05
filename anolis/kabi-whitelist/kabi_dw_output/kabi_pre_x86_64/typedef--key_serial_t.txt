@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/key.h:29
+Symbol:
+typedef key_serial_t
+@"typedef--int32_t.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/smp.h:17
+Symbol:
+Byte size 8
+typedef smp_call_func_t
+* func (NULL) (
+(NULL) * "void"
+)
+"void"

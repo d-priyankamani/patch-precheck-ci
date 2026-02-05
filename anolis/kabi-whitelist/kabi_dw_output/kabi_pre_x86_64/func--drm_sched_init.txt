@@ -1,0 +1,15 @@
+Version: 1.0
+File: drivers/gpu/drm/scheduler/sched_main.c:1093
+Symbol:
+func drm_sched_init (
+sched * @"struct--drm_gpu_scheduler.txt"
+ops * const @"struct--drm_sched_backend_ops.txt"
+hw_submission "unsigned int"
+hang_limit "unsigned int"
+timeout "long int"
+timeout_wq * @"<declarations>/struct--workqueue_struct.txt"
+score * @"typedef--atomic_t.txt"
+name * const "char"
+dev * @"struct--device.txt"
+)
+"int"

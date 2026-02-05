@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/cgroup_rdma.h:29
+Symbol:
+Byte size 40
+struct rdmacg_device {
+0x0 dev_node @"struct--list_head.txt"
+0x10 rpools @"struct--list_head.txt"
+0x20 name * "char"
+}

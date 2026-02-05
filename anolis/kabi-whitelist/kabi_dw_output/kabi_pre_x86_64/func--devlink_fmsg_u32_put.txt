@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/devlink/health.c:868
+Symbol:
+func devlink_fmsg_u32_put (
+fmsg * @"struct--devlink_fmsg.txt"
+value @"typedef--u32.txt"
+)
+"int"

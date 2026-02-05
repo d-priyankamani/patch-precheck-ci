@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/drm_connector.h:2082
+Symbol:
+Byte size 32
+struct drm_tile_group {
+0x0 refcount @"struct--kref.txt"
+0x8 dev * @"struct--drm_device.txt"
+0x10 id "int"
+0x14 group_data [8]@"typedef--u8.txt"
+}

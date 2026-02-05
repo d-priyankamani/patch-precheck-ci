@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/cpuidle.h:167
+Symbol:
+Byte size 1424
+struct cpuidle_driver {
+0x0 name * const "char"
+0x8 owner * @"struct--module.txt"
+0x10:0-1 bctimer "unsigned int"
+0x18 states [10]@"struct--cpuidle_state.txt"
+0x568 state_count "int"
+0x56c safe_state_index "int"
+0x570 cpumask * @"struct--cpumask.txt"
+0x578 governor * const "char"
+0x580 ck_reserved1 "long unsigned int"
+0x588 ck_reserved2 "long unsigned int"
+}

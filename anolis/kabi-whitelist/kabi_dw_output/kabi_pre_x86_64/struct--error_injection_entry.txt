@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/asm-generic/error-injection.h:13
+Symbol:
+Byte size 16
+struct error_injection_entry {
+0x0 addr "long unsigned int"
+0x8 etype "int"
+}

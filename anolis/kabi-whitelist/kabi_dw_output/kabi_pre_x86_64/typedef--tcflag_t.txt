@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/uapi/asm-generic/termbits.h:7
+Symbol:
+Byte size 4
+typedef tcflag_t
+"unsigned int"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/in6.h:33
+Symbol:
+Byte size 16
+struct in6_addr {
+0x0 in6_u union (NULL) {
+u6_addr8 [16]@"typedef--__u8.txt"
+u6_addr16 [8]@"typedef--__be16.txt"
+u6_addr32 [4]@"typedef--__be32.txt"
+}
+}

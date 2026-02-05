@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_mst_topology.c:4598
+Symbol:
+func drm_dp_mst_atomic_wait_for_dependencies (
+state * @"struct--drm_atomic_state.txt"
+)
+"void"

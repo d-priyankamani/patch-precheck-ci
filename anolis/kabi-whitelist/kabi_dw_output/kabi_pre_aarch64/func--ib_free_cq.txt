@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/cq.c:318
+Symbol:
+func ib_free_cq (
+cq * @"struct--ib_cq.txt"
+)
+"void"

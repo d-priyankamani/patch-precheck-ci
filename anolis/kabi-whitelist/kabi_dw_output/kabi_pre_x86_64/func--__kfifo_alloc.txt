@@ -1,0 +1,10 @@
+Version: 1.0
+File: lib/kfifo.c:24
+Symbol:
+func __kfifo_alloc (
+fifo * @"struct--__kfifo.txt"
+size "unsigned int"
+esize @"typedef--size_t.txt"
+gfp_mask @"typedef--gfp_t.txt"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/string.c:469
+Symbol:
+func strcspn (
+s * const "char"
+reject * const "char"
+)
+@"typedef--__kernel_size_t.txt"

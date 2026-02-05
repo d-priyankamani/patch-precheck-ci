@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/net/tls.h:212
+Symbol:
+Byte size 20
+struct tls_prot_info {
+0x0 version @"typedef--u16.txt"
+0x2 cipher_type @"typedef--u16.txt"
+0x4 prepend_size @"typedef--u16.txt"
+0x6 tag_size @"typedef--u16.txt"
+0x8 overhead_size @"typedef--u16.txt"
+0xa iv_size @"typedef--u16.txt"
+0xc salt_size @"typedef--u16.txt"
+0xe rec_seq_size @"typedef--u16.txt"
+0x10 aad_size @"typedef--u16.txt"
+0x12 tail_size @"typedef--u16.txt"
+}

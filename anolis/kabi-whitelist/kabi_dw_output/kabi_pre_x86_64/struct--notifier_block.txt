@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/notifier.h:54
+Symbol:
+Byte size 24
+struct notifier_block {
+0x0 notifier_call @"typedef--notifier_fn_t.txt"
+0x8 next * @"struct--notifier_block.txt"
+0x10 priority "int"
+}

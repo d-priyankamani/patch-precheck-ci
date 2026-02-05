@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_atomic_state_helper.c:641
+Symbol:
+func drm_atomic_helper_connector_duplicate_state (
+connector * @"struct--drm_connector.txt"
+)
+* @"struct--drm_connector_state.txt"

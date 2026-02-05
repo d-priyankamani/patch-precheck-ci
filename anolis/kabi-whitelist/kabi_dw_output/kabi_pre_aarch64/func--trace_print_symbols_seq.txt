@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/trace/trace_output.c:103
+Symbol:
+func trace_print_symbols_seq (
+p * @"struct--trace_seq.txt"
+val "long unsigned int"
+symbol_array * const @"struct--trace_print_flags.txt"
+)
+* const "char"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/power/runtime.c:1695
+Symbol:
+func __pm_runtime_use_autosuspend (
+dev * @"struct--device.txt"
+use @"typedef--bool.txt"
+)
+"void"

@@ -1,0 +1,34 @@
+Version: 1.0
+File: include/drm/drm_crtc.h:81
+Symbol:
+Byte size 344
+struct drm_crtc_state {
+0x0 crtc * @"struct--drm_crtc.txt"
+0x8 enable @"typedef--bool.txt"
+0x9 active @"typedef--bool.txt"
+0xa:0-1 planes_changed @"typedef--bool.txt"
+0xa:1-2 mode_changed @"typedef--bool.txt"
+0xa:2-3 active_changed @"typedef--bool.txt"
+0xa:3-4 connectors_changed @"typedef--bool.txt"
+0xa:4-5 zpos_changed @"typedef--bool.txt"
+0xa:5-6 color_mgmt_changed @"typedef--bool.txt"
+0xa:6-7 no_vblank @"typedef--bool.txt"
+0xc plane_mask @"typedef--u32.txt"
+0x10 connector_mask @"typedef--u32.txt"
+0x14 encoder_mask @"typedef--u32.txt"
+0x18 adjusted_mode @"struct--drm_display_mode.txt"
+0x90 mode @"struct--drm_display_mode.txt"
+0x108 mode_blob * @"struct--drm_property_blob.txt"
+0x110 degamma_lut * @"struct--drm_property_blob.txt"
+0x118 ctm * @"struct--drm_property_blob.txt"
+0x120 gamma_lut * @"struct--drm_property_blob.txt"
+0x128 target_vblank @"typedef--u32.txt"
+0x12c async_flip @"typedef--bool.txt"
+0x12d vrr_enabled @"typedef--bool.txt"
+0x12e self_refresh_active @"typedef--bool.txt"
+0x130 scaling_filter @"enum--drm_scaling_filter.txt"
+0x138 event * @"struct--drm_pending_vblank_event.txt"
+0x140 commit * @"struct--drm_crtc_commit.txt"
+0x148 state * @"struct--drm_atomic_state.txt"
+0x150 ck_reserved1 "long unsigned int"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/core/skbuff.c:772
+Symbol:
+func __napi_alloc_skb (
+napi * @"struct--napi_struct.txt"
+len "unsigned int"
+gfp_mask @"typedef--gfp_t.txt"
+)
+* @"struct--sk_buff.txt"

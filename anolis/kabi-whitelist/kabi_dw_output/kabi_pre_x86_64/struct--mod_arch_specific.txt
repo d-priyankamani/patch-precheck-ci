@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/include/asm/module.h:8
+Symbol:
+Byte size 24
+struct mod_arch_specific {
+0x0 num_orcs "unsigned int"
+0x8 orc_unwind_ip * "int"
+0x10 orc_unwind * @"struct--orc_entry.txt"
+}

@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:524
+Symbol:
+Byte size 36
+struct ethtool_ringparam {
+0x0 cmd @"typedef--__u32.txt"
+0x4 rx_max_pending @"typedef--__u32.txt"
+0x8 rx_mini_max_pending @"typedef--__u32.txt"
+0xc rx_jumbo_max_pending @"typedef--__u32.txt"
+0x10 tx_max_pending @"typedef--__u32.txt"
+0x14 rx_pending @"typedef--__u32.txt"
+0x18 rx_mini_pending @"typedef--__u32.txt"
+0x1c rx_jumbo_pending @"typedef--__u32.txt"
+0x20 tx_pending @"typedef--__u32.txt"
+}

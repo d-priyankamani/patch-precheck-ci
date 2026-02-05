@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_debugfs.c:234
+Symbol:
+func drm_debugfs_create_files (
+files * const @"struct--drm_info_list.txt"
+count "int"
+root * @"struct--dentry.txt"
+minor * @"struct--drm_minor.txt"
+)
+"void"

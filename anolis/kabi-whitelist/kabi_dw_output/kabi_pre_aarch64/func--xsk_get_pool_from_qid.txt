@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/xdp/xsk.c:99
+Symbol:
+func xsk_get_pool_from_qid (
+dev * @"struct--net_device.txt"
+queue_id @"typedef--u16.txt"
+)
+* @"struct--xsk_buff_pool.txt"

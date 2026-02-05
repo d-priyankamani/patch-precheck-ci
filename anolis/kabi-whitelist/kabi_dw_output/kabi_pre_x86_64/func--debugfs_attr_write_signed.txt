@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/debugfs/file.c:413
+Symbol:
+func debugfs_attr_write_signed (
+file * @"struct--file.txt"
+buf * const "char"
+len @"typedef--size_t.txt"
+ppos * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"

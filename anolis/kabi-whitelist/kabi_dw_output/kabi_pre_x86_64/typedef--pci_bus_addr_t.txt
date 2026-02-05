@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/pci.h:836
+Symbol:
+typedef pci_bus_addr_t
+@"typedef--u64.txt"

@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/linux/kobject_ns.h:39
+Symbol:
+Byte size 48
+struct kobj_ns_type_operations {
+0x0 type @"enum--kobj_ns_type.txt"
+0x8 current_may_mount * func (NULL) (
+)
+@"typedef--bool.txt"
+0x10 grab_current_ns * func (NULL) (
+)
+* "void"
+0x18 netlink_ns * func (NULL) (
+(NULL) * @"struct--sock.txt"
+)
+* const "void"
+0x20 initial_ns * func (NULL) (
+)
+* const "void"
+0x28 drop_ns * func (NULL) (
+(NULL) * "void"
+)
+"void"
+}

@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/net/ip6_fib.h:392
+Symbol:
+Byte size 136
+Alignment 8
+struct fib6_table {
+0x0 tb6_hlist @"struct--hlist_node.txt"
+0x10 tb6_id @"typedef--u32.txt"
+0x14 tb6_lock @"typedef--spinlock_t.txt"
+0x18 8 tb6_root @"struct--fib6_node.txt"
+0x68 tb6_peers @"struct--inet_peer_base.txt"
+0x80 flags "unsigned int"
+0x84 fib_seq "unsigned int"
+}

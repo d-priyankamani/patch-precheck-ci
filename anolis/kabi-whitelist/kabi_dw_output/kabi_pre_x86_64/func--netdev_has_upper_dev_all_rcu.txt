@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/dev.c:6903
+Symbol:
+func netdev_has_upper_dev_all_rcu (
+dev * @"struct--net_device.txt"
+upper_dev * @"struct--net_device.txt"
+)
+@"typedef--bool.txt"

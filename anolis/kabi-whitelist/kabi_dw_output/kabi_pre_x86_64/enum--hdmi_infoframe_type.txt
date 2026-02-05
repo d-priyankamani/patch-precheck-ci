@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/hdmi.h:45
+Symbol:
+Byte size 4
+enum hdmi_infoframe_type {
+HDMI_INFOFRAME_TYPE_VENDOR = 0x81
+HDMI_INFOFRAME_TYPE_AVI = 0x82
+HDMI_INFOFRAME_TYPE_SPD = 0x83
+HDMI_INFOFRAME_TYPE_AUDIO = 0x84
+HDMI_INFOFRAME_TYPE_DRM = 0x87
+}

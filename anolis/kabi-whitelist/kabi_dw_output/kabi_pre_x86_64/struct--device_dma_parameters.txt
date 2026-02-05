@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/device.h:427
+Symbol:
+Byte size 16
+struct device_dma_parameters {
+0x0 max_segment_size "unsigned int"
+0x4 min_align_mask "unsigned int"
+0x8 segment_boundary_mask "long unsigned int"
+}

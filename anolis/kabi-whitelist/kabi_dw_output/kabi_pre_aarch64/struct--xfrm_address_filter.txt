@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/xfrm.h:502
+Symbol:
+Byte size 36
+struct xfrm_address_filter {
+0x0 saddr @"typedef--xfrm_address_t.txt"
+0x10 daddr @"typedef--xfrm_address_t.txt"
+0x20 family @"typedef--__u16.txt"
+0x22 splen @"typedef--__u8.txt"
+0x23 dplen @"typedef--__u8.txt"
+}

@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/net/macsec.h:178
+Symbol:
+Byte size 88
+Alignment 8
+struct macsec_tx_sa {
+0x0 key @"struct--macsec_key.txt"
+0x28 ssci @"typedef--ssci_t.txt"
+0x2c lock @"typedef--spinlock_t.txt"
+0x30 (NULL) union (NULL) {
+next_pn_halves @"typedef--pn_t.txt"
+next_pn @"typedef--u64.txt"
+}
+0x38 refcnt @"typedef--refcount_t.txt"
+0x3c active @"typedef--bool.txt"
+0x40 stats * @"struct--macsec_tx_sa_stats.txt"
+0x48 8 rcu @"struct--callback_head.txt"
+}

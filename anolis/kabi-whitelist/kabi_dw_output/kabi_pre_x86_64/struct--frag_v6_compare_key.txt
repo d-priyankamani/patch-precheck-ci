@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/net/inet_frag.h:57
+Symbol:
+Byte size 44
+struct frag_v6_compare_key {
+0x0 saddr @"struct--in6_addr.txt"
+0x10 daddr @"struct--in6_addr.txt"
+0x20 user @"typedef--u32.txt"
+0x24 id @"typedef--__be32.txt"
+0x28 iif @"typedef--u32.txt"
+}

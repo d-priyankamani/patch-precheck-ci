@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/flow_offload.h:503
+Symbol:
+Byte size 80
+struct flow_block_offload {
+0x0 command @"enum--flow_block_command.txt"
+0x4 binder_type @"enum--flow_block_binder_type.txt"
+0x8 block_shared @"typedef--bool.txt"
+0x9 unlocked_driver_cb @"typedef--bool.txt"
+0x10 net * @"struct--net.txt"
+0x18 block * @"struct--flow_block.txt"
+0x20 cb_list @"struct--list_head.txt"
+0x30 driver_block_list * @"struct--list_head.txt"
+0x38 extack * @"struct--netlink_ext_ack.txt"
+0x40 sch * @"struct--Qdisc.txt"
+0x48 cb_list_head * @"struct--list_head.txt"
+}

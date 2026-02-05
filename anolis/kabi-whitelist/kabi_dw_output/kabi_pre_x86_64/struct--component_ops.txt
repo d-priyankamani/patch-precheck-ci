@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/component.h:16
+Symbol:
+Byte size 16
+struct component_ops {
+0x0 bind * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--device.txt"
+(NULL) * "void"
+)
+"int"
+0x8 unbind * func (NULL) (
+(NULL) * @"struct--device.txt"
+(NULL) * @"struct--device.txt"
+(NULL) * "void"
+)
+"void"
+}

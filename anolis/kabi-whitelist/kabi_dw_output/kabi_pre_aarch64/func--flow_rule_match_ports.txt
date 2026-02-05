@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/flow_offload.c:128
+Symbol:
+func flow_rule_match_ports (
+rule * const @"struct--flow_rule.txt"
+out * @"struct--flow_match_ports.txt"
+)
+"void"

@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/io_uring.h:25
+Symbol:
+Byte size 64
+struct io_uring_cmd {
+0x0 file * @"struct--file.txt"
+0x8 sqe * const @"struct--io_uring_sqe.txt"
+0x10 (NULL) union (NULL) {
+task_work_cb * func (NULL) (
+(NULL) * @"struct--io_uring_cmd.txt"
+(NULL) "unsigned int"
+)
+"void"
+cookie * "void"
+}
+0x18 cmd_op @"typedef--u32.txt"
+0x1c flags @"typedef--u32.txt"
+0x20 pdu [32]@"typedef--u8.txt"
+}

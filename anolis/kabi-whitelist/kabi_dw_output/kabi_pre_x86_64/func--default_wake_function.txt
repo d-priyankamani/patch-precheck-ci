@@ -1,0 +1,10 @@
+Version: 1.0
+File: kernel/sched/core.c:7175
+Symbol:
+func default_wake_function (
+curr * @"typedef--wait_queue_entry_t.txt"
+mode "unsigned int"
+wake_flags "int"
+key * "void"
+)
+"int"

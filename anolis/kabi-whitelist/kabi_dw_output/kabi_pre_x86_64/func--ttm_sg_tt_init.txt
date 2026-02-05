@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_tt.c:191
+Symbol:
+func ttm_sg_tt_init (
+ttm * @"struct--ttm_tt.txt"
+bo * @"struct--ttm_buffer_object.txt"
+page_flags @"typedef--uint32_t.txt"
+caching @"enum--ttm_caching.txt"
+)
+"int"

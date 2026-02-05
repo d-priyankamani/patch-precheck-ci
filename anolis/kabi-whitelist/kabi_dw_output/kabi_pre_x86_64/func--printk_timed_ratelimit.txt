@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/printk/printk.c:4026
+Symbol:
+func printk_timed_ratelimit (
+caller_jiffies * "long unsigned int"
+interval_msecs "unsigned int"
+)
+@"typedef--bool.txt"

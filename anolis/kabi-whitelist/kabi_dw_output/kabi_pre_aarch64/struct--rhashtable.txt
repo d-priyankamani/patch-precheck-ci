@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/rhashtable-types.h:81
+Symbol:
+Byte size 168
+struct rhashtable {
+0x0 tbl * @"struct--bucket_table.txt"
+0x8 key_len "unsigned int"
+0xc max_elems "unsigned int"
+0x10 p @"struct--rhashtable_params.txt"
+0x38 rhlist @"typedef--bool.txt"
+0x40 run_work @"struct--work_struct.txt"
+0x80 mutex @"struct--mutex.txt"
+0xa0 lock @"typedef--spinlock_t.txt"
+0xa4 nelems @"typedef--atomic_t.txt"
+}

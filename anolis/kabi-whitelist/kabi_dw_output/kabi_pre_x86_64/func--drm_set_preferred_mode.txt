@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:6985
+Symbol:
+func drm_set_preferred_mode (
+connector * @"struct--drm_connector.txt"
+hpref "int"
+vpref "int"
+)
+"void"

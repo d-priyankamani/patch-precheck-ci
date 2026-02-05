@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/flow_dissector.h:124
+Symbol:
+Byte size 32
+struct flow_dissector_key_ipv6_addrs {
+0x0 src @"struct--in6_addr.txt"
+0x10 dst @"struct--in6_addr.txt"
+}

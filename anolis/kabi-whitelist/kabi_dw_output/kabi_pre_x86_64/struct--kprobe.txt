@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/linux/kprobes.h:60
+Symbol:
+Byte size 152
+struct kprobe {
+0x0 hlist @"struct--hlist_node.txt"
+0x10 list @"struct--list_head.txt"
+0x20 nmissed "long unsigned int"
+0x28 addr * @"typedef--kprobe_opcode_t.txt"
+0x30 symbol_name * const "char"
+0x38 offset "unsigned int"
+0x40 pre_handler @"typedef--kprobe_pre_handler_t.txt"
+0x48 post_handler @"typedef--kprobe_post_handler_t.txt"
+0x50 opcode @"typedef--kprobe_opcode_t.txt"
+0x58 ainsn @"struct--arch_specific_insn.txt"
+0x88 flags @"typedef--u32.txt"
+0x90 ck_reserved1 "long unsigned int"
+}

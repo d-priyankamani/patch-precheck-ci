@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/mm.h:4365
+Symbol:
+Byte size 72
+struct fast_reflink_work {
+0x0 work @"struct--work_struct.txt"
+0x40 mapping * @"struct--address_space.txt"
+}

@@ -1,0 +1,34 @@
+Version: 1.0
+File: kernel/workqueue.c:153
+Symbol:
+Byte size 928
+Alignment 8
+struct worker_pool {
+0x0 lock @"typedef--raw_spinlock_t.txt"
+0x4 cpu "int"
+0x8 node "int"
+0xc id "int"
+0x10 flags "unsigned int"
+0x18 watchdog_ts "long unsigned int"
+0x20 cpu_stall @"typedef--bool.txt"
+0x24 nr_running "int"
+0x28 worklist @"struct--list_head.txt"
+0x38 nr_workers "int"
+0x3c nr_idle "int"
+0x40 idle_list @"struct--list_head.txt"
+0x50 idle_timer @"struct--timer_list.txt"
+0x98 idle_cull_work @"struct--work_struct.txt"
+0xd8 mayday_timer @"struct--timer_list.txt"
+0x120 busy_hash [64]@"struct--hlist_head.txt"
+0x320 manager * @"struct--worker.txt"
+0x328 workers @"struct--list_head.txt"
+0x338 dying_workers @"struct--list_head.txt"
+0x348 detach_completion * @"struct--completion.txt"
+0x350 worker_ida @"struct--ida.txt"
+0x360 attrs * @"struct--workqueue_attrs.txt"
+0x368 hash_node @"struct--hlist_node.txt"
+0x378 refcnt "int"
+0x380 8 rcu @"struct--callback_head.txt"
+0x390 ck_reserved1 "long unsigned int"
+0x398 ck_reserved2 "long unsigned int"
+}

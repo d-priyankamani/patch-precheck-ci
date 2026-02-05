@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:2528
+Symbol:
+func drm_connector_set_vrr_capable_property (
+connector * @"struct--drm_connector.txt"
+capable @"typedef--bool.txt"
+)
+"void"

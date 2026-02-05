@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/trace/trace.c:2675
+Symbol:
+func trace_handle_return (
+s * @"struct--trace_seq.txt"
+)
+@"enum--print_line_t.txt"

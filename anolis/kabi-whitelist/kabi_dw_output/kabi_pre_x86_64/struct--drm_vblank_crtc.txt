@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/drm/drm_vblank.h:91
+Symbol:
+Byte size 336
+struct drm_vblank_crtc {
+0x0 dev * @"struct--drm_device.txt"
+0x8 queue @"typedef--wait_queue_head_t.txt"
+0x20 disable_timer @"struct--timer_list.txt"
+0x68 seqlock @"typedef--seqlock_t.txt"
+0x70 count @"typedef--atomic64_t.txt"
+0x78 time @"typedef--ktime_t.txt"
+0x80 refcount @"typedef--atomic_t.txt"
+0x84 last @"typedef--u32.txt"
+0x88 max_vblank_count @"typedef--u32.txt"
+0x8c inmodeset "unsigned int"
+0x90 pipe "unsigned int"
+0x94 framedur_ns "int"
+0x98 linedur_ns "int"
+0xa0 hwmode @"struct--drm_display_mode.txt"
+0x118 enabled @"typedef--bool.txt"
+0x120 worker * @"struct--kthread_worker.txt"
+0x128 pending_work @"struct--list_head.txt"
+0x138 work_wait_queue @"typedef--wait_queue_head_t.txt"
+}

@@ -1,0 +1,7 @@
+Version: 1.0
+File: mm/gup.c:191
+Symbol:
+func unpin_user_page (
+page * @"struct--page.txt"
+)
+"void"

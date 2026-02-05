@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/restrack.c:161
+Symbol:
+func rdma_restrack_new (
+res * @"struct--rdma_restrack_entry.txt"
+type @"enum--rdma_restrack_type.txt"
+)
+"void"

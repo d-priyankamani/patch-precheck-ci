@@ -1,0 +1,125 @@
+Version: 1.0
+File: include/linux/gpio/driver.h:415
+Symbol:
+Byte size 576
+struct gpio_chip {
+0x0 label * const "char"
+0x8 gpiodev * @"struct--gpio_device.txt"
+0x10 parent * @"struct--device.txt"
+0x18 fwnode * @"struct--fwnode_handle.txt"
+0x20 owner * @"struct--module.txt"
+0x28 request * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x30 free * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) "unsigned int"
+)
+"void"
+0x38 get_direction * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x40 direction_input * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x48 direction_output * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) "unsigned int"
+(NULL) "int"
+)
+"int"
+0x50 get * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x58 get_multiple * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) * "long unsigned int"
+(NULL) * "long unsigned int"
+)
+"int"
+0x60 set * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) "unsigned int"
+(NULL) "int"
+)
+"void"
+0x68 set_multiple * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) * "long unsigned int"
+(NULL) * "long unsigned int"
+)
+"void"
+0x70 set_config * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"int"
+0x78 to_irq * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x80 dbg_show * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"struct--gpio_chip.txt"
+)
+"void"
+0x88 init_valid_mask * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) * "long unsigned int"
+(NULL) "unsigned int"
+)
+"int"
+0x90 add_pin_ranges * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+)
+"int"
+0x98 en_hw_timestamp * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0xa0 dis_hw_timestamp * func (NULL) (
+(NULL) * @"struct--gpio_chip.txt"
+(NULL) @"typedef--u32.txt"
+(NULL) "long unsigned int"
+)
+"int"
+0xa8 base "int"
+0xac ngpio @"typedef--u16.txt"
+0xae offset @"typedef--u16.txt"
+0xb0 names * const * const "char"
+0xb8 can_sleep @"typedef--bool.txt"
+0xc0 read_reg * func (NULL) (
+(NULL) * "void"
+)
+"long unsigned int"
+0xc8 write_reg * func (NULL) (
+(NULL) * "void"
+(NULL) "long unsigned int"
+)
+"void"
+0xd0 be_bits @"typedef--bool.txt"
+0xd8 reg_dat * "void"
+0xe0 reg_set * "void"
+0xe8 reg_clr * "void"
+0xf0 reg_dir_out * "void"
+0xf8 reg_dir_in * "void"
+0x100 bgpio_dir_unreadable @"typedef--bool.txt"
+0x104 bgpio_bits "int"
+0x108 bgpio_lock @"typedef--raw_spinlock_t.txt"
+0x110 bgpio_data "long unsigned int"
+0x118 bgpio_dir "long unsigned int"
+0x120 irq @"struct--gpio_irq_chip.txt"
+0x238 valid_mask * "long unsigned int"
+}

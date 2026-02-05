@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/interrupt.h:118
+Symbol:
+Byte size 128
+Alignment 64
+struct irqaction {
+0x0 handler @"typedef--irq_handler_t.txt"
+0x8 dev_id * "void"
+0x10 percpu_dev_id * "void"
+0x18 next * @"struct--irqaction.txt"
+0x20 thread_fn @"typedef--irq_handler_t.txt"
+0x28 thread * @"struct--task_struct.txt"
+0x30 secondary * @"struct--irqaction.txt"
+0x38 irq "unsigned int"
+0x3c flags "unsigned int"
+0x40 thread_flags "long unsigned int"
+0x48 thread_mask "long unsigned int"
+0x50 name * const "char"
+0x58 dir * @"<declarations>/struct--proc_dir_entry.txt"
+}

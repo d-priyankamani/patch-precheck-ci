@@ -1,0 +1,9 @@
+Version: 1.0
+File: block/bsg-lib.c:189
+Symbol:
+func bsg_job_done (
+job * @"struct--bsg_job.txt"
+result "int"
+reply_payload_rcv_len "unsigned int"
+)
+"void"

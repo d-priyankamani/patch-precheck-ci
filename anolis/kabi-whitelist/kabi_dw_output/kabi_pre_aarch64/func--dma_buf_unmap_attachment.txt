@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/dma-buf/dma-buf.c:1203
+Symbol:
+Namespace DMA_BUF
+func dma_buf_unmap_attachment (
+attach * @"struct--dma_buf_attachment.txt"
+sg_table * @"struct--sg_table.txt"
+direction @"enum--dma_data_direction.txt"
+)
+"void"

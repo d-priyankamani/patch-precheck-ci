@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_encoder.c:183
+Symbol:
+func drm_encoder_cleanup (
+encoder * @"struct--drm_encoder.txt"
+)
+"void"

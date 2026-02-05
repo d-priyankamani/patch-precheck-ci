@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_plane.c:1487
+Symbol:
+func drm_plane_get_damage_clips_count (
+state * const @"struct--drm_plane_state.txt"
+)
+"unsigned int"

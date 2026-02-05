@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:256
+Symbol:
+Byte size 12
+struct bpf_reference_state {
+0x0 id "int"
+0x4 insn_idx "int"
+0x8 callback_ref "int"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/acpi/acpica/evxface.c:57
+Symbol:
+func acpi_install_notify_handler (
+device @"typedef--acpi_handle.txt"
+handler_type @"typedef--u32.txt"
+handler @"typedef--acpi_notify_handler.txt"
+context * "void"
+)
+@"typedef--acpi_status.txt"

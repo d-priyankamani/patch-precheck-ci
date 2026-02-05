@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:512
+Symbol:
+Byte size 64
+struct io_cmd_data {
+0x0 file * @"struct--file.txt"
+0x8 data [56]@"typedef--__u8.txt"
+}

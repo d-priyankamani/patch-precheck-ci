@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/kvm_types.h:51
+Symbol:
+Byte size 4
+enum pfn_cache_usage {
+KVM_GUEST_USES_PFN = 0x1
+KVM_HOST_USES_PFN = 0x2
+KVM_GUEST_AND_HOST_USE_PFN = 0x3
+}

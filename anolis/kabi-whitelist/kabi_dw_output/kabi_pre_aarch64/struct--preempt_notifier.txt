@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/preempt.h:350
+Symbol:
+Byte size 24
+struct preempt_notifier {
+0x0 link @"struct--hlist_node.txt"
+0x10 ops * @"struct--preempt_ops.txt"
+}

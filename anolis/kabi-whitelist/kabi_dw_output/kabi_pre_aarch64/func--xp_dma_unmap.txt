@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/xdp/xsk_buff_pool.c:359
+Symbol:
+func xp_dma_unmap (
+pool * @"struct--xsk_buff_pool.txt"
+attrs "long unsigned int"
+)
+"void"

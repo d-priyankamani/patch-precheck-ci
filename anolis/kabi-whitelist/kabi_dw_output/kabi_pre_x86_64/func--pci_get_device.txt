@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/pci/search.c:330
+Symbol:
+func pci_get_device (
+vendor "unsigned int"
+device "unsigned int"
+from * @"struct--pci_dev.txt"
+)
+* @"struct--pci_dev.txt"

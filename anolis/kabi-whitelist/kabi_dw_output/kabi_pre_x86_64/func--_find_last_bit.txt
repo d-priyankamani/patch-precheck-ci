@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/find_bit.c:216
+Symbol:
+func _find_last_bit (
+addr * const "long unsigned int"
+size "long unsigned int"
+)
+"long unsigned int"

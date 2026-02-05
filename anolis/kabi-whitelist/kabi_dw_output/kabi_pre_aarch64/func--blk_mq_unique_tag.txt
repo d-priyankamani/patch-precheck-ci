@@ -1,0 +1,7 @@
+Version: 1.0
+File: block/blk-mq-tag.c:679
+Symbol:
+func blk_mq_unique_tag (
+rq * @"struct--request.txt"
+)
+@"typedef--u32.txt"

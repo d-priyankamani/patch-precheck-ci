@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/ipv4/inet_connection_sock.c:120
+Symbol:
+func inet_get_local_port_range (
+net * const @"struct--net.txt"
+low * "int"
+high * "int"
+)
+"void"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:880
+Symbol:
+Byte size 4
+enum ib_mr_type {
+IB_MR_TYPE_MEM_REG = 0x0
+IB_MR_TYPE_SG_GAPS = 0x1
+IB_MR_TYPE_DM = 0x2
+IB_MR_TYPE_USER = 0x3
+IB_MR_TYPE_DMA = 0x4
+IB_MR_TYPE_INTEGRITY = 0x5
+}

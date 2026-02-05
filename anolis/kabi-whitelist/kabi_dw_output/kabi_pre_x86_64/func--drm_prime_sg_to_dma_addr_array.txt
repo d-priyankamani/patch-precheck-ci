@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_prime.c:1026
+Symbol:
+func drm_prime_sg_to_dma_addr_array (
+sgt * @"struct--sg_table.txt"
+addrs * @"typedef--dma_addr_t.txt"
+max_entries "int"
+)
+"int"

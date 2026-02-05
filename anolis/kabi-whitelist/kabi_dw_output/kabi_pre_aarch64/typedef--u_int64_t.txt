@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/types.h:114
+Symbol:
+typedef u_int64_t
+@"typedef--u64.txt"

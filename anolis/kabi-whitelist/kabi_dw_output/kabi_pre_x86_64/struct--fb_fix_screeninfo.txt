@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/uapi/linux/fb.h:157
+Symbol:
+Byte size 80
+struct fb_fix_screeninfo {
+0x0 id [16]"char"
+0x10 smem_start "long unsigned int"
+0x18 smem_len @"typedef--__u32.txt"
+0x1c type @"typedef--__u32.txt"
+0x20 type_aux @"typedef--__u32.txt"
+0x24 visual @"typedef--__u32.txt"
+0x28 xpanstep @"typedef--__u16.txt"
+0x2a ypanstep @"typedef--__u16.txt"
+0x2c ywrapstep @"typedef--__u16.txt"
+0x30 line_length @"typedef--__u32.txt"
+0x38 mmio_start "long unsigned int"
+0x40 mmio_len @"typedef--__u32.txt"
+0x44 accel @"typedef--__u32.txt"
+0x48 capabilities @"typedef--__u16.txt"
+0x4a reserved [2]@"typedef--__u16.txt"
+}

@@ -1,0 +1,72 @@
+Version: 1.0
+File: include/linux/proc_fs.h:33
+Symbol:
+Byte size 96
+struct proc_ops {
+0x0 proc_flags "unsigned int"
+0x8 proc_open * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--file.txt"
+)
+"int"
+0x10 proc_read * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x18 proc_read_iter * func (NULL) (
+(NULL) * @"struct--kiocb.txt"
+(NULL) * @"<declarations>/struct--iov_iter.txt"
+)
+@"typedef--ssize_t.txt"
+0x20 proc_write * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * const "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0x28 proc_lseek * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) @"typedef--loff_t.txt"
+(NULL) "int"
+)
+@"typedef--loff_t.txt"
+0x30 proc_release * func (NULL) (
+(NULL) * @"struct--inode.txt"
+(NULL) * @"struct--file.txt"
+)
+"int"
+0x38 proc_poll * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * @"<declarations>/struct--poll_table_struct.txt"
+)
+@"typedef--__poll_t.txt"
+0x40 proc_ioctl * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"long int"
+0x48 proc_compat_ioctl * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) "unsigned int"
+(NULL) "long unsigned int"
+)
+"long int"
+0x50 proc_mmap * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) * @"struct--vm_area_struct.txt"
+)
+"int"
+0x58 proc_get_unmapped_area * func (NULL) (
+(NULL) * @"struct--file.txt"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+(NULL) "long unsigned int"
+)
+"long unsigned int"
+}

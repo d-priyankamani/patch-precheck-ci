@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/ptp_clock.h:168
+Symbol:
+Byte size 4
+enum ptp_pin_function {
+PTP_PF_NONE = 0x0
+PTP_PF_EXTTS = 0x1
+PTP_PF_PEROUT = 0x2
+PTP_PF_PHYSYNC = 0x3
+}

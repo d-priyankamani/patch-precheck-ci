@@ -1,0 +1,6 @@
+Version: 1.0
+File: arch/x86/include/asm/pgtable_64_types.h:16
+Symbol:
+Byte size 8
+typedef pudval_t
+"long unsigned int"

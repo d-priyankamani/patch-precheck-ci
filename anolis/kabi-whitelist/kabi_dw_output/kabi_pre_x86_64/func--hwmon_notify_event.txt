@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/hwmon/hwmon.c:646
+Symbol:
+func hwmon_notify_event (
+dev * @"struct--device.txt"
+type @"enum--hwmon_sensor_types.txt"
+attr @"typedef--u32.txt"
+channel "int"
+)
+"int"

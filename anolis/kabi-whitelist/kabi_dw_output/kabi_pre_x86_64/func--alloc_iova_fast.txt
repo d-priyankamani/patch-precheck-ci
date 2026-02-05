@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/iommu/iova.c:376
+Symbol:
+func alloc_iova_fast (
+iovad * @"struct--iova_domain.txt"
+size "long unsigned int"
+limit_pfn "long unsigned int"
+flush_rcache @"typedef--bool.txt"
+)
+"long unsigned int"

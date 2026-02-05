@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/pci/host-bridge.c:51
+Symbol:
+func pcibios_resource_to_bus (
+bus * @"struct--pci_bus.txt"
+region * @"struct--pci_bus_region.txt"
+res * @"struct--resource.txt"
+)
+"void"

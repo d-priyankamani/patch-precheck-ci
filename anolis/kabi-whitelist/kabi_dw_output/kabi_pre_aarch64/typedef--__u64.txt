@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/uapi/asm-generic/int-ll64.h:31
+Symbol:
+Byte size 8
+typedef __u64
+"long long unsigned int"

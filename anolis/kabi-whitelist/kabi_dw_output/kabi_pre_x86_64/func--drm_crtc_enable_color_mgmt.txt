@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_color_mgmt.c:164
+Symbol:
+func drm_crtc_enable_color_mgmt (
+crtc * @"struct--drm_crtc.txt"
+degamma_lut_size @"typedef--uint.txt"
+has_ctm @"typedef--bool.txt"
+gamma_lut_size @"typedef--uint.txt"
+)
+"void"

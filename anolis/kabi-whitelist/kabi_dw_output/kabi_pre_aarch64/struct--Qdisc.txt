@@ -1,0 +1,52 @@
+Version: 1.0
+File: include/net/sch_generic.h:72
+Symbol:
+Byte size 448
+Alignment 64
+struct Qdisc {
+0x0 enqueue * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--Qdisc.txt"
+(NULL) * * @"struct--sk_buff.txt"
+)
+"int"
+0x8 dequeue * func (NULL) (
+(NULL) * @"struct--Qdisc.txt"
+)
+* @"struct--sk_buff.txt"
+0x10 flags "unsigned int"
+0x14 limit @"typedef--u32.txt"
+0x18 ops * const @"struct--Qdisc_ops.txt"
+0x20 stab * @"struct--qdisc_size_table.txt"
+0x28 hash @"struct--hlist_node.txt"
+0x38 handle @"typedef--u32.txt"
+0x3c parent @"typedef--u32.txt"
+0x40 dev_queue * @"struct--netdev_queue.txt"
+0x48 rate_est * @"<declarations>/struct--net_rate_estimator.txt"
+0x50 cpu_bstats * @"struct--gnet_stats_basic_sync.txt"
+0x58 cpu_qstats * @"struct--gnet_stats_queue.txt"
+0x60 pad "int"
+0x64 refcnt @"typedef--refcount_t.txt"
+0x80 64 gso_skb @"struct--sk_buff_head.txt"
+0x98 q @"struct--qdisc_skb_head.txt"
+0xb0 16 bstats @"struct--gnet_stats_basic_sync.txt"
+0xc0 qstats @"struct--gnet_stats_queue.txt"
+0xd8 state "long unsigned int"
+0xe0 state2 "long unsigned int"
+0xe8 next_sched * @"struct--Qdisc.txt"
+0xf0 skb_bad_txq @"struct--sk_buff_head.txt"
+0x140 64 busylock @"typedef--spinlock_t.txt"
+0x144 seqlock @"typedef--spinlock_t.txt"
+0x148 8 rcu @"struct--callback_head.txt"
+0x158 dev_tracker @"typedef--netdevice_tracker.txt"
+0x158 root_lock_key @"struct--lock_class_key.txt"
+0x158 ck_reserved1 "long unsigned int"
+0x160 ck_reserved2 "long unsigned int"
+0x168 ck_reserved3 "long unsigned int"
+0x170 ck_reserved4 "long unsigned int"
+0x178 ck_reserved5 "long unsigned int"
+0x180 ck_reserved6 "long unsigned int"
+0x188 ck_reserved7 "long unsigned int"
+0x190 ck_reserved8 "long unsigned int"
+0x1c0 64 privdata [0]"long int"
+}

@@ -1,0 +1,14 @@
+Version: 1.0
+File: mm/mmu_notifier.c:37
+Symbol:
+Byte size 80
+struct mmu_notifier_subscriptions {
+0x0 list @"struct--hlist_head.txt"
+0x8 has_itree @"typedef--bool.txt"
+0xc lock @"typedef--spinlock_t.txt"
+0x10 invalidate_seq "long unsigned int"
+0x18 active_invalidate_ranges "long unsigned int"
+0x20 itree @"struct--rb_root_cached.txt"
+0x30 wq @"typedef--wait_queue_head_t.txt"
+0x48 deferred_list @"struct--hlist_head.txt"
+}

@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/perf_event.h:630
+Symbol:
+Byte size 8
+typedef perf_overflow_handler_t
+* func (NULL) (
+(NULL) * @"struct--perf_event.txt"
+(NULL) * @"struct--perf_sample_data.txt"
+(NULL) * @"struct--pt_regs.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/arm64/include/asm/pgtable-types.h:28
+Symbol:
+Byte size 8
+typedef pmd_t
+struct (NULL) {
+0x0 pmd @"typedef--pmdval_t.txt"
+}

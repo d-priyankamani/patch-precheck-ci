@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/fb.h:358
+Symbol:
+Byte size 24
+struct fb_tilecursor {
+0x0 sx @"typedef--__u32.txt"
+0x4 sy @"typedef--__u32.txt"
+0x8 mode @"typedef--__u32.txt"
+0xc shape @"typedef--__u32.txt"
+0x10 fg @"typedef--__u32.txt"
+0x14 bg @"typedef--__u32.txt"
+}

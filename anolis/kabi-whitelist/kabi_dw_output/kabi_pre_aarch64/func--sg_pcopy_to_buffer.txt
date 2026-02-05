@@ -1,0 +1,11 @@
+Version: 1.0
+File: lib/scatterlist.c:1061
+Symbol:
+func sg_pcopy_to_buffer (
+sgl * @"struct--scatterlist.txt"
+nents "unsigned int"
+buf * "void"
+buflen @"typedef--size_t.txt"
+skip @"typedef--off_t.txt"
+)
+@"typedef--size_t.txt"

@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/netdevice.h:871
+Symbol:
+Byte size 896
+struct netdev_fcoe_hbainfo {
+0x0 manufacturer [64]"char"
+0x40 serial_number [64]"char"
+0x80 hardware_version [64]"char"
+0xc0 driver_version [64]"char"
+0x100 optionrom_version [64]"char"
+0x140 firmware_version [64]"char"
+0x180 model [256]"char"
+0x280 model_description [256]"char"
+}

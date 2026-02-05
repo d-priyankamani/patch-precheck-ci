@@ -1,0 +1,19 @@
+Version: 1.0
+File: include/linux/kobject.h:143
+Symbol:
+Byte size 24
+struct kset_uevent_ops {
+0x0 filter const * func (NULL) (
+(NULL) * const @"struct--kobject.txt"
+)
+"int"
+0x8 name const * func (NULL) (
+(NULL) * const @"struct--kobject.txt"
+)
+* const "char"
+0x10 uevent const * func (NULL) (
+(NULL) * const @"struct--kobject.txt"
+(NULL) * @"struct--kobj_uevent_env.txt"
+)
+"int"
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: arch/x86/include/asm/fpu/types.h:348
+Symbol:
+Byte size 4096
+Alignment 64
+union fpregs_state {
+fsave @"struct--fregs_state.txt"
+fxsave @"struct--fxregs_state.txt"
+soft @"struct--swregs_state.txt"
+xsave @"struct--xregs_state.txt"
+__padding [4096]@"typedef--u8.txt"
+}

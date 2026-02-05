@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/page_pool/types.h:41
+Symbol:
+Byte size 1032
+struct pp_alloc_cache {
+0x0 count @"typedef--u32.txt"
+0x8 cache [128]* @"struct--page.txt"
+}

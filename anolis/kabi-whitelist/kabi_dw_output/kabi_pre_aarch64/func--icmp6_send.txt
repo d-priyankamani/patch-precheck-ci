@@ -1,0 +1,12 @@
+Version: 1.0
+File: net/ipv6/icmp.c:449
+Symbol:
+func icmp6_send (
+skb * @"struct--sk_buff.txt"
+type @"typedef--u8.txt"
+code @"typedef--u8.txt"
+info @"typedef--__u32.txt"
+force_saddr * const @"struct--in6_addr.txt"
+parm * const @"struct--inet6_skb_parm.txt"
+)
+"void"

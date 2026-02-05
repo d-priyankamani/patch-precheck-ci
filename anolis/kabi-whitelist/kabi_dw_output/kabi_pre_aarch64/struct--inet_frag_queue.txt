@@ -1,0 +1,26 @@
+Version: 1.0
+File: include/net/inet_frag.h:85
+Symbol:
+Byte size 208
+Alignment 8
+struct inet_frag_queue {
+0x0 node @"struct--rhash_head.txt"
+0x8 key union (NULL) {
+v4 @"struct--frag_v4_compare_key.txt"
+v6 @"struct--frag_v6_compare_key.txt"
+}
+0x38 timer @"struct--timer_list.txt"
+0x80 lock @"typedef--spinlock_t.txt"
+0x84 refcnt @"typedef--refcount_t.txt"
+0x88 rb_fragments @"struct--rb_root.txt"
+0x90 fragments_tail * @"struct--sk_buff.txt"
+0x98 last_run_head * @"struct--sk_buff.txt"
+0xa0 stamp @"typedef--ktime_t.txt"
+0xa8 len "int"
+0xac meat "int"
+0xb0 tstamp_type @"typedef--u8.txt"
+0xb1 flags @"typedef--__u8.txt"
+0xb2 max_size @"typedef--u16.txt"
+0xb8 fqdir * @"struct--fqdir.txt"
+0xc0 8 rcu @"struct--callback_head.txt"
+}

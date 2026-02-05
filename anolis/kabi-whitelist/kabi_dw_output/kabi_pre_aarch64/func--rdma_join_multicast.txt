@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:5026
+Symbol:
+func rdma_join_multicast (
+id * @"struct--rdma_cm_id.txt"
+addr * @"struct--sockaddr.txt"
+join_state @"typedef--u8.txt"
+context * "void"
+)
+"int"

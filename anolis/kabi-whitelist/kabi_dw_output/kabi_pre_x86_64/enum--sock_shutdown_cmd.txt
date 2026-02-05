@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/net.h:93
+Symbol:
+Byte size 4
+enum sock_shutdown_cmd {
+SHUT_RD = 0x0
+SHUT_WR = 0x1
+SHUT_RDWR = 0x2
+}

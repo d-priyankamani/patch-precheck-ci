@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/locking/spinlock.c:266
+Symbol:
+func _raw_read_unlock_irqrestore (
+lock * @"typedef--rwlock_t.txt"
+flags "long unsigned int"
+)
+"void"

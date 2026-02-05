@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/sysfs.c:94
+Symbol:
+Byte size 48
+struct hw_stats_device_data {
+0x0 group @"struct--attribute_group.txt"
+0x28 stats * @"struct--rdma_hw_stats.txt"
+0x30 attrs [0]@"struct--hw_stats_device_attribute.txt"
+}

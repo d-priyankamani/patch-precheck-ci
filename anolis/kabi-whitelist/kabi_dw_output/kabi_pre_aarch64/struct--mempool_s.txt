@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/mempool.h:17
+Symbol:
+Byte size 96
+struct mempool_s {
+0x0 lock @"typedef--spinlock_t.txt"
+0x4 min_nr "int"
+0x8 curr_nr "int"
+0x10 elements * * "void"
+0x18 pool_data * "void"
+0x20 alloc * @"typedef--mempool_alloc_t.txt"
+0x28 free * @"typedef--mempool_free_t.txt"
+0x30 wait @"typedef--wait_queue_head_t.txt"
+0x48 ck_reserved1 "long unsigned int"
+0x50 ck_reserved2 "long unsigned int"
+0x58 ck_reserved3 "long unsigned int"
+}

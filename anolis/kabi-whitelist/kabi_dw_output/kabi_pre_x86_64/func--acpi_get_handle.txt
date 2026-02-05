@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/acpi/acpica/nsxfname.c:46
+Symbol:
+func acpi_get_handle (
+parent @"typedef--acpi_handle.txt"
+pathname * const "char"
+ret_handle * @"typedef--acpi_handle.txt"
+)
+@"typedef--acpi_status.txt"

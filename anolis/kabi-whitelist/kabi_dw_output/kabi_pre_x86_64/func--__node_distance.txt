@@ -1,0 +1,8 @@
+Version: 1.0
+File: arch/x86/mm/numa.c:443
+Symbol:
+func __node_distance (
+from "int"
+to "int"
+)
+"int"

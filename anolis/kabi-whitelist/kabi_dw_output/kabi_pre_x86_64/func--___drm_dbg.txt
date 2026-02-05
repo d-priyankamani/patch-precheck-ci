@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_print.c:310
+Symbol:
+func ___drm_dbg (
+desc * @"struct--_ddebug.txt"
+category @"enum--drm_debug_category.txt"
+format * const "char"
+(NULL) ...
+)
+"void"

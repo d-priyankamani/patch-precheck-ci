@@ -1,0 +1,5 @@
+Version: 1.0
+File: arch/x86/include/asm/device.h:8
+Symbol:
+struct pdev_archdata {
+}

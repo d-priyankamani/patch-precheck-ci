@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:2191
+Symbol:
+Byte size 32
+struct ib_port_cache {
+0x0 subnet_prefix @"typedef--u64.txt"
+0x8 pkey * @"struct--ib_pkey_cache.txt"
+0x10 gid * @"struct--ib_gid_table.txt"
+0x18 lmc @"typedef--u8.txt"
+0x1c port_state @"enum--ib_port_state.txt"
+}

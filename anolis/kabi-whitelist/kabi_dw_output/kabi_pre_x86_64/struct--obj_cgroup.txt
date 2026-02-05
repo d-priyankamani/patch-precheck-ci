@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/memcontrol.h:278
+Symbol:
+Byte size 48
+Alignment 8
+struct obj_cgroup {
+0x0 refcnt @"struct--percpu_ref.txt"
+0x10 memcg * @"struct--mem_cgroup.txt"
+0x18 nr_charged_bytes @"typedef--atomic_t.txt"
+0x20 8 (NULL) union (NULL) {
+list @"struct--list_head.txt"
+rcu @"struct--callback_head.txt"
+}
+}

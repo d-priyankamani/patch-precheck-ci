@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/time_types.h:7
+Symbol:
+Byte size 16
+struct __kernel_timespec {
+0x0 tv_sec @"typedef--__kernel_time64_t.txt"
+0x8 tv_nsec "long long int"
+}

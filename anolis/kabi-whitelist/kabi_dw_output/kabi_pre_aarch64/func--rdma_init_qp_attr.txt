@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:1270
+Symbol:
+func rdma_init_qp_attr (
+id * @"struct--rdma_cm_id.txt"
+qp_attr * @"struct--ib_qp_attr.txt"
+qp_attr_mask * "int"
+)
+"int"

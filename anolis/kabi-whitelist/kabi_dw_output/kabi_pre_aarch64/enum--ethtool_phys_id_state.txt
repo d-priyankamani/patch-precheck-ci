@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/ethtool.h:52
+Symbol:
+Byte size 4
+enum ethtool_phys_id_state {
+ETHTOOL_ID_INACTIVE = 0x0
+ETHTOOL_ID_ACTIVE = 0x1
+ETHTOOL_ID_ON = 0x2
+ETHTOOL_ID_OFF = 0x3
+}

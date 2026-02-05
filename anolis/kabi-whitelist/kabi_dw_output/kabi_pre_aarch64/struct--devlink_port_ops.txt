@@ -1,0 +1,105 @@
+Version: 1.0
+File: include/net/devlink.h:1617
+Symbol:
+Byte size 128
+struct devlink_port_ops {
+0x0 port_split * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * @"struct--devlink_port.txt"
+(NULL) "unsigned int"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x8 port_unsplit * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * @"struct--devlink_port.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x10 port_type_set * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) @"enum--devlink_port_type.txt"
+)
+"int"
+0x18 port_del * func (NULL) (
+(NULL) * @"struct--devlink.txt"
+(NULL) * @"struct--devlink_port.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x20 port_fn_hw_addr_get * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) * @"typedef--u8.txt"
+(NULL) * "int"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x28 port_fn_hw_addr_set * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) * const @"typedef--u8.txt"
+(NULL) "int"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x30 port_fn_roce_get * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) * @"typedef--bool.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x38 port_fn_roce_set * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x40 port_fn_migratable_get * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) * @"typedef--bool.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x48 port_fn_migratable_set * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x50 port_fn_state_get * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) * @"enum--devlink_port_fn_state.txt"
+(NULL) * @"enum--devlink_port_fn_opstate.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x58 port_fn_state_set * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) @"enum--devlink_port_fn_state.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x60 port_fn_ipsec_crypto_get * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) * @"typedef--bool.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x68 port_fn_ipsec_crypto_set * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x70 port_fn_ipsec_packet_get * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) * @"typedef--bool.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+0x78 port_fn_ipsec_packet_set * func (NULL) (
+(NULL) * @"struct--devlink_port.txt"
+(NULL) @"typedef--bool.txt"
+(NULL) * @"struct--netlink_ext_ack.txt"
+)
+"int"
+}

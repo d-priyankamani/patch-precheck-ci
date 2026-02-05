@@ -1,0 +1,6 @@
+Version: 1.0
+File: arch/arm64/include/asm/page.h:52
+Symbol:
+Byte size 8
+typedef pgtable_t
+* @"struct--page.txt"

@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/tty/tty_buffer.c:300
+Symbol:
+func __tty_insert_flip_string_flags (
+port * @"struct--tty_port.txt"
+chars * const @"typedef--u8.txt"
+flags * const @"typedef--u8.txt"
+mutable_flags @"typedef--bool.txt"
+size @"typedef--size_t.txt"
+)
+@"typedef--size_t.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/blk-integrity.h:27
+Symbol:
+typedef integrity_prepare_fn
+func (NULL) (
+(NULL) * @"struct--request.txt"
+)
+"void"

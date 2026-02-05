@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/xarray.h:1323
+Symbol:
+Byte size 8
+typedef xa_update_node_t
+* func (NULL) (
+(NULL) * @"struct--xa_node.txt"
+)
+"void"

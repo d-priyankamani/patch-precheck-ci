@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/core.c:3778
+Symbol:
+func get_device (
+dev * @"struct--device.txt"
+)
+* @"struct--device.txt"

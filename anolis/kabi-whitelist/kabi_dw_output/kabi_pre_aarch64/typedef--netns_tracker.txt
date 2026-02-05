@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/net/net_trackers.h:15
+Symbol:
+typedef netns_tracker
+struct (NULL) {
+}

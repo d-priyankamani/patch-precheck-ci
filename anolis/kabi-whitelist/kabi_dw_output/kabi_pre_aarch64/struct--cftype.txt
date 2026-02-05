@@ -1,0 +1,78 @@
+Version: 1.0
+File: include/linux/cgroup-defs.h:656
+Symbol:
+Byte size 224
+struct cftype {
+0x0 name [64]"char"
+0x40 private "long unsigned int"
+0x48 max_write_len @"typedef--size_t.txt"
+0x50 flags "unsigned int"
+0x54 file_offset "unsigned int"
+0x58 ss * @"struct--cgroup_subsys.txt"
+0x60 node @"struct--list_head.txt"
+0x70 kf_ops * @"struct--kernfs_ops.txt"
+0x78 open * func (NULL) (
+(NULL) * @"struct--kernfs_open_file.txt"
+)
+"int"
+0x80 release * func (NULL) (
+(NULL) * @"struct--kernfs_open_file.txt"
+)
+"void"
+0x88 read_u64 * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+(NULL) * @"struct--cftype.txt"
+)
+@"typedef--u64.txt"
+0x90 read_s64 * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+(NULL) * @"struct--cftype.txt"
+)
+@"typedef--s64.txt"
+0x98 seq_show * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+)
+"int"
+0xa0 seq_start * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * @"typedef--loff_t.txt"
+)
+* "void"
+0xa8 seq_next * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+(NULL) * @"typedef--loff_t.txt"
+)
+* "void"
+0xb0 seq_stop * func (NULL) (
+(NULL) * @"struct--seq_file.txt"
+(NULL) * "void"
+)
+"void"
+0xb8 write_u64 * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+(NULL) * @"struct--cftype.txt"
+(NULL) @"typedef--u64.txt"
+)
+"int"
+0xc0 write_s64 * func (NULL) (
+(NULL) * @"struct--cgroup_subsys_state.txt"
+(NULL) * @"struct--cftype.txt"
+(NULL) @"typedef--s64.txt"
+)
+"int"
+0xc8 write * func (NULL) (
+(NULL) * @"struct--kernfs_open_file.txt"
+(NULL) * "char"
+(NULL) @"typedef--size_t.txt"
+(NULL) @"typedef--loff_t.txt"
+)
+@"typedef--ssize_t.txt"
+0xd0 poll * func (NULL) (
+(NULL) * @"struct--kernfs_open_file.txt"
+(NULL) * @"struct--poll_table_struct.txt"
+)
+@"typedef--__poll_t.txt"
+0xd8 ck_reserved1 "long unsigned int"
+}

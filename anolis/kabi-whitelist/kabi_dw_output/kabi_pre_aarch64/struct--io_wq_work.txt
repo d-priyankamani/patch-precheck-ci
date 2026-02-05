@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:19
+Symbol:
+Byte size 16
+struct io_wq_work {
+0x0 list @"struct--io_wq_work_node.txt"
+0x8 flags "unsigned int"
+0xc cancel_seq "int"
+}

@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/mmzone.h:430
+Symbol:
+Byte size 1344
+struct lru_gen_folio {
+0x0 max_seq "long unsigned int"
+0x8 min_seq [2]"long unsigned int"
+0x18 timestamps [4]"long unsigned int"
+0x38 folios [4][2][5]@"struct--list_head.txt"
+0x2b8 nr_pages [4][2][5]"long int"
+0x3f8 avg_refaulted [2][4]"long unsigned int"
+0x438 avg_total [2][4]"long unsigned int"
+0x478 protected [1][2][3]"long unsigned int"
+0x4a8 evicted [1][2][4]@"typedef--atomic_long_t.txt"
+0x4e8 refaulted [1][2][4]@"typedef--atomic_long_t.txt"
+0x528 enabled @"typedef--bool.txt"
+0x529 gen @"typedef--u8.txt"
+0x52a seg @"typedef--u8.txt"
+0x530 list @"struct--hlist_nulls_node.txt"
+}

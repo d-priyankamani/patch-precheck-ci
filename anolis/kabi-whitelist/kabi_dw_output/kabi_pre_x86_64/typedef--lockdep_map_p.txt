@@ -1,0 +1,6 @@
+Version: 1.0
+File: include/linux/maple_tree.h:197
+Symbol:
+typedef lockdep_map_p
+struct (NULL) {
+}

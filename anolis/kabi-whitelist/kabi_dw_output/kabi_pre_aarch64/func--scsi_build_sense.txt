@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/scsi/scsi_lib.c:3343
+Symbol:
+func scsi_build_sense (
+scmd * @"struct--scsi_cmnd.txt"
+desc "int"
+key @"typedef--u8.txt"
+asc @"typedef--u8.txt"
+ascq @"typedef--u8.txt"
+)
+"void"

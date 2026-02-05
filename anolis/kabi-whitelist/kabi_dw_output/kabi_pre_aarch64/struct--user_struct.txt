@@ -1,0 +1,16 @@
+Version: 1.0
+File: include/linux/sched/user.h:14
+Symbol:
+Byte size 152
+struct user_struct {
+0x0 __count @"typedef--refcount_t.txt"
+0x8 epoll_watches @"struct--percpu_counter.txt"
+0x30 unix_inflight "long unsigned int"
+0x38 pipe_bufs @"typedef--atomic_long_t.txt"
+0x40 uidhash_node @"struct--hlist_node.txt"
+0x50 uid @"typedef--kuid_t.txt"
+0x58 locked_vm @"typedef--atomic_long_t.txt"
+0x60 ratelimit @"struct--ratelimit_state.txt"
+0x88 ck_reserved1 "long unsigned int"
+0x90 ck_reserved2 "long unsigned int"
+}

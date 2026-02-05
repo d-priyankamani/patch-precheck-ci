@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/xdp.c:196
+Symbol:
+func xdp_rxq_info_unused (
+xdp_rxq * @"struct--xdp_rxq_info.txt"
+)
+"void"

@@ -1,0 +1,52 @@
+Version: 1.0
+File: include/linux/bpf.h:1543
+Symbol:
+Byte size 104
+struct bpf_prog {
+0x0 pages @"typedef--u16.txt"
+0x2:0-1 jited @"typedef--u16.txt"
+0x2:1-2 jit_requested @"typedef--u16.txt"
+0x2:2-3 gpl_compatible @"typedef--u16.txt"
+0x2:3-4 cb_access @"typedef--u16.txt"
+0x2:4-5 dst_needed @"typedef--u16.txt"
+0x2:5-6 blinding_requested @"typedef--u16.txt"
+0x2:6-7 blinded @"typedef--u16.txt"
+0x2:7-8 is_func @"typedef--u16.txt"
+0x3:0-1 kprobe_override @"typedef--u16.txt"
+0x3:1-2 has_callchain_buf @"typedef--u16.txt"
+0x3:2-3 enforce_expected_attach_type @"typedef--u16.txt"
+0x3:3-4 call_get_stack @"typedef--u16.txt"
+0x3:4-5 call_get_func_ip @"typedef--u16.txt"
+0x3:5-6 tstamp_type_access @"typedef--u16.txt"
+0x3:6-7 sleepable @"typedef--u16.txt"
+0x4 type @"enum--bpf_prog_type.txt"
+0x8 expected_attach_type @"enum--bpf_attach_type.txt"
+0xc len @"typedef--u32.txt"
+0x10 jited_len @"typedef--u32.txt"
+0x14 tag [8]@"typedef--u8.txt"
+0x20 stats * @"struct--bpf_prog_stats.txt"
+0x28 active * "int"
+0x30 bpf_func * func (NULL) (
+(NULL) * const "void"
+(NULL) * const @"struct--bpf_insn.txt"
+)
+"unsigned int"
+0x38 aux * @"struct--bpf_prog_aux.txt"
+0x40 orig_prog * @"struct--sock_fprog_kern.txt"
+0x48 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 __empty_insns struct (NULL) {
+}
+0x0 insns [0]@"struct--sock_filter.txt"
+}
+(NULL) struct (NULL) {
+0x0 __empty_insnsi struct (NULL) {
+}
+0x0 insnsi [0]@"struct--bpf_insn.txt"
+}
+}
+0x48 ck_reserved1 "long unsigned int"
+0x50 ck_reserved2 "long unsigned int"
+0x58 ck_reserved3 "long unsigned int"
+0x60 ck_reserved4 "long unsigned int"
+}

@@ -1,0 +1,12 @@
+Version: 1.0
+File: net/core/flow_offload.c:337
+Symbol:
+func flow_block_cb_setup_simple (
+f * @"struct--flow_block_offload.txt"
+driver_block_list * @"struct--list_head.txt"
+cb * @"typedef--flow_setup_cb_t.txt"
+cb_ident * "void"
+cb_priv * "void"
+ingress_only @"typedef--bool.txt"
+)
+"int"

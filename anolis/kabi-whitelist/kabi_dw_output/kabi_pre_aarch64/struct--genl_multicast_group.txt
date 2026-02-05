@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/genetlink.h:17
+Symbol:
+Byte size 32
+struct genl_multicast_group {
+0x0 name [16]"char"
+0x10 flags @"typedef--u8.txt"
+0x11:0-1 cap_sys_admin @"typedef--u8.txt"
+0x18 ck_reserved1 "long unsigned int"
+}

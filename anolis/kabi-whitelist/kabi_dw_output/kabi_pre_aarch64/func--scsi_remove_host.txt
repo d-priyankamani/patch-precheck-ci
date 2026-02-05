@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/scsi/hosts.c:165
+Symbol:
+func scsi_remove_host (
+shost * @"struct--Scsi_Host.txt"
+)
+"void"

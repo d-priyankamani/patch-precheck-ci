@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/bpf.h:1431
+Symbol:
+Byte size 24
+struct bpf_ctx_arg_aux {
+0x0 offset @"typedef--u32.txt"
+0x4 reg_type @"enum--bpf_reg_type.txt"
+0x8 btf * @"<declarations>/struct--btf.txt"
+0x10 btf_id @"typedef--u32.txt"
+}

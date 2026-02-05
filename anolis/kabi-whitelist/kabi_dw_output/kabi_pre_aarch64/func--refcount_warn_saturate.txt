@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/refcount.c:13
+Symbol:
+func refcount_warn_saturate (
+r * @"typedef--refcount_t.txt"
+t @"enum--refcount_saturation_type.txt"
+)
+"void"

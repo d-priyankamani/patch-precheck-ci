@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/uapi/linux/cdrom.h:264
+Symbol:
+Byte size 14
+struct cdrom_mcn {
+0x0 medium_catalog_number [14]@"typedef--__u8.txt"
+}

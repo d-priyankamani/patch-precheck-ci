@@ -1,0 +1,4 @@
+Version: 1.0
+File: mm/show_mem.c:21
+Symbol:
+var _totalram_pages "void"

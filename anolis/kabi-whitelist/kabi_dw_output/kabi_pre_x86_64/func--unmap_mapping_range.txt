@@ -1,0 +1,10 @@
+Version: 1.0
+File: mm/memory.c:4211
+Symbol:
+func unmap_mapping_range (
+mapping * @"struct--address_space.txt"
+holebegin const @"typedef--loff_t.txt"
+holelen const @"typedef--loff_t.txt"
+even_cows "int"
+)
+"void"

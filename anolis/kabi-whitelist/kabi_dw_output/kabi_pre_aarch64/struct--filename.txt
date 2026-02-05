@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/linux/fs.h:2575
+Symbol:
+Byte size 32
+struct filename {
+0x0 name * const "char"
+0x8 uptr * const "char"
+0x10 refcnt @"typedef--atomic_t.txt"
+0x18 aname * @"<declarations>/struct--audit_names.txt"
+0x20 iname const [0]const "char"
+}

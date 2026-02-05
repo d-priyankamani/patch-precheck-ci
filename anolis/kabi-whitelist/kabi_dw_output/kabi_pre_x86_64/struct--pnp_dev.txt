@@ -1,0 +1,29 @@
+Version: 1.0
+File: include/linux/pnp.h:243
+Symbol:
+Byte size 1224
+Alignment 8
+struct pnp_dev {
+0x0 8 dev @"struct--device.txt"
+0x3d8 dma_mask @"typedef--u64.txt"
+0x3e0 number "unsigned int"
+0x3e4 status "int"
+0x3e8 global_list @"struct--list_head.txt"
+0x3f8 protocol_list @"struct--list_head.txt"
+0x408 card_list @"struct--list_head.txt"
+0x418 rdev_list @"struct--list_head.txt"
+0x428 protocol * @"struct--pnp_protocol.txt"
+0x430 card * @"struct--pnp_card.txt"
+0x438 driver * @"struct--pnp_driver.txt"
+0x440 card_link * @"struct--pnp_card_link.txt"
+0x448 id * @"struct--pnp_id.txt"
+0x450 active "int"
+0x454 capabilities "int"
+0x458 num_dependent_sets "unsigned int"
+0x460 resources @"struct--list_head.txt"
+0x470 options @"struct--list_head.txt"
+0x480 name [50]"char"
+0x4b4 flags "int"
+0x4b8 procent * @"<declarations>/struct--proc_dir_entry.txt"
+0x4c0 data * "void"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/drm/drm_mode.h:1307
+Symbol:
+Byte size 16
+struct drm_mode_rect {
+0x0 x1 @"typedef--__s32.txt"
+0x4 y1 @"typedef--__s32.txt"
+0x8 x2 @"typedef--__s32.txt"
+0xc y2 @"typedef--__s32.txt"
+}

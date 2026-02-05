@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_ioctl.c:731
+Symbol:
+func uverbs_copy_to (
+bundle * const @"struct--uverbs_attr_bundle.txt"
+idx @"typedef--size_t.txt"
+from * const "void"
+size @"typedef--size_t.txt"
+)
+"int"

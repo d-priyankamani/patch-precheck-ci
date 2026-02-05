@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/linux/netlink.h:317
+Symbol:
+Byte size 56
+struct netlink_dump_control {
+0x0 start * func (NULL) (
+(NULL) * @"struct--netlink_callback.txt"
+)
+"int"
+0x8 dump * func (NULL) (
+(NULL) * @"struct--sk_buff.txt"
+(NULL) * @"struct--netlink_callback.txt"
+)
+"int"
+0x10 done * func (NULL) (
+(NULL) * @"struct--netlink_callback.txt"
+)
+"int"
+0x18 extack * @"struct--netlink_ext_ack.txt"
+0x20 data * "void"
+0x28 module * @"struct--module.txt"
+0x30 min_dump_alloc @"typedef--u32.txt"
+0x34 flags "int"
+}

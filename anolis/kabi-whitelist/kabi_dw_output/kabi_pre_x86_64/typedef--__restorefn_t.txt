@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/uapi/asm-generic/signal-defs.h:85
+Symbol:
+typedef __restorefn_t
+func (NULL) (
+)
+"void"

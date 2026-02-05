@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/pid.h:54
+Symbol:
+Byte size 16
+struct upid {
+0x0 nr "int"
+0x8 ns * @"struct--pid_namespace.txt"
+}

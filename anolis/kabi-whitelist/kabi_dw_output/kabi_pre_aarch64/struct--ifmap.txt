@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/if.h:196
+Symbol:
+Byte size 24
+struct ifmap {
+0x0 mem_start "long unsigned int"
+0x8 mem_end "long unsigned int"
+0x10 base_addr "short unsigned int"
+0x12 irq "unsigned char"
+0x13 dma "unsigned char"
+0x14 port "unsigned char"
+}

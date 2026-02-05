@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/time/timekeeping.c:699
+Symbol:
+func pvclock_gtod_unregister_notifier (
+nb * @"struct--notifier_block.txt"
+)
+"int"

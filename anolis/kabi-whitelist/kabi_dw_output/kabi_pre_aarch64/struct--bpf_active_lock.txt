@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/bpf_verifier.h:54
+Symbol:
+Byte size 16
+struct bpf_active_lock {
+0x0 ptr * "void"
+0x8 id @"typedef--u32.txt"
+}

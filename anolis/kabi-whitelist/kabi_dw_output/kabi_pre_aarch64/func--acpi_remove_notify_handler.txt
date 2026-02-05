@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/acpi/acpica/evxface.c:211
+Symbol:
+func acpi_remove_notify_handler (
+device @"typedef--acpi_handle.txt"
+handler_type @"typedef--u32.txt"
+handler @"typedef--acpi_notify_handler.txt"
+)
+@"typedef--acpi_status.txt"

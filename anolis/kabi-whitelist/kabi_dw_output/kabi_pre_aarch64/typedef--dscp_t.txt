@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/net/inet_dscp.h:38
+Symbol:
+typedef dscp_t
+@"typedef--u8.txt"

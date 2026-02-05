@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:740
+Symbol:
+Byte size 4
+enum ethtool_module_power_mode_policy {
+ETHTOOL_MODULE_POWER_MODE_POLICY_HIGH = 0x1
+ETHTOOL_MODULE_POWER_MODE_POLICY_AUTO = 0x2
+}

@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/drm/drm_atomic.h:72
+Symbol:
+Byte size 144
+struct drm_crtc_commit {
+0x0 crtc * @"struct--drm_crtc.txt"
+0x8 ref @"struct--kref.txt"
+0x10 flip_done @"struct--completion.txt"
+0x30 hw_done @"struct--completion.txt"
+0x50 cleanup_done @"struct--completion.txt"
+0x70 commit_entry @"struct--list_head.txt"
+0x80 event * @"struct--drm_pending_vblank_event.txt"
+0x88 abort_completion @"typedef--bool.txt"
+}

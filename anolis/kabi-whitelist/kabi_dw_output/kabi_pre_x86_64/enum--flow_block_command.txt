@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/flow_offload.h:484
+Symbol:
+Byte size 4
+enum flow_block_command {
+FLOW_BLOCK_BIND = 0x0
+FLOW_BLOCK_UNBIND = 0x1
+}

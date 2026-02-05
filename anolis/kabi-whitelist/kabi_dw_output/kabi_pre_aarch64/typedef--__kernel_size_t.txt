@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/uapi/asm-generic/posix_types.h:72
+Symbol:
+typedef __kernel_size_t
+@"typedef--__kernel_ulong_t.txt"

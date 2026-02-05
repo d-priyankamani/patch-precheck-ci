@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_marshall.c:161
+Symbol:
+func ib_copy_path_rec_to_user (
+dst * @"struct--ib_user_path_rec.txt"
+src * @"struct--sa_path_rec.txt"
+)
+"void"

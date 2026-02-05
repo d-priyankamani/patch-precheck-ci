@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:5646
+Symbol:
+func drm_edid_to_sad (
+edid * const @"struct--edid.txt"
+sads * * @"struct--cea_sad.txt"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/types.h:187
+Symbol:
+Byte size 4
+typedef rcuref_t
+struct (NULL) {
+0x0 refcnt @"typedef--atomic_t.txt"
+}

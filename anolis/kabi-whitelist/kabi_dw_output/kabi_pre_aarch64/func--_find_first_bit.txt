@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/find_bit.c:99
+Symbol:
+func _find_first_bit (
+addr * const "long unsigned int"
+size "long unsigned int"
+)
+"long unsigned int"

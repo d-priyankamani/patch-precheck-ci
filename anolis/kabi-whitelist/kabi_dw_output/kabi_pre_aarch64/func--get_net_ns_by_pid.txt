@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/net_namespace.c:743
+Symbol:
+func get_net_ns_by_pid (
+pid @"typedef--pid_t.txt"
+)
+* @"struct--net.txt"

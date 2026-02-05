@@ -1,0 +1,13 @@
+Version: 1.0
+File: net/core/fib_notifier.c:99
+Symbol:
+func register_fib_notifier (
+net * @"struct--net.txt"
+nb * @"struct--notifier_block.txt"
+cb * func (NULL) (
+(NULL) * @"struct--notifier_block.txt"
+)
+"void"
+extack * @"struct--netlink_ext_ack.txt"
+)
+"int"

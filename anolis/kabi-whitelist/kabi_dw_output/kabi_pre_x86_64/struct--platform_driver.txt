@@ -1,0 +1,35 @@
+Version: 1.0
+File: include/linux/platform_device.h:236
+Symbol:
+Byte size 240
+struct platform_driver {
+0x0 probe * func (NULL) (
+(NULL) * @"struct--platform_device.txt"
+)
+"int"
+0x8 remove * func (NULL) (
+(NULL) * @"struct--platform_device.txt"
+)
+"int"
+0x10 remove_new * func (NULL) (
+(NULL) * @"struct--platform_device.txt"
+)
+"void"
+0x18 shutdown * func (NULL) (
+(NULL) * @"struct--platform_device.txt"
+)
+"void"
+0x20 suspend * func (NULL) (
+(NULL) * @"struct--platform_device.txt"
+(NULL) @"typedef--pm_message_t.txt"
+)
+"int"
+0x28 resume * func (NULL) (
+(NULL) * @"struct--platform_device.txt"
+)
+"int"
+0x30 driver @"struct--device_driver.txt"
+0xe0 id_table * const @"struct--platform_device_id.txt"
+0xe8 prevent_deferred_probe @"typedef--bool.txt"
+0xe9 driver_managed_dma @"typedef--bool.txt"
+}

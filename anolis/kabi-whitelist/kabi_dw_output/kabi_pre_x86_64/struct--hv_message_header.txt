@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/asm-generic/hyperv-tlfs.h:310
+Symbol:
+Byte size 16
+struct hv_message_header {
+0x0 message_type @"typedef--__u32.txt"
+0x4 payload_size @"typedef--__u8.txt"
+0x5 message_flags @"union--hv_message_flags.txt"
+0x6 reserved [2]@"typedef--__u8.txt"
+0x8 (NULL) union (NULL) {
+sender @"typedef--__u64.txt"
+port @"union--hv_port_id.txt"
+}
+}

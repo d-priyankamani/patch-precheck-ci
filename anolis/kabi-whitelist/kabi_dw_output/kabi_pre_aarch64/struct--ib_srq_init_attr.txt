@@ -1,0 +1,25 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1070
+Symbol:
+Byte size 48
+struct ib_srq_init_attr {
+0x0 event_handler * func (NULL) (
+(NULL) * @"struct--ib_event.txt"
+(NULL) * "void"
+)
+"void"
+0x8 srq_context * "void"
+0x10 attr @"struct--ib_srq_attr.txt"
+0x1c srq_type @"enum--ib_srq_type.txt"
+0x20 ext struct (NULL) {
+0x0 cq * @"struct--ib_cq.txt"
+0x8 (NULL) union (NULL) {
+xrc struct (NULL) {
+0x0 xrcd * @"struct--ib_xrcd.txt"
+}
+tag_matching struct (NULL) {
+0x0 max_num_tags @"typedef--u32.txt"
+}
+}
+}
+}

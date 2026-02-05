@@ -1,0 +1,7 @@
+Version: 1.0
+File: lib/rbtree.c:492
+Symbol:
+func rb_next (
+node * const @"struct--rb_node.txt"
+)
+* @"struct--rb_node.txt"

@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/bpfptr.h:9
+Symbol:
+typedef bpfptr_t
+@"typedef--sockptr_t.txt"

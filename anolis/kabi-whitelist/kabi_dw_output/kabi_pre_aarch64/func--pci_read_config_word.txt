@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/pci/access.c:556
+Symbol:
+func pci_read_config_word (
+dev * const @"struct--pci_dev.txt"
+where "int"
+val * @"typedef--u16.txt"
+)
+"int"

@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/i2c.h:424
+Symbol:
+Byte size 80
+struct i2c_board_info {
+0x0 type [20]"char"
+0x14 flags "short unsigned int"
+0x16 addr "short unsigned int"
+0x18 dev_name * const "char"
+0x20 platform_data * "void"
+0x28 of_node * @"struct--device_node.txt"
+0x30 fwnode * @"struct--fwnode_handle.txt"
+0x38 swnode * const @"struct--software_node.txt"
+0x40 resources * const @"struct--resource.txt"
+0x48 num_resources "unsigned int"
+0x4c irq "int"
+}

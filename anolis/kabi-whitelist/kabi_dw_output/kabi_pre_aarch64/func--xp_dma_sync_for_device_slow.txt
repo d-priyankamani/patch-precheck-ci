@@ -1,0 +1,9 @@
+Version: 1.0
+File: net/xdp/xsk_buff_pool.c:689
+Symbol:
+func xp_dma_sync_for_device_slow (
+pool * @"struct--xsk_buff_pool.txt"
+dma @"typedef--dma_addr_t.txt"
+size @"typedef--size_t.txt"
+)
+"void"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:85
+Symbol:
+Byte size 144
+struct ib_gid_table_entry {
+0x0 kref @"struct--kref.txt"
+0x8 del_work @"struct--work_struct.txt"
+0x48 attr @"struct--ib_gid_attr.txt"
+0x78 context * "void"
+0x80 ndev_storage * @"struct--roce_gid_ndev_storage.txt"
+0x88 state @"enum--gid_table_entry_state.txt"
+}

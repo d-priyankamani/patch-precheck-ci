@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/net.h:148
+Symbol:
+Byte size 32
+typedef read_descriptor_t
+struct (NULL) {
+0x0 written @"typedef--size_t.txt"
+0x8 count @"typedef--size_t.txt"
+0x10 arg union (NULL) {
+buf * "char"
+data * "void"
+}
+0x18 error "int"
+}

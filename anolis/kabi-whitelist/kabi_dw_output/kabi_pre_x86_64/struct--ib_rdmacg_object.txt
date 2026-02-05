@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1510
+Symbol:
+Byte size 8
+struct ib_rdmacg_object {
+0x0 cg * @"struct--rdma_cgroup.txt"
+}

@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/key.h:32
+Symbol:
+typedef key_perm_t
+@"typedef--uint32_t.txt"

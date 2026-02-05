@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/asm-generic/hyperv-tlfs.h:350
+Symbol:
+Byte size 8
+union hv_stimer_config {
+as_uint64 @"typedef--u64.txt"
+(NULL) struct (NULL) {
+0x0:0-1 enable @"typedef--u64.txt"
+0x0:1-2 periodic @"typedef--u64.txt"
+0x0:2-3 lazy @"typedef--u64.txt"
+0x0:3-4 auto_enable @"typedef--u64.txt"
+0x0:4-12 apic_vector @"typedef--u64.txt"
+0x1:4-5 direct_mode @"typedef--u64.txt"
+0x1:5-8 reserved_z0 @"typedef--u64.txt"
+0x2:0-4 sintx @"typedef--u64.txt"
+0x2:4-48 reserved_z1 @"typedef--u64.txt"
+}
+}

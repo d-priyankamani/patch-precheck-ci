@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/mad.c:916
+Symbol:
+func ib_get_mad_data_offset (
+mgmt_class @"typedef--u8.txt"
+)
+"int"

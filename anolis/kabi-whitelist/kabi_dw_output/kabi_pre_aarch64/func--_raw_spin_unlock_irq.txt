@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/spinlock.c:200
+Symbol:
+func _raw_spin_unlock_irq (
+lock * @"typedef--raw_spinlock_t.txt"
+)
+"void"

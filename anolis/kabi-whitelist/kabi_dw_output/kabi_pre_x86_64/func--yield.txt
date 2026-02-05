@@ -1,0 +1,6 @@
+Version: 1.0
+File: kernel/sched/syscalls.c:1575
+Symbol:
+func yield (
+)
+"void"

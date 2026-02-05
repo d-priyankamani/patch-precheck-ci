@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/core/dev.c:3176
+Symbol:
+func netif_schedule_queue (
+txq * @"struct--netdev_queue.txt"
+)
+"void"

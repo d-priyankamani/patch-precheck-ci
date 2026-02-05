@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/net/switchdev.h:86
+Symbol:
+Byte size 48
+struct switchdev_obj {
+0x0 list @"struct--list_head.txt"
+0x10 orig_dev * @"struct--net_device.txt"
+0x18 id @"enum--switchdev_obj_id.txt"
+0x1c flags @"typedef--u32.txt"
+0x20 complete_priv * "void"
+0x28 complete * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "int"
+(NULL) * "void"
+)
+"void"
+}

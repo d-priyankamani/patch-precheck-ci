@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/uapi/linux/fb.h:388
+Symbol:
+Byte size 104
+struct fb_cursor {
+0x0 set @"typedef--__u16.txt"
+0x2 enable @"typedef--__u16.txt"
+0x4 rop @"typedef--__u16.txt"
+0x8 mask * const "char"
+0x10 hot @"struct--fbcurpos.txt"
+0x18 image @"struct--fb_image.txt"
+}

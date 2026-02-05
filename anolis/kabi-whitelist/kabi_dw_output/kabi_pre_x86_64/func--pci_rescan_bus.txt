@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/pci/probe.c:3349
+Symbol:
+func pci_rescan_bus (
+bus * @"struct--pci_bus.txt"
+)
+"unsigned int"

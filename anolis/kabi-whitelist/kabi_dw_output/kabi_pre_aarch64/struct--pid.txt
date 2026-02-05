@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/pid.h:59
+Symbol:
+Byte size 96
+Alignment 8
+struct pid {
+0x0 count @"typedef--refcount_t.txt"
+0x4 level "unsigned int"
+0x8 lock @"typedef--spinlock_t.txt"
+0x10 tasks [4]@"struct--hlist_head.txt"
+0x30 inodes @"struct--hlist_head.txt"
+0x38 wait_pidfd @"typedef--wait_queue_head_t.txt"
+0x50 8 rcu @"struct--callback_head.txt"
+0x60 numbers [0]@"struct--upid.txt"
+}

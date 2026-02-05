@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/device.c:882
+Symbol:
+func ib_get_device_fw_str (
+dev * @"struct--ib_device.txt"
+str * "char"
+)
+"void"

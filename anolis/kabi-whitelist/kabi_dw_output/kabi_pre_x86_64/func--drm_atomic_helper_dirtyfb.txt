@@ -1,0 +1,12 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_damage_helper.c:107
+Symbol:
+func drm_atomic_helper_dirtyfb (
+fb * @"struct--drm_framebuffer.txt"
+file_priv * @"<declarations>/struct--drm_file.txt"
+flags "unsigned int"
+color "unsigned int"
+clips * @"struct--drm_clip_rect.txt"
+num_clips "unsigned int"
+)
+"int"

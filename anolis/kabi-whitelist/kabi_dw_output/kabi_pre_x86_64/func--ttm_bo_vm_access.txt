@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo_vm.c:408
+Symbol:
+func ttm_bo_vm_access (
+vma * @"struct--vm_area_struct.txt"
+addr "long unsigned int"
+buf * "void"
+len "int"
+write "int"
+)
+"int"

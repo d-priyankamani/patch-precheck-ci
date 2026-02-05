@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/sched/signal.h:80
+Symbol:
+Byte size 56
+struct core_state {
+0x0 nr_threads @"typedef--atomic_t.txt"
+0x8 dumper @"struct--core_thread.txt"
+0x18 startup @"struct--completion.txt"
+}

@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/string.c:307
+Symbol:
+func strncmp (
+cs * const "char"
+ct * const "char"
+count @"typedef--size_t.txt"
+)
+"int"

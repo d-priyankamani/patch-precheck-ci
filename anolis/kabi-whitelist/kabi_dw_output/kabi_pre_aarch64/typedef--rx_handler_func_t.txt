@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/netdevice.h:478
+Symbol:
+typedef rx_handler_func_t
+func (NULL) (
+(NULL) * * @"struct--sk_buff.txt"
+)
+@"typedef--rx_handler_result_t.txt"

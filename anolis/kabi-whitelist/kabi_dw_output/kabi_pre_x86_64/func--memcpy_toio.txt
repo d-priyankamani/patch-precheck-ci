@@ -1,0 +1,9 @@
+Version: 1.0
+File: arch/x86/lib/iomem.c:105
+Symbol:
+func memcpy_toio (
+to * volatile "void"
+from * const "void"
+n @"typedef--size_t.txt"
+)
+"void"

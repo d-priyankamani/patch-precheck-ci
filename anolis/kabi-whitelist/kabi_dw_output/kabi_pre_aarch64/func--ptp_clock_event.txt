@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/ptp/ptp_clock.c:387
+Symbol:
+func ptp_clock_event (
+ptp * @"struct--ptp_clock.txt"
+event * @"struct--ptp_clock_event.txt"
+)
+"void"

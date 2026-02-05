@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/uidgid.h:28
+Symbol:
+Byte size 4
+typedef kgid_t
+struct (NULL) {
+0x0 val @"typedef--gid_t.txt"
+}

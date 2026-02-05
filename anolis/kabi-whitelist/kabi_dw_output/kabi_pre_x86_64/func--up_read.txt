@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/locking/rwsem.c:1613
+Symbol:
+func up_read (
+sem * @"struct--rw_semaphore.txt"
+)
+"void"

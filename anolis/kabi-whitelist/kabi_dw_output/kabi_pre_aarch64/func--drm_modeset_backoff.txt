@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_modeset_lock.c:346
+Symbol:
+func drm_modeset_backoff (
+ctx * @"struct--drm_modeset_acquire_ctx.txt"
+)
+"int"

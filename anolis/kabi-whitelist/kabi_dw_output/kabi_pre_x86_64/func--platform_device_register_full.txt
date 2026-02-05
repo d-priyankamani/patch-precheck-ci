@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/base/platform.c:807
+Symbol:
+func platform_device_register_full (
+pdevinfo * const @"struct--platform_device_info.txt"
+)
+* @"struct--platform_device.txt"

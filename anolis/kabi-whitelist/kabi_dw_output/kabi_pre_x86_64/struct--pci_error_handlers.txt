@@ -1,0 +1,35 @@
+Version: 1.0
+File: include/linux/pci.h:882
+Symbol:
+Byte size 56
+struct pci_error_handlers {
+0x0 error_detected * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+(NULL) @"typedef--pci_channel_state_t.txt"
+)
+@"typedef--pci_ers_result_t.txt"
+0x8 mmio_enabled * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+)
+@"typedef--pci_ers_result_t.txt"
+0x10 slot_reset * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+)
+@"typedef--pci_ers_result_t.txt"
+0x18 reset_prepare * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+)
+"void"
+0x20 reset_done * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+)
+"void"
+0x28 resume * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+)
+"void"
+0x30 cor_error_detected * func (NULL) (
+(NULL) * @"struct--pci_dev.txt"
+)
+"void"
+}

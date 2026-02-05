@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_buddy.c:600
+Symbol:
+func drm_buddy_block_trim (
+mm * @"struct--drm_buddy.txt"
+new_size @"typedef--u64.txt"
+blocks * @"struct--list_head.txt"
+)
+"int"

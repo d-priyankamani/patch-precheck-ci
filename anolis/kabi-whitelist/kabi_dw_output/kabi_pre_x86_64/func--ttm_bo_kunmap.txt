@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/ttm/ttm_bo_util.c:431
+Symbol:
+func ttm_bo_kunmap (
+map * @"struct--ttm_bo_kmap_obj.txt"
+)
+"void"

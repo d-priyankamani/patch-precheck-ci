@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:717
+Symbol:
+func dma_fence_remove_callback (
+fence * @"struct--dma_fence.txt"
+cb * @"struct--dma_fence_cb.txt"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/drm/ttm/ttm_pool.h:49
+Symbol:
+Byte size 56
+struct ttm_pool_type {
+0x0 pool * @"struct--ttm_pool.txt"
+0x8 order "unsigned int"
+0xc caching @"enum--ttm_caching.txt"
+0x10 shrinker_list @"struct--list_head.txt"
+0x20 lock @"typedef--spinlock_t.txt"
+0x28 pages @"struct--list_head.txt"
+}

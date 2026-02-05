@@ -1,0 +1,21 @@
+Version: 1.0
+File: include/linux/binfmts.h:87
+Symbol:
+Byte size 56
+struct linux_binfmt {
+0x0 lh @"struct--list_head.txt"
+0x10 module * @"struct--module.txt"
+0x18 load_binary * func (NULL) (
+(NULL) * @"struct--linux_binprm.txt"
+)
+"int"
+0x20 load_shlib * func (NULL) (
+(NULL) * @"struct--file.txt"
+)
+"int"
+0x28 core_dump * func (NULL) (
+(NULL) * @"struct--coredump_params.txt"
+)
+"int"
+0x30 min_coredump "long unsigned int"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/ipv6/addrconf.c:1920
+Symbol:
+func ipv6_chk_addr (
+net * @"struct--net.txt"
+addr * const @"struct--in6_addr.txt"
+dev * const @"struct--net_device.txt"
+strict "int"
+)
+"int"

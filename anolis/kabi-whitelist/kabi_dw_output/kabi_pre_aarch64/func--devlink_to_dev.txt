@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/devlink/core.c:31
+Symbol:
+func devlink_to_dev (
+devlink * const @"struct--devlink.txt"
+)
+* @"struct--device.txt"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/scsi/scsi.c:808
+Symbol:
+func __scsi_iterate_devices (
+shost * @"struct--Scsi_Host.txt"
+prev * @"struct--scsi_device.txt"
+)
+* @"struct--scsi_device.txt"

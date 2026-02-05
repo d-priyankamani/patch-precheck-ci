@@ -1,0 +1,45 @@
+Version: 1.0
+File: include/linux/bpf.h:1606
+Symbol:
+Byte size 72
+struct bpf_link_ops {
+0x0 release * func (NULL) (
+(NULL) * @"struct--bpf_link.txt"
+)
+"void"
+0x8 dealloc * func (NULL) (
+(NULL) * @"struct--bpf_link.txt"
+)
+"void"
+0x10 dealloc_deferred * func (NULL) (
+(NULL) * @"struct--bpf_link.txt"
+)
+"void"
+0x18 detach * func (NULL) (
+(NULL) * @"struct--bpf_link.txt"
+)
+"int"
+0x20 update_prog * func (NULL) (
+(NULL) * @"struct--bpf_link.txt"
+(NULL) * @"struct--bpf_prog.txt"
+(NULL) * @"struct--bpf_prog.txt"
+)
+"int"
+0x28 show_fdinfo * func (NULL) (
+(NULL) * const @"struct--bpf_link.txt"
+(NULL) * @"struct--seq_file.txt"
+)
+"void"
+0x30 fill_link_info * func (NULL) (
+(NULL) * const @"struct--bpf_link.txt"
+(NULL) * @"struct--bpf_link_info.txt"
+)
+"int"
+0x38 update_map * func (NULL) (
+(NULL) * @"struct--bpf_link.txt"
+(NULL) * @"struct--bpf_map.txt"
+(NULL) * @"struct--bpf_map.txt"
+)
+"int"
+0x40 ck_reserved1 "long unsigned int"
+}

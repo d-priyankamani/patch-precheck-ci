@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/devlink/resource.c:529
+Symbol:
+func devlink_resource_occ_get_register (
+devlink * @"struct--devlink.txt"
+resource_id @"typedef--u64.txt"
+occ_get * @"typedef--devlink_resource_occ_get_t.txt"
+occ_get_priv * "void"
+)
+"void"

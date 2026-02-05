@@ -1,0 +1,12 @@
+Version: 1.0
+File: kernel/trace/trace.h:832
+Symbol:
+Byte size 48
+Alignment 8
+struct ftrace_hash {
+0x0 size_bits "long unsigned int"
+0x8 buckets * @"struct--hlist_head.txt"
+0x10 count "long unsigned int"
+0x18 flags "long unsigned int"
+0x20 8 rcu @"struct--callback_head.txt"
+}

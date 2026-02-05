@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/linux/memcontrol.h:60
+Symbol:
+Byte size 24
+struct mem_cgroup_exstat_cpu {
+0x0 item [3]"long unsigned int"
+}

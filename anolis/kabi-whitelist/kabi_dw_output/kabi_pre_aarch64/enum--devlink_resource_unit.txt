@@ -1,0 +1,7 @@
+Version: 1.0
+File: include/uapi/linux/devlink.h:657
+Symbol:
+Byte size 4
+enum devlink_resource_unit {
+DEVLINK_RESOURCE_UNIT_ENTRY = 0x0
+}

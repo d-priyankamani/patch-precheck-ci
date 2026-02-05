@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/infiniband/core/cache.c:949
+Symbol:
+func rdma_query_gid (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+index "int"
+gid * @"union--ib_gid.txt"
+)
+"int"

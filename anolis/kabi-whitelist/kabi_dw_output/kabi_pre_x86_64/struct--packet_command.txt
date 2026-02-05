@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/cdrom.h:20
+Symbol:
+Byte size 64
+struct packet_command {
+0x0 cmd [12]"unsigned char"
+0x10 buffer * "unsigned char"
+0x18 buflen "unsigned int"
+0x1c stat "int"
+0x20 sshdr * @"struct--scsi_sense_hdr.txt"
+0x28 data_direction "unsigned char"
+0x2c quiet "int"
+0x30 timeout "int"
+0x38 reserved [1]* "void"
+}

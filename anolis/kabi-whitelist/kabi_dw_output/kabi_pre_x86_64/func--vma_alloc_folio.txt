@@ -1,0 +1,11 @@
+Version: 1.0
+File: mm/mempolicy.c:2337
+Symbol:
+func vma_alloc_folio (
+gfp @"typedef--gfp_t.txt"
+order "int"
+vma * @"struct--vm_area_struct.txt"
+addr "long unsigned int"
+hugepage @"typedef--bool.txt"
+)
+* @"struct--folio.txt"

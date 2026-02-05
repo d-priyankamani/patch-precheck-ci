@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/bpf.h:215
+Symbol:
+Byte size 24
+struct btf_field_graph_root {
+0x0 btf * @"<declarations>/struct--btf.txt"
+0x8 value_btf_id @"typedef--u32.txt"
+0xc node_offset @"typedef--u32.txt"
+0x10 value_rec * @"struct--btf_record.txt"
+}

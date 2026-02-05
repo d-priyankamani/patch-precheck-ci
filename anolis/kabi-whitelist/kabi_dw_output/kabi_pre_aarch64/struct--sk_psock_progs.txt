@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/linux/skmsg.h:56
+Symbol:
+Byte size 32
+struct sk_psock_progs {
+0x0 msg_parser * @"struct--bpf_prog.txt"
+0x8 stream_parser * @"struct--bpf_prog.txt"
+0x10 stream_verdict * @"struct--bpf_prog.txt"
+0x18 skb_verdict * @"struct--bpf_prog.txt"
+}

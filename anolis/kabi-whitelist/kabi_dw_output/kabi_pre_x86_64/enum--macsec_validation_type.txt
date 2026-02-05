@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/if_link.h:715
+Symbol:
+Byte size 4
+enum macsec_validation_type {
+MACSEC_VALIDATE_DISABLED = 0x0
+MACSEC_VALIDATE_CHECK = 0x1
+MACSEC_VALIDATE_STRICT = 0x2
+__MACSEC_VALIDATE_END = 0x3
+MACSEC_VALIDATE_MAX = 0x2
+}

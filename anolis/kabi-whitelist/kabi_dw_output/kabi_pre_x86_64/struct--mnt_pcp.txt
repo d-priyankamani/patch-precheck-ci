@@ -1,0 +1,8 @@
+Version: 1.0
+File: fs/mount.h:28
+Symbol:
+Byte size 8
+struct mnt_pcp {
+0x0 mnt_count "int"
+0x4 mnt_writers "int"
+}

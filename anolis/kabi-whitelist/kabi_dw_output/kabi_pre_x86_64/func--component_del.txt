@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/base/component.c:802
+Symbol:
+func component_del (
+dev * @"struct--device.txt"
+ops * const @"struct--component_ops.txt"
+)
+"void"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/uapi/linux/cdrom.h:165
+Symbol:
+Byte size 4
+union cdrom_addr {
+msf @"struct--cdrom_msf0.txt"
+lba "int"
+}

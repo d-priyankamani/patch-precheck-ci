@@ -1,0 +1,16 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2121
+Symbol:
+func __ib_create_cq (
+device * @"struct--ib_device.txt"
+comp_handler @"typedef--ib_comp_handler.txt"
+event_handler * func (NULL) (
+(NULL) * @"struct--ib_event.txt"
+(NULL) * "void"
+)
+"void"
+cq_context * "void"
+cq_attr * const @"struct--ib_cq_init_attr.txt"
+caller * const "char"
+)
+* @"struct--ib_cq.txt"

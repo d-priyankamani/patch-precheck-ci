@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_edid.c:2626
+Symbol:
+func drm_get_edid (
+connector * @"struct--drm_connector.txt"
+adapter * @"struct--i2c_adapter.txt"
+)
+* @"struct--edid.txt"

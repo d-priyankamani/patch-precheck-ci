@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/iomem.c:68
+Symbol:
+func memremap (
+offset @"typedef--resource_size_t.txt"
+size @"typedef--size_t.txt"
+flags "long unsigned int"
+)
+* "void"

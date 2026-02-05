@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/kthread.c:1418
+Symbol:
+func kthread_destroy_worker (
+worker * @"struct--kthread_worker.txt"
+)
+"void"

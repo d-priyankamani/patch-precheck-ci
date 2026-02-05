@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/tty/tty_baudrate.c:129
+Symbol:
+func tty_termios_encode_baud_rate (
+termios * @"struct--ktermios.txt"
+ibaud @"typedef--speed_t.txt"
+obaud @"typedef--speed_t.txt"
+)
+"void"

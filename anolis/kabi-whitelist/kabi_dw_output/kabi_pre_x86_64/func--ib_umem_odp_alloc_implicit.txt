@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/umem_odp.c:118
+Symbol:
+func ib_umem_odp_alloc_implicit (
+device * @"struct--ib_device.txt"
+access "int"
+)
+* @"struct--ib_umem_odp.txt"

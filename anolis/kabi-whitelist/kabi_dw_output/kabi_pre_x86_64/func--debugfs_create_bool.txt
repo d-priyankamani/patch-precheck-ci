@@ -1,0 +1,10 @@
+Version: 1.0
+File: fs/debugfs/file.c:868
+Symbol:
+func debugfs_create_bool (
+name * const "char"
+mode @"typedef--umode_t.txt"
+parent * @"struct--dentry.txt"
+value * @"typedef--bool.txt"
+)
+"void"

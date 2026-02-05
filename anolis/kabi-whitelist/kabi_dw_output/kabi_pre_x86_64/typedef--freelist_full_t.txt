@@ -1,0 +1,6 @@
+Version: 1.0
+File: mm/slab.h:15
+Symbol:
+Alignment 16
+typedef freelist_full_t
+@"typedef--u128.txt"

@@ -1,0 +1,9 @@
+Version: 1.0
+File: include/linux/sched/signal.h:47
+Symbol:
+Byte size 24
+struct task_cputime_atomic {
+0x0 utime @"typedef--atomic64_t.txt"
+0x8 stime @"typedef--atomic64_t.txt"
+0x10 sum_exec_runtime @"typedef--atomic64_t.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/fs.h:1886
+Symbol:
+Byte size 16
+struct dir_context {
+0x0 actor @"typedef--filldir_t.txt"
+0x8 pos @"typedef--loff_t.txt"
+}

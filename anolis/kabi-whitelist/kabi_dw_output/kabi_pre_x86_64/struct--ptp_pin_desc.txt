@@ -1,0 +1,11 @@
+Version: 1.0
+File: include/uapi/linux/ptp_clock.h:175
+Symbol:
+Byte size 96
+struct ptp_pin_desc {
+0x0 name [64]"char"
+0x40 index "unsigned int"
+0x44 func "unsigned int"
+0x48 chan "unsigned int"
+0x4c rsv [5]"unsigned int"
+}

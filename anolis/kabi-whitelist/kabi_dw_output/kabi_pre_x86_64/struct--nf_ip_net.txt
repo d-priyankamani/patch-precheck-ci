@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/net/netns/conntrack.h:79
+Symbol:
+Byte size 200
+struct nf_ip_net {
+0x0 generic @"struct--nf_generic_net.txt"
+0x4 tcp @"struct--nf_tcp_net.txt"
+0x44 udp @"struct--nf_udp_net.txt"
+0x50 icmp @"struct--nf_icmp_net.txt"
+0x54 icmpv6 @"struct--nf_icmp_net.txt"
+0x58 dccp @"struct--nf_dccp_net.txt"
+0x84 sctp @"struct--nf_sctp_net.txt"
+0xb0 gre @"struct--nf_gre_net.txt"
+}

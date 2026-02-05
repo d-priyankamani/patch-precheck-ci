@@ -1,0 +1,12 @@
+Version: 1.0
+File: kernel/irq/manage.c:2145
+Symbol:
+func request_threaded_irq (
+irq "unsigned int"
+handler @"typedef--irq_handler_t.txt"
+thread_fn @"typedef--irq_handler_t.txt"
+irqflags "long unsigned int"
+devname * const "char"
+dev_id * "void"
+)
+"int"

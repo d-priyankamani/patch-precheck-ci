@@ -1,0 +1,24 @@
+Version: 1.0
+File: include/net/cfg802154.h:448
+Symbol:
+Byte size 88
+struct wpan_dev {
+0x0 wpan_phy * @"struct--wpan_phy.txt"
+0x8 iftype "int"
+0x10 list @"struct--list_head.txt"
+0x20 netdev * @"struct--net_device.txt"
+0x28 header_ops * const @"struct--wpan_dev_header_ops.txt"
+0x30 lowpan_dev * @"struct--net_device.txt"
+0x38 identifier @"typedef--u32.txt"
+0x3c pan_id @"typedef--__le16.txt"
+0x3e short_addr @"typedef--__le16.txt"
+0x40 extended_addr @"typedef--__le64.txt"
+0x48 bsn @"typedef--atomic_t.txt"
+0x4c dsn @"typedef--atomic_t.txt"
+0x50 min_be @"typedef--u8.txt"
+0x51 max_be @"typedef--u8.txt"
+0x52 csma_retries @"typedef--u8.txt"
+0x53 frame_retries @"typedef--s8.txt"
+0x54 lbt @"typedef--bool.txt"
+0x55 ackreq @"typedef--bool.txt"
+}

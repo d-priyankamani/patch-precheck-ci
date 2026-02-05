@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:2797
+Symbol:
+func rdma_set_ack_timeout (
+id * @"struct--rdma_cm_id.txt"
+timeout @"typedef--u8.txt"
+)
+"int"

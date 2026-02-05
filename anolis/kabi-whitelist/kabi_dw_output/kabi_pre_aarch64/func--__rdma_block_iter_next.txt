@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:3029
+Symbol:
+func __rdma_block_iter_next (
+biter * @"struct--ib_block_iter.txt"
+)
+@"typedef--bool.txt"

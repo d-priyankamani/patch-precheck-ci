@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/drm/drm_rect.h:46
+Symbol:
+Byte size 16
+struct drm_rect {
+0x0 x1 "int"
+0x4 y1 "int"
+0x8 x2 "int"
+0xc y2 "int"
+}

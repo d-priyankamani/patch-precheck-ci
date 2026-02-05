@@ -1,0 +1,9 @@
+Version: 1.0
+File: mm/shmem.c:5644
+Symbol:
+func shmem_file_setup (
+name * const "char"
+size @"typedef--loff_t.txt"
+flags "long unsigned int"
+)
+* @"struct--file.txt"

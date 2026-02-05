@@ -1,0 +1,11 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_ioctl.c:787
+Symbol:
+func _uverbs_get_const_unsigned (
+to * @"typedef--u64.txt"
+attrs_bundle * const @"struct--uverbs_attr_bundle.txt"
+idx @"typedef--size_t.txt"
+upper_bound @"typedef--u64.txt"
+def_val * @"typedef--u64.txt"
+)
+"int"

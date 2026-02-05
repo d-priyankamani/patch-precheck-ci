@@ -1,0 +1,8 @@
+Version: 1.0
+File: lib/string.c:334
+Symbol:
+func strchr (
+s * const "char"
+c "int"
+)
+* "char"

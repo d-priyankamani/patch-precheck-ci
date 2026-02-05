@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/flow_dissector.h:78
+Symbol:
+Byte size 32
+struct flow_dissector_key_mpls {
+0x0 ls [7]@"struct--flow_dissector_mpls_lse.txt"
+0x1c used_lses @"typedef--u8.txt"
+}

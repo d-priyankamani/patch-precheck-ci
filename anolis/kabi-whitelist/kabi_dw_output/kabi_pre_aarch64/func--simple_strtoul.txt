@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/vsprintf.c:110
+Symbol:
+func simple_strtoul (
+cp * const "char"
+endp * * "char"
+base "unsigned int"
+)
+"long unsigned int"

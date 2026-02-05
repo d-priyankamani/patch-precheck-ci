@@ -1,0 +1,10 @@
+Version: 1.0
+File: arch/arm64/include/uapi/asm/ptrace.h:88
+Symbol:
+Byte size 272
+struct user_pt_regs {
+0x0 regs [31]@"typedef--__u64.txt"
+0xf8 sp @"typedef--__u64.txt"
+0x100 pc @"typedef--__u64.txt"
+0x108 pstate @"typedef--__u64.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/net_tstamp.h:8
+Symbol:
+Byte size 4
+enum hwtstamp_source {
+HWTSTAMP_SOURCE_NETDEV = 0x0
+HWTSTAMP_SOURCE_PHYLIB = 0x1
+}

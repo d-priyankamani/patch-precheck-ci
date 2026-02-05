@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/net/macsec.h:35
+Symbol:
+typedef ssci_t
+@"typedef--u32.txt"

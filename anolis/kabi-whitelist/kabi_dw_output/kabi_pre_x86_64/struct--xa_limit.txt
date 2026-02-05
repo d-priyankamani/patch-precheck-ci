@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/xarray.h:239
+Symbol:
+Byte size 8
+struct xa_limit {
+0x0 max @"typedef--u32.txt"
+0x4 min @"typedef--u32.txt"
+}

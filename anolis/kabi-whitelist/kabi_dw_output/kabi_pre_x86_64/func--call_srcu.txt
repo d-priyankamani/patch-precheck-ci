@@ -1,0 +1,9 @@
+Version: 1.0
+File: kernel/rcu/srcutree.c:1357
+Symbol:
+func call_srcu (
+ssp * @"struct--srcu_struct.txt"
+rhp * @"struct--callback_head.txt"
+func @"typedef--rcu_callback_t.txt"
+)
+"void"

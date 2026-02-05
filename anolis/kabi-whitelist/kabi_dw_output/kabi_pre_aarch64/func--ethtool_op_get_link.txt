@@ -1,0 +1,7 @@
+Version: 1.0
+File: net/ethtool/ioctl.c:59
+Symbol:
+func ethtool_op_get_link (
+dev * @"struct--net_device.txt"
+)
+@"typedef--u32.txt"

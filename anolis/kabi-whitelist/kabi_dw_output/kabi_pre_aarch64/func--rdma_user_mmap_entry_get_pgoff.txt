@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/ib_core_uverbs.c:117
+Symbol:
+func rdma_user_mmap_entry_get_pgoff (
+ucontext * @"struct--ib_ucontext.txt"
+pgoff "long unsigned int"
+)
+* @"struct--rdma_user_mmap_entry.txt"

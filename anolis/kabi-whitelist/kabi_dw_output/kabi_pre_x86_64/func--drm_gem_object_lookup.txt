@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_gem.c:802
+Symbol:
+func drm_gem_object_lookup (
+filp * @"struct--drm_file.txt"
+handle @"typedef--u32.txt"
+)
+* @"struct--drm_gem_object.txt"

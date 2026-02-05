@@ -1,0 +1,5 @@
+Version: 1.0
+File: include/linux/of.h:25
+Symbol:
+typedef phandle
+@"typedef--u32.txt"

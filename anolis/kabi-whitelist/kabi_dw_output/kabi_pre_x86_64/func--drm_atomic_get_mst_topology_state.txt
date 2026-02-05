@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/gpu/drm/display/drm_dp_mst_topology.c:5535
+Symbol:
+func drm_atomic_get_mst_topology_state (
+state * @"struct--drm_atomic_state.txt"
+mgr * @"struct--drm_dp_mst_topology_mgr.txt"
+)
+* @"struct--drm_dp_mst_topology_state.txt"

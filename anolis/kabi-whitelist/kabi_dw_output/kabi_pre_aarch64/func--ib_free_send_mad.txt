@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/infiniband/core/mad.c:977
+Symbol:
+func ib_free_send_mad (
+send_buf * @"struct--ib_mad_send_buf.txt"
+)
+"void"

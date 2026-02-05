@@ -1,0 +1,37 @@
+Version: 1.0
+File: include/net/ip6_fib.h:166
+Symbol:
+Byte size 176
+Alignment 8
+struct fib6_info {
+0x0 fib6_table * @"struct--fib6_table.txt"
+0x8 fib6_next * @"struct--fib6_info.txt"
+0x10 fib6_node * @"struct--fib6_node.txt"
+0x18 (NULL) union (NULL) {
+fib6_siblings @"struct--list_head.txt"
+nh_list @"struct--list_head.txt"
+}
+0x28 fib6_nsiblings "unsigned int"
+0x2c fib6_ref @"typedef--refcount_t.txt"
+0x30 expires "long unsigned int"
+0x38 fib6_metrics * @"struct--dst_metrics.txt"
+0x40 fib6_dst @"struct--rt6key.txt"
+0x54 fib6_flags @"typedef--u32.txt"
+0x58 fib6_src @"struct--rt6key.txt"
+0x6c fib6_prefsrc @"struct--rt6key.txt"
+0x80 fib6_metric @"typedef--u32.txt"
+0x84 fib6_protocol @"typedef--u8.txt"
+0x85 fib6_type @"typedef--u8.txt"
+0x86 offload @"typedef--u8.txt"
+0x87 trap @"typedef--u8.txt"
+0x88 offload_failed @"typedef--u8.txt"
+0x89:0-1 should_flush @"typedef--u8.txt"
+0x89:1-2 dst_nocount @"typedef--u8.txt"
+0x89:2-3 dst_nopolicy @"typedef--u8.txt"
+0x89:3-4 fib6_destroying @"typedef--u8.txt"
+0x89:4-8 unused @"typedef--u8.txt"
+0x90 8 rcu @"struct--callback_head.txt"
+0xa0 nh * @"struct--nexthop.txt"
+0xa8 ck_reserved1 "long unsigned int"
+0xb0 fib6_nh [0]@"struct--fib6_nh.txt"
+}

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/dma-buf/dma-resv.c:671
+Symbol:
+func dma_resv_wait_timeout (
+obj * @"struct--dma_resv.txt"
+usage @"enum--dma_resv_usage.txt"
+intr @"typedef--bool.txt"
+timeout "long unsigned int"
+)
+"long int"

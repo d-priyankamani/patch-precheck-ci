@@ -1,0 +1,20 @@
+Version: 1.0
+File: include/linux/property.h:338
+Symbol:
+Byte size 32
+struct property_entry {
+0x0 name * const "char"
+0x8 length @"typedef--size_t.txt"
+0x10 is_inline @"typedef--bool.txt"
+0x14 type @"enum--dev_prop_type.txt"
+0x18 (NULL) union (NULL) {
+pointer * const "void"
+value union (NULL) {
+u8_data [8]@"typedef--u8.txt"
+u16_data [4]@"typedef--u16.txt"
+u32_data [2]@"typedef--u32.txt"
+u64_data [1]@"typedef--u64.txt"
+str [1]* const "char"
+}
+}
+}

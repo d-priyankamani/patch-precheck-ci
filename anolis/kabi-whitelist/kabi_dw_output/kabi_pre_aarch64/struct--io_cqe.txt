@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/io_uring_types.h:498
+Symbol:
+Byte size 16
+struct io_cqe {
+0x0 user_data @"typedef--__u64.txt"
+0x8 res @"typedef--__s32.txt"
+0xc (NULL) union (NULL) {
+flags @"typedef--__u32.txt"
+fd "int"
+}
+}

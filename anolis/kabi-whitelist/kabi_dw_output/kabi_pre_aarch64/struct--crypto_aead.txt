@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/crypto/aead.h:176
+Symbol:
+Byte size 48
+Alignment 8
+struct crypto_aead {
+0x0 authsize "unsigned int"
+0x4 reqsize "unsigned int"
+0x8 8 base @"struct--crypto_tfm.txt"
+}

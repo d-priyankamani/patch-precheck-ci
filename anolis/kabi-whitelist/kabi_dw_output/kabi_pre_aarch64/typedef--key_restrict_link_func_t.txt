@@ -1,0 +1,12 @@
+Version: 1.0
+File: include/linux/key.h:172
+Symbol:
+Byte size 8
+typedef key_restrict_link_func_t
+* func (NULL) (
+(NULL) * @"struct--key.txt"
+(NULL) * const @"<declarations>/struct--key_type.txt"
+(NULL) * const @"union--key_payload.txt"
+(NULL) * @"struct--key.txt"
+)
+"int"

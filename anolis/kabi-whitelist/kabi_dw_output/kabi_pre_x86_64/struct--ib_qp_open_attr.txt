@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/rdma/ib_verbs.h:1196
+Symbol:
+Byte size 24
+struct ib_qp_open_attr {
+0x0 event_handler * func (NULL) (
+(NULL) * @"struct--ib_event.txt"
+(NULL) * "void"
+)
+"void"
+0x8 qp_context * "void"
+0x10 qp_num @"typedef--u32.txt"
+0x14 qp_type @"enum--ib_qp_type.txt"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/net/switchdev.h:41
+Symbol:
+Byte size 16
+struct switchdev_brport_flags {
+0x0 val "long unsigned int"
+0x8 mask "long unsigned int"
+}

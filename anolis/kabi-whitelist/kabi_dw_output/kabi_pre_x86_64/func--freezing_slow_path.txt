@@ -1,0 +1,7 @@
+Version: 1.0
+File: kernel/freezer.c:38
+Symbol:
+func freezing_slow_path (
+p * @"struct--task_struct.txt"
+)
+@"typedef--bool.txt"

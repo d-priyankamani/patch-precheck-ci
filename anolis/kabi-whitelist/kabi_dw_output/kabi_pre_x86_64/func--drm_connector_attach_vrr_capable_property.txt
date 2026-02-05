@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/gpu/drm/drm_connector.c:2029
+Symbol:
+func drm_connector_attach_vrr_capable_property (
+connector * @"struct--drm_connector.txt"
+)
+"int"

@@ -1,0 +1,8 @@
+Version: 1.0
+File: net/core/gro.c:597
+Symbol:
+func napi_gro_receive (
+napi * @"struct--napi_struct.txt"
+skb * @"struct--sk_buff.txt"
+)
+@"typedef--gro_result_t.txt"

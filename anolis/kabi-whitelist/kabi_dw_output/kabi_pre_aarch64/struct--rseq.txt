@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/uapi/linux/rseq.h:62
+Symbol:
+Byte size 32
+Alignment 32
+struct rseq {
+0x0 cpu_id_start @"typedef--__u32.txt"
+0x4 cpu_id @"typedef--__u32.txt"
+0x8 rseq_cs @"typedef--__u64.txt"
+0x10 flags @"typedef--__u32.txt"
+0x14 node_id @"typedef--__u32.txt"
+0x18 mm_cid @"typedef--__u32.txt"
+0x1c end [0]"char"
+}

@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/uverbs_ioctl.c:828
+Symbol:
+func uverbs_finalize_uobj_create (
+bundle * const @"struct--uverbs_attr_bundle.txt"
+idx @"typedef--u16.txt"
+)
+"void"

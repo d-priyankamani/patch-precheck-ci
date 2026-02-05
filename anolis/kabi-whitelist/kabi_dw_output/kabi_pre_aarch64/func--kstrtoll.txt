@@ -1,0 +1,9 @@
+Version: 1.0
+File: lib/kstrtox.c:156
+Symbol:
+func kstrtoll (
+s * const "char"
+base "unsigned int"
+res * "long long int"
+)
+"int"

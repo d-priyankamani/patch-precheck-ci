@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/list_bl.h:38
+Symbol:
+Byte size 16
+struct hlist_bl_node {
+0x0 next * @"struct--hlist_bl_node.txt"
+0x8 pprev * * @"struct--hlist_bl_node.txt"
+}

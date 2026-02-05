@@ -1,0 +1,30 @@
+Version: 1.0
+File: include/linux/proc_ns.h:16
+Symbol:
+Byte size 64
+struct proc_ns_operations {
+0x0 name * const "char"
+0x8 real_ns_name * const "char"
+0x10 type "int"
+0x18 get * func (NULL) (
+(NULL) * @"struct--task_struct.txt"
+)
+* @"struct--ns_common.txt"
+0x20 put * func (NULL) (
+(NULL) * @"struct--ns_common.txt"
+)
+"void"
+0x28 install * func (NULL) (
+(NULL) * @"struct--nsset.txt"
+(NULL) * @"struct--ns_common.txt"
+)
+"int"
+0x30 owner * func (NULL) (
+(NULL) * @"struct--ns_common.txt"
+)
+* @"struct--user_namespace.txt"
+0x38 get_parent * func (NULL) (
+(NULL) * @"struct--ns_common.txt"
+)
+* @"struct--ns_common.txt"
+}

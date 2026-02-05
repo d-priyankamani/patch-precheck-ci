@@ -1,0 +1,11 @@
+Version: 1.0
+File: kernel/printk/printk.c:4225
+Symbol:
+func kmsg_dump_get_buffer (
+iter * @"struct--kmsg_dump_iter.txt"
+syslog @"typedef--bool.txt"
+buf * "char"
+size @"typedef--size_t.txt"
+len_out * @"typedef--size_t.txt"
+)
+@"typedef--bool.txt"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: drivers/firmware/efi/libstub/vsprintf.c:301
+Symbol:
+func vsnprintf (
+buf * "char"
+size @"typedef--size_t.txt"
+fmt * const "char"
+ap @"typedef--va_list.txt"
+)
+"int"

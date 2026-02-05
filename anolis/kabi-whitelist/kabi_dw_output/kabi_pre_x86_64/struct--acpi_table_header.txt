@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/acpi/actbl.h:68
+Symbol:
+Byte size 36
+struct acpi_table_header {
+0x0 signature [4]"char"
+0x4 length @"typedef--u32.txt"
+0x8 revision @"typedef--u8.txt"
+0x9 checksum @"typedef--u8.txt"
+0xa oem_id [6]"char"
+0x10 oem_table_id [8]"char"
+0x18 oem_revision @"typedef--u32.txt"
+0x1c asl_compiler_id [4]"char"
+0x20 asl_compiler_revision @"typedef--u32.txt"
+}

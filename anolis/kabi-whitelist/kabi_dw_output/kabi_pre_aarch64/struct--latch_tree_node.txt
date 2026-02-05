@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/rbtree_latch.h:40
+Symbol:
+Byte size 48
+Alignment 8
+struct latch_tree_node {
+0x0 8 node [2]@"struct--rb_node.txt"
+}

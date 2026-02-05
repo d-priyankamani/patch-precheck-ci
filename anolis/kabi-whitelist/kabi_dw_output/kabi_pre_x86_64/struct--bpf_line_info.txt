@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/uapi/linux/bpf.h:7151
+Symbol:
+Byte size 16
+struct bpf_line_info {
+0x0 insn_off @"typedef--__u32.txt"
+0x4 file_name_off @"typedef--__u32.txt"
+0x8 line_off @"typedef--__u32.txt"
+0xc line_col @"typedef--__u32.txt"
+}

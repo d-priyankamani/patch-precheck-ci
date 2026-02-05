@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/blkdev.h:63
+Symbol:
+Byte size 101
+struct partition_meta_info {
+0x0 uuid [37]"char"
+0x25 volname [64]@"typedef--u8.txt"
+}

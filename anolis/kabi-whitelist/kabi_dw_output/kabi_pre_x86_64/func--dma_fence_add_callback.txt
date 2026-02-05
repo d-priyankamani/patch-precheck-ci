@@ -1,0 +1,9 @@
+Version: 1.0
+File: drivers/dma-buf/dma-fence.c:643
+Symbol:
+func dma_fence_add_callback (
+fence * @"struct--dma_fence.txt"
+cb * @"struct--dma_fence_cb.txt"
+func @"typedef--dma_fence_func_t.txt"
+)
+"int"

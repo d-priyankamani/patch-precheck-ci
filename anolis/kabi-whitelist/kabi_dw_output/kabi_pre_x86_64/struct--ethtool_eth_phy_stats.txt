@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/linux/ethtool.h:354
+Symbol:
+Byte size 16
+struct ethtool_eth_phy_stats {
+0x0 src @"enum--ethtool_mac_stats_src.txt"
+0x8 (NULL) union (NULL) {
+(NULL) struct (NULL) {
+0x0 SymbolErrorDuringCarrier @"typedef--u64.txt"
+}
+stats struct (NULL) {
+0x0 SymbolErrorDuringCarrier @"typedef--u64.txt"
+}
+}
+}

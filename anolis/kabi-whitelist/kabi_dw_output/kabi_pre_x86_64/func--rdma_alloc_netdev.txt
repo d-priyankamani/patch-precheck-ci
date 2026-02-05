@@ -1,0 +1,15 @@
+Version: 1.0
+File: drivers/infiniband/core/verbs.c:2968
+Symbol:
+func rdma_alloc_netdev (
+device * @"struct--ib_device.txt"
+port_num @"typedef--u32.txt"
+type @"enum--rdma_netdev_t.txt"
+name * const "char"
+name_assign_type "unsigned char"
+setup * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+)
+"void"
+)
+* @"struct--net_device.txt"

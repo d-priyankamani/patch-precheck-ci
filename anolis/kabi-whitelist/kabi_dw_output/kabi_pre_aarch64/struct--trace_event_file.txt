@@ -1,0 +1,17 @@
+Version: 1.0
+File: include/linux/trace_events.h:657
+Symbol:
+Byte size 96
+struct trace_event_file {
+0x0 list @"struct--list_head.txt"
+0x10 event_call * @"struct--trace_event_call.txt"
+0x18 filter * @"struct--event_filter.txt"
+0x20 ei * @"<declarations>/struct--eventfs_inode.txt"
+0x28 tr * @"struct--trace_array.txt"
+0x30 system * @"struct--trace_subsystem_dir.txt"
+0x38 triggers @"struct--list_head.txt"
+0x48 flags "long unsigned int"
+0x50 ref @"typedef--atomic_t.txt"
+0x54 sm_ref @"typedef--atomic_t.txt"
+0x58 tm_ref @"typedef--atomic_t.txt"
+}

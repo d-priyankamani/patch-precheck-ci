@@ -1,0 +1,8 @@
+Version: 1.0
+File: include/linux/sysfs.h:30
+Symbol:
+Byte size 16
+struct attribute {
+0x0 name * const "char"
+0x8 mode @"typedef--umode_t.txt"
+}

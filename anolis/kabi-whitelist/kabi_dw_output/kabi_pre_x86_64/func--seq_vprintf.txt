@@ -1,0 +1,9 @@
+Version: 1.0
+File: fs/seq_file.c:386
+Symbol:
+func seq_vprintf (
+m * @"struct--seq_file.txt"
+f * const "char"
+args * @"struct--__va_list_tag.txt"
+)
+"void"

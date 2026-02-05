@@ -1,0 +1,28 @@
+Version: 1.0
+File: include/net/udp_tunnel.h:251
+Symbol:
+Byte size 72
+struct udp_tunnel_nic_info {
+0x0 set_port * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) * @"struct--udp_tunnel_info.txt"
+)
+"int"
+0x8 unset_port * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "unsigned int"
+(NULL) "unsigned int"
+(NULL) * @"struct--udp_tunnel_info.txt"
+)
+"int"
+0x10 sync_table * func (NULL) (
+(NULL) * @"struct--net_device.txt"
+(NULL) "unsigned int"
+)
+"int"
+0x18 shared * @"struct--udp_tunnel_nic_shared.txt"
+0x20 flags "unsigned int"
+0x24 tables [4]@"struct--udp_tunnel_nic_table_info.txt"
+}

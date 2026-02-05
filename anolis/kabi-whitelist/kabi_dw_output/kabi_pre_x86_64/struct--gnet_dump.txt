@@ -1,0 +1,15 @@
+Version: 1.0
+File: include/net/gen_stats.h:26
+Symbol:
+Byte size 96
+struct gnet_dump {
+0x0 lock * @"typedef--spinlock_t.txt"
+0x8 skb * @"struct--sk_buff.txt"
+0x10 tail * @"struct--nlattr.txt"
+0x18 compat_tc_stats "int"
+0x1c compat_xstats "int"
+0x20 padattr "int"
+0x28 xstats * "void"
+0x30 xstats_len "int"
+0x38 tc_stats @"struct--tc_stats.txt"
+}

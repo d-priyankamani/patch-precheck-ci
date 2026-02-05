@@ -1,0 +1,8 @@
+Version: 1.0
+File: drivers/infiniband/core/cma.c:3139
+Symbol:
+func rdma_set_ib_path (
+id * @"struct--rdma_cm_id.txt"
+path_rec * @"struct--sa_path_rec.txt"
+)
+"int"

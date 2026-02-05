@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/sock.h:109
+Symbol:
+Byte size 32
+typedef socket_lock_t
+struct (NULL) {
+0x0 slock @"typedef--spinlock_t.txt"
+0x4 owned "int"
+0x8 wq @"typedef--wait_queue_head_t.txt"
+}

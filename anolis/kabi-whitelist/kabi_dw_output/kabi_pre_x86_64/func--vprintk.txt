@@ -1,0 +1,8 @@
+Version: 1.0
+File: kernel/printk/printk_safe.c:29
+Symbol:
+func vprintk (
+fmt * const "char"
+args * @"struct--__va_list_tag.txt"
+)
+"int"

@@ -1,0 +1,10 @@
+Version: 1.0
+File: include/net/devlink.h:200
+Symbol:
+Byte size 16
+struct devlink_sb_pool_info {
+0x0 pool_type @"enum--devlink_sb_pool_type.txt"
+0x4 size @"typedef--u32.txt"
+0x8 threshold_type @"enum--devlink_sb_threshold_type.txt"
+0xc cell_size @"typedef--u32.txt"
+}

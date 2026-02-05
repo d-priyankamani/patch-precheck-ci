@@ -1,0 +1,10 @@
+Version: 1.0
+File: net/devlink/dev.c:986
+Symbol:
+func devlink_flash_update_timeout_notify (
+devlink * @"struct--devlink.txt"
+status_msg * const "char"
+component * const "char"
+timeout "long unsigned int"
+)
+"void"

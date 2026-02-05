@@ -1,0 +1,7 @@
+Version: 1.0
+File: drivers/acpi/bus.c:976
+Symbol:
+func acpi_bus_register_driver (
+driver * @"struct--acpi_driver.txt"
+)
+"int"

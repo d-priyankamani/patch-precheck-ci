@@ -1,0 +1,18 @@
+Version: 1.0
+File: include/uapi/linux/serial.h:102
+Symbol:
+Byte size 80
+struct serial_icounter_struct {
+0x0 cts "int"
+0x4 dsr "int"
+0x8 rng "int"
+0xc dcd "int"
+0x10 rx "int"
+0x14 tx "int"
+0x18 frame "int"
+0x1c overrun "int"
+0x20 parity "int"
+0x24 brk "int"
+0x28 buf_overrun "int"
+0x2c reserved [9]"int"
+}

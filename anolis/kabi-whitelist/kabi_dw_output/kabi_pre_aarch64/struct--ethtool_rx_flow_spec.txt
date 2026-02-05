@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/uapi/linux/ethtool.h:1170
+Symbol:
+Byte size 168
+struct ethtool_rx_flow_spec {
+0x0 flow_type @"typedef--__u32.txt"
+0x4 h_u @"union--ethtool_flow_union.txt"
+0x38 h_ext @"struct--ethtool_flow_ext.txt"
+0x4c m_u @"union--ethtool_flow_union.txt"
+0x80 m_ext @"struct--ethtool_flow_ext.txt"
+0x98 ring_cookie @"typedef--__u64.txt"
+0xa0 location @"typedef--__u32.txt"
+}

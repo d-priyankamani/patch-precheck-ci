@@ -1,0 +1,14 @@
+Version: 1.0
+File: include/linux/kobject.h:178
+Symbol:
+Byte size 160
+struct kset {
+0x0 list @"struct--list_head.txt"
+0x10 list_lock @"typedef--spinlock_t.txt"
+0x18 kobj @"struct--kobject.txt"
+0x78 uevent_ops * const @"struct--kset_uevent_ops.txt"
+0x80 ck_reserved1 "long unsigned int"
+0x88 ck_reserved2 "long unsigned int"
+0x90 ck_reserved3 "long unsigned int"
+0x98 ck_reserved4 "long unsigned int"
+}

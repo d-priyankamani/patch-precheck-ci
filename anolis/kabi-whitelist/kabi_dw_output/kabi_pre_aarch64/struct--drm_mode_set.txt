@@ -1,0 +1,13 @@
+Version: 1.0
+File: include/drm/drm_crtc.h:1197
+Symbol:
+Byte size 48
+struct drm_mode_set {
+0x0 fb * @"struct--drm_framebuffer.txt"
+0x8 crtc * @"struct--drm_crtc.txt"
+0x10 mode * @"struct--drm_display_mode.txt"
+0x18 x @"typedef--uint32_t.txt"
+0x1c y @"typedef--uint32_t.txt"
+0x20 connectors * * @"struct--drm_connector.txt"
+0x28 num_connectors @"typedef--size_t.txt"
+}
