@@ -1174,7 +1174,9 @@
                         .sort((a, b) => new Date(b.created_time) - new Date(a.created_time));
                     const buildJob = buildJobs[0];
                     
-                    const testAllJob = this.jobs.find(j => j.command === 'make test');
+                    const testAllJobs = this.jobs.filter(j => j.command === 'make test')
+			.sort((a, b) => new Date(b.created_time) - new Date(a.created_time));
+		    const testAllJob = testAllJobs[0];
 
                     if (buildJob) {
                         this.buildJob = { ...buildJob, elapsed: this.calculateElapsed(buildJob) };
@@ -1190,7 +1192,11 @@
                         this.buildJob = {};
                     }
                     
-                    if (testAllJob) this.testAllJob = { ...testAllJob, elapsed: this.calculateElapsed(testAllJob) };
+			if (testAllJob) {
+			    this.testAllJob = { ...testAllJob, elapsed: this.calculateElapsed(testAllJob) };
+			} else {
+			    this.testAllJob = {};
+			}
 
                     this.jobs.forEach(job => {
                         if (job.test_name) {
@@ -1310,6 +1316,8 @@
                 },
                 async runAllTests() {
                     try {
+			this.testAllJob = {};
+
                         await axios.post('/api/test/all');
                         this.loadJobs();
                     } catch (error) {
