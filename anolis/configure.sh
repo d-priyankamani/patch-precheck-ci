@@ -54,18 +54,20 @@ update_tests() {
 	TEST_RPM_BUILD="no"
 	TEST_CHECK_KAPI="no"
 	TEST_BOOT_KERNEL="no"
+	TEST_BUILD_PERF="no"
 
 	echo ""
 	echo "Available tests:"
-	echo "  1) check_dependency		- Check commit dependencies"
-	echo "  2) check_Kconfig	 	  - Validate Kconfig settings"
-	echo "  3) build_allyes_config	  - Build with allyesconfig"
-	echo "  4) build_allno_config	  	  - Build with allnoconfig"
-	echo "  5) build_anolis_defconfig  	  - Build with anolis_defconfig"
-	echo "  6) build_anolis_debug_defconfig - Build with anolis-debug_defconfig"
-	echo "  7) anck_rpm_build	  	  - Build ANCK RPM packages"
-	echo "  8) check_kapi		  	  - Check KAPI compatibility"
-	echo "  9) boot_kernel_rpm	  	  - Boot test (requires remote setup)"
+	echo "  1)  check_dependency		- Check commit dependencies"
+	echo "  2)  check_Kconfig	 	  - Validate Kconfig settings"
+	echo "  3)  build_allyes_config	  - Build with allyesconfig"
+	echo "  4)  build_allno_config	  	  - Build with allnoconfig"
+	echo "  5)  build_anolis_defconfig  	  - Build with anolis_defconfig"
+	echo "  6)  build_anolis_debug_defconfig - Build with anolis-debug_defconfig"
+	echo "  7)  anck_rpm_build	  	  - Build ANCK RPM packages"
+	echo "  8)  check_kapi		  	  - Check KAPI compatibility"
+	echo "  9)  boot_kernel_rpm	  	  - Boot test (requires remote setup)"
+	echo "  10) build_perf	  	  - Build perf tool"
 	echo ""
 
 	read -r -p "Select tests to run (comma-separated, 'all', or 'none') [all]: " test_selection
@@ -85,6 +87,7 @@ update_tests() {
 		TEST_RPM_BUILD="yes"
 		TEST_CHECK_KAPI="yes"
 		TEST_BOOT_KERNEL="yes"
+		TEST_BUILD_PERF="yes"
 	elif [ "$TEST_SELECTION" == "none" ]; then
 		RUN_TESTS="no"
 	else
@@ -101,6 +104,7 @@ update_tests() {
 				7) TEST_RPM_BUILD="yes" ; RPM_BUILD_SELECTED="yes" ;;
 				8) TEST_CHECK_KAPI="yes" ;;
 				9) TEST_BOOT_KERNEL="yes" ; BOOT_SELECTED="yes" ;;
+				10) TEST_BUILD_PERF="yes" ;;
 			esac
 		done
 	fi
@@ -202,6 +206,7 @@ update_tests() {
 	sed -i "s|^TEST_RPM_BUILD=.*|TEST_RPM_BUILD=\"${TEST_RPM_BUILD}\"|" "${CONFIG_FILE}"
 	sed -i "s|^TEST_CHECK_KAPI=.*|TEST_CHECK_KAPI=\"${TEST_CHECK_KAPI}\"|" "${CONFIG_FILE}"
 	sed -i "s|^TEST_BOOT_KERNEL=.*|TEST_BOOT_KERNEL=\"${TEST_BOOT_KERNEL}\"|" "${CONFIG_FILE}"
+	sed -i "s|^TEST_BUILD_PERF=.*|TEST_BUILD_PERF=\"${TEST_BUILD_PERF}\"|" "${CONFIG_FILE}"
 	sed -i "s|^HOST_USER_PWD=.*|HOST_USER_PWD='${HOST_USER_PWD}'|" "${CONFIG_FILE}"
 	sed -i "s|^VM_IP=.*|VM_IP=\"${VM_IP}\"|" "${CONFIG_FILE}"
 	sed -i "s|^VM_ROOT_PWD=.*|VM_ROOT_PWD='${VM_ROOT_PWD}'|" "${CONFIG_FILE}"
@@ -313,6 +318,7 @@ echo "  6) build_anolis_debug_defconfig - Build with anolis-debug_defconfig"
 echo "  7) anck_rpm_build             - Build ANCK RPM packages"
 echo "  8) check_kapi                 - Check KAPI compatibility"
 echo "  9) boot_kernel_rpm            - Boot test (requires remote setup)"
+echo "  10) build_perf		- Build perf tool"
 echo ""
 
 read -r -p "Select tests to run (comma-separated, 'all', or 'none') [all]: " test_selection
@@ -330,6 +336,7 @@ if [ "$TEST_SELECTION" == "all" ] || [ -z "$TEST_SELECTION" ]; then
   TEST_RPM_BUILD="yes"
   TEST_CHECK_KAPI="yes"
   TEST_BOOT_KERNEL="yes"
+  TEST_BUILD_PERF="yes"
 elif [ "$TEST_SELECTION" == "none" ]; then
   RUN_TESTS="no"
   TEST_CHECK_DEPENDENCY="no"
@@ -341,6 +348,7 @@ elif [ "$TEST_SELECTION" == "none" ]; then
   TEST_RPM_BUILD="no"
   TEST_CHECK_KAPI="no"
   TEST_BOOT_KERNEL="no"
+  TEST_BUILD_PERF="no"
 else
   RUN_TESTS="yes"
   TEST_CHECK_DEPENDENCY="no"
@@ -352,6 +360,7 @@ else
   TEST_RPM_BUILD="no"
   TEST_CHECK_KAPI="no"
   TEST_BOOT_KERNEL="no"
+  TEST_BUILD_PERF="no"
   
   # Parse comma-separated selections
   IFS=',' read -ra SELECTED <<< "$TEST_SELECTION"
@@ -366,6 +375,7 @@ else
       7) TEST_RPM_BUILD="yes" ;;
       8) TEST_CHECK_KAPI="yes" ;;
       9) TEST_BOOT_KERNEL="yes" ;;
+      10) TEST_BUILD_PERF="yes" ;;
     esac
   done
 fi
@@ -421,6 +431,7 @@ TEST_BUILD_DEBUG="${TEST_BUILD_DEBUG}"
 TEST_RPM_BUILD="${TEST_RPM_BUILD}"
 TEST_CHECK_KAPI="${TEST_CHECK_KAPI}"
 TEST_BOOT_KERNEL="${TEST_BOOT_KERNEL}"
+TEST_BUILD_PERF="${TEST_BUILD_PERF}"
 
 # Host Configuration
 HOST_USER_PWD='${HOST_USER_PWD}'

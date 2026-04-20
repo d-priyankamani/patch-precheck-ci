@@ -753,6 +753,52 @@ test_check_kapi() {
   echo ""
 }
 
+test_build_perf() {
+  echo -e "${BLUE}Test-10: build_perf${NC}"
+
+  local perf_log="${LOGS_DIR}/build_perf.log"
+  local perf_dir="${LINUX_SRC_PATH}/tools/perf"
+
+  # Check and install required build dependencies only if missing
+  local packages="glibc-static flex bison elfutils-libelf-devel openssl-devel dwarves libtraceevent-devel libcap-devel"
+  local missing_packages=""
+
+  for pkg in $packages; do
+    if ! rpm -q "$pkg" &>/dev/null; then
+      missing_packages="$missing_packages $pkg"
+    fi
+  done
+
+  if [ -n "$missing_packages" ]; then
+    echo "  → Installing missing packages:$missing_packages" | tee -a "${perf_log}"
+    if ! echo "${HOST_USER_PWD}" | sudo -S yum install -y $missing_packages >> "${perf_log}" 2>&1; then
+      fail "build_perf" "Failed to install perf dependencies (see ${perf_log})"
+      echo ""
+      return
+    fi
+  else
+    echo "  → All perf dependencies already satisfied." | tee -a "${perf_log}"
+  fi
+
+  # Verify tools/perf directory exists
+  if [ ! -d "${perf_dir}" ]; then
+    fail "build_perf" "tools/perf directory not found: ${perf_dir}"
+    echo ""
+    return
+  fi
+
+  echo "  → Building perf..." | tee -a "${perf_log}"
+  cd "${perf_dir}"
+
+  if make -j"$(nproc)" -s >> "${perf_log}" 2>&1; then
+    pass "build_perf"
+  else
+    fail "build_perf" "perf build failed (see ${perf_log})"
+  fi
+
+  echo ""
+}
+
 # ---- TEST EXECUTION ----
 # Check if specific test is requested
 SPECIFIC_TEST="${1:-}"
@@ -790,6 +836,9 @@ if [ -n "$SPECIFIC_TEST" ]; then
     boot_kernel_rpm)
       test_boot_kernel_rpm
       ;;
+    build_perf)
+      test_build_perf
+      ;;
     *)
       echo -e "${RED}Error: Unknown test '$SPECIFIC_TEST'${NC}"
       echo ""
@@ -803,6 +852,7 @@ if [ -n "$SPECIFIC_TEST" ]; then
       echo "  - anck_rpm_build"
       echo "  - check_kapi"
       echo "  - boot_kernel_rpm"
+      echo "  - build_perf"
       echo ""
       echo "Run '$0 list' for detailed information"
       exit 1
@@ -819,6 +869,7 @@ else
   [ "${TEST_RPM_BUILD:-yes}" == "yes" ] && test_anck_rpm_build
   [ "${TEST_CHECK_KAPI:-yes}" == "yes" ] && test_check_kapi
   [ "${TEST_BOOT_KERNEL:-yes}" == "yes" ] && test_boot_kernel_rpm
+  [ "${TEST_BUILD_PERF:-yes}" == "yes" ] && test_build_perf
 fi
 
 # ---- SUMMARY ----

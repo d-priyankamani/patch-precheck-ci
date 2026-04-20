@@ -450,6 +450,7 @@ def get_test_log_file(test_name, distro):
             'anck_rpm_build':         'anck_rpm_build.log',
             'check_kapi':             'kapi_test.log',
             'boot_kernel_rpm':        'boot_kernel_rpm.log',
+            'build_perf':             'build_perf.log',
         }
     else:
         log_map = {
@@ -460,6 +461,7 @@ def get_test_log_file(test_name, distro):
             'check_format':     'check_format.log',
             'rpm_build':        'rpm_build.log',
             'boot_kernel':      'boot_kernel.log',
+            'build_perf':       'build_perf.log',
         }
     return os.path.join(LOGS_DIR, log_map.get(test_name, f'{test_name}.log'))
 
@@ -679,7 +681,7 @@ def set_config():
 
             test_keys = (
                 ['CHECK_DEPENDENCY', 'CHECK_KCONFIG', 'BUILD_ALLYES', 'BUILD_ALLNO',
-                 'BUILD_DEFCONFIG', 'BUILD_DEBUG', 'RPM_BUILD', 'CHECK_KAPI', 'BOOT_KERNEL']
+                 'BUILD_DEFCONFIG', 'BUILD_DEBUG', 'RPM_BUILD', 'CHECK_KAPI', 'BOOT_KERNEL', 'BUILD_PERF']
                 if distro == 'anolis' else
                 ['CHECK_DEPENDENCY', 'BUILD_ALLMOD', 'CHECK_KABI',
                  'CHECK_PATCH', 'CHECK_FORMAT', 'RPM_BUILD', 'BOOT_KERNEL']
@@ -718,6 +720,7 @@ def list_tests():
             {'name': 'anck_rpm_build',         'description': 'Build ANCK RPM packages'},
             {'name': 'check_kapi',             'description': 'Check kernel ABI compatibility'},
             {'name': 'boot_kernel_rpm',        'description': 'Boot VM with built kernel RPM'},
+            {'name': 'build_perf',             'description': 'Build perf tool'},
         ],
         'euler': [
             {'name': 'check_dependency', 'description': 'Check patch dependencies'},

@@ -107,6 +107,7 @@ cd pre-pr-ci/web
      | anck_rpm_build              | Build ANCK RPM packages      | RPMs for installation                      |
      | check_kapi                  | Check KAPI compatibility     | ABI compatibility checks                   |
      | boot_kernel_rpm             | Automated VM boot test       | Install, boot, and verify kernel on VM     |
+     | build_perf                  | Build perf tool              | Ensures perf tool work properly            |
 
      Enable: individual (e.g. 1,3,5), all, or none.
 
