@@ -88,9 +88,9 @@ pipeline {
             name: 'Anolis_Selected_tests',
             type: 'PT_CHECKBOX',
             multiSelectDelimiter: ',',
-            visibleItemCount: 10,
+            visibleItemCount: 11,
             description: 'Select one or more Anolis test cases',
-            value: 'check_dependency,check_Kconfig,build_allyes_config,build_allno_config,build_anolis_defconfig,build_anolis_debug,anck_rpm_build,check_kapi,boot_kernel_rpm,all'
+            value: 'check_dependency,check_Kconfig,build_allyes_config,build_allno_config,build_anolis_defconfig,build_anolis_debug,anck_rpm_build,check_kapi,boot_kernel_rpm,test_build_perf,all'
         )
 
         choice(
@@ -559,6 +559,7 @@ TEST_BUILD_DEBUG="yes"
 TEST_RPM_BUILD="yes"
 TEST_CHECK_KAPI="yes"
 TEST_BOOT_KERNEL="yes"
+TEST_BUILD_PERF="yes"
 
 # Host Configuration
 HOST_USER_PWD="${params.Host_configuration}"
@@ -737,7 +738,8 @@ def anolis_test_configuration() {
             "build_anolis_debug"     : "make anolis-test=build_anolis_debug",
             "anck_rpm_build"         : "make anolis-test=anck_rpm_build",
             "check_kapi"             : "make anolis-test=check_kapi",
-            "boot_kernel_rpm"        : "make anolis-test=boot_kernel_rpm"
+            "boot_kernel_rpm"        : "make anolis-test=boot_kernel_rpm",
+	    "test_build_perf"	     : "make anolis-test=build_perf"
         ]
 
         def selectedTests = params.Anolis_Selected_tests
